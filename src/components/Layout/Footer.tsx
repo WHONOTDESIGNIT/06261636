@@ -1,0 +1,86 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Facebook, Instagram, Youtube } from 'lucide-react';
+
+const Footer: React.FC = () => {
+  return (
+    <footer className="bg-ishine-blue-700 text-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Company Info */}
+          <div>
+            <div className="flex items-center space-x-2 mb-4">
+              <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+                <span className="text-ishine-blue-700 font-bold text-sm">iS</span>
+              </div>
+              <span className="text-xl font-bold">iShine</span>
+            </div>
+            <p className="text-gray-300 mb-4">
+              Leading IPL device manufacturer providing OEM/ODM solutions from idea to market.
+            </p>
+            <div className="flex space-x-4">
+              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                <Facebook className="w-5 h-5" />
+              </a>
+              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                <Instagram className="w-5 h-5" />
+              </a>
+              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                <Youtube className="w-5 h-5" />
+              </a>
+            </div>
+          </div>
+
+          {/* Products */}
+          <div>
+            <h3 className="font-semibold mb-4">Products</h3>
+            <ul className="space-y-2 text-gray-300">
+              <li><Link to="/ipl-hair-removal" className="hover:text-white transition-colors">IPL Hair Removal</Link></li>
+              <li><Link to="/accessories" className="hover:text-white transition-colors">Accessories</Link></li>
+              <li><Link to="/gallery" className="hover:text-white transition-colors">Gallery</Link></li>
+            </ul>
+          </div>
+
+          {/* Services */}
+          <div>
+            <h3 className="font-semibold mb-4">Services</h3>
+            <ul className="space-y-2 text-gray-300">
+              <li><Link to="/service-support" className="hover:text-white transition-colors">After-Sales Service</Link></li>
+              <li><Link to="/manufacturing" className="hover:text-white transition-colors">IPL Manufacturing</Link></li>
+              <li><Link to="/buying-guide" className="hover:text-white transition-colors">Buying Guide</Link></li>
+              <li><Link to="/help-center" className="hover:text-white transition-colors">Help Center</Link></li>
+            </ul>
+          </div>
+
+          {/* Company */}
+          <div>
+            <h3 className="font-semibold mb-4">Company</h3>
+            <ul className="space-y-2 text-gray-300">
+              <li><Link to="/about" className="hover:text-white transition-colors">About iShine</Link></li>
+              <li><Link to="/brand-story" className="hover:text-white transition-colors">Brand Story</Link></li>
+              <li><Link to="/quality" className="hover:text-white transition-colors">Quality</Link></li>
+              <li><Link to="/blog" className="hover:text-white transition-colors">Blog</Link></li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Bottom Bar */}
+        <div className="border-t border-gray-600 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+          <p className="text-gray-300 text-sm">
+            © 2025 iShine. All rights reserved.
+          </p>
+          <div className="flex space-x-6 mt-4 md:mt-0">
+            <Link to="/privacy-policy" className="text-gray-300 hover:text-white text-sm transition-colors">
+              Privacy Policy
+            </Link>
+            <Link to="/terms-of-service" className="text-gray-300 hover:text-white text-sm transition-colors">
+              Terms of Service
+            </Link>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
