@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ChevronDown, Search, ChevronsDown } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import { languages } from '../../data/languages';
+import { getCountryCodeFromLanguageCode, formatCountryUrl } from '../../utils/languageUtils';
 
 export const LanguageSelector: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,6 +12,7 @@ export const LanguageSelector: React.FC = () => {
   
   const languageGridRef = useRef<HTMLDivElement>(null);
   const animationRef = useRef<HTMLDivElement>(null);
+  const navigate = useNavigate();
 
   const filteredLanguages = languages.filter(lang =>
     lang.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -92,6 +95,13 @@ export const LanguageSelector: React.FC = () => {
     setSelectedLanguage(language);
     setIsOpen(false);
     setSearchTerm('');
+    
+    // Extract country code from language code
+    const countryCode = getCountryCodeFromLanguageCode(language.code);
+    
+    // Navigate to country-specific URL
+    const countryUrl = formatCountryUrl(countryCode);
+    navigate(countryUrl);
   };
 
   return (

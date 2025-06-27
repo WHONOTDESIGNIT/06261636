@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "title": "iShine - IPL-Geräte Herstellungslösungen | Von der Idee zum Markt",
+    "description": "Führender IPL-Gerätehersteller mit kompletten OEM/ODM-Lösungen von der Idee bis zum Markt. Maßgeschneiderte IPL-Haarentfernungsgeräte für globale Beauty-Marken.",
+    "keywords": "IPL-Geräte, OEM-Herstellung, ODM-Lösungen, Haarentfernung, Beauty-Geräte, maßgeschneiderte Herstellung"
+  },
+  "header": {
+    "navigation": {
+      "solutions": "Lösungen",
+      "iplHairRemoval": "IPL-Haarentfernung",
+      "howToUse": "Anwendung",
+      "serviceSupport": "Service & Support",
+      "about": "Über uns",
+      "contact": "Kontakt"
+    },
+    "solutions": {
+      "logoPrinting": "Logo-Druck",
+      "packaging": "Verpackungslösungen",
+      "dropShipping": "Drop Shipping",
+      "globalShipping": "Globaler Versand",
+      "brandCustomization": "Markenanpassung",
+      "compliance": "Compliance & Zertifizierungen",
+      "designPrototyping": "Design & Prototyping",
+      "multiHeadIPL": "Multi-Kopf IPL Anpassung",
+      "dualLampIPL": "Dual-Lampen IPL Anpassung"
+    },
+    "iplDevices": {
+      "smartApp": "Smart App-gesteuertes IPL-Gerät",
+      "iceFeeling": "Ice Feeling IPL-Gerät",
+      "emerald": "Emerald IPL-Gerät",
+      "skinSensor": "Hautsensor IPL-Gerät",
+      "batteryPowered": "Batteriebetriebenes IPL-Gerät",
+      "handheld": "Handgehaltenes IPL-Gerät",
+      "iceCooling": "Ice Cooling IPL-Gerät",
+      "dualLamp": "Dual-Lampen IPL-Gerät",
+      "aiPowered": "KI-betriebenes IPL-Gerät"
+    },
+    "accessories": {
+      "sapphireLens": "Saphir-Linse",
+      "adapter": "Adapter",
+      "goggles": "Schutzbrille",
+      "filter": "Filter"
+    },
+    "serviceSupport": {
+      "service": "Service",
+      "afterSales": "Kundendienst",
+      "fdaGmp": "FDA GMP Reinraum Design",
+      "manufacturing": "IPL-Geräte Herstellung",
+      "knowledgeBase": "Wissensdatenbank",
+      "support": "Support > Kaufberatung",
+      "beautySourcing": "Beauty Nischen Beschaffung & Zubehör",
+      "pricingGuide": "Preisleitfaden",
+      "helpCenter": "Hilfezentrum",
+      "gallery": "Galerie",
+      "videos": "Videos",
+      "blog": "Blog",
+      "newsInsights": "News & Insights",
+      "industries": "Branchen die wir bedienen"
+    },
+    "about": {
+      "founderMessage": "Gründer-Nachricht",
+      "technology": "Unsere Technologie",
+      "globalWitness": "Globale Zeugen",
+      "corePrinciples": "Grundprinzipien",
+      "company": "Über iShine",
+      "brandStory": "Markengeschichte",
+      "quality": "Qualität"
+    }
+  },
+  "footer": {
+    "company": {
+      "description": "Führender IPL-Gerätehersteller mit kompletten OEM/ODM-Lösungen von der Idee bis zum Markt.",
+      "products": "Produkte",
+      "services": "Dienstleistungen",
+      "company": "Unternehmen"
+    },
+    "products": {
+      "iplHairRemoval": "IPL-Haarentfernung",
+      "accessories": "Zubehör",
+      "gallery": "Galerie"
+    },
+    "services": {
+      "afterSales": "Kundendienst",
+      "manufacturing": "IPL-Herstellung",
+      "buyingGuide": "Kaufberatung",
+      "helpCenter": "Hilfezentrum"
+    },
+    "companyLinks": {
+      "about": "Über iShine",
+      "brandStory": "Markengeschichte",
+      "quality": "Qualität",
+      "blog": "Blog"
+    },
+    "legal": {
+      "copyright": "© 2025 iShine. Alle Rechte vorbehalten.",
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "termsOfService": "Nutzungsbedingungen"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Maßgeschneiderte IPL-Geräte",
+      "subtitle": "& Marken-IPL-Geräte",
+      "description": "Weltweit führender IPL-Gerätehersteller,\nwir helfen Ihnen beim Entwerfen, Bauen und Verpacken.",
+      "getQuote": "Angebot Erhalten"
+    },
+    "partners": {
+      "title": "Vertraut von globalen Marken",
+      "subtitle": "Zusammenarbeit mit Branchenführern weltweit"
+    },
+    "features": {
+      "title": "Warum iShine wählen?",
+      "subtitle": "Komplette IPL-Herstellungslösungen maßgeschneidert für Ihre Bedürfnisse",
+      "oemSolutions": {
+        "title": "OEM/ODM-Lösungen",
+        "description": "Komplette Anpassung vom Design bis zur Verpackung"
+      },
+      "experiencedTeam": {
+        "title": "Erfahrenes Team",
+        "description": "Experten-Ingenieure und Designer zu Ihren Diensten"
+      },
+      "qualityAssurance": {
+        "title": "Qualitätssicherung",
+        "description": "FDA GMP zertifizierte Reinraum-Herstellung"
+      },
+      "globalReach": {
+        "title": "Globale Reichweite",
+        "description": "Kunden in Europa, Nordamerika und Asien bedienen"
+      }
+    },
+    "products": {
+      "title": "Unser IPL-Geräte Sortiment",
+      "subtitle": "Anpassbare IPL-Geräte für jeden Marktbedarf",
+      "viewAll": "Alle IPL-Geräte Anzeigen"
+    },
+    "cta": {
+      "title": "Bereit, Ihr IPL-Projekt zu starten?",
+      "subtitle": "Lassen Sie uns Ihre Anforderungen besprechen und die perfekte IPL-Lösung für Ihre Marke erstellen",
+      "button": "Beratung Vereinbaren"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Kontaktieren Sie uns",
+      "description": "Bereit, Ihr IPL-Projekt zu besprechen? Kontaktieren Sie noch heute unser Expertenteam. Wir sind hier, um Ihre Vision zum Leben zu erwecken."
+    },
+    "info": {
+      "title": "Kontakt aufnehmen",
+      "subtitle": "Mehrere Wege uns zu erreichen - wählen Sie was für Sie am besten funktioniert",
+      "address": {
+        "title": "Adresse",
+        "company": "iShine Manufacturing Co., Ltd.",
+        "location": "Shenzhen, Guangdong, China"
+      },
+      "phone": {
+        "title": "Telefon"
+      },
+      "email": {
+        "title": "E-Mail"
+      },
+      "hours": {
+        "title": "Geschäftszeiten",
+        "weekdays": "Montag - Freitag: 9:00 - 18:00 Uhr",
+        "saturday": "Samstag: 9:00 - 12:00 Uhr"
+      }
+    },
+    "map": {
+      "title": "Besuchen Sie unsere Einrichtung",
+      "subtitle": "Im Herzen von Shenzhens Fertigungsbezirk gelegen"
+    },
+    "form": {
+      "title": "Was haben Sie im Sinn? Lassen Sie uns sprechen!",
+      "subtitle": "Füllen Sie dieses Formular aus, um den Prozess zu starten. Wir melden uns innerhalb von 24 Stunden.",
+      "name": "Name*",
+      "email": "E-Mail-Adresse*",
+      "phone": "Telefonnummer* z.B.(+1-541-3456-3001)",
+      "country": "Land",
+      "message": "Beschreiben Sie hier Ihre Bedürfnisse*",
+      "submit": "Senden",
+      "sending": "Wird gesendet..."
+    }
+  },
+  "buttons": {
+    "getQuote": "Angebot Erhalten",
+    "viewSolutions": "Unsere Lösungen Anzeigen",
+    "scheduleConsultation": "Beratung Vereinbaren",
+    "submit": "Senden",
+    "sending": "Wird gesendet...",
+    "viewAll": "Alle Anzeigen"
+  },
+  "common": {
+    "loading": "Lädt...",
+    "error": "Ein Fehler ist aufgetreten",
+    "success": "Erfolg",
+    "readMore": "Mehr Lesen",
+    "learnMore": "Mehr Erfahren",
+    "getStarted": "Loslegen",
+    "contactUs": "Kontaktieren Sie uns"
+  }
+}

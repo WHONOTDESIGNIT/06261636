@@ -20,7 +20,6 @@ export const languages = [
   
   // North America
   { code: 'en-ca', name: 'Canada', nativeName: 'English', flag: '🇨🇦', region: 'North America' },
-  { code: 'fr-ca', name: 'Canada', nativeName: 'Français', flag: '🇨🇦', region: 'North America' },
   { code: 'en-us', name: 'United States', nativeName: 'English', flag: '🇺🇸', region: 'North America' },
   { code: 'es-mx', name: 'Mexico', nativeName: 'Español', flag: '🇲🇽', region: 'North America' },
   
