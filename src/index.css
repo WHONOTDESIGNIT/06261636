@@ -47,6 +47,65 @@ html {
   }
 }
 
+/* Modal animations */
+.animate-in {
+  animation-fill-mode: both;
+}
+
+.fade-in {
+  animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slide-in-from-top {
+  animation: slideInFromTop 0.3s ease-out;
+}
+
+@keyframes slideInFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Language selector specific animations */
+.language-option-enter {
+  animation: languageOptionEnter 0.2s ease-out;
+}
+
+@keyframes languageOptionEnter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Enhanced hover effects for language options */
+.language-option {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.language-option:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 /* Custom bounce down animation for chevrons-down */
 .animate-bounce-down {
   animation: bounce-down 2s ease-in-out infinite;
@@ -119,10 +178,37 @@ html {
               0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Modal backdrop blur effect */
+.modal-backdrop {
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* Language selector trigger button enhanced styling */
+.language-trigger {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.language-trigger:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+.language-trigger:focus {
+  box-shadow: 0 0 0 3px rgba(0, 116, 224, 0.1), 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
 /* Responsive utilities */
 @media (max-width: 768px) {
   .text-responsive {
     font-size: clamp(1.5rem, 4vw, 2.5rem);
+  }
+  
+  /* Mobile-specific language selector adjustments */
+  .language-grid-mobile {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 }
 
@@ -153,14 +239,44 @@ input:focus, textarea:focus, select:focus {
   transition: transform 0.3s ease-in-out;
 }
 
-/* Viewport-aware animations */
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .language-option {
+    border: 2px solid currentColor;
+  }
+  
+  .language-trigger {
+    border: 2px solid currentColor;
+  }
+}
+
+/* Reduced motion support */
 @media (prefers-reduced-motion: reduce) {
   .animate-bounce-down,
-  .animate-floating-indicator {
+  .animate-floating-indicator,
+  .fade-in,
+  .slide-in-from-top,
+  .language-option-enter {
     animation: none;
   }
   
-  .floating-smooth-transition {
+  .floating-smooth-transition,
+  .language-option,
+  .language-trigger {
     transition: none;
+  }
+  
+  .btn-hover-scale:hover,
+  .language-trigger:hover,
+  .language-option:hover {
+    transform: none;
+  }
+}
+
+/* Print styles */
+@media print {
+  .language-selector,
+  .modal-backdrop {
+    display: none !important;
   }
 }
