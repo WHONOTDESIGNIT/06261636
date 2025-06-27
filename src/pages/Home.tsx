@@ -29,7 +29,7 @@ const Home: React.FC = () => {
         
         {/* Semi-transparent overlay */}
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-[42vw] h-[27vh] bg-white/60 rounded-lg"></div>
+          <div className="w-[42vw] h-[34vh] bg-white/60 rounded-lg"></div>
         </div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full z-10">
