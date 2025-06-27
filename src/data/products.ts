@@ -6,6 +6,7 @@ export const iplDevices: Product[] = [
     name: 'Smart App-Controlled IPL Device',
     description: 'Advanced IPL device with smartphone connectivity and personalized treatment plans',
     image: 'https://i.postimg.cc/CLg7qVKB/app-ipl-2.webp',
+    thumbnail: 'https://i.postimg.cc/CLg7qVKB/app-ipl-2.webp', // 新增缩略图字段
     features: ['App Control', 'Custom Programs', 'Progress Tracking', 'Safety Sensors'],
     category: 'ipl'
   },
@@ -45,7 +46,7 @@ export const iplDevices: Product[] = [
     id: 'handheld',
     name: 'Handheld IPL Device',
     description: 'Compact and ergonomic design for easy handling',
-    image: 'https://images.pexels.com/photos/3985168/pexels-photo-3985168.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://i.postimg.cc/BvHc6YGc/handheld-ipl.webp',
     features: ['Ergonomic Design', 'Lightweight', 'Easy Grip', 'Precision Control'],
     category: 'ipl'
   },
@@ -53,7 +54,7 @@ export const iplDevices: Product[] = [
     id: 'ice-cooling',
     name: 'Ice Cooling IPL Device',
     description: 'Advanced cooling system for maximum comfort during treatment',
-    image: 'https://images.pexels.com/photos/3985169/pexels-photo-3985169.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://i.postimg.cc/9FD908dR/ice-cooling-ipl.webp',
     features: ['Advanced Cooling', 'Comfort Treatment', 'Reduced Sensation', 'Continuous Operation'],
     category: 'ipl'
   },
@@ -61,7 +62,7 @@ export const iplDevices: Product[] = [
     id: 'dual-lamp',
     name: 'Dual-Lamp IPL Device',
     description: 'Enhanced efficiency with dual lamp technology',
-    image: 'https://images.pexels.com/photos/3985170/pexels-photo-3985170.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://i.postimg.cc/zGc8B7kB/dual-lamp-ipl.webp',
     features: ['Dual Lamps', 'Faster Treatment', 'Even Coverage', 'Professional Power'],
     category: 'ipl'
   },
@@ -69,7 +70,7 @@ export const iplDevices: Product[] = [
     id: 'ai-powered',
     name: 'AI-Powered IPL Device',
     description: 'Artificial intelligence for personalized treatment optimization',
-    image: 'https://images.pexels.com/photos/3985171/pexels-photo-3985171.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://i.postimg.cc/BQzVPVRd/ai-powered-ipl.webp',
     features: ['AI Technology', 'Smart Learning', 'Personalized', 'Advanced Analytics'],
     category: 'ipl'
   }
@@ -80,7 +81,7 @@ export const accessories: Product[] = [
     id: 'sapphire-lens',
     name: 'Sapphire Lens',
     description: 'Premium sapphire crystal lens for enhanced durability and performance',
-    image: 'https://images.pexels.com/photos/3985172/pexels-photo-3985172.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://i.postimg.cc/9Mc8j5qq/sapphire-len.webp',
     features: ['Sapphire Crystal', 'Scratch Resistant', 'Optimal Light Transmission', 'Long Lasting'],
     category: 'accessories'
   },
@@ -88,7 +89,7 @@ export const accessories: Product[] = [
     id: 'adapter',
     name: 'Power Adapter',
     description: 'Universal power adapter with multiple voltage support',
-    image: 'https://images.pexels.com/photos/3985173/pexels-photo-3985173.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://i.postimg.cc/GtVxtZ9K/power-adaptor.webp',
     features: ['Universal Compatibility', 'Fast Charging', 'Safety Certified', 'Compact Design'],
     category: 'accessories'
   },
@@ -96,7 +97,7 @@ export const accessories: Product[] = [
     id: 'goggles',
     name: 'Safety Goggles',
     description: 'Professional-grade protective eyewear for IPL treatments',
-    image: 'https://images.pexels.com/photos/3985174/pexels-photo-3985174.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://i.postimg.cc/1tYp7L0S/safety-goggles.webp',
     features: ['UV Protection', 'Comfortable Fit', 'Adjustable Strap', 'Professional Grade'],
     category: 'accessories'
   },
@@ -104,7 +105,7 @@ export const accessories: Product[] = [
     id: 'filter',
     name: 'Optical Filter',
     description: 'High-quality optical filter for precise light wavelength control',
-    image: 'https://images.pexels.com/photos/3985175/pexels-photo-3985175.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://i.postimg.cc/tRw33GCt/filter.webp',
     features: ['Precision Filtering', 'Wavelength Control', 'High Quality', 'Professional Standard'],
     category: 'accessories'
   }
