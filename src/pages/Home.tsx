@@ -135,7 +135,7 @@ const Home: React.FC = () => {
             className="text-center mb-12"
           >
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Our IPL Device Range</h2>
-            <p className="text-lg text-gray-600">Customizable IPL devices for every market need</p>
+            <p className="text-lg text-gray-600">Wide Range IPL devices for every needs</p>
           </motion.div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
