@@ -38,7 +38,7 @@ export const LanguageSelector: React.FC = () => {
       </button>
 
       {isOpen && (
-        <div className="fixed inset-0 z-50 bg-white">
+        <div className="fixed inset-0 z-50 bg-white" style={{ width: '110%', height: '300%' }}>
           <div className="max-w-4xl mx-auto p-6">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-2xl font-bold text-gray-900">Select Language & Region</h2>
@@ -58,11 +58,11 @@ export const LanguageSelector: React.FC = () => {
                 placeholder="Search for a country..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ishine-blue-500 focus:border-ishine-blue-500"
+                className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ishine-blue-500 focus:border-ishine-blue-500 bg-white"
               />
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-h-96 overflow-y-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-h-96 overflow-y-auto bg-white">
               {Object.entries(groupedLanguages).map(([region, langs]) => (
                 <div key={region}>
                   <h3 className="font-semibold text-gray-900 mb-3 border-b border-gray-200 pb-2">
@@ -73,12 +73,12 @@ export const LanguageSelector: React.FC = () => {
                       <button
                         key={lang.code}
                         onClick={() => handleLanguageSelect(lang)}
-                        className="flex items-center space-x-3 w-full text-left p-2 rounded-lg hover:bg-gray-50 transition-colors"
+                        className="flex items-center space-x-3 w-full text-left p-2 rounded-lg bg-white hover:bg-ishine-blue-500 hover:text-white transition-colors"
                       >
                         <span className="text-lg">{lang.flag}</span>
                         <div>
-                          <div className="font-medium text-gray-900">{lang.name}</div>
-                          <div className="text-sm text-gray-500">{lang.nativeName}</div>
+                          <div className="font-medium text-gray-900 hover:text-white">{lang.name}</div>
+                          <div className="text-sm text-gray-500 hover:text-gray-200">{lang.nativeName}</div>
                         </div>
                       </button>
                     ))}
