@@ -52,7 +52,7 @@ const Contact: React.FC = () => {
         {/* 图片容器 - 确保图片覆盖整个区域 */}
         <div className="absolute inset-0 overflow-hidden">
           <img
-            src="/images/contact/hero-image.jpg" // 替换为您的图片路径
+            src="https://i.postimg.cc/63r0rmF6/company-photo.webp" // 替换为您的图片路径
             alt="iShine Manufacturing Facility"
             className="w-full h-full object-cover object-center"
           />
