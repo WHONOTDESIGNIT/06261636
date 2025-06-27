@@ -60,15 +60,10 @@ export const LanguageSelector: React.FC = () => {
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ishine-blue-500 focus:border-ishine-blue-500 bg-white"
               />
-              
-              {/* Animated chevrons at bottom of input */}
-              <div className="absolute right-3 bottom-2">
-                <ChevronsDown className="w-[30px] h-[30px] text-gray-400 animate-bounce-down" />
-              </div>
             </div>
 
-            {/* Language Grid with rounded corners and padding */}
-            <div className="bg-white rounded-xl border border-gray-200 p-[30px] max-h-96 overflow-y-auto">
+            {/* Language Grid with rounded corners, padding, and fixed bottom animation */}
+            <div className="relative bg-white rounded-xl border border-gray-200 p-[30px] max-h-96 overflow-y-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {Object.entries(groupedLanguages).map(([region, langs]) => (
                   <div key={region}>
@@ -94,8 +89,8 @@ export const LanguageSelector: React.FC = () => {
                 ))}
               </div>
               
-              {/* Animated arrow indicator at bottom of grid */}
-              <div className="flex justify-center mt-6">
+              {/* Fixed animated chevrons-down at bottom of Language Grid */}
+              <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
                 <ChevronsDown className="w-[30px] h-[30px] text-gray-400 animate-bounce-down" />
               </div>
             </div>
