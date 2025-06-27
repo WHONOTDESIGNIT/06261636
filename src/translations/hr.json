@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "title": "iShine - Rješenja za proizvodnju IPL uređaja | Od ideje do tržišta",
+    "description": "Vodeći proizvođač IPL uređaja koji pruža kompletna OEM/ODM rješenja od ideje do tržišta. Prilagođeni IPL uređaji za uklanjanje dlačica za globalne beauty brendove.",
+    "keywords": "IPL uređaji, OEM proizvodnja, ODM rješenja, uklanjanje dlačica, beauty uređaji, prilagođena proizvodnja"
+  },
+  "header": {
+    "navigation": {
+      "solutions": "Rješenja",
+      "iplHairRemoval": "IPL uklanjanje dlačica",
+      "howToUse": "Kako koristiti",
+      "serviceSupport": "Servis i podrška",
+      "about": "O nama",
+      "contact": "Kontakt"
+    },
+    "solutions": {
+      "logoPrinting": "Ispis logotipa",
+      "packaging": "Rješenja za pakiranje",
+      "dropShipping": "Drop shipping",
+      "globalShipping": "Globalna dostava",
+      "brandCustomization": "Prilagodba brenda",
+      "compliance": "Usklađenost i certifikati",
+      "designPrototyping": "Dizajn i prototipiranje",
+      "multiHeadIPL": "Višeglavi IPL prilagođen",
+      "dualLampIPL": "Dvolampa IPL prilagođen"
+    },
+    "iplDevices": {
+      "smartApp": "IPL uređaj kontroliran pametnom aplikacijom",
+      "iceFeeling": "IPL uređaj s ledenim osjećajem",
+      "emerald": "Smaragdni IPL uređaj",
+      "skinSensor": "IPL uređaj s senzorom kože",
+      "batteryPowered": "IPL uređaj na baterije",
+      "handheld": "Ručni IPL uređaj",
+      "iceCooling": "IPL uređaj s ledenim hlađenjem",
+      "dualLamp": "IPL uređaj s dvostrukom lampom",
+      "aiPowered": "IPL uređaj s AI tehnologijom"
+    },
+    "accessories": {
+      "sapphireLens": "Safirna leća",
+      "adapter": "Adapter",
+      "goggles": "Zaštitne naočale",
+      "filter": "Filter"
+    },
+    "serviceSupport": {
+      "service": "Servis",
+      "afterSales": "Postprodajni servis",
+      "fdaGmp": "FDA GMP dizajn čiste sobe",
+      "manufacturing": "Proizvodnja IPL uređaja",
+      "knowledgeBase": "Baza znanja",
+      "support": "Podrška > Vodič za kupnju",
+      "beautySourcing": "Specijalizirano nabavljanje beauty proizvoda i dodataka",
+      "pricingGuide": "Vodič za cijene",
+      "helpCenter": "Centar za pomoć",
+      "gallery": "Galerija",
+      "videos": "Videozapisi",
+      "blog": "Blog",
+      "newsInsights": "Vijesti i uvidi",
+      "industries": "Industrije koje opslužujemo"
+    },
+    "about": {
+      "founderMessage": "Poruka osnivača",
+      "technology": "Naša tehnologija",
+      "globalWitness": "Globalni svjedok",
+      "corePrinciples": "Osnovni principi",
+      "company": "O iShine",
+      "brandStory": "Priča brenda",
+      "quality": "Kvaliteta"
+    }
+  },
+  "footer": {
+    "company": {
+      "description": "Vodeći proizvođač IPL uređaja koji pruža kompletna OEM/ODM rješenja od ideje do tržišta.",
+      "products": "Proizvodi",
+      "services": "Usluge",
+      "company": "Tvrtka"
+    },
+    "products": {
+      "iplHairRemoval": "IPL uklanjanje dlačica",
+      "accessories": "Dodaci",
+      "gallery": "Galerija"
+    },
+    "services": {
+      "afterSales": "Postprodajni servis",
+      "manufacturing": "IPL proizvodnja",
+      "buyingGuide": "Vodič za kupnju",
+      "helpCenter": "Centar za pomoć"
+    },
+    "companyLinks": {
+      "about": "O iShine",
+      "brandStory": "Priča brenda",
+      "quality": "Kvaliteta",
+      "blog": "Blog"
+    },
+    "legal": {
+      "copyright": "© 2025 iShine. Sva prava pridržana.",
+      "privacyPolicy": "Pravila privatnosti",
+      "termsOfService": "Uvjeti usluge"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Prilagođeni IPL uređaji",
+      "subtitle": "i brendirani IPL uređaji",
+      "description": "Globalno vodeći proizvođač IPL uređaja,\npomažemo vam dizajnirati, izgraditi i zapakirati.",
+      "getQuote": "Zatražite ponudu"
+    },
+    "partners": {
+      "title": "Pouzdani od globalnih brendova",
+      "subtitle": "Radimo s industrijskim liderima diljem svijeta"
+    },
+    "features": {
+      "title": "Zašto odabrati iShine?",
+      "subtitle": "Kompletna IPL proizvodna rješenja prilagođena vašim potrebama",
+      "oemSolutions": {
+        "title": "OEM/ODM rješenja",
+        "description": "Potpuna prilagodba od dizajna do pakiranja"
+      },
+      "experiencedTeam": {
+        "title": "Iskusna ekipa",
+        "description": "Stručni inženjeri i dizajneri na vašoj usluzi"
+      },
+      "qualityAssurance": {
+        "title": "Osiguranje kvalitete",
+        "description": "FDA GMP certificirana proizvodnja u čistoj sobi"
+      },
+      "globalReach": {
+        "title": "Globalni doseg",
+        "description": "Opslužujemo klijente u Europi, Sjevernoj Americi i Aziji"
+      }
+    },
+    "products": {
+      "title": "Naš asortiman IPL uređaja",
+      "subtitle": "Prilagodljivi IPL uređaji za svaku potrebu tržišta",
+      "viewAll": "Pogledajte sve IPL uređaje"
+    },
+    "cta": {
+      "title": "Spremni za pokretanje vašeg IPL projekta?",
+      "subtitle": "Razgovarajmo o vašim zahtjevima i stvorite savršeno IPL rješenje za vaš brend",
+      "button": "Zakažite konzultacije"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Kontaktirajte nas",
+      "description": "Spremni za razgovor o vašem IPL projektu? Kontaktirajte naš stručni tim danas. Tu smo da pomognemo ostvariti vašu viziju."
+    },
+    "info": {
+      "title": "Stupite u kontakt",
+      "subtitle": "Više načina da nas kontaktirate - odaberite ono što vam najbolje odgovara",
+      "address": {
+        "title": "Adresa",
+        "company": "iShine Manufacturing Co., Ltd.",
+        "location": "Shenzhen, Guangdong, Kina"
+      },
+      "phone": {
+        "title": "Telefon"
+      },
+      "email": {
+        "title": "E-pošta"
+      },
+      "hours": {
+        "title": "Radno vrijeme",
+        "weekdays": "Ponedjeljak - Petak: 9:00 - 18:00",
+        "saturday": "Subota: 9:00 - 12:00"
+      }
+    },
+    "map": {
+      "title": "Posjetite naše objekte",
+      "subtitle": "Smješteni u srcu proizvodnog okruga Shenzhena"
+    },
+    "form": {
+      "title": "Što vam je na umu? Razgovarajmo!",
+      "subtitle": "Ispunite ovaj obrazac za pokretanje procesa. Kontaktirat ćemo vas u roku od 24 sata.",
+      "name": "Ime*",
+      "email": "E-mail adresa*",
+      "phone": "Broj telefona* npr. (+1-541-3456-3001)",
+      "country": "Zemlja",
+      "message": "Opišite svoje potrebe ovdje*",
+      "submit": "Pošaljite",
+      "sending": "Šalje se..."
+    }
+  },
+  "buttons": {
+    "getQuote": "Zatražite ponudu",
+    "viewSolutions": "Pogledajte naša rješenja",
+    "scheduleConsultation": "Zakažite konzultacije",
+    "submit": "Pošaljite",
+    "sending": "Šalje se...",
+    "viewAll": "Pogledajte sve"
+  },
+  "common": {
+    "loading": "Učitava se...",
+    "error": "Dogodila se greška",
+    "success": "Uspjeh",
+    "readMore": "Pročitajte više",
+    "learnMore": "Saznajte više",
+    "getStarted": "Počnite",
+    "contactUs": "Kontaktirajte nas"
+  }
+}

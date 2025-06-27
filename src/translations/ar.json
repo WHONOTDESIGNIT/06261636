@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "title": "iShine - حلول تصنيع أجهزة IPL | من الفكرة إلى السوق",
+    "description": "الشركة الرائدة في تصنيع أجهزة IPL التي تقدم حلول OEM/ODM كاملة من الفكرة إلى السوق. أجهزة IPL مخصصة لإزالة الشعر للعلامات التجارية العالمية للجمال.",
+    "keywords": "أجهزة IPL، تصنيع OEM، حلول ODM، إزالة الشعر، أجهزة الجمال، التصنيع المخصص"
+  },
+  "header": {
+    "navigation": {
+      "solutions": "الحلول",
+      "iplHairRemoval": "إزالة الشعر بـ IPL",
+      "howToUse": "كيفية الاستخدام",
+      "serviceSupport": "الخدمة والدعم",
+      "about": "من نحن",
+      "contact": "اتصل بنا"
+    },
+    "solutions": {
+      "logoPrinting": "طباعة الشعار",
+      "packaging": "حلول التعبئة والتغليف",
+      "dropShipping": "الشحن المباشر",
+      "globalShipping": "الشحن العالمي",
+      "brandCustomization": "تخصيص العلامة التجارية",
+      "compliance": "الامتثال والشهادات",
+      "designPrototyping": "التصميم والنماذج الأولية",
+      "multiHeadIPL": "IPL متعدد الرؤوس مخصص",
+      "dualLampIPL": "IPL مزدوج المصباح مخصص"
+    },
+    "iplDevices": {
+      "smartApp": "جهاز IPL يتحكم فيه التطبيق الذكي",
+      "iceFeeling": "جهاز IPL بإحساس الثلج",
+      "emerald": "جهاز IPL الزمردي",
+      "skinSensor": "جهاز IPL بمستشعر الجلد",
+      "batteryPowered": "جهاز IPL يعمل بالبطارية",
+      "handheld": "جهاز IPL محمول باليد",
+      "iceCooling": "جهاز IPL بالتبريد الثلجي",
+      "dualLamp": "جهاز IPL مزدوج المصباح",
+      "aiPowered": "جهاز IPL مدعوم بالذكاء الاصطناعي"
+    },
+    "accessories": {
+      "sapphireLens": "عدسة الياقوت",
+      "adapter": "المحول",
+      "goggles": "نظارات واقية",
+      "filter": "المرشح"
+    },
+    "serviceSupport": {
+      "service": "الخدمة",
+      "afterSales": "خدمة ما بعد البيع",
+      "fdaGmp": "تصميم الغرفة النظيفة FDA GMP",
+      "manufacturing": "تصنيع أجهزة IPL",
+      "knowledgeBase": "قاعدة المعرفة",
+      "support": "الدعم > دليل الشراء",
+      "beautySourcing": "مصادر متخصصة في الجمال والإكسسوارات",
+      "pricingGuide": "دليل الأسعار",
+      "helpCenter": "مركز المساعدة",
+      "gallery": "المعرض",
+      "videos": "الفيديوهات",
+      "blog": "المدونة",
+      "newsInsights": "الأخبار والرؤى",
+      "industries": "الصناعات التي نخدمها"
+    },
+    "about": {
+      "founderMessage": "رسالة المؤسس",
+      "technology": "تقنيتنا",
+      "globalWitness": "الشاهد العالمي",
+      "corePrinciples": "المبادئ الأساسية",
+      "company": "حول iShine",
+      "brandStory": "قصة العلامة التجارية",
+      "quality": "الجودة"
+    }
+  },
+  "footer": {
+    "company": {
+      "description": "الشركة الرائدة في تصنيع أجهزة IPL التي تقدم حلول OEM/ODM كاملة من الفكرة إلى السوق.",
+      "products": "المنتجات",
+      "services": "الخدمات",
+      "company": "الشركة"
+    },
+    "products": {
+      "iplHairRemoval": "إزالة الشعر بـ IPL",
+      "accessories": "الإكسسوارات",
+      "gallery": "المعرض"
+    },
+    "services": {
+      "afterSales": "خدمة ما بعد البيع",
+      "manufacturing": "تصنيع IPL",
+      "buyingGuide": "دليل الشراء",
+      "helpCenter": "مركز المساعدة"
+    },
+    "companyLinks": {
+      "about": "حول iShine",
+      "brandStory": "قصة العلامة التجارية",
+      "quality": "الجودة",
+      "blog": "المدونة"
+    },
+    "legal": {
+      "copyright": "© 2025 iShine. جميع الحقوق محفوظة.",
+      "privacyPolicy": "سياسة الخصوصية",
+      "termsOfService": "شروط الخدمة"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "أجهزة IPL مخصصة",
+      "subtitle": "وأجهزة IPL للعلامة التجارية",
+      "description": "الشركة الرائدة عالمياً في تصنيع أجهزة IPL،\nنساعدك في تصميمها وبنائها وتعبئتها.",
+      "getQuote": "احصل على عرض سعر"
+    },
+    "partners": {
+      "title": "موثوق من قبل العلامات التجارية العالمية",
+      "subtitle": "العمل مع قادة الصناعة في جميع أنحاء العالم"
+    },
+    "features": {
+      "title": "لماذا تختار iShine؟",
+      "subtitle": "حلول تصنيع IPL كاملة مصممة خصيصاً لاحتياجاتك",
+      "oemSolutions": {
+        "title": "حلول OEM/ODM",
+        "description": "تخصيص كامل من التصميم إلى التعبئة والتغليف"
+      },
+      "experiencedTeam": {
+        "title": "فريق ذو خبرة",
+        "description": "مهندسون خبراء ومصممون في خدمتك"
+      },
+      "qualityAssurance": {
+        "title": "ضمان الجودة",
+        "description": "تصنيع في غرفة نظيفة معتمدة من FDA GMP"
+      },
+      "globalReach": {
+        "title": "الوصول العالمي",
+        "description": "خدمة العملاء في أوروبا وأمريكا الشمالية وآسيا"
+      }
+    },
+    "products": {
+      "title": "مجموعة أجهزة IPL الخاصة بنا",
+      "subtitle": "أجهزة IPL قابلة للتخصيص لكل احتياج في السوق",
+      "viewAll": "عرض جميع أجهزة IPL"
+    },
+    "cta": {
+      "title": "هل أنت مستعد لبدء مشروع IPL الخاص بك؟",
+      "subtitle": "دعنا نناقش متطلباتك وننشئ حل IPL المثالي لعلامتك التجارية",
+      "button": "جدولة استشارة"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "اتصل بنا",
+      "description": "هل أنت مستعد لمناقشة مشروع IPL الخاص بك؟ تواصل مع فريق الخبراء لدينا اليوم. نحن هنا لمساعدتك في تحقيق رؤيتك."
+    },
+    "info": {
+      "title": "تواصل معنا",
+      "subtitle": "طرق متعددة للوصول إلينا - اختر ما يناسبك",
+      "address": {
+        "title": "العنوان",
+        "company": "iShine Manufacturing Co., Ltd.",
+        "location": "شنتشن، قوانغدونغ، الصين"
+      },
+      "phone": {
+        "title": "الهاتف"
+      },
+      "email": {
+        "title": "البريد الإلكتروني"
+      },
+      "hours": {
+        "title": "ساعات العمل",
+        "weekdays": "الاثنين - الجمعة: 9:00 صباحاً - 6:00 مساءً",
+        "saturday": "السبت: 9:00 صباحاً - 12:00 ظهراً"
+      }
+    },
+    "map": {
+      "title": "زيارة منشأتنا",
+      "subtitle": "تقع في قلب منطقة التصنيع في شنتشن"
+    },
+    "form": {
+      "title": "ما الذي تفكر فيه؟ دعنا نتحدث!",
+      "subtitle": "املأ هذا النموذج لبدء العملية. سنتواصل معك خلال 24 ساعة.",
+      "name": "الاسم*",
+      "email": "عنوان البريد الإلكتروني*",
+      "phone": "رقم الهاتف* مثال:(+1-541-3456-3001)",
+      "country": "البلد",
+      "message": "اوصف احتياجاتك هنا*",
+      "submit": "إرسال",
+      "sending": "جاري الإرسال..."
+    }
+  },
+  "buttons": {
+    "getQuote": "احصل على عرض سعر",
+    "viewSolutions": "عرض حلولنا",
+    "scheduleConsultation": "جدولة استشارة",
+    "submit": "إرسال",
+    "sending": "جاري الإرسال...",
+    "viewAll": "عرض الكل"
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "success": "نجح",
+    "readMore": "اقرأ المزيد",
+    "learnMore": "تعلم المزيد",
+    "getStarted": "ابدأ",
+    "contactUs": "اتصل بنا"
+  }
+}

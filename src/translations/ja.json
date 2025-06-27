@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "title": "iShine - IPLデバイス製造ソリューション | アイデアから市場まで",
+    "description": "アイデアから市場まで完全なOEM/ODMソリューションを提供する大手IPLデバイスメーカー。グローバル美容ブランド向けカスタムIPL脱毛デバイス。",
+    "keywords": "IPLデバイス, OEM製造, ODMソリューション, 脱毛, 美容デバイス, カスタム製造"
+  },
+  "header": {
+    "navigation": {
+      "solutions": "ソリューション",
+      "iplHairRemoval": "IPL脱毛",
+      "howToUse": "使用方法",
+      "serviceSupport": "サービス・サポート",
+      "about": "会社概要",
+      "contact": "お問い合わせ"
+    },
+    "solutions": {
+      "logoPrinting": "ロゴ印刷",
+      "packaging": "パッケージングソリューション",
+      "dropShipping": "ドロップシッピング",
+      "globalShipping": "グローバル配送",
+      "brandCustomization": "ブランドカスタマイゼーション",
+      "compliance": "コンプライアンス・認証",
+      "designPrototyping": "デザイン・プロトタイピング",
+      "multiHeadIPL": "マルチヘッドIPLカスタム",
+      "dualLampIPL": "デュアルランプIPLカスタム"
+    },
+    "iplDevices": {
+      "smartApp": "スマートアプリ制御IPLデバイス",
+      "iceFeeling": "アイスフィーリングIPLデバイス",
+      "emerald": "エメラルドIPLデバイス",
+      "skinSensor": "スキンセンサーIPLデバイス",
+      "batteryPowered": "バッテリー駆動IPLデバイス",
+      "handheld": "ハンドヘルドIPLデバイス",
+      "iceCooling": "アイスクーリングIPLデバイス",
+      "dualLamp": "デュアルランプIPLデバイス",
+      "aiPowered": "AI搭載IPLデバイス"
+    },
+    "accessories": {
+      "sapphireLens": "サファイアレンズ",
+      "adapter": "アダプター",
+      "goggles": "保護ゴーグル",
+      "filter": "フィルター"
+    },
+    "serviceSupport": {
+      "service": "サービス",
+      "afterSales": "アフターセールスサービス",
+      "fdaGmp": "FDA GMPクリーンルーム設計",
+      "manufacturing": "IPLデバイス製造",
+      "knowledgeBase": "ナレッジベース",
+      "support": "サポート > 購入ガイド",
+      "beautySourcing": "美容ニッチ調達・アクセサリー",
+      "pricingGuide": "価格ガイド",
+      "helpCenter": "ヘルプセンター",
+      "gallery": "ギャラリー",
+      "videos": "動画",
+      "blog": "ブログ",
+      "newsInsights": "ニュース・インサイト",
+      "industries": "サービス業界"
+    },
+    "about": {
+      "founderMessage": "創設者メッセージ",
+      "technology": "私たちの技術",
+      "globalWitness": "グローバル証人",
+      "corePrinciples": "核心原則",
+      "company": "iShineについて",
+      "brandStory": "ブランドストーリー",
+      "quality": "品質"
+    }
+  },
+  "footer": {
+    "company": {
+      "description": "アイデアから市場まで完全なOEM/ODMソリューションを提供する大手IPLデバイスメーカー。",
+      "products": "製品",
+      "services": "サービス",
+      "company": "会社"
+    },
+    "products": {
+      "iplHairRemoval": "IPL脱毛",
+      "accessories": "アクセサリー",
+      "gallery": "ギャラリー"
+    },
+    "services": {
+      "afterSales": "アフターセールスサービス",
+      "manufacturing": "IPL製造",
+      "buyingGuide": "購入ガイド",
+      "helpCenter": "ヘルプセンター"
+    },
+    "companyLinks": {
+      "about": "iShineについて",
+      "brandStory": "ブランドストーリー",
+      "quality": "品質",
+      "blog": "ブログ"
+    },
+    "legal": {
+      "copyright": "© 2025 iShine. 全著作権所有。",
+      "privacyPolicy": "プライバシーポリシー",
+      "termsOfService": "利用規約"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "カスタムIPLデバイス",
+      "subtitle": "& ブランドIPLデバイス",
+      "description": "世界をリードするIPLデバイスメーカー、\n設計、製造、パッケージングをサポートします。",
+      "getQuote": "見積もり取得"
+    },
+    "partners": {
+      "title": "グローバルブランドに信頼される",
+      "subtitle": "世界中の業界リーダーと協力"
+    },
+    "features": {
+      "title": "なぜiShineを選ぶのか？",
+      "subtitle": "お客様のニーズに合わせた完全なIPL製造ソリューション",
+      "oemSolutions": {
+        "title": "OEM/ODMソリューション",
+        "description": "デザインからパッケージングまで完全カスタマイゼーション"
+      },
+      "experiencedTeam": {
+        "title": "経験豊富なチーム",
+        "description": "専門エンジニアとデザイナーがサービス提供"
+      },
+      "qualityAssurance": {
+        "title": "品質保証",
+        "description": "FDA GMP認証クリーンルーム製造"
+      },
+      "globalReach": {
+        "title": "グローバルリーチ",
+        "description": "ヨーロッパ、北米、アジアのクライアントにサービス提供"
+      }
+    },
+    "products": {
+      "title": "IPLデバイスラインナップ",
+      "subtitle": "あらゆる市場ニーズに対応するカスタマイズ可能なIPLデバイス",
+      "viewAll": "すべてのIPLデバイスを見る"
+    },
+    "cta": {
+      "title": "IPLプロジェクトを始める準備はできましたか？",
+      "subtitle": "お客様の要件を話し合い、ブランドに最適なIPLソリューションを作成しましょう",
+      "button": "相談予約"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "お問い合わせ",
+      "description": "IPLプロジェクトについて話し合う準備はできましたか？今日、専門チームにお問い合わせください。お客様のビジョンを実現するお手伝いをします。"
+    },
+    "info": {
+      "title": "お問い合わせ",
+      "subtitle": "複数の連絡方法 - 最適な方法をお選びください",
+      "address": {
+        "title": "住所",
+        "company": "iShine Manufacturing Co., Ltd.",
+        "location": "中国広東省深圳市"
+      },
+      "phone": {
+        "title": "電話"
+      },
+      "email": {
+        "title": "メール"
+      },
+      "hours": {
+        "title": "営業時間",
+        "weekdays": "月曜日 - 金曜日: 9:00 - 18:00",
+        "saturday": "土曜日: 9:00 - 12:00"
+      }
+    },
+    "map": {
+      "title": "施設見学",
+      "subtitle": "深圳製造業地区の中心部に位置"
+    },
+    "form": {
+      "title": "何かお考えですか？お話ししましょう！",
+      "subtitle": "このフォームに記入してプロセスを開始してください。24時間以内にご連絡いたします。",
+      "name": "お名前*",
+      "email": "メールアドレス*",
+      "phone": "電話番号* 例:(+1-541-3456-3001)",
+      "country": "国",
+      "message": "ご要望をここに記述してください*",
+      "submit": "送信",
+      "sending": "送信中..."
+    }
+  },
+  "buttons": {
+    "getQuote": "見積もり取得",
+    "viewSolutions": "ソリューションを見る",
+    "scheduleConsultation": "相談予約",
+    "submit": "送信",
+    "sending": "送信中...",
+    "viewAll": "すべて見る"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "success": "成功",
+    "readMore": "続きを読む",
+    "learnMore": "詳細を見る",
+    "getStarted": "始める",
+    "contactUs": "お問い合わせ"
+  }
+}

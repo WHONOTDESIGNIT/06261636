@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "title": "iShine - IPL-enhedsproduktionsløsninger | Fra idé til marked",
+    "description": "Førende IPL-enhedsproducent, der leverer komplette OEM/ODM-løsninger fra idé til marked. Tilpassede IPL-hårfjerningsenheder til globale skønhedsbrands.",
+    "keywords": "IPL-enheder, OEM-produktion, ODM-løsninger, hårfjerning, skønhedsenheder, tilpasset produktion"
+  },
+  "header": {
+    "navigation": {
+      "solutions": "Løsninger",
+      "iplHairRemoval": "IPL-hårfjerning",
+      "howToUse": "Sådan bruges",
+      "serviceSupport": "Service og support",
+      "about": "Om os",
+      "contact": "Kontakt"
+    },
+    "solutions": {
+      "logoPrinting": "Logo-print",
+      "packaging": "Emballageløsninger",
+      "dropShipping": "Drop shipping",
+      "globalShipping": "Global forsendelse",
+      "brandCustomization": "Brand-tilpasning",
+      "compliance": "Overholdelse og certificeringer",
+      "designPrototyping": "Design og prototyping",
+      "multiHeadIPL": "Multi-hoved IPL tilpasset",
+      "dualLampIPL": "Dobbelt-lampe IPL tilpasset"
+    },
+    "iplDevices": {
+      "smartApp": "Smart app-styret IPL-enhed",
+      "iceFeeling": "Is-følelse IPL-enhed",
+      "emerald": "Smaragd IPL-enhed",
+      "skinSensor": "Hudsensor IPL-enhed",
+      "batteryPowered": "Batteridrevet IPL-enhed",
+      "handheld": "Håndholdt IPL-enhed",
+      "iceCooling": "Is-køling IPL-enhed",
+      "dualLamp": "Dobbelt-lampe IPL-enhed",
+      "aiPowered": "AI-drevet IPL-enhed"
+    },
+    "accessories": {
+      "sapphireLens": "Safir-linse",
+      "adapter": "Adapter",
+      "goggles": "Beskyttelsesbriller",
+      "filter": "Filter"
+    },
+    "serviceSupport": {
+      "service": "Service",
+      "afterSales": "Eftersalgsservice",
+      "fdaGmp": "FDA GMP renrum design",
+      "manufacturing": "IPL-enhedsproduktion",
+      "knowledgeBase": "Vidensbase",
+      "support": "Support > Købsguide",
+      "beautySourcing": "Skønhedsniche sourcing og tilbehør",
+      "pricingGuide": "Prisguide",
+      "helpCenter": "Hjælpecenter",
+      "gallery": "Galleri",
+      "videos": "Videoer",
+      "blog": "Blog",
+      "newsInsights": "Nyheder og indsigter",
+      "industries": "Brancher vi betjener"
+    },
+    "about": {
+      "founderMessage": "Grundlæggerens besked",
+      "technology": "Vores teknologi",
+      "globalWitness": "Globalt vidne",
+      "corePrinciples": "Kerneprincipper",
+      "company": "Om iShine",
+      "brandStory": "Brand-historie",
+      "quality": "Kvalitet"
+    }
+  },
+  "footer": {
+    "company": {
+      "description": "Førende IPL-enhedsproducent, der leverer komplette OEM/ODM-løsninger fra idé til marked.",
+      "products": "Produkter",
+      "services": "Tjenester",
+      "company": "Virksomhed"
+    },
+    "products": {
+      "iplHairRemoval": "IPL-hårfjerning",
+      "accessories": "Tilbehør",
+      "gallery": "Galleri"
+    },
+    "services": {
+      "afterSales": "Eftersalgsservice",
+      "manufacturing": "IPL-produktion",
+      "buyingGuide": "Købsguide",
+      "helpCenter": "Hjælpecenter"
+    },
+    "companyLinks": {
+      "about": "Om iShine",
+      "brandStory": "Brand-historie",
+      "quality": "Kvalitet",
+      "blog": "Blog"
+    },
+    "legal": {
+      "copyright": "© 2025 iShine. Alle rettigheder forbeholdes.",
+      "privacyPolicy": "Privatlivspolitik",
+      "termsOfService": "Servicevilkår"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Tilpassede IPL-enheder",
+      "subtitle": "og brand IPL-enheder",
+      "description": "Globalt førende IPL-enhedsproducent,\nvi hjælper dig med at designe, bygge og pakke det.",
+      "getQuote": "Få tilbud"
+    },
+    "partners": {
+      "title": "Betroet af globale brands",
+      "subtitle": "Arbejder med brancheledere verden over"
+    },
+    "features": {
+      "title": "Hvorfor vælge iShine?",
+      "subtitle": "Komplette IPL-produktionsløsninger skræddersyet til dine behov",
+      "oemSolutions": {
+        "title": "OEM/ODM-løsninger",
+        "description": "Komplet tilpasning fra design til emballage"
+      },
+      "experiencedTeam": {
+        "title": "Erfaret team",
+        "description": "Ekspertingeniører og designere til din tjeneste"
+      },
+      "qualityAssurance": {
+        "title": "Kvalitetssikring",
+        "description": "FDA GMP-certificeret renrum-produktion"
+      },
+      "globalReach": {
+        "title": "Global rækkevidde",
+        "description": "Betjener kunder i Europa, Nordamerika og Asien"
+      }
+    },
+    "products": {
+      "title": "Vores IPL-enhedssortiment",
+      "subtitle": "Tilpasselige IPL-enheder til ethvert markedsbehov",
+      "viewAll": "Se alle IPL-enheder"
+    },
+    "cta": {
+      "title": "Klar til at starte dit IPL-projekt?",
+      "subtitle": "Lad os diskutere dine krav og skabe den perfekte IPL-løsning til dit brand",
+      "button": "Planlæg konsultation"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Kontakt os",
+      "description": "Klar til at diskutere dit IPL-projekt? Kontakt vores ekspertteam i dag. Vi er her for at hjælpe med at bringe din vision til live."
+    },
+    "info": {
+      "title": "Kom i kontakt",
+      "subtitle": "Flere måder at nå os på - vælg hvad der fungerer bedst for dig",
+      "address": {
+        "title": "Adresse",
+        "company": "iShine Manufacturing Co., Ltd.",
+        "location": "Shenzhen, Guangdong, Kina"
+      },
+      "phone": {
+        "title": "Telefon"
+      },
+      "email": {
+        "title": "E-mail"
+      },
+      "hours": {
+        "title": "Åbningstider",
+        "weekdays": "Mandag - Fredag: 9:00 - 18:00",
+        "saturday": "Lørdag: 9:00 - 12:00"
+      }
+    },
+    "map": {
+      "title": "Besøg vores facilitet",
+      "subtitle": "Beliggende i hjertet af Shenzhens produktionsdistrikt"
+    },
+    "form": {
+      "title": "Hvad har du på hjerte? Lad os tale!",
+      "subtitle": "Udfyld denne formular for at starte processen. Vi kontakter dig inden for 24 timer.",
+      "name": "Navn*",
+      "email": "E-mailadresse*",
+      "phone": "Telefonnummer* f.eks. (+1-541-3456-3001)",
+      "country": "Land",
+      "message": "Beskriv dine behov her*",
+      "submit": "Send",
+      "sending": "Sender..."
+    }
+  },
+  "buttons": {
+    "getQuote": "Få tilbud",
+    "viewSolutions": "Se vores løsninger",
+    "scheduleConsultation": "Planlæg konsultation",
+    "submit": "Send",
+    "sending": "Sender...",
+    "viewAll": "Se alle"
+  },
+  "common": {
+    "loading": "Indlæser...",
+    "error": "Der opstod en fejl",
+    "success": "Succes",
+    "readMore": "Læs mere",
+    "learnMore": "Lær mere",
+    "getStarted": "Kom i gang",
+    "contactUs": "Kontakt os"
+  }
+}
