@@ -27,6 +27,8 @@ const Contact: React.FC = () => {
     }
   ];
 
+ ];
+
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
@@ -47,20 +49,34 @@ const Contact: React.FC = () => {
         </div>
       </section>
 
-      {/* Contact Information */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* 新增的图片区域 - 与Hero Section同高 */}
+      <section className="relative h-[66.67vh] min-h-[500px] w-full">
+        {/* 图片容器 - 确保图片覆盖整个区域 */}
+        <div className="absolute inset-0 overflow-hidden">
+          <img
+            src="/images/contact/hero-image.jpg" // 替换为您的图片路径
+            alt="iShine Manufacturing Facility"
+            className="w-full h-full object-cover object-center"
+          />
+          {/* 半透明遮罩 */}
+          <div className="absolute inset-0 bg-black/20"></div>
+        </div>
+        
+        {/* 可选：在图片上添加文字内容 */}
+        <div className="relative h-full flex items-center justify-center">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.4, duration: 0.8 }}
+            className="text-center text-white px-4"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Get in Touch</h2>
-            <p className="text-lg text-gray-600">
-              Multiple ways to reach us - choose what works best for you
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Global Headquarters</h2>
+            <p className="text-xl max-w-2xl mx-auto">
+              State-of-the-art manufacturing facility in Shenzhen, China
             </p>
           </motion.div>
+        </div>
+      </section>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {contactInfo.map((info, index) => (
