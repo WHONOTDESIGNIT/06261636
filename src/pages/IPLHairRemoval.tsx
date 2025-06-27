@@ -18,8 +18,8 @@ const IPLHairRemoval: React.FC = () => {
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-6">IPL Hair Removal Devices</h1>
             <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
-              Comprehensive range of IPL devices designed for professional results and consumer satisfaction. 
-              Each device can be customized to match your brand requirements.
+              Wide range of IPL devices designed for professional results and consumer satisfaction. 
+              Customized solutions that best fit for your brand requirements.
             </p>
           </motion.div>
         </div>
