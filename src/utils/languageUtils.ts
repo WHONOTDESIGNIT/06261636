@@ -8,7 +8,7 @@ export const getCountryCodeFromLanguageCode = (languageCode: string): string => 
 export const getLanguageFromCountryCode = (countryCode: string): string => {
   // Map country codes to primary language codes
   const countryToLanguage: Record<string, string> = {
-    'us': 'en',
+    'us': 'en',// Default to Egnlish for USA
     'gb': 'en',
     'ca': 'en',
     'au': 'en',
@@ -33,7 +33,7 @@ export const getLanguageFromCountryCode = (countryCode: string): string => {
     'cz': 'cs',
     'ee': 'et',
     'hr': 'hr',
-    'be': 'nl', // Default to Dutch for Belgium
+    'be': 'nl', 
     'mx': 'es',
     'ar': 'es',
     'br': 'pt',
