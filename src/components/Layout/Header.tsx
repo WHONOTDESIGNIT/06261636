@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Search, Youtube, Linkedin, Menu, X, ChevronDown } from 'lucide-react';
 import { LanguageSelector } from './LanguageSelector';
+import { HeaderProps, ThumbnailData } from '../../types';
 
-const Header: React.FC = () => {
+const Header: React.FC<HeaderProps> = ({ thumbnailData }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const [showThumbnails, setShowThumbnails] = useState(false);
   const location = useLocation();
 
   const navigation = [
@@ -29,6 +31,7 @@ const Header: React.FC = () => {
       name: 'IPL Hair Removal',
       href: '/ipl-hair-removal',
       hasDropdown: true,
+      hasThumbnails: true, // 标记此菜单项有缩略图
       items: [
         {
           name: 'IPL Devices',
@@ -120,20 +123,59 @@ const Header: React.FC = () => {
     setActiveDropdown(activeDropdown === name ? null : name);
   };
 
-  const getThumbnailUrl = (itemName: string) => {
-    const thumbnailMap: { [key: string]: string } = {
-      'Smart App-Controlled IPL Device': 'https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=33&h=33',
-      'Ice Feeling IPL Device': 'https://images.pexels.com/photos/3985164/pexels-photo-3985164.jpeg?auto=compress&cs=tinysrgb&w=33&h=33',
-      'Emerald IPL Device': 'https://images.pexels.com/photos/3985165/pexels-photo-3985165.jpeg?auto=compress&cs=tinysrgb&w=33&h=33',
-      'Skin Sensor IPL Device': 'https://images.pexels.com/photos/3985166/pexels-photo-3985166.jpeg?auto=compress&cs=tinysrgb&w=33&h=33',
-      'Battery Powered IPL Device': 'https://images.pexels.com/photos/3985167/pexels-photo-3985167.jpeg?auto=compress&cs=tinysrgb&w=33&h=33',
-      'Handheld IPL Device': 'https://images.pexels.com/photos/3985168/pexels-photo-3985168.jpeg?auto=compress&cs=tinysrgb&w=33&h=33',
-      'Ice Cooling IPL Device': 'https://images.pexels.com/photos/3985169/pexels-photo-3985169.jpeg?auto=compress&cs=tinysrgb&w=33&h=33',
-      'Dual-Lamp IPL Device': 'https://images.pexels.com/photos/3985170/pexels-photo-3985170.jpeg?auto=compress&cs=tinysrgb&w=33&h=33',
-      'AI-POWERED IPL Device': 'https://images.pexels.com/photos/3985171/pexels-photo-3985171.jpeg?auto=compress&cs=tinysrgb&w=33&h=33'
-    };
-    return thumbnailMap[itemName] || '';
+  // 根据缩略图名称获取对应的缩略图数据
+  const getThumbnailByName = (itemName: string): ThumbnailData | undefined => {
+    return thumbnailData.find(thumb => thumb.title === itemName);
   };
+
+  // 渲染缩略图组件
+  const renderThumbnail = (thumbnail: ThumbnailData) => (
+    <img
+      src={thumbnail.imageUrl}
+      alt={thumbnail.title}
+      className="w-8 h-8 rounded object-cover"
+      onError={(e) => {
+        // 图片加载失败时的备用处理
+        e.currentTarget.style.display = 'none';
+      }}
+    />
+  );
+
+  // 渲染缩略图列表（用于展示所有缩略图）
+  const renderThumbnailList = () => (
+    <div className="absolute top-full left-0 mt-2 w-96 bg-white rounded-lg shadow-xl border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+      <div className="p-4">
+        <h4 className="font-semibold text-gray-900 mb-4 text-sm border-b border-gray-200 pb-2">
+          All IPL Devices & Accessories
+        </h4>
+        <div className="grid grid-cols-2 gap-3 max-h-80 overflow-y-auto">
+          {thumbnailData.map((thumbnail) => (
+            <div
+              key={thumbnail.id}
+              className="flex items-center p-2 hover:bg-gray-50 rounded-md transition-colors cursor-pointer"
+            >
+              {renderThumbnail(thumbnail)}
+              <div className="ml-3 flex-1">
+                <h5 className="text-sm font-medium text-gray-900 line-clamp-1">
+                  {thumbnail.title}
+                </h5>
+                {thumbnail.description && (
+                  <p className="text-xs text-gray-500 line-clamp-1">
+                    {thumbnail.description}
+                  </p>
+                )}
+                {thumbnail.category && (
+                  <span className="inline-block mt-1 px-2 py-0.5 bg-blue-100 text-blue-800 text-xs rounded">
+                    {thumbnail.category}
+                  </span>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
@@ -177,24 +219,24 @@ const Header: React.FC = () => {
                                 {subItem.name}
                               </h4>
                               <div className="space-y-1">
-                                {subItem.items?.map((categoryItem: any, catIndex: number) => (
-                                  <Link
-                                    key={catIndex}
-                                    to={categoryItem.href}
-                                    className="flex items-center px-3 py-2 text-sm text-gray-600 hover:text-ishine-blue-500 hover:bg-gray-50 rounded-md transition-colors"
-                                  >
-                                    {categoryItem.thumbnail ? (
-                                      <img
-                                        src={getThumbnailUrl(categoryItem.name)}
-                                        alt={categoryItem.name}
-                                        className="w-8 h-8 rounded object-cover mr-3"
-                                      />
-                                    ) : categoryItem.icon ? (
-                                      <span className="text-lg mr-3">{categoryItem.icon}</span>
-                                    ) : null}
-                                    {categoryItem.name}
-                                  </Link>
-                                ))}
+                                {subItem.items?.map((categoryItem: any, catIndex: number) => {
+                                  const thumbnail = categoryItem.thumbnail ? getThumbnailByName(categoryItem.name) : null;
+                                  
+                                  return (
+                                    <Link
+                                      key={catIndex}
+                                      to={categoryItem.href}
+                                      className="flex items-center px-3 py-2 text-sm text-gray-600 hover:text-ishine-blue-500 hover:bg-gray-50 rounded-md transition-colors"
+                                    >
+                                      {thumbnail ? (
+                                        renderThumbnail(thumbnail)
+                                      ) : categoryItem.icon ? (
+                                        <span className="text-lg mr-3">{categoryItem.icon}</span>
+                                      ) : null}
+                                      <span className="ml-3">{categoryItem.name}</span>
+                                    </Link>
+                                  );
+                                })}
                               </div>
                             </div>
                           ) : (
@@ -202,15 +244,9 @@ const Header: React.FC = () => {
                               to={subItem.href}
                               className="flex items-center px-3 py-2 text-sm text-gray-600 hover:text-ishine-blue-500 hover:bg-gray-50 rounded-md transition-colors"
                             >
-                              {subItem.thumbnail ? (
-                                <img
-                                  src={getThumbnailUrl(subItem.name)}
-                                  alt={subItem.name}
-                                  className="w-8 h-8 rounded object-cover mr-3"
-                                />
-                              ) : subItem.icon ? (
+                              {subItem.icon && (
                                 <span className="text-lg mr-3">{subItem.icon}</span>
-                              ) : null}
+                              )}
                               {subItem.name}
                             </Link>
                           )}
@@ -219,6 +255,9 @@ const Header: React.FC = () => {
                     </div>
                   </div>
                 )}
+
+                {/* 特殊的缩略图展示区域 */}
+                {item.hasThumbnails && renderThumbnailList()}
               </div>
             ))}
           </div>
@@ -226,7 +265,11 @@ const Header: React.FC = () => {
           {/* Right Side Icons */}
           <div className="flex items-center space-x-4">
             <LanguageSelector />
-            <button className="p-2 text-gray-600 hover:text-ishine-blue-500 transition-colors">
+            <button 
+              className="p-2 text-gray-600 hover:text-ishine-blue-500 transition-colors"
+              onClick={() => setShowThumbnails(!showThumbnails)}
+              title="Toggle Thumbnails"
+            >
               <Search className="w-5 h-5" />
             </button>
             <a
@@ -255,6 +298,38 @@ const Header: React.FC = () => {
             </button>
           </div>
         </div>
+
+        {/* 缩略图展示区域（可切换显示） */}
+        {showThumbnails && (
+          <div className="py-4 border-t border-gray-200">
+            <h3 className="text-lg font-semibold text-gray-900 mb-3">Product Gallery</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+              {thumbnailData.map((thumbnail) => (
+                <div
+                  key={thumbnail.id}
+                  className="bg-white rounded-lg shadow-sm border border-gray-200 p-3 hover:shadow-md transition-shadow cursor-pointer"
+                >
+                  <img
+                    src={thumbnail.imageUrl}
+                    alt={thumbnail.title}
+                    className="w-full h-20 object-cover rounded-md mb-2"
+                    onError={(e) => {
+                      e.currentTarget.src = 'https://via.placeholder.com/150x80?text=No+Image';
+                    }}
+                  />
+                  <h4 className="text-xs font-medium text-gray-900 line-clamp-2">
+                    {thumbnail.title}
+                  </h4>
+                  {thumbnail.category && (
+                    <span className="inline-block mt-1 px-1.5 py-0.5 bg-blue-100 text-blue-800 text-xs rounded">
+                      {thumbnail.category}
+                    </span>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
@@ -297,16 +372,29 @@ const Header: React.FC = () => {
                                 {subItem.name}
                               </h4>
                               <div className="space-y-1 ml-2">
-                                {subItem.items?.map((categoryItem: any, catIndex: number) => (
-                                  <Link
-                                    key={catIndex}
-                                    to={categoryItem.href}
-                                    onClick={() => setIsMenuOpen(false)}
-                                    className="block text-xs text-gray-600 hover:text-ishine-blue-500 py-1"
-                                  >
-                                    {categoryItem.name}
-                                  </Link>
-                                ))}
+                                {subItem.items?.map((categoryItem: any, catIndex: number) => {
+                                  const thumbnail = categoryItem.thumbnail ? getThumbnailByName(categoryItem.name) : null;
+                                  
+                                  return (
+                                    <Link
+                                      key={catIndex}
+                                      to={categoryItem.href}
+                                      onClick={() => setIsMenuOpen(false)}
+                                      className="flex items-center text-xs text-gray-600 hover:text-ishine-blue-500 py-1"
+                                    >
+                                      {thumbnail ? (
+                                        <img
+                                          src={thumbnail.imageUrl}
+                                          alt={thumbnail.title}
+                                          className="w-4 h-4 rounded object-cover mr-2"
+                                        />
+                                      ) : categoryItem.icon ? (
+                                        <span className="text-sm mr-2">{categoryItem.icon}</span>
+                                      ) : null}
+                                      {categoryItem.name}
+                                    </Link>
+                                  );
+                                })}
                               </div>
                             </div>
                           ) : (
@@ -315,15 +403,9 @@ const Header: React.FC = () => {
                               onClick={() => setIsMenuOpen(false)}
                               className="flex items-center text-sm text-gray-600 hover:text-ishine-blue-500 py-1"
                             >
-                              {subItem.thumbnail ? (
-                                <img
-                                  src={getThumbnailUrl(subItem.name)}
-                                  alt={subItem.name}
-                                  className="w-6 h-6 rounded object-cover mr-2"
-                                />
-                              ) : subItem.icon ? (
+                              {subItem.icon && (
                                 <span className="text-sm mr-2">{subItem.icon}</span>
-                              ) : null}
+                              )}
                               {subItem.name}
                             </Link>
                           )}

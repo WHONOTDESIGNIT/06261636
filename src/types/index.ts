@@ -25,3 +25,17 @@ export interface Language {
   flag: string;
   region: string;
 }
+
+// 新增缩略图接口定义
+export interface ThumbnailData {
+  id: string;
+  imageUrl: string;
+  title: string;
+  description?: string;
+  category?: string;
+}
+
+// Header 组件的 Props 接口
+export interface HeaderProps {
+  thumbnailData: ThumbnailData[];
+}
