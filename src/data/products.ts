@@ -5,7 +5,7 @@ export const iplDevices: Product[] = [
     id: 'smart-app',
     name: 'Smart App-Controlled IPL Device',
     description: 'Advanced IPL device with smartphone connectivity and personalized treatment plans',
-    image: 'https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://i.postimg.cc/CLg7qVKB/app-ipl-2.webp',
     features: ['App Control', 'Custom Programs', 'Progress Tracking', 'Safety Sensors'],
     category: 'ipl'
   },
@@ -13,7 +13,7 @@ export const iplDevices: Product[] = [
     id: 'ice-feeling',
     name: 'Ice Feeling IPL Device',
     description: 'Cooling technology for comfortable hair removal experience',
-    image: 'https://images.pexels.com/photos/3985164/pexels-photo-3985164.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://i.postimg.cc/43qb4DM3/ice-feeling-ipl.webp',
     features: ['Cooling Technology', 'Pain-Free', 'Continuous Use', 'Professional Grade'],
     category: 'ipl'
   },
@@ -21,7 +21,7 @@ export const iplDevices: Product[] = [
     id: 'emerald',
     name: 'Emerald IPL Device',
     description: 'Premium IPL device with emerald crystal technology',
-    image: 'https://images.pexels.com/photos/3985165/pexels-photo-3985165.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://i.postimg.cc/1RpcPYK9/emerald-ipl-2.webp',
     features: ['Emerald Crystal', 'Long-lasting', 'Professional Results', 'Elegant Design'],
     category: 'ipl'
   },
@@ -29,7 +29,7 @@ export const iplDevices: Product[] = [
     id: 'skin-sensor',
     name: 'Skin Sensor IPL Device',
     description: 'Intelligent skin detection for optimal treatment customization',
-    image: 'https://images.pexels.com/photos/3985166/pexels-photo-3985166.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://i.postimg.cc/DyZ57Ppm/skin-sensor.webp',
     features: ['Skin Detection', 'Auto Adjustment', 'Safe Treatment', 'Multi-tone Compatible'],
     category: 'ipl'
   },
@@ -37,7 +37,7 @@ export const iplDevices: Product[] = [
     id: 'battery-powered',
     name: 'Battery Powered IPL Device',
     description: 'Cordless convenience with long-lasting battery performance',
-    image: 'https://images.pexels.com/photos/3985167/pexels-photo-3985167.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://i.postimg.cc/fbHR2mNL/Batery-ipl.webp',
     features: ['Cordless', 'Long Battery Life', 'Portable', 'Travel Friendly'],
     category: 'ipl'
   },
