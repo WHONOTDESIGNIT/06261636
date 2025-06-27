@@ -50,7 +50,6 @@ export const LanguageSelector: React.FC = () => {
 
       if (isGridVisible) {
         // Calculate position relative to visible portion of Language Grid
-        const visibleGridHeight = gridBottom - gridTop;
         const visibleGridWidth = gridRight - gridLeft;
         
         // Position animation at bottom of visible Language Grid area

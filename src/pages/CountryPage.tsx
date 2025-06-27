@@ -6,7 +6,7 @@ import Home from './Home';
 
 const CountryPage: React.FC = () => {
   const { countryCode } = useParams<{ countryCode: string }>();
-  const { setLanguage, currentCountry, currentLanguage } = useLanguage();
+  const { setLanguage, currentCountry } = useLanguage();
 
   useEffect(() => {
     if (countryCode && countryCode !== currentCountry) {
@@ -15,11 +15,11 @@ const CountryPage: React.FC = () => {
       setLanguage(detectedLanguage, countryCode);
       
       // Update document title and meta tags based on country/language
-      updateMetaTags(countryCode, detectedLanguage);
+      updateMetaTags(countryCode);
     }
   }, [countryCode, setLanguage, currentCountry]);
 
-  const updateMetaTags = (country: string, language: string) => {
+  const updateMetaTags = (country: string) => {
     // Update document title
     const titleMap: Record<string, string> = {
       'us': 'iShine - IPL Device Manufacturing Solutions | USA',

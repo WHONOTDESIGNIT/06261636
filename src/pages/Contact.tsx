@@ -1,27 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 import ContactFormB from '../components/Forms/ContactFormB';
 
 const Contact: React.FC = () => {
-  const contactInfo = [
-    {
-      icon: Phone,
-      title: 'Phone',
-      details: ['+86 400-123-4567', '+86 755-8888-9999']
-    },
-    {
-      icon: Mail,
-      title: 'Email',
-      details: ['info@ishine-ipl.com', 'sales@ishine-ipl.com']
-    },
-    {
-      icon: Clock,
-      title: 'Business Hours',
-      details: ['Monday - Friday: 9:00 AM - 6:00 PM', 'Saturday: 9:00 AM - 12:00 PM']
-    }
-  ];
-
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
