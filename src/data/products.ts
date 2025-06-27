@@ -14,7 +14,7 @@ export const iplDevices: Product[] = [
     id: 'ice-feeling',
     name: 'Ice Feeling IPL Device',
     description: 'Cooling technology for comfortable hair removal experience',
-    image: 'https://i.postimg.cc/43qb4DM3/ice-feeling-ipl.webp',
+    image: 'https://i.postimg.cc/qMnXKR6c/ice-feeling-ipl-1.webp',
     features: ['Cooling Technology', 'Pain-Free', 'Continuous Use', 'Professional Grade'],
     category: 'ipl'
   },
