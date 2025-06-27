@@ -73,15 +73,13 @@ function App() {
       id: 'smart-app-ipl',
       imageUrl: 'https://i.postimg.cc/CLg7qVKB/app-ipl-2.webp',
       title: 'Smart App-Controlled IPL Device',
-      description: 'Advanced IPL device with smartphone connectivity',
-      category: 'IPL Devices'
+      description: 'Smartphone connectivity',
     },
     {
       id: 'ice-feeling-ipl',
       imageUrl: 'https://i.postimg.cc/43qb4DM3/ice-feeling-ipl.webp',
       title: 'Ice Feeling IPL Device',
       description: 'Cooling technology for comfortable treatment',
-      category: 'IPL Devices'
     },
     {
       id: 'emerald-ipl',
@@ -94,8 +92,7 @@ function App() {
       id: 'skin-sensor-ipl',
       imageUrl: 'https://i.postimg.cc/DyZ57Ppm/skin-sensor.webp',
       title: 'Skin Sensor IPL Device',
-      description: 'Intelligent skin detection for optimal treatment',
-      category: 'IPL Devices'
+      description: 'Intelligent skin detection',
     },
     {
       id: 'battery-powered-ipl',
