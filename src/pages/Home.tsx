@@ -46,7 +46,7 @@ const Home: React.FC = () => {
                 IPL Excellence
               </span>
             </h1>
-            <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 text-gray-100 max-w-3xl mx-auto px-4">
+            <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 text-black-600 max-w-3xl mx-auto px-4">
               Leading IPL device manufacturer providing complete OEM/ODM solutions. 
               Design, build, and package your IPL devices with our expert team.
             </p>
