@@ -68,10 +68,6 @@ const Contact: React.FC = () => {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-center text-white px-4"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Global Headquarters</h2>
-            <p className="text-xl max-w-2xl mx-auto">
-              State-of-the-art manufacturing facility in Shenzhen, China
-            </p>
           </motion.div>
         </div>
       </section>
