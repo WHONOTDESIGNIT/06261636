@@ -47,9 +47,6 @@ export default {
         'float': 'float 6s ease-in-out infinite',
         'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         'bounce-down': 'bounce-down 2s ease-in-out infinite',
-        'fade-in': 'fadeIn 0.2s ease-out',
-        'slide-in-from-top': 'slideInFromTop 0.3s ease-out',
-        'language-option-enter': 'languageOptionEnter 0.2s ease-out',
       },
       keyframes: {
         float: {
@@ -69,40 +66,8 @@ export default {
             opacity: '0',
             transform: 'translateY(5px)'
           },
-        },
-        fadeIn: {
-          from: { opacity: '0' },
-          to: { opacity: '1' },
-        },
-        slideInFromTop: {
-          from: { 
-            opacity: '0',
-            transform: 'translateY(-20px)'
-          },
-          to: { 
-            opacity: '1',
-            transform: 'translateY(0)'
-          },
-        },
-        languageOptionEnter: {
-          from: { 
-            opacity: '0',
-            transform: 'translateY(10px)'
-          },
-          to: { 
-            opacity: '1',
-            transform: 'translateY(0)'
-          },
-        },
-      },
-      backdropBlur: {
-        xs: '2px',
-      },
-      boxShadow: {
-        'language-trigger': '0 1px 3px rgba(0, 0, 0, 0.1)',
-        'language-trigger-hover': '0 4px 12px rgba(0, 0, 0, 0.15)',
-        'language-trigger-focus': '0 0 0 3px rgba(0, 116, 224, 0.1), 0 4px 12px rgba(0, 0, 0, 0.15)',
-      },
+        }
+      }
     },
   },
   plugins: [],
