@@ -3,7 +3,6 @@ import { LanguageProvider } from './context/LanguageContext';
 import Header from './components/Layout/Header';
 import Footer from './components/Layout/Footer';
 import FloatingWidgets from './components/Layout/FloatingWidgets';
-import { ThumbnailData } from './types';
 
 // Main Pages
 import Home from './pages/Home';
@@ -67,97 +66,11 @@ import Quality from './pages/about/Quality.tsx';
 import CountryPage from './pages/CountryPage.tsx';
 
 function App() {
-  // 创建缩略图数据数组
-  const thumbnailData: ThumbnailData[] = [
-    {
-      id: 'smart-app-ipl',
-      imageUrl: 'https://i.postimg.cc/CLg7qVKB/app-ipl-2.webp',
-      title: 'Smart App-Controlled IPL Device',
-      description: 'Smartphone connectivity',
-    },
-    {
-      id: 'ice-feeling-ipl',
-      imageUrl: 'https://i.postimg.cc/43qb4DM3/ice-feeling-ipl.webp',
-      title: 'Ice Feeling IPL Device',
-      description: 'Cooling technology for comfortable treatment',
-    },
-    {
-      id: 'emerald-ipl',
-      imageUrl: 'https://i.postimg.cc/1RpcPYK9/emerald-ipl-2.webp',
-      title: 'Emerald IPL Device',
-      description: 'Premium IPL device with emerald crystal technology',
-      category: 'IPL Devices'
-    },
-    {
-      id: 'skin-sensor-ipl',
-      imageUrl: 'https://i.postimg.cc/DyZ57Ppm/skin-sensor.webp',
-      title: 'Skin Sensor IPL Device',
-      description: 'Intelligent skin detection',
-    },
-    {
-      id: 'battery-powered-ipl',
-      imageUrl: 'https://i.postimg.cc/fbHR2mNL/Batery-ipl.webp',
-      title: 'Battery Powered IPL Device',
-      description: 'Cordless convenience with long-lasting battery',
-      category: 'IPL Devices'
-    },
-    {
-      id: 'handheld-ipl',
-      imageUrl: 'https://i.postimg.cc/BvHc6YGc/handheld-ipl.webp',
-      title: 'Handheld IPL Device',
-      description: 'Compact and ergonomic design for easy handling',
-      category: 'IPL Devices'
-    },
-    {
-      id: 'ice-cooling-ipl',
-      imageUrl: 'https://i.postimg.cc/9FD908dR/ice-cooling-ipl.webp',
-      title: 'Ice Cooling IPL Device',
-      description: 'Advanced cooling system for maximum comfort',
-      category: 'IPL Devices'
-    },
-    {
-      id: 'dual-lamp-ipl',
-      imageUrl: 'https://i.postimg.cc/zGc8B7kB/dual-lamp-ipl.webp',
-      title: 'Dual-Lamp IPL Device',
-      description: 'Enhanced efficiency with dual lamp technology',
-      category: 'IPL Devices'
-    },
-    {
-      id: 'ai-powered-ipl',
-      imageUrl: 'https://i.postimg.cc/BQzVPVRd/ai-powered-ipl.webp',
-      title: 'AI-Powered IPL Device',
-      description: 'Artificial intelligence for personalized treatment',
-      category: 'IPL Devices'
-    },
-    {
-      id: 'sapphire-lens',
-      imageUrl: 'https://i.postimg.cc/9Mc8j5qq/sapphire-len.webp',
-      title: 'Sapphire Lens',
-      description: 'Premium sapphire crystal lens for enhanced durability',
-      category: 'Accessories'
-    },
-    {
-      id: 'power-adapter',
-      imageUrl: 'https://i.postimg.cc/GtVxtZ9K/power-adaptor.webp',
-      title: 'Power Adapter',
-      description: 'Universal power adapter with multiple voltage support',
-      category: 'Accessories'
-    },
-    {
-      id: 'safety-goggles',
-      imageUrl: 'https://i.postimg.cc/1tYp7L0S/safety-goggles.webp',
-      title: 'Safety Goggles',
-      description: 'Professional-grade protective eyewear for IPL treatments',
-      category: 'Accessories'
-    }
-  ];
-
   return (
     <LanguageProvider>
       <Router>
         <div className="min-h-screen bg-white">
-          {/* 将 thumbnailData 作为 props 传递给 Header 组件 */}
-          <Header thumbnailData={thumbnailData} />
+          <Header />
           <main>
             <Routes>
               {/* Main Pages */}
