@@ -74,20 +74,7 @@ const Contact: React.FC = () => {
 
 
 
-      {/* Map Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Visit Our Facility</h2>
-            <p className="text-lg text-gray-600">
-              Located in the heart of Shenzhen's manufacturing district
-            </p>
-          </motion.div>
+
 
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
