@@ -6,11 +6,6 @@ import ContactFormB from '../components/Forms/ContactFormB';
 const Contact: React.FC = () => {
   const contactInfo = [
     {
-      icon: MapPin,
-      title: 'Address',
-      details: ['iShine Manufacturing Co., Ltd.', 'Shenzhen, Guangdong, China']
-    },
-    {
       icon: Phone,
       title: 'Phone',
       details: ['+86 400-123-4567', '+86 755-8888-9999']
@@ -73,8 +68,6 @@ const Contact: React.FC = () => {
       </section>
 
 
-
-      {/* Map Section */}
 
 
           <motion.div
