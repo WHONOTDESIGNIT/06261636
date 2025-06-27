@@ -47,6 +47,26 @@ html {
   }
 }
 
+/* Custom bounce down animation for chevrons */
+.animate-bounce-down {
+  animation: bounce-down 2s ease-in-out infinite;
+}
+
+@keyframes bounce-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+}
+
 /* Custom button hover effects */
 .btn-hover-scale:hover {
   transform: scale(1.05);

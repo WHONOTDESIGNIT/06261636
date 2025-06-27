@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronDown, Search } from 'lucide-react';
+import { ChevronDown, Search, ChevronsDown } from 'lucide-react';
 import { languages } from '../../data/languages';
 
 export const LanguageSelector: React.FC = () => {
@@ -58,11 +58,16 @@ export const LanguageSelector: React.FC = () => {
                 placeholder="Search for a country..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ishine-blue-500 focus:border-ishine-blue-500"
+                className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ishine-blue-500 focus:border-ishine-blue-500 bg-white"
               />
+              
+              {/* Animated chevrons at bottom of input */}
+              <div className="absolute right-3 bottom-2">
+                <ChevronsDown className="w-2.5 h-2.5 text-gray-400 animate-bounce-down" />
+              </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-h-96 overflow-y-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-h-96 overflow-y-auto bg-white">
               {Object.entries(groupedLanguages).map(([region, langs]) => (
                 <div key={region}>
                   <h3 className="font-semibold text-gray-900 mb-3 border-b border-gray-200 pb-2">
