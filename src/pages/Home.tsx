@@ -26,7 +26,13 @@ const Home: React.FC = () => {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-ishine-blue-500 via-ishine-purple-500 to-ishine-teal-500 text-white h-[66.67vh] min-h-[500px] flex items-center">
         <div className="absolute inset-0 bg-black/20"></div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        
+        {/* Semi-transparent overlay */}
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="w-[42vw] h-[27vh] bg-white/60 rounded-lg"></div>
+        </div>
+        
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
