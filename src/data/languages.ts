@@ -51,7 +51,6 @@ export const languages = [
   { code: 'ar-sa', name: 'Saudi Arabia', nativeName: 'العربية', flag: '🇸🇦', region: 'Middle East & Africa' },
   { code: 'he-il', name: 'Israel', nativeName: 'עברית', flag: '🇮🇱', region: 'Middle East & Africa' },
   { code: 'tr-tr', name: 'Turkey', nativeName: 'Türkçe', flag: '🇹🇷', region: 'Middle East & Africa' },
-  { code: 'en-za', name: 'South Africa', nativeName: 'English', flag: '🇿🇦', region: 'Middle East & Africa' },
   { code: 'af-za', name: 'South Africa', nativeName: 'Afrikaans', flag: '🇿🇦', region: 'Middle East & Africa' },
   { code: 'en-ng', name: 'Nigeria', nativeName: 'English', flag: '🇳🇬', region: 'Middle East & Africa' },
   { code: 'sw-ke', name: 'Kenya', nativeName: 'Kiswahili', flag: '🇰🇪', region: 'Middle East & Africa' },
