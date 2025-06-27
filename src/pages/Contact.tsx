@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
       </section>
 
       {/* 新增的图片区域 - 与Hero Section同高 */}
-      <section className="relative h-[66.67vh] min-h-[500px] w-full">
+      <section className="relative h-[33vh] min-h-[500px] w-full">
         {/* 图片容器 - 确保图片覆盖整个区域 */}
         <div className="absolute inset-0 overflow-hidden">
           <img
