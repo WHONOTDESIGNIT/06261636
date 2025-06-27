@@ -3,7 +3,29 @@ import { motion } from 'framer-motion';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 import ContactFormB from '../components/Forms/ContactFormB';
 
-
+const Contact: React.FC = () => {
+  const contactInfo = [
+    {
+      icon: MapPin,
+      title: 'Address',
+      details: ['iShine Manufacturing Co., Ltd.', 'Shenzhen, Guangdong, China']
+    },
+    {
+      icon: Phone,
+      title: 'Phone',
+      details: ['+86 400-123-4567', '+86 755-8888-9999']
+    },
+    {
+      icon: Mail,
+      title: 'Email',
+      details: ['info@ishine-ipl.com', 'sales@ishine-ipl.com']
+    },
+    {
+      icon: Clock,
+      title: 'Business Hours',
+      details: ['Monday - Friday: 9:00 AM - 6:00 PM', 'Saturday: 9:00 AM - 12:00 PM']
+    }
+  ];
 
   return (
     <div className="min-h-screen pt-20">
@@ -54,30 +76,7 @@ import ContactFormB from '../components/Forms/ContactFormB';
         </div>
       </section>
 
-      {/* Contact Info Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {contactInfo.map((info, index) => (
-              <motion.div
-                key={info.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-gray-50 rounded-lg p-6 text-center hover:shadow-lg transition-shadow"
-              >
-                <info.icon className="w-12 h-12 text-ishine-blue-500 mx-auto mb-4" />
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">{info.title}</h3>
-                <div className="space-y-1">
-                  {info.details.map((detail, i) => (
-                    <p key={i} className="text-gray-600">{detail}</p>
-                  ))}
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+
 
       {/* Map Section */}
       <section className="py-16 bg-gray-50">
