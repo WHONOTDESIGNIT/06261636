@@ -111,7 +111,7 @@ export const LanguageSelector: React.FC = () => {
         className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors"
       >
         <span className="text-lg">{selectedLanguage.flag}</span>
-        <span className="hidden sm:inline">English</span>
+        <span className="hidden sm:inline">{selectedLanguage.name}</span>
         <ChevronDown className="w-4 h-4" />
       </button>
 

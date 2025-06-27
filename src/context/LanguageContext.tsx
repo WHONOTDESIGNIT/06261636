@@ -30,7 +30,11 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         'us': 'en', 'gb': 'en', 'ca': 'en', 'au': 'en',
         'de': 'de', 'fr': 'fr', 'es': 'es', 'it': 'it',
         'pt': 'pt', 'nl': 'nl', 'mx': 'es', 'br': 'pt',
-        'jp': 'ja', 'kr': 'ko', 'cn': 'zh', 'tw': 'zh'
+        'jp': 'ja', 'kr': 'ko', 'cn': 'zh', 'tw': 'zh',
+        'th': 'th', 'vn': 'vi', 'id': 'id', 'my': 'ms',
+        'ae': 'ar', 'sa': 'ar', 'il': 'he', 'tr': 'tr',
+        'in': 'hi', 'cz': 'cs', 'dk': 'da', 'ee': 'et',
+        'hr': 'hr', 'be': 'nl'
       };
       
       const detectedLanguage = languageMap[countryCode] || 'en';
