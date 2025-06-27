@@ -63,33 +63,41 @@ export const LanguageSelector: React.FC = () => {
               
               {/* Animated chevrons at bottom of input */}
               <div className="absolute right-3 bottom-2">
-                <ChevronsDown className="w-2.5 h-2.5 text-gray-400 animate-bounce-down" />
+                <ChevronsDown className="w-[30px] h-[30px] text-gray-400 animate-bounce-down" />
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-h-96 overflow-y-auto bg-white">
-              {Object.entries(groupedLanguages).map(([region, langs]) => (
-                <div key={region}>
-                  <h3 className="font-semibold text-gray-900 mb-3 border-b border-gray-200 pb-2">
-                    {region}
-                  </h3>
-                  <div className="space-y-2">
-                    {langs.map((lang) => (
-                      <button
-                        key={lang.code}
-                        onClick={() => handleLanguageSelect(lang)}
-                        className="flex items-center space-x-3 w-full text-left p-2 rounded-lg hover:bg-gray-50 transition-colors"
-                      >
-                        <span className="text-lg">{lang.flag}</span>
-                        <div>
-                          <div className="font-medium text-gray-900">{lang.name}</div>
-                          <div className="text-sm text-gray-500">{lang.nativeName}</div>
-                        </div>
-                      </button>
-                    ))}
+            {/* Language Grid with rounded corners and padding */}
+            <div className="bg-white rounded-xl border border-gray-200 p-[30px] max-h-96 overflow-y-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {Object.entries(groupedLanguages).map(([region, langs]) => (
+                  <div key={region}>
+                    <h3 className="font-semibold text-gray-900 mb-3 border-b border-gray-200 pb-2">
+                      {region}
+                    </h3>
+                    <div className="space-y-2">
+                      {langs.map((lang) => (
+                        <button
+                          key={lang.code}
+                          onClick={() => handleLanguageSelect(lang)}
+                          className="flex items-center space-x-3 w-full text-left p-2 rounded-lg hover:bg-navy-blue hover:text-white transition-all duration-200"
+                        >
+                          <span className="text-lg">{lang.flag}</span>
+                          <div>
+                            <div className="font-medium">{lang.name}</div>
+                            <div className="text-sm opacity-75">{lang.nativeName}</div>
+                          </div>
+                        </button>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
+              
+              {/* Animated arrow indicator at bottom of grid */}
+              <div className="flex justify-center mt-6">
+                <ChevronsDown className="w-[30px] h-[30px] text-gray-400 animate-bounce-down" />
+              </div>
             </div>
           </div>
         </div>

@@ -37,7 +37,8 @@ export default {
         'ishine-form': {
           500: '#0066a1', // (0,102,161)
           600: '#005688', // (0,86,136)
-        }
+        },
+        'navy-blue': '#1e3a8a', // Navy blue color for hover state
       },
       fontFamily: {
         'sans': ['Inter', 'system-ui', 'sans-serif'],
@@ -45,11 +46,26 @@ export default {
       animation: {
         'float': 'float 6s ease-in-out infinite',
         'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'bounce-down': 'bounce-down 2s ease-in-out infinite',
       },
       keyframes: {
         float: {
           '0%, 100%': { transform: 'translateY(0px)' },
           '50%': { transform: 'translateY(-20px)' },
+        },
+        'bounce-down': {
+          '0%': { 
+            opacity: '0',
+            transform: 'translateY(-5px)'
+          },
+          '50%': { 
+            opacity: '1',
+            transform: 'translateY(0px)'
+          },
+          '100%': { 
+            opacity: '0',
+            transform: 'translateY(5px)'
+          },
         }
       }
     },
