@@ -67,6 +67,33 @@ html {
   }
 }
 
+/* Enhanced floating animation with viewport tracking */
+.animate-floating-indicator {
+  animation: floating-indicator 3s ease-in-out infinite;
+}
+
+@keyframes floating-indicator {
+  0% {
+    opacity: 0.6;
+    transform: translateY(-8px) scale(0.95);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+  100% {
+    opacity: 0.6;
+    transform: translateY(8px) scale(0.95);
+  }
+}
+
+/* Smooth position transitions for floating elements */
+.floating-smooth-transition {
+  transition: bottom 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              left 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 0.3s ease-in-out;
+}
+
 /* Custom button hover effects */
 .btn-hover-scale:hover {
   transform: scale(1.05);
@@ -84,6 +111,12 @@ html {
 /* Custom shadows */
 .shadow-glow {
   box-shadow: 0 0 20px rgba(0, 116, 224, 0.3);
+}
+
+/* Enhanced shadow for floating elements */
+.shadow-floating {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15),
+              0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Responsive utilities */
@@ -118,4 +151,16 @@ input:focus, textarea:focus, select:focus {
 .card-hover:hover {
   transform: translateY(-4px);
   transition: transform 0.3s ease-in-out;
+}
+
+/* Viewport-aware animations */
+@media (prefers-reduced-motion: reduce) {
+  .animate-bounce-down,
+  .animate-floating-indicator {
+    animation: none;
+  }
+  
+  .floating-smooth-transition {
+    transition: none;
+  }
 }
