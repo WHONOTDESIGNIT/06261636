@@ -30,27 +30,36 @@ const Header: React.FC = () => {
       href: '/ipl-hair-removal',
       hasDropdown: true,
       items: [
-        { name: 'Smart App-Controlled IPL Device', href: '/ipl-hair-removal/smart-app', thumbnail: true },
-        { name: 'Ice Feeling IPL Device', href: '/ipl-hair-removal/ice-feeling', thumbnail: true },
-        { name: 'Emerald IPL Device', href: '/ipl-hair-removal/emerald', thumbnail: true },
-        { name: 'Skin Sensor IPL Device', href: '/ipl-hair-removal/skin-sensor', thumbnail: true },
-        { name: 'Battery Powered IPL Device', href: '/ipl-hair-removal/battery-powered', thumbnail: true },
-        { name: 'Handheld IPL Device', href: '/ipl-hair-removal/handheld', thumbnail: true },
-        { name: 'Ice Cooling IPL Device', href: '/ipl-hair-removal/ice-cooling', thumbnail: true },
-        { name: 'Dual-Lamp IPL Device', href: '/ipl-hair-removal/dual-lamp', thumbnail: true },
-        { name: 'AI-POWERED IPL Device', href: '/ipl-hair-removal/ai-powered', thumbnail: true }
+        {
+          name: 'IPL Devices',
+          isCategory: true,
+          items: [
+            { name: 'Smart App-Controlled IPL Device', href: '/ipl-hair-removal/smart-app', thumbnail: true },
+            { name: 'Ice Feeling IPL Device', href: '/ipl-hair-removal/ice-feeling', thumbnail: true },
+            { name: 'Emerald IPL Device', href: '/ipl-hair-removal/emerald', thumbnail: true },
+            { name: 'Skin Sensor IPL Device', href: '/ipl-hair-removal/skin-sensor', thumbnail: true },
+            { name: 'Battery Powered IPL Device', href: '/ipl-hair-removal/battery-powered', thumbnail: true },
+            { name: 'Handheld IPL Device', href: '/ipl-hair-removal/handheld', thumbnail: true },
+            { name: 'Ice Cooling IPL Device', href: '/ipl-hair-removal/ice-cooling', thumbnail: true },
+            { name: 'Dual-Lamp IPL Device', href: '/ipl-hair-removal/dual-lamp', thumbnail: true },
+            { name: 'AI-POWERED IPL Device', href: '/ipl-hair-removal/ai-powered', thumbnail: true }
+          ]
+        },
+        {
+          name: 'Accessories',
+          isCategory: true,
+          items: [
+            { name: 'Sapphire Lens', href: '/accessories/sapphire-lens', icon: '💎' },
+            { name: 'Filter', href: '/accessories/filter', icon: '🔍' },
+            { name: 'Adapter', href: '/accessories/adapter', icon: '🔌' },
+            { name: 'Protective Goggles', href: '/accessories/goggles', icon: '🥽' }
+          ]
+        }
       ]
     },
     {
-      name: 'Accessories',
-      href: '/accessories',
-      hasDropdown: true,
-      items: [
-        { name: 'Sapphire Lens', href: '/accessories/sapphire-lens', icon: '💎' },
-        { name: 'Adapter', href: '/accessories/adapter', icon: '🔌' },
-        { name: 'Protective Goggles', href: '/accessories/goggles', icon: '🥽' },
-        { name: 'Filter', href: '/accessories/filter', icon: '🔍' }
-      ]
+      name: 'How to Use',
+      href: '/how-to-use'
     },
     {
       name: 'Service & Support',
@@ -172,8 +181,17 @@ const Header: React.FC = () => {
                                   <Link
                                     key={catIndex}
                                     to={categoryItem.href}
-                                    className="block px-3 py-2 text-sm text-gray-600 hover:text-ishine-blue-500 hover:bg-gray-50 rounded-md transition-colors"
+                                    className="flex items-center px-3 py-2 text-sm text-gray-600 hover:text-ishine-blue-500 hover:bg-gray-50 rounded-md transition-colors"
                                   >
+                                    {categoryItem.thumbnail ? (
+                                      <img
+                                        src={getThumbnailUrl(categoryItem.name)}
+                                        alt={categoryItem.name}
+                                        className="w-8 h-8 rounded object-cover mr-3"
+                                      />
+                                    ) : categoryItem.icon ? (
+                                      <span className="text-lg mr-3">{categoryItem.icon}</span>
+                                    ) : null}
                                     {categoryItem.name}
                                   </Link>
                                 ))}

@@ -7,6 +7,7 @@ import FloatingWidgets from './components/Layout/FloatingWidgets';
 import Home from './pages/Home';
 import Solutions from './pages/Solutions';
 import IPLHairRemoval from './pages/IPLHairRemoval';
+import HowToUse from './pages/HowToUse';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
@@ -71,6 +72,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/solutions" element={<Solutions />} />
             <Route path="/ipl-hair-removal" element={<IPLHairRemoval />} />
+            <Route path="/how-to-use" element={<HowToUse />} />
             <Route path="/accessories" element={<div className="pt-20 p-8"><h1>Accessories - Coming Soon</h1></div>} />
             <Route path="/service-support" element={<div className="pt-20 p-8"><h1>Service & Support - Coming Soon</h1></div>} />
             <Route path="/about" element={<About />} />
