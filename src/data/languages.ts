@@ -39,7 +39,6 @@ export const languages = [
   { code: 'ko-kr', name: 'South Korea', nativeName: '한국어', flag: '🇰🇷', region: 'Asia Pacific' },
   { code: 'zh-cn', name: 'China', nativeName: '简体中文', flag: '🇨🇳', region: 'Asia Pacific' },
   { code: 'zh-tw', name: 'Taiwan', nativeName: '繁體中文', flag: '🇹🇼', region: 'Asia Pacific' },
-  { code: 'zh-hk', name: 'Hong Kong', nativeName: '繁體中文', flag: '🇭🇰', region: 'Asia Pacific' },
   { code: 'th-th', name: 'Thailand', nativeName: 'ไทย', flag: '🇹🇭', region: 'Asia Pacific' },
   { code: 'vi-vn', name: 'Vietnam', nativeName: 'Tiếng Việt', flag: '🇻🇳', region: 'Asia Pacific' },
   { code: 'id-id', name: 'Indonesia', nativeName: 'Bahasa Indonesia', flag: '🇮🇩', region: 'Asia Pacific' },
