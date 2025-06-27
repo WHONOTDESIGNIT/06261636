@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Search, Youtube, Linkedin, Menu, X, ChevronDown } from 'lucide-react';
 import { LanguageSelector } from './LanguageSelector';
+import { iplDevices, accessories } from '../../data/products'; // 导入产品数据
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -50,9 +51,9 @@ const Header: React.FC = () => {
           isCategory: true,
           items: [
             { name: 'Sapphire Lens', href: '/accessories/sapphire-lens', icon: '💎' },
-            { name: 'Filter', href: '/accessories/filter', icon: '🔍' },
-            { name: 'Adapter', href: '/accessories/adapter', icon: '🔌' },
-            { name: 'Protective Goggles', href: '/accessories/goggles', icon: '🥽' }
+            { name: 'Optical Filter', href: '/accessories/filter', icon: '🔍' },
+            { name: 'Power Adapter', href: '/accessories/adapter', icon: '🔌' },
+            { name: 'Safety Goggles', href: '/accessories/goggles', icon: '🥽' }
           ]
         }
       ]
@@ -120,19 +121,22 @@ const Header: React.FC = () => {
     setActiveDropdown(activeDropdown === name ? null : name);
   };
 
+  // 从产品数据中获取缩略图URL的函数
   const getThumbnailUrl = (itemName: string) => {
-    const thumbnailMap: { [key: string]: string } = {
-      'Smart App-Controlled IPL Device': 'https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=33&h=33',
-      'Ice Feeling IPL Device': 'https://images.pexels.com/photos/3985164/pexels-photo-3985164.jpeg?auto=compress&cs=tinysrgb&w=33&h=33',
-      'Emerald IPL Device': 'https://images.pexels.com/photos/3985165/pexels-photo-3985165.jpeg?auto=compress&cs=tinysrgb&w=33&h=33',
-      'Skin Sensor IPL Device': 'https://images.pexels.com/photos/3985166/pexels-photo-3985166.jpeg?auto=compress&cs=tinysrgb&w=33&h=33',
-      'Battery Powered IPL Device': 'https://images.pexels.com/photos/3985167/pexels-photo-3985167.jpeg?auto=compress&cs=tinysrgb&w=33&h=33',
-      'Handheld IPL Device': 'https://images.pexels.com/photos/3985168/pexels-photo-3985168.jpeg?auto=compress&cs=tinysrgb&w=33&h=33',
-      'Ice Cooling IPL Device': 'https://images.pexels.com/photos/3985169/pexels-photo-3985169.jpeg?auto=compress&cs=tinysrgb&w=33&h=33',
-      'Dual-Lamp IPL Device': 'https://images.pexels.com/photos/3985170/pexels-photo-3985170.jpeg?auto=compress&cs=tinysrgb&w=33&h=33',
-      'AI-POWERED IPL Device': 'https://images.pexels.com/photos/3985171/pexels-photo-3985171.jpeg?auto=compress&cs=tinysrgb&w=33&h=33'
-    };
-    return thumbnailMap[itemName] || '';
+    // 首先在IPL设备中查找
+    const iplDevice = iplDevices.find(device => device.name === itemName);
+    if (iplDevice && iplDevice.thumbnail) {
+      return iplDevice.thumbnail;
+    }
+    
+    // 然后在配件中查找
+    const accessory = accessories.find(acc => acc.name === itemName);
+    if (accessory && accessory.thumbnail) {
+      return accessory.thumbnail;
+    }
+    
+    // 如果没有找到，返回空字符串
+    return '';
   };
 
   return (
@@ -190,6 +194,10 @@ const Header: React.FC = () => {
                                         src={getThumbnailUrl(categoryItem.name)}
                                         alt={categoryItem.name}
                                         className="w-8 h-8 rounded object-cover mr-3"
+                                        onError={(e) => {
+                                          // 如果图片加载失败，隐藏图片元素
+                                          e.currentTarget.style.display = 'none';
+                                        }}
                                       />
                                     ) : categoryItem.icon ? (
                                       <span className="text-lg mr-3">{categoryItem.icon}</span>
@@ -209,6 +217,9 @@ const Header: React.FC = () => {
                                   src={getThumbnailUrl(subItem.name)}
                                   alt={subItem.name}
                                   className="w-8 h-8 rounded object-cover mr-3"
+                                  onError={(e) => {
+                                    e.currentTarget.style.display = 'none';
+                                  }}
                                 />
                               ) : subItem.icon ? (
                                 <span className="text-lg mr-3">{subItem.icon}</span>
@@ -322,6 +333,9 @@ const Header: React.FC = () => {
                                   src={getThumbnailUrl(subItem.name)}
                                   alt={subItem.name}
                                   className="w-6 h-6 rounded object-cover mr-2"
+                                  onError={(e) => {
+                                    e.currentTarget.style.display = 'none';
+                                  }}
                                 />
                               ) : subItem.icon ? (
                                 <span className="text-sm mr-2">{subItem.icon}</span>

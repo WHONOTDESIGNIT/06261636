@@ -3,6 +3,7 @@ export interface Product {
   name: string;
   description: string;
   image: string;
+  thumbnail?: string; // 添加可选的缩略图字段
   features: string[];
   category: 'ipl' | 'accessories';
 }
