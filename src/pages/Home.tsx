@@ -39,24 +39,20 @@ const Home: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
-              From Idea to Market
+            <h1 className="text-xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
+              Custom IPL Devices 
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-300">
-                IPL Excellence
+                & Branding IPL Devices
               </span>
             </h1>
-            <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 text-black max-w-3xl mx-auto px-4">
-              Leading IPL device manufacturer providing complete OEM/ODM solutions. 
-              Design, build, and package your IPL devices with our expert team.
+            <p className="text-md sm:text-xl md:text-2xl mb-6 sm:mb-8 text-black max-w-3xl mx-auto px-4">
+              Global Leading IPL device manufacturer,<br />
+              help you design it, build it, and box it.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
-              <Button size="lg" className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4">
-                Get Custom Quote
-                <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
-              </Button>
-              <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 border-white text-white hover:bg-white hover:text-ishine-blue-500">
-                View Our Solutions
+              <Button size="xxs" className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4">
+                Get Quote
               </Button>
             </div>
           </motion.div>

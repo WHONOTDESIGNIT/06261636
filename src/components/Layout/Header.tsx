@@ -1,19 +1,12 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Search, Youtube, Linkedin, Menu, X, ChevronDown } from 'lucide-react';
-import LanguageSelector from './LanguageSelector';
-import { languages } from '../../data/languages';
-import { Language } from '../../types';
+import { LanguageSelector } from './LanguageSelector';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-  const [selectedLanguage, setSelectedLanguage] = useState<Language>(languages[0]);
   const location = useLocation();
-
-  const handleLanguageSelect = (language: Language) => {
-    setSelectedLanguage(language);
-  };
 
   const navigation = [
     {
@@ -214,11 +207,7 @@ const Header: React.FC = () => {
 
           {/* Right Side Icons */}
           <div className="flex items-center space-x-4">
-            <LanguageSelector
-              languages={languages}
-              selectedLanguage={selectedLanguage}
-              onSelect={handleLanguageSelect}
-            />
+            <LanguageSelector />
             <button className="p-2 text-gray-600 hover:text-ishine-blue-500 transition-colors">
               <Search className="w-5 h-5" />
             </button>
