@@ -1,11 +1,29 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Globe, Users, Award, MapPin } from 'lucide-react';
+import { Globe } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
+
+// Example brand image paths, replace with your actual image paths
+const brandImages = [
+  'brand1.png',
+  'brand2.png',
+  'brand3.png',
+  'brand4.png',
+  'brand5.png',
+  'brand6.png',
+  'brand7.png',
+  'brand8.png',
+  'brand9.png',
+  'brand10.png',
+  // ...add as many as needed
+];
+
+const CONTAINER_WIDTH = 353 * 5 + 10 * 4; // 5 images + 4 gaps = 1,865px
 
 const GlobalWitness: React.FC = () => {
   return (
     <div className="min-h-screen pt-20">
+      {/* Hero Section */}
       <section className="bg-gradient-to-r from-green-500 to-teal-600 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -24,32 +42,50 @@ const GlobalWitness: React.FC = () => {
         </div>
       </section>
 
-      {/* -------- BRAND GALLERY -------- */}
+      {/* Brand Gallery */}
       <section className="py-20 bg-white">
-        {/* Replace items in brandImages with actual logo paths */}
-        {(() => {
-          const brandImages = [
-            'https://i.postimg.cc/QMCy5nYT/7d7c6493e74549d2cb4dc6d0bbdfa153.jpg',
-            'https://i.postimg.cc/bwBTXYLZ/global-witness-05.jpg',
-            'brand3.png',
-            'brand4.png',
-            'brand5.png',
-            // Add more image paths here without duplicates
-          ];
-          return (
-            <div className="max-w-full mx-auto flex flex-wrap justify-center gap-[10px] bg-[#f9f9f9] rounded-[24px] p-10">
-              {brandImages.map((src) => (
-                <div key={src} className="w-[353px] rounded-[18px] overflow-hidden">
-                  <img
-                    src={src}
-                    alt={src.split('.')[0]}
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-              ))}
+        <div
+          className="mx-auto"
+          style={{
+            width: `${CONTAINER_WIDTH}px`,
+            display: 'grid',
+            gridTemplateColumns: 'repeat(5, 353px)',
+            gap: '10px',
+            background: '#f9f9f9',
+            borderRadius: '24px',
+            padding: '40px 0',
+            justifyContent: 'flex-start'
+          }}
+        >
+          {brandImages.map((src, idx) => (
+            <div
+              key={src}
+              style={{
+                width: '353px',
+                borderRadius: '18px',
+                overflow: 'hidden',
+                background: '#fff',
+                display: 'flex',
+                alignItems: 'flex-start',
+                justifyContent: 'center'
+              }}
+            >
+              <img
+                src={src}
+                alt={`Brand ${idx + 1}`}
+                style={{
+                  width: '353px',
+                  height: 'auto',
+                  display: 'block',
+                  borderRadius: '18px',
+                  objectFit: 'contain',
+                  background: '#fff'
+                }}
+                loading="lazy"
+              />
             </div>
-          );
-        })()}
+          ))}
+        </div>
       </section>
 
       <ContactFormA />
