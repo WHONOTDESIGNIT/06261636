@@ -42,7 +42,7 @@ import Filter from './pages/accessories/Filter.tsx';
 
 // Service & Support Pages
 import AfterSalesService from './pages/service/AfterSalesService.tsx';
-import FDAGMPDesign from './pages/service/FDAGMPDesign.tsx';
+import WinFDAListing from './pages/service/WinFDAListing.tsx';
 import IPLManufacturing from './pages/service/IPLManufacturing.tsx';
 import KnowledgeBase from './pages/service/KnowledgeBase.tsx';
 import BeautySourcing from './pages/service/BeautySourcing.tsx';
@@ -116,7 +116,7 @@ function App() {
 
               {/* Service & Support Pages */}
               <Route path="/service-support/after-sales" element={<AfterSalesService />} />
-              <Route path="/service-support/fda-gmp" element={<FDAGMPDesign />} />
+              <Route path="/service-support/win-fda-listing" element={<WinFDAListing />} />
               <Route path="/service-support/manufacturing" element={<IPLManufacturing />} />
               <Route path="/service-support/knowledge-base" element={<KnowledgeBase />} />
               <Route path="/service-support/beauty-sourcing" element={<BeautySourcing />} />

@@ -30,14 +30,14 @@ const timeline = [
   { day: 'Day 100+', event: 'If no decision, FDA provides written feedback explaining delay' },
 ];
 
-const FDAGMPDesign: React.FC = () => {
+const WinFDAListing: React.FC = () => {
   return (
     <div className="min-h-screen bg-white pt-20">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-[rgb(30,157,139)] to-[rgb(36,151,144)] text-white py-16">
         <div className="max-w-2xl mx-auto px-4 text-center">
           <FileCheck2 className="w-16 h-16 mx-auto mb-6 text-white" />
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">FDA Listing & 510(k) Support</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">Win FDA Listing & 510(k) Support</h1>
           <p className="text-xl mb-8 text-gray-100">
             iShine empowers brands to create custom IPL devices, secure appearance patents, and achieve FDA listing and 510(k) clearance—enabling confident, compliant entry into the U.S. market.
           </p>
@@ -115,4 +115,4 @@ const FDAGMPDesign: React.FC = () => {
   );
 };
 
-export default FDAGMPDesign;
+export default WinFDAListing;
