@@ -7,14 +7,14 @@ const headTypes = [
     name: 'Precision Face Head',
     spotSize: '2.0 cm²',
     application: 'Upper lip, chin, jawline precision treatment',
-    features: 'Extra UV filter, flat design for facial contours[4][5]',
+    features: 'Extra UV filter, flat design for facial contours',
     icon: <Target className="w-8 h-8 text-[rgb(0,116,224)]" />,
   },
   {
     name: 'Curved Underarm Head',
     spotSize: '3.0 cm²', 
     application: 'Optimized for underarm area curvature',
-    features: 'Curved-out design for hard-to-reach areas[4][16]',
+    features: 'Curved-out design for hard-to-reach areas',
     icon: <Target className="w-8 h-8 text-[rgb(0,116,224)]" />,
   },
   {
@@ -28,31 +28,31 @@ const headTypes = [
     name: 'Large Body Head',
     spotSize: '4.1 cm²',
     application: 'Fast treatment on legs, arms, stomach',
-    features: 'Curved-in design for maximum skin contact[4][16]',
+    features: 'Curved-in design for maximum skin contact',
     icon: <Target className="w-8 h-8 text-[rgb(0,116,224)]" />,
   },
   {
     name: 'Sapphire Cooling Head',
     spotSize: '2.5-4.0 cm²',
     application: 'Pain reduction for sensitive/dark skin',
-    features: '90% pain reduction, continuous cooling[25][18]',
+    features: '90% pain reduction, continuous cooling',
     icon: <Zap className="w-8 h-8 text-[rgb(0,116,224)]" />,
   },
   {
     name: 'Extra-Large Professional Head',
     spotSize: '12.0 cm²',
     application: 'Commercial-grade full body treatment',
-    features: 'Maximum coverage, professional clinic efficiency[11][12]',
+    features: 'Maximum coverage, professional clinic efficiency',
     icon: <Target className="w-8 h-8 text-[rgb(0,116,224)]" />,
   },
 ];
 
 const technicalSpecs = [
-  { parameter: 'Spot Size Range', value: '2.0 - 12.0 cm²', note: 'Customizable based on application[21][23]' },
-  { parameter: 'Wavelength Options', value: '530-1200nm', note: 'Multi-spectrum customization available[13][28]' },
-  { parameter: 'Cooling Technology', value: 'Sapphire Contact Cooling', note: 'Up to 90% pain reduction[25][18]' },
-  { parameter: 'Energy Density', value: '10-35 J/cm²', note: 'Adjustable per head type[28]' },
-  { parameter: 'Treatment Coverage', value: '1×4mm to 15×40mm', note: 'Precision to full-body options[23]' },
+  { parameter: 'Spot Size Range', value: '2.0 - 12.0 cm²', note: 'Customizable based on application' },
+  { parameter: 'Wavelength Options', value: '530-1200nm', note: 'Multi-spectrum customization available' },
+  { parameter: 'Cooling Technology', value: 'Sapphire Contact Cooling', note: 'Up to 90% pain reduction' },
+  { parameter: 'Energy Density', value: '10-35 J/cm²', note: 'Adjustable per head type' },
+  { parameter: 'Treatment Coverage', value: '1×4mm to 15×40mm', note: 'Precision to full-body options' },
 ];
 
 const MultiHeadIPL: React.FC = () => {
