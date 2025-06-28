@@ -1,98 +1,213 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { Zap, Settings, Award, Target } from 'lucide-react';
+import { Settings, Zap, Target } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
+
+const headTypes = [
+  {
+    name: 'Precision Face Head',
+    spotSize: '2.0 cm²',
+    application: 'Upper lip, chin, jawline precision treatment',
+    features: 'Extra UV filter, flat design for facial contours[4][5]',
+    icon: <Target className="w-8 h-8 text-[rgb(0,116,224)]" />,
+  },
+  {
+    name: 'Curved Underarm Head',
+    spotSize: '3.0 cm²', 
+    application: 'Optimized for underarm area curvature',
+    features: 'Curved-out design for hard-to-reach areas[4][16]',
+    icon: <Target className="w-8 h-8 text-[rgb(0,116,224)]" />,
+  },
+  {
+    name: 'Bikini Area Head',
+    spotSize: '3.0 cm²',
+    application: 'Precise bikini line and intimate area treatment',
+    features: 'Extra transparent filter, curved design[4][16]',
+    icon: <Target className="w-8 h-8 text-[rgb(0,116,224)]" />,
+  },
+  {
+    name: 'Large Body Head',
+    spotSize: '4.1 cm²',
+    application: 'Fast treatment on legs, arms, stomach',
+    features: 'Curved-in design for maximum skin contact[4][16]',
+    icon: <Target className="w-8 h-8 text-[rgb(0,116,224)]" />,
+  },
+  {
+    name: 'Sapphire Cooling Head',
+    spotSize: '2.5-4.0 cm²',
+    application: 'Pain reduction for sensitive/dark skin',
+    features: '90% pain reduction, continuous cooling[25][18]',
+    icon: <Zap className="w-8 h-8 text-[rgb(0,116,224)]" />,
+  },
+  {
+    name: 'Extra-Large Professional Head',
+    spotSize: '12.0 cm²',
+    application: 'Commercial-grade full body treatment',
+    features: 'Maximum coverage, professional clinic efficiency[11][12]',
+    icon: <Target className="w-8 h-8 text-[rgb(0,116,224)]" />,
+  },
+];
+
+const technicalSpecs = [
+  { parameter: 'Spot Size Range', value: '2.0 - 12.0 cm²', note: 'Customizable based on application[21][23]' },
+  { parameter: 'Wavelength Options', value: '530-1200nm', note: 'Multi-spectrum customization available[13][28]' },
+  { parameter: 'Cooling Technology', value: 'Sapphire Contact Cooling', note: 'Up to 90% pain reduction[25][18]' },
+  { parameter: 'Energy Density', value: '10-35 J/cm²', note: 'Adjustable per head type[28]' },
+  { parameter: 'Treatment Coverage', value: '1×4mm to 15×40mm', note: 'Precision to full-body options[23]' },
+];
 
 const MultiHeadIPL: React.FC = () => {
   return (
-    <div className="min-h-screen pt-20">
+    <div className="min-h-screen bg-white pt-20">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-ishine-purple-500 to-ishine-blue-500 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-center"
-          >
-            <Zap className="w-16 h-16 mx-auto mb-6 text-white" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Multi-head IPL Custom</h1>
-            <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
-              Advanced multi-head IPL technology for enhanced treatment efficiency. 
-              Custom configurations to meet your specific application requirements.
-            </p>
-          </motion.div>
+      <section className="bg-gradient-to-r from-[rgb(30,157,139)] to-[rgb(36,151,144)] text-white py-16">
+        <div className="max-w-3xl mx-auto px-4 text-center">
+          <Settings className="w-16 h-16 mx-auto mb-6 text-white" />
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">Multi-Head IPL Systems</h1>
+          <p className="text-xl mb-8 text-gray-100">
+            iShine engineers custom IPL attachment heads for every treatment scenario—from precision facial work to full-body coverage, with specialized solutions for dark skin comfort and professional efficiency.
+          </p>
         </div>
       </section>
 
-      {/* Features */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Multi-head Advantages</h2>
-            <p className="text-lg text-gray-600">
-              Superior performance with multiple treatment heads
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              {
-                icon: Settings,
-                title: 'Versatile Treatment',
-                description: 'Multiple heads for different body areas and skin types',
-                features: ['Face treatment head', 'Body treatment head', 'Precision head', 'Large area head']
-              },
-              {
-                icon: Target,
-                title: 'Enhanced Efficiency',
-                description: 'Faster treatment times with optimized coverage',
-                features: ['Reduced session time', 'Better coverage', 'Consistent results', 'User convenience']
-              },
-              {
-                icon: Award,
-                title: 'Professional Grade',
-                description: 'Salon-quality performance for home use',
-                features: ['High energy output', 'Precise wavelengths', 'Safety features', 'Durability tested']
-              },
-              {
-                icon: Zap,
-                title: 'Smart Technology',
-                description: 'Intelligent head detection and optimization',
-                features: ['Auto head detection', 'Optimized settings', 'Safety protocols', 'User guidance']
-              }
-            ].map((feature, index) => (
-              <motion.div
-                key={feature.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow"
-              >
-                <feature.icon className="w-12 h-12 text-ishine-purple-500 mb-4" />
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">{feature.title}</h3>
-                <p className="text-gray-600 mb-4">{feature.description}</p>
-                <ul className="space-y-2">
-                  {feature.features.map((item, i) => (
-                    <li key={i} className="flex items-center text-sm text-gray-700">
-                      <div className="w-2 h-2 bg-ishine-purple-500 rounded-full mr-2"></div>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </motion.div>
+      {/* Attachment Head Portfolio */}
+      <section className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-2xl font-bold mb-8 text-[rgb(0,116,224)] text-center">Custom IPL Head Portfolio</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {headTypes.map((head) => (
+              <div key={head.name} className="bg-[#f9f9f9] rounded-2xl shadow-sm p-6 flex flex-col items-center text-center hover:shadow-md transition">
+                {head.icon}
+                <h3 className="text-lg font-semibold mb-2">{head.name}</h3>
+                <div className="text-[rgb(0,116,224)] font-bold text-xl mb-2">{head.spotSize}</div>
+                <p className="text-gray-800 text-sm mb-2">{head.application}</p>
+                <p className="text-gray-600 text-xs">{head.features}</p>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Contact Form */}
-      <ContactFormA />
+      {/* Technical Specifications */}
+      <section className="py-16 bg-[#f9f9f9]">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-2xl font-bold mb-8 text-[rgb(0,116,224)] text-center">Technical Customization Range</h2>
+          <div className="overflow-x-auto">
+            <table className="min-w-full bg-white rounded-xl shadow-sm text-left">
+              <thead>
+                <tr>
+                  <th className="py-3 px-4 font-semibold text-gray-700">Parameter</th>
+                  <th className="py-3 px-4 font-semibold text-gray-700">Range/Options</th>
+                  <th className="py-3 px-4 font-semibold text-gray-700">Application Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                {technicalSpecs.map((spec, idx) => (
+                  <tr key={idx} className="border-b last:border-b-0">
+                    <td className="py-3 px-4 text-gray-800">{spec.parameter}</td>
+                    <td className="py-3 px-4 text-[rgb(0,116,224)] font-medium">{spec.value}</td>
+                    <td className="py-3 px-4 text-gray-600">{spec.note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* Advanced Features */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-2xl font-bold mb-8 text-[rgb(0,116,224)] text-center">Advanced Attachment Capabilities</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-[#f9f9f9] rounded-xl p-6">
+              <h3 className="text-lg font-semibold mb-3 text-[rgb(0,116,224)]">Sapphire Cooling Technology</h3>
+              <ul className="space-y-2 text-gray-800 text-sm">
+                <li>• **90% pain reduction** for sensitive and dark skin types[25][18]</li>
+                <li>• Continuous contact cooling during treatment[25]</li>
+                <li>• Safe for Fitzpatrick skin types I-IV[9][17]</li>
+                <li>• Temperature control: 50°F-104°F vs standard 158°F-212°F[18]</li>
+              </ul>
+            </div>
+            <div className="bg-[#f9f9f9] rounded-xl p-6">
+              <h3 className="text-lg font-semibold mb-3 text-[rgb(0,116,224)]">Intelligent Attachment Recognition</h3>
+              <ul className="space-y-2 text-gray-800 text-sm">
+                <li>• Automatic treatment program adaptation per body area[4][16]</li>
+                <li>• Smart head recognition for optimal energy settings[10]</li>
+                <li>• Real-time coverage feedback and guidance[10]</li>
+                <li>• Built-in safety protocols for each attachment type[4][16]</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Custom Engineering Process */}
+      <section className="py-12 bg-[#f9f9f9]">
+        <div className="max-w-3xl mx-auto px-4 text-center">
+          <h3 className="text-xl font-bold text-[rgb(0,116,224)] mb-4">Custom Head Engineering Process</h3>
+          <div className="grid md:grid-cols-4 gap-6 text-sm">
+            <div>
+              <span className="text-[rgb(0,116,224)] font-bold text-lg">01</span>
+              <p className="text-gray-800 mt-1">Application Analysis</p>
+            </div>
+            <div>
+              <span className="text-[rgb(0,116,224)] font-bold text-lg">02</span>
+              <p className="text-gray-800 mt-1">Spot Size Optimization</p>
+            </div>
+            <div>
+              <span className="text-[rgb(0,116,224)] font-bold text-lg">03</span>
+              <p className="text-gray-800 mt-1">Filter & Lens Integration</p>
+            </div>
+            <div>
+              <span className="text-[rgb(0,116,224)] font-bold text-lg">04</span>
+              <p className="text-gray-800 mt-1">Ergonomic Validation</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Data-Driven Benefits */}
+      <section className="py-16 bg-white">
+        <div className="max-w-3xl mx-auto px-4 text-center">
+          <h3 className="text-xl font-bold text-[rgb(0,116,224)] mb-6">Proven Multi-Head Advantages</h3>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="text-3xl font-bold text-[rgb(236,67,113)] mb-2">40%</div>
+              <p className="text-gray-700">Faster full-body treatment with large spot heads[11][12]</p>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-[rgb(236,67,113)] mb-2">90%</div>
+              <p className="text-gray-700">Pain reduction with sapphire cooling attachments[25][18]</p>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-[rgb(236,67,113)] mb-2">85%</div>
+              <p className="text-gray-700">User satisfaction with precision attachments[16]</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="bg-gradient-to-r from-[rgb(236,67,113)] to-[rgb(125,0,99)] py-16">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-white mb-4 tracking-tight">
+            Ready to Engineer Your Custom Multi-Head IPL System?
+          </h2>
+          <p className="text-lg text-white mb-8">
+            Our technical team will design attachment heads optimized for your target markets, treatment protocols, and user demographics.
+          </p>
+          <button
+            className="bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold px-8 py-3 rounded-full transition"
+          >
+            Get Custom Head Specifications
+          </button>
+        </div>
+      </section>
+
+      {/* Footer Contact Form */}
+      <div className="bg-[#f9f9f9] py-16">
+        <ContactFormA />
+      </div>
     </div>
   );
 };
