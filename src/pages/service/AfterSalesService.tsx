@@ -54,12 +54,6 @@ const AfterSalesService: React.FC = () => {
             <p className="text-lg md:text-xl max-w-3xl mx-auto mb-10 text-gray-100">
               Experience risk-free B2B partnership with iShine. Our commitment: comprehensive after-sales support, transparent policies, and industry-leading warranty coverage for all IPL hair removal devices.
             </p>
-            <a
-              href="/contact-support"
-              className="inline-block bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition-colors duration-300"
-            >
-              Contact Support
-            </a>
           </motion.div>
         </div>
       </section>
