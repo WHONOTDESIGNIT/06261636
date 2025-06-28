@@ -31,7 +31,7 @@ const GlobalWitness: React.FC = () => {
           {Array.from({ length: 10 }).map((_, i) => (
             <img
               key={i}
-              src={`brand${i + 1}.png`}
+              src={`https://i.postimg.cc/43WX4VCf/global-witness-01.webp`}
               alt={`Brand ${i + 1}`}
               className="w-[353px] rounded-[18px] object-contain block"
             />
