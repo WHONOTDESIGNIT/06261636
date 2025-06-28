@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Globe } from 'lucide-react';
+import Masonry from 'react-layout-masonry'; // Import the library
 import ContactFormA from '../../components/Forms/ContactFormA';
 
-// Example brand image paths, replace with your actual image paths
 const brandImages = [
   'https://i.postimg.cc/bwBTXYLZ/global-witness-05.jpg',
   'https://i.postimg.cc/QMCy5nYT/7d7c6493e74549d2cb4dc6d0bbdfa153.jpg',
@@ -15,10 +15,8 @@ const brandImages = [
   'brand8.png',
   'brand9.png',
   'brand10.png',
-  // ...add as many as needed
+  // ...add more images as needed
 ];
-
-const CONTAINER_WIDTH = 353 * 5 + 10 * 4; // 5 images + 4 gaps = 1,865px
 
 const GlobalWitness: React.FC = () => {
   return (
@@ -42,49 +40,40 @@ const GlobalWitness: React.FC = () => {
         </div>
       </section>
 
-      {/* Brand Gallery */}
-      <section className="py-20 bg-white">
-        <div
-          className="mx-auto"
-          style={{
-            width: `${CONTAINER_WIDTH}px`,
-            display: 'grid',
-            gridTemplateColumns: 'repeat(5, 353px)',
-            gap: '10px',
-            background: '#f9f9f9',
-            borderRadius: '24px',
-            padding: '40px 0',
-            justifyContent: 'flex-start'
-          }}
-        >
-          {brandImages.map((src, idx) => (
-            <div
-              key={src}
-              style={{
-                width: '353px',
-                borderRadius: '18px',
-                overflow: 'hidden',
-                background: '#fff',
-                display: 'flex',
-                alignItems: 'flex-start',
-                justifyContent: 'center'
-              }}
-            >
-              <img
-                src={src}
-                alt={`Brand ${idx + 1}`}
+      {/* Masonry Brand Gallery */}
+      <section className="py-20 bg-white flex justify-center">
+        <div style={{ width: '1865px', margin: '0 auto' }}>
+          <Masonry columns={5} gap={10}>
+            {brandImages.map((src, idx) => (
+              <div
+                key={src}
                 style={{
                   width: '353px',
-                  height: 'auto',
-                  display: 'block',
                   borderRadius: '18px',
-                  objectFit: 'contain',
-                  background: '#fff'
+                  overflow: 'hidden',
+                  background: '#fff',
+                  marginBottom: '10px',
+                  display: 'flex',
+                  alignItems: 'flex-start',
+                  justifyContent: 'center',
                 }}
-                loading="lazy"
-              />
-            </div>
-          ))}
+              >
+                <img
+                  src={src}
+                  alt={`Brand ${idx + 1}`}
+                  style={{
+                    width: '353px',
+                    height: 'auto',
+                    display: 'block',
+                    borderRadius: '18px',
+                    objectFit: 'cover',
+                    background: '#fff',
+                  }}
+                  loading="lazy"
+                />
+              </div>
+            ))}
+          </Masonry>
         </div>
       </section>
 
