@@ -59,7 +59,7 @@ const LogoPrinting: React.FC = () => {
 
       {/* Key Info & FAQ */}
       <section className="py-10 bg-[#f9f9f9]">
-        <div className="max-w-3xl mx-auto px-4 space-y-6 text-center">
+        <div className="max-w-3xl mx-auto px-4 space-y-6 text-left">
           <div>
             <span className="font-bold text-[rgb(0,116,224)]">Supported Colors:</span> 1 or 2 colors per logo.
           </div>
