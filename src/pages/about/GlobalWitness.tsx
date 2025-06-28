@@ -13,8 +13,8 @@ const brandImages = [
   'https://i.postimg.cc/8CnPB9pQ/Global-witness-02.webp',
   'https://i.postimg.cc/XNBXxjB2/global-witness-0.jpg',
   'https://i.postimg.cc/43WX4VCf/global-witness-01.webp',
-  'brand9.png',
-  'brand10.png',
+  'https://i.postimg.cc/qMnXKR6c/ice-feeling-ipl-1.webp',
+  'https://i.postimg.cc/9Ft1qMrw/advanced-ipl.webp',
   // ...add as many as needed
 ];
 
