@@ -170,9 +170,9 @@ const Home: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl font-bold mb-4">Ready to Start Your IPL Project?</h2>
+            <h2 className="text-3xl font-bold mb-4">Need help?</h2>
             <p className="text-xl mb-8 text-gray-100">
-              Let's discuss your requirements and create the perfect IPL solution for your brand
+              Let's discuss your requirements and create the IPL solution that best fit for your brand.
             </p>
             <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-ishine-teal-500">
               Schedule Consultation
