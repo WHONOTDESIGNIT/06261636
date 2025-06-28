@@ -29,7 +29,7 @@ const GlobalWitness: React.FC = () => {
         {/* Replace items in brandImages with actual logo paths */}
         {(() => {
           const brandImages = [
-            'brand1.png',
+            'https://i.postimg.cc/QMCy5nYT/7d7c6493e74549d2cb4dc6d0bbdfa153.jpg',
             'brand2.png',
             'brand3.png',
             'brand4.png',
