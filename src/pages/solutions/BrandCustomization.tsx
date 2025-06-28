@@ -49,7 +49,7 @@ const BrandCustomization: React.FC = () => {
           <Layers3 className="w-16 h-16 mx-auto mb-6 text-white" />
           <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">Full-Chain Brand Customization</h1>
           <p className="text-xl mb-8 text-gray-100">
-            iShine empowers cosmetics brands to own every detail—from app UI to packaging, device interface to accessories, and even lifestyle merchandise. Build a cohesive, premium, and differentiated brand experience for your customers.
+            iShine empowers cosmetics brands to own every detail—from app UI to packaging, device interface to accessories, and even lifestyle merchandise. Build a premium, and differentiated brand experience for your customers.
           </p>
         </div>
       </section>
@@ -72,12 +72,12 @@ const BrandCustomization: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4 text-center space-y-6">
           <h2 className="text-2xl font-bold text-[rgb(0,116,224)] mb-4">Why Leading Cosmetics Brands Partner with iShine</h2>
           <ul className="space-y-2 text-gray-800 text-base text-left inline-block">
-            <li>• Complete OEM/ODM solution: from concept to shelf, all in one place[1][4][6]</li>
-            <li>• Flexible MOQ: fast sampling, small batch launch, and scalable production[1][6]</li>
-            <li>• Fast turnaround: most customizations delivered in 3–7 business days[1][6]</li>
-            <li>• Regulatory support: packaging, manuals, and labeling compliant with global standards[1][5]</li>
-            <li>• Brand protection: every detail, from device UI to packaging, is exclusive to your brand[4][5][6]</li>
-            <li>• Lifestyle ecosystem: extend your influence beyond devices with branded merchandise[4][6]</li>
+            <li>• Complete OEM/ODM solution: from concept to shelf, all in one place</li>
+            <li>• Flexible MOQ: fast sampling, small batch launch, and scalable production</li>
+            <li>• Fast turnaround: most customizations delivered in 3–7 business days</li>
+            <li>• Regulatory support: packaging, manuals, and labeling compliant with global standards</li>
+            <li>• Brand protection: every detail, from device UI to packaging, is exclusive to your brand</li>
+            <li>• Lifestyle ecosystem: extend your influence beyond devices with branded merchandise</li>
           </ul>
         </div>
       </section>
