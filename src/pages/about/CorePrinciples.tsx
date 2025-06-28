@@ -34,14 +34,6 @@ const CorePrinciples: React.FC = () => {
           >
             <Award className="w-16 h-16 mx-auto mb-6 text-white" />
             <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">Core Principles</h1>
-            <p className="text-xl mb-8 text-gray-100">
-              At iShine, our principles are more than words—they are the standards that drive every decision, every innovation, and every partnership.
-            </p>
-            <button
-              className="bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold px-8 py-3 rounded-full transition"
-            >
-              Start a Conversation
-            </button>
           </motion.div>
         </div>
       </section>
