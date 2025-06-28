@@ -111,7 +111,7 @@ const IPLHairRemoval: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-2">Cooling Comfort Systems</h3>
-                    <p className="text-gray-600">Advanced cooling technology for pain-free treatments and extended usage</p>
+                    <p className="text-gray-600">Ice cooling technology for pain-free treatments and extended usage</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -133,7 +133,7 @@ const IPLHairRemoval: React.FC = () => {
               className="relative"
             >
               <img
-                src="https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="https://i.postimg.cc/9Ft1qMrw/advanced-ipl.webp"
                 alt="IPL Technology"
                 className="rounded-lg shadow-xl"
               />
