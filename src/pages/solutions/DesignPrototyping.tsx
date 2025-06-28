@@ -51,7 +51,7 @@ const DesignPrototyping: React.FC = () => {
           <Shield className="w-12 h-12 mx-auto mb-4 text-[rgb(0,116,224)]" />
           <h2 className="text-2xl font-bold mb-4 text-[rgb(0,116,224)]">Why Prototyping Matters: The Financial Reality</h2>
           <p className="text-lg text-gray-800 mb-6">
-            A typical 5,000-unit IPL home device project requires **$100,000 to $250,000 USD** in production investment[11][14]. Without proper validation, design flaws discovered post-tooling can cost 50-80% more to correct[21][22].
+            A typical 5,000-unit IPL home device project requires **$100,000 to $250,000 USD** in production investment. Without proper validation, design flaws discovered post-tooling can cost 50-80% more to correct.
           </p>
           <div className="bg-white rounded-xl p-6 shadow-sm">
             <span className="text-3xl font-bold text-[rgb(236,67,113)]">$100K - $250K</span>
@@ -84,17 +84,17 @@ const DesignPrototyping: React.FC = () => {
             <div className="text-center">
               <CheckCircle2 className="w-8 h-8 text-[rgb(0,116,224)] mx-auto mb-2" />
               <h4 className="font-semibold mb-1">Precision 3D CAD Modeling</h4>
-              <p className="text-gray-700 text-sm">Advanced mechanical design software ensures manufacturable geometries and optimal material usage[2][5].</p>
+              <p className="text-gray-700 text-sm">Advanced mechanical design software ensures manufacturable geometries and optimal material usage.</p>
             </div>
             <div className="text-center">
               <CheckCircle2 className="w-8 h-8 text-[rgb(0,116,224)] mx-auto mb-2" />
               <h4 className="font-semibold mb-1">Functional 3D Printing</h4>
-              <p className="text-gray-700 text-sm">High-resolution additive manufacturing creates demo units with full operational capabilities[16][32].</p>
+              <p className="text-gray-700 text-sm">High-resolution additive manufacturing creates demo units with full operational capabilities.</p>
             </div>
             <div className="text-center">
               <CheckCircle2 className="w-8 h-8 text-[rgb(0,116,224)] mx-auto mb-2" />
               <h4 className="font-semibold mb-1">Design for Manufacturability</h4>
-              <p className="text-gray-700 text-sm">Every prototype is optimized for injection molding, assembly efficiency, and quality control[6][8].</p>
+              <p className="text-gray-700 text-sm">Every prototype is optimized for injection molding, assembly efficiency, and quality control.</p>
             </div>
           </div>
         </div>
@@ -117,4 +117,58 @@ const DesignPrototyping: React.FC = () => {
                 {riskMetrics.map((item, idx) => (
                   <tr key={idx} className="border-b last:border-b-0">
                     <td className="py-3 px-4 text-gray-800">{item.metric}</td>
-                    <td className="py-3 px-4 text-[rgb(0,116,224)] font-medium">{item.reduction || item.improvement ||
+                    <td className="py-3 px-4 text-[rgb(0,116,224)] font-medium">
+                      {item.reduction || item.improvement || item.savings}
+                    </td>
+                    <td className="py-3 px-4 text-gray-600">{item.desc}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-600 mt-4 text-center">
+            *Based on industry data from prototype-to-production projects
+          </p>
+        </div>
+      </section>
+
+      {/* Beauty Brand Focus */}
+      <section className="py-12 bg-[#f9f9f9]">
+        <div className="max-w-3xl mx-auto px-4 text-center">
+          <h3 className="text-xl font-bold text-[rgb(0,116,224)] mb-4">Tailored for Beauty Brands</h3>
+          <ul className="space-y-3 text-gray-800 text-base text-left inline-block">
+            <li>• **Cosmetic Device Expertise**: Specialized in IPL, LED, RF, and skincare device prototyping</li>
+            <li>• **Regulatory Readiness**: Prototypes designed for FDA, CE, and global compliance requirements</li>
+            <li>• **Brand Customization**: Logo placement, color matching, and aesthetic refinement capabilities</li>
+            <li>• **Ergonomic Validation**: User experience testing ensures comfort and ease of use</li>
+            <li>• **Packaging Integration**: Demo packaging prototypes for complete brand experience validation</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="bg-gradient-to-r from-[rgb(236,67,113)] to-[rgb(125,0,99)] py-16">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-white mb-4 tracking-tight">
+            Ready to Validate Your IPL Device Concept?
+          </h2>
+          <p className="text-lg text-white mb-8">
+            Connect with our T0 engineering team to transform your idea into a functional prototype—minimizing risk and maximizing your chances of production success.
+          </p>
+          <button
+            className="bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold px-8 py-3 rounded-full transition"
+          >
+            Start Your T0 Project
+          </button>
+        </div>
+      </section>
+
+      {/* Footer Contact Form */}
+      <div className="bg-[#f9f9f9] py-16">
+        <ContactFormA />
+      </div>
+    </div>
+  );
+};
+
+export default DesignPrototyping;
