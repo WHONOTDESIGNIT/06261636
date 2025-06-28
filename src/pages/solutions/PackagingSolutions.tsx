@@ -4,14 +4,21 @@ import ContactFormA from '../../components/Forms/ContactFormA';
 
 // 八种主流包装盒型
 const boxTypes = [
-  { label: 'Magnetic Box', desc: 'Premium, elegant, fully customizable. Supports hot stamping, embossing, soft touch, eco-paper, and foam/cardboard inserts for secure display.[3][9]' },
-  { label: 'Two-Piece Box (Heaven & Earth Box)', desc: 'Classic rigid box, sturdy and protective, ideal for luxury and retail packaging. Can be customized with branding and inserts.[4]' },
-  { label: 'Drawer Box', desc: 'Slide-out structure, adds unboxing experience and extra protection.' },
-  { label: 'Folding Carton', desc: 'Lightweight, cost-effective, suitable for retail and e-commerce, easy to print and assemble.[11]' },
-  { label: 'Gable Box', desc: 'Unique shape, portable, ideal for gifting and limited editions.[10]' },
-  { label: 'Book Style Box', desc: 'Opens like a book, offers premium feel and ample branding space.' },
-  { label: 'Collapsible/Foldable Box', desc: 'Space-saving for shipping, easy to assemble, suitable for dropshipping.' },
-  { label: 'Pillow Box', desc: 'Compact, stylish, best for accessories, samples or travel kits.' },
+  { label: 'Magnetic Box', img: 'magnetic.jpg', desc: 'Premium, elegant, fully customizable. Supports hot stamping, embossing, soft touch, eco-paper, and foam/cardboard inserts for secure display.' },
+  { label: 'Two-Piece Box', img: 'two-piece.jpg', desc: 'Classic rigid box, sturdy and protective, ideal for luxury and retail packaging. Can be branded with inserts.' },
+  { label: 'Drawer Box', img: 'drawer.jpg', desc: 'Slide-out structure that elevates unboxing and adds protection.' },
+  { label: 'Folding Carton', img: 'folding.jpg', desc: 'Lightweight & cost-effective for retail and e-commerce; easy to print & assemble.' },
+  { label: 'Gable Box', img: 'gable.jpg', desc: 'Unique portable shape—perfect for gifting and limited editions.' },
+  { label: 'Book Style Box', img: 'book.jpg', desc: 'Opens like a book, delivering premium feel and ample branding space.' },
+  { label: 'Collapsible Box', img: 'collapsible.jpg', desc: 'Space-saving for shipping, easy to assemble—ideal for dropshipping.' },
+  { label: 'Pillow Box', img: 'pillow.jpg', desc: 'Compact & stylish—great for accessories, samples, or travel kits.' },
+];
+
+const scenarios = [
+  { title: 'Dropshipping & E-commerce', img: 'dropshipping.jpg', desc: 'Volume-efficient, protective packaging that minimises shipping cost and prevents transit damage. Collapsible & folding boxes ready for global fulfilment.' },
+  { title: 'Retail & Supermarket', img: 'retail.jpg', desc: 'Eye-catching shelf presence that turns "on shelf" into "off shelf". Bold colours, unique structures, and premium finishes drive impulse purchase.' },
+  { title: 'Eco-Friendly & Skin-Friendly', img: 'eco.jpg', desc: 'FSC-certified, recyclable, and skin-safe materials for brands focused on sustainability and consumer safety.' },
+  { title: 'Luxury & Gift Packaging', img: 'luxury.jpg', desc: 'Hot stamping, embossing, and premium textures deliver a luxury unboxing experience—perfect for high-end brands & gifting campaigns.' },
 ];
 
 const PackagingSolutions: React.FC = () => {
@@ -32,10 +39,13 @@ const PackagingSolutions: React.FC = () => {
       <section className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 grid md:grid-cols-4 gap-10">
           {boxTypes.map((box) => (
-            <div key={box.label} className="bg-[#f9f9f9] rounded-2xl shadow-sm p-6 flex flex-col items-center text-center hover:shadow-md transition">
-              <div className="w-16 h-16 mb-4 bg-[rgb(0,116,224)] rounded-full flex items-center justify-center text-white font-bold text-xl">{box.label[0]}</div>
-              <h3 className="text-lg font-semibold mb-2">{box.label}</h3>
-              <p className="text-gray-700 text-sm">{box.desc}</p>
+            <div key={box.label} className="bg-[#f9f9f9] rounded-2xl shadow-sm overflow-hidden hover:shadow-md transition flex flex-col">
+              <img src={box.img} alt={box.label} className="w-full h-40 object-cover" />
+              <div className="p-6 flex-1 flex flex-col">
+                <h3 className="text-lg font-semibold mb-2">{box.label}</h3>
+                <p className="text-gray-700 text-sm flex-1">{box.desc}</p>
+                <a href="#" className="mt-4 inline-block text-[rgb(0,116,224)] font-semibold hover:text-[rgb(0,89,179)]">Read More →</a>
+              </div>
             </div>
           ))}
         </div>
@@ -43,31 +53,17 @@ const PackagingSolutions: React.FC = () => {
 
       {/* Solutions for Different Scenarios */}
       <section className="py-12 bg-[#f9f9f9]">
-        <div className="max-w-4xl mx-auto px-4 grid md:grid-cols-2 gap-10 text-center">
-          <div>
-            <h4 className="text-xl font-bold text-[rgb(0,116,224)] mb-2">Dropshipping & E-commerce</h4>
-            <p className="text-gray-800">
-              We design volume-efficient, protective packaging to minimize international shipping costs and prevent damage in transit. Collapsible, folding, and compact boxes available.[5][6][7]
-            </p>
-          </div>
-          <div>
-            <h4 className="text-xl font-bold text-[rgb(0,116,224)] mb-2">Retail & Supermarket</h4>
-            <p className="text-gray-800">
-              For retail shelves, we create eye-catching, brand-driven packaging that turns “on shelf” into “off shelf.” Bold colors, unique structures, and premium finishes drive impulse purchases.[7][8]
-            </p>
-          </div>
-          <div>
-            <h4 className="text-xl font-bold text-[rgb(0,116,224)] mb-2">Eco-Friendly & Skin-Friendly</h4>
-            <p className="text-gray-800">
-              FSC-certified, recyclable, and skin-friendly materials available for brands focused on sustainability and consumer safety.[3][9]
-            </p>
-          </div>
-          <div>
-            <h4 className="text-xl font-bold text-[rgb(0,116,224)] mb-2">Luxury & Gift Packaging</h4>
-            <p className="text-gray-800">
-              Hot stamping, embossing, and premium textures for a luxury unboxing experience. Ideal for high-end brands and gifting campaigns.[3][9]
-            </p>
-          </div>
+        <div className="max-w-4xl mx-auto px-4 grid md:grid-cols-2 gap-10">
+          {scenarios.map((sc) => (
+            <div key={sc.title} className="bg-white rounded-2xl shadow-sm overflow-hidden flex flex-col hover:shadow-md transition">
+              <img src={sc.img} alt={sc.title} className="w-full h-40 object-cover" />
+              <div className="p-6 flex-1 flex flex-col text-center">
+                <h4 className="text-xl font-bold text-[rgb(0,116,224)] mb-2">{sc.title}</h4>
+                <p className="text-gray-800 flex-1">{sc.desc}</p>
+                <a href="#" className="mt-4 inline-block text-[rgb(0,116,224)] font-semibold hover:text-[rgb(0,89,179)]">Read More →</a>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
@@ -78,7 +74,7 @@ const PackagingSolutions: React.FC = () => {
             <span className="font-bold text-[rgb(0,116,224)]">Lead Time:</span> 3–7 business days for most custom packaging orders.
           </div>
           <div>
-            <span className="font-bold text-[rgb(0,116,224)]">Design Principle:</span> Packaging is a purchase command—our retail boxes are made to “sell at first sight.”
+            <span className="font-bold text-[rgb(0,116,224)]">Design Principle:</span> Packaging is a purchase command—our retail boxes are made to "sell at first sight."
           </div>
           <div>
             <span className="font-bold text-[rgb(0,116,224)]">Customization:</span> All box types support custom logo, color, insert, and finish.
