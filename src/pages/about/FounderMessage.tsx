@@ -1,8 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import {
-  User,
-  ShieldCheck
+  User
 } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layers3, Smartphone, Box, FileText, Shield, Glasses, Gift } from 'lucide-react';
+import { Brush, PaintBucket, Layers3, Smartphone, Box, FileText, Shield, Glasses, Gift } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 
 const customOptions = [
@@ -45,7 +45,7 @@ const BrandCustomization: React.FC = () => {
     <div className="min-h-screen bg-white pt-20">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-[rgb(30,157,139)] to-[rgb(36,151,144)] text-white py-16">
-        <div className="max-w-3xl mx-auto px-4 text-center">
+        <div className="max-w-2xl mx-auto px-4 text-center">
           <Layers3 className="w-16 h-16 mx-auto mb-6 text-white" />
           <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">Full-Chain Brand Customization</h1>
           <p className="text-xl mb-8 text-gray-100">
@@ -69,7 +69,7 @@ const BrandCustomization: React.FC = () => {
 
       {/* Why B2B Cosmetics Brands Choose iShine */}
       <section className="py-12 bg-[#f9f9f9]">
-        <div className="max-w-4xl mx-auto px-4 text-center space-y-6">
+        <div className="max-w-4xl mx-auto px-4 space-y-6 text-center">
           <h2 className="text-2xl font-bold text-[rgb(0,116,224)] mb-4">Why Leading Cosmetics Brands Partner with iShine</h2>
           <ul className="space-y-2 text-gray-800 text-base text-left inline-block">
             <li>• Complete OEM/ODM solution: from concept to shelf, all in one place</li>
