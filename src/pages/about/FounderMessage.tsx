@@ -42,12 +42,6 @@ const FounderMessage: React.FC = () => {
             <p className="text-lg md:text-xl max-w-3xl mx-auto text-gray-100 mb-10">
               Brands once faced high costs, rigid production, and limited customization in IPL manufacturing. iShine was founded to break those barriers—making advanced IPL technology accessible and versatile for every ambitious brand.
             </p>
-            <a
-              href="/start-project"
-              className="inline-block bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition-colors duration-300"
-            >
-              Start Your Project
-            </a>
           </motion.div>
         </div>
       </section>
@@ -97,14 +91,6 @@ const FounderMessage: React.FC = () => {
             A vision is only as strong as the foundation beneath it. At iShine we build that foundation every
             day through technical rigor, customer focus, and relentless improvement. Let's transform
             challenges into opportunities and ambitions into reality—together.
-          </p>
-          <p>
-            <a
-              href="/start-project"
-              className="inline-block bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition-colors duration-300 no-underline"
-            >
-              Start Your Project
-            </a>
           </p>
         </div>
       </section>
