@@ -1,74 +1,111 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { Shield, Award } from 'lucide-react';
+import { ShieldCheck } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
+
+const countryRegulations = [
+  { country: 'United States', cert: 'FDA 510(k)', notes: 'Medical device; requires 510(k) clearance for claims of permanent hair removal or medical-grade performance.' },
+  { country: 'Canada', cert: 'MDL', notes: 'Medical Device License (MDL) required for medical claims; Health Canada oversight.' },
+  { country: 'Australia', cert: 'TGA', notes: 'Therapeutic Goods Administration (TGA) registration for medical devices.' },
+  { country: 'European Union', cert: 'CE / MDR', notes: 'CE mark under MDR Annex XVI for medical devices; otherwise as cosmetic/electrical appliance.' },
+  { country: 'United Kingdom', cert: 'UKCA', notes: 'UKCA for post-Brexit market; similar to CE/MDR.' },
+  { country: 'China', cert: 'NMPA', notes: 'National Medical Products Administration (NMPA) registration for medical devices.' },
+  { country: 'Japan', cert: 'PMDA', notes: 'Pharmaceuticals and Medical Devices Agency (PMDA) approval for medical devices.' },
+  { country: 'South Korea', cert: 'MFDS', notes: 'Ministry of Food and Drug Safety (MFDS) registration.' },
+  { country: 'Brazil', cert: 'ANVISA', notes: 'ANVISA registration for medical devices.' },
+  { country: 'GCC (Middle East)', cert: 'SFDA/GCC Mark', notes: 'Saudi Food & Drug Authority (SFDA) or GCC mark for medical devices.' },
+];
 
 const Compliance: React.FC = () => {
   return (
-    <div className="min-h-screen pt-20">
+    <div className="min-h-screen bg-white pt-20">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-ishine-blue-500 to-ishine-purple-500 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-center"
-          >
-            <Shield className="w-16 h-16 mx-auto mb-6 text-white" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Compliance & Certifications</h1>
-            <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
-              Comprehensive compliance support and certifications for global market entry. 
-              We handle all regulatory requirements so you can focus on your business.
-            </p>
-          </motion.div>
+      <section className="bg-gradient-to-r from-[rgb(30,157,139)] to-[rgb(36,151,144)] text-white py-16">
+        <div className="max-w-2xl mx-auto px-4 text-center">
+          <ShieldCheck className="w-16 h-16 mx-auto mb-6 text-white" />
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">Global Compliance Solutions</h1>
+          <p className="text-xl mb-8 text-gray-100">
+            iShine helps brands, importers, and wholesalers secure the right certifications for home IPL devices in every major market—fast, reliable, and fully B2B.
+          </p>
         </div>
       </section>
 
-      {/* Certifications */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Global Certifications</h2>
-            <p className="text-lg text-gray-600">
-              Our devices meet international safety and quality standards
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              { name: 'FDA GMP', region: 'United States', icon: '🇺🇸' },
-              { name: 'CE Marking', region: 'European Union', icon: '🇪🇺' },
-              { name: 'ISO 13485', region: 'International', icon: '🌍' },
-              { name: 'FCC', region: 'United States', icon: '🇺🇸' },
-              { name: 'RoHS', region: 'European Union', icon: '🇪🇺' },
-              { name: 'PSE', region: 'Japan', icon: '🇯🇵' },
-              { name: 'KC', region: 'South Korea', icon: '🇰🇷' },
-              { name: 'CCC', region: 'China', icon: '🇨🇳' }
-            ].map((cert, index) => (
-              <motion.div
-                key={cert.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-gray-50 rounded-lg p-6 text-center hover:shadow-lg transition-shadow"
-              >
-                <div className="text-4xl mb-4">{cert.icon}</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">{cert.name}</h3>
-                <p className="text-gray-600">{cert.region}</p>
-              </motion.div>
-            ))}
+      {/* Certification Table */}
+      <section className="py-20 bg-white">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-2xl font-bold mb-8 text-[rgb(0,116,224)] text-center">Key Regulations & Certifications by Country</h2>
+          <div className="overflow-x-auto">
+            <table className="min-w-full bg-white rounded-xl shadow-sm text-left">
+              <thead>
+                <tr>
+                  <th className="py-3 px-4 font-semibold text-gray-700">Country/Region</th>
+                  <th className="py-3 px-4 font-semibold text-gray-700">Certification</th>
+                  <th className="py-3 px-4 font-semibold text-gray-700">Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                {countryRegulations.map((item, idx) => (
+                  <tr key={idx} className="border-b last:border-b-0">
+                    <td className="py-3 px-4 text-[rgb(0,116,224)] font-medium">{item.country}</td>
+                    <td className="py-3 px-4 text-gray-800">{item.cert}</td>
+                    <td className="py-3 px-4 text-gray-600">{item.notes}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
       </section>
 
-      {/* Contact Form */}
-      <ContactFormA />
+      {/* iShine Compliance Strengths */}
+      <section className="py-12 bg-[#f9f9f9]">
+        <div className="max-w-3xl mx-auto px-4 text-center">
+          <h3 className="text-xl font-bold text-[rgb(0,116,224)] mb-4">Why Choose iShine for Compliance?</h3>
+          <ul className="space-y-3 text-gray-800 text-base text-left inline-block">
+            <li>• Certified: ISO 13485, FDA (US), MDL (Canada), TGA (Australia) already achieved.</li>
+            <li>• Deep regulatory expertise—fast-track your device through global certification processes.</li>
+            <li>• Full documentation support: risk analysis, labeling, clinical data, and technical files.</li>
+            <li>• Save time—avoid costly delays and compliance pitfalls.</li>
+            <li>• Free regulatory consulting for all B2B clients.</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Critical Compliance Tip */}
+      <section className="py-10 bg-white">
+        <div className="max-w-2xl mx-auto px-4 text-center">
+          <div className="bg-[rgb(236,67,113)] text-white rounded-xl p-6 mb-4 font-semibold">
+            <span className="block mb-2 text-lg">Important:</span>
+            <span>
+              If you avoid using claims like “permanent hair removal” or “medical-grade” in your product listings and marketing, your IPL device may not be classified as a medical device in many countries. This allows you to legally sell without medical certification in some markets. For details, consult our regulatory team.
+            </span>
+          </div>
+          <p className="text-base text-gray-700">
+            For any questions about compliance, documentation, or certification strategy, our experts offer free, up-to-date consulting for B2B clients.
+          </p>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="bg-gradient-to-r from-[rgb(236,67,113)] to-[rgb(125,0,99)] py-16">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-white mb-4 tracking-tight">
+            Need Fast, Reliable Certification for Your IPL Device?
+          </h2>
+          <p className="text-lg text-white mb-8">
+            Contact iShine for a free regulatory consultation and a clear roadmap to global compliance.
+          </p>
+          <button
+            className="bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold px-8 py-3 rounded-full transition"
+          >
+            Get Compliance Support
+          </button>
+        </div>
+      </section>
+
+      {/* Footer Contact Form */}
+      <div className="bg-[#f9f9f9] py-16">
+        <ContactFormA />
+      </div>
     </div>
   );
 };
