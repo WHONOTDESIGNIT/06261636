@@ -3,31 +3,21 @@ import { motion } from 'framer-motion';
 import { Award } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 
-const corePrinciples = [
+const principles = [
   {
-    title: 'Integrity & Transparency',
-    desc: 'We believe in honest communication, transparent processes, and ethical business practices. Every partnership starts with trust and openness.',
-    icon: <Award className="w-8 h-8 text-[rgb(0,116,224)] mb-3" />,
+    title: 'Customer Obsession',
+    desc: 'We anticipate, invent, and improve on behalf of our customers—delivering more than expected, every time.',
+    detail: 'We don’t just serve customers; we obsess over them. We proactively solve problems and design experiences that inspire “Wow.”',
   },
   {
-    title: 'Technical Excellence',
-    desc: 'Our commitment to R&D and engineering ensures every IPL device meets the highest standards for performance, safety, and reliability.',
-    icon: <Award className="w-8 h-8 text-[rgb(0,116,224)] mb-3" />,
+    title: 'Integrity',
+    desc: 'We act with honesty, transparency, and responsibility in every partnership.',
+    detail: 'Integrity is our foundation. We keep every promise, value long-term trust over short-term gain, and let our results speak for themselves.',
   },
   {
-    title: 'Customer-Centricity',
-    desc: 'We listen, adapt, and co-create solutions with our partners—delivering tailored support from concept to market.',
-    icon: <Award className="w-8 h-8 text-[rgb(0,116,224)] mb-3" />,
-  },
-  {
-    title: 'Sustainability',
-    desc: 'We design with the future in mind—optimizing for energy efficiency, responsible materials, and sustainable manufacturing.',
-    icon: <Award className="w-8 h-8 text-[rgb(0,116,224)] mb-3" />,
-  },
-  {
-    title: 'Continuous Improvement',
-    desc: 'We never settle. Every project is an opportunity to learn, innovate, and set new benchmarks for the industry.',
-    icon: <Award className="w-8 h-8 text-[rgb(0,116,224)] mb-3" />,
+    title: 'Long-term Thinking',
+    desc: 'We build for the future—investing in sustainable growth, continuous improvement, and enduring customer value.',
+    detail: 'We stand behind our products, never skirt problems, and focus on metrics that matter: customer success and lasting impact.',
   },
 ];
 
@@ -36,7 +26,7 @@ const CorePrinciples: React.FC = () => {
     <div className="min-h-screen bg-white pt-20">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-[rgb(30,157,139)] to-[rgb(36,151,144)] text-white py-16">
-        <div className="max-w-3xl mx-auto px-4 text-center">
+        <div className="max-w-2xl mx-auto px-4 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -45,7 +35,7 @@ const CorePrinciples: React.FC = () => {
             <Award className="w-16 h-16 mx-auto mb-6 text-white" />
             <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">Core Principles</h1>
             <p className="text-xl mb-8 text-gray-100">
-              At iShine, our core principles guide every decision, partnership, and innovation. We are committed to building trust, delivering technical excellence, and creating sustainable value for our global partners.
+              At iShine, our principles are more than words—they are the standards that drive every decision, every innovation, and every partnership.
             </p>
             <button
               className="bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold px-8 py-3 rounded-full transition"
@@ -56,17 +46,17 @@ const CorePrinciples: React.FC = () => {
         </div>
       </section>
 
-      {/* Core Principles List */}
+      {/* Principles Section */}
       <section className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 grid md:grid-cols-3 gap-10">
-          {corePrinciples.map((item, idx) => (
+          {principles.map((item) => (
             <div
               key={item.title}
               className="bg-[#f9f9f9] rounded-2xl shadow-sm p-8 flex flex-col items-center text-center hover:shadow-md transition"
             >
-              {item.icon}
               <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-              <p className="text-gray-700">{item.desc}</p>
+              <p className="text-[rgb(0,116,224)] font-medium mb-2">{item.desc}</p>
+              <p className="text-gray-700 text-sm">{item.detail}</p>
             </div>
           ))}
         </div>
@@ -76,10 +66,10 @@ const CorePrinciples: React.FC = () => {
       <section className="bg-gradient-to-r from-[rgb(236,67,113)] to-[rgb(125,0,99)] py-16">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-white mb-4 tracking-tight">
-            Start with a Conversation
+            Let’s Build the Future Together
           </h2>
           <p className="text-lg text-white mb-8">
-            Let’s connect to explore how iShine’s core principles can help elevate your IPL business. We offer practical resources and honest guidance to ensure you find the best solution for your needs.
+            Connect with iShine to experience a partnership built on customer obsession, integrity, and long-term thinking.
           </p>
           <button
             className="bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold px-8 py-3 rounded-full transition"
