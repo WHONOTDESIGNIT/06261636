@@ -95,10 +95,10 @@ const CountryPage: React.FC = () => {
     }
 
     // Update hreflang tags for SEO
-    updateHreflangTags(country);
+    updateHreflangTags();
   };
 
-  const updateHreflangTags = (currentCountry: string) => {
+  const updateHreflangTags = () => {
     // Remove existing hreflang tags
     const existingHreflangs = document.querySelectorAll('link[rel="alternate"][hreflang]');
     existingHreflangs.forEach(tag => tag.remove());

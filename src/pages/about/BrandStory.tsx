@@ -6,7 +6,6 @@ import {
   Users,
   Wrench,
   ShieldCheck,
-  PackageSearch,
   TrendingUp
 } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
@@ -71,7 +70,7 @@ const BrandStory: React.FC = () => {
             ))}
           </ul>
           <blockquote className="mt-6 text-ishine-pink-600 italic border-l-4 border-ishine-pink-500 pl-4">
-            “We saw a market where innovation was stifled by price, complexity, and lack of support. That's why iShine was born—to make advanced IPL technology accessible, customizable, and reliable for every ambitious brand.”
+            "We saw a market where innovation was stifled by price, complexity, and lack of support. That's why iShine was born—to make advanced IPL technology accessible, customizable, and reliable for every ambitious brand."
           </blockquote>
         </div>
       </section>

@@ -51,7 +51,7 @@ const Home: React.FC = () => {
               help you design it, build it, and box it.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
-              <Button size="xxs" className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4">
+              <Button size="md" className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4">
                 Get Quote
               </Button>
             </div>
