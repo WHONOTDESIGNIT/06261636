@@ -179,7 +179,7 @@ const faqData: Category[] = [
     icon: HelpCircle,
     qas: [
       {
-        question: 'My device isn't working – what should I do?',
+        question: "My device isn't working – what should I do?",
         answer:
           'Verify power, cleanliness, and full skin contact. Consult support or your warranty if problems persist.'
       },
