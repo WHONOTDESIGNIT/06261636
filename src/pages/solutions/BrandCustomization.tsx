@@ -1,5 +1,5 @@
 import React from 'react';
-import { Brush, PaintBucket, Layers3, Smartphone, Box, FileText, Shield, Glasses, Gift } from 'lucide-react';
+import { Layers3, Smartphone, Box, FileText, Shield, Glasses, Gift } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 
 const customOptions = [
