@@ -52,82 +52,60 @@ const FounderMessage: React.FC = () => {
         </div>
       </section>
 
-      {/* ---------------- WHY ISHINE EXISTS ---------------- */}
+      {/* ---------------- BLOG CONTENT ---------------- */}
       <section className="py-20 bg-white">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="flex items-center gap-2 text-2xl md:text-3xl font-bold text-ishine-blue-600 mb-6">
-            <Heart className="w-6 h-6" /> Why iShine Exists
-          </h2>
-          <p className="text-gray-700 mb-4">
-            Many beauty brands wanted to launch IPL devices but were overwhelmed by design complexity, compliance, and supply-chain challenges. Others struggled to scale with inflexible partners and limited support. iShine was created to guide, educate, and empower at every step.
+        <div className="prose prose-indigo max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2>Why iShine Exists</h2>
+          <p>
+            Many beauty brands dreamed of launching their own IPL devices yet felt overwhelmed by the maze
+            of design complexity, regulatory hurdles, and supply-chain logistics. Others struggled to scale
+            production, constrained by inflexible partners and minimal technical guidance. I founded iShine to
+            change that—to guide, educate, and empower at every step.
           </p>
-        </div>
-      </section>
 
-      {/* ---------------- OUR APPROACH ---------------- */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="flex items-center gap-2 text-2xl md:text-3xl font-bold text-ishine-blue-600 mb-6">
-            <Target className="w-6 h-6" /> Our Approach: Listening, Innovating, Delivering
-          </h2>
-          <ul className="list-disc pl-6 space-y-3 text-gray-700">
-            <li>Work hand-in-hand with clients—from concept to mass production.</li>
-            <li>Invest in R&D for custom ice cooling, multi-function, sapphire, smart app, dual-lamp, and skin-sensor IPL technologies.</li>
-            <li>Offer turn-key project management: GMP factory design, regulatory docs, and vetted component suppliers.</li>
-            <li>Provide transparent, data-driven guidance on cost, feasibility, and scaling.</li>
+          <h2>Our Approach: Listening, Innovating, Delivering</h2>
+          <ul>
+            <li>Working hand-in-hand with clients—from initial concept to mass production.</li>
+            <li>
+              Investing in R&amp;D to create custom technologies: ice cooling, multi-function, sapphire window,
+              smart app-connected, dual-lamp, and skin-sensor IPL devices.
+            </li>
+            <li>
+              Offering turn-key project management that covers GMP-compliant factory planning, regulatory
+              documentation, and direct access to quality component suppliers.
+            </li>
+            <li>Providing transparent, data-driven guidance on cost, feasibility, and scaling.</li>
           </ul>
-        </div>
-      </section>
 
-      {/* ---------------- DIFFERENTIATORS ---------------- */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="flex items-center gap-2 text-2xl md:text-3xl font-bold text-ishine-blue-600 mb-12">
-            <ShieldCheck className="w-6 h-6" /> What Makes iShine Different
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            {differentiators.map(({ title, desc }) => (
-              <motion.div
-                key={title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5 }}
-                className="bg-gray-50 rounded-lg shadow p-6"
-              >
-                <h3 className="text-xl font-semibold mb-2">{title}</h3>
-                <p className="text-gray-700 text-sm">{desc}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+          <h2>What Makes iShine Different</h2>
+          {differentiators.map(({ title, desc }) => (
+            <div key={title}>
+              <h3>{title}</h3>
+              <p>{desc}</p>
+            </div>
+          ))}
 
-      {/* ---------------- EMPOWERING BRANDS ---------------- */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-ishine-blue-600 mb-6">Empowering Brands, Enabling Growth</h2>
-          <p className="text-gray-700 max-w-3xl mx-auto">
-            From startups moving "Zero to One" to global brands striving for excellence, iShine supports every evolution. Our solutions are trusted across Europe, North America, and Asia.
+          <h2>Empowering Brands, Enabling Growth</h2>
+          <p>
+            Whether you're a start-up making the leap from "Zero to One" or an established brand aiming for
+            world-class excellence, iShine stands ready. Our solutions are trusted across Europe, North America,
+            and Asia—a testament to our commitment to quality, partnership, and innovation.
           </p>
-        </div>
-      </section>
 
-      {/* ---------------- LOOKING FORWARD ---------------- */}
-      <section className="py-20 bg-white">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="flex items-center justify-center gap-2 text-2xl md:text-3xl font-bold text-ishine-blue-600 mb-6">
-            <Lightbulb className="w-6 h-6" /> Looking Forward
-          </h2>
-          <p className="text-gray-700 mb-8">
-            We build our foundation daily through technical rigor, customer focus, and relentless improvement. Let's turn challenges into opportunities and ambitions into reality—together.
+          <h2>Looking Forward</h2>
+          <p>
+            A vision is only as strong as the foundation beneath it. At iShine we build that foundation every
+            day through technical rigor, customer focus, and relentless improvement. Let's transform
+            challenges into opportunities and ambitions into reality—together.
           </p>
-          <a
-            href="/start-project"
-            className="inline-block bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition-colors duration-300"
-          >
-            Start Your Project
-          </a>
+          <p>
+            <a
+              href="/start-project"
+              className="inline-block bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition-colors duration-300 no-underline"
+            >
+              Start Your Project
+            </a>
+          </p>
         </div>
       </section>
 
