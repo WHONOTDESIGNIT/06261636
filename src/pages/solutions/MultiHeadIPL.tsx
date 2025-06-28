@@ -122,19 +122,19 @@ const MultiHeadIPL: React.FC = () => {
             <div className="bg-[#f9f9f9] rounded-xl p-6">
               <h3 className="text-lg font-semibold mb-3 text-[rgb(0,116,224)]">Sapphire Cooling Technology</h3>
               <ul className="space-y-2 text-gray-800 text-sm">
-                <li>• **90% pain reduction** for sensitive and dark skin types[25][18]</li>
-                <li>• Continuous contact cooling during treatment[25]</li>
-                <li>• Safe for Fitzpatrick skin types I-IV[9][17]</li>
-                <li>• Temperature control: 50°F-104°F vs standard 158°F-212°F[18]</li>
+                <li>• **90% pain reduction** for sensitive and dark skin types</li>
+                <li>• Continuous contact cooling during treatment</li>
+                <li>• Safe for Fitzpatrick skin types I-IV</li>
+                <li>• Temperature control: 50°F-104°F vs standard 158°F-212°F</li>
               </ul>
             </div>
             <div className="bg-[#f9f9f9] rounded-xl p-6">
               <h3 className="text-lg font-semibold mb-3 text-[rgb(0,116,224)]">Intelligent Attachment Recognition</h3>
               <ul className="space-y-2 text-gray-800 text-sm">
-                <li>• Automatic treatment program adaptation per body area[4][16]</li>
-                <li>• Smart head recognition for optimal energy settings[10]</li>
-                <li>• Real-time coverage feedback and guidance[10]</li>
-                <li>• Built-in safety protocols for each attachment type[4][16]</li>
+                <li>• Automatic treatment program adaptation per body area</li>
+                <li>• Smart head recognition for optimal energy settings</li>
+                <li>• Real-time coverage feedback and guidance</li>
+                <li>• Built-in safety protocols for each attachment type</li>
               </ul>
             </div>
           </div>
@@ -173,15 +173,15 @@ const MultiHeadIPL: React.FC = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="text-3xl font-bold text-[rgb(236,67,113)] mb-2">40%</div>
-              <p className="text-gray-700">Faster full-body treatment with large spot heads[11][12]</p>
+              <p className="text-gray-700">Faster full-body treatment with large spot heads</p>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-[rgb(236,67,113)] mb-2">90%</div>
-              <p className="text-gray-700">Pain reduction with sapphire cooling attachments[25][18]</p>
+              <p className="text-gray-700">Pain reduction with sapphire cooling attachments</p>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-[rgb(236,67,113)] mb-2">85%</div>
-              <p className="text-gray-700">User satisfaction with precision attachments[16]</p>
+              <p className="text-gray-700">User satisfaction with precision attachments</p>
             </div>
           </div>
         </div>
