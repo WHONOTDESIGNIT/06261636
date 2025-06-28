@@ -9,7 +9,7 @@ const brandImages = [
   'https://i.postimg.cc/QMCy5nYT/7d7c6493e74549d2cb4dc6d0bbdfa153.jpg',
   'https://i.postimg.cc/XNBXxjB2/global-witness-0.jpg',
   'https://i.postimg.cc/8CnPB9pQ/Global-witness-02.webp',
-  'brand5.png',
+  'https://i.postimg.cc/0Nr9Qnpt/global-witness-04.jpg',
   'brand6.png',
   'brand7.png',
   'brand8.png',
