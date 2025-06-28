@@ -24,28 +24,18 @@ const GlobalWitness: React.FC = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              { icon: Globe, title: 'Global Reach', description: 'Serving clients worldwide' },
-              { icon: Users, title: 'International Partners', description: 'Trusted partnerships' },
-              { icon: Award, title: 'Recognition', description: 'Industry acknowledgment' },
-              { icon: MapPin, title: 'Local Presence', description: 'Regional support' }
-            ].map((feature, index) => (
-              <motion.div
-                key={feature.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="text-center"
-              >
-                <feature.icon className="w-12 h-12 text-green-500 mx-auto mb-4" />
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">{feature.title}</h3>
-                <p className="text-gray-600">{feature.description}</p>
-              </motion.div>
-            ))}
-          </div>
+      {/* -------- BRAND GALLERY -------- */}
+      <section className="py-20 bg-white">
+        <div className="w-[1825px] max-w-full mx-auto flex flex-wrap gap-[10px] bg-[#f9f9f9] rounded-[24px] p-10 justify-start overflow-hidden">
+          {/* Example brand images; replace src with real logos */}
+          {Array.from({ length: 10 }).map((_, i) => (
+            <img
+              key={i}
+              src={`brand${i + 1}.png`}
+              alt={`Brand ${i + 1}`}
+              className="w-[353px] rounded-[18px] object-contain block"
+            />
+          ))}
         </div>
       </section>
 
