@@ -1,17 +1,17 @@
 import React from 'react';
-import { Layers3, Smartphone, Box, FileText, Smile, BadgeCheck, Shield, Glasses, Gift } from 'lucide-react';
+import { Layers3, Smartphone, Box, FileText, Shield, Glasses, Gift } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 
 const customOptions = [
   {
     icon: <Smartphone className="w-8 h-8 text-[rgb(0,116,224)]" />,
     title: 'Custom App Interface',
-    desc: 'Personalize your IPL device’s app UI—colors, icons, onboarding, and even treatment logic—aligned with your brand’s digital DNA.',
+    desc: 'Personalize your IPL device's app UI—colors, icons, onboarding, and even treatment logic—aligned with your brand's digital DNA.',
   },
   {
-    icon: <BadgeCheck className="w-8 h-8 text-[rgb(0,116,224)]" />,
+    icon: <Shield className="w-8 h-8 text-[rgb(0,116,224)]" />,
     title: 'Device UI & Digital Display',
-    desc: 'Customize the IPL device’s digital screen, boot animation, and interactive interface. Your logo, your welcome message, your user experience.',
+    desc: 'Customize the IPL device's digital screen, boot animation, and interactive interface. Your logo, your welcome message, your user experience.',
   },
   {
     icon: <Box className="w-8 h-8 text-[rgb(0,116,224)]" />,

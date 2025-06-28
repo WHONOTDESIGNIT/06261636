@@ -2,11 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import {
   User,
-  Heart,
-  Target,
-  Star,
-  AlertCircle,
-  Lightbulb,
   ShieldCheck
 } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
@@ -14,15 +9,15 @@ import ContactFormA from '../../components/Forms/ContactFormA';
 const differentiators = [
   {
     title: 'High-Performance, Customizable Devices',
-    desc: 'Reliable, flexible, and cost-effective IPL solutions that help brands stand out.'
+    desc: 'Engineer reliable IPL devices designed for rapid changeovers and multi-purpose use.'
   },
   {
-    title: 'End-to-End Project Expertise',
-    desc: 'Technical consultation, GMP factory planning, regulatory navigation, and supply-chain optimization.'
+    title: 'Turn-Key Project Expertise',
+    desc: 'One-on-one consultation covering cost analysis, GMP cleanroom design, and regulatory docs.'
   },
   {
-    title: 'Close Collaboration',
-    desc: 'Transparent, data-driven guidance and partnership from concept to mass production.'
+    title: 'End-to-End Supply Chain Optimization',
+    desc: 'Optimize cost structures, streamline sourcing, and connect with trusted suppliers.'
   }
 ];
 
@@ -61,7 +56,7 @@ const FounderMessage: React.FC = () => {
           <ul>
             <li>Working hand-in-hand with clients—from initial concept to mass production.</li>
             <li>
-              Investing in R&amp;D to create custom technologies: ice cooling, multi-function, sapphire window,
+              Investing in R&D to create custom technologies: ice cooling, multi-function, sapphire window,
               smart app-connected, dual-lamp, and skin-sensor IPL devices.
             </li>
             <li>

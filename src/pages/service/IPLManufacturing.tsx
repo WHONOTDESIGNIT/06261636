@@ -4,12 +4,9 @@ import {
   Factory,
   Cog,
   Award,
-  Zap,
   Upload,
-  ClipboardList,
   Settings,
   PackageSearch,
-  CheckCircle2,
   FileText,
   HelpCircle
 } from 'lucide-react';

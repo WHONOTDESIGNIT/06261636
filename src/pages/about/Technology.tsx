@@ -10,8 +10,7 @@ import {
   Smartphone,
   Lightbulb,
   TrendingUp,
-  Globe,
-  CheckCircle2
+  Globe
 } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 

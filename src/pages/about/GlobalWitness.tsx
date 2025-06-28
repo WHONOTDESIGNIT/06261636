@@ -18,8 +18,6 @@ const brandImages = [
   // ...add as many as needed
 ];
 
-const CONTAINER_WIDTH = 353 * 5 + 10 * 4; // 5 images + 4 gaps = 1,865px
-
 const GlobalWitness: React.FC = () => {
   return (
     <div className="min-h-screen pt-20">

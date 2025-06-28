@@ -4,14 +4,8 @@ import {
   Search,
   Package,
   Globe,
-  Award,
-  ListChecks,
-  ClipboardList,
-  Factory,
-  Truck,
   TrendingUp,
   Users,
-  FileText,
   Info,
   ClipboardCheck
 } from 'lucide-react';
@@ -319,7 +313,7 @@ const BeautySourcing: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-lg italic text-gray-700"
           >
-            “Strategic sourcing in beauty electronics is about more than price—it's about supplier reliability, trend alignment, and operational agility. Our data shows that diversified supply chains and rigorous vendor audits reduce procurement risk by over 30%.”
+            "Strategic sourcing in beauty electronics is about more than price—it's about supplier reliability, trend alignment, and operational agility. Our data shows that diversified supply chains and rigorous vendor audits reduce procurement risk by over 30%."
           </motion.blockquote>
         </div>
       </section>
