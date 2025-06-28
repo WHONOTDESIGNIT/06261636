@@ -1,6 +1,3 @@
-# NewsInsights.tsx - iShine Technology Blog
-
-```tsx
 import React, { useState } from 'react';
 import { Calendar, Clock, TrendingUp, Filter, Search, ArrowRight } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
@@ -357,46 +354,3 @@ const NewsInsights: React.FC = () => {
 };
 
 export default NewsInsights;
-```
-
-## Key Bloomberg-Inspired Design Elements:
-
-### 1. **Header Design**
-- Dark blue background (#002B5C) mimicking Bloomberg's signature dark theme[5][8]
-- Bold typography with clear hierarchy
-- Live market intelligence indicator (trending icon)
-
-### 2. **Navigation & Filtering**
-- Category filters above the fold for immediate content scanning[5][8]
-- Search functionality for quick content discovery
-- Clean, functional layout prioritizing information access
-
-### 3. **Content Layout Structure**
-- **Featured Article**: Large hero section with detailed information
-- **Grid System**: Mixed layout with larger primary articles and compact secondary articles[5][8]
-- **Scannable Headlines**: Multiple headlines visible above the fold[8]
-- **Content Packaging**: Related stories grouped by category[8]
-
-### 4. **Bloomberg-Style Data Integration**
-- Market intelligence section with key IPL industry metrics
-- Real-time feel with specific numbers and percentages
-- Professional data presentation matching Bloomberg's approach[5]
-
-### 5. **Visual Hierarchy**
-- **Bold headlines** with clear category tagging
-- **Deks (descriptions)** beneath headlines for better engagement[8]
-- **Author attribution** and metadata clearly displayed
-- **Tag systems** for content organization
-
-### 6. **Professional B2B Focus**
-- Content tailored for industry professionals and decision-makers[14]
-- Technical insights and market analysis focus
-- Newsletter subscription for ongoing engagement
-- Contact form integration for business inquiries
-
-### 7. **Responsive Design**
-- Grid layouts that adapt to different screen sizes
-- Mobile-first approach with desktop enhancements
-- Efficient use of space across devices
-
-This design captures Bloomberg's essence of being "smarter and faster"[5] while serving iShine's B2B audience with authoritative IPL technology insights. The modular design system allows for easy content updates and scaling[11].
