@@ -96,7 +96,7 @@ const Technology: React.FC = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
-                className="relative"
+                className="relative ml-2.5"
               >
                 <span className="absolute -left-3 top-2 w-4 h-4 rounded-full bg-ishine-teal-500" />
                 <h3 className="text-xl font-semibold text-ishine-blue-600">{item.year}: {item.title}</h3>
