@@ -3,9 +3,9 @@ import { ShieldCheck } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 
 const qualityPoints = [
-  'Medical-grade components and strict ISO 10993 biocompatibility testing[3]',
-  'Fully compliant with FDA, CE, IEC 60601, and IEC 62471 safety standards[3]',
-  'Integrated skin sensor: safe, precise, and prevents accidental flashes[3]',
+  'Medical-grade components and strict ISO 13485 biocompatibility testing',
+  'Fully compliant with FDA, CE, IEC 60601, and IEC 62471 safety standards',
+  'Integrated skin sensor: safe, precise, and prevents accidental flashes',
   'Advanced optical technology for effective, gentle hair removal',
   'Highly precise assembly and rigorous multi-stage QC',
   'Long-life flash lamps and wear-resistant accessories',
