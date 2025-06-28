@@ -5,10 +5,10 @@ import ContactFormA from '../../components/Forms/ContactFormA';
 
 // Example brand image paths, replace with your actual image paths
 const brandImages = [
-  'brand1.png',
-  'brand2.png',
-  'brand3.png',
-  'brand4.png',
+  'https://i.postimg.cc/dVVYH6Sq/global-witness-01.jpg',
+  'https://i.postimg.cc/0Nr9Qnpt/global-witness-04.jpg',
+  'https://i.postimg.cc/m2w4yJjX/global-witness-07.jpg',
+  'https://i.postimg.cc/bwBTXYLZ/global-witness-05.jpg',
   'brand5.png',
   'brand6.png',
   'brand7.png',
