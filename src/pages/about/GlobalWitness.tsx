@@ -29,8 +29,8 @@ const GlobalWitness: React.FC = () => {
         {/* Replace items in brandImages with actual logo paths */}
         {(() => {
           const brandImages = [
-            'https://i.postimg.cc/43WX4VCf/global-witness-01.webp',
-            'https://i.postimg.cc/QMCy5nYT/7d7c6493e74549d2cb4dc6d0bbdfa153.jpg',
+            'brand1.png',
+            'brand2.png',
             'brand3.png',
             'brand4.png',
             'brand5.png',
@@ -39,12 +39,13 @@ const GlobalWitness: React.FC = () => {
           return (
             <div className="max-w-full mx-auto flex flex-wrap justify-center gap-[10px] bg-[#f9f9f9] rounded-[24px] p-10">
               {brandImages.map((src) => (
-                <img
-                  key={src}
-                  src={src}
-                  alt={src.split('.')[0]}
-                  className="w-[353px] rounded-[18px] object-contain block"
-                />
+                <div key={src} className="w-[353px] rounded-[18px] overflow-hidden">
+                  <img
+                    src={src}
+                    alt={src.split('.')[0]}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
               ))}
             </div>
           );
