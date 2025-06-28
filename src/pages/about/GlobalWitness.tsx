@@ -26,17 +26,29 @@ const GlobalWitness: React.FC = () => {
 
       {/* -------- BRAND GALLERY -------- */}
       <section className="py-20 bg-white">
-        <div className="w-[1825px] max-w-full mx-auto flex flex-wrap gap-[10px] bg-[#f9f9f9] rounded-[24px] p-10 justify-start overflow-hidden">
-          {/* Example brand images; replace src with real logos */}
-          {Array.from({ length: 10 }).map((_, i) => (
-            <img
-              key={i}
-              src={`https://i.postimg.cc/43WX4VCf/global-witness-01.webp`}
-              alt={`Brand ${i + 1}`}
-              className="w-[353px] rounded-[18px] object-contain block"
-            />
-          ))}
-        </div>
+        {/* Replace items in brandImages with actual logo paths */}
+        {(() => {
+          const brandImages = [
+            'brand1.png',
+            'brand2.png',
+            'brand3.png',
+            'brand4.png',
+            'brand5.png',
+            // Add more image paths here without duplicates
+          ];
+          return (
+            <div className="max-w-full mx-auto flex flex-wrap justify-center gap-[10px] bg-[#f9f9f9] rounded-[24px] p-10">
+              {brandImages.map((src) => (
+                <img
+                  key={src}
+                  src={src}
+                  alt={src.split('.')[0]}
+                  className="w-[353px] rounded-[18px] object-contain block"
+                />
+              ))}
+            </div>
+          );
+        })()}
       </section>
 
       <ContactFormA />
