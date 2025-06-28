@@ -175,7 +175,7 @@ const Home: React.FC = () => {
               Let's discuss your requirements and create the IPL solution that best fit for your brand.
             </p>
             <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-ishine-teal-500">
-              Free Consultation
+             Fill out the form to enjoy a Free Consultation Free Consultation
             </Button>
           </motion.div>
         </div>
