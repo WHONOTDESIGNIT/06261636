@@ -7,12 +7,12 @@ const compareImages = [
   {
     label: 'UV Printing',
     img: '/images/logo-uv-printing.jpg', // 占位图片路径
-    desc: 'Affordable, fast, suitable for simple logos and small batches. Color vibrancy is good, but detail and texture are less refined than screen printing. Best for 1-2 color designs on curved IPL device bodies.[2][3][9][10]',
+    desc: 'Affordable, fast, suitable for simple logos and small batches. Color vibrancy is good, but detail and texture are less refined than screen printing. Best for 1-2 color designs on curved IPL device bodies.',
   },
   {
     label: 'Screen Printing',
     img: '/images/logo-screen-printing.jpg', // 占位图片路径
-    desc: 'Premium finish, crisp lines, and excellent durability—ideal for brands seeking the best tactile and visual effect. Slightly higher cost, but preferred for orders over 20 units. Supports 1-2 color logos on curved surfaces.[4][6][9]',
+    desc: 'Premium finish, crisp lines, and excellent durability—ideal for brands seeking the best tactile and visual effect. Slightly higher cost, but preferred for orders over 20 units. Supports 1-2 color logos on curved surfaces.',
   },
 ];
 
