@@ -17,6 +17,7 @@ const steps = [
   {
     id: 1,
     title: 'Customer Industrial Design (ID) Submission',
+    duration: 'Depends on Customer',
     desc: 'After securing your appearance patent, submit your Industrial Design (ID) files to initiate the project. Protects your IP and sets the foundation for all downstream engineering.',
     cta: {
       text: 'Upload Your ID Files',
