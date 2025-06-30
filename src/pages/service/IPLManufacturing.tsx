@@ -235,19 +235,7 @@ const IPLManufacturing: React.FC = () => {
         </div>
       </section>
 
-      {/* ---------------- GET STARTED ---------------- */}
-      <section className="py-20 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-6 text-ishine-purple-600">Get Started</h2>
-          <p className="text-gray-700 mb-8">Ready to bring your IPL device to life?</p>
-          <a
-            href="/get-a-quote"
-            className="inline-block bg-[rgb(0,102,161)] hover:bg-[rgb(0,86,136)] text-white font-semibold py-3 px-8 rounded-lg shadow transition-colors duration-300"
-          >
-            Get a Quote!
-          </a>
-        </div>
-      </section>
+
 
       {/* ---------------- CONTACT FORM ---------------- */}
       <ContactFormA />
