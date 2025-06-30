@@ -145,8 +145,8 @@ const SmartAppIPL: React.FC = () => {
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Experience the future of home hair removal with our <strong>Smart App-Controlled IPL Device</strong>. 
                   This revolutionary device combines clinically proven <strong>IPL technology</strong> with advanced 
-                  <strong>❄️ Bluetooth connectivity and AI-powered skin analysis</strong> – for visibly smoother skin 
-                  in record time, completely pain-free. With <strong>9 individually adjustable intensity levels</strong> 
+                  <strong>❄️ Bluetooth connectivity</strong> – for visibly smoother skin 
+                  in record time, completely pain-free. With <strong>5 individually adjustable intensity levels</strong> 
                   and smart app guidance, this device is perfect for all skin types and body areas.
                 </p>
               </div>
