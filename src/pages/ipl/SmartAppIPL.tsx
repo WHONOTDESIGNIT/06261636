@@ -8,7 +8,7 @@ const SmartAppIPL: React.FC = () => {
   const [activeSubTab, setActiveSubTab] = useState('specifications');
 
   const productImages = [
-    '/https://i.postimg.cc/tCtVBTPz/app-ipl-three-set.webp',
+    'https://i.postimg.cc/tCtVBTPz/app-ipl-three-set.webp',
     '/images/smart-app-ipl/smart-app-ipl-app-interface.jpg', 
     '/images/smart-app-ipl/smart-app-ipl-side-view.jpg',
     '/images/smart-app-ipl/smart-app-ipl-usage.jpg',
