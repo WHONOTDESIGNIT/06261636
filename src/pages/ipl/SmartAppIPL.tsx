@@ -237,7 +237,7 @@ const SmartAppIPL: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center mb-12">
             <img src="/images/smart-app-ipl/feature1.jpg" alt="Guided App Control" className="w-full md:w-1/2 rounded-xl shadow-md" />
             <div className="md:ml-8 mt-6 md:mt-0">
-              <h3 className="text-xl font-semibold mb-4 text-gray-800">Seamless App Connectivity</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Smart App Connectivity</h3>
               <p className="text-gray-700 mb-4">
                 Connect your device effortlessly via Bluetooth 5.0. Use the dedicated mobile app to customize treatments, track progress, and receive personalized recommendations, making home hair removal smarter and more convenient.
               </p>
