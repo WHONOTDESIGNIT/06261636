@@ -20,26 +20,17 @@ const CompanyInfo: React.FC = () => (
           <div className="text-center lg:text-left">
             <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
               Leading IPL Device
-              <span className="block text-[rgb(255,255,255,0.9)]">Manufacturer</span>
+              <span
+                className="block text-[rgb(255,255,255,0.9)] ml-[5px] lg:ml-[20px]"
+                style={{ marginLeft: 20 }}
+              >
+                Manufacturer
+              </span>
             </h1>
             <p className="text-xl lg:text-2xl mb-8 text-[rgb(255,255,255,0.9)] leading-relaxed">
-              Precision engineering, global compliance, and innovative beauty technology 
+              Precision engineering, global compliance, and innovative beauty technology
               for B2B partners worldwide
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <a
-                href="/contact"
-                className="bg-white text-[rgb(0,116,224)] font-semibold px-8 py-4 rounded-full transition hover:bg-gray-100 shadow-lg"
-              >
-                Request Partnership
-              </a>
-              <a
-                href="#manufacturing"
-                className="border-2 border-white text-white font-semibold px-8 py-4 rounded-full transition hover:bg-white hover:text-[rgb(0,116,224)]"
-              >
-                View Capabilities
-              </a>
-            </div>
           </div>
           {/* Hero Visual */}
           <div className="relative">
