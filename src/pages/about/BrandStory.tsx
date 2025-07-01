@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import {
   BookOpen,
-  AlertTriangle,
   Users,
   Wrench,
   ShieldCheck,
@@ -62,7 +61,7 @@ const BrandStory: React.FC = () => {
       <section className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="flex items-center gap-2 text-2xl md:text-3xl font-bold text-ishine-orange-600 mb-6">
-            <AlertTriangle className="w-6 h-6" /> The Problem We Set Out to Solve
+           The Problem We Set Out to Solve
           </h2>
           <ul className="list-disc pl-6 space-y-3 text-gray-700">
             {hurdles.map((item) => (
