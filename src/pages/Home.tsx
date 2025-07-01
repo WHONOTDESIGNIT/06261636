@@ -17,7 +17,7 @@ const Home: React.FC = () => {
   const features = [
     { icon: CheckCircle, title: 'OEM/ODM Solutions', description: 'Complete customization from design to packaging' },
     { icon: Users, title: 'Experienced Team', description: 'Expert engineers and designers at your service' },
-    { icon: Award, title: 'Quality Assurance', description: 'FDA GMP certified clean room manufacturing' },
+    { icon: Award, title: 'Quality Assurance', description: 'FDA certified manufacturing' },
     { icon: Globe, title: 'Global Reach', description: 'Serving clients across Europe, North America, and Asia' }
   ];
 
