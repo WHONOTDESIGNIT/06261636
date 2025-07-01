@@ -23,12 +23,11 @@ const SmartAppIPL: React.FC = () => {
   const productImages = [
     'https://i.postimg.cc/tCtVBTPz/app-ipl-three-set.webp',
     'https://i.postimg.cc/59YB2xQv/12pro-1.webp',
-    '/images/smart-app-ipl/side.jpg',
+    'https://i.postimg.cc/HLk5DHCr/app-ipl-side.webp',
     '/images/smart-app-ipl/app-usage.jpg',
     '/images/smart-app-ipl/features.jpg',
     '/images/smart-app-ipl/package.jpg',
     '/images/smart-app-ipl/comparison.jpg',
-    '/images/smart-app-ipl/accessories.jpg',
   ];
   const thumbnails = productImages;
 
