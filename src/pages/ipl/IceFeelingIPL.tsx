@@ -132,8 +132,8 @@ const IceFeelingIPL: React.FC = () => {
             {/* Price */}
             <div className="space-y-2">
               <div className="flex items-center space-x-4">
-                <span className="text-3xl font-bold text-[rgb(0,116,224)]">$349.00</span>
-                <span className="text-xl text-gray-500 line-through">$499.00</span>
+                <span className="text-3xl font-bold text-[rgb(0,116,224)]">$149.00</span>
+                <span className="text-xl text-gray-500 line-through">$299.00</span>
                 <span className="bg-red-100 text-red-800 px-2 py-1 rounded-full text-sm font-semibold">
                   Save 30%
                 </span>
