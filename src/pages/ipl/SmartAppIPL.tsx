@@ -135,7 +135,7 @@ const SmartAppIPL: React.FC = () => {
                   Save 23%
                 </span>
               </div>
-              <p className="text-sm text-gray-600">Free shipping • 18-month warranty</p>
+              <p className="text-sm text-gray-600">Free shipping • 12-month warranty</p>
             </div>
 
             {/* Description */}
