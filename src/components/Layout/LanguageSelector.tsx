@@ -143,7 +143,7 @@ export const LanguageSelector: React.FC = () => {
               {/* Language Grid with ref for position tracking */}
               <div 
                 ref={languageGridRef}
-                className="relative bg-white rounded-xl border border-gray-200 p-[30px] max-h-[48rem] overflow-y-auto"
+                className="relative bg-white rounded-xl border border-gray-200 p-[30px] max-h-[778px] overflow-y-auto"
               >
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6">
                   {Object.entries(groupedLanguages).map(([region, langs]) => (
