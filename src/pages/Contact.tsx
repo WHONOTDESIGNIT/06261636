@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
             <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
               Ready to discuss your IPL project? Get in touch with our expert team today. 
-              We're here to help bring your vision to life.
+              We're here to help you.
             </p>
           </motion.div>
         </div>
