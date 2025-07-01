@@ -22,7 +22,7 @@ const SmartAppIPL: React.FC = () => {
   /* ========= 1. Resource Configuration ========= */
   const productImages = [
     'https://i.postimg.cc/tCtVBTPz/app-ipl-three-set.webp',
-    '/images/smart-app-ipl/interface.jpg',
+    'https://i.postimg.cc/59YB2xQv/12pro-1.webp',
     '/images/smart-app-ipl/side.jpg',
     '/images/smart-app-ipl/app-usage.jpg',
     '/images/smart-app-ipl/features.jpg',
