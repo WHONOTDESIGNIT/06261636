@@ -9,15 +9,12 @@ import {
   Shield,
   Truck,
   Award,
-  Check,
-  Info,
   Smartphone,
 } from 'lucide-react';
 
 const SmartAppIPL: React.FC = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
-  const [activeSubTab, setActiveSubTab] = useState<'specifications' | 'safety' | 'reviews'>('specifications');
 
   const productImages = [
     'https://i.postimg.cc/tCtVBTPz/app-ipl-three-set.webp',
