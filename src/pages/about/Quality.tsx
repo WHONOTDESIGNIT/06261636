@@ -10,7 +10,7 @@ const qualityPoints = [
   'Highly precise assembly and rigorous multi-stage QC',
   'Long-life flash lamps and wear-resistant accessories',
   'User-friendly design for maximum reliability and ease of use',
-  'Trusted by global brands in Europe, North America, and Asia[1]',
+  'Trusted by global brands in Europe, North America, and Asia',
 ];
 
 const Quality: React.FC = () => {
