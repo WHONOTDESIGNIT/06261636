@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { MapPin } from 'lucide-react';
 import ContactFormB from '../components/Forms/ContactFormB';
 
 const Contact: React.FC = () => {
@@ -24,20 +23,17 @@ const Contact: React.FC = () => {
         </div>
       </section>
 
-      {/* 新增的图片区域 - 与Hero Section同高 */}
+      {/* Image Section */}
       <section className="relative h-[23vh] min-h-[500px] w-full">
-        {/* 图片容器 - 确保图片覆盖整个区域 */}
         <div className="absolute inset-0 overflow-hidden">
           <img
-            src="https://i.postimg.cc/63r0rmF6/company-photo.webp" // 替换为您的图片路径
+            src="https://i.postimg.cc/63r0rmF6/company-photo.webp"
             alt="iShine Manufacturing Facility"
             className="w-full h-full object-cover object-center"
           />
-          {/* 半透明遮罩 */}
           <div className="absolute inset-0 bg-black/20"></div>
         </div>
         
-        {/* 可选：在图片上添加文字内容 */}
         <div className="relative h-full flex items-center justify-center">
           <motion.div
             initial={{ opacity: 0 }}
@@ -49,29 +45,7 @@ const Contact: React.FC = () => {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6 }}
-            className="bg-white rounded-lg shadow-lg overflow-hidden"
-          >
-            <div className="aspect-w-16 aspect-h-9">
-              <div className="w-full h-96 bg-gradient-to-br from-ishine-blue-100 to-ishine-teal-100 flex items-center justify-center">
-                <div className="text-center">
-                  <MapPin className="w-16 h-16 text-ishine-blue-500 mx-auto mb-4" />
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">iShine Manufacturing</h3>
-                  <p className="text-gray-600">Shenzhen, Guangdong, China</p>
-                </div>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* Contact Form */}
+      {/* Contact Form - Now directly follows the image section */}
       <ContactFormB />
     </div>
   );
