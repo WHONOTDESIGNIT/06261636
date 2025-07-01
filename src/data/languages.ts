@@ -33,7 +33,6 @@ export const languages = [
   // Asia Pacific
   { code: 'en-au', name: 'Australia', nativeName: 'English', flag: '🇦🇺', region: 'Asia Pacific' },
   { code: 'en-nz', name: 'New Zealand', nativeName: 'English', flag: '🇳🇿', region: 'Asia Pacific' },
-  { code: 'en-in', name: 'India', nativeName: 'English', flag: '🇮🇳', region: 'Asia Pacific' },
   { code: 'hi-in', name: 'India', nativeName: 'हिन्दी', flag: '🇮🇳', region: 'Asia Pacific' },
   { code: 'ja-jp', name: 'Japan', nativeName: '日本語', flag: '🇯🇵', region: 'Asia Pacific' },
   { code: 'ko-kr', name: 'South Korea', nativeName: '한국어', flag: '🇰🇷', region: 'Asia Pacific' },
