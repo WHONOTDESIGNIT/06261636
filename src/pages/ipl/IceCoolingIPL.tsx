@@ -18,7 +18,6 @@ const IceCoolingIPL: React.FC = () => {
   const [quantity, setQuantity] = useState(1);
   const [activeSubTab, setActiveSubTab] = useState<'specifications' | 'safety' | 'reviews'>('specifications');
 
-  /* ========= 1. 资源配置 ========= */
   const productImages = [
     '/images/ice-cooling-ipl/front.jpg',
     '/images/ice-cooling-ipl/interface.jpg',
@@ -31,7 +30,6 @@ const IceCoolingIPL: React.FC = () => {
   ];
   const thumbnails = productImages;
 
-  /* ========= 2. 事件处理 ========= */
   const nextImage = () =>
     setCurrentImageIndex((prev) => (prev + 1) % productImages.length);
   const prevImage = () =>
@@ -39,7 +37,6 @@ const IceCoolingIPL: React.FC = () => {
   const increaseQuantity = () => quantity < 10 && setQuantity(quantity + 1);
   const decreaseQuantity = () => quantity > 1 && setQuantity(quantity - 1);
 
-  /* ========= 3. 组件渲染 ========= */
   return (
     <div className="min-h-screen bg-white pt-20">
       <div className="container mx-auto px-4">
@@ -55,14 +52,12 @@ const IceCoolingIPL: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           {/* Product Gallery */}
           <div className="space-y-4">
-            {/* Main Image */}
             <div className="relative bg-[#f9f9f9] rounded-2xl overflow-hidden group">
               <img
                 src={productImages[currentImageIndex]}
                 alt="Ice Cooling IPL Hair Removal Device"
                 className="w-full h-[600px] object-cover"
               />
-              {/* Navigation Arrows */}
               <button
                 onClick={prevImage}
                 className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity"
@@ -75,7 +70,6 @@ const IceCoolingIPL: React.FC = () => {
               >
                 <ChevronRight className="w-6 h-6 text-gray-800" />
               </button>
-              {/* Dots */}
               <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
                 {productImages.map((_, index) => (
                   <button
@@ -88,8 +82,6 @@ const IceCoolingIPL: React.FC = () => {
                 ))}
               </div>
             </div>
-
-            {/* Thumbnails */}
             <div className="grid grid-cols-4 gap-2">
               {thumbnails.map((thumb, index) => (
                 <button
@@ -145,52 +137,47 @@ const IceCoolingIPL: React.FC = () => {
               <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl p-6 border border-blue-100">
                 <h3 className="text-lg font-semibold mb-3 flex items-center">
                   <span className="w-5 h-5 mr-2 text-blue-600">❄️</span>
-                  ✨ 奢华冰爽冷却技术 - 女神级享受 ✨
+                  ✨ Luxurious Ice Cooling Technology - Goddess-level Experience ✨
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  体验专业级的奢华冰爽脱毛技术，采用{" "}
-                  <strong>航空级冷却金属板</strong>，接触皮肤瞬间降温至{" "}
-                  <strong>5°C超低温</strong>，配合{" "}
-                  <strong>20 J/cm²高能量IPL脉冲</strong>和{" "}
-                  <strong>800,000+闪光寿命</strong>，
-                  打造女神般的丝滑肌肤体验。奢华设计，专为追求完美的现代女性而生。
+                  Experience professional-grade luxurious ice cooling hair removal technology, featuring an <strong>aerospace-grade cooling metal plate</strong> that instantly cools the skin to <strong>5°C ultra-low temperature</strong>. Combined with <strong>20 J/cm² high-energy IPL pulses</strong> and <strong>800,000+ flashes</strong>, it delivers a goddess-like silky skin experience. The luxurious design is crafted for perfection-seeking modern women.
                 </p>
               </div>
               <ul className="space-y-3" style={{ listStyle: 'none', paddingLeft: 0 }}>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-3 mt-1">✔️</span>
-                  奢华女神设计 — 航空级金属质感，彰显高贵品味。
+                  Luxurious goddess design — Aerospace-grade metal texture, showcasing noble taste.
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-3 mt-1">✔️</span>
-                  冰爽冷却板技术 — 接触皮肤瞬间降温至5°C，真正无痛体验。
+                  Ice cooling plate technology — Instantly cools skin to 5°C for truly painless experience.
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-3 mt-1">✔️</span>
-                  9档精准能量控制 — 从敏感区到粗硬毛发，精准定制。
+                  9-level precise energy control — Customizable for sensitive areas and coarse hair.
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-3 mt-1">✔️</span>
-                  适用所有肤色 — Fitzpatrick I-V安全认证。
+                  Suitable for all skin tones — Fitzpatrick I-V certified.
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-3 mt-1">✔️</span>
-                  5.0 cm²超大治疗窗口 — 快速覆盖，效率提升50%。
+                  5.0 cm² extra-large treatment window — Fast coverage, 50% higher efficiency.
                 </li>
               </ul>
             </div>
 
             {/* Stock */}
             <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-              <p className="text-green-800 font-medium">✅ 现货充足 – 仅剩18台</p>
-              <p className="text-sm text-green-600 mt-1">24小时内发货</p>
+              <p className="text-green-800 font-medium">✅ In Stock – Only 18 units left</p>
+              <p className="text-sm text-green-600 mt-1">Ships within 24 hours</p>
             </div>
 
             {/* Quantity & Cart */}
             <div className="space-y-4">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  数量
+                  Quantity
                 </label>
                 <div className="flex items-center space-x-3">
                   <div className="flex items-center border border-gray-300 rounded-lg">
@@ -210,12 +197,12 @@ const IceCoolingIPL: React.FC = () => {
                       <Plus className="w-4 h-4" />
                     </button>
                   </div>
-                  <span className="text-sm text-gray-600">单次最多10件</span>
+                  <span className="text-sm text-gray-600">Max 10 per order</span>
                 </div>
               </div>
               <button className="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white font-semibold py-4 rounded-lg transition-all duration-300 flex items-center justify-center shadow-lg">
                 <ShoppingCart className="w-5 h-5 mr-2" />
-                立即购买
+                Buy Now
               </button>
             </div>
 
@@ -242,27 +229,27 @@ const IceCoolingIPL: React.FC = () => {
             <div className="grid grid-cols-3 gap-4 pt-6 border-t border-gray-200">
               <div className="text-center">
                 <Shield className="w-8 h-8 mx-auto mb-2 text-blue-600" />
-                <p className="text-xs text-gray-600">18个月<br />质保</p>
+                <p className="text-xs text-gray-600">18-Month<br />Warranty</p>
               </div>
               <div className="text-center">
                 <Truck className="w-8 h-8 mx-auto mb-2 text-blue-600" />
-                <p className="text-xs text-gray-600">全国<br />包邮</p>
+                <p className="text-xs text-gray-600">Free<br />Shipping</p>
               </div>
               <div className="text-center">
                 <Award className="w-8 h-8 mx-auto mb-2 text-blue-600" />
-                <p className="text-xs text-gray-600">FDA<br />认证</p>
+                <p className="text-xs text-gray-600">FDA<br />Certified</p>
               </div>
             </div>
 
             {/* Product Meta */}
             <div className="pt-6 border-t border-gray-200 space-y-2">
               <p className="text-sm text-gray-600">
-                <span className="font-medium">产品编号:</span> ICE-COOLING-004
+                <span className="font-medium">SKU:</span> ICE-COOLING-004
               </p>
               <p className="text-sm text-gray-600">
-                <span className="font-medium">分类:</span>
+                <span className="font-medium">Category:</span>
                 <a href="/category/ipl-devices" className="text-blue-600 hover:underline ml-1">
-                  IPL脱毛设备
+                  IPL Hair Removal Devices
                 </a>
               </p>
             </div>
@@ -277,20 +264,20 @@ const IceCoolingIPL: React.FC = () => {
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
                   <h2 className="text-2xl font-bold mb-4">
-                    ❄️ 航空级冰爽冷却金属板技术
+                    ❄️ Aerospace-Grade Ice Cooling Metal Plate Technology
                   </h2>
                   <ul className="space-y-3">
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-white rounded-full mr-3" />
-                      瞬间接触冷却至5°C，真正实现无痛脱毛体验。
+                      Instantly cools to 5°C on contact for truly painless hair removal.
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-white rounded-full mr-3" />
-                      9档能量精准控制，从敏感区到粗硬毛发全覆盖。
+                      9-level precise energy control for all skin and hair types.
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-white rounded-full mr-3" />
-                      奢华女神设计，航空级金属质感彰显高贵品味。
+                      Luxurious goddess design with aerospace-grade metal finish.
                     </li>
                   </ul>
                 </div>
@@ -299,8 +286,8 @@ const IceCoolingIPL: React.FC = () => {
                     <div className="w-16 h-16 mx-auto mb-4 bg-white/30 rounded-full flex items-center justify-center">
                       <span className="text-3xl">❄️</span>
                     </div>
-                    <p className="text-sm">奢华冰爽设计</p>
-                    <p className="text-xs opacity-80">女神级享受</p>
+                    <p className="text-sm">Luxury Ice Cooling Design</p>
+                    <p className="text-xs opacity-80">Goddess-level Experience</p>
                   </div>
                 </div>
               </div>
@@ -314,10 +301,9 @@ const IceCoolingIPL: React.FC = () => {
                   alt="Ice Cooling Technology"
                   className="w-full rounded-xl"
                 />
-                <h3 className="text-xl font-bold">冰爽冷却技术</h3>
+                <h3 className="text-xl font-bold">Ice Cooling Technology</h3>
                 <p className="text-gray-700">
-                  航空级冷却金属板采用先进的导热技术，接触皮肤瞬间降温至5°C超低温，
-                  配合智能温度控制系统，确保每次治疗都能享受冰爽舒适的无痛体验。
+                  The aerospace-grade cooling metal plate uses advanced thermal conduction to instantly cool the skin to 5°C, with intelligent temperature control for a truly painless and comfortable experience every session.
                 </p>
               </div>
               <div className="space-y-6">
@@ -326,10 +312,9 @@ const IceCoolingIPL: React.FC = () => {
                   alt="Luxury Design"
                   className="w-full rounded-xl"
                 />
-                <h3 className="text-xl font-bold">奢华女神设计</h3>
+                <h3 className="text-xl font-bold">Luxurious Goddess Design</h3>
                 <p className="text-gray-700">
-                  采用航空级金属材质，钻石切割工艺，流线型奢华设计。
-                  每一个细节都体现着对完美的追求，专为追求高品质生活的现代女性打造。
+                  Crafted with aerospace-grade metal, diamond-cut finish, and a streamlined luxurious silhouette. Every detail reflects the pursuit of perfection for the modern woman.
                 </p>
               </div>
             </div>
@@ -337,13 +322,13 @@ const IceCoolingIPL: React.FC = () => {
             {/* How It Works */}
             <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl p-8 border border-blue-100">
               <h2 className="text-2xl font-bold mb-6 text-center">
-                冰爽IPL脱毛原理
+                How Ice Cooling IPL Works
               </h2>
               <div className="grid md:grid-cols-3 gap-6">
                 {[
-                  ['冷却准备', '将冰爽金属板贴合肌肤，瞬间降温至5°C舒适温度'],
-                  ['能量脉冲', '选择适合档位，发射精准IPL能量脉冲破坏毛囊'],
-                  ['丝滑享受', '定期使用享受女神般丝滑肌肤，持久无毛状态'],
+                  ['Cooling Prep', 'Apply the ice cooling metal plate to skin for instant 5°C comfort.'],
+                  ['Energy Pulse', 'Select the right level and deliver precise IPL pulses to target follicles.'],
+                  ['Silky Enjoyment', 'Use regularly to enjoy goddess-level silky, hair-free skin.'],
                 ].map(([title, desc], i) => (
                   <div key={title} className="text-center">
                     <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
@@ -358,8 +343,7 @@ const IceCoolingIPL: React.FC = () => {
 
             {/* Technical Tabs */}
             <div className="space-y-6">
-              <h2 className="text-2xl font-bold text-center">技术参数</h2>
-              {/* Tab Nav */}
+              <h2 className="text-2xl font-bold text-center">Technical Specifications</h2>
               <div className="border-b border-gray-200">
                 <nav className="-mb-px flex space-x-8 justify-center">
                   {['specifications', 'safety', 'reviews'].map((tab) => (
@@ -373,28 +357,26 @@ const IceCoolingIPL: React.FC = () => {
                       }`}
                     >
                       {tab === 'specifications'
-                        ? '技术参数'
+                        ? 'Specifications'
                         : tab === 'safety'
-                        ? '安全须知'
-                        : '用户评价'}
+                        ? 'Safety'
+                        : 'Reviews'}
                     </button>
                   ))}
                 </nav>
               </div>
-
-              {/* Specs */}
               {activeSubTab === 'specifications' && (
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="bg-white border border-gray-200 rounded-xl p-6">
-                    <h3 className="text-lg font-semibold mb-4">设备参数</h3>
+                    <h3 className="text-lg font-semibold mb-4">Device Specs</h3>
                     <div className="space-y-3 text-sm">
                       {[
-                        ['光源类型', 'IPL强脉冲光'],
-                        ['波长范围', '530-1200 nm'],
-                        ['能量档位', '9档精准调节'],
-                        ['最大能量', '20 J/cm²'],
-                        ['闪光寿命', '800,000+'],
-                        ['治疗窗口', '5.0 cm²'],
+                        ['Light Source', 'IPL Intense Pulsed Light'],
+                        ['Wavelength', '530-1200 nm'],
+                        ['Energy Levels', '9 adjustable'],
+                        ['Max Energy', '20 J/cm²'],
+                        ['Flash Lifetime', '800,000+'],
+                        ['Treatment Window', '5.0 cm²'],
                       ].map(([k, v]) => (
                         <div key={k} className="flex justify-between">
                           <span className="text-gray-600">{k}:</span>
@@ -404,14 +386,14 @@ const IceCoolingIPL: React.FC = () => {
                     </div>
                   </div>
                   <div className="bg-white border border-gray-200 rounded-xl p-6">
-                    <h3 className="text-lg font-semibold mb-4">冷却系统</h3>
+                    <h3 className="text-lg font-semibold mb-4">Cooling System</h3>
                     <div className="space-y-3 text-sm">
                       {[
-                        ['冷却方式', '接触式金属板'],
-                        ['冷却温度', '5°C超低温'],
-                        ['冷却响应', '瞬间接触冷却'],
-                        ['温控系统', '智能恒温控制'],
-                        ['电源规格', '110-240V 通用'],
+                        ['Cooling Type', 'Contact metal plate'],
+                        ['Cooling Temp', '5°C ultra-low'],
+                        ['Cooling Response', 'Instant contact cooling'],
+                        ['Temp Control', 'Intelligent constant temperature'],
+                        ['Power', '110-240V Universal'],
                       ].map(([k, v]) => (
                         <div key={k} className="flex justify-between">
                           <span className="text-gray-600">{k}:</span>
@@ -422,8 +404,6 @@ const IceCoolingIPL: React.FC = () => {
                   </div>
                 </div>
               )}
-
-              {/* Safety */}
               {activeSubTab === 'safety' && (
                 <div className="space-y-6">
                   <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4">
@@ -431,11 +411,10 @@ const IceCoolingIPL: React.FC = () => {
                       <Info className="w-5 h-5 text-yellow-400 mr-3 mt-0.5" />
                       <div>
                         <h3 className="text-lg font-medium text-yellow-800">
-                          安全使用须知
+                          Safety Guidelines
                         </h3>
                         <p className="text-yellow-700 mt-1">
-                          请从最低档位开始使用，让肌肤逐步适应IPL能量。
-                          冰爽冷却板可能造成轻微的冷感刺激。
+                          Always start from the lowest level and let your skin adapt to IPL energy. The ice cooling plate may cause slight cold sensation.
                         </p>
                       </div>
                     </div>
@@ -443,15 +422,15 @@ const IceCoolingIPL: React.FC = () => {
                   <div className="grid md:grid-cols-2 gap-8">
                     <div className="space-y-4">
                       <h3 className="text-xl font-semibold text-red-600">
-                        ⚠️ 禁用人群:
+                        ⚠️ Do Not Use If:
                       </h3>
                       <ul className="space-y-2 text-sm">
                         {[
-                          '孕期及哺乳期女性',
-                          'Fitzpatrick VI深色肌肤',
-                          '白色、灰色或红色毛发',
-                          '活跃性皮肤疾病患者',
-                          '18岁以下未成年人',
+                          'Pregnant or breastfeeding',
+                          'Fitzpatrick VI skin type',
+                          'White, grey, or red hair',
+                          'Active skin disorders',
+                          'Under 18 years old',
                         ].map((txt) => (
                           <li key={txt} className="flex items-start">
                             <span className="text-red-500 mr-2 mt-1">•</span>
@@ -462,15 +441,15 @@ const IceCoolingIPL: React.FC = () => {
                     </div>
                     <div className="space-y-4">
                       <h3 className="text-xl font-semibold text-green-600">
-                        ✓ 内置安全保护:
+                        ✓ Built-in Safety:
                       </h3>
                       <ul className="space-y-2 text-sm">
                         {[
-                          '肤色智能识别系统',
-                          'UV滤光镜头保护',
-                          '接触式冷却安全',
-                          '自动断电保护',
-                          'CE & FDA双重认证',
+                          'Skin tone sensor',
+                          'UV filtered lens',
+                          'Contact cooling safety',
+                          'Auto power-off',
+                          'CE & FDA certified',
                         ].map((txt) => (
                           <li key={txt} className="flex items-start">
                             <span className="text-green-500 mr-2 mt-1">•</span>
@@ -482,13 +461,11 @@ const IceCoolingIPL: React.FC = () => {
                   </div>
                 </div>
               )}
-
-              {/* Reviews */}
               {activeSubTab === 'reviews' && (
                 <div className="space-y-6">
                   <div className="bg-white border border-gray-200 rounded-xl p-6">
-                    <h3 className="text-lg font-semibold mb-4">用户评价</h3>
-                    {['Linda 女士', '小雅', '美美'].map((name, idx) => (
+                    <h3 className="text-lg font-semibold mb-4">Customer Reviews</h3>
+                    {['Linda', 'Sophia', 'Emma'].map((name, idx) => (
                       <div
                         key={name}
                         className={`border-b border-gray-100 pb-4 ${idx === 2 ? 'border-none' : ''
@@ -501,17 +478,16 @@ const IceCoolingIPL: React.FC = () => {
                             ))}
                           </div>
                           <span className="ml-2 text-sm font-medium">{name}</span>
-                          <span className="ml-2 text-xs text-gray-500">已验证购买</span>
+                          <span className="ml-2 text-xs text-gray-500">Verified Purchase</span>
                         </div>
                         <p className="text-sm text-gray-700">
-                          "这款设备真的是女神级的享受！冰爽的金属板贴在皮肤上超级舒服，
-                          9档调节非常精准，脱毛效果比美容院还好。外观也超级奢华，爱了！"
+                          "This device truly feels goddess-level! The ice cooling plate is super comfortable, 9-level adjustment is very precise, and the hair removal effect is better than salons. The appearance is also super luxurious, I love it!"
                         </p>
                       </div>
                     ))}
                     <div className="mt-6 text-center">
                       <button className="text-blue-600 hover:text-blue-700 font-medium text-sm">
-                        查看全部243条评价
+                        View all 243 reviews
                       </button>
                     </div>
                   </div>
@@ -521,7 +497,7 @@ const IceCoolingIPL: React.FC = () => {
 
             {/* Package Contents */}
             <div className="space-y-6">
-              <h2 className="text-2xl font-bold">包装清单</h2>
+              <h2 className="text-2xl font-bold">Package Contents</h2>
               <img
                 src="/images/ice-cooling-ipl/package-contents.jpg"
                 alt="Package Contents"
@@ -529,12 +505,12 @@ const IceCoolingIPL: React.FC = () => {
               />
               <div className="grid md:grid-cols-2 gap-6">
                 {[
-                  '1× 冰爽IPL脱毛仪主机',
-                  '1× 电源适配器',
-                  '1× 护目镜',
-                  '1× 中文说明书',
-                  '1× 清洁布',
-                  '1× 奢华收纳盒',
+                  '1× Ice Cooling IPL Hair Removal Device',
+                  '1× Power Adapter',
+                  '1× Protective Glasses',
+                  '1× User Manual',
+                  '1× Cleaning Cloth',
+                  '1× Luxury Storage Case',
                 ].map((item) => (
                   <div key={item} className="flex items-center">
                     <Check className="w-4 h-4 text-green-500 mr-2" />
@@ -551,13 +527,13 @@ const IceCoolingIPL: React.FC = () => {
       <section className="bg-gradient-to-r from-blue-500 via-cyan-500 to-blue-600 py-16">
         <div className="max-w-2xl mx-auto text-center px-4">
           <h2 className="text-3xl font-bold text-white mb-4 tracking-tight">
-            准备体验女神级冰爽脱毛？
+            Ready for Goddess-Level Ice Cooling Hair Removal?
           </h2>
           <p className="text-lg text-white mb-8">
-            加入数千位选择冰爽IPL的精致女性，享受奢华无痛的脱毛体验。
+            Join thousands of women who choose Ice Cooling IPL for a luxurious, painless hair removal experience.
           </p>
           <button className="bg-white text-blue-600 font-semibold px-8 py-3 rounded-full transition hover:opacity-90 shadow-lg">
-            立即下单 - 全国包邮
+            Order Now – Free Shipping
           </button>
         </div>
       </section>
