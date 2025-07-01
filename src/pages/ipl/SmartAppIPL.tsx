@@ -45,7 +45,7 @@ const SmartAppIPL: React.FC = () => {
         <nav className="text-sm text-gray-500 mb-4 mt-4 uppercase">
           <a href="/" className="hover:text-[rgb(0,116,224)]">Home</a>
           <span className="mx-2">/</span>
-          <a href="/products" className="hover:text-[rgb(0,116,224)]">IPL Hair Removal</a>
+          <a href="/ipl-hair-removal" className="hover:text-[rgb(0,116,224)]">IPL Hair Removal</a>
           <span className="mx-2">/</span>
           <span className="text-gray-800">Smart App IPL Device</span>
         </nav>
