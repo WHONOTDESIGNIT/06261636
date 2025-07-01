@@ -144,10 +144,9 @@ const IceFeelingIPL: React.FC = () => {
             {/* Description */}
             <div className="space-y-4">
               <div className="bg-[#f9f9f9] rounded-xl p-6">
-                 <h3 className="text-lg font-semibold mb-3 flex items-center">
-  <span className="w-5 h-5 mr-2 text-[rgb(0,116,224)]">❄️</span>
-  Sapphire Ice-Cooling Technology ❄️</span>
-</h3>
+                <h3 className="text-lg font-semibold mb-3 flex items-center">
+                  <span className="w-5 h-5 mr-2 text-[rgb(0,116,224)]">❄️</span>
+                  Sapphire Ice-Cooling Technology ❄️
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Enjoy painless hair removal with a clinical-grade{" "}
@@ -508,8 +507,8 @@ const IceFeelingIPL: React.FC = () => {
                           <span className="ml-2 text-xs text-gray-500">Verified Purchase</span>
                         </div>
                         <p className="text-sm text-gray-700">
-                          “The cooling plate makes every flash totally painless.
-                          Hair growth slowed dramatically after 4 sessions.”[37][24]
+                          "The cooling plate makes every flash totally painless.
+                          Hair growth slowed dramatically after 4 sessions."[37][24]
                         </p>
                       </div>
                     ))}
