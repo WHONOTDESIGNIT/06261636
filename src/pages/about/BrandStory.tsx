@@ -10,7 +10,7 @@ import {
 import ContactFormA from '../../components/Forms/ContactFormA';
 
 const hurdles = [
-  'High entry barriers and costs for IPL manufacturing—especially for SMEs.',
+  'High entry barriers and costs for IPL manufacturing—especially for SMEs(Small and Medium-sized Enterprises).',
   'Limited access to advanced features like ice cooling, skin sensors, and smart connectivity.',
   'Rigid, high-cost manufacturing in the West or inconsistent quality/support in Asia.',
   'Few partners offering true OEM/ODM flexibility, regulatory guidance, and mentorship.'
