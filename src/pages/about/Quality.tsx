@@ -41,22 +41,24 @@ const Quality: React.FC = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="bg-gradient-to-r from-[rgb(236,67,113)] to-[rgb(125,0,99)] py-16">
-        <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-white mb-4 tracking-tight">
-            Want to Know More About iShine Quality?
-          </h2>
-          <p className="text-lg text-white mb-8">
-            Our technical team is ready to answer your questions and provide detailed compliance documentation.
-          </p>
-          <button
-            className="bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold px-8 py-3 rounded-full transition"
-          >
-            Get in Touch
-          </button>
-        </div>
-      </section>
+{/* CTA Section */}
+<section className="bg-gradient-to-r from-[rgb(236,67,113)] to-[rgb(125,0,99)] py-16">
+  <div className="max-w-2xl mx-auto text-center">
+    <h2 className="text-3xl font-bold text-white mb-4 tracking-tight">
+      Want to Know More About iShine Quality?
+    </h2>
+    <p className="text-lg text-white mb-8">
+      Our technical team is ready to answer your questions and provide detailed compliance documentation.
+    </p>
+    <Link to="/contact">
+      <button
+        className="bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold px-8 py-3 rounded-full transition"
+      >
+        Get in Touch
+      </button>
+    </Link>
+  </div>
+</section>
 
       {/* Footer Contact Form */}
       <div className="bg-[#f9f9f9] py-16">
