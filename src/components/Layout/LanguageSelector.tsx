@@ -117,7 +117,7 @@ export const LanguageSelector: React.FC = () => {
       {isOpen && (
         <>
           <div className="fixed inset-0 z-50 bg-white">
-            <div className="max-w-8xl mx-auto p-6">
+            <div className="max-w-5xl mx-auto p-6">
               <div className="flex items-center justify-between mb-6">
                 <h2 className="text-2xl font-bold text-gray-900">Select Language & Region</h2>
                 <button
