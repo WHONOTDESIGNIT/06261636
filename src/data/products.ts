@@ -39,6 +39,7 @@ export const iplDevices: Product[] = [
     thumbnail: 'https://i.postimg.cc/DyZ57Ppm/skin-sensor.webp', // 新增缩略图字段
     features: ['Skin Detection', 'Auto Adjustment', 'Safe Treatment', 'Multi-tone Compatible'],
     category: 'ipl',
+    link: '/ipl-hair-removal/skin-sensor',
   },
   {
     id: 'battery-powered',
@@ -48,6 +49,7 @@ export const iplDevices: Product[] = [
     thumbnail: 'https://i.postimg.cc/fbHR2mNL/Batery-ipl.webp', // 新增缩略图字段
     features: ['Cordless', 'Long Battery Life', 'Portable', 'Travel Friendly'],
     category: 'ipl',
+    link: '/ipl-hair-removal/battery-powered',
   },
   {
     id: 'handheld',
@@ -57,6 +59,7 @@ export const iplDevices: Product[] = [
     thumbnail: 'https://i.postimg.cc/BvHc6YGc/handheld-ipl.webp', // 新增缩略图字段
     features: ['Ergonomic Design', 'Lightweight', 'Easy Grip', 'Precision Control'],
     category: 'ipl',
+    link: '/ipl-hair-removal/handheld',
   },
   {
     id: 'ice-cooling',
@@ -66,6 +69,7 @@ export const iplDevices: Product[] = [
     thumbnail: 'https://i.postimg.cc/9FD908dR/ice-cooling-ipl.webp', // 新增缩略图字段
     features: ['Advanced Cooling', 'Comfort Treatment', 'Reduced Sensation', 'Continuous Operation'],
     category: 'ipl',
+    link: '/ipl-hair-removal/ice-cooling',
   },
   {
     id: 'dual-lamp',
@@ -75,6 +79,7 @@ export const iplDevices: Product[] = [
     thumbnail: 'https://i.postimg.cc/zGc8B7kB/dual-lamp-ipl.webp', // 新增缩略图字段
     features: ['Dual Lamps', 'Faster Treatment', 'Even Coverage', 'Professional Power'],
     category: 'ipl',
+    link: '/ipl-hair-removal/dual-lamp',
   },
   {
     id: 'ai-powered',
@@ -84,6 +89,7 @@ export const iplDevices: Product[] = [
     thumbnail: 'https://i.postimg.cc/BQzVPVRd/ai-powered-ipl.webp', // 新增缩略图字段
     features: ['AI Technology', 'Smart Learning', 'Personalized', 'Advanced Analytics'],
     category: 'ipl',
+    link: '/ipl-hair-removal/ai-powered',
   }
 ];
 
