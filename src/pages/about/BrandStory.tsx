@@ -150,7 +150,7 @@ const BrandStory: React.FC = () => {
             No one should be limited by technology, cost, or complexity when building an IPL business. iShine exists to make advanced IPL solutions accessible, customizable, and scalable for every visionary brand.
           </p>
           <a
-            href="/contact-us"
+            href="/contact"
             className="inline-block bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition-colors duration-300"
           >
             Let's Build Your Success Story
