@@ -8,8 +8,8 @@ export const iplDevices: Product[] = [
     image: 'https://i.postimg.cc/CLg7qVKB/app-ipl-2.webp',
     thumbnail: 'https://i.postimg.cc/CLg7qVKB/app-ipl-2.webp', // 新增缩略图字段
     features: ['App Control', 'Custom Programs', 'Progress Tracking', 'Safety Sensors'],
-    category: 'ipl'
-    link: '/ipl-hair-removal/smart-app' // 新增
+    category: 'ipl',
+    link: '/ipl-hair-removal/smart-app' ,// 新增
   },
   {
     id: 'ice-feeling',
