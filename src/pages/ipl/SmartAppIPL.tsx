@@ -48,15 +48,18 @@ const SmartAppIPL: React.FC = () => {
           <span className="text-gray-800">Smart App IPL Device</span>
         </nav>
 
+        {/* Main Product Section */}
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           {/* Product Gallery */}
           <div className="space-y-4">
+            {/* Main Image */}
             <div className="relative bg-[#f9f9f9] rounded-2xl overflow-hidden group">
               <img
                 src={productImages[currentImageIndex]}
                 alt="Smart App IPL Device"
                 className="w-full h-[600px] object-cover"
               />
+              {/* Navigation Buttons */}
               <button
                 onClick={prevImage}
                 className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity"
@@ -69,6 +72,7 @@ const SmartAppIPL: React.FC = () => {
               >
                 <ChevronRight className="w-6 h-6 text-gray-800" />
               </button>
+              {/* Dots */}
               <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
                 {productImages.map((_, index) => (
                   <button
@@ -81,8 +85,9 @@ const SmartAppIPL: React.FC = () => {
                 ))}
               </div>
             </div>
+            {/* Thumbnails */}
             <div className="grid grid-cols-4 gap-2">
-              {thumbnails.map((thumb, index) => (
+              {thumbnails.slice(0,8).map((thumb, index) => (
                 <button
                   key={index}
                   onClick={() => setCurrentImageIndex(index)}
@@ -99,38 +104,29 @@ const SmartAppIPL: React.FC = () => {
               ))}
             </div>
           </div>
-
           {/* Product Info */}
           <div className="space-y-6">
-            <div>
-              <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Smart App IPL Hair Removal Device
-              </h1>
-              <div className="flex items-center space-x-3 mb-4">
-                <div className="flex items-center">
-                  {[...Array(5)].map((_, i) => (
-                    <Star
-                      key={i}
-                      className={`w-5 h-5 ${i < 5 ? 'text-yellow-400 fill-current' : 'text-gray-300'}`}
-                    />
-                  ))}
-                </div>
-                <span className="text-sm text-gray-600">4.9/5 (158 reviews)</span>
+            <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+              Smart App IPL Hair Removal Device
+            </h1>
+            {/* Ratings */}
+            <div className="flex items-center space-x-3 mb-4">
+              <div className="flex items-center">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className={`w-5 h-5 ${i < 5 ? 'text-yellow-400 fill-current' : 'text-gray-300'}`} />
+                ))}
               </div>
+              <span className="text-sm text-gray-600">4.9/5 (158 reviews)</span>
             </div>
-
             {/* Price */}
             <div className="space-y-2">
               <div className="flex items-center space-x-4">
                 <span className="text-3xl font-bold text-[rgb(0,116,224)]">$329.00</span>
                 <span className="text-xl text-gray-500 line-through">$429.00</span>
-                <span className="bg-red-100 text-red-800 px-2 py-1 rounded-full text-sm font-semibold">
-                  Save 23%
-                </span>
+                <span className="bg-red-100 text-red-800 px-2 py-1 rounded-full text-sm font-semibold">Save 23%</span>
               </div>
               <p className="text-sm text-gray-600">Free shipping • 18-month warranty</p>
             </div>
-
             {/* Description */}
             <div className="space-y-4">
               <div className="bg-[#f9f9f9] rounded-xl p-6">
@@ -145,6 +141,7 @@ const SmartAppIPL: React.FC = () => {
                   reminders—all from your smartphone.
                 </p>
               </div>
+              {/* Features list */}
               <ul className="space-y-3" style={{ listStyle: 'none', paddingLeft: 0 }}>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span> Bluetooth 5.0 connectivity for stable pairing
@@ -159,18 +156,16 @@ const SmartAppIPL: React.FC = () => {
                   <span className="text-green-500 mr-3 mt-1">✔️</span> Session scheduling and usage reminders
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-3 mt-1">✔️</span> Compatible with iOS & Android (App Store & Google Play)
+                  <span className="text-green-500 mr-3 mt-1">✔️</span> Compatible with iOS & Android
                 </li>
               </ul>
             </div>
-
-            {/* Stock Status */}
+            {/* Stock */}
             <div className="bg-green-50 border border-green-200 rounded-lg p-4">
               <p className="text-green-800 font-medium">✅ In Stock – 29 units left</p>
               <p className="text-sm text-green-600 mt-1">Ships in 24 hours</p>
             </div>
-
-            {/* Quantity & Cart */}
+            {/* Quantity & Add to Cart */}
             <div className="space-y-4">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">Quantity</label>
@@ -200,34 +195,31 @@ const SmartAppIPL: React.FC = () => {
                 Add to Cart
               </button>
             </div>
-
-            {/* Payment & Shipping Icons */}
+            {/* Payment & Trust Icons */}
             <div className="space-y-4">
               <img src="/images/payment-shipping-icons.png" alt="Payment & Shipping" className="w-[310px]" />
               <img src="/images/guarantee-shipping.png" alt="Guarantee & Shipping" className="w-[310px]" />
               <img src="/images/featured-in.png" alt="Featured In" className="w-[350px]" />
             </div>
-
             {/* Trust Badges */}
             <div className="grid grid-cols-3 gap-4 pt-6 border-t border-gray-200">
               <div className="text-center">
                 <Shield className="w-8 h-8 mx-auto mb-2 text-[rgb(0,116,224)]" />
-                <p className="text-xs text-gray-600">18-Month<br/>Warranty</p>
+                <p className="text-xs text-gray-600">18-Month Warranty</p>
               </div>
               <div className="text-center">
                 <Truck className="w-8 h-8 mx-auto mb-2 text-[rgb(0,116,224)]" />
-                <p className="text-xs text-gray-600">Free<br/>Shipping</p>
+                <p className="text-xs text-gray-600">Free Shipping</p>
               </div>
               <div className="text-center">
                 <Award className="w-8 h-8 mx-auto mb-2 text-[rgb(0,116,224)]" />
-                <p className="text-xs text-gray-600">FDA<br/>Cleared</p>
+                <p className="text-xs text-gray-600">FDA Approved</p>
               </div>
             </div>
-
             {/* Product Meta */}
             <div className="pt-6 border-t border-gray-200 space-y-2">
               <p className="text-sm text-gray-600">
-                <span className="font-medium">SKU:</span> SMART-APP-IPL-002
+                <span className="font-medium">SKU:</span> SMART-APP-IPL-001
               </p>
               <p className="text-sm text-gray-600">
                 <span className="font-medium">Category:</span>
@@ -238,22 +230,41 @@ const SmartAppIPL: React.FC = () => {
             </div>
           </div>
         </div>
+        {/* Product Description with images and text */}
+        <section className="my-16 px-4 max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">Product Features & Benefits</h2>
+          {/* Feature 1 */}
+          <div className="flex flex-col md:flex-row items-center mb-12">
+            <img src="/images/smart-app-ipl/feature1.jpg" alt="Guided App Control" className="w-full md:w-1/2 rounded-xl shadow-md" />
+            <div className="md:ml-8 mt-6 md:mt-0">
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Seamless App Connectivity</h3>
+              <p className="text-gray-700 mb-4">
+                Connect your device effortlessly via Bluetooth 5.0. Use the dedicated mobile app to customize treatments, track progress, and receive personalized recommendations, making home hair removal smarter and more convenient.
+              </p>
+            </div>
+          </div>
+          {/* Feature 2 */}
+          <div className="flex flex-col md:flex-row items-center mb-12">
+            <img src="/images/smart-app-ipl/feature2.jpg" alt="Smart Treatment" className="w-full md:w-1/2 rounded-xl shadow-md" />
+            <div className="md:ml-8 mt-6 md:mt-0">
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Intelligent Treatment System</h3>
+              <p className="text-gray-700 mb-4">
+                The app guides you through each session, adjusting intensity based on your skin tone and hair density. Real-time feedback ensures safe, effective, and painless treatments every time.
+              </p>
+            </div>
+          </div>
+          {/* Feature 3 */}
+          <div className="flex flex-col md:flex-row items-center mb-12">
+            <img src="/images/smart-app-ipl/feature3.jpg" alt="Progress Monitoring" className="w-full md:w-1/2 rounded-xl shadow-md" />
+            <div className="md:ml-8 mt-6 md:mt-0">
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Progress & Reminder Alerts</h3>
+              <p className="text-gray-700 mb-4">
+                Track your treatment history and receive timely reminders for sessions. Achieve optimal results with guided routines tailored to your skin and hair type.
+              </p>
+            </div>
+          </div>
+        </section>
       </div>
-
-      {/* CTA Banner */}
-      <section className="bg-gradient-to-r from-[rgb(0,116,224)] to-[rgb(0,89,179)] py-16">
-        <div className="max-w-2xl mx-auto text-center px-4">
-          <h2 className="text-3xl font-bold text-white mb-4 tracking-tight">
-            Ready for Smart App–Powered Hair Removal?
-          </h2>
-          <p className="text-lg text-white mb-8">
-            Experience guided IPL treatments from your smartphone—anytime, anywhere.
-          </p>
-          <button className="bg-white text-[rgb(0,116,224)] font-semibold px-8 py-3 rounded-full transition hover:opacity-90">
-            Order Now – Free Shipping
-          </button>
-        </div>
-      </section>
     </div>
   );
 };
