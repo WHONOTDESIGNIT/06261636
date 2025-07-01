@@ -7,9 +7,13 @@ const SmartAppIPL: React.FC = () => {
   const [quantity, setQuantity] = useState(1);
   const [activeSubTab, setActiveSubTab] = useState('specifications');
 
+  const SmartAppIPL = () => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [thumbStart, setThumbStart] = useState(0); // thumbnail窗口起始下标
+
   const productImages = [
     'https://i.postimg.cc/tCtVBTPz/app-ipl-three-set.webp',
-    '/images/smart-app-ipl/smart-app-ipl-app-interface.jpg', 
+    '/images/smart-app-ipl/smart-app-ipl-app-interface.jpg',
     '/images/smart-app-ipl/smart-app-ipl-side-view.jpg',
     '/images/smart-app-ipl/smart-app-ipl-usage.jpg',
     '/images/smart-app-ipl/smart-app-ipl-features.jpg',
@@ -17,7 +21,6 @@ const SmartAppIPL: React.FC = () => {
     '/images/smart-app-ipl/smart-app-ipl-comparison.jpg',
     '/images/smart-app-ipl/smart-app-ipl-accessories.jpg'
   ];
-
   const thumbnails = productImages.map(img => img);
 
   const nextImage = () => {
