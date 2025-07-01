@@ -558,7 +558,7 @@ const IceFeelingIPL: React.FC = () => {
             Ready for Ice-Cool Hair Removal?
           </h2>
           <p className="text-lg text-white mb-8">
-            Join 200 000+ users enjoying sapphire cooling comfort at home[13][41].
+            Join 200 000+ users enjoying sapphire cooling comfort at home.
           </p>
           <button className="bg-white text-[rgb(0,116,224)] font-semibold px-8 py-3 rounded-full transition hover:opacity-90">
             Order Now – Free Shipping
