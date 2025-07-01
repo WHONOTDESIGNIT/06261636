@@ -144,9 +144,10 @@ const IceFeelingIPL: React.FC = () => {
             {/* Description */}
             <div className="space-y-4">
               <div className="bg-[#f9f9f9] rounded-xl p-6">
-                <h3 className="text-lg font-semibold mb-3 flex items-center">
-                  <className="w-5 h-5 mr-2 text-[rgb(0,116,224)]" />
-                  ❄️ Sapphire Ice-Cooling Technology ❄️
+                 <h3 className="text-lg font-semibold mb-3 flex items-center">
+  <span className="w-5 h-5 mr-2 text-[rgb(0,116,224)]">❄️</span>
+  Sapphire Ice-Cooling Technology ❄️</span>
+</h3>
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Enjoy painless hair removal with a clinical-grade{" "}
