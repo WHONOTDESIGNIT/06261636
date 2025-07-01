@@ -1,18 +1,77 @@
 import React from 'react';
 
 const CompanyInfo: React.FC = () => (
-  <div className="min-h-screen bg-white pt-20">
-    <div className="container mx-auto px-4 max-w-5xl">
+  <div className="min-h-screen bg-white">
+    {/* Hero Section */}
+    <section className="relative bg-gradient-to-r from-[rgb(0,116,224)] to-[rgb(0,89,179)] min-h-[70vh] flex items-center justify-center text-white overflow-hidden">
+      {/* Background Pattern */}
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23ffffff" fill-opacity="0.4"%3E%3Ccircle cx="7" cy="7" r="1"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')]"></div>
+      </div>
+      
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          {/* Hero Content */}
+          <div className="text-center lg:text-left">
+            <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
+              Leading IPL Device
+              <span className="block text-[rgb(255,255,255,0.9)]">Manufacturer</span>
+            </h1>
+            <p className="text-xl lg:text-2xl mb-8 text-[rgb(255,255,255,0.9)] leading-relaxed">
+              Precision engineering, global compliance, and innovative beauty technology 
+              for B2B partners worldwide
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <a
+                href="/contact"
+                className="bg-white text-[rgb(0,116,224)] font-semibold px-8 py-4 rounded-full transition hover:bg-gray-100 shadow-lg"
+              >
+                Request Partnership
+              </a>
+              <a
+                href="#manufacturing"
+                className="border-2 border-white text-white font-semibold px-8 py-4 rounded-full transition hover:bg-white hover:text-[rgb(0,116,224)]"
+              >
+                View Capabilities
+              </a>
+            </div>
+          </div>
+          
+          {/* Hero Visual */}
+          <div className="relative">
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 shadow-2xl">
+              <img
+                src="/images/company/hero-manufacturing.jpg"
+                alt="iShine IPL Manufacturing"
+                className="w-full rounded-xl shadow-lg"
+              />
+              {/* Floating Stats */}
+              <div className="absolute -top-4 -right-4 bg-white text-[rgb(0,116,224)] rounded-xl p-4 shadow-lg">
+                <div className="text-2xl font-bold">15+</div>
+                <div className="text-sm">Years Experience</div>
+              </div>
+              <div className="absolute -bottom-4 -left-4 bg-white text-[rgb(0,116,224)] rounded-xl p-4 shadow-lg">
+                <div className="text-2xl font-bold">50+</div>
+                <div className="text-sm">Countries Served</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {/* Main Content */}
+    <div className="container mx-auto px-4 max-w-5xl py-16">
       {/* Breadcrumb */}
-      <nav className="text-sm text-gray-500 mb-4 mt-4 uppercase">
+      <nav className="text-sm text-gray-500 mb-8 uppercase">
         <a href="/" className="hover:text-[rgb(0,116,224)]">Home</a>
         <span className="mx-2">/</span>
         <span className="text-gray-800">Company Profile</span>
       </nav>
 
       {/* Company Overview */}
-      <section className="mb-12">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">About iShine IPL Manufacturer</h1>
+      <section className="mb-12" id="manufacturing">
+        <h2 className="text-4xl font-bold text-gray-900 mb-4">About iShine IPL Manufacturer</h2>
         <p className="text-lg text-gray-700 mb-6">
           iShine is a leading manufacturer specializing in the design, engineering, and assembly of IPL (Intense Pulsed Light) hair removal devices for global B2B clients. We combine in-house component manufacturing, rigorous quality control, and advanced assembly processes to deliver reliable, innovative beauty technology at scale.
         </p>
