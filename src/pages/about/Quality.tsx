@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ShieldCheck } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 
@@ -22,7 +23,7 @@ const Quality: React.FC = () => {
           <ShieldCheck className="w-16 h-16 mx-auto mb-6 text-white" />
           <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">Quality You Can Trust</h1>
           <p className="text-xl mb-8 text-gray-100">
-            Every iShine IPL device is engineered for safety, reliability, and consistent results—meeting the world’s most demanding B2B standards.
+            Every iShine IPL device is engineered for safety, reliability, and consistent results—meeting the world's most demanding B2B standards.
           </p>
         </div>
       </section>
