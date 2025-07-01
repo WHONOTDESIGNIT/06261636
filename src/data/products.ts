@@ -19,7 +19,7 @@ export const iplDevices: Product[] = [
     thumbnail: 'https://i.postimg.cc/43qb4DM3/ice-feeling-ipl.webp', // 新增缩略图字段
     features: ['Cooling Technology', 'Pain-Free', 'Continuous Use', 'Professional Grade'],
     category: 'ipl',
-    link: '/ipl-hair-removal/ice-feeling' ,
+    link: '/ipl-hair-removal/ice-feeling',
   },
   {
     id: 'emerald',
@@ -29,6 +29,7 @@ export const iplDevices: Product[] = [
     thumbnail: 'https://i.postimg.cc/1RpcPYK9/emerald-ipl-2.webp', // 新增缩略图字段
     features: ['Emerald Crystal', 'Long-lasting', 'Professional Results', 'Elegant Design'],
     category: 'ipl',
+    link: '/ipl-hair-removal/emerald',
   },
   {
     id: 'skin-sensor',
