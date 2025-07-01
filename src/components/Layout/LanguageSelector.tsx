@@ -145,7 +145,7 @@ export const LanguageSelector: React.FC = () => {
                 ref={languageGridRef}
                 className="relative bg-white rounded-xl border border-gray-200 p-[30px] max-h-[48rem] overflow-y-auto"
               >
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6">
                   {Object.entries(groupedLanguages).map(([region, langs]) => (
                     <div key={region}>
                       <h3 className="font-semibold text-gray-900 mb-3 border-b border-gray-200 pb-2">
