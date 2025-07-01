@@ -56,10 +56,10 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-gray-300">
-              <li><Link to="/about" className="hover:text-white transition-colors">About iShine</Link></li>
-              <li><Link to="/brand-story" className="hover:text-white transition-colors">Brand Story</Link></li>
-              <li><Link to="/quality" className="hover:text-white transition-colors">Quality</Link></li>
-              <li><Link to="/blog" className="hover:text-white transition-colors">Blog</Link></li>
+              <li><Link to="/about/company" className="hover:text-white transition-colors">About iShine</Link></li>
+              <li><Link to="/about/brand-story" className="hover:text-white transition-colors">Brand Story</Link></li>
+              <li><Link to="/about/quality" className="hover:text-white transition-colors">Quality</Link></li>
+              <li><Link to="/about/blog" className="hover:text-white transition-colors">Blog</Link></li>
             </ul>
           </div>
         </div>
