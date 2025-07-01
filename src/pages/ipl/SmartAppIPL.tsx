@@ -3,6 +3,7 @@ import {
   ChevronLeft,
   ChevronRight,
   Star,
+  ShoppingCart,
   Plus,
   Minus,
   Shield,
@@ -18,25 +19,23 @@ const SmartAppIPL: React.FC = () => {
   const [quantity, setQuantity] = useState(1);
   const [activeSubTab, setActiveSubTab] = useState<'specifications' | 'safety' | 'reviews'>('specifications');
 
-  /* ========= 1. Resource Configuration ========= */
   const productImages = [
-    'https://i.postimg.cc/tCtVBTPz/app-ipl-three-set.webp',
-    'https://i.postimg.cc/59YB2xQv/12pro-1.webp',
-    'https://i.postimg.cc/HLk5DHCr/app-ipl-side.webp',
-    'https://i.postimg.cc/L8HgLR5x/app-ipl-lay.webp',
-    'https://i.postimg.cc/hvWfjRNb/app-ipl-back.webp',
+    '/images/smart-app-ipl/front.jpg',
+    '/images/smart-app-ipl/interface.jpg',
+    '/images/smart-app-ipl/side.jpg',
+    '/images/smart-app-ipl/app-usage.jpg',
+    '/images/smart-app-ipl/features.jpg',
+    '/images/smart-app-ipl/package.jpg',
+    '/images/smart-app-ipl/comparison.jpg',
+    '/images/smart-app-ipl/accessories.jpg',
   ];
   const thumbnails = productImages;
 
-  /* ========= 2. Event Handlers ========= */
-  const nextImage = () =>
-    setCurrentImageIndex((prev) => (prev + 1) % productImages.length);
-  const prevImage = () =>
-    setCurrentImageIndex((prev) => (prev - 1 + productImages.length) % productImages.length);
+  const nextImage = () => setCurrentImageIndex((prev) => (prev + 1) % productImages.length);
+  const prevImage = () => setCurrentImageIndex((prev) => (prev - 1 + productImages.length) % productImages.length);
   const increaseQuantity = () => quantity < 10 && setQuantity(quantity + 1);
   const decreaseQuantity = () => quantity > 1 && setQuantity(quantity - 1);
 
-  /* ========= 3. Render ========= */
   return (
     <div className="min-h-screen bg-white pt-20">
       <div className="container mx-auto px-4">
@@ -44,7 +43,7 @@ const SmartAppIPL: React.FC = () => {
         <nav className="text-sm text-gray-500 mb-4 mt-4 uppercase">
           <a href="/" className="hover:text-[rgb(0,116,224)]">Home</a>
           <span className="mx-2">/</span>
-          <a href="/ipl-hair-removal" className="hover:text-[rgb(0,116,224)]">IPL Hair Removal</a>
+          <a href="/products" className="hover:text-[rgb(0,116,224)]">IPL Hair Removal</a>
           <span className="mx-2">/</span>
           <span className="text-gray-800">Smart App IPL Device</span>
         </nav>
@@ -52,14 +51,12 @@ const SmartAppIPL: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           {/* Product Gallery */}
           <div className="space-y-4">
-            {/* Main Image */}
             <div className="relative bg-[#f9f9f9] rounded-2xl overflow-hidden group">
               <img
                 src={productImages[currentImageIndex]}
                 alt="Smart App IPL Device"
                 className="w-full h-[600px] object-cover"
               />
-              {/* Navigation Arrows */}
               <button
                 onClick={prevImage}
                 className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity"
@@ -72,7 +69,6 @@ const SmartAppIPL: React.FC = () => {
               >
                 <ChevronRight className="w-6 h-6 text-gray-800" />
               </button>
-              {/* Dots */}
               <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
                 {productImages.map((_, index) => (
                   <button
@@ -85,8 +81,6 @@ const SmartAppIPL: React.FC = () => {
                 ))}
               </div>
             </div>
-
-            {/* Thumbnails */}
             <div className="grid grid-cols-4 gap-2">
               {thumbnails.map((thumb, index) => (
                 <button
@@ -128,13 +122,13 @@ const SmartAppIPL: React.FC = () => {
             {/* Price */}
             <div className="space-y-2">
               <div className="flex items-center space-x-4">
-                <span className="text-3xl font-bold text-[rgb(0,116,224)]">$129.00</span>
-                <span className="text-xl text-gray-500 line-through">$239.00</span>
+                <span className="text-3xl font-bold text-[rgb(0,116,224)]">$329.00</span>
+                <span className="text-xl text-gray-500 line-through">$429.00</span>
                 <span className="bg-red-100 text-red-800 px-2 py-1 rounded-full text-sm font-semibold">
                   Save 23%
                 </span>
               </div>
-              <p className="text-sm text-gray-600">Free shipping • 12-month warranty</p>
+              <p className="text-sm text-gray-600">Free shipping • 18-month warranty</p>
             </div>
 
             {/* Description */}
@@ -153,24 +147,19 @@ const SmartAppIPL: React.FC = () => {
               </div>
               <ul className="space-y-3" style={{ listStyle: 'none', paddingLeft: 0 }}>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Bluetooth 5.0 connectivity for stable pairing
+                  <span className="text-green-500 mr-3 mt-1">✔️</span> Bluetooth 5.0 connectivity for stable pairing
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Personalized treatment plans via AI analysis(on the roadmap)
+                  <span className="text-green-500 mr-3 mt-1">✔️</span> Personalized treatment plans via AI analysis
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Real-time intensity control and on-screen feedback
+                  <span className="text-green-500 mr-3 mt-1">✔️</span> Real-time intensity control and on-screen feedback
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Session scheduling and usage reminders
+                  <span className="text-green-500 mr-3 mt-1">✔️</span> Session scheduling and usage reminders
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Compatible with iOS & Android (App Store & Google Play)
+                  <span className="text-green-500 mr-3 mt-1">✔️</span> Compatible with iOS & Android (App Store & Google Play)
                 </li>
               </ul>
             </div>
@@ -184,9 +173,7 @@ const SmartAppIPL: React.FC = () => {
             {/* Quantity & Cart */}
             <div className="space-y-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Quantity
-                </label>
+                <label className="block text-sm font-medium text-gray-700 mb-2">Quantity</label>
                 <div className="flex items-center space-x-3">
                   <div className="flex items-center border border-gray-300 rounded-lg">
                     <button
@@ -209,7 +196,8 @@ const SmartAppIPL: React.FC = () => {
                 </div>
               </div>
               <button className="w-full bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold py-4 rounded-lg flex items-center justify-center transition-colors">
-                Get A Quote Now
+                <ShoppingCart className="w-5 h-5 mr-2" />
+                Add to Cart
               </button>
             </div>
 
@@ -224,15 +212,15 @@ const SmartAppIPL: React.FC = () => {
             <div className="grid grid-cols-3 gap-4 pt-6 border-t border-gray-200">
               <div className="text-center">
                 <Shield className="w-8 h-8 mx-auto mb-2 text-[rgb(0,116,224)]" />
-                <p className="text-xs text-gray-600">12-Month<br />Warranty</p>
+                <p className="text-xs text-gray-600">18-Month<br/>Warranty</p>
               </div>
               <div className="text-center">
                 <Truck className="w-8 h-8 mx-auto mb-2 text-[rgb(0,116,224)]" />
-                <p className="text-xs text-gray-600">Free<br />Shipping</p>
+                <p className="text-xs text-gray-600">Free<br/>Shipping</p>
               </div>
               <div className="text-center">
                 <Award className="w-8 h-8 mx-auto mb-2 text-[rgb(0,116,224)]" />
-                <p className="text-xs text-gray-600">FDA<br />Cleared</p>
+                <p className="text-xs text-gray-600">FDA<br/>Cleared</p>
               </div>
             </div>
 
@@ -243,7 +231,7 @@ const SmartAppIPL: React.FC = () => {
               </p>
               <p className="text-sm text-gray-600">
                 <span className="font-medium">Category:</span>
-                <a href="/ipl-hair-removal" className="text-[rgb(0,116,224)] hover:underline ml-1">
+                <a href="/category/ipl-devices" className="text-[rgb(0,116,224)] hover:underline ml-1">
                   IPL Hair Removal
                 </a>
               </p>
