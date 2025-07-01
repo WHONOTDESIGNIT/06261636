@@ -158,7 +158,7 @@ const SmartAppIPL: React.FC = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Personalized treatment plans via AI analysis
+                  Personalized treatment plans via AI analysis(on the roadmap)
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
