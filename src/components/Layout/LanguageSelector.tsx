@@ -1,6 +1,6 @@
 import React from 'react';
 import { ChevronDown, Globe } from 'lucide-react';
-import { useLanguage } from '../context/LanguageContext'; // 根据你的项目路径调整
+import { useLanguage } from '../../context/LanguageContext';
 
 interface LanguageOption {
   code: string;
