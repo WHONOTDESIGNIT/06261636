@@ -19,10 +19,11 @@ const EmeraldIPL: React.FC = () => {
 
   /* ========= 1. 资源配置 ========= */
   const productImages = [
+    'https://i.postimg.cc/nVqpXhVB/EMERALD-IPL-4.webp'
     'https://i.postimg.cc/pddL8bcx/EMERALD-IPL-3.webp',
     'https://i.postimg.cc/hGhKv8ht/EMERALD-IPL-FRONT.webp',
     'https://i.postimg.cc/cJj0nK8M/EMERALD-IPL-SUITE-SKIN-TONE.webp',
-    'https://i.postimg.cc/nVqpXhVB/EMERALD-IPL-4.webp',
+    ,
   ];
   const thumbnails = productImages;
 
@@ -55,7 +56,7 @@ const EmeraldIPL: React.FC = () => {
               <img
                 src={productImages[currentImageIndex]}
                 alt="Emerald IPL Hair Removal Device"
-                className="w-full h-[900px] object-cover"
+                className="w-full h-[800px] object-cover"
               />
               {/* Navigation Arrows */}
               <button
