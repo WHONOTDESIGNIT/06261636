@@ -119,7 +119,7 @@ const SmartAppIPL: React.FC = () => {
               <div className="flex items-center space-x-4">
                 <span className="text-3xl font-bold text-[rgb(0,116,224)]">$229.00</span>
                 <span className="text-xl text-gray-500 line-through">$329.00</span>
-                <span className="bg-red-100 text-red-800 px-2 py-1 rounded-full text-sm font-semibold">Save 23%</span>
+                <span className="bg-red-100 text-red-800 px-2 py-1 rounded-full text-sm font-semibold">Save 30%</span>
               </div>
               <p className="text-sm text-gray-600">Free shipping • 12-month warranty</p>
             </div>
