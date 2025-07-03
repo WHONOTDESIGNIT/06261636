@@ -20,7 +20,7 @@ const HandheldIPL: React.FC = () => {
   // Replace with your actual images
   const productImages = [
     'https://i.postimg.cc/J0SkY7gb/handheld-ipl-1.webp',
-    '/images/handheld-ipl/interface.jpg',
+    'https://i.postimg.cc/kMHKgw4B/handheld-ipl-2.webp',
     '/images/handheld-ipl/side.jpg',
     '/images/handheld-ipl/usage.jpg',
     '/images/handheld-ipl/features.jpg',
