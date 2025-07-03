@@ -21,7 +21,7 @@ const IceFeelingIPL: React.FC = () => {
 
   /* ========= 1. 资源配置 ========= */
   const productImages = [
-    '/https://i.postimg.cc/wMrKRZrf/sapphire-IPL.webp',
+    'https://i.postimg.cc/wMrKRZrf/sapphire-IPL.webp',
     '/images/ice-feeling-ipl/interface.jpg',
     '/images/ice-feeling-ipl/side.jpg',
     '/images/ice-feeling-ipl/usage.jpg',
