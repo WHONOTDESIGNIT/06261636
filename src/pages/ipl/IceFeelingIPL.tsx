@@ -169,7 +169,7 @@ const IceFeelingIPL: React.FC = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Five energy levels adapt to all skin tones within
+                  Five energy levels adapt to almost all skin tones within
                   Fitzpatrick I-V.
                 </li>
                 <li className="flex items-start">
@@ -178,14 +178,14 @@ const IceFeelingIPL: React.FC = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  3-in-1 lamp: Hair removal, skin rejuvenation, acne care.
+                  4-in-1: Full body, Bikini, Face, and skin rejuvenation.
                 </li>
               </ul>
             </div>
 
             {/* Stock */}
             <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-              <p className="text-green-800 font-medium">✅ In Stock – 32 units left</p>
+              <p className="text-green-800 font-medium">✅ In Stock </p>
               <p className="text-sm text-green-600 mt-1">Ships within 24 h</p>
             </div>
 
