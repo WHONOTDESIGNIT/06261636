@@ -2,9 +2,12 @@ import React, { useEffect } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
 import { languages } from '../../data/languages';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 const LanguageSwitcher: React.FC = () => {
   const { currentLanguage, currentCountry, setLanguage } = useLanguage();
+  const navigate = useNavigate();
+  const location = useLocation();
 
   // 首次加载时根据IP自动设置默认语言
   useEffect(() => {
@@ -36,6 +39,11 @@ const LanguageSwitcher: React.FC = () => {
     const selectedCode = e.target.value;
     const [langCode, countryCode] = selectedCode.split('-');
     setLanguage(langCode, countryCode);
+
+    // 跳转到对应语言的路由，保留当前子页面
+    // 假设路由为 /en/xxx 或 /en-us/xxx
+    const pathWithoutLang = location.pathname.replace(/^\/[a-z]{2}(-[a-z]{2})?/, '');
+    navigate(`/${langCode}${pathWithoutLang}${location.search}`);
   };
 
   return (
