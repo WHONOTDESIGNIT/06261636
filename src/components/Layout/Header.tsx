@@ -3,11 +3,13 @@ import { Link, useLocation } from 'react-router-dom';
 import { Search, Youtube, Linkedin, Menu, X, ChevronDown } from 'lucide-react';
 import LanguageSelector from './LanguageSelector';
 import { iplDevices, accessories } from '../../data/products'; // 导入产品数据
+import { useLanguage } from '../../context/LanguageContext';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const location = useLocation();
+  const { currentLanguage } = useLanguage();
 
   const navigation = [
     {
@@ -112,7 +114,7 @@ const Header: React.FC = () => {
         { name: 'Quality', href: '/about/quality' }
       ]
     },
-    { name: 'Contact', href: '/contact' }
+    { name: 'Contact', href: `/${currentLanguage}/contact` }
   ];
 
   const isActive = (href: string) => location.pathname === href;
