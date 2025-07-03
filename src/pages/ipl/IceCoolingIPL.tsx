@@ -54,7 +54,7 @@ const IceCoolingIPL: React.FC = () => {
               <img
                 src={productImages[currentImageIndex]}
                 alt="Ice Cooling IPL Hair Removal Device"
-                className="w-full h-[600px] object-cover"
+                className="w-full h-[800px] object-cover"
               />
               <button
                 onClick={prevImage}
