@@ -3,7 +3,6 @@ import {
   ChevronLeft,
   ChevronRight,
   Star,
-  ShoppingCart,
   Plus,
   Minus,
   Shield,
@@ -185,8 +184,7 @@ const SmartAppIPL: React.FC = () => {
                 </div>
               </div>
               <button className="w-full bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold py-4 rounded-lg flex items-center justify-center transition-colors">
-                <ShoppingCart className="w-5 h-5 mr-2" />
-                Add to Cart
+                GET A QUOTE NOW
               </button>
             </div>
             {/* Payment & Trust Icons */}
