@@ -1,13 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
 import { languages } from '../../data/languages';
 
+const DEFAULT_LANGUAGE_CODE = 'en-global';
+
 const LanguageSwitcher: React.FC = () => {
   const { currentLanguage, currentCountry, setLanguage } = useLanguage();
 
+  // 如果没有选择过语言，静默设置为 en-global
+  useEffect(() => {
+    if (!currentLanguage || !currentCountry) {
+      setLanguage('en', 'global');
+    }
+  }, [currentLanguage, currentCountry, setLanguage]);
+
   // 构建当前选中值
-  const currentValue = `${currentLanguage}-${currentCountry}`;
+  const currentValue = `${currentLanguage || 'en'}-${currentCountry || 'global'}`;
 
   const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const selectedCode = e.target.value;
