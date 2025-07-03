@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Navigate, useParams, useLocation, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, useParams, useLocation } from 'react-router-dom';
 import { LanguageProvider } from './context/LanguageContext';
 import { HelmetProvider } from 'react-helmet-async';
 import Header from './components/Layout/Header';
@@ -75,7 +75,6 @@ const defaultLang = 'en'; // 你可以根据需要改为 'en-global' 或其他
 function MultilangRoutes() {
   const { lang } = useParams<{ lang: string }>();
   const location = useLocation();
-  const navigate = useNavigate();
 
   // 如果 lang 不在支持列表，重定向到默认语言
   if (!lang || !supportedLangs.includes(lang)) {

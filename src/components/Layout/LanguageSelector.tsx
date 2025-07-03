@@ -3,8 +3,6 @@ import { ChevronDown } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
 import { languages } from '../../data/languages';
 
-const DEFAULT_LANGUAGE_CODE = 'en-global';
-
 const LanguageSwitcher: React.FC = () => {
   const { currentLanguage, currentCountry, setLanguage } = useLanguage();
 
