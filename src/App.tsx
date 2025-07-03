@@ -1,10 +1,11 @@
 import { BrowserRouter as Router, Routes, Route, Navigate, useParams, useLocation } from 'react-router-dom';
-import { LanguageProvider } from './context/LanguageContext';
+import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import { HelmetProvider } from 'react-helmet-async';
 import Header from './components/Layout/Header';
 import Footer from './components/Layout/Footer';
 import FloatingWidgets from './components/Layout/FloatingWidgets';
 import { languages } from './data/languages';
+import React, { useEffect } from 'react';
 
 // Main Pages
 import Home from './pages/Home';
@@ -75,14 +76,19 @@ const defaultLang = 'en'; // 你可以根据需要改为 'en-global' 或其他
 function MultilangRoutes() {
   const { lang } = useParams<{ lang: string }>();
   const location = useLocation();
+  const { setLanguage, currentLanguage } = useLanguage();
 
   // 如果 lang 不在支持列表，重定向到默认语言
   if (!lang || !supportedLangs.includes(lang)) {
     return <Navigate to={`/${defaultLang}${location.pathname}`} replace />;
   }
 
-  // 这里可以根据 lang 设置 context/i18n 语言
-  // 你可以在 LanguageContext 或 i18n 实现自动切换
+  // 关键：每当lang变化时，自动同步到context
+  useEffect(() => {
+    if (lang && lang !== currentLanguage) {
+      setLanguage(lang, ''); // 第二个参数可根据需要设置
+    }
+  }, [lang, currentLanguage, setLanguage]);
 
   return (
     <>
