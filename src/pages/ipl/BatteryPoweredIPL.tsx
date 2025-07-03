@@ -3,7 +3,6 @@ import {
   ChevronLeft,
   ChevronRight,
   Star,
-  ShoppingCart,
   Plus,
   Minus,
   Shield,
@@ -198,7 +197,6 @@ const BatteryPoweredIPL: React.FC = () => {
                 </div>
               </div>
               <button className="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white font-semibold py-4 rounded-lg transition-shadow shadow-lg flex items-center justify-center">
-                <ShoppingCart className="w-5 h-5 mr-2" />
                 Buy Now
               </button>
             </div>
