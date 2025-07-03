@@ -3,13 +3,12 @@ import {
   ChevronLeft,
   ChevronRight,
   Star,
-  ShoppingCart,
   Plus,
   Minus,
   Shield,
   Truck,
   Award,
-  Snowflake,
+  Smartphone,
   Check,
   Info,
 } from 'lucide-react';
@@ -21,14 +20,14 @@ const IceFeelingIPL: React.FC = () => {
 
   /* ========= 1. 资源配置 ========= */
   const productImages = [
-    '/images/ice-feeling-ipl/front.jpg',
-    '/images/ice-feeling-ipl/interface.jpg',
-    '/images/ice-feeling-ipl/side.jpg',
-    '/images/ice-feeling-ipl/usage.jpg',
-    '/images/ice-feeling-ipl/features.jpg',
-    '/images/ice-feeling-ipl/package.jpg',
-    '/images/ice-feeling-ipl/comparison.jpg',
-    '/images/ice-feeling-ipl/accessories.jpg',
+    'https://i.postimg.cc/wMrKRZrf/sapphire-IPL.webp',
+    'https://i.postimg.cc/76BdjjqH/sapphire-ipl-black.webp',
+    'https://i.postimg.cc/tRM8k0rD/sapphire-ipl-black-2.webp',
+    'https://i.postimg.cc/dV8XJhJS/sapphire-ipl-black-3.webp',
+    'https://i.postimg.cc/HLzh7Fcw/SAPPHIRE-IPL-PURPLE.webp',
+    'https://i.postimg.cc/HWrTd9RZ/pink.webp',
+    'https://i.postimg.cc/SQHkszpy/PINK-010-IPL-hair-removal-1.webp',
+    'https://i.postimg.cc/htBn8Wj6/white-010-1.webp',
   ];
   const thumbnails = productImages;
 
@@ -61,7 +60,7 @@ const IceFeelingIPL: React.FC = () => {
               <img
                 src={productImages[currentImageIndex]}
                 alt="Sapphire Ice Feeling IPL Device"
-                className="w-full h-[600px] object-cover"
+                className="w-full h-[700px] object-cover"
               />
               {/* Navigation Arrows */}
               <button
@@ -151,35 +150,35 @@ const IceFeelingIPL: React.FC = () => {
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Enjoy painless hair removal with a clinical-grade{" "}
                   <strong>Sapphire cooling plate</strong> that chills skin to 5 °C,
-                  enabling higher energy pulses for quicker results[11][12].
+                  enabling higher energy pulses for quicker results.
                   The integrated{" "}
                   <strong>Intense Pulsed Light (IPL)</strong> engine delivers
                   18 J/cm² of energy with <strong>999 999 flashes</strong> for a
-                  lifetime of use[14][19].
+                  lifetime of use.
                 </p>
               </div>
               <ul className="space-y-3" style={{ listStyle: 'none', paddingLeft: 0 }}>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Long-lasting smoothness — visible reduction after 3-4 weeks[13].
+                  Long-lasting smoothness — visible reduction after 3-4 weeks.
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
                   Cooling plate keeps epidermis at 5 °C for true painless
-                  treatments[11][12].
+                  treatments.
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
                   Five energy levels adapt to all skin tones within
-                  Fitzpatrick I-V[12][15].
+                  Fitzpatrick I-V.
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Auto/Manual flash modes for body and precision areas[21][20].
+                  Auto/Manual flash modes for body and precision areas.
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  3-in-1 lamp: Hair removal, skin rejuvenation, acne care[24][20].
+                  3-in-1 lamp: Hair removal, skin rejuvenation, acne care.
                 </li>
               </ul>
             </div>
@@ -218,8 +217,8 @@ const IceFeelingIPL: React.FC = () => {
                 </div>
               </div>
               <button className="w-full bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold py-4 rounded-lg transition-colors flex items-center justify-center">
-                <ShoppingCart className="w-5 h-5 mr-2" />
-                Add to Cart
+              
+               GET A QUOTE NOW
               </button>
             </div>
 
@@ -301,8 +300,9 @@ const IceFeelingIPL: React.FC = () => {
                 </div>
                 <div className="text-center">
                   <div className="inline-block bg-white/20 rounded-2xl p-6">
-                    <Snowflake className="w-16 h-16 mx-auto mb-4" />
-                    <p className="text-sm font-semibold">蓝宝石带来冰爽体验</p>
+                    <Smartphone className="w-16 h-16 mx-auto mb-4" />
+                    <p className="text-sm">Optional mobile guide app</p>
+                    <p className="text-xs opacity-80">iOS & Android</p>
                   </div>
                 </div>
               </div>
