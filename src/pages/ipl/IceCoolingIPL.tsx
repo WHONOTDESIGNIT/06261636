@@ -160,14 +160,14 @@ const IceCoolingIPL: React.FC = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-3 mt-1">✔️</span>
-                  5.0 cm² extra-large treatment window — Fast coverage, 50% higher efficiency.
+                  3.3 cm² extra-large treatment window — Fast coverage, 50% higher efficiency.
                 </li>
               </ul>
             </div>
 
             {/* Stock */}
             <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-              <p className="text-green-800 font-medium">✅ In Stock – Only 18 units left</p>
+              <p className="text-green-800 font-medium">✅ In Stock</p>
               <p className="text-sm text-green-600 mt-1">Ships within 24 hours</p>
             </div>
 
