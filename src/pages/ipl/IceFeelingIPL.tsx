@@ -8,7 +8,7 @@ import {
   Shield,
   Truck,
   Award,
-  Smartphone,
+  Snowflake,
   Check,
   Info,
 } from 'lucide-react';
@@ -300,9 +300,8 @@ const IceFeelingIPL: React.FC = () => {
                 </div>
                 <div className="text-center">
                   <div className="inline-block bg-white/20 rounded-2xl p-6">
-                    <Smartphone className="w-16 h-16 mx-auto mb-4" />
-                    <p className="text-sm">Optional mobile guide app</p>
-                    <p className="text-xs opacity-80">iOS & Android</p>
+                    <Snowflake className="w-16 h-16 mx-auto mb-4" />
+                    <p className="text-sm font-semibold">Sapphire bring ICE FEELING!</p>
                   </div>
                 </div>
               </div>
