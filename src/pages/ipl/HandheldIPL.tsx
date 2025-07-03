@@ -22,7 +22,7 @@ const HandheldIPL: React.FC = () => {
     'https://i.postimg.cc/J0SkY7gb/handheld-ipl-1.webp',
     'https://i.postimg.cc/kMHKgw4B/handheld-ipl-2.webp',
     'https://i.postimg.cc/4Nht7t7w/handheld-ipl-3.webp',
-    '/images/handheld-ipl/usage.jpg',
+    'https://i.postimg.cc/Vs0BM22j/handheld-ipl-4.webp',
     '/images/handheld-ipl/features.jpg',
     '/images/handheld-ipl/package.jpg',
     '/images/handheld-ipl/comparison.jpg',
