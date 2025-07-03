@@ -9,7 +9,6 @@ import {
   Shield,
   Truck,
   Award,
-  Check,
   Info,
 } from 'lucide-react';
 
