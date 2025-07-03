@@ -101,7 +101,8 @@ export const accessories: Product[] = [
     image: 'https://i.postimg.cc/9Mc8j5qq/sapphire-len.webp',
     thumbnail: 'https://i.postimg.cc/9Mc8j5qq/sapphire-len.webp', // 新增缩略图字段
     features: ['Sapphire Crystal', 'Scratch Resistant', 'Optimal Light Transmission', 'Long Lasting'],
-    category: 'accessories'
+    category: 'accessories',
+    link: '/accessories/sapphire-lens'
   },
   {
     id: 'adapter',
@@ -110,7 +111,8 @@ export const accessories: Product[] = [
     image: 'https://i.postimg.cc/GtVxtZ9K/power-adaptor.webp',
     thumbnail: 'https://i.postimg.cc/GtVxtZ9K/power-adaptor.webp', // 新增缩略图字段
     features: ['Universal Compatibility', 'Fast Charging', 'Safety Certified', 'Compact Design'],
-    category: 'accessories'
+    category: 'accessories',
+    link: '/accessories/adapter'
   },
   {
     id: 'goggles',
@@ -119,7 +121,8 @@ export const accessories: Product[] = [
     image: 'https://i.postimg.cc/1tYp7L0S/safety-goggles.webp',
     thumbnail: 'https://i.postimg.cc/1tYp7L0S/safety-goggles.webp', // 新增缩略图字段
     features: ['UV Protection', 'Comfortable Fit', 'Adjustable Strap', 'Professional Grade'],
-    category: 'accessories'
+    category: 'accessories',
+    link: '/accessories/protective-goggles'
   },
   {
     id: 'filter',
@@ -128,6 +131,7 @@ export const accessories: Product[] = [
     image: 'https://i.postimg.cc/tRw33GCt/filter.webp',
     thumbnail: 'https://i.postimg.cc/tRw33GCt/filter.webp', // 新增缩略图字段
     features: ['Precision Filtering', 'Wavelength Control', 'High Quality', 'Professional Standard'],
-    category: 'accessories'
+    category: 'accessories',
+    link: '/accessories/filter'
   }
 ];
