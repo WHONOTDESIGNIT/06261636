@@ -212,9 +212,7 @@ const IceFeelingIPL: React.FC = () => {
                     >
                       <Plus className="w-4 h-4" />
                     </button>
-                  </div>
-                  <span className="text-sm text-gray-600">Max 10 per order</span>
-                </div>
+                
               </div>
               <button className="w-full bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold py-4 rounded-lg transition-colors flex items-center justify-center">
               
