@@ -117,11 +117,11 @@ const SmartAppIPL: React.FC = () => {
             {/* Price */}
             <div className="space-y-2">
               <div className="flex items-center space-x-4">
-                <span className="text-3xl font-bold text-[rgb(0,116,224)]">$329.00</span>
-                <span className="text-xl text-gray-500 line-through">$429.00</span>
+                <span className="text-3xl font-bold text-[rgb(0,116,224)]">$229.00</span>
+                <span className="text-xl text-gray-500 line-through">$329.00</span>
                 <span className="bg-red-100 text-red-800 px-2 py-1 rounded-full text-sm font-semibold">Save 23%</span>
               </div>
-              <p className="text-sm text-gray-600">Free shipping • 18-month warranty</p>
+              <p className="text-sm text-gray-600">Free shipping • 12-month warranty</p>
             </div>
             {/* Description */}
             <div className="space-y-4">
@@ -158,7 +158,7 @@ const SmartAppIPL: React.FC = () => {
             </div>
             {/* Stock */}
             <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-              <p className="text-green-800 font-medium">✅ In Stock – 29 units left</p>
+              <p className="text-green-800 font-medium">✅ In Stock</p>
               <p className="text-sm text-green-600 mt-1">Ships in 24 hours</p>
             </div>
             {/* Quantity & Add to Cart */}
