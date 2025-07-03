@@ -150,35 +150,35 @@ const IceFeelingIPL: React.FC = () => {
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Enjoy painless hair removal with a clinical-grade{" "}
                   <strong>Sapphire cooling plate</strong> that chills skin to 5 °C,
-                  enabling higher energy pulses for quicker results[11][12].
+                  enabling higher energy pulses for quicker results.
                   The integrated{" "}
                   <strong>Intense Pulsed Light (IPL)</strong> engine delivers
                   18 J/cm² of energy with <strong>999 999 flashes</strong> for a
-                  lifetime of use[14][19].
+                  lifetime of use.
                 </p>
               </div>
               <ul className="space-y-3" style={{ listStyle: 'none', paddingLeft: 0 }}>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Long-lasting smoothness — visible reduction after 3-4 weeks[13].
+                  Long-lasting smoothness — visible reduction after 3-4 weeks.
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
                   Cooling plate keeps epidermis at 5 °C for true painless
-                  treatments[11][12].
+                  treatments.
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
                   Five energy levels adapt to all skin tones within
-                  Fitzpatrick I-V[12][15].
+                  Fitzpatrick I-V.
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Auto/Manual flash modes for body and precision areas[21][20].
+                  Auto/Manual flash modes for body and precision areas.
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  3-in-1 lamp: Hair removal, skin rejuvenation, acne care[24][20].
+                  3-in-1 lamp: Hair removal, skin rejuvenation, acne care.
                 </li>
               </ul>
             </div>
