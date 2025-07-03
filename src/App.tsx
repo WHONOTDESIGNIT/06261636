@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route, Navigate, useParams, useLocation, useNavigate } from 'react-router-dom';
 import { LanguageProvider } from './context/LanguageContext';
+import { HelmetProvider } from 'react-helmet-async';
 import Header from './components/Layout/Header';
 import Footer from './components/Layout/Footer';
 import FloatingWidgets from './components/Layout/FloatingWidgets';
 import { languages } from './data/languages';
-import { Helmet } from 'react-helmet';
 
 // Main Pages
 import Home from './pages/Home';
@@ -71,17 +71,6 @@ import CountryPage from './pages/CountryPage.tsx';
 const supportedLangs = languages.map(l => l.code.split('-')[0]);
 const defaultLang = 'en'; // 你可以根据需要改为 'en-global' 或其他
 
-// 动态 meta 标签组件
-function MetaTags({ title, description }: { title: string; description: string }) {
-  return (
-    <Helmet>
-      <title>{title}</title>
-      <meta name="description" content={description} />
-      <link rel="canonical" href={window.location.href} />
-    </Helmet>
-  );
-}
-
 // 多语言路由包装器
 function MultilangRoutes() {
   const { lang } = useParams<{ lang: string }>();
@@ -98,8 +87,6 @@ function MultilangRoutes() {
 
   return (
     <>
-      {/* 动态 meta 示例，可根据实际页面内容动态设置 */}
-      <MetaTags title="Your Page Title" description="Your page description." />
       <Header />
       <main>
         <Routes>
@@ -177,16 +164,18 @@ function MultilangRoutes() {
 
 function App() {
   return (
-    <LanguageProvider>
-      <Router>
-        <Routes>
-          {/* 首次访问无前缀时自动重定向到默认语言 */}
-          <Route path="/" element={<Navigate to={`/${defaultLang}`} replace />} />
-          {/* 多语言前缀路由 */}
-          <Route path="/:lang/*" element={<MultilangRoutes />} />
-        </Routes>
-      </Router>
-    </LanguageProvider>
+    <HelmetProvider>
+      <LanguageProvider>
+        <Router>
+          <Routes>
+            {/* 首次访问无前缀时自动重定向到默认语言 */}
+            <Route path="/" element={<Navigate to={`/${defaultLang}`} replace />} />
+            {/* 多语言前缀路由 */}
+            <Route path="/:lang/*" element={<MultilangRoutes />} />
+          </Routes>
+        </Router>
+      </LanguageProvider>
+    </HelmetProvider>
   );
 }
 
