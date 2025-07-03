@@ -5,7 +5,7 @@ import { useTranslation } from '../hooks/useTranslation'; // 你的自定义hook
 interface LanguageContextType {
   currentLanguage: string;
   currentCountry: string;
-  setLanguage: (languageCode: string, countryCode: string) => void;
+  setLanguage: (languageCode: string, countryCode?: string) => void;
   t: (key: string, fallback?: string) => string;
   loading: boolean;
 }
@@ -54,11 +54,13 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   }, []);
 
   // 切换语言和国家，并持久化
-  const setLanguage = (languageCode: string, countryCode: string) => {
+  const setLanguage = (languageCode: string, countryCode?: string) => {
     setCurrentLanguage(languageCode);
-    setCurrentCountry(countryCode);
+    if (countryCode) {
+      setCurrentCountry(countryCode);
+      localStorage.setItem('selectedCountry', countryCode);
+    }
     localStorage.setItem('selectedLanguage', languageCode);
-    localStorage.setItem('selectedCountry', countryCode);
   };
 
   return (
