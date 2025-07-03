@@ -22,7 +22,7 @@ const EmeraldIPL: React.FC = () => {
     'https://i.postimg.cc/pddL8bcx/EMERALD-IPL-3.webp',
     'https://i.postimg.cc/hGhKv8ht/EMERALD-IPL-FRONT.webp',
     'https://i.postimg.cc/cJj0nK8M/EMERALD-IPL-SUITE-SKIN-TONE.webp',
-    '/images/emerald-ipl/usage.jpg',
+    'https://i.postimg.cc/nVqpXhVB/EMERALD-IPL-4.webp',
     '/images/emerald-ipl/features.jpg',
     '/images/emerald-ipl/package.jpg',
     '/images/emerald-ipl/comparison.jpg',
