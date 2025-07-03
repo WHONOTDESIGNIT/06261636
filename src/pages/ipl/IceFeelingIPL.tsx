@@ -286,15 +286,15 @@ const IceFeelingIPL: React.FC = () => {
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-white rounded-full mr-3" />
                       Continuous cooling enables pain-free sessions even on
-                      sensitive zones[11][12].
+                      sensitive zones.
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-white rounded-full mr-3" />
-                      Higher energy pulses deliver permanent results 3× faster[11][14].
+                      Higher energy pulses deliver permanent results 3× faster.
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-white rounded-full mr-3" />
-                      Built-in sensor adjusts intensity for safe treatment[12][15].
+                      Built-in sensor adjusts intensity for safe treatment.
                     </li>
                   </ul>
                 </div>
@@ -330,7 +330,7 @@ const IceFeelingIPL: React.FC = () => {
                 <h3 className="text-xl font-bold">0.35 s Ultra-Fast Flashes</h3>
                 <p className="text-gray-700">
                   Treat legs or arms in under 8 minutes thanks to rapid dual-lamp
-                  xenon tubes and 0.35 s reload time[11][18].
+                  xenon tubes and 0.35 s reload time.
                 </p>
               </div>
             </div>
