@@ -137,7 +137,7 @@ const IceFeelingIPL: React.FC = () => {
                   Save 30%
                 </span>
               </div>
-              <p className="text-sm text-gray-600">Free shipping • 18-month warranty included</p>
+              <p className="text-sm text-gray-600">Free shipping • 12-month warranty included</p>
             </div>
 
             {/* Description */}
@@ -153,7 +153,7 @@ const IceFeelingIPL: React.FC = () => {
                   enabling higher energy pulses for quicker results.
                   The integrated{" "}
                   <strong>Intense Pulsed Light (IPL)</strong> engine delivers
-                  18 J/cm² of energy with <strong>999 999 flashes</strong> for a
+                  2.0~5.0 J/cm² of energy with <strong>999 999 flashes</strong> for a
                   lifetime of use.
                 </p>
               </div>
