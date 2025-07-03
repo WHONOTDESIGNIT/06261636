@@ -6,7 +6,7 @@ export interface Product {
   thumbnail?: string; // 添加可选的缩略图字段
   features: string[];
   category: 'ipl' | 'accessories';
-  link?: string; // 添加可选的链接字段
+  link?: string; // 新增可选link字段
 }
 
 export interface ContactFormData {
