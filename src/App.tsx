@@ -108,7 +108,7 @@ const LanguageGuard: React.FC = () => {
   // Sync context with URL
   useEffect(() => {
     if (lang && lang !== currentLanguage) {
-      setLanguage(lang, '');
+      setLanguage(lang);
     }
   }, [lang, currentLanguage, setLanguage]);
 
