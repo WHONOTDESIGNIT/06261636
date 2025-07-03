@@ -27,7 +27,7 @@ const IceFeelingIPL: React.FC = () => {
     'https://i.postimg.cc/dV8XJhJS/sapphire-ipl-black-3.webp',
     'https://i.postimg.cc/HLzh7Fcw/SAPPHIRE-IPL-PURPLE.webp',
     'https://i.postimg.cc/HWrTd9RZ/pink.webp',
-    '/https://i.postimg.cc/SQHkszpy/PINK-010-IPL-hair-removal-1.webp',
+    'https://i.postimg.cc/SQHkszpy/PINK-010-IPL-hair-removal-1.webp',
     'https://i.postimg.cc/htBn8Wj6/white-010-1.webp',
   ];
   const thumbnails = productImages;
