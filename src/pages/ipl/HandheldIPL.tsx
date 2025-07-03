@@ -57,7 +57,7 @@ const HandheldIPL: React.FC = () => {
               <img
                 src={productImages[currentImageIndex]}
                 alt="Handheld IPL Hair Removal Device"
-                className="w-full h-[600px] object-cover"
+                className="w-full h-[700px] object-cover"
               />
               {/* Navigation Arrows */}
               <button
