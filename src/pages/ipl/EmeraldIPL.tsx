@@ -23,10 +23,6 @@ const EmeraldIPL: React.FC = () => {
     'https://i.postimg.cc/hGhKv8ht/EMERALD-IPL-FRONT.webp',
     'https://i.postimg.cc/cJj0nK8M/EMERALD-IPL-SUITE-SKIN-TONE.webp',
     'https://i.postimg.cc/nVqpXhVB/EMERALD-IPL-4.webp',
-    '/images/emerald-ipl/features.jpg',
-    '/images/emerald-ipl/package.jpg',
-    '/images/emerald-ipl/comparison.jpg',
-    '/images/emerald-ipl/accessories.jpg',
   ];
   const thumbnails = productImages;
 
