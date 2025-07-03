@@ -14,104 +14,104 @@ const Header: React.FC = () => {
   const navigation = [
     {
       name: 'Solutions',
-      href: '/solutions',
+      href: `/${currentLanguage}/solutions`,
       hasDropdown: true,
       items: [
-        { name: 'Logo Printing', href: '/solutions/logo-printing', icon: '🖨️' },
-        { name: 'Packaging Solutions', href: '/solutions/packaging', icon: '📦' },
-        { name: 'Drop Shipping', href: '/solutions/drop-shipping', icon: '🚚' },
-        { name: 'Global Shipping', href: '/solutions/global-shipping', icon: '🌍' },
-        { name: 'Brand Customization', href: '/solutions/brand-customization', icon: '🎨' },
-        { name: 'Compliance & Certifications', href: '/solutions/compliance', icon: '✅' },
-        { name: 'Design & Prototyping', href: '/solutions/design-prototyping', icon: '⚙️' },
-        { name: 'Multi-head IPL Custom', href: '/solutions/multi-head-ipl', icon: '🔬' },
-        { name: 'Dual-lamp IPL Custom', href: '/solutions/dual-lamp-ipl', icon: '💡' }
+        { name: 'Logo Printing', href: `/${currentLanguage}/solutions/logo-printing`, icon: '🖨️' },
+        { name: 'Packaging Solutions', href: `/${currentLanguage}/solutions/packaging`, icon: '📦' },
+        { name: 'Drop Shipping', href: `/${currentLanguage}/solutions/drop-shipping`, icon: '🚚' },
+        { name: 'Global Shipping', href: `/${currentLanguage}/solutions/global-shipping`, icon: '🌍' },
+        { name: 'Brand Customization', href: `/${currentLanguage}/solutions/brand-customization`, icon: '🎨' },
+        { name: 'Compliance & Certifications', href: `/${currentLanguage}/solutions/compliance`, icon: '✅' },
+        { name: 'Design & Prototyping', href: `/${currentLanguage}/solutions/design-prototyping`, icon: '⚙️' },
+        { name: 'Multi-head IPL Custom', href: `/${currentLanguage}/solutions/multi-head-ipl`, icon: '🔬' },
+        { name: 'Dual-lamp IPL Custom', href: `/${currentLanguage}/solutions/dual-lamp-ipl`, icon: '💡' }
       ]
     },
     {
       name: 'IPL Hair Removal',
-      href: '/ipl-hair-removal',
+      href: `/${currentLanguage}/ipl-hair-removal`,
       hasDropdown: true,
       items: [
         {
           name: 'IPL Devices',
           isCategory: true,
           items: [
-            { name: 'Smart App-Controlled IPL Device', href: '/ipl-hair-removal/smart-app', thumbnail: true },
-            { name: 'Ice Feeling IPL Device', href: '/ipl-hair-removal/ice-feeling', thumbnail: true },
-            { name: 'Emerald IPL Device', href: '/ipl-hair-removal/emerald', thumbnail: true },
-            { name: 'Skin Sensor IPL Device', href: '/ipl-hair-removal/skin-sensor', thumbnail: true },
-            { name: 'Battery Powered IPL Device', href: '/ipl-hair-removal/battery-powered', thumbnail: true },
-            { name: 'Handheld IPL Device', href: '/ipl-hair-removal/handheld', thumbnail: true },
-            { name: 'Ice Cooling IPL Device', href: '/ipl-hair-removal/ice-cooling', thumbnail: true },
-            { name: 'Dual-Lamp IPL Device', href: '/ipl-hair-removal/dual-lamp', thumbnail: true },
-            { name: 'AI-POWERED IPL Device', href: '/ipl-hair-removal/ai-powered', thumbnail: true }
+            { name: 'Smart App-Controlled IPL Device', href: `/${currentLanguage}/ipl-hair-removal/smart-app`, thumbnail: true },
+            { name: 'Ice Feeling IPL Device', href: `/${currentLanguage}/ipl-hair-removal/ice-feeling`, thumbnail: true },
+            { name: 'Emerald IPL Device', href: `/${currentLanguage}/ipl-hair-removal/emerald`, thumbnail: true },
+            { name: 'Skin Sensor IPL Device', href: `/${currentLanguage}/ipl-hair-removal/skin-sensor`, thumbnail: true },
+            { name: 'Battery Powered IPL Device', href: `/${currentLanguage}/ipl-hair-removal/battery-powered`, thumbnail: true },
+            { name: 'Handheld IPL Device', href: `/${currentLanguage}/ipl-hair-removal/handheld`, thumbnail: true },
+            { name: 'Ice Cooling IPL Device', href: `/${currentLanguage}/ipl-hair-removal/ice-cooling`, thumbnail: true },
+            { name: 'Dual-Lamp IPL Device', href: `/${currentLanguage}/ipl-hair-removal/dual-lamp`, thumbnail: true },
+            { name: 'AI-POWERED IPL Device', href: `/${currentLanguage}/ipl-hair-removal/ai-powered`, thumbnail: true }
           ]
         },
         {
           name: 'Accessories',
           isCategory: true,
           items: [
-            { name: 'Sapphire Lens', href: '/accessories/sapphire-lens', icon: '💎' },
-            { name: 'Optical Filter', href: '/accessories/filter', icon: '🔍' },
-            { name: 'Power Adapter', href: '/accessories/adapter', icon: '🔌' },
-            { name: 'Safety Goggles', href: '/accessories/goggles', icon: '🥽' }
+            { name: 'Sapphire Lens', href: `/${currentLanguage}/accessories/sapphire-lens`, icon: '💎' },
+            { name: 'Optical Filter', href: `/${currentLanguage}/accessories/filter`, icon: '🔍' },
+            { name: 'Power Adapter', href: `/${currentLanguage}/accessories/adapter`, icon: '🔌' },
+            { name: 'Safety Goggles', href: `/${currentLanguage}/accessories/goggles`, icon: '🥽' }
           ]
         }
       ]
     },
     {
       name: 'How to Use',
-      href: '/how-to-use'
+      href: `/${currentLanguage}/how-to-use`
     },
     {
       name: 'Service & Support',
-      href: '/service-support',
+      href: `/${currentLanguage}/service-support`,
       hasDropdown: true,
       items: [
         {
           name: 'Service',
           isCategory: true,
           items: [
-            { name: 'After-Sales Service', href: '/service-support/after-sales' },
-            { name: 'Win FDA Listing', href: '/service-support/win-fda-listing' },
-            { name: 'IPL Devices Manufacturing', href: '/service-support/manufacturing' },
-            { name: 'Knowledge Base', href: '/service-support/knowledge-base' }
+            { name: 'After-Sales Service', href: `/${currentLanguage}/service-support/after-sales` },
+            { name: 'Win FDA Listing', href: `/${currentLanguage}/service-support/win-fda-listing` },
+            { name: 'IPL Devices Manufacturing', href: `/${currentLanguage}/service-support/manufacturing` },
+            { name: 'Knowledge Base', href: `/${currentLanguage}/service-support/knowledge-base` }
           ]
         },
         {
           name: 'Support > Buying Guide',
           isCategory: true,
           items: [
-            { name: 'Beauty Niche Sourcing & Accessories', href: '/service-support/beauty-sourcing' },
-            { name: 'Pricing Guide', href: '/service-support/pricing-guide' },
-            { name: 'Help Center', href: '/service-support/help-center' },
-            { name: 'Gallery', href: '/service-support/gallery' },
-            { name: 'Videos', href: '/service-support/videos' }
+            { name: 'Beauty Niche Sourcing & Accessories', href: `/${currentLanguage}/service-support/beauty-sourcing` },
+            { name: 'Pricing Guide', href: `/${currentLanguage}/service-support/pricing-guide` },
+            { name: 'Help Center', href: `/${currentLanguage}/service-support/help-center` },
+            { name: 'Gallery', href: `/${currentLanguage}/service-support/gallery` },
+            { name: 'Videos', href: `/${currentLanguage}/service-support/videos` }
           ]
         },
         {
           name: 'Blog',
           isCategory: true,
           items: [
-            { name: 'News & Insights', href: '/blog/news-insights' },
-            { name: 'Industries We Serve', href: '/blog/industries' }
+            { name: 'News & Insights', href: `/${currentLanguage}/blog/news-insights` },
+            { name: 'Industries We Serve', href: `/${currentLanguage}/blog/industries` }
           ]
         }
       ]
     },
     {
       name: 'About',
-      href: '/about',
+      href: `/${currentLanguage}/about`,
       hasDropdown: true,
       items: [
-        { name: 'Founder Message', href: '/about/founder-message' },
-        { name: 'Our Technology', href: '/about/technology' },
-        { name: 'Global Witness', href: '/about/global-witness' },
-        { name: 'Core Principles', href: '/about/core-principles' },
-        { name: 'About iShine', href: '/about/company' },
-        { name: 'Brand Story', href: '/about/brand-story' },
-        { name: 'Quality', href: '/about/quality' }
+        { name: 'Founder Message', href: `/${currentLanguage}/about/founder-message` },
+        { name: 'Our Technology', href: `/${currentLanguage}/about/technology` },
+        { name: 'Global Witness', href: `/${currentLanguage}/about/global-witness` },
+        { name: 'Core Principles', href: `/${currentLanguage}/about/core-principles` },
+        { name: 'About iShine', href: `/${currentLanguage}/about/company` },
+        { name: 'Brand Story', href: `/${currentLanguage}/about/brand-story` },
+        { name: 'Quality', href: `/${currentLanguage}/about/quality` }
       ]
     },
     { name: 'Contact', href: `/${currentLanguage}/contact` }
@@ -146,7 +146,7 @@ const Header: React.FC = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to={`/${currentLanguage}`} className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-br from-ishine-blue-500 to-ishine-purple-500 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-sm">iS</span>
             </div>
