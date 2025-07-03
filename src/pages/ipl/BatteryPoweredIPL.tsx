@@ -204,7 +204,7 @@ const BatteryPoweredIPL: React.FC = () => {
             <div className="grid grid-cols-3 gap-4 pt-6 border-t border-gray-200">
               <div className="text-center">
                 <Shield className="w-8 h-8 mx-auto mb-2 text-blue-600" />
-                <p className="text-xs text-gray-600">18-Month<br />Warranty</p>
+                <p className="text-xs text-gray-600">12-Month<br />Warranty</p>
               </div>
               <div className="text-center">
                 <Truck className="w-8 h-8 mx-auto mb-2 text-blue-600" />
