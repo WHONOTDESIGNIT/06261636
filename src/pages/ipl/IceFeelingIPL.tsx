@@ -185,7 +185,7 @@ const IceFeelingIPL: React.FC = () => {
 
             {/* Stock */}
             <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-              <p className="text-green-800 font-medium">✅ In Stock – 32 units left</p>
+              <p className="text-green-800 font-medium">✅ In Stock </p>
               <p className="text-sm text-green-600 mt-1">Ships within 24 h</p>
             </div>
 
@@ -227,7 +227,7 @@ const IceFeelingIPL: React.FC = () => {
             <div className="grid grid-cols-3 gap-4 pt-6 border-t border-gray-200">
               <div className="text-center">
                 <Shield className="w-8 h-8 mx-auto mb-2 text-[rgb(0,116,224)]" />
-                <p className="text-xs text-gray-600">18-Month<br />Warranty</p>
+                <p className="text-xs text-gray-600">12-Month<br />Warranty</p>
               </div>
               <div className="text-center">
                 <Truck className="w-8 h-8 mx-auto mb-2 text-[rgb(0,116,224)]" />
@@ -311,7 +311,7 @@ const IceFeelingIPL: React.FC = () => {
                 />
                 <h3 className="text-xl font-bold">0.35 s Ultra-Fast Flashes</h3>
                 <p className="text-gray-700">
-                  Treat legs or arms in under 8 minutes thanks to rapid dual-lamp
+                  Treat legs or arms in under 8 minutes thanks to rapid
                   xenon tubes and 0.35 s reload time.
                 </p>
               </div>
