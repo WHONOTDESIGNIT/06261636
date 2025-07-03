@@ -318,7 +318,7 @@ const IceFeelingIPL: React.FC = () => {
                 <h3 className="text-xl font-bold">Ice-Cool Precision</h3>
                 <p className="text-gray-700">
                   The sapphire window cools on contact, reducing surface
-                  temperature from 158 °F to 41 °F to numb nerve endings[19][15].
+                  temperature from 158 °F to 41 °F to numb nerve endings.
                 </p>
               </div>
               <div className="space-y-6">
