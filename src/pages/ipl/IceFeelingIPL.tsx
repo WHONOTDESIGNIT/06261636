@@ -61,7 +61,7 @@ const IceFeelingIPL: React.FC = () => {
               <img
                 src={productImages[currentImageIndex]}
                 alt="Sapphire Ice Feeling IPL Device"
-                className="w-full h-[600px] object-cover"
+                className="w-full h-[700px] object-cover"
               />
               {/* Navigation Arrows */}
               <button
