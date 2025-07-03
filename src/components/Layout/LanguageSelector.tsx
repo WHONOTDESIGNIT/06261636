@@ -20,7 +20,7 @@ const LanguageSwitcher: React.FC = () => {
       <select
         value={currentValue}
         onChange={handleLanguageChange}
-        className="appearance-none bg-white border border-gray-300 rounded-md pl-4 pr-10 py-2 text-sm font-medium text-gray-700 hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-ishine-blue-500 focus:border-transparent cursor-pointer w-full min-w-0"
+        className="appearance-none bg-white border border-gray-300 rounded-md pl-4 pr-10 py-2 text-sm font-medium text-gray-700 hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-ishine-blue-500 focus:border-transparent cursor-pointer w-full min-w-[140px]"
         style={{ maxWidth: '100%' }}
       >
         {languages.map((option) => (
