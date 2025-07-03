@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ShieldCheck } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
+import { useLanguage } from '../../context/LanguageContext';
 
 const qualityPoints = [
   'Medical-grade components and strict ISO 13485 biocompatibility testing',
@@ -15,6 +16,8 @@ const qualityPoints = [
 ];
 
 const Quality: React.FC = () => {
+  const { currentLanguage } = useLanguage();
+
   return (
     <div className="min-h-screen bg-white pt-20">
       {/* Hero Section */}
@@ -51,7 +54,7 @@ const Quality: React.FC = () => {
     <p className="text-lg text-white mb-8">
       Our technical team is ready to answer your questions and provide detailed compliance documentation.
     </p>
-    <Link to="/contact">
+    <Link to={`/${currentLanguage}/contact`}>
       <button
         className="bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold px-8 py-3 rounded-full transition"
       >
