@@ -55,7 +55,7 @@ const EmeraldIPL: React.FC = () => {
               <img
                 src={productImages[currentImageIndex]}
                 alt="Emerald IPL Hair Removal Device"
-                className="w-full h-[600px] object-cover"
+                className="w-full h-[900px] object-cover"
               />
               {/* Navigation Arrows */}
               <button
