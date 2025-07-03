@@ -8,10 +8,26 @@ const DEFAULT_LANGUAGE_CODE = 'en-global';
 const LanguageSwitcher: React.FC = () => {
   const { currentLanguage, currentCountry, setLanguage } = useLanguage();
 
-  // 如果没有选择过语言，静默设置为 en-global
+  // 首次加载时根据IP自动设置默认语言
   useEffect(() => {
     if (!currentLanguage || !currentCountry) {
-      setLanguage('en', 'global');
+      fetch('https://ipapi.co/json/')
+        .then(res => res.json())
+        .then(data => {
+          // data.country_code 例如 'IT', 'FR', 'DE', ...
+          const countryCode = data.country_code ? data.country_code.toLowerCase() : '';
+          // 在languages中查找code以该countryCode结尾的语言
+          const match = languages.find(lang => lang.code.endsWith(`-${countryCode}`));
+          if (match) {
+            const [lang, country] = match.code.split('-');
+            setLanguage(lang, country);
+          } else {
+            setLanguage('en', 'global'); // fallback
+          }
+        })
+        .catch(() => {
+          setLanguage('en', 'global'); // fallback
+        });
     }
   }, [currentLanguage, currentCountry, setLanguage]);
 
