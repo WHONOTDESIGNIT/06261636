@@ -53,7 +53,7 @@ const SmartAppIPL: React.FC = () => {
               <img
                 src={productImages[currentImageIndex]}
                 alt="Smart App IPL Device"
-                className="w-full h-[600px] object-cover"
+                className="w-full h-[800px] object-cover"
               />
               {/* Navigation Buttons */}
               <button
