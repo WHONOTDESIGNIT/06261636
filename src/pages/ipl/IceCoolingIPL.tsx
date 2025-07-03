@@ -199,7 +199,7 @@ const IceCoolingIPL: React.FC = () => {
               </div>
               <button className="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white font-semibold py-4 rounded-lg transition-all duration-300 flex items-center justify-center shadow-lg">
   
-                Buy Now
+                Get A Quote Now
               </button>
             </div>
 
