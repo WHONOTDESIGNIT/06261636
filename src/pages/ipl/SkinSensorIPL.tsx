@@ -202,7 +202,6 @@ const SkinSensorIPL: React.FC = () => {
                       <Plus className="w-4 h-4" />
                     </button>
                   </div>
-                  <span className="text-sm text-gray-600">Max 10 per order</span>
                 </div>
               </div>
 
