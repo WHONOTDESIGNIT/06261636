@@ -230,7 +230,7 @@ const BatteryPoweredIPL: React.FC = () => {
               </p>
               <p className="text-sm text-gray-600">
                 <span className="font-medium">Category:</span>
-                <a href="/category/ipl-devices" className="text-blue-600 hover:underline ml-1">
+                <a href="/ipl-hair-removal" className="text-blue-600 hover:underline ml-1">
                   IPL Hair Removal Devices
                 </a>
               </p>
