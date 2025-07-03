@@ -21,7 +21,7 @@ const HandheldIPL: React.FC = () => {
   const productImages = [
     'https://i.postimg.cc/J0SkY7gb/handheld-ipl-1.webp',
     'https://i.postimg.cc/kMHKgw4B/handheld-ipl-2.webp',
-    '/images/handheld-ipl/side.jpg',
+    'https://i.postimg.cc/4Nht7t7w/handheld-ipl-3.webp',
     '/images/handheld-ipl/usage.jpg',
     '/images/handheld-ipl/features.jpg',
     '/images/handheld-ipl/package.jpg',
