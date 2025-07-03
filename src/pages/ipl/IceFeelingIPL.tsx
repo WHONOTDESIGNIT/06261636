@@ -26,7 +26,7 @@ const IceFeelingIPL: React.FC = () => {
     'https://i.postimg.cc/tRM8k0rD/sapphire-ipl-black-2.webp',
     'https://i.postimg.cc/dV8XJhJS/sapphire-ipl-black-3.webp',
     'https://i.postimg.cc/HLzh7Fcw/SAPPHIRE-IPL-PURPLE.webp',
-    '/images/ice-feeling-ipl/package.jpg',
+    'https://i.postimg.cc/HWrTd9RZ/pink.webp',
     '/images/ice-feeling-ipl/comparison.jpg',
     '/images/ice-feeling-ipl/accessories.jpg',
   ];
