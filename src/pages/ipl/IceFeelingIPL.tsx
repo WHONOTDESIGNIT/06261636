@@ -3,6 +3,7 @@ import {
   ChevronLeft,
   ChevronRight,
   Star,
+  ShoppingCart,
   Plus,
   Minus,
   Shield,
@@ -20,14 +21,14 @@ const IceFeelingIPL: React.FC = () => {
 
   /* ========= 1. 资源配置 ========= */
   const productImages = [
-    'https://i.postimg.cc/wMrKRZrf/sapphire-IPL.webp',
-    'https://i.postimg.cc/76BdjjqH/sapphire-ipl-black.webp',
-    'https://i.postimg.cc/tRM8k0rD/sapphire-ipl-black-2.webp',
-    'https://i.postimg.cc/dV8XJhJS/sapphire-ipl-black-3.webp',
-    'https://i.postimg.cc/HLzh7Fcw/SAPPHIRE-IPL-PURPLE.webp',
-    'https://i.postimg.cc/HWrTd9RZ/pink.webp',
-    'https://i.postimg.cc/SQHkszpy/PINK-010-IPL-hair-removal-1.webp',
-    'https://i.postimg.cc/htBn8Wj6/white-010-1.webp',
+    '/images/ice-feeling-ipl/front.jpg',
+    '/images/ice-feeling-ipl/interface.jpg',
+    '/images/ice-feeling-ipl/side.jpg',
+    '/images/ice-feeling-ipl/usage.jpg',
+    '/images/ice-feeling-ipl/features.jpg',
+    '/images/ice-feeling-ipl/package.jpg',
+    '/images/ice-feeling-ipl/comparison.jpg',
+    '/images/ice-feeling-ipl/accessories.jpg',
   ];
   const thumbnails = productImages;
 
@@ -47,7 +48,7 @@ const IceFeelingIPL: React.FC = () => {
         <nav className="text-sm text-gray-500 mb-4 mt-4 uppercase">
           <a href="/" className="hover:text-[rgb(0,116,224)]">Home</a>
           <span className="mx-2">/</span>
-          <a href="/ipl-hair-removal" className="hover:text-[rgb(0,116,224)]">IPL Hair Removal</a>
+          <a href="/products" className="hover:text-[rgb(0,116,224)]">IPL Hair Removal</a>
           <span className="mx-2">/</span>
           <span className="text-gray-800">Sapphire Ice Feeling IPL Device</span>
         </nav>
@@ -60,7 +61,7 @@ const IceFeelingIPL: React.FC = () => {
               <img
                 src={productImages[currentImageIndex]}
                 alt="Sapphire Ice Feeling IPL Device"
-                className="w-full h-[700px] object-cover"
+                className="w-full h-[600px] object-cover"
               />
               {/* Navigation Arrows */}
               <button
@@ -137,7 +138,7 @@ const IceFeelingIPL: React.FC = () => {
                   Save 30%
                 </span>
               </div>
-              <p className="text-sm text-gray-600">Free shipping • 12-month warranty included</p>
+              <p className="text-sm text-gray-600">Free shipping • 18-month warranty included</p>
             </div>
 
             {/* Description */}
@@ -150,42 +151,42 @@ const IceFeelingIPL: React.FC = () => {
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Enjoy painless hair removal with a clinical-grade{" "}
                   <strong>Sapphire cooling plate</strong> that chills skin to 5 °C,
-                  enabling higher energy pulses for quicker results.
+                  enabling higher energy pulses for quicker results[11][12].
                   The integrated{" "}
                   <strong>Intense Pulsed Light (IPL)</strong> engine delivers
-                  2.0~5.0 J/cm² of energy with <strong>999 999 flashes</strong> for a
-                  lifetime of use.
+                  18 J/cm² of energy with <strong>999 999 flashes</strong> for a
+                  lifetime of use[14][19].
                 </p>
               </div>
               <ul className="space-y-3" style={{ listStyle: 'none', paddingLeft: 0 }}>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Long-lasting smoothness — visible reduction after 3-4 weeks.
+                  Long-lasting smoothness — visible reduction after 3-4 weeks[13].
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
                   Cooling plate keeps epidermis at 5 °C for true painless
-                  treatments.
+                  treatments[11][12].
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Five energy levels adapt to almost all skin tones within
-                  Fitzpatrick I-V.
+                  Five energy levels adapt to all skin tones within
+                  Fitzpatrick I-V[12][15].
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Auto/Manual flash modes for body and precision areas.
+                  Auto/Manual flash modes for body and precision areas[21][20].
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  4-in-1: Full body, Bikini, Face, and skin rejuvenation.
+                  3-in-1 lamp: Hair removal, skin rejuvenation, acne care[24][20].
                 </li>
               </ul>
             </div>
 
             {/* Stock */}
             <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-              <p className="text-green-800 font-medium">✅ In Stock </p>
+              <p className="text-green-800 font-medium">✅ In Stock – 32 units left</p>
               <p className="text-sm text-green-600 mt-1">Ships within 24 h</p>
             </div>
 
@@ -217,28 +218,25 @@ const IceFeelingIPL: React.FC = () => {
                 </div>
               </div>
               <button className="w-full bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold py-4 rounded-lg transition-colors flex items-center justify-center">
-              
-               GET A QUOTE NOW
+                <ShoppingCart className="w-5 h-5 mr-2" />
+                Add to Cart
               </button>
             </div>
 
             {/* Payment Icons */}
-            <div className="space-y-4">
-              <img
-                src="/images/payment-shipping-icons.png"
-                alt="Payment & Shipping"
-                className="w-[310px]"
-              />
-              <img
-                src="/images/guarantee-shipping.png"
-                alt="Guarantee & Shipping"
-                className="w-[310px]"
-              />
-              <img
-                src="/images/featured-in.png"
-                alt="Featured In"
-                className="w-[350px]"
-              />
+            <div className="grid grid-cols-3 gap-4 pt-2">
+              <div className="flex flex-col items-center">
+                <Shield className="w-10 h-10 text-[rgb(0,116,224)] mb-2" />
+                <span className="text-xs text-gray-600 text-center">Secure Payment</span>
+              </div>
+              <div className="flex flex-col items-center">
+                <Truck className="w-10 h-10 text-[rgb(0,116,224)] mb-2" />
+                <span className="text-xs text-gray-600 text-center">Fast Shipping</span>
+              </div>
+              <div className="flex flex-col items-center">
+                <Award className="w-10 h-10 text-[rgb(0,116,224)] mb-2" />
+                <span className="text-xs text-gray-600 text-center">Certified Quality</span>
+              </div>
             </div>
 
             {/* Trust Badges */}
@@ -264,7 +262,7 @@ const IceFeelingIPL: React.FC = () => {
               </p>
               <p className="text-sm text-gray-600">
                 <span className="font-medium">Category:</span>
-                <a href="/ipl-hair-removal" className="text-[rgb(0,116,224)] hover:underline ml-1">
+                <a href="/category/ipl-devices" className="text-[rgb(0,116,224)] hover:underline ml-1">
                   IPL Hair Removal
                 </a>
               </p>
@@ -286,22 +284,22 @@ const IceFeelingIPL: React.FC = () => {
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-white rounded-full mr-3" />
                       Continuous cooling enables pain-free sessions even on
-                      sensitive zones.
+                      sensitive zones[11][12].
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-white rounded-full mr-3" />
-                      Higher energy pulses deliver permanent results 3× faster.
+                      Higher energy pulses deliver permanent results 3× faster[11][14].
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-white rounded-full mr-3" />
-                      Built-in sensor adjusts intensity for safe treatment.
+                      Built-in sensor adjusts intensity for safe treatment[12][15].
                     </li>
                   </ul>
                 </div>
                 <div className="text-center">
                   <div className="inline-block bg-white/20 rounded-2xl p-6">
                     <Snowflake className="w-16 h-16 mx-auto mb-4" />
-                    <p className="text-sm font-semibold">Sapphire bring ICE FEELING!</p>
+                    <p className="text-sm font-semibold">蓝宝石带来冰爽体验</p>
                   </div>
                 </div>
               </div>
@@ -318,7 +316,7 @@ const IceFeelingIPL: React.FC = () => {
                 <h3 className="text-xl font-bold">Ice-Cool Precision</h3>
                 <p className="text-gray-700">
                   The sapphire window cools on contact, reducing surface
-                  temperature from 158 °F to 41 °F to numb nerve endings.
+                  temperature from 158 °F to 41 °F to numb nerve endings[19][15].
                 </p>
               </div>
               <div className="space-y-6">
@@ -330,7 +328,7 @@ const IceFeelingIPL: React.FC = () => {
                 <h3 className="text-xl font-bold">0.35 s Ultra-Fast Flashes</h3>
                 <p className="text-gray-700">
                   Treat legs or arms in under 8 minutes thanks to rapid dual-lamp
-                  xenon tubes and 0.35 s reload time.
+                  xenon tubes and 0.35 s reload time[11][18].
                 </p>
               </div>
             </div>
