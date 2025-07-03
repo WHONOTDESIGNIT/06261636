@@ -127,7 +127,7 @@ const IceCoolingIPL: React.FC = () => {
                   Save 36%
                 </span>
               </div>
-              <p className="text-sm text-gray-600">Free shipping • 18-month warranty included</p>
+              <p className="text-sm text-gray-600">Free shipping • 12-month warranty included</p>
             </div>
 
             {/* Description */}
@@ -138,7 +138,7 @@ const IceCoolingIPL: React.FC = () => {
                   ✨ Luxurious Ice Cooling Technology - Goddess-level Experience ✨
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Experience professional-grade luxurious ice cooling hair removal technology, featuring an <strong>aerospace-grade cooling metal plate</strong> that instantly cools the skin to <strong>5°C ultra-low temperature</strong>. Combined with <strong>20 J/cm² high-energy IPL pulses</strong> and <strong>800,000+ flashes</strong>, it delivers a goddess-like silky skin experience. The luxurious design is crafted for perfection-seeking modern women.
+                  Experience professional-grade luxurious ice cooling hair removal technology, featuring an <strong>aerospace-grade cooling metal plate</strong> that instantly cools the skin to <strong>5°C ultra-low temperature</strong>. Combined with <strong>2.0~5.0 J/cm² high-energy IPL pulses</strong> and <strong>999,000+ flashes</strong>, it delivers a goddess-like silky skin experience. The luxurious design is crafted for perfection-seeking modern women.
                 </p>
               </div>
               <ul className="space-y-3" style={{ listStyle: 'none', paddingLeft: 0 }}>
