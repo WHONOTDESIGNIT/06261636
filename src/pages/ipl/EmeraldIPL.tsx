@@ -20,7 +20,7 @@ const EmeraldIPL: React.FC = () => {
   /* ========= 1. 资源配置 ========= */
   const productImages = [
     'https://i.postimg.cc/pddL8bcx/EMERALD-IPL-3.webp',
-    '/images/emerald-ipl/interface.jpg',
+    'https://i.postimg.cc/hGhKv8ht/EMERALD-IPL-FRONT.webp',
     '/images/emerald-ipl/side.jpg',
     '/images/emerald-ipl/usage.jpg',
     '/images/emerald-ipl/features.jpg',
