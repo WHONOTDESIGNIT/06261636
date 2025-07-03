@@ -19,11 +19,10 @@ const EmeraldIPL: React.FC = () => {
 
   /* ========= 1. 资源配置 ========= */
   const productImages = [
-    'https://i.postimg.cc/nVqpXhVB/EMERALD-IPL-4.webp'
+    'https://i.postimg.cc/nVqpXhVB/EMERALD-IPL-4.webp',
     'https://i.postimg.cc/pddL8bcx/EMERALD-IPL-3.webp',
     'https://i.postimg.cc/hGhKv8ht/EMERALD-IPL-FRONT.webp',
     'https://i.postimg.cc/cJj0nK8M/EMERALD-IPL-SUITE-SKIN-TONE.webp',
-    ,
   ];
   const thumbnails = productImages;
 
