@@ -246,7 +246,7 @@ const HandheldIPL: React.FC = () => {
                 <li>Device Type: Handheld IPL Hair Removal</li>
                 <li>Energy Levels: 5 adjustable settings</li>
                 <li>Power Source: AC Adapter</li>
-                <li>Flash Life: 400,000 flashes</li>
+                <li>Flash Life: 500,000 flashes</li>
                 <li>Display: LED screen</li>
                 <li>Weight: 220g</li>
                 <li>Dimensions: 180 x 60 x 40 mm</li>
