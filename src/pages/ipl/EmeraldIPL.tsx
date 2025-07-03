@@ -213,7 +213,7 @@ const EmeraldIPL: React.FC = () => {
                 </div>
               </div>
               <button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-4 rounded-lg transition-colors flex items-center justify-center">
-                Add to Cart
+                GET A QUOTE NOW
               </button>
             </div>
 
