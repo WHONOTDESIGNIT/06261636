@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
 import { languages } from '../../data/languages';
@@ -40,10 +40,15 @@ const LanguageSwitcher: React.FC = () => {
     const [langCode, countryCode] = selectedCode.split('-');
     setLanguage(langCode, countryCode);
 
-    // 跳转到对应语言的路由，保留当前子页面
-    // 假设路由为 /en/xxx 或 /en-us/xxx
-    const pathWithoutLang = location.pathname.replace(/^\/[a-z]{2}(-[a-z]{2})?/, '');
-    navigate(`/${langCode}${pathWithoutLang}${location.search}`);
+    // 修正：用 split/join 替换第一个路径段为新语言，保证路径正确
+    const pathSegments = location.pathname.split('/');
+    if (pathSegments.length > 1) {
+      pathSegments[1] = langCode;
+      const newPath = pathSegments.join('/') || '/';
+      navigate(`${newPath}${location.search}`);
+    } else {
+      navigate(`/${langCode}${location.search}`);
+    }
   };
 
   return (
