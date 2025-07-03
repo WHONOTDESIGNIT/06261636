@@ -3,11 +3,15 @@ import { useParams } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import { getLanguageFromCountryCode } from '../utils/languageUtils';
 import Home from './Home';
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from 'react-helmet';
 
 const CountryPage: React.FC = () => {
   const { countryCode } = useParams<{ countryCode: string }>();
   const { setLanguage, currentCountry } = useLanguage();
+
+  // 默认title和description，便于后期修改
+  const title = "iShine - IPL Device Manufacturing Solutions | Global";
+  const description = "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide.";
 
   useEffect(() => {
     if (countryCode && countryCode !== currentCountry) {
@@ -17,8 +21,15 @@ const CountryPage: React.FC = () => {
       
       // Update document title and meta tags based on country/language
       updateMetaTags(countryCode);
+    } else {
+      // 设置默认title和description
+      document.title = title;
+      const metaDescription = document.querySelector('meta[name="description"]');
+      if (metaDescription) {
+        metaDescription.setAttribute('content', description);
+      }
     }
-  }, [countryCode, setLanguage, currentCountry]);
+  }, [countryCode, setLanguage, currentCountry, title, description]);
 
   const updateMetaTags = (country: string) => {
     // Update document title
@@ -45,6 +56,7 @@ const CountryPage: React.FC = () => {
     };
 
     const title = titleMap[country] || titleMap['global'];
+    document.title = title;
 
     // Update meta description
     const descriptionMap: Record<string, string> = {
@@ -65,34 +77,83 @@ const CountryPage: React.FC = () => {
 
     const description = descriptionMap[country] || descriptionMap['global'];
     
+    // Update meta description
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', description);
+    }
+
+    // Update Open Graph tags
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) {
+      ogTitle.setAttribute('content', title);
+    }
+
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) {
+      ogDescription.setAttribute('content', description);
+    }
+
+    // Update canonical URL
+    const canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) {
+      canonical.setAttribute('href', `https://ishine-ipl.com/iplmanufacturer/${country}`);
+    } else {
+      // Create canonical link if it doesn't exist
+      const newCanonical = document.createElement('link');
+      newCanonical.rel = 'canonical';
+      newCanonical.href = `https://ishine-ipl.com/iplmanufacturer/${country}`;
+      document.head.appendChild(newCanonical);
+    }
+
     // Update hreflang tags for SEO
     updateHreflangTags();
   };
 
   const updateHreflangTags = () => {
-    // This function would be used to update hreflang tags
-    // but we're now using react-helmet-async to handle this
+    // Remove existing hreflang tags
+    const existingHreflangs = document.querySelectorAll('link[rel="alternate"][hreflang]');
+    existingHreflangs.forEach(tag => tag.remove());
+
+    // Add new hreflang tags for major markets
+    const hreflangMap = [
+      { lang: 'en-US', country: 'us' },
+      { lang: 'en-GB', country: 'gb' },
+      { lang: 'de-DE', country: 'de' },
+      { lang: 'fr-FR', country: 'fr' },
+      { lang: 'es-ES', country: 'es' },
+      { lang: 'es-MX', country: 'mx' },
+      { lang: 'pt-BR', country: 'br' },
+      { lang: 'ja-JP', country: 'jp' },
+      { lang: 'zh-CN', country: 'cn' },
+      { lang: 'th-TH', country: 'th' },
+      { lang: 'vi-VN', country: 'vn' },
+      { lang: 'id-ID', country: 'id' },
+      { lang: 'ms-MY', country: 'my' },
+      { lang: 'ar-AE', country: 'ae' },
+      { lang: 'ar-SA', country: 'sa' },
+      { lang: 'he-IL', country: 'il' },
+      { lang: 'tr-TR', country: 'tr' },
+      { lang: 'hi-IN', country: 'in' },
+      { lang: 'ko-KR', country: 'kr' },
+      { lang: 'x-default', country: 'global' }
+    ];
+
+    hreflangMap.forEach(({ lang, country }) => {
+      const hreflang = document.createElement('link');
+      hreflang.rel = 'alternate';
+      hreflang.hreflang = lang;
+      hreflang.href = `https://ishine-ipl.com/iplmanufacturer/${country}`;
+      document.head.appendChild(hreflang);
+    });
   };
 
   // Render the Home component with country-specific context
   return (
     <>
       <Helmet>
-        {countryCode && (
-          <>
-            <title>{`iShine - IPL Device Manufacturing Solutions | ${countryCode.toUpperCase()}`}</title>
-            <meta name="description" content={`Leading IPL device manufacturer providing OEM/ODM solutions from idea to market in ${countryCode.toUpperCase()}.`} />
-            <link rel="canonical" href={`https://ishine-ipl.com/iplmanufacturer/${countryCode}`} />
-            
-            {/* Example hreflang tags */}
-            <link rel="alternate" hreflang="x-default" href="https://ishine-ipl.com/iplmanufacturer/global" />
-            <link rel="alternate" hreflang="en-US" href="https://ishine-ipl.com/iplmanufacturer/us" />
-            <link rel="alternate" hreflang="de-DE" href="https://ishine-ipl.com/iplmanufacturer/de" />
-            <link rel="alternate" hreflang="fr-FR" href="https://ishine-ipl.com/iplmanufacturer/fr" />
-            <link rel="alternate" hreflang="es-ES" href="https://ishine-ipl.com/iplmanufacturer/es" />
-            <link rel="alternate" hreflang="zh-CN" href="https://ishine-ipl.com/iplmanufacturer/cn" />
-          </>
-        )}
+        <title>{title}</title>
+        <meta name="description" content={description} />
       </Helmet>
       <Home />
     </>
