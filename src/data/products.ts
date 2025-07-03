@@ -122,7 +122,7 @@ export const accessories: Product[] = [
     thumbnail: 'https://i.postimg.cc/1tYp7L0S/safety-goggles.webp', // 新增缩略图字段
     features: ['UV Protection', 'Comfortable Fit', 'Adjustable Strap', 'Professional Grade'],
     category: 'accessories',
-    link: '/accessories/protective-goggles'
+    link: '/accessories/goggles'
   },
   {
     id: 'filter',
