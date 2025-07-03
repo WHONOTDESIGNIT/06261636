@@ -16,11 +16,14 @@ const SmartAppIPL: React.FC = () => {
   const [quantity, setQuantity] = useState(1);
 
   const productImages = [
-    'https://i.postimg.cc/tCtVBTPz/app-ipl-three-set.webp',
-    'https://i.postimg.cc/HLk5DHCr/app-ipl-side.webp',
-    'https://i.postimg.cc/L8HgLR5x/app-ipl-lay.webp',
-    'https://i.postimg.cc/hvWfjRNb/app-ipl-back.webp',
-
+    'https://i.postimg.cc/WpYCbRgg/smart-ipl-1.webp',
+    'https://i.postimg.cc/KvdWBn9Y/smart-ipl-2.webp',
+    'https://i.postimg.cc/2ShKwVJ7/smart-ipl-3.webp',
+    'https://i.postimg.cc/k5Chh7P3/smart-ipl-4.webp',
+    'https://i.postimg.cc/SKG1BHmX/smart-ipl-5.webp',
+    'https://i.postimg.cc/Jn4YMKhp/smart-ipl-6.webp',
+    'https://i.postimg.cc/85KK5WJN/smart-ipl-7.webp',
+    'https://i.postimg.cc/KcWphPh5/smart-ipl-8.webp',
   ];
   const thumbnails = productImages;
 
