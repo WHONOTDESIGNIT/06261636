@@ -199,12 +199,7 @@ const BatteryPoweredIPL: React.FC = () => {
                 Get A Wholesale Price Now!
               </button>
             </div>
-            {/* Payment Icons */}
-            <div className="space-y-4">
-              <img src="/images/payment-shipping-icons.png" alt="Payment & Shipping" className="w-[310px]" />
-              <img src="/images/guarantee-shipping.png" alt="Guarantee & Shipping" className="w-[310px]" />
-              <img src="/images/featured-in.png" alt="Featured In" className="w-[350px]" />
-            </div>
+            
             {/* Trust Badges */}
             <div className="grid grid-cols-3 gap-4 pt-6 border-t border-gray-200">
               <div className="text-center">
