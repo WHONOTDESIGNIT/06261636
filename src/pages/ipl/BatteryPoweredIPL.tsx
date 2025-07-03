@@ -42,9 +42,9 @@ const BatteryPoweredIPL: React.FC = () => {
       <div className="container mx-auto px-4">
         {/* Breadcrumb */}
         <nav className="text-sm text-gray-500 mb-4 mt-4 uppercase">
-          <a href="/" className="hover:text-blue-600">Home</a>
+          <a href="/home" className="hover:text-blue-600">Home</a>
           <span className="mx-2">/</span>
-          <a href="/products" className="hover:text-blue-600">IPL Hair Removal</a>
+          <a href="/ipl-hair-removal" className="hover:text-blue-600">IPL Hair Removal</a>
           <span className="mx-2">/</span>
           <span className="text-gray-800">Battery-Powered IPL Hair Removal Device</span>
         </nav>
