@@ -169,7 +169,7 @@ const HandheldIPL: React.FC = () => {
             </div>
             {/* Stock */}
             <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-              <p className="text-green-800 font-medium">✅ In Stock – 32 units left</p>
+              <p className="text-green-800 font-medium">✅ In Stock </p>
               <p className="text-sm text-green-600 mt-1">Ships within 24 hours</p>
             </div>
             {/* Quantity & Cart */}
@@ -246,8 +246,8 @@ GET A QUOTE NOW
                 <li>Power Source: AC Adapter</li>
                 <li>Flash Life: 500,000 flashes</li>
                 <li>Display: LED screen</li>
-                <li>Weight: 220g</li>
-                <li>Dimensions: 180 x 60 x 40 mm</li>
+                <li>Weight: 343.0 grams</li>
+                <li>Dimensions: 189 x 149 x 90 mm</li>
                 <li>Warranty: 12 months</li>
               </ul>
             </div>
@@ -257,7 +257,6 @@ GET A QUOTE NOW
               <h4 className="text-xl font-semibold mb-4">Safety & Certifications</h4>
               <ul className="list-disc pl-6 space-y-2 text-gray-700">
                 <li>FDA & CE certified for safe home use</li>
-                <li>Skin sensor for safe operation</li>
                 <li>Automatic shut-off after 10 minutes of inactivity</li>
                 <li>Gentle on all skin types</li>
                 <li>UV filter for skin protection</li>
