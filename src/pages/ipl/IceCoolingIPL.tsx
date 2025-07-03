@@ -18,10 +18,10 @@ const IceCoolingIPL: React.FC = () => {
   const [activeSubTab, setActiveSubTab] = useState<'specifications' | 'safety' | 'reviews'>('specifications');
 
   const productImages = [
-    'https://i.postimg.cc/sf5G3zt0/ice-cooling-ipl-6.webp',
+    'https://i.postimg.cc/9fvzjg1h/ice-cooling-ipl-3.webp',
     'https://i.postimg.cc/CLYB1t0M/ice-cooling-ipl-5.webp',
     'https://i.postimg.cc/3wyWVQX1/ice-cooling-ipl-4.webp',
-    'https://i.postimg.cc/9fvzjg1h/ice-cooling-ipl-3.webp',
+    'https://i.postimg.cc/sf5G3zt0/ice-cooling-ipl-6.webp',
     'https://i.postimg.cc/NMmFG8Pr/ice-cooling-ipl-2.webp',
     'https://i.postimg.cc/VvFNnfwf/ice-cooling-ipl-1.webp',
     'https://i.postimg.cc/CxRFLHRL/ice-cooling-ipl-7.webp',
