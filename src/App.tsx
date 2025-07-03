@@ -79,7 +79,7 @@ const NotFound: React.FC = () => (
 );
 
 // Supported language codes
-const supportedLangs = languages.map(l => l.code.split('-')[0]);
+const supportedLangs = languages.map((l: { code: string }) => l.code.split('-')[0]);
 const defaultLang = 'en';
 
 // Layout with header/footer/widgets
