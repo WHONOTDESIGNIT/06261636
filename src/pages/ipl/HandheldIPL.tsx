@@ -8,7 +8,6 @@ import {
   Shield,
   Truck,
   Award,
-  Info,
 } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 
@@ -273,7 +272,7 @@ GET A QUOTE NOW
                     <span className="font-semibold">Emily R.</span>
                     <span className="ml-2 text-gray-500 text-sm">Verified Buyer</span>
                   </div>
-                  <p className="text-gray-700">“Super easy to use and the results are amazing! The 5 energy levels are perfect for my sensitive skin.”</p>
+                  <p className="text-gray-700">"Super easy to use and the results are amazing! The 5 energy levels are perfect for my sensitive skin."</p>
                 </div>
                 <div className="border-b pb-4">
                   <div className="flex items-center mb-2">
@@ -281,7 +280,7 @@ GET A QUOTE NOW
                     <span className="font-semibold">Liam T.</span>
                     <span className="ml-2 text-gray-500 text-sm">Verified Buyer</span>
                   </div>
-                  <p className="text-gray-700">“Compact and lightweight, I can take it anywhere. Highly recommend for home use!”</p>
+                  <p className="text-gray-700">"Compact and lightweight, I can take it anywhere. Highly recommend for home use!"</p>
                 </div>
                 <div>
                   <div className="flex items-center mb-2">
@@ -289,7 +288,7 @@ GET A QUOTE NOW
                     <span className="font-semibold">Sophia W.</span>
                     <span className="ml-2 text-gray-500 text-sm">Verified Buyer</span>
                   </div>
-                  <p className="text-gray-700">“Noticeable results after just a few sessions. The ergonomic design makes it so easy to handle.”</p>
+                  <p className="text-gray-700">"Noticeable results after just a few sessions. The ergonomic design makes it so easy to handle."</p>
                 </div>
               </div>
             </div>
