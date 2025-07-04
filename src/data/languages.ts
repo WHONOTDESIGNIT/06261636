@@ -8,6 +8,7 @@ export const languages = [
   { code: 'et-ee', name: 'Estonia', nativeName: 'Eesti', flag: '🇪🇪', region: 'Europe' },
   { code: 'es-es', name: 'Spain', nativeName: 'Español', flag: '🇪🇸', region: 'Europe' },
   { code: 'fr-fr', name: 'France', nativeName: 'Français', flag: '🇫🇷', region: 'Europe' },
+  { code: 'ru-ru', name: 'Russia', nativeName: 'Русский', flag: '🇷🇺', region: 'Europe' },
   { code: 'hr-hr', name: 'Croatia', nativeName: 'Hrvatski', flag: '🇭🇷', region: 'Europe' },
   { code: 'it-it', name: 'Italy', nativeName: 'Italiano', flag: '🇮🇹', region: 'Europe' },
   { code: 'pt-pt', name: 'Portugal', nativeName: 'Português', flag: '🇵🇹', region: 'Europe' },
