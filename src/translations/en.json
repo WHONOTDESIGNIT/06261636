@@ -99,10 +99,10 @@
   },
   "home": {
     "hero": {
-      "title": "Custom IPL Devices",
-      "subtitle": "& Branding IPL Devices",
-      "description": "Global Leading IPL device manufacturer,\nhelp you design it, build it, and box it.",
-      "getQuote": "Get Quote"
+      "title1": "Custom IPL Devices",
+      "title2": "& Branding IPL Devices",
+      "subtitle": "Global Leading IPL device manufacturer, help you design it, build it, and box it.",
+      "cta": "Get Quote"
     },
     "partners": {
       "title": "Trusted by Global Brands",
@@ -110,33 +110,17 @@
     },
     "features": {
       "title": "Why Choose iShine?",
-      "subtitle": "Complete IPL manufacturing solutions tailored to your needs",
-      "oemSolutions": {
-        "title": "OEM/ODM Solutions",
-        "description": "Complete customization from design to packaging"
-      },
-      "experiencedTeam": {
-        "title": "Experienced Team",
-        "description": "Expert engineers and designers at your service"
-      },
-      "qualityAssurance": {
-        "title": "Quality Assurance",
-        "description": "FDA GMP certified clean room manufacturing"
-      },
-      "globalReach": {
-        "title": "Global Reach",
-        "description": "Serving clients across Europe, North America, and Asia"
-      }
+      "subtitle": "Complete IPL manufacturing solutions tailored to your needs"
     },
     "products": {
       "title": "Our IPL Device Range",
-      "subtitle": "Customizable IPL devices for every market need",
-      "viewAll": "View All IPL Devices"
+      "subtitle": "Wide Range IPL devices for every needs",
+      "cta": "View All IPL Devices"
     },
     "cta": {
-      "title": "Ready to Start Your IPL Project?",
-      "subtitle": "Let's discuss your requirements and create the perfect IPL solution for your brand",
-      "button": "Schedule Consultation"
+      "title": "Need help?",
+      "subtitle": "Let's discuss your requirements and create the IPL solution that best fit for your brand.",
+      "button": "Fill out the form to enjoy Free Consultation"
     }
   },
   "contact": {
@@ -196,5 +180,39 @@
     "learnMore": "Learn More",
     "getStarted": "Get Started",
     "contactUs": "Contact Us"
+  },
+  "solutions": {
+    "productDesignDevelopment": "Product Design & Development",
+    "productDesignDevelopmentDescription": "From initial concept to final design, our expert team brings your IPL vision to life with cutting-edge technology and market insights.",
+    "oemManufacturing": "OEM Manufacturing",
+    "oemManufacturingDescription": "Complete manufacturing solutions with your specifications. We handle production while you focus on your brand and market.",
+    "odmSolutions": "ODM Solutions",
+    "odmSolutionsDescription": "Choose from our proven IPL designs and customize them with your branding, packaging, and unique features.",
+    "endToEndSupport": "End-to-End Support",
+    "endToEndSupportDescription": "Complete project management from initial consultation to product launch and beyond, ensuring your success every step of the way.",
+    "consultation": "Consultation",
+    "consultationDescription": "Understand your vision, market, and requirements",
+    "design": "Design",
+    "designDescription": "Create custom designs or adapt existing solutions",
+    "prototype": "Prototype",
+    "prototypeDescription": "Build and test prototypes to ensure quality",
+    "manufacturing": "Manufacturing",
+    "manufacturingDescription": "Full-scale production with quality assurance",
+    "launch": "Launch",
+    "launchDescription": "Support your market entry and ongoing success",
+    "completeIPLSolutions": "Complete IPL Solutions",
+    "completeIPLSolutionsDescription": "From initial concept to market launch, we provide comprehensive OEM/ODM solutions that transform your IPL vision into successful products.",
+    "ourSolutionPortfolio": "Our Solution Portfolio",
+    "comprehensiveServices": "Comprehensive services to bring your IPL products to market successfully",
+    "ourProcess": "Our Process",
+    "streamlinedWorkflow": "Streamlined workflow to ensure your project success",
+    "industriesWeServe": "Industries We Serve",
+    "tailoredSolutions": "Tailored solutions for diverse market segments",
+    "provenSuccess": "Proven Success",
+    "numbersSpeak": "Numbers that speak to our expertise and commitment",
+    "globalClients": "Global Clients",
+    "productsLaunched": "Products Launched",
+    "qualityRate": "Quality Rate",
+    "yearsExperience": "Years Experience"
   }
 }
