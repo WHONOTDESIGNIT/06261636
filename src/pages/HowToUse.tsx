@@ -15,8 +15,11 @@ import {
   Zap
 } from 'lucide-react';
 import ContactFormA from '../components/Forms/ContactFormA';
+import { useLanguage } from '../context/LanguageContext';
 
 const HowToUse: React.FC = () => {
+  const { t } = useLanguage();
+
   const steps = [
     {
       step: '01',
@@ -199,10 +202,9 @@ const HowToUse: React.FC = () => {
             className="text-center"
           >
             <BookOpen className="w-16 h-16 mx-auto mb-6 text-white" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">How to Use IPL Devices</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('howToUse.heroTitle')}</h1>
             <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
-              Complete guide to safe and effective IPL hair removal. Learn proper techniques, 
-              safety guidelines, and get the best results from your IPL device.
+              {t('howToUse.heroDescription')}
             </p>
           </motion.div>
         </div>
@@ -217,9 +219,9 @@ const HowToUse: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Step-by-Step Instructions</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('howToUse.stepByStepTitle')}</h2>
             <p className="text-lg text-gray-600">
-              Follow these steps for safe and effective IPL treatment
+              {t('howToUse.stepByStepDescription')}
             </p>
           </motion.div>
 
@@ -272,9 +274,9 @@ const HowToUse: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Safety Guidelines</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('howToUse.safetyGuidelinesTitle')}</h2>
             <p className="text-lg text-gray-600">
-              Essential safety information for IPL treatment
+              {t('howToUse.safetyGuidelinesDescription')}
             </p>
           </motion.div>
 
@@ -312,9 +314,9 @@ const HowToUse: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Recommended Treatment Schedule</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('howToUse.treatmentScheduleTitle')}</h2>
             <p className="text-lg text-gray-600">
-              Follow this schedule for optimal hair removal results
+              {t('howToUse.treatmentScheduleDescription')}
             </p>
           </motion.div>
 
@@ -346,9 +348,9 @@ const HowToUse: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Troubleshooting Guide</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('howToUse.troubleshootingTitle')}</h2>
             <p className="text-lg text-gray-600">
-              Common issues and their solutions
+              {t('howToUse.troubleshootingDescription')}
             </p>
           </motion.div>
 
@@ -388,9 +390,9 @@ const HowToUse: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('howToUse.faqTitle')}</h2>
             <p className="text-lg text-gray-600">
-              Get answers to common IPL treatment questions
+              {t('howToUse.faqDescription')}
             </p>
           </motion.div>
 
@@ -423,9 +425,9 @@ const HowToUse: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Video Tutorials</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('howToUse.videoTutorialsTitle')}</h2>
             <p className="text-lg text-gray-600">
-              Watch step-by-step video guides for proper IPL usage
+              {t('howToUse.videoTutorialsDescription')}
             </p>
           </motion.div>
 
