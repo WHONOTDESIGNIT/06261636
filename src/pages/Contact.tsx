@@ -2,12 +2,18 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ContactFormB from '../components/Forms/ContactFormB';
 import { useLanguage } from '../context/LanguageContext';
+import SEOTags from '../components/SEO/SEOTags';
 
 const Contact: React.FC = () => {
   const { t } = useLanguage();
 
   return (
     <div className="min-h-screen pt-20">
+      <SEOTags 
+        title={t('contact.seo.title', 'Contact iShine - IPL Device Manufacturing Inquiries')}
+        description={t('contact.seo.description', 'Contact iShine Manufacturing for IPL device OEM/ODM inquiries, custom manufacturing solutions, and business partnerships. Get expert consultation today.')}
+        keywords={t('contact.seo.keywords', 'contact iShine, IPL manufacturing inquiry, OEM ODM consultation, custom IPL devices, beauty device manufacturing')}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-ishine-blue-500 to-ishine-teal-500 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
