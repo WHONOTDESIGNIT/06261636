@@ -57,6 +57,7 @@ import Videos from './pages/service/Videos';
 // Blog Pages
 import NewsInsights from './pages/blog/NewsInsights';
 import Industries from './pages/blog/Industries';
+import IPLBestChoice from './pages/blog/IPLBestChoice';
 
 // About Pages
 import FounderMessage from './pages/about/FounderMessage';
@@ -197,6 +198,7 @@ const App: React.FC = () => (
             <Route path="service-support/videos" element={<Videos />} />
             <Route path="blog/news-insights" element={<NewsInsights />} />
             <Route path="blog/industries" element={<Industries />} />
+            <Route path="blog/ipl-best-choice" element={<IPLBestChoice />} />
             <Route path="iplmanufacturer/:countryCode" element={<CountryPage />} />
           </Route>
 
@@ -249,6 +251,7 @@ const App: React.FC = () => (
               <Route path="service-support/videos" element={<Videos />} />
               <Route path="blog/news-insights" element={<NewsInsights />} />
               <Route path="blog/industries" element={<Industries />} />
+              <Route path="blog/ipl-best-choice" element={<IPLBestChoice />} />
               <Route path="iplmanufacturer/:countryCode" element={<CountryPage />} />
             </Route>
           </Route>
