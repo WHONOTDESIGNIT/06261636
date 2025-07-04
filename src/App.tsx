@@ -115,9 +115,6 @@ const LanguageGuard: React.FC = () => {
   return <Outlet />;
 };
 
-// 语言前缀判断工具
-const getLangPrefix = (lang: string) => (lang === 'en' ? '' : `/${lang}`);
-
 // 自动检测浏览器语言并初始跳转
 const AutoRedirect: React.FC = () => {
   const { currentLanguage, setLanguage } = useLanguage();
@@ -142,7 +139,7 @@ const App: React.FC = () => (
       <BrowserRouter>
         <Routes>
           {/* 自动检测语言并初始跳转 */}
-          <Route path="/" element={<><AutoRedirect /><MainLayout><Home /></MainLayout></>} />
+          <Route path="/" element={<MainLayout><AutoRedirect /><Home /></MainLayout>} />
 
           {/* 英文无前缀路由 */}
           <Route element={<MainLayout />}>
