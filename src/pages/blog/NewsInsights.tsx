@@ -30,12 +30,13 @@ const blogPosts = [
   {
     id: 3,
     title: "Sapphire Cooling: Reducing Pain by 90% for Dark Skin Types",
-    excerpt: "Clinical data shows sapphire contact cooling technology dramatically improves IPL comfort for Fitzpatrick skin types III-IV.",
-    author: "Engineering Team",
-    date: "2025-06-26",
+    excerpt: "How sapphire cooling technology is revolutionizing IPL hair removal for a wider range of skin tones—safer, more comfortable, and clinically proven.",
+    author: "iShine Editorial Team",
+    date: "2025-07-04",
     category: "Clinical Research",
     image: "/images/blog/sapphire-cooling.jpg",
-    tags: ["Skin Safety", "Cooling Technology"]
+    tags: ["Sapphire Cooling", "Dark Skin", "IPL Safety"],
+    link: "/blog/sapphire-cooling",
   },
   {
     id: 4,
