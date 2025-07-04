@@ -59,6 +59,7 @@ import NewsInsights from './pages/blog/NewsInsights';
 import Industries from './pages/blog/Industries';
 import IPLBestChoice from './pages/blog/IPLBestChoice';
 import FutureHomeHairRemoval from './pages/blog/FutureHomeHairRemoval';
+import FDA510kPathway from './pages/blog/FDA510kPathway';
 
 // About Pages
 import FounderMessage from './pages/about/FounderMessage';
@@ -201,6 +202,7 @@ const App: React.FC = () => (
             <Route path="blog/industries" element={<Industries />} />
             <Route path="blog/ipl-best-choice" element={<IPLBestChoice />} />
             <Route path="blog/future-home-hair-removal-devices" element={<FutureHomeHairRemoval />} />
+            <Route path="blog/fda-510k-pathway" element={<FDA510kPathway />} />
             <Route path="iplmanufacturer/:countryCode" element={<CountryPage />} />
           </Route>
 
@@ -255,6 +257,7 @@ const App: React.FC = () => (
               <Route path="blog/industries" element={<Industries />} />
               <Route path="blog/ipl-best-choice" element={<IPLBestChoice />} />
               <Route path="blog/future-home-hair-removal-devices" element={<FutureHomeHairRemoval />} />
+              <Route path="blog/fda-510k-pathway" element={<FDA510kPathway />} />
               <Route path="iplmanufacturer/:countryCode" element={<CountryPage />} />
             </Route>
           </Route>
