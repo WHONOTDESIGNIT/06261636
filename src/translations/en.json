@@ -162,7 +162,10 @@
       "message": "Describe your needs here*",
       "submit": "Submit",
       "sending": "Sending..."
-    }
+    },
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team for business inquiries, support, or partnership opportunities.",
+    "companyPhotoAlt": "iShine Manufacturing Facility"
   },
   "buttons": {
     "getQuote": "Get Quote",
@@ -230,5 +233,25 @@
       "ctaTitle": "Want to Know More About iShine Quality?",
       "ctaDesc": "Contact us for detailed quality documentation, certifications, and case studies."
     }
+  },
+  "countryPage": {
+    "title": "iShine - IPL Device Manufacturing Solutions | Global",
+    "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide."
+  },
+  "howToUse": {
+    "heroTitle": "How to Use IPL Devices",
+    "heroDescription": "Complete guide to safe and effective IPL hair removal. Learn proper techniques, safety guidelines, and get the best results from your IPL device.",
+    "stepByStepTitle": "Step-by-Step Instructions",
+    "stepByStepDescription": "Follow these steps for safe and effective IPL treatment",
+    "safetyGuidelinesTitle": "Safety Guidelines",
+    "safetyGuidelinesDescription": "Essential safety information for IPL treatment",
+    "treatmentScheduleTitle": "Recommended Treatment Schedule",
+    "treatmentScheduleDescription": "Follow this schedule for optimal hair removal results",
+    "troubleshootingTitle": "Troubleshooting Guide",
+    "troubleshootingDescription": "Common issues and their solutions",
+    "faqTitle": "Frequently Asked Questions",
+    "faqDescription": "Get answers to common IPL treatment questions",
+    "videoTutorialsTitle": "Video Tutorials",
+    "videoTutorialsDescription": "Watch step-by-step video guides for proper IPL usage"
   }
 }
