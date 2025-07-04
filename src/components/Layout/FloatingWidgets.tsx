@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { MessageCircle, ChevronUp } from 'lucide-react';
+import { useLanguage } from '../../context/LanguageContext';
 
 const FloatingWidgets: React.FC = () => {
   const [showBackToTop, setShowBackToTop] = useState(false);
+  const { t } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,7 +29,7 @@ const FloatingWidgets: React.FC = () => {
       <button
         onClick={openWhatsApp}
         className="bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
-        aria-label="Contact us on WhatsApp"
+        aria-label={t('floating.contact', 'Contact Us')}
       >
         <MessageCircle className="w-6 h-6" />
       </button>
@@ -37,7 +39,7 @@ const FloatingWidgets: React.FC = () => {
         <button
           onClick={scrollToTop}
           className="bg-ishine-blue-500 hover:bg-ishine-blue-600 text-white p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
-          aria-label="Back to top"
+          aria-label={t('floating.backToTop', 'Back to top')}
         >
           <ChevronUp className="w-6 h-6" />
         </button>
