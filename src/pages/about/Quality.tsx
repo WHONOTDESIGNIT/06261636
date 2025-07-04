@@ -16,7 +16,7 @@ const qualityPoints = [
 ];
 
 const Quality: React.FC = () => {
-  const { currentLanguage } = useLanguage();
+  const { currentLanguage, t } = useLanguage();
 
   return (
     <div className="min-h-screen bg-white pt-20">
@@ -24,9 +24,9 @@ const Quality: React.FC = () => {
       <section className="bg-gradient-to-r from-[rgb(30,157,139)] to-[rgb(36,151,144)] text-white py-16">
         <div className="max-w-2xl mx-auto px-4 text-center">
           <ShieldCheck className="w-16 h-16 mx-auto mb-6 text-white" />
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">Quality You Can Trust</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">{t('about.quality.heroTitle', 'Quality You Can Trust')}</h1>
           <p className="text-xl mb-8 text-gray-100">
-            Every iShine IPL device is engineered for safety, reliability, and consistent results—meeting the world's most demanding B2B standards.
+            {t('about.quality.heroDesc', "Every iShine IPL device is engineered for safety, reliability, and consistent results—meeting the world's most demanding B2B standards.")}
           </p>
         </div>
       </section>
@@ -38,7 +38,7 @@ const Quality: React.FC = () => {
             {qualityPoints.map((point, idx) => (
               <li key={idx} className="flex items-start">
                 <ShieldCheck className="w-6 h-6 text-[rgb(0,116,224)] flex-shrink-0 mt-1 mr-3" />
-                <span className="text-lg text-gray-800">{point}</span>
+                <span className="text-lg text-gray-800">{t(`about.quality.point${idx+1}`, point)}</span>
               </li>
             ))}
           </ul>
@@ -49,10 +49,10 @@ const Quality: React.FC = () => {
 <section className="bg-gradient-to-r from-[rgb(236,67,113)] to-[rgb(125,0,99)] py-16">
   <div className="max-w-2xl mx-auto text-center">
     <h2 className="text-3xl font-bold text-white mb-4 tracking-tight">
-      Want to Know More About iShine Quality?
+      {t('about.quality.ctaTitle', 'Want to Know More About iShine Quality?')}
     </h2>
     <p className="text-lg text-white mb-8">
-      Our technical team is ready to answer your questions and provide detailed compliance documentation.
+      {t('about.quality.ctaDesc', 'Contact us for detailed quality documentation, certifications, and case studies.')}
     </p>
     <Link to={`/${currentLanguage}/contact`}>
       <button
