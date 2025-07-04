@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
-import { Calendar, TrendingUp, Search, ArrowRight } from 'lucide-react';
+import { Calendar, Clock, TrendingUp, Search, ArrowRight } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 
 // Sample blog data - replace with actual content
 const featuredArticle = {
   id: 1,
-  title: "Dual-Lamp IPL Technology: The Next Revolution in Home Hair Removal",
-  excerpt: "Our analysis reveals how breakthrough dual-lamp architecture is pushing energy output beyond traditional 20J limitations, achieving 38-40 J/cm² in optimal conditions.",
-  author: "Dr. Sarah Chen",
-  date: "2025-06-28",
-  category: "Technology Analysis",
-  image: "/images/blog/dual-lamp-hero.jpg",
-  tags: ["IPL Innovation", "Energy Efficiency", "Market Trends"]
+  title: "Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools",
+  excerpt: "Discover why IPL is the most effective, comfortable, and convenient solution for long-term hair removal at home—backed by science and real user experience.",
+  author: "iShine Editorial Team",
+  date: "2025-07-10",
+  category: "Expert Opinion",
+  image: "/images/blog/ipl-best-choice.jpg",
+  tags: ["IPL", "Hair Removal", "Comparison"]
 };
 
 const blogPosts = [
