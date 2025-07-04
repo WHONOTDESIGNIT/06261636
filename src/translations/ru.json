@@ -69,190 +69,190 @@
   },
   "footer": {
     "company": {
-      "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market.",
-      "products": "Products",
-      "services": "Services",
-      "company": "Company"
+      "description": "Ведущий производитель устройств IPL, предоставляющий OEM/ODM-решения от идеи до рынка.",
+      "products": "Продукция",
+      "services": "Услуги",
+      "company": "Компания"
     },
     "products": {
-      "iplHairRemoval": "IPL Hair Removal",
-      "accessories": "Accessories",
-      "gallery": "Gallery"
+      "iplHairRemoval": "Фотоэпиляция IPL",
+      "accessories": "Аксессуары",
+      "gallery": "Галерея"
     },
     "services": {
-      "afterSales": "After-Sales Service",
-      "manufacturing": "IPL Manufacturing",
-      "buyingGuide": "Buying Guide",
-      "helpCenter": "Help Center"
+      "afterSales": "Сервисное обслуживание",
+      "manufacturing": "Производство IPL",
+      "buyingGuide": "Гид по покупке",
+      "helpCenter": "Центр поддержки"
     },
     "companyLinks": {
-      "about": "About iShine",
-      "brandStory": "Brand Story",
-      "quality": "Quality",
-      "blog": "Blog"
+      "about": "О компании iShine",
+      "brandStory": "История бренда",
+      "quality": "Качество",
+      "blog": "Блог"
     },
     "legal": {
-      "copyright": "© 2025 iShine. All rights reserved.",
-      "privacyPolicy": "Privacy Policy",
-      "termsOfService": "Terms of Service"
+      "copyright": "© 2025 iShine. Все права защищены.",
+      "privacyPolicy": "Политика конфиденциальности",
+      "termsOfService": "Условия использования"
     }
   },
   "home": {
     "hero": {
-      "title1": "Custom IPL Devices",
-      "title2": "& Branding IPL Devices",
-      "subtitle": "Global Leading IPL device manufacturer, help you design it, build it, and box it.",
-      "cta": "Get Quote"
+      "title1": "Индивидуальные устройства IPL",
+      "title2": "& Брендированные устройства IPL",
+      "subtitle": "Ведущий мировой производитель устройств IPL — поможем спроектировать, изготовить и упаковать ваш продукт.",
+      "cta": "Получить предложение"
     },
     "partners": {
-      "title": "Trusted by Global Brands",
-      "subtitle": "Working with industry leaders worldwide"
+      "title": "Нам доверяют мировые бренды",
+      "subtitle": "Сотрудничаем с лидерами отрасли по всему миру"
     },
     "features": {
-      "title": "Why Choose iShine?",
-      "subtitle": "Complete IPL manufacturing solutions tailored to your needs"
+      "title": "Почему выбирают iShine?",
+      "subtitle": "Комплексные решения по производству IPL, адаптированные под ваши задачи"
     },
     "products": {
-      "title": "Our IPL Device Range",
-      "subtitle": "Wide Range IPL devices for every needs",
-      "cta": "View All IPL Devices"
+      "title": "Наш ассортимент устройств IPL",
+      "subtitle": "Широкий выбор устройств IPL для любых нужд",
+      "cta": "Посмотреть все устройства"
     },
     "cta": {
-      "title": "Need help?",
-      "subtitle": "Let's discuss your requirements and create the IPL solution that best fit for your brand.",
-      "button": "Fill out the form to enjoy Free Consultation"
+      "title": "Нужна помощь?",
+      "subtitle": "Обсудим ваши требования и создадим IPL-решение, идеально подходящее вашему бренду.",
+      "button": "Заполните форму для бесплатной консультации"
     }
   },
   "contact": {
     "hero": {
-      "title": "Contact Us",
-      "description": "Ready to discuss your IPL project? Get in touch with our expert team today. We're here to help bring your vision to life."
+      "title": "Связаться с нами",
+      "description": "Готовы обсудить ваш проект IPL? Свяжитесь с нашей командой экспертов — мы поможем воплотить вашу идею в жизнь."
     },
     "info": {
-      "title": "Get in Touch",
-      "subtitle": "Multiple ways to reach us - choose what works best for you",
+      "title": "Контакты",
+      "subtitle": "Выберите удобный способ связи",
       "address": {
-        "title": "Address",
+        "title": "Адрес",
         "company": "iShine Manufacturing Co., Ltd.",
-        "location": "Shenzhen, Guangdong, China"
+        "location": "Шэньчжэнь, Гуандун, Китай"
       },
       "phone": {
-        "title": "Phone"
+        "title": "Телефон"
       },
       "email": {
-        "title": "Email"
+        "title": "Электронная почта"
       },
       "hours": {
-        "title": "Business Hours",
-        "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
-        "saturday": "Saturday: 9:00 AM - 12:00 PM"
+        "title": "Часы работы",
+        "weekdays": "Понедельник — Пятница: 9:00–18:00",
+        "saturday": "Суббота: 9:00–12:00"
       }
     },
     "map": {
-      "title": "Visit Our Facility",
-      "subtitle": "Located in the heart of Shenzhen's manufacturing district"
+      "title": "Посетите наше производство",
+      "subtitle": "В самом центре производственного района Шэньчжэня"
     },
     "form": {
-      "title": "What's in your mind? Let's talk!",
-      "subtitle": "Fill out this form to get the process started. We'll be in touch within 24hrs.",
-      "name": "Name*",
-      "email": "Email Address*",
-      "phone": "Phone number* e.g.(+1-541-3456-3001)",
-      "country": "Country",
-      "message": "Describe your needs here*",
-      "submit": "Submit",
-      "sending": "Sending..."
+      "title": "Что у вас на уме? Давайте обсудим!",
+      "subtitle": "Заполните форму — мы свяжемся с вами в течение 24 часов.",
+      "name": "Имя*",
+      "email": "Электронная почта*",
+      "phone": "Телефон* (например, +7-900-123-45-67)",
+      "country": "Страна",
+      "message": "Опишите ваши потребности*",
+      "submit": "Отправить",
+      "sending": "Отправка..."
     },
-    "title": "Contact Us",
-    "subtitle": "Get in touch with our team for business inquiries, support, or partnership opportunities.",
-    "companyPhotoAlt": "iShine Manufacturing Facility"
+    "title": "Связаться с нами",
+    "subtitle": "Свяжитесь с нашей командой для деловых запросов, поддержки или партнерства.",
+    "companyPhotoAlt": "Производственная площадка iShine"
   },
   "buttons": {
-    "getQuote": "Get Quote",
-    "viewSolutions": "View Our Solutions",
-    "scheduleConsultation": "Schedule Consultation",
-    "submit": "Submit",
-    "sending": "Sending...",
-    "viewAll": "View All"
+    "getQuote": "Получить предложение",
+    "viewSolutions": "Посмотреть решения",
+    "scheduleConsultation": "Записаться на консультацию",
+    "submit": "Отправить",
+    "sending": "Отправка...",
+    "viewAll": "Показать все"
   },
   "common": {
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "success": "Success",
-    "readMore": "Read More",
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
-    "contactUs": "Contact Us"
+    "loading": "Загрузка...",
+    "error": "Произошла ошибка",
+    "success": "Успешно",
+    "readMore": "Читать далее",
+    "learnMore": "Узнать больше",
+    "getStarted": "Начать",
+    "contactUs": "Связаться с нами"
   },
   "solutions": {
-    "productDesignDevelopment": "Product Design & Development",
-    "productDesignDevelopmentDescription": "From initial concept to final design, our expert team brings your IPL vision to life with cutting-edge technology and market insights.",
-    "oemManufacturing": "OEM Manufacturing",
-    "oemManufacturingDescription": "Complete manufacturing solutions with your specifications. We handle production while you focus on your brand and market.",
-    "odmSolutions": "ODM Solutions",
-    "odmSolutionsDescription": "Choose from our proven IPL designs and customize them with your branding, packaging, and unique features.",
-    "endToEndSupport": "End-to-End Support",
-    "endToEndSupportDescription": "Complete project management from initial consultation to product launch and beyond, ensuring your success every step of the way.",
-    "consultation": "Consultation",
-    "consultationDescription": "Understand your vision, market, and requirements",
-    "design": "Design",
-    "designDescription": "Create custom designs or adapt existing solutions",
-    "prototype": "Prototype",
-    "prototypeDescription": "Build and test prototypes to ensure quality",
-    "manufacturing": "Manufacturing",
-    "manufacturingDescription": "Full-scale production with quality assurance",
-    "launch": "Launch",
-    "launchDescription": "Support your market entry and ongoing success",
-    "completeIPLSolutions": "Complete IPL Solutions",
-    "completeIPLSolutionsDescription": "From initial concept to market launch, we provide comprehensive OEM/ODM solutions that transform your IPL vision into successful products.",
-    "ourSolutionPortfolio": "Our Solution Portfolio",
-    "comprehensiveServices": "Comprehensive services to bring your IPL products to market successfully",
-    "ourProcess": "Our Process",
-    "streamlinedWorkflow": "Streamlined workflow to ensure your project success",
-    "industriesWeServe": "Industries We Serve",
-    "tailoredSolutions": "Tailored solutions for diverse market segments",
-    "provenSuccess": "Proven Success",
-    "numbersSpeak": "Numbers that speak to our expertise and commitment",
-    "globalClients": "Global Clients",
-    "productsLaunched": "Products Launched",
-    "qualityRate": "Quality Rate",
-    "yearsExperience": "Years Experience"
+    "productDesignDevelopment": "Проектирование и разработка продукта",
+    "productDesignDevelopmentDescription": "От идеи до финального дизайна — наша команда реализует вашу концепцию IPL с помощью передовых технологий и рыночной экспертизы.",
+    "oemManufacturing": "OEM-производство",
+    "oemManufacturingDescription": "Полный цикл производства по вашим спецификациям. Мы берём на себя изготовление, а вы — развитие бренда и рынка.",
+    "odmSolutions": "ODM-решения",
+    "odmSolutionsDescription": "Выбирайте из проверенных дизайнов IPL и кастомизируйте их под свой бренд, упаковку и уникальные функции.",
+    "endToEndSupport": "Комплексная поддержка",
+    "endToEndSupportDescription": "Полное управление проектом: от консультации до запуска и дальнейшего сопровождения — ваш успех на каждом этапе.",
+    "consultation": "Консультация",
+    "consultationDescription": "Понимание вашей идеи, рынка и требований",
+    "design": "Дизайн",
+    "designDescription": "Создание индивидуальных или адаптация существующих решений",
+    "prototype": "Прототип",
+    "prototypeDescription": "Изготовление и тестирование прототипов для гарантии качества",
+    "manufacturing": "Производство",
+    "manufacturingDescription": "Массовое производство с контролем качества",
+    "launch": "Запуск",
+    "launchDescription": "Поддержка вывода на рынок и дальнейшего успеха",
+    "completeIPLSolutions": "Комплексные решения IPL",
+    "completeIPLSolutionsDescription": "От идеи до запуска на рынок — предоставляем OEM/ODM-решения, превращающие вашу концепцию IPL в успешный продукт.",
+    "ourSolutionPortfolio": "Наши решения",
+    "comprehensiveServices": "Комплексные услуги для успешного вывода IPL-продуктов на рынок",
+    "ourProcess": "Наш процесс",
+    "streamlinedWorkflow": "Оптимизированный рабочий процесс для вашего успеха",
+    "industriesWeServe": "Отрасли, которым мы служим",
+    "tailoredSolutions": "Индивидуальные решения для разных сегментов рынка",
+    "provenSuccess": "Доказанный успех",
+    "numbersSpeak": "Цифры, подтверждающие наш опыт и приверженность",
+    "globalClients": "Клиенты по всему миру",
+    "productsLaunched": "Запущено продуктов",
+    "qualityRate": "Процент качества",
+    "yearsExperience": "Лет опыта"
   },
   "about": {
     "quality": {
-      "heroTitle": "Quality You Can Trust",
-      "heroDesc": "Every iShine IPL device is engineered for safety, reliability, and consistent results—meeting the world's most demanding B2B standards.",
-      "point1": "Medical-grade components and strict ISO 13485 biocompatibility testing",
-      "point2": "Fully compliant with FDA, CE, IEC 60601, and IEC 62471 safety standards",
-      "point3": "Integrated skin sensor: safe, precise, and prevents accidental flashes",
-      "point4": "Advanced optical technology for effective, gentle hair removal",
-      "point5": "Highly precise assembly and rigorous multi-stage QC",
-      "point6": "Long-life flash lamps and wear-resistant accessories",
-      "point7": "User-friendly design for maximum reliability and ease of use",
-      "point8": "Trusted by global brands in Europe, North America, and Asia",
-      "ctaTitle": "Want to Know More About iShine Quality?",
-      "ctaDesc": "Contact us for detailed quality documentation, certifications, and case studies."
+      "heroTitle": "Качество, которому можно доверять",
+      "heroDesc": "Каждое устройство iShine IPL разработано для безопасности, надежности и стабильных результатов — соответствует самым строгим B2B-стандартам мира.",
+      "point1": "Медицинские компоненты и строгие тесты на биосовместимость по ISO 13485",
+      "point2": "Полное соответствие стандартам FDA, CE, IEC 60601 и IEC 62471",
+      "point3": "Интегрированный датчик кожи: безопасность, точность и предотвращение случайных вспышек",
+      "point4": "Передовые оптические технологии для эффективного и бережного удаления волос",
+      "point5": "Высокоточная сборка и многоступенчатый контроль качества",
+      "point6": "Долговечные лампы и износостойкие аксессуары",
+      "point7": "Удобный дизайн для максимальной надежности и простоты использования",
+      "point8": "Доверие мировых брендов Европы, Северной Америки и Азии",
+      "ctaTitle": "Хотите узнать больше о качестве iShine?",
+      "ctaDesc": "Свяжитесь с нами для получения подробной документации, сертификатов и кейсов."
     }
   },
   "countryPage": {
-    "title": "iShine - IPL Device Manufacturing Solutions | Global",
-    "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide."
+    "title": "iShine — решения для производства устройств IPL | Глобально",
+    "description": "Ведущий производитель устройств IPL, предоставляющий OEM/ODM-решения от идеи до рынка по всему миру."
   },
   "howToUse": {
     "heroTitle": "Как использовать устройства IPL",
     "heroDescription": "Полное руководство по безопасному и эффективному удалению волос с помощью IPL. Узнайте правильные техники, меры безопасности и получите лучшие результаты от вашего устройства IPL.",
-    "stepByStepTitle": "Step-by-Step Instructions",
-    "stepByStepDescription": "Follow these steps for safe and effective IPL treatment",
-    "safetyGuidelinesTitle": "Safety Guidelines",
-    "safetyGuidelinesDescription": "Essential safety information for IPL treatment",
-    "treatmentScheduleTitle": "Recommended Treatment Schedule",
-    "treatmentScheduleDescription": "Follow this schedule for optimal hair removal results",
-    "troubleshootingTitle": "Troubleshooting Guide",
-    "troubleshootingDescription": "Common issues and solutions for IPL devices",
-    "faqTitle": "Frequently Asked Questions",
-    "faqDescription": "Answers to common questions about IPL hair removal",
-    "videoTutorialsTitle": "Video Tutorials",
-    "videoTutorialsDescription": "Watch step-by-step video guides for IPL device use"
+    "stepByStepTitle": "Пошаговая инструкция",
+    "stepByStepDescription": "Следуйте этим шагам для безопасного и эффективного использования IPL",
+    "safetyGuidelinesTitle": "Рекомендации по безопасности",
+    "safetyGuidelinesDescription": "Важная информация по безопасности при использовании IPL",
+    "treatmentScheduleTitle": "Рекомендуемый график процедур",
+    "treatmentScheduleDescription": "Следуйте этому графику для оптимальных результатов удаления волос",
+    "troubleshootingTitle": "Руководство по устранению неполадок",
+    "troubleshootingDescription": "Распространённые проблемы и их решения",
+    "faqTitle": "Часто задаваемые вопросы",
+    "faqDescription": "Ответы на популярные вопросы по IPL-эпиляции",
+    "videoTutorialsTitle": "Видеоуроки",
+    "videoTutorialsDescription": "Смотрите пошаговые видеоинструкции по использованию устройств IPL"
   },
   "iplHairRemoval": {
     "heroTitle": "Профессиональные решения для фотоэпиляции (IPL)",
