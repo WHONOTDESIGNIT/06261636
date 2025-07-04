@@ -13,7 +13,7 @@ const IPLBestChoice: React.FC = () => (
           <a href="https://www.aad.org/public/cosmetic/hair-removal/laser-hair-removal" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full transition">Learn More from AAD</a>
         </div>
         <div className="flex-1 flex justify-center">
-          <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=500&q=80" alt="IPL Home Device" className="rounded-xl shadow-lg w-full max-w-xs" />
+          <img src="https://pplx-res.cloudinary.com/image/upload/v1751621231/gpt4o_images/me9zrddzskxi8xsvr1tj.png" alt="IPL Home Device" className="rounded-xl shadow-lg w-full max-w-xs" />
         </div>
       </div>
     </section>
