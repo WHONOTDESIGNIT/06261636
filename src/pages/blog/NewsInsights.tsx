@@ -40,12 +40,13 @@ const blogPosts = [
   {
     id: 4,
     title: "FDA 510(k) Pathway: Navigating Medical Device Classification for IPL",
-    excerpt: "Understanding when home IPL devices require medical certification and how marketing claims affect regulatory classification.",
-    author: "Regulatory Affairs",
-    date: "2025-06-25",
+    excerpt: "A comprehensive guide to the FDA 510(k) pathway for home-use IPL hair removal devices. Learn about regulatory requirements, marketing claims, and how iShine helps brands achieve compliance.",
+    author: "iShine Editorial Team",
+    date: "2025-07-04",
     category: "Regulatory Insights",
     image: "/images/blog/fda-pathway.jpg",
-    tags: ["FDA Compliance", "Medical Device"]
+    tags: ["FDA Compliance", "Medical Device", "510k"],
+    link: "/blog/fda-510k-pathway",
   },
   {
     id: 5,
