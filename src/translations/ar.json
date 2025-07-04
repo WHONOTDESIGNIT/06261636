@@ -239,19 +239,19 @@
     "description": "الشركة الرائدة في مجال تصنيع أجهزة IPL توفر حلول OEM/ODM من فكرة إلى السوق في جميع أنحاء العالم."
   },
   "howToUse": {
-    "heroTitle": "كيفية استخدام أجهزة IPL",
-    "heroDescription": "دليل كامل لإزالة شعر IPL الآمنة والفعالة. ",
-    "stepByStepTitle": "تعليمات خطوة بخطوة",
-    "stepByStepDescription": "اتبع هذه الخطوات لعلاج IPL الآمن والفعال",
-    "safetyGuidelinesTitle": "إرشادات السلامة",
-    "safetyGuidelinesDescription": "معلومات السلامة الأساسية لعلاج IPL",
-    "treatmentScheduleTitle": "جدول العلاج الموصى به",
-    "treatmentScheduleDescription": "اتبع هذا الجدول عن نتائج إزالة الشعر المثلى",
-    "troubleshootingTitle": "دليل استكشاف الأخطاء وإصلاحها",
-    "troubleshootingDescription": "القضايا الشائعة وحلولهم",
-    "faqTitle": "الأسئلة المتداولة",
-    "faqDescription": "احصل على إجابات لأسئلة علاج IPL الشائعة",
-    "videoTutorialsTitle": "دروس الفيديو",
-    "videoTutorialsDescription": "شاهد أدلة الفيديو خطوة بخطوة لاستخدام IPL المناسب"
+    "heroTitle": "How to Use IPL Devices",
+    "heroDescription": "Complete guide to safe and effective IPL hair removal. Learn proper techniques, safety guidelines, and get the best results from your IPL device.",
+    "stepByStepTitle": "Step-by-Step Instructions",
+    "stepByStepDescription": "Follow these steps for safe and effective IPL treatment",
+    "safetyGuidelinesTitle": "Safety Guidelines",
+    "safetyGuidelinesDescription": "Essential safety information for IPL treatment",
+    "treatmentScheduleTitle": "Recommended Treatment Schedule",
+    "treatmentScheduleDescription": "Follow this schedule for optimal hair removal results",
+    "troubleshootingTitle": "Troubleshooting Guide",
+    "troubleshootingDescription": "Common issues and solutions for IPL devices",
+    "faqTitle": "Frequently Asked Questions",
+    "faqDescription": "Answers to common questions about IPL hair removal",
+    "videoTutorialsTitle": "Video Tutorials",
+    "videoTutorialsDescription": "Watch step-by-step video guides for IPL device use"
   }
 }
