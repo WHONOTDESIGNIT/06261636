@@ -3,8 +3,11 @@ import { motion } from 'framer-motion';
 import ProductCard from '../components/Product/ProductCard';
 import ContactFormA from '../components/Forms/ContactFormA';
 import { iplDevices, accessories } from '../data/products';
+import { useLanguage } from '../context/LanguageContext';
 
 const IPLHairRemoval: React.FC = () => {
+  const { t } = useLanguage();
+
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
@@ -16,10 +19,9 @@ const IPLHairRemoval: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">IPL Hair Removal Devices</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('iplHairRemoval.heroTitle')}</h1>
             <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
-              Wide range of IPL devices designed for professional results and consumer satisfaction. 
-              Customized solutions that best fit for your brand requirements.
+              {t('iplHairRemoval.heroDescription')}
             </p>
           </motion.div>
         </div>
@@ -34,9 +36,9 @@ const IPLHairRemoval: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our IPL Device Collection</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('iplHairRemoval.iplDevicesTitle')}</h2>
             <p className="text-lg text-gray-600">
-              From smart app-controlled devices to advanced cooling systems, we offer the complete IPL spectrum
+              {t('iplHairRemoval.iplDevicesDescription')}
             </p>
           </motion.div>
 
@@ -64,9 +66,9 @@ const IPLHairRemoval: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Essential Accessories</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('iplHairRemoval.accessoriesTitle')}</h2>
             <p className="text-lg text-gray-600">
-              Complete your IPL device package with our professional-grade accessories
+              {t('iplHairRemoval.accessoriesDescription')}
             </p>
           </motion.div>
 
@@ -94,15 +96,15 @@ const IPLHairRemoval: React.FC = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Advanced IPL Technology</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">{t('iplHairRemoval.advancedIplTitle')}</h2>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 bg-ishine-blue-500 rounded-full flex items-center justify-center flex-shrink-0">
                     <span className="text-white font-bold text-sm">1</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-2">Smart Technology Integration</h3>
-                    <p className="text-gray-600">App-controlled devices with personalized treatment plans and progress tracking</p>
+                    <h3 className="font-semibold text-gray-900 mb-2">{t('iplHairRemoval.smartTechnologyIntegration')}</h3>
+                    <p className="text-gray-600">{t('iplHairRemoval.smartTechnologyIntegrationDescription')}</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -110,8 +112,8 @@ const IPLHairRemoval: React.FC = () => {
                     <span className="text-white font-bold text-sm">2</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-2">Cooling Comfort Systems</h3>
-                    <p className="text-gray-600">Ice cooling technology for pain-free treatments and extended usage</p>
+                    <h3 className="font-semibold text-gray-900 mb-2">{t('iplHairRemoval.coolingComfortSystems')}</h3>
+                    <p className="text-gray-600">{t('iplHairRemoval.coolingComfortSystemsDescription')}</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -119,8 +121,8 @@ const IPLHairRemoval: React.FC = () => {
                     <span className="text-white font-bold text-sm">3</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-2">Intelligent Skin Sensors</h3>
-                    <p className="text-gray-600">Auto-detection and adjustment for different skin tones and hair types</p>
+                    <h3 className="font-semibold text-gray-900 mb-2">{t('iplHairRemoval.intelligentSkinSensors')}</h3>
+                    <p className="text-gray-600">{t('iplHairRemoval.intelligentSkinSensorsDescription')}</p>
                   </div>
                 </div>
               </div>
