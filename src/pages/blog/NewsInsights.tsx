@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, Clock, TrendingUp, Search, ArrowRight } from 'lucide-react';
+import { Calendar, TrendingUp, Search, ArrowRight } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 
 // Sample blog data - replace with actual content
