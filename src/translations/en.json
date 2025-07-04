@@ -214,5 +214,21 @@
     "productsLaunched": "Products Launched",
     "qualityRate": "Quality Rate",
     "yearsExperience": "Years Experience"
+  },
+  "about": {
+    "quality": {
+      "heroTitle": "Quality You Can Trust",
+      "heroDesc": "Every iShine IPL device is engineered for safety, reliability, and consistent results—meeting the world's most demanding B2B standards.",
+      "point1": "Medical-grade components and strict ISO 13485 biocompatibility testing",
+      "point2": "Fully compliant with FDA, CE, IEC 60601, and IEC 62471 safety standards",
+      "point3": "Integrated skin sensor: safe, precise, and prevents accidental flashes",
+      "point4": "Advanced optical technology for effective, gentle hair removal",
+      "point5": "Highly precise assembly and rigorous multi-stage QC",
+      "point6": "Long-life flash lamps and wear-resistant accessories",
+      "point7": "User-friendly design for maximum reliability and ease of use",
+      "point8": "Trusted by global brands in Europe, North America, and Asia",
+      "ctaTitle": "Want to Know More About iShine Quality?",
+      "ctaDesc": "Contact us for detailed quality documentation, certifications, and case studies."
+    }
   }
 }
