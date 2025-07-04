@@ -9,7 +9,6 @@ const featuredArticle = {
   excerpt: "Our analysis reveals how breakthrough dual-lamp architecture is pushing energy output beyond traditional 20J limitations, achieving 38-40 J/cm² in optimal conditions.",
   author: "Dr. Sarah Chen",
   date: "2025-06-28",
-  readTime: "8 min read",
   category: "Technology Analysis",
   image: "/images/blog/dual-lamp-hero.jpg",
   tags: ["IPL Innovation", "Energy Efficiency", "Market Trends"]
@@ -22,7 +21,6 @@ const blogPosts = [
     excerpt: "Clinical data shows sapphire contact cooling technology dramatically improves IPL comfort for Fitzpatrick skin types III-IV.",
     author: "Engineering Team",
     date: "2025-06-26",
-    readTime: "6 min read",
     category: "Clinical Research",
     image: "/images/blog/sapphire-cooling.jpg",
     tags: ["Skin Safety", "Cooling Technology"]
@@ -33,7 +31,6 @@ const blogPosts = [
     excerpt: "Understanding when home IPL devices require medical certification and how marketing claims affect regulatory classification.",
     author: "Regulatory Affairs",
     date: "2025-06-25",
-    readTime: "12 min read",
     category: "Regulatory Insights",
     image: "/images/blog/fda-pathway.jpg",
     tags: ["FDA Compliance", "Medical Device"]
@@ -44,7 +41,6 @@ const blogPosts = [
     excerpt: "Market analysis of attachment-based IPL devices and their impact on treatment efficacy across different body areas.",
     author: "Market Research",
     date: "2025-06-24",
-    readTime: "10 min read",
     category: "Market Analysis",
     image: "/images/blog/multi-head-systems.jpg",
     tags: ["Product Innovation", "User Experience"]
@@ -55,7 +51,6 @@ const blogPosts = [
     excerpt: "How machine learning algorithms are revolutionizing automatic energy adjustment for optimal safety and efficacy.",
     author: "AI Research Division",
     date: "2025-06-22",
-    readTime: "7 min read",
     category: "AI & Innovation",
     image: "/images/blog/ai-skin-sensing.jpg",
     tags: ["Artificial Intelligence", "Skin Technology"]
@@ -66,7 +61,6 @@ const blogPosts = [
     excerpt: "Economic analysis of IPL device penetration rates across Asia-Pacific and Latin American markets through 2025.",
     author: "Market Intelligence",
     date: "2025-06-20",
-    readTime: "15 min read",
     category: "Market Analysis",
     image: "/images/blog/global-market.jpg",
     tags: ["Market Expansion", "Economic Trends"]
@@ -77,7 +71,6 @@ const blogPosts = [
     excerpt: "Environmental impact assessment of IPL device manufacturing and sustainable supply chain innovations.",
     author: "Sustainability Team",
     date: "2025-06-18",
-    readTime: "9 min read",
     category: "Sustainability",
     image: "/images/blog/sustainable-manufacturing.jpg",
     tags: ["Environmental Impact", "Green Technology"]
@@ -170,11 +163,6 @@ const NewsInsights: React.FC = () => {
                   <Calendar className="w-4 h-4 mr-1" />
                   {featuredArticle.date}
                 </span>
-                <span className="flex items-center">
-                  <Clock className="w-4 h-4 mr-1" />
-                  {featuredArticle.readTime}
-                </span>
-                <span>By {featuredArticle.author}</span>
               </div>
               <div className="flex flex-wrap gap-2 mb-6">
                 {featuredArticle.tags.map((tag) => (
@@ -234,17 +222,10 @@ const NewsInsights: React.FC = () => {
                       {post.excerpt}
                     </p>
                     <div className="flex items-center justify-between text-sm text-gray-500">
-                      <div className="flex items-center space-x-3">
-                        <span className="flex items-center">
-                          <Calendar className="w-3 h-3 mr-1" />
-                          {post.date}
-                        </span>
-                        <span className="flex items-center">
-                          <Clock className="w-3 h-3 mr-1" />
-                          {post.readTime}
-                        </span>
-                      </div>
-                      <span>By {post.author}</span>
+                      <span className="flex items-center">
+                        <Calendar className="w-3 h-3 mr-1" />
+                        {post.date}
+                      </span>
                     </div>
                     <div className="flex flex-wrap gap-1 mt-3">
                       {post.tags.map((tag) => (
@@ -282,10 +263,6 @@ const NewsInsights: React.FC = () => {
                         <span className="flex items-center">
                           <Calendar className="w-3 h-3 mr-1" />
                           {post.date}
-                        </span>
-                        <span className="flex items-center">
-                          <Clock className="w-3 h-3 mr-1" />
-                          {post.readTime}
                         </span>
                       </div>
                     </div>
