@@ -6,8 +6,11 @@ import Button from '../components/UI/Button';
 import ProductCard from '../components/Product/ProductCard';
 import ContactFormA from '../components/Forms/ContactFormA';
 import { iplDevices } from '../data/products';
+import { useLanguage } from '../context/LanguageContext';
 
 const Home: React.FC = () => {
+  const { t } = useLanguage();
+
   const partners = [
     { name: 'KU-2 Cosmetic', location: 'Germany', logo: '🇩🇪' },
     { name: 'Costco', location: 'Canada', logo: '🇨🇦' },
@@ -40,19 +43,17 @@ const Home: React.FC = () => {
             className="text-center"
           >
             <h1 className="text-xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
-              Custom IPL Devices 
-              <br />
+              {t('home.hero.title1', 'Custom IPL Devices')} <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-300">
-                & Branding IPL Devices
+                {t('home.hero.title2', '& Branding IPL Devices')}
               </span>
             </h1>
             <p className="text-md sm:text-xl md:text-2xl mb-6 sm:mb-8 text-black max-w-3xl mx-auto px-4">
-              Global Leading IPL device manufacturer,<br />
-              help you design it, build it, and box it.
+              {t('home.hero.subtitle', 'Global Leading IPL device manufacturer, help you design it, build it, and box it.')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
               <Button size="md" className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4">
-                Get Quote
+                {t('home.hero.cta', 'Get Quote')}
               </Button>
             </div>
           </motion.div>
@@ -72,8 +73,8 @@ const Home: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Trusted by Global Brands</h2>
-            <p className="text-lg text-gray-600">Working with industry leaders worldwide</p>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('home.partners.title', 'Trusted by Global Brands')}</h2>
+            <p className="text-lg text-gray-600">{t('home.partners.subtitle', 'Working with industry leaders worldwide')}</p>
           </motion.div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -103,8 +104,8 @@ const Home: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose iShine?</h2>
-            <p className="text-lg text-gray-600">Complete IPL manufacturing solutions tailored to your needs</p>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('home.features.title', 'Why Choose iShine?')}</h2>
+            <p className="text-lg text-gray-600">{t('home.features.subtitle', 'Complete IPL manufacturing solutions tailored to your needs')}</p>
           </motion.div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -134,8 +135,8 @@ const Home: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our IPL Device Range</h2>
-            <p className="text-lg text-gray-600">Wide Range IPL devices for every needs</p>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('home.products.title', 'Our IPL Device Range')}</h2>
+            <p className="text-lg text-gray-600">{t('home.products.subtitle', 'Wide Range IPL devices for every needs')}</p>
           </motion.div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
@@ -154,7 +155,7 @@ const Home: React.FC = () => {
           <div className="text-center">
             <Link to="/ipl-hair-removal">
               <Button size="lg">
-                View All IPL Devices
+                {t('home.products.cta', 'View All IPL Devices')}
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
             </Link>
@@ -170,12 +171,12 @@ const Home: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl font-bold mb-4">Need help?</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('home.cta.title', 'Need help?')}</h2>
             <p className="text-xl mb-8 text-gray-100">
-              Let's discuss your requirements and create the IPL solution that best fit for your brand.
+              {t('home.cta.subtitle', "Let's discuss your requirements and create the IPL solution that best fit for your brand.")}
             </p>
             <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-ishine-teal-500">
-             Fill out the form to enjoy Free Consultation
+              {t('home.cta.button', 'Fill out the form to enjoy Free Consultation')}
             </Button>
           </motion.div>
         </div>
