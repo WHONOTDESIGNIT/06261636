@@ -138,6 +138,23 @@ const IPLBestChoice: React.FC = () => (
     <div className="bg-[#f9f9f9] py-16">
       <ContactFormA />
     </div>
+
+    {/* Recommended Blog Section */}
+    <section className="py-8 bg-white">
+      <div className="max-w-7xl mx-auto px-4">
+        <h2 className="text-2xl font-bold mb-6 text-gray-900">Recommended Blog</h2>
+        <div className="flex flex-col md:flex-row gap-6">
+          <div className="flex-1">
+            <img src="/images/blog/ipl-best-choice.jpg" alt="IPL Best Choice" className="rounded-xl shadow-lg w-full max-w-xs" />
+          </div>
+          <div className="flex-1 flex flex-col justify-center">
+            <h3 className="text-xl font-bold mb-2">Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools</h3>
+            <p className="mb-4">Discover why IPL is the most effective, comfortable, and convenient solution for long-term hair removal at home—backed by science and real user experience.</p>
+            <Link to="/blog/ipl-best-choice" className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full transition">Read the Full Article</Link>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 );
 
