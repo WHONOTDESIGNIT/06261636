@@ -253,5 +253,20 @@
     "faqDescription": "Answers to common questions about IPL hair removal",
     "videoTutorialsTitle": "Video Tutorials",
     "videoTutorialsDescription": "Watch step-by-step video guides for IPL device use"
+  },
+  "iplHairRemoval": {
+    "heroTitle": "Профессиональные решения для фотоэпиляции (IPL)",
+    "heroDescription": "Откройте для себя новое поколение устройств для фотоэпиляции — безопасные, эффективные и подходящие для всех типов кожи. Салонный результат у вас дома или в бизнесе.",
+    "iplDevicesTitle": "Наш ассортимент устройств IPL",
+    "iplDevicesDescription": "Изучите наш полный ассортимент современных устройств для фотоэпиляции, каждое из которых разработано для максимального комфорта и эффективности.",
+    "accessoriesTitle": "Необходимые аксессуары для IPL",
+    "accessoriesDescription": "Улучшите свой опыт IPL с помощью сертифицированных аксессуаров для безопасности и удобства.",
+    "advancedIplTitle": "Передовые технологии IPL",
+    "smartTechnologyIntegration": "Интеграция умных технологий",
+    "smartTechnologyIntegrationDescription": "Наши устройства IPL оснащены интеллектуальными датчиками и подключением к приложениям для персонализированных, безопасных и эффективных процедур.",
+    "coolingComfortSystems": "Системы охлаждения и комфорта",
+    "coolingComfortSystemsDescription": "Сапфировое и металлическое охлаждение обеспечивают комфорт и защиту вашей кожи во время каждой процедуры.",
+    "intelligentSkinSensors": "Интеллектуальные датчики кожи",
+    "intelligentSkinSensorsDescription": "Автоматическое определение тона кожи и типа волос гарантирует оптимальную подачу энергии и безопасность для каждого пользователя."
   }
 } 
