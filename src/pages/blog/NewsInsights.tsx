@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, TrendingUp, Search, ArrowRight } from 'lucide-react';
+import { Calendar, Clock, TrendingUp, Search, ArrowRight } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 import { Link } from 'react-router-dom';
 
@@ -18,6 +18,17 @@ const featuredArticle = {
 const blogPosts = [
   {
     id: 2,
+    title: "The Future of Home Hair Removal Devices: Trends, Innovations, and What's Next",
+    excerpt: "Explore the evolution, breakthroughs, and next-gen trends in home hair removal devices—AI, multifunctionality, and sustainable design for 2025 and beyond.",
+    author: "iShine Editorial Team",
+    date: "2025-07-04",
+    category: "Expert Opinion",
+    image: "/images/blog/ai-home-hair-removal.jpg",
+    tags: ["Home Hair Removal", "AI Beauty Tech", "Trends 2025"],
+    link: "/blog/future-home-hair-removal-devices",
+  },
+  {
+    id: 3,
     title: "Sapphire Cooling: Reducing Pain by 90% for Dark Skin Types",
     excerpt: "Clinical data shows sapphire contact cooling technology dramatically improves IPL comfort for Fitzpatrick skin types III-IV.",
     author: "Engineering Team",
@@ -27,7 +38,7 @@ const blogPosts = [
     tags: ["Skin Safety", "Cooling Technology"]
   },
   {
-    id: 3,
+    id: 4,
     title: "FDA 510(k) Pathway: Navigating Medical Device Classification for IPL",
     excerpt: "Understanding when home IPL devices require medical certification and how marketing claims affect regulatory classification.",
     author: "Regulatory Affairs",
@@ -37,7 +48,7 @@ const blogPosts = [
     tags: ["FDA Compliance", "Medical Device"]
   },
   {
-    id: 4,
+    id: 5,
     title: "Multi-Head IPL Systems: Precision Meets Full-Body Efficiency",
     excerpt: "Market analysis of attachment-based IPL devices and their impact on treatment efficacy across different body areas.",
     author: "Market Research",
@@ -47,7 +58,7 @@ const blogPosts = [
     tags: ["Product Innovation", "User Experience"]
   },
   {
-    id: 5,
+    id: 6,
     title: "AI-Powered Skin Sensing: The Future of Personalized IPL",
     excerpt: "How machine learning algorithms are revolutionizing automatic energy adjustment for optimal safety and efficacy.",
     author: "AI Research Division",
@@ -57,7 +68,7 @@ const blogPosts = [
     tags: ["Artificial Intelligence", "Skin Technology"]
   },
   {
-    id: 6,
+    id: 7,
     title: "Global Market Shifts: IPL Adoption in Emerging Markets",
     excerpt: "Economic analysis of IPL device penetration rates across Asia-Pacific and Latin American markets through 2025.",
     author: "Market Intelligence",
@@ -67,7 +78,7 @@ const blogPosts = [
     tags: ["Market Expansion", "Economic Trends"]
   },
   {
-    id: 7,
+    id: 8,
     title: "Sustainable Manufacturing: Green IPL Production Methods",
     excerpt: "Environmental impact assessment of IPL device manufacturing and sustainable supply chain innovations.",
     author: "Sustainability Team",
@@ -238,6 +249,12 @@ const NewsInsights: React.FC = () => {
                         </span>
                       ))}
                     </div>
+                    <Link
+                      to={post.link ? post.link : `/blog/${post.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')}`}
+                      className="inline-block mt-4 bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold px-6 py-2 rounded-full transition"
+                    >
+                      Read More
+                    </Link>
                   </div>
                 </article>
               ))}
