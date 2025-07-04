@@ -2,41 +2,44 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Lightbulb, Cog, Package, Rocket, Users, Award } from 'lucide-react';
 import ContactFormA from '../components/Forms/ContactFormA';
+import { useLanguage } from '../context/LanguageContext';
 
 const Solutions: React.FC = () => {
+  const { t } = useLanguage();
+
   const solutions = [
     {
       icon: Lightbulb,
-      title: 'Product Design & Development',
-      description: 'From initial concept to final design, our expert team brings your IPL vision to life with cutting-edge technology and market insights.',
+      title: t('solutions.productDesignDevelopment', 'Product Design & Development'),
+      description: t('solutions.productDesignDevelopmentDescription', 'From initial concept to final design, our expert team brings your IPL vision to life with cutting-edge technology and market insights.'),
       features: ['Concept Development', 'Industrial Design', 'Technical Specifications', 'Prototype Creation']
     },
     {
       icon: Cog,
-      title: 'OEM Manufacturing',
-      description: 'Complete manufacturing solutions with your specifications. We handle production while you focus on your brand and market.',
+      title: t('solutions.oemManufacturing', 'OEM Manufacturing'),
+      description: t('solutions.oemManufacturingDescription', 'Complete manufacturing solutions with your specifications. We handle production while you focus on your brand and market.'),
       features: ['Custom Manufacturing', 'Quality Control', 'Scalable Production', 'FDA GMP Compliance']
     },
     {
       icon: Package,
-      title: 'ODM Solutions',
-      description: 'Choose from our proven IPL designs and customize them with your branding, packaging, and unique features.',
+      title: t('solutions.odmSolutions', 'ODM Solutions'),
+      description: t('solutions.odmSolutionsDescription', 'Choose from our proven IPL designs and customize them with your branding, packaging, and unique features.'),
       features: ['Ready-to-Market Designs', 'Brand Customization', 'Quick Time-to-Market', 'Cost-Effective']
     },
     {
       icon: Rocket,
-      title: 'End-to-End Support',
-      description: 'Complete project management from initial consultation to product launch and beyond, ensuring your success every step of the way.',
+      title: t('solutions.endToEndSupport', 'End-to-End Support'),
+      description: t('solutions.endToEndSupportDescription', 'Complete project management from initial consultation to product launch and beyond, ensuring your success every step of the way.'),
       features: ['Project Management', 'Regulatory Support', 'Launch Assistance', 'After-Sales Service']
     }
   ];
 
   const process = [
-    { step: '01', title: 'Consultation', description: 'Understand your vision, market, and requirements' },
-    { step: '02', title: 'Design', description: 'Create custom designs or adapt existing solutions' },
-    { step: '03', title: 'Prototype', description: 'Build and test prototypes to ensure quality' },
-    { step: '04', title: 'Manufacturing', description: 'Full-scale production with quality assurance' },
-    { step: '05', title: 'Launch', description: 'Support your market entry and ongoing success' }
+    { step: '01', title: t('solutions.consultation', 'Consultation'), description: t('solutions.consultationDescription', 'Understand your vision, market, and requirements') },
+    { step: '02', title: t('solutions.design', 'Design'), description: t('solutions.designDescription', 'Create custom designs or adapt existing solutions') },
+    { step: '03', title: t('solutions.prototype', 'Prototype'), description: t('solutions.prototypeDescription', 'Build and test prototypes to ensure quality') },
+    { step: '04', title: t('solutions.manufacturing', 'Manufacturing'), description: t('solutions.manufacturingDescription', 'Full-scale production with quality assurance') },
+    { step: '05', title: t('solutions.launch', 'Launch'), description: t('solutions.launchDescription', 'Support your market entry and ongoing success') }
   ];
 
   const industries = [
@@ -57,10 +60,9 @@ const Solutions: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Complete IPL Solutions</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('solutions.completeIPLSolutions', 'Complete IPL Solutions')}</h1>
             <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
-              From initial concept to market launch, we provide comprehensive OEM/ODM solutions 
-              that transform your IPL vision into successful products.
+              {t('solutions.completeIPLSolutionsDescription', 'From initial concept to market launch, we provide comprehensive OEM/ODM solutions that transform your IPL vision into successful products.')}
             </p>
           </motion.div>
         </div>
@@ -75,9 +77,9 @@ const Solutions: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Solution Portfolio</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('solutions.ourSolutionPortfolio', 'Our Solution Portfolio')}</h2>
             <p className="text-lg text-gray-600">
-              Comprehensive services to bring your IPL products to market successfully
+              {t('solutions.comprehensiveServices', 'Comprehensive services to bring your IPL products to market successfully')}
             </p>
           </motion.div>
 
@@ -116,9 +118,9 @@ const Solutions: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Process</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('solutions.ourProcess', 'Our Process')}</h2>
             <p className="text-lg text-gray-600">
-              Streamlined workflow to ensure your project success
+              {t('solutions.streamlinedWorkflow', 'Streamlined workflow to ensure your project success')}
             </p>
           </motion.div>
 
@@ -154,9 +156,9 @@ const Solutions: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Industries We Serve</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('solutions.industriesWeServe', 'Industries We Serve')}</h2>
             <p className="text-lg text-gray-600">
-              Tailored solutions for diverse market segments
+              {t('solutions.tailoredSolutions', 'Tailored solutions for diverse market segments')}
             </p>
           </motion.div>
 
@@ -187,18 +189,18 @@ const Solutions: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold mb-4">Proven Success</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('solutions.provenSuccess', 'Proven Success')}</h2>
             <p className="text-xl text-gray-100">
-              Numbers that speak to our expertise and commitment
+              {t('solutions.numbersSpeak', 'Numbers that speak to our expertise and commitment')}
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {[
-              { icon: Users, number: '50+', label: 'Global Clients' },
-              { icon: Package, number: '200+', label: 'Products Launched' },
-              { icon: Award, number: '99.5%', label: 'Quality Rate' },
-              { icon: Rocket, number: '6', label: 'Years Experience' }
+              { icon: Users, number: '50+', label: t('solutions.globalClients', 'Global Clients') },
+              { icon: Package, number: '200+', label: t('solutions.productsLaunched', 'Products Launched') },
+              { icon: Award, number: '99.5%', label: t('solutions.qualityRate', 'Quality Rate') },
+              { icon: Rocket, number: '6', label: t('solutions.yearsExperience', 'Years Experience') }
             ].map((stat, index) => (
               <motion.div
                 key={stat.label}
