@@ -133,13 +133,22 @@ const AutoRedirect: React.FC = () => {
   return null;
 };
 
+const HomeWithRedirect: React.FC = () => (
+  <>
+    <AutoRedirect />
+    <Home />
+  </>
+);
+
 const App: React.FC = () => (
   <HelmetProvider>
     <LanguageProvider>
       <BrowserRouter>
         <Routes>
           {/* 自动检测语言并初始跳转 */}
-          <Route path="/" element={<MainLayout><AutoRedirect /><Home /></MainLayout>} />
+          <Route path="/" element={<MainLayout />}>
+            <Route index element={<HomeWithRedirect />} />
+          </Route>
 
           {/* 英文无前缀路由 */}
           <Route element={<MainLayout />}>
