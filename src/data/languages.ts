@@ -1,10 +1,9 @@
 export const languages = [
   // Europe
-  { code: 'nl-be', name: 'Belgium', nativeName: 'Nederlands', flag: '🇧🇪', region: 'Europe' },
-  { code: 'fr-be', name: 'Belgium', nativeName: 'Français', flag: '🇧🇪', region: 'Europe' },
+  { code: 'de-de', name: 'Germany', nativeName: 'Deutsch', flag: '🇩🇪', region: 'Europe' },
+  { code: 'nl-nl', name: 'Netherlands', nativeName: 'Nederlands', flag: '🇳🇱', region: 'Europe' },
   { code: 'cs-cz', name: 'Czech Republic', nativeName: 'Čeština', flag: '🇨🇿', region: 'Europe' },
   { code: 'da-dk', name: 'Denmark', nativeName: 'Dansk', flag: '🇩🇰', region: 'Europe' },
-  { code: 'de-de', name: 'Germany', nativeName: 'Deutsch', flag: '🇩🇪', region: 'Europe' },
   { code: 'et-ee', name: 'Estonia', nativeName: 'Eesti', flag: '🇪🇪', region: 'Europe' },
   { code: 'es-es', name: 'Spain', nativeName: 'Español', flag: '🇪🇸', region: 'Europe' },
   { code: 'fr-fr', name: 'France', nativeName: 'Français', flag: '🇫🇷', region: 'Europe' },
@@ -12,10 +11,11 @@ export const languages = [
   { code: 'hr-hr', name: 'Croatia', nativeName: 'Hrvatski', flag: '🇭🇷', region: 'Europe' },
   { code: 'it-it', name: 'Italy', nativeName: 'Italiano', flag: '🇮🇹', region: 'Europe' },
   { code: 'pt-pt', name: 'Portugal', nativeName: 'Português', flag: '🇵🇹', region: 'Europe' },
-  { code: 'nl-nl', name: 'Netherlands', nativeName: 'Nederlands', flag: '🇳🇱', region: 'Europe' },
   { code: 'sv-se', name: 'Sweden', nativeName: 'Svenska', flag: '🇸🇪', region: 'Europe' },
   { code: 'no-no', name: 'Norway', nativeName: 'Norsk', flag: '🇳🇴', region: 'Europe' },
   { code: 'fi-fi', name: 'Finland', nativeName: 'Suomi', flag: '🇫🇮', region: 'Europe' },
+  { code: 'nl-be', name: 'Belgium', nativeName: 'Nederlands', flag: '🇧🇪', region: 'Europe' },
+  { code: 'fr-be', name: 'Belgium', nativeName: 'Français', flag: '🇧🇪', region: 'Europe' },
   
   // North America
   { code: 'es-mx', name: 'Mexico', nativeName: 'Español', flag: '🇲🇽', region: 'North America' },
