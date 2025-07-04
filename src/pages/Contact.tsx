@@ -1,8 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import ContactFormB from '../components/Forms/ContactFormB';
+import { useLanguage } from '../context/LanguageContext';
 
 const Contact: React.FC = () => {
+  const { t } = useLanguage();
+
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
@@ -14,11 +17,8 @@ const Contact: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
-            <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
-              Ready to discuss your IPL project? Get in touch with our expert team today. 
-              We're here to help you.
-            </p>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('contact.title', 'Contact Us')}</h1>
+            <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">{t('contact.subtitle', 'Get in touch with our team for business inquiries, support, or partnership opportunities.')}</p>
           </motion.div>
         </div>
       </section>
@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
         <div className="absolute inset-0 overflow-hidden">
           <img
             src="https://i.postimg.cc/63r0rmF6/company-photo.webp"
-            alt="iShine Manufacturing Facility"
+            alt={t('contact.companyPhotoAlt', 'iShine Manufacturing Facility')}
             className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-black/20"></div>
