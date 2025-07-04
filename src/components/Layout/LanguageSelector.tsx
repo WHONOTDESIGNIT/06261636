@@ -44,15 +44,20 @@ const LanguageSelector: React.FC = () => {
     const [langCode, countryCode] = selectedCode.split('-');
     setLanguage(langCode, countryCode);
 
-    // 把 URL 的首段语言前缀替换成新语言
-    const pathSegments = location.pathname.split('/');
-    if (pathSegments.length > 1) {
-      pathSegments[1] = langCode;
-      const newPath = pathSegments.join('/') || '/';
-      navigate(`${newPath}${location.search}`);
-    } else {
-      navigate(`/${langCode}${location.search}`);
+    // 英文跳转到无前缀页面，其它语言带前缀
+    let newPath = location.pathname;
+    const pathSegments = newPath.split('/');
+    if (pathSegments.length > 1 && languages.some(l => l.code.startsWith(pathSegments[1]))) {
+      // 当前有语言前缀，去掉
+      pathSegments.splice(1, 1);
+      newPath = pathSegments.join('/') || '/';
     }
+    if (langCode !== 'en') {
+      // 非英文加前缀
+      if (!newPath.startsWith('/')) newPath = '/' + newPath;
+      newPath = `/${langCode}${newPath}`;
+    }
+    navigate(`${newPath}${location.search}`);
   };
 
   return (
