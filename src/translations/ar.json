@@ -1,200 +1,257 @@
 {
   "meta": {
-    "title": "iShine - حلول تصنيع أجهزة IPL | من الفكرة إلى السوق",
-    "description": "الشركة الرائدة في تصنيع أجهزة IPL التي تقدم حلول OEM/ODM كاملة من الفكرة إلى السوق. أجهزة IPL مخصصة لإزالة الشعر للعلامات التجارية العالمية للجمال.",
-    "keywords": "أجهزة IPL، تصنيع OEM، حلول ODM، إزالة الشعر، أجهزة الجمال، التصنيع المخصص"
+    "title": "ISHINE - حلول تصنيع جهاز IPL | ",
+    "description": "الشركة الرائدة في مجال تصنيع أجهزة IPL توفر حلول OEM/ODM من فكرة إلى أخرى. ",
+    "keywords": "أجهزة IPL ، تصنيع OEM ، حلول ODM ، إزالة الشعر ، أجهزة التجميل ، التصنيع المخصص"
   },
   "header": {
     "navigation": {
       "solutions": "الحلول",
-      "iplHairRemoval": "إزالة الشعر بـ IPL",
-      "howToUse": "كيفية الاستخدام",
+      "iplHairRemoval": "إزالة الشعر ipl",
+      "howToUse": "كيفية استخدام",
       "serviceSupport": "الخدمة والدعم",
-      "about": "من نحن",
-      "contact": "اتصل بنا"
+      "about": "عن",
+      "contact": "اتصال"
     },
     "solutions": {
       "logoPrinting": "طباعة الشعار",
-      "packaging": "حلول التعبئة والتغليف",
-      "dropShipping": "الشحن المباشر",
+      "packaging": "حلول التغليف",
+      "dropShipping": "إسقاط الشحن",
       "globalShipping": "الشحن العالمي",
       "brandCustomization": "تخصيص العلامة التجارية",
       "compliance": "الامتثال والشهادات",
       "designPrototyping": "التصميم والنماذج الأولية",
-      "multiHeadIPL": "IPL متعدد الرؤوس مخصص",
-      "dualLampIPL": "IPL مزدوج المصباح مخصص"
+      "multiHeadIPL": "مخصص IPL متعدد الرأس",
+      "dualLampIPL": "مصباح مزدوج IPL مخصص"
     },
     "iplDevices": {
-      "smartApp": "جهاز IPL يتحكم فيه التطبيق الذكي",
-      "iceFeeling": "جهاز IPL بإحساس الثلج",
-      "emerald": "جهاز IPL الزمردي",
-      "skinSensor": "جهاز IPL بمستشعر الجلد",
-      "batteryPowered": "جهاز IPL يعمل بالبطارية",
-      "handheld": "جهاز IPL محمول باليد",
-      "iceCooling": "جهاز IPL بالتبريد الثلجي",
+      "smartApp": "جهاز IPL الذي يسيطر عليه التطبيق الذكي",
+      "iceFeeling": "الجليد شعور IPL جهاز IPL",
+      "emerald": "الجهاز IPLD IPL",
+      "skinSensor": "جهاز مستشعر الجلد IPL",
+      "batteryPowered": "جهاز IPL الذي يعمل بالبطارية",
+      "handheld": "جهاز IPL باليد",
+      "iceCooling": "جهاز ICE ICE IPL IPL",
       "dualLamp": "جهاز IPL مزدوج المصباح",
-      "aiPowered": "جهاز IPL مدعوم بالذكاء الاصطناعي"
+      "aiPowered": "جهاز IPL الذي يدافع عن الذكاء الاصطناعي"
     },
     "accessories": {
       "sapphireLens": "عدسة الياقوت",
-      "adapter": "المحول",
+      "adapter": "محول",
       "goggles": "نظارات واقية",
-      "filter": "المرشح"
+      "filter": "فلتر"
     },
     "serviceSupport": {
-      "service": "الخدمة",
-      "afterSales": "خدمة ما بعد البيع",
-      "fdaGmp": "تصميم الغرفة النظيفة FDA GMP",
+      "service": "خدمة",
+      "afterSales": "خدمة بعد البيع",
+      "fdaGmp": "FDA GMP تصميم غرفة نظيفة",
       "manufacturing": "تصنيع أجهزة IPL",
       "knowledgeBase": "قاعدة المعرفة",
-      "support": "الدعم > دليل الشراء",
-      "beautySourcing": "مصادر متخصصة في الجمال والإكسسوارات",
-      "pricingGuide": "دليل الأسعار",
+      "support": "دعم> دليل الشراء",
+      "beautySourcing": "جمال مكان المصادر والإكسسوارات",
+      "pricingGuide": "دليل التسعير",
       "helpCenter": "مركز المساعدة",
-      "gallery": "المعرض",
-      "videos": "الفيديوهات",
-      "blog": "المدونة",
+      "gallery": "معرض",
+      "videos": "مقاطع الفيديو",
+      "blog": "مدونة",
       "newsInsights": "الأخبار والرؤى",
       "industries": "الصناعات التي نخدمها"
     },
     "about": {
       "founderMessage": "رسالة المؤسس",
       "technology": "تقنيتنا",
-      "globalWitness": "الشاهد العالمي",
+      "globalWitness": "شاهد عالمي",
       "corePrinciples": "المبادئ الأساسية",
-      "company": "حول iShine",
+      "company": "عن إيشين",
       "brandStory": "قصة العلامة التجارية",
-      "quality": "الجودة"
+      "quality": "جودة"
     }
   },
   "footer": {
     "company": {
-      "description": "الشركة الرائدة في تصنيع أجهزة IPL التي تقدم حلول OEM/ODM كاملة من الفكرة إلى السوق.",
-      "products": "المنتجات",
-      "services": "الخدمات",
-      "company": "الشركة"
+      "description": "الشركة الرائدة في مجال تصنيع أجهزة IPL توفر حلول OEM/ODM من فكرة إلى أخرى.",
+      "products": "منتجات",
+      "services": "خدمات",
+      "company": "شركة"
     },
     "products": {
-      "iplHairRemoval": "إزالة الشعر بـ IPL",
-      "accessories": "الإكسسوارات",
-      "gallery": "المعرض"
+      "iplHairRemoval": "إزالة الشعر ipl",
+      "accessories": "مُكَمِّلات",
+      "gallery": "معرض"
     },
     "services": {
-      "afterSales": "خدمة ما بعد البيع",
-      "manufacturing": "تصنيع IPL",
+      "afterSales": "خدمة بعد البيع",
+      "manufacturing": "IPL تصنيع",
       "buyingGuide": "دليل الشراء",
       "helpCenter": "مركز المساعدة"
     },
     "companyLinks": {
-      "about": "حول iShine",
+      "about": "عن إيشين",
       "brandStory": "قصة العلامة التجارية",
-      "quality": "الجودة",
-      "blog": "المدونة"
+      "quality": "جودة",
+      "blog": "مدونة"
     },
     "legal": {
-      "copyright": "© 2025 iShine. جميع الحقوق محفوظة.",
+      "copyright": "© 2025 Ishine. ",
       "privacyPolicy": "سياسة الخصوصية",
       "termsOfService": "شروط الخدمة"
     }
   },
   "home": {
     "hero": {
-      "title": "أجهزة IPL مخصصة",
-      "subtitle": "وأجهزة IPL للعلامة التجارية",
-      "description": "الشركة الرائدة عالمياً في تصنيع أجهزة IPL،\nنساعدك في تصميمها وبنائها وتعبئتها.",
-      "getQuote": "احصل على عرض سعر"
+      "title1": "أجهزة IPL مخصصة",
+      "title2": "& علامة تجارية أجهزة IPL",
+      "subtitle": "تساعدك شركة Global Leading IPL Device Mactions ، وتساعدك على تصميمها ، وبناءها ، وربطها.",
+      "cta": "احصل على اقتباس"
     },
     "partners": {
-      "title": "موثوق من قبل العلامات التجارية العالمية",
+      "title": "موثوق بها من قبل العلامات التجارية العالمية",
       "subtitle": "العمل مع قادة الصناعة في جميع أنحاء العالم"
     },
     "features": {
-      "title": "لماذا تختار iShine؟",
-      "subtitle": "حلول تصنيع IPL كاملة مصممة خصيصاً لاحتياجاتك",
-      "oemSolutions": {
-        "title": "حلول OEM/ODM",
-        "description": "تخصيص كامل من التصميم إلى التعبئة والتغليف"
-      },
-      "experiencedTeam": {
-        "title": "فريق ذو خبرة",
-        "description": "مهندسون خبراء ومصممون في خدمتك"
-      },
-      "qualityAssurance": {
-        "title": "ضمان الجودة",
-        "description": "تصنيع في غرفة نظيفة معتمدة من FDA GMP"
-      },
-      "globalReach": {
-        "title": "الوصول العالمي",
-        "description": "خدمة العملاء في أوروبا وأمريكا الشمالية وآسيا"
-      }
+      "title": "لماذا تختار إسهين؟",
+      "subtitle": "أكمل حلول تصنيع IPL مصممة لتلبية احتياجاتك"
     },
     "products": {
-      "title": "مجموعة أجهزة IPL الخاصة بنا",
-      "subtitle": "أجهزة IPL قابلة للتخصيص لكل احتياج في السوق",
-      "viewAll": "عرض جميع أجهزة IPL"
+      "title": "نطاق جهاز IPL الخاص بنا",
+      "subtitle": "أجهزة IPL واسعة النطاق لكل احتياجات",
+      "cta": "عرض جميع أجهزة IPL"
     },
     "cta": {
-      "title": "هل أنت مستعد لبدء مشروع IPL الخاص بك؟",
-      "subtitle": "دعنا نناقش متطلباتك وننشئ حل IPL المثالي لعلامتك التجارية",
-      "button": "جدولة استشارة"
+      "title": "هل تحتاج إلى مساعدة؟",
+      "subtitle": "دعنا نناقش متطلباتك وننشئ حل IPL الذي يناسب علامتك التجارية.",
+      "button": "املأ النموذج للاستمتاع بالتشاور المجاني"
     }
   },
   "contact": {
     "hero": {
       "title": "اتصل بنا",
-      "description": "هل أنت مستعد لمناقشة مشروع IPL الخاص بك؟ تواصل مع فريق الخبراء لدينا اليوم. نحن هنا لمساعدتك في تحقيق رؤيتك."
+      "description": "هل أنت مستعد لمناقشة مشروع IPL الخاص بك؟ "
     },
     "info": {
-      "title": "تواصل معنا",
-      "subtitle": "طرق متعددة للوصول إلينا - اختر ما يناسبك",
+      "title": "تواصل على اتصال",
+      "subtitle": "طرق متعددة للوصول إلينا - اختر ما هو أفضل بالنسبة لك",
       "address": {
-        "title": "العنوان",
-        "company": "iShine Manufacturing Co., Ltd.",
-        "location": "شنتشن، قوانغدونغ، الصين"
+        "title": "عنوان",
+        "company": "شركة Ishine Manufacturing Co. ، Ltd.",
+        "location": "شنتشن ، قوانغدونغ ، الصين"
       },
       "phone": {
-        "title": "الهاتف"
+        "title": "هاتف"
       },
       "email": {
-        "title": "البريد الإلكتروني"
+        "title": "بريد إلكتروني"
       },
       "hours": {
         "title": "ساعات العمل",
-        "weekdays": "الاثنين - الجمعة: 9:00 صباحاً - 6:00 مساءً",
-        "saturday": "السبت: 9:00 صباحاً - 12:00 ظهراً"
+        "weekdays": "الاثنين - الجمعة: 9:00 صباحًا - 6:00 مساءً",
+        "saturday": "السبت: 9:00 صباحًا - 12:00 مساءً"
       }
     },
     "map": {
-      "title": "زيارة منشأتنا",
-      "subtitle": "تقع في قلب منطقة التصنيع في شنتشن"
+      "title": "قم بزيارة منشأتنا",
+      "subtitle": "تقع في قلب منطقة شنتشن للتصنيع"
     },
     "form": {
-      "title": "ما الذي تفكر فيه؟ دعنا نتحدث!",
-      "subtitle": "املأ هذا النموذج لبدء العملية. سنتواصل معك خلال 24 ساعة.",
-      "name": "الاسم*",
+      "title": "ماذا في ذهنك؟ ",
+      "subtitle": "املأ هذا النموذج لبدء العملية. ",
+      "name": "اسم*",
       "email": "عنوان البريد الإلكتروني*",
-      "phone": "رقم الهاتف* مثال:(+1-541-3456-3001)",
-      "country": "البلد",
-      "message": "اوصف احتياجاتك هنا*",
-      "submit": "إرسال",
-      "sending": "جاري الإرسال..."
-    }
+      "phone": "رقم الهاتف* على سبيل المثال (+1-541-3456-3001)",
+      "country": "دولة",
+      "message": "صف احتياجاتك هنا*",
+      "submit": "يُقدِّم",
+      "sending": "إرسال..."
+    },
+    "title": "اتصل بنا",
+    "subtitle": "تواصل مع فريقنا للاستفسارات التجارية أو الدعم أو فرص الشراكة.",
+    "companyPhotoAlt": "مرفق التصنيع Ishine"
   },
   "buttons": {
-    "getQuote": "احصل على عرض سعر",
+    "getQuote": "احصل على اقتباس",
     "viewSolutions": "عرض حلولنا",
-    "scheduleConsultation": "جدولة استشارة",
-    "submit": "إرسال",
-    "sending": "جاري الإرسال...",
+    "scheduleConsultation": "جدولة الاستشارة",
+    "submit": "يُقدِّم",
+    "sending": "إرسال...",
     "viewAll": "عرض الكل"
   },
   "common": {
-    "loading": "جاري التحميل...",
+    "loading": "تحميل...",
     "error": "حدث خطأ",
-    "success": "نجح",
+    "success": "نجاح",
     "readMore": "اقرأ المزيد",
-    "learnMore": "تعلم المزيد",
+    "learnMore": "يتعلم أكثر",
     "getStarted": "ابدأ",
     "contactUs": "اتصل بنا"
+  },
+  "solutions": {
+    "productDesignDevelopment": "تصميم وتطوير المنتج",
+    "productDesignDevelopmentDescription": "من المفهوم الأولي إلى التصميم النهائي ، يجلب فريق الخبراء لدينا رؤية IPL الخاصة بك إلى الحياة من خلال التكنولوجيا المتطورة ورؤى السوق.",
+    "oemManufacturing": "تصنيع OEM",
+    "oemManufacturingDescription": "أكمل حلول التصنيع مع مواصفاتك. ",
+    "odmSolutions": "حلول ODM",
+    "odmSolutionsDescription": "اختر من بين تصميمات IPL الخاصة بنا وتخصيصها من خلال علامتك التجارية والتعبئة والميزات الفريدة.",
+    "endToEndSupport": "الدعم الشامل",
+    "endToEndSupportDescription": "أكمل إدارة المشروع من الاستشارة الأولية إلى إطلاق المنتج وما بعده ، مما يضمن نجاحك في كل خطوة على الطريق.",
+    "consultation": "التشاور",
+    "consultationDescription": "فهم رؤيتك وسوقك ومتطلباتك",
+    "design": "تصميم",
+    "designDescription": "إنشاء تصميمات مخصصة أو تكييف الحلول الحالية",
+    "prototype": "النموذج الأولي",
+    "prototypeDescription": "بناء واختبار النماذج الأولية لضمان الجودة",
+    "manufacturing": "تصنيع",
+    "manufacturingDescription": "إنتاج كامل مع ضمان الجودة",
+    "launch": "يطلق",
+    "launchDescription": "دعم دخول السوق والنجاح المستمر",
+    "completeIPLSolutions": "أكمل حلول IPL",
+    "completeIPLSolutionsDescription": "!!!>>> Unexpected token '<', \"<html lang\"... is not valid JSON <<<!!!",
+    "ourSolutionPortfolio": "محفظة الحلول لدينا",
+    "comprehensiveServices": "خدمات شاملة لتقديم منتجات IPL الخاصة بك إلى السوق بنجاح",
+    "ourProcess": "عمليتنا",
+    "streamlinedWorkflow": "سير العمل المبسط لضمان نجاح مشروعك",
+    "industriesWeServe": "الصناعات التي نخدمها",
+    "tailoredSolutions": "حلول مصممة لقطاعات السوق المتنوعة",
+    "provenSuccess": "أثبت نجاحه",
+    "numbersSpeak": "الأرقام التي تتحدث إلى خبرتنا والتزامنا",
+    "globalClients": "العملاء العالميين",
+    "productsLaunched": "المنتجات التي تم إطلاقها",
+    "qualityRate": "معدل الجودة",
+    "yearsExperience": "خبرة سنوات"
+  },
+  "about": {
+    "quality": {
+      "heroTitle": "الجودة التي يمكنك الوثوق بها",
+      "heroDesc": "تم تصميم كل جهاز ISHINE IPL من أجل السلامة والموثوقية والنتائج المتسقة - مع معايير B2B الأكثر تطلبًا في العالم.",
+      "point1": "المكونات الطبية من الدرجة الطبية واختبار التوافق الحيوي ISO 13485",
+      "point2": "متوافق تمامًا مع معايير السلامة و CE و IEC 60601 و IEC 62471",
+      "point3": "مستشعر الجلد المتكامل: آمن ودقيق ويمنع الهبات العرضية",
+      "point4": "التكنولوجيا البصرية المتقدمة لإزالة الشعر اللطيفة الفعالة",
+      "point5": "التجميع الدقيق للغاية و QC متعددة المراحل صارمة",
+      "point6": "مصابيح فلاش طويلة العمر وملحقات مقاومة للارتداء",
+      "point7": "تصميم سهل الاستخدام لتحقيق أقصى موثوقية وسهولة الاستخدام",
+      "point8": "واثق من العلامات التجارية العالمية في أوروبا وأمريكا الشمالية وآسيا",
+      "ctaTitle": "هل تريد معرفة المزيد عن جودة Ishine؟",
+      "ctaDesc": "اتصل بنا للحصول على وثائق جودة مفصلة ، وشهادات ، ودراسات الحالة."
+    }
+  },
+  "countryPage": {
+    "title": "ISHINE - حلول تصنيع جهاز IPL | ",
+    "description": "الشركة الرائدة في مجال تصنيع أجهزة IPL توفر حلول OEM/ODM من فكرة إلى السوق في جميع أنحاء العالم."
+  },
+  "howToUse": {
+    "heroTitle": "كيفية استخدام أجهزة IPL",
+    "heroDescription": "دليل كامل لإزالة شعر IPL الآمنة والفعالة. ",
+    "stepByStepTitle": "تعليمات خطوة بخطوة",
+    "stepByStepDescription": "اتبع هذه الخطوات لعلاج IPL الآمن والفعال",
+    "safetyGuidelinesTitle": "إرشادات السلامة",
+    "safetyGuidelinesDescription": "معلومات السلامة الأساسية لعلاج IPL",
+    "treatmentScheduleTitle": "جدول العلاج الموصى به",
+    "treatmentScheduleDescription": "اتبع هذا الجدول عن نتائج إزالة الشعر المثلى",
+    "troubleshootingTitle": "دليل استكشاف الأخطاء وإصلاحها",
+    "troubleshootingDescription": "القضايا الشائعة وحلولهم",
+    "faqTitle": "الأسئلة المتداولة",
+    "faqDescription": "احصل على إجابات لأسئلة علاج IPL الشائعة",
+    "videoTutorialsTitle": "دروس الفيديو",
+    "videoTutorialsDescription": "شاهد أدلة الفيديو خطوة بخطوة لاستخدام IPL المناسب"
   }
 }
