@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Calendar, Clock, TrendingUp, Search, ArrowRight } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
+import { Link } from 'react-router-dom';
 
 // Sample blog data - replace with actual content
 const featuredArticle = {
@@ -171,10 +172,13 @@ const NewsInsights: React.FC = () => {
                   </span>
                 ))}
               </div>
-              <button className="bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold px-6 py-3 rounded-full transition flex items-center">
+              <Link
+                to="/blog/ipl-best-choice"
+                className="bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold px-6 py-3 rounded-full transition flex items-center"
+              >
                 Read Full Analysis
                 <ArrowRight className="w-4 h-4 ml-2" />
-              </button>
+              </Link>
             </div>
             <div className="relative">
               <img
