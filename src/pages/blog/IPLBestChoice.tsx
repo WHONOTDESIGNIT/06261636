@@ -10,8 +10,7 @@ const IPLBestChoice: React.FC = () => (
         <div className="flex-1">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools</h1>
           <p className="text-lg text-blue-100 mb-6">Discover why IPL is the most effective, comfortable, and convenient solution for long-term hair removal at home—backed by science and real user experience.</p>
-          <a href="https://www.aad.org/public/cosmetic/hair-removal/laser-hair-removal" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full transition">Learn More from AAD</a>
-        </div>
+
         <div className="flex-1 flex justify-center">
           <img src="https://pplx-res.cloudinary.com/image/upload/v1751621231/gpt4o_images/me9zrddzskxi8xsvr1tj.png" alt="IPL Home Device" className="rounded-xl shadow-lg w-full max-w-xs" />
         </div>
