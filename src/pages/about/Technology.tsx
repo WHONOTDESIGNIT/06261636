@@ -13,6 +13,7 @@ import {
   Globe
 } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
+import { useLanguage } from '../../context/LanguageContext';
 
 // Timeline data
 const timeline = [
@@ -64,6 +65,8 @@ const capabilities = [
 ];
 
 const Technology: React.FC = () => {
+  const { t } = useLanguage();
+
   return (
     <div className="min-h-screen pt-20 overflow-x-hidden">
       {/* ---------------- HERO ---------------- */}
@@ -75,9 +78,9 @@ const Technology: React.FC = () => {
             transition={{ duration: 0.8 }}
           >
             <Cpu className="w-16 h-16 mx-auto mb-6" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Pioneering IPL Innovation: Our Technology Milestones</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('about.technology.hero.title')}</h1>
             <p className="text-lg md:text-xl max-w-3xl mx-auto text-gray-100 mb-10">
-              iShine has spent a decade pushing the boundaries of IPL home hair removal with relentless R&D and custom engineering. Discover how we deliver safer, smarter, more comfortable devices for global partners.
+              {t('about.technology.hero.description')}
             </p>
           </motion.div>
         </div>
@@ -86,7 +89,7 @@ const Technology: React.FC = () => {
       {/* -------------- TIMELINE -------------- */}
       <section className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-ishine-teal-600">Our IPL Technology Evolution Timeline</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-ishine-teal-600">{t('about.technology.timeline.title')}</h2>
           <div className="relative border-l-2 border-ishine-teal-500 pl-6 space-y-12">
             {timeline.map((item, idx) => (
               <motion.div
@@ -109,7 +112,7 @@ const Technology: React.FC = () => {
       {/* -------------- CAPABILITIES -------------- */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-ishine-teal-600">Custom IPL Capabilities</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-ishine-teal-600">{t('about.technology.capabilities.title')}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             {capabilities.map(({ icon: Icon, title, desc }) => (
               <motion.div
@@ -131,7 +134,7 @@ const Technology: React.FC = () => {
               href="/request-custom-solution"
               className="inline-block bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition-colors duration-300"
             >
-              Request Custom Solution
+              {t('about.technology.capabilities.requestCustomSolution')}
             </a>
           </div>
         </div>
@@ -140,19 +143,19 @@ const Technology: React.FC = () => {
       {/* -------------- DATA-DRIVEN R&D -------------- */}
       <section className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-8 text-ishine-teal-600">Data-Driven R&D: Our Approach</h2>
+          <h2 className="text-3xl font-bold mb-8 text-ishine-teal-600">{t('about.technology.dataDrivenRnD.title')}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
             <div className="flex gap-3">
               <TrendingUp className="w-6 h-6 text-ishine-teal-500 mt-1" />
-              <p className="text-gray-700 text-sm"><strong>Continuous Innovation:</strong> Annual R&D investment targeting user comfort, safety, and clinical efficacy.</p>
+              <p className="text-gray-700 text-sm"><strong>{t('about.technology.dataDrivenRnD.continuousInnovation')}:</strong> Annual R&D investment targeting user comfort, safety, and clinical efficacy.</p>
             </div>
             <div className="flex gap-3">
               <Globe className="w-6 h-6 text-ishine-teal-500 mt-1" />
-              <p className="text-gray-700 text-sm"><strong>Global Compliance:</strong> All devices undergo rigorous FDA, CE, and international standard testing.</p>
+              <p className="text-gray-700 text-sm"><strong>{t('about.technology.dataDrivenRnD.globalCompliance')}:</strong> All devices undergo rigorous FDA, CE, and international standard testing.</p>
             </div>
             <div className="flex gap-3">
               <Lightbulb className="w-6 h-6 text-ishine-teal-500 mt-1" />
-              <p className="text-gray-700 text-sm"><strong>User-Centric Design:</strong> Every generation is shaped by user feedback, clinical data, and market trends.</p>
+              <p className="text-gray-700 text-sm"><strong>{t('about.technology.dataDrivenRnD.userCentricDesign')}:</strong> Every generation is shaped by user feedback, clinical data, and market trends.</p>
             </div>
           </div>
         </div>
@@ -161,16 +164,16 @@ const Technology: React.FC = () => {
       {/* -------------- FUTURE READY -------------- */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-8 text-ishine-teal-600">Looking Ahead: Future-Ready IPL</h2>
+          <h2 className="text-3xl font-bold mb-8 text-ishine-teal-600">{t('about.technology.futureReady.title')}</h2>
           <p className="text-gray-700 max-w-4xl mx-auto mb-8">
-            <strong>AI-Powered IPL:</strong> Next-gen devices will feature AI-driven personalization and predictive maintenance.<br />
-            <strong>Sustainability:</strong> We are developing eco-friendly materials, energy-efficient designs, and recyclable packaging.
+            <strong>{t('about.technology.futureReady.aiPoweredIpl')}:</strong> Next-gen devices will feature AI-driven personalization and predictive maintenance.<br />
+            <strong>{t('about.technology.futureReady.sustainability')}:</strong> We are developing eco-friendly materials, energy-efficient designs, and recyclable packaging.
           </p>
           <a
             href="/contact-us"
             className="inline-block bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition-colors duration-300"
           >
-            Have a Vision? Let's Build It Together
+            {t('about.technology.futureReady.haveAVision')}
           </a>
         </div>
       </section>
