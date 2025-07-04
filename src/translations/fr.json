@@ -99,44 +99,28 @@
   },
   "home": {
     "hero": {
-      "title": "Appareils IPL Personnalisés",
-      "subtitle": "et Appareils IPL de Marque",
-      "description": "Fabricant mondial leader d'appareils IPL,\nnous vous aidons à le concevoir, le construire et l'emballer.",
-      "getQuote": "Obtenir un Devis"
+      "title1": "Custom IPL Devices",
+      "title2": "& Branding IPL Devices",
+      "subtitle": "Global Leading IPL device manufacturer, help you design it, build it, and box it.",
+      "cta": "Get Quote"
     },
     "partners": {
-      "title": "Approuvé par les Marques Mondiales",
-      "subtitle": "Travaillant avec les leaders de l'industrie dans le monde entier"
+      "title": "Trusted by Global Brands",
+      "subtitle": "Working with industry leaders worldwide"
     },
     "features": {
-      "title": "Pourquoi Choisir iShine?",
-      "subtitle": "Solutions complètes de fabrication IPL adaptées à vos besoins",
-      "oemSolutions": {
-        "title": "Solutions OEM/ODM",
-        "description": "Personnalisation complète de la conception à l'emballage"
-      },
-      "experiencedTeam": {
-        "title": "Équipe Expérimentée",
-        "description": "Ingénieurs experts et concepteurs à votre service"
-      },
-      "qualityAssurance": {
-        "title": "Assurance Qualité",
-        "description": "Fabrication en salle propre certifiée FDA GMP"
-      },
-      "globalReach": {
-        "title": "Portée Mondiale",
-        "description": "Servir des clients en Europe, Amérique du Nord et Asie"
-      }
+      "title": "Why Choose iShine?",
+      "subtitle": "Complete IPL manufacturing solutions tailored to your needs"
     },
     "products": {
-      "title": "Notre Gamme d'Appareils IPL",
-      "subtitle": "Appareils IPL personnalisables pour chaque besoin du marché",
-      "viewAll": "Voir Tous les Appareils IPL"
+      "title": "Our IPL Device Range",
+      "subtitle": "Wide Range IPL devices for every needs",
+      "cta": "View All IPL Devices"
     },
     "cta": {
-      "title": "Prêt à Commencer Votre Projet IPL?",
-      "subtitle": "Discutons de vos exigences et créons la solution IPL parfaite pour votre marque",
-      "button": "Planifier une Consultation"
+      "title": "Need help?",
+      "subtitle": "Let's discuss your requirements and create the IPL solution that best fit for your brand.",
+      "button": "Fill out the form to enjoy Free Consultation"
     }
   },
   "contact": {
@@ -178,7 +162,10 @@
       "message": "Décrivez vos besoins ici*",
       "submit": "Envoyer",
       "sending": "Envoi en cours..."
-    }
+    },
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team for business inquiries, support, or partnership opportunities.",
+    "companyPhotoAlt": "iShine Manufacturing Facility"
   },
   "buttons": {
     "getQuote": "Obtenir un Devis",
@@ -196,5 +183,55 @@
     "learnMore": "En Savoir Plus",
     "getStarted": "Commencer",
     "contactUs": "Contactez-nous"
+  },
+  "solutions": {
+    "productDesignDevelopment": "Product Design & Development",
+    "productDesignDevelopmentDescription": "From initial concept to final design, our expert team brings your IPL vision to life with cutting-edge technology and market insights.",
+    "oemManufacturing": "OEM Manufacturing",
+    "oemManufacturingDescription": "Complete manufacturing solutions with your specifications. We handle production while you focus on your brand and market.",
+    "odmSolutions": "ODM Solutions",
+    "odmSolutionsDescription": "Choose from our proven IPL designs and customize them with your branding, packaging, and unique features.",
+    "endToEndSupport": "End-to-End Support",
+    "endToEndSupportDescription": "Complete project management from initial consultation to product launch and beyond, ensuring your success every step of the way.",
+    "consultation": "Consultation",
+    "consultationDescription": "Understand your vision, market, and requirements",
+    "design": "Design",
+    "designDescription": "Create custom designs or adapt existing solutions",
+    "prototype": "Prototype",
+    "prototypeDescription": "Build and test prototypes to ensure quality",
+    "manufacturing": "Manufacturing",
+    "manufacturingDescription": "Full-scale production with quality assurance",
+    "launch": "Launch",
+    "launchDescription": "Support your market entry and ongoing success",
+    "completeIPLSolutions": "Complete IPL Solutions",
+    "completeIPLSolutionsDescription": "From initial concept to market launch, we provide comprehensive OEM/ODM solutions that transform your IPL vision into successful products.",
+    "ourSolutionPortfolio": "Our Solution Portfolio",
+    "comprehensiveServices": "Comprehensive services to bring your IPL products to market successfully",
+    "ourProcess": "Our Process",
+    "streamlinedWorkflow": "Streamlined workflow to ensure your project success",
+    "industriesWeServe": "Industries We Serve",
+    "tailoredSolutions": "Tailored solutions for diverse market segments",
+    "provenSuccess": "Proven Success",
+    "numbersSpeak": "Numbers that speak to our expertise and commitment",
+    "globalClients": "Global Clients",
+    "productsLaunched": "Products Launched",
+    "qualityRate": "Quality Rate",
+    "yearsExperience": "Years Experience"
+  },
+  "about": {
+    "quality": {
+      "heroTitle": "Quality You Can Trust",
+      "heroDesc": "Every iShine IPL device is engineered for safety, reliability, and consistent results—meeting the world's most demanding B2B standards.",
+      "point1": "Medical-grade components and strict ISO 13485 biocompatibility testing",
+      "point2": "Fully compliant with FDA, CE, IEC 60601, and IEC 62471 safety standards",
+      "point3": "Integrated skin sensor: safe, precise, and prevents accidental flashes",
+      "point4": "Advanced optical technology for effective, gentle hair removal",
+      "point5": "Highly precise assembly and rigorous multi-stage QC",
+      "point6": "Long-life flash lamps and wear-resistant accessories",
+      "point7": "User-friendly design for maximum reliability and ease of use",
+      "point8": "Trusted by global brands in Europe, North America, and Asia",
+      "ctaTitle": "Want to Know More About iShine Quality?",
+      "ctaDesc": "Contact us for detailed quality documentation, certifications, and case studies."
+    }
   }
 }
