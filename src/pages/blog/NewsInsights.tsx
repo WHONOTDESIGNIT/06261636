@@ -232,7 +232,7 @@ const NewsInsights: React.FC = () => {
                       {post.category}
                     </span>
                     <h4 className="text-xl font-bold text-gray-900 mt-2 mb-3 leading-tight hover:text-[rgb(0,116,224)] cursor-pointer">
-                      {post.title}
+                      <Link to={post.link ? post.link : `/blog/${post.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')}`}>{post.title}</Link>
                     </h4>
                     <p className="text-gray-600 mb-4 leading-relaxed">
                       {post.excerpt}
