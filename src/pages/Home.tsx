@@ -3,7 +3,6 @@ import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown } from "l
 import ContactFormA from '../components/Forms/ContactFormA';
 import Silk from './Silk';
 import { iplDevices } from '../data/products';
-import { Link } from 'react-router-dom';
 
 const heroBg = "bg-gradient-to-br from-blue-700 via-indigo-500 to-purple-600";
 const sectionBg = "bg-white";
