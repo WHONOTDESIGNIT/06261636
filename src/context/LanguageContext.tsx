@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { useTranslation } from '../hooks/useTranslation'; // 你的自定义hook，负责加载翻译资源
+import { useLocation } from 'react-router-dom';
 
 // 类型定义，保证类型安全
 interface LanguageContextType {
@@ -20,38 +21,22 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const [currentCountry, setCurrentCountry] = useState('global');
   // t/翻译函数与loading状态从自定义hook获取
   const { t, loading } = useTranslation(currentLanguage);
+  const location = useLocation();
 
   useEffect(() => {
-    // 检查URL路径中是否有国家代码
-    const path = window.location.pathname;
-    const countryMatch = path.match(/\/iplmanufacturer\/([a-z]{2})/);
-
-    if (countryMatch) {
-      const countryCode = countryMatch[1];
-      setCurrentCountry(countryCode);
-
-      // 国家-语言映射表（可扩展）
-      const languageMap: Record<string, string> = {
-        us: 'en', gb: 'en', ca: 'en', au: 'en',
-        de: 'de', fr: 'fr', es: 'es', it: 'it',
-        pt: 'pt', nl: 'nl', mx: 'es', br: 'pt',
-        jp: 'ja', kr: 'ko', cn: 'zh', tw: 'zh',
-        th: 'th', vn: 'vi', id: 'id', my: 'ms',
-        ae: 'ar', sa: 'ar', il: 'he', tr: 'tr',
-        in: 'hi', cz: 'cs', dk: 'da', ee: 'et',
-        hr: 'hr', be: 'nl'
-      };
-
-      const detectedLanguage = languageMap[countryCode] || 'en';
-      setCurrentLanguage(detectedLanguage);
+    // 检查URL路径中是否有语言前缀
+    const path = location.pathname;
+    const langMatch = path.match(/^\/([a-z]{2})(\/|$)/);
+    if (langMatch) {
+      const lang = langMatch[1];
+      setCurrentLanguage(lang);
+      localStorage.setItem('selectedLanguage', lang);
     } else {
-      // 可选：从localStorage恢复用户选择
+      // fallback 逻辑
       const savedLang = localStorage.getItem('selectedLanguage');
-      const savedCountry = localStorage.getItem('selectedCountry');
       if (savedLang) setCurrentLanguage(savedLang);
-      if (savedCountry) setCurrentCountry(savedCountry);
     }
-  }, []);
+  }, [location.pathname]);
 
   // 切换语言和国家，并持久化
   const setLanguage = (languageCode: string, countryCode?: string) => {
