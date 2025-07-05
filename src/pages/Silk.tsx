@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unknown-property */
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { forwardRef, useRef, useMemo, useLayoutEffect } from "react";
-import { Color } from "three";
+import { Color, Mesh } from "three";
 
-const hexToNormalizedRGB = (hex) => {
+const hexToNormalizedRGB = (hex: string) => {
   hex = hex.replace("#", "");
   return [
     parseInt(hex.slice(0, 2), 16) / 255,
@@ -69,21 +69,43 @@ void main() {
 }
 `;
 
-const SilkPlane = forwardRef(function SilkPlane({ uniforms }, ref) {
+type SilkPlaneProps = { uniforms: any };
+
+const SilkPlane = forwardRef<THREE.Mesh, SilkPlaneProps>(function SilkPlane({ uniforms }, ref) {
   const { viewport } = useThree();
+  const localRef = useRef<THREE.Mesh>(null);
+
+  // 让外部 ref 指向 mesh
+  useLayoutEffect(() => {
+    if (!ref) return;
+    if (typeof ref === "function") {
+      ref(localRef.current);
+    } else {
+      (ref as React.MutableRefObject<THREE.Mesh | null>).current = localRef.current;
+    }
+  }, [ref]);
 
   useLayoutEffect(() => {
-    if (ref.current) {
-      ref.current.scale.set(viewport.width, viewport.height, 1);
+    const mesh = localRef.current;
+    if (mesh) {
+      mesh.scale.set(viewport.width, viewport.height, 1);
     }
-  }, [ref, viewport]);
+  }, [viewport]);
 
   useFrame((_, delta) => {
-    ref.current.material.uniforms.uTime.value += 0.1 * delta;
+    const mesh = localRef.current;
+    if (
+      mesh &&
+      (mesh as any).material &&
+      (mesh as any).material.uniforms &&
+      (mesh as any).material.uniforms.uTime
+    ) {
+      (mesh as any).material.uniforms.uTime.value += 0.1 * delta;
+    }
   });
 
   return (
-    <mesh ref={ref}>
+    <mesh ref={localRef}>
       <planeGeometry args={[1, 1, 1, 1]} />
       <shaderMaterial
         uniforms={uniforms}
@@ -95,14 +117,22 @@ const SilkPlane = forwardRef(function SilkPlane({ uniforms }, ref) {
 });
 SilkPlane.displayName = "SilkPlane";
 
+type SilkProps = {
+  speed?: number;
+  scale?: number;
+  color?: string;
+  noiseIntensity?: number;
+  rotation?: number;
+};
+
 const Silk = ({
   speed = 5,
   scale = 1,
   color = "#7B7481",
   noiseIntensity = 1.5,
   rotation = 0,
-}) => {
-  const meshRef = useRef();
+}: SilkProps) => {
+  const meshRef = useRef<THREE.Mesh>(null);
 
   const uniforms = useMemo(
     () => ({
