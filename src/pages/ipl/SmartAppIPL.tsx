@@ -10,8 +10,10 @@ import {
   Award,
   Smartphone,
 } from 'lucide-react';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const SmartAppIPL: React.FC = () => {
+  const { t } = useTranslation();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
 
@@ -37,11 +39,11 @@ const SmartAppIPL: React.FC = () => {
       <div className="container mx-auto px-4">
         {/* Breadcrumb */}
         <nav className="text-sm text-gray-500 mb-4 mt-4 uppercase">
-          <a href="/" className="hover:text-[rgb(0,116,224)]">Home</a>
+          <a href="/" className="hover:text-[rgb(0,116,224)]">{t('common.home')}</a>
           <span className="mx-2">/</span>
-          <a href="/ipl-hair-removal" className="hover:text-[rgb(0,116,224)]">IPL Hair Removal</a>
+          <a href="/ipl-hair-removal" className="hover:text-[rgb(0,116,224)]">{t('iplHairRemoval')}</a>
           <span className="mx-2">/</span>
-          <span className="text-gray-800">Smart App IPL Device</span>
+          <span className="text-gray-800">{t('ipl.smartApp.title')}</span>
         </nav>
 
         {/* Main Product Section */}
@@ -103,7 +105,7 @@ const SmartAppIPL: React.FC = () => {
           {/* Product Info */}
           <div className="space-y-6">
             <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Smart App IPL Hair Removal Device
+              {t('ipl.smartApp.title')}
             </h1>
             {/* Ratings */}
             <div className="flex items-center space-x-3 mb-4">
@@ -127,32 +129,34 @@ const SmartAppIPL: React.FC = () => {
             <div className="space-y-4">
               <div className="bg-[#f9f9f9] rounded-xl p-6">
                 <h3 className="text-lg font-semibold mb-3 flex items-center">
-                  <Smartphone className="w-5 h-5 mr-2 text-[rgb(0,116,224)]" />
-                  ✨ Smart App Connect Technology ✨
+                  <span className="w-5 h-5 mr-2 text-[rgb(0,116,224)]">📱</span>
+                  ✨ {t('ipl.smartApp.features.bluetooth')}
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Seamlessly connect your IPL device via Bluetooth to our <strong>SmartApp</strong>.  
-                  Enjoy guided treatments, real-time session tracking, personalized routines,  
-                  and AI-powered insights. Control intensity levels, monitor progress, and receive  
-                  reminders—all from your smartphone.
+                  {t('ipl.smartApp.desc')}
                 </p>
               </div>
               {/* Features list */}
               <ul className="space-y-3" style={{ listStyle: 'none', paddingLeft: 0 }}>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-3 mt-1">✔️</span> Bluetooth 5.0 connectivity for stable pairing
+                  <span className="text-green-500 mr-3 mt-1">✔️</span>
+                  {t('ipl.smartApp.features.bluetooth')}
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-3 mt-1">✔️</span> Personalized treatment plans via AI analysis
+                  <span className="text-green-500 mr-3 mt-1">✔️</span>
+                  {t('ipl.smartApp.features.aiPlans')}
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-3 mt-1">✔️</span> Real-time intensity control and on-screen feedback
+                  <span className="text-green-500 mr-3 mt-1">✔️</span>
+                  {t('ipl.smartApp.features.realTimeControl')}
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-3 mt-1">✔️</span> Session scheduling and usage reminders
+                  <span className="text-green-500 mr-3 mt-1">✔️</span>
+                  {t('ipl.smartApp.features.scheduling')}
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-3 mt-1">✔️</span> Compatible with iOS & Android
+                  <span className="text-green-500 mr-3 mt-1">✔️</span>
+                  {t('ipl.smartApp.features.compatibility')}
                 </li>
               </ul>
             </div>
