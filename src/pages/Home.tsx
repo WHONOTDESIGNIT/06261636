@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown } from "lucide-react";
+import { Package, CheckCircle, ChevronDown } from "lucide-react";
 import ContactFormA from '../components/Forms/ContactFormA';
 import Silk from './Silk';
 
@@ -109,11 +109,7 @@ export default function HomePage() {
             <p className="text-lg mb-4">
               We have the capability for Custom ice cooling IPL, Custom multi-function IPL, Custom Sapphire IPL device, Custom Smart APP-connected IPL device, Custom Dual-lamp IPL, Custom Skin Sensor IPL device. Help you design it, build it and box it. From idea to market. iShine provide solutions that best fit for your brand identity.
             </p>
-            <ul className="space-y-2 mb-4">
-              <li className="flex items-center gap-2"><Flame className="w-5 h-5 text-blue-700" /> Innovation-driven R&D</li>
-              <li className="flex items-center gap-2"><Palette className="w-5 h-5 text-blue-700" /> Unlimited Customization</li>
-              <li className="flex items-center gap-2"><BadgeCheck className="w-5 h-5 text-blue-700" /> Global Certifications</li>
-            </ul>
+
             <h2 className="text-3xl font-bold">Why Choose iShine?</h2>
           </div>
         </div>
