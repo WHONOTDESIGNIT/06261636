@@ -119,7 +119,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {iplDevices.slice(0, 9).map((product) => (
               <div key={product.id} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg">
-                <img src={product.image} alt={product.name} className="w-24 h-24 object-contain mb-4 rounded-lg" />
+                <img src={product.image} alt={product.name} className="w-40 h-40 object-contain mb-4 rounded-lg" />
                 <h3 className="font-bold text-lg text-center">{product.name}</h3>
               </div>
             ))}
