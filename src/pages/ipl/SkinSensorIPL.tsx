@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, Star, ShoppingCart, Plus, Minus, Shield, Truck, Award, Eye, Check, Info } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const SkinSensorIPL: React.FC = () => {
+  const { t } = useTranslation();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
 
@@ -40,11 +42,11 @@ const SkinSensorIPL: React.FC = () => {
       <div className="container mx-auto px-4">
         {/* Breadcrumb */}
         <nav className="text-sm text-gray-500 mb-4 mt-4 uppercase">
-          <a href="/" className="hover:text-[rgb(0,116,224)]">Home</a>
+          <a href="/" className="hover:text-[rgb(0,116,224)]">{t('common.home')}</a>
           <span className="mx-2">/</span>
-          <a href="/ipl-hair-removal" className="hover:text-[rgb(0,116,224)]">IPL Hair Removal</a>
+          <a href="/ipl-hair-removal" className="hover:text-[rgb(0,116,224)]">{t('iplHairRemoval')}</a>
           <span className="mx-2">/</span>
-          <span className="text-gray-800">Skin Sensor IPL Device</span>
+          <span className="text-gray-800">{t('ipl.skinSensor.title')}</span>
         </nav>
 
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
@@ -110,7 +112,7 @@ const SkinSensorIPL: React.FC = () => {
           <div className="space-y-6">
             <div>
               <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Skin Sensor IPL Device
+                {t('ipl.skinSensor.title')}
               </h1>
               
               {/* Rating */}
@@ -138,38 +140,34 @@ const SkinSensorIPL: React.FC = () => {
             <div className="space-y-4">
               <div className="bg-[#f9f9f9] rounded-xl p-6">
                 <h3 className="text-lg font-semibold mb-3 flex items-center">
-                  <Eye className="w-5 h-5 mr-2 text-[rgb(0,116,224)]" />
-                  ✨ Revolutionary Skin Sensor Technology ✨
+                  <span className="w-5 h-5 mr-2 text-[rgb(0,116,224)]">👁️</span>
+                  ✨ {t('ipl.skinSensor.features.intelligentDetection')}
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Experience the safest and most intelligent home hair removal with our <strong>Skin Sensor IPL Device</strong>. 
-                  This revolutionary device features <strong>advanced optical skin sensors</strong> that automatically detect your 
-                  <strong>🔍 skin tone and hair color</strong> – delivering personalized treatment intensity for maximum 
-                  effectiveness and complete safety. With <strong>real-time skin analysis</strong> and automatic energy 
-                  adjustment, this device is perfect for all suitable skin types and ensures optimal results every time[1].
+                  {t('ipl.skinSensor.desc')}
                 </p>
               </div>
 
               <ul className="space-y-3" style={{ listStyle: 'none', paddingLeft: 0 }}>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  <span><strong>Intelligent Skin Detection</strong> – Advanced sensors automatically identify skin tone and adjust energy levels</span>
+                  {t('ipl.skinSensor.features.intelligentDetection')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  <span><strong>Maximum Safety</strong> – 🛡️ Prevents over-treatment and reduces risk of skin irritation or burns</span>
+                  {t('ipl.skinSensor.features.maxSafety')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  <span><strong>Personalized Treatment</strong> – 🎯 Automatically optimizes intensity for your unique skin characteristics</span>
+                  {t('ipl.skinSensor.features.personalized')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  <span><strong>Real-time Analysis</strong> – Continuous monitoring ensures consistent, safe treatment sessions</span>
+                  {t('ipl.skinSensor.features.realTime')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  <span><strong>Professional Results</strong> – 💰 Salon-quality hair removal in the comfort of your home</span>
+                  {t('ipl.skinSensor.features.proResults')}
                 </li>
               </ul>
             </div>
