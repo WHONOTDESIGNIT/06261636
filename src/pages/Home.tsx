@@ -199,8 +199,6 @@ export default function HomePage() {
                 key={i}
                 className={`relative rounded-xl p-6 cursor-pointer transition-colors duration-200 group ${qaOpen === i ? qaHover : qaTheme}`}
                 onClick={() => setQaOpen(qaOpen === i ? null : i)}
-                onMouseEnter={() => setQaOpen(i)}
-                onMouseLeave={() => setQaOpen(null)}
               >
                 <div className="flex items-center justify-between">
                   <span className="font-bold">{qa.q}</span>
