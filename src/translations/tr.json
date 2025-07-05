@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "iShine - IPL Cihazı Üretim Çözümleri",
-    "description": "Fikirden pazara kadar OEM/ODM çözümleri sunan lider IPL cihazı üreticisi. Küresel güzellik markaları için özel IPL epilasyon cihazları.",
+    "title": "iShine - IPL Cihaz Üretim Çözümleri | Fikirden Pazara",
+    "description": "Fikirden pazara eksiksiz OEM/ODM çözümleri sunan önde gelen IPL cihaz üreticisi. Küresel güzellik markaları için özel IPL epilasyon cihazları.",
     "keywords": "IPL cihazları, OEM üretim, ODM çözümleri, epilasyon, güzellik cihazları, özel üretim"
   },
   "header": {
@@ -9,51 +9,67 @@
       "solutions": "Çözümler",
       "iplHairRemoval": "IPL Epilasyon",
       "howToUse": "Nasıl Kullanılır",
-      "serviceSupport": "Servis & Destek",
+      "serviceSupport": "Servis ve Destek",
       "about": "Hakkımızda",
       "contact": "İletişim"
+    },
+    "solutions": {
+      "logoPrinting": "Logo Baskı",
+      "packaging": "Ambalaj Çözümleri",
+      "dropShipping": "Drop Shipping",
+      "globalShipping": "Küresel Kargo",
+      "brandCustomization": "Marka Özelleştirme",
+      "compliance": "Uyumluluk ve Sertifikalar",
+      "designPrototyping": "Tasarım ve Prototipleme",
+      "multiHeadIPL": "Çok Başlıklı IPL Özel",
+      "dualLampIPL": "Çift Lambalı IPL Özel"
+    },
+    "iplDevices": {
+      "smartApp": "Akıllı Uygulama Kontrollü IPL Cihazı",
+      "iceFeeling": "Buz Hissi IPL Cihazı",
+      "emerald": "Zümrüt IPL Cihazı",
+      "skinSensor": "Cilt Sensörlü IPL Cihazı",
+      "batteryPowered": "Pil Gücüyle Çalışan IPL Cihazı",
+      "handheld": "El Tipi IPL Cihazı",
+      "iceCooling": "Buz Soğutmalı IPL Cihazı",
+      "dualLamp": "Çift Lambalı IPL Cihazı",
+      "aiPowered": "Yapay Zeka Destekli IPL Cihazı"
+    },
+    "accessories": {
+      "sapphireLens": "Safir Lens",
+      "adapter": "Adaptör",
+      "goggles": "Koruyucu Gözlük",
+      "filter": "Filtre"
+    },
+    "serviceSupport": {
+      "service": "Servis",
+      "afterSales": "Satış Sonrası Servis",
+      "fdaGmp": "FDA GMP Temiz Oda Tasarımı",
+      "manufacturing": "IPL Cihaz Üretimi",
+      "knowledgeBase": "Bilgi Bankası",
+      "support": "Destek > Satın Alma Rehberi",
+      "beautySourcing": "Güzellik Niş Tedarik ve Aksesuarlar",
+      "pricingGuide": "Fiyat Rehberi",
+      "helpCenter": "Yardım Merkezi",
+      "gallery": "Galeri",
+      "videos": "Videolar",
+      "blog": "Blog",
+      "newsInsights": "Haberler ve İçgörüler",
+      "industries": "Hizmet Verdiğimiz Sektörler"
+    },
+    "about": {
+      "founderMessage": "Kurucu Mesajı",
+      "technology": "Teknolojimiz",
+      "globalWitness": "Küresel Tanık",
+      "corePrinciples": "Temel İlkeler",
+      "company": "iShine Hakkında",
+      "brandStory": "Marka Hikayesi",
+      "quality": "Kalite"
     }
-  },
-  "solutions": {
-    "logoPrinting": "Logo Baskısı",
-    "packaging": "Ambalaj Çözümleri",
-    "dropShipping": "Dropshipping",
-    "globalShipping": "Küresel Kargo",
-    "brandCustomization": "Marka Özelleştirme",
-    "compliance": "Uyumluluk Sertifikaları",
-    "designPrototyping": "Tasarım & Prototipleme",
-    "multiHeadIPL": "Çok Başlıklı IPL Özelleştirme",
-    "dualLampIPL": "Çift Lambalı IPL Özelleştirme"
-  },
-  "iplDevices": {
-    "smartApp": "Akıllı Uygulama Kontrollü IPL Cihazı",
-    "iceFeeling": "Buz Etkili IPL Cihazı",
-    "emerald": "Zümrüt IPL Cihazı",
-    "skinSensor": "Cilt Sensörlü IPL Cihazı",
-    "batteryPowered": "Pilli IPL Cihazı",
-    "handheld": "Elde Taşınabilir IPL Cihazı",
-    "iceCooling": "Buz Soğutmalı IPL Cihazı",
-    "dualLamp": "Çift Lambalı IPL Cihazı",
-    "aiPowered": "Yapay Zekalı IPL Cihazı"
-  },
-  "accessories": {
-    "sapphireLens": "Safir Lens",
-    "adapter": "Adaptör",
-    "goggles": "Koruyucu Gözlük",
-    "filter": "Filtre"
-  },
-  "serviceSupport": {
-    "service": "Servis",
-    "afterSales": "Satış Sonrası Hizmet",
-    "fdaGmp": "FDA GMP Temiz Oda Tasarımı",
-    "manufacturing": "IPL Cihazı Üretimi",
-    "knowledgeBase": "Bilgi Bankası",
-    "support": "Destek Rehberi",
-    "beautySourcing": "Güzellik Niş Ürün Tedariki"
   },
   "footer": {
     "company": {
-      "description": "Fikirden pazara kadar OEM/ODM çözümleri sunan lider IPL cihazı üreticisi.",
+      "description": "Fikirden pazara eksiksiz OEM/ODM çözümleri sunan önde gelen IPL cihaz üreticisi.",
       "products": "Ürünler",
       "services": "Hizmetler",
       "company": "Şirket"
@@ -64,100 +80,217 @@
       "gallery": "Galeri"
     },
     "services": {
-      "afterSales": "Satış Sonrası Hizmet",
-      "manufacturing": "IPL Üretimi",
+      "afterSales": "Satış Sonrası Servis",
+      "manufacturing": "IPL Üretim",
       "buyingGuide": "Satın Alma Rehberi",
       "helpCenter": "Yardım Merkezi"
     },
     "companyLinks": {
-      "about": "Hakkımızda",
+      "about": "iShine Hakkında",
       "brandStory": "Marka Hikayesi",
       "quality": "Kalite",
       "blog": "Blog"
     },
     "legal": {
-      "copyright": "2025 iShine. Tüm hakları saklıdır.",
+      "copyright": "© 2025 iShine. Tüm hakları saklıdır.",
       "privacyPolicy": "Gizlilik Politikası",
       "termsOfService": "Hizmet Şartları"
     }
   },
   "home": {
     "hero": {
-      "title1": "Özel IPL Cihazları",
-      "title2": "Markalı IPL Cihazları",
-      "subtitle": "Dünyanın önde gelen IPL cihazı üreticisi – tasarlayın, üretin, paketleyin.",
-      "cta": "Teklif Al"
+      "title1": "Custom IPL Devices",
+      "title2": "& Branding IPL Devices",
+      "subtitle": "Global Leading IPL device manufacturer, help you design it, build it, and box it.",
+      "cta": "Get Quote"
     },
     "partners": {
-      "title": "Küresel Markaların Tercihi",
-      "subtitle": "Dünyanın liderleriyle çalışıyoruz"
+      "title": "Trusted by Global Brands",
+      "subtitle": "Working with industry leaders worldwide"
     },
     "features": {
-      "title": "Neden iShine’ı Seçmelisiniz?",
-      "subtitle": "İhtiyaçlarınıza özel eksiksiz IPL üretim çözümleri"
+      "title": "Why Choose iShine?",
+      "subtitle": "Complete IPL manufacturing solutions tailored to your needs"
     },
     "products": {
-      "title": "IPL Cihazı Ürün Yelpazemiz",
-      "subtitle": "Her ihtiyaca uygun geniş IPL cihazları",
-      "cta": "Tüm IPL Cihazlarını Gör"
+      "title": "Our IPL Device Range",
+      "subtitle": "Wide Range IPL devices for every needs",
+      "cta": "View All IPL Devices"
     },
     "cta": {
-      "title": "Yardıma mı ihtiyacınız var?",
-      "subtitle": "Gereksinimlerinizi tartışalım ve markanız için en uygun IPL çözümünü birlikte oluşturalım.",
-      "button": "Ücretsiz Danışmanlık İçin Formu Doldurun"
+      "title": "Need help?",
+      "subtitle": "Let's discuss your requirements and create the IPL solution that best fit for your brand.",
+      "button": "Fill out the form to enjoy Free Consultation"
     }
   },
   "contact": {
     "hero": {
-      "title": "Bize Ulaşın",
-      "description": "IPL projenizi konuşmaya hazır mısınız? Uzman ekibimizle bugün iletişime geçin. Hayalinizi gerçeğe dönüştürmek için buradayız."
+      "title": "Contact Us",
+      "description": "Ready to discuss your IPL project? Get in touch with our expert team today. We're here to help bring your vision to life."
     },
     "info": {
-      "title": "İletişime Geçin",
-      "subtitle": "Size en uygun iletişim yolunu seçin"
-    },
-    "address": {
-      "title": "Adres",
-      "company": "iShine Manufacturing Co., Ltd.",
-      "location": "Shenzhen, Guangdong, Çin"
-    },
-    "phone": {
-      "title": "Telefon"
-    },
-    "email": {
-      "title": "E-posta"
-    },
-    "hours": {
-      "title": "Çalışma Saatleri",
-      "weekdays": "Pazartesi - Cuma 09:00 - 18:00",
-      "saturday": "Cumartesi 09:00 - 12:00"
+      "title": "Get in Touch",
+      "subtitle": "Multiple ways to reach us - choose what works best for you",
+      "address": {
+        "title": "Address",
+        "company": "iShine Manufacturing Co., Ltd.",
+        "location": "Shenzhen, Guangdong, China"
+      },
+      "phone": {
+        "title": "Phone"
+      },
+      "email": {
+        "title": "Email"
+      },
+      "hours": {
+        "title": "Business Hours",
+        "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
+        "saturday": "Saturday: 9:00 AM - 12:00 PM"
+      }
     },
     "map": {
-      "title": "Tesisimizi Ziyaret Edin",
-      "subtitle": "Shenzhen’in üretim bölgesinin kalbinde"
+      "title": "Visit Our Facility",
+      "subtitle": "Located in the heart of Shenzhen's manufacturing district"
     },
     "form": {
-      "title": "Aklınızdakiler nedir? Konuşalım!",
-      "subtitle": "Süreci başlatmak için bu formu doldurun. 24 saat içinde sizinle iletişime geçeceğiz.",
-      "name": "Ad",
-      "email": "E-posta Adresi",
-      "phone": "Telefon Numarası (örn. 1-541-3456-3001)",
-      "country": "Ülke",
-      "message": "İhtiyaçlarınızı buraya yazın",
-      "submit": "Gönder",
-      "sending": "Gönderiliyor..."
+      "title": "What's in your mind? Let's talk!",
+      "subtitle": "Fill out this form to get the process started. We'll be in touch within 24hrs.",
+      "name": "Name*",
+      "email": "Email Address*",
+      "phone": "Phone number* e.g.(+1-541-3456-3001)",
+      "country": "Country",
+      "message": "Describe your needs here*",
+      "submit": "Submit",
+      "sending": "Sending..."
     },
-    "title": "Bize Ulaşın",
-    "subtitle": "İş, destek veya iş birliği için ekibimizle iletişime geçin.",
-    "companyPhotoAlt": "iShine Üretim Tesisi"
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team for business inquiries, support, or partnership opportunities.",
+    "companyPhotoAlt": "iShine Manufacturing Facility"
+  },
+  "buttons": {
+    "getQuote": "Get Quote",
+    "viewSolutions": "View Our Solutions",
+    "scheduleConsultation": "Schedule Consultation",
+    "submit": "Submit",
+    "sending": "Sending...",
+    "viewAll": "View All"
   },
   "common": {
-    "loading": "Yükleniyor...",
-    "error": "Bir hata oluştu",
-    "success": "Başarılı",
-    "readMore": "Daha Fazla Oku",
-    "learnMore": "Daha Fazla Bilgi",
-    "getStarted": "Başlayın",
-    "contactUs": "Bize Ulaşın"
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us"
+  },
+  "solutions": {
+    "productDesignDevelopment": "Product Design & Development",
+    "productDesignDevelopmentDescription": "From initial concept to final design, our expert team brings your IPL vision to life with cutting-edge technology and market insights.",
+    "oemManufacturing": "OEM Manufacturing",
+    "oemManufacturingDescription": "Complete manufacturing solutions with your specifications. We handle production while you focus on your brand and market.",
+    "odmSolutions": "ODM Solutions",
+    "odmSolutionsDescription": "Choose from our proven IPL designs and customize them with your branding, packaging, and unique features.",
+    "endToEndSupport": "End-to-End Support",
+    "endToEndSupportDescription": "Complete project management from initial consultation to product launch and beyond, ensuring your success every step of the way.",
+    "consultation": "Consultation",
+    "consultationDescription": "Understand your vision, market, and requirements",
+    "design": "Design",
+    "designDescription": "Create custom designs or adapt existing solutions",
+    "prototype": "Prototype",
+    "prototypeDescription": "Build and test prototypes to ensure quality",
+    "manufacturing": "Manufacturing",
+    "manufacturingDescription": "Full-scale production with quality assurance",
+    "launch": "Launch",
+    "launchDescription": "Support your market entry and ongoing success",
+    "completeIPLSolutions": "Complete IPL Solutions",
+    "completeIPLSolutionsDescription": "From initial concept to market launch, we provide comprehensive OEM/ODM solutions that transform your IPL vision into successful products.",
+    "ourSolutionPortfolio": "Our Solution Portfolio",
+    "comprehensiveServices": "Comprehensive services to bring your IPL products to market successfully",
+    "ourProcess": "Our Process",
+    "streamlinedWorkflow": "Streamlined workflow to ensure your project success",
+    "industriesWeServe": "Industries We Serve",
+    "tailoredSolutions": "Tailored solutions for diverse market segments",
+    "provenSuccess": "Proven Success",
+    "numbersSpeak": "Numbers that speak to our expertise and commitment",
+    "globalClients": "Global Clients",
+    "productsLaunched": "Products Launched",
+    "qualityRate": "Quality Rate",
+    "yearsExperience": "Years Experience"
+  },
+  "about": {
+    "heroTitle": "About iShine",
+    "heroDesc": "Your trusted partner in IPL device manufacturing, bringing innovative beauty technology from concept to market since 2018.",
+    "storyTitle": "Our Story",
+    "storyP1": "Founded in 2018, iShine emerged from a vision to democratize advanced IPL technology. We recognized that beauty brands needed a reliable partner who could transform their ideas into market-ready products with precision and excellence.",
+    "storyP2": "Today, we're proud to serve clients across three continents, from innovative startups to established beauty conglomerates. Our commitment to quality, innovation, and customer success drives everything we do.",
+    "storyP3": "At iShine, we don't just manufacture devices – we craft solutions that empower brands to succeed in the competitive beauty market.",
+    "valuesTitle": "Our Core Values",
+    "valuesDesc": "The principles that guide our work and relationships with clients",
+    "values": {
+      "qualityTitle": "Quality Excellence",
+      "qualityDesc": "FDA GMP certified manufacturing with rigorous quality control",
+      "customerTitle": "Customer Focus",
+      "customerDesc": "Dedicated to understanding and exceeding customer expectations",
+      "globalTitle": "Global Impact",
+      "globalDesc": "Serving beauty brands worldwide with innovative IPL solutions",
+      "innovationTitle": "Innovation Drive",
+      "innovationDesc": "Continuous R&D investment in next-generation IPL technology"
+    },
+    "journeyTitle": "Our Journey",
+    "journeyDesc": "Key milestones in our growth and innovation",
+    "milestones": {
+      "2018": { "title": "Company Founded", "desc": "iShine established as IPL device manufacturer" },
+      "2019": { "title": "First International Client", "desc": "Partnership with KU-2 Cosmetic in Germany" },
+      "2020": { "title": "FDA GMP Certification", "desc": "Achieved FDA GMP clean room certification" },
+      "2021": { "title": "Smart IPL Launch", "desc": "Introduced first app-controlled IPL devices" },
+      "2022": { "title": "Global Expansion", "desc": "Partnerships with Costco and ROSESKINCO" },
+      "2023": { "title": "AI Integration", "desc": "Launched AI-powered IPL technology" }
+    },
+    "teamTitle": "Our Expert Team",
+    "teamDesc": "Dedicated professionals committed to your success",
+    "team": {
+      "rnd": "R&D Engineers",
+      "rndDesc": "Expert engineers developing cutting-edge IPL technology",
+      "quality": "Quality Specialists",
+      "qualityDesc": "Ensuring every device meets the highest standards",
+      "customer": "Customer Success",
+      "customerDesc": "Dedicated support from concept to market launch"
+    }
+  },
+  "countryPage": {
+    "title": "iShine - IPL Device Manufacturing Solutions | Global",
+    "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide."
+  },
+  "howToUse": {
+    "heroTitle": "How to Use IPL Devices",
+    "heroDescription": "Complete guide to safe and effective IPL hair removal. Learn proper techniques, safety guidelines, and get the best results from your IPL device.",
+    "stepByStepTitle": "Step-by-Step Instructions",
+    "stepByStepDescription": "Follow these steps for safe and effective IPL treatment",
+    "safetyGuidelinesTitle": "Safety Guidelines",
+    "safetyGuidelinesDescription": "Essential safety information for IPL treatment",
+    "treatmentScheduleTitle": "Recommended Treatment Schedule",
+    "treatmentScheduleDescription": "Follow this schedule for optimal hair removal results",
+    "troubleshootingTitle": "Troubleshooting Guide",
+    "troubleshootingDescription": "Common issues and their solutions",
+    "faqTitle": "Frequently Asked Questions",
+    "faqDescription": "Get answers to common IPL treatment questions",
+    "videoTutorialsTitle": "Video Tutorials",
+    "videoTutorialsDescription": "Watch step-by-step video guides for proper IPL usage"
+  },
+  "iplHairRemoval": {
+    "heroTitle": "Professional IPL Hair Removal Solutions",
+    "heroDescription": "Discover the next generation of IPL hair removal devices—safe, effective, and designed for all skin types. Experience salon-quality results at home or in your business.",
+    "iplDevicesTitle": "Our IPL Device Range",
+    "iplDevicesDescription": "Explore our full lineup of advanced IPL hair removal devices, each engineered for maximum comfort and results.",
+    "accessoriesTitle": "Essential IPL Accessories",
+    "accessoriesDescription": "Enhance your IPL experience with our range of certified accessories for safety and convenience.",
+    "advancedIplTitle": "Advanced IPL Technology",
+    "smartTechnologyIntegration": "Smart Technology Integration",
+    "smartTechnologyIntegrationDescription": "Our IPL devices feature intelligent sensors and app connectivity for personalized, safe, and effective treatments.",
+    "coolingComfortSystems": "Cooling Comfort Systems",
+    "coolingComfortSystemsDescription": "Sapphire and metal plate cooling keep your skin comfortable and protected during every session.",
+    "intelligentSkinSensors": "Intelligent Skin Sensors",
+    "intelligentSkinSensorsDescription": "Automatic skin tone and hair detection ensures optimal energy delivery and safety for every user."
   }
 }
