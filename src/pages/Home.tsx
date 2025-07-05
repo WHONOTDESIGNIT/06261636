@@ -197,7 +197,7 @@ export default function HomePage() {
             {qaList.map((qa, i) => (
               <div
                 key={i}
-                className={`relative rounded-xl p-6 cursor-pointer transition-colors duration-200 group
+                className={`relative rounded-xl p-6 cursor-pointer transition-colors duration-200 group border-2 border-blue-700
                   ${qaOpen === i ? qaHover : qaTheme}
                   hover:bg-white hover:text-blue-700
                 `}
