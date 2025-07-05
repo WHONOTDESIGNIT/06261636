@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown } from "lucide-react";
 import ContactFormA from '../components/Forms/ContactFormA';
-import { useTranslation } from '../hooks/useTranslation';
 import Silk from './Silk';
 
 const heroBg = "bg-gradient-to-br from-blue-700 via-indigo-500 to-purple-600";
@@ -13,73 +12,72 @@ const qaBadge = "bg-white text-blue-700";
 const qaBadgeHover = "bg-blue-700 text-white";
 
 const productList = [
-  { img: "/ipl1.jpg", titleKey: "home.products.ipl1" },
-  { img: "/ipl2.jpg", titleKey: "home.products.ipl2" },
-  { img: "/ipl3.jpg", titleKey: "home.products.ipl3" },
-  { img: "/ipl4.jpg", titleKey: "home.products.ipl4" },
-  { img: "/ipl5.jpg", titleKey: "home.products.ipl5" },
-  { img: "/ipl6.jpg", titleKey: "home.products.ipl6" },
+  { img: "/ipl1.jpg", title: "IPL Hair Removal Device A" },
+  { img: "/ipl2.jpg", title: "IPL Hair Removal Device B" },
+  { img: "/ipl3.jpg", title: "IPL Hair Removal Device C" },
+  { img: "/ipl4.jpg", title: "IPL Hair Removal Device D" },
+  { img: "/ipl5.jpg", title: "IPL Hair Removal Device E" },
+  { img: "/ipl6.jpg", title: "IPL Hair Removal Device F" },
 ];
 
 const unlimitedOptions = [
   {
-    labelKey: "home.options.color",
+    label: "Color Customization",
     icon: <Palette className="w-6 h-6" />,
-    contentKey: "home.options.colorDesc"
+    content: "Choose from unlimited color options to match your brand identity."
   },
   {
-    labelKey: "home.options.logo",
+    label: "Logo Printing",
     icon: <BadgeCheck className="w-6 h-6" />,
-    contentKey: "home.options.logoDesc"
+    content: "Add your logo for a fully branded product experience."
   },
   {
-    labelKey: "home.options.function",
+    label: "Function Customization",
     icon: <Flame className="w-6 h-6" />,
-    contentKey: "home.options.functionDesc"
+    content: "Customize features and functions to meet your market needs."
   },
   {
-    labelKey: "home.options.packaging",
+    label: "Packaging Design",
     icon: <Package className="w-6 h-6" />,
-    contentKey: "home.options.packagingDesc"
+    content: "Tailor packaging for retail, e-commerce, or gifting."
   },
   {
-    labelKey: "home.options.cert",
+    label: "Certification Support",
     icon: <CheckCircle className="w-6 h-6" />,
-    contentKey: "home.options.certDesc"
+    content: "Comprehensive support for global certifications."
   },
 ];
 
 const processSteps = [
-  { img: "/step1.jpg", titleKey: "home.process.step1", descKey: "home.process.step1Desc" },
-  { img: "/step2.jpg", titleKey: "home.process.step2", descKey: "home.process.step2Desc" },
-  { img: "/step3.jpg", titleKey: "home.process.step3", descKey: "home.process.step3Desc" },
-  { img: "/step4.jpg", titleKey: "home.process.step4", descKey: "home.process.step4Desc" },
-  { img: "/step5.jpg", titleKey: "home.process.step5", descKey: "home.process.step5Desc" },
-  { img: "/step6.jpg", titleKey: "home.process.step6", descKey: "home.process.step6Desc" },
-  { img: "/step7.jpg", titleKey: "home.process.step7", descKey: "home.process.step7Desc" },
-  { img: "/step8.jpg", titleKey: "home.process.step8", descKey: "home.process.step8Desc" },
+  { img: "/step1.jpg", title: "Consultation", desc: "Discuss your brand vision and requirements." },
+  { img: "/step2.jpg", title: "Design & Prototyping", desc: "Get custom designs and functional prototypes." },
+  { img: "/step3.jpg", title: "Sample Confirmation", desc: "Approve samples before mass production." },
+  { img: "/step4.jpg", title: "Mass Production", desc: "Efficient and high-quality manufacturing." },
+  { img: "/step5.jpg", title: "Quality Inspection", desc: "Strict QC for every batch." },
+  { img: "/step6.jpg", title: "Certification", desc: "Support for FDA, CE, and more." },
+  { img: "/step7.jpg", title: "Global Shipping", desc: "Worldwide delivery with flexible logistics." },
+  { img: "/step8.jpg", title: "After-Sales Service", desc: "Ongoing support for your business." },
 ];
 
 const testimonials = [
-  "home.testimonials.1",
-  "home.testimonials.2",
-  "home.testimonials.3",
-  "home.testimonials.4",
-  "home.testimonials.5",
-  "home.testimonials.6"
+  "“iShine helped us launch our IPL brand in record time. The quality and service are top-notch!”",
+  "“The customization options are endless. Our clients love the unique packaging and features.”",
+  "“Professional team, fast response, and reliable delivery. Highly recommended for OEM/ODM.”",
+  "“We expanded to new markets thanks to iShine's certification and compliance support.”",
+  "“The after-sales service is excellent. Any issues are resolved quickly and professionally.”",
+  "“Our brand image improved significantly with iShine's design and manufacturing expertise.”"
 ];
 
 const qaList = [
-  { qKey: "home.qa.q1", aKey: "home.qa.a1" },
-  { qKey: "home.qa.q2", aKey: "home.qa.a2" },
-  { qKey: "home.qa.q3", aKey: "home.qa.a3" },
-  { qKey: "home.qa.q4", aKey: "home.qa.a4" },
-  { qKey: "home.qa.q5", aKey: "home.qa.a5" },
-  { qKey: "home.qa.q6", aKey: "home.qa.a6" },
+  { q: "What is IPL and how does it work?", a: "IPL (Intense Pulsed Light) uses broad-spectrum light to target hair follicles, reducing hair growth safely and effectively." },
+  { q: "Can I customize the device functions?", a: "Yes, we offer full customization of features, colors, packaging, and more to fit your brand needs." },
+  { q: "What certifications do you support?", a: "We support FDA, CE, RoHS, and other global certifications to ensure compliance in your target markets." },
+  { q: "How long is the production lead time?", a: "Typical lead time is 25-35 days after sample approval, depending on order size and customization." },
+  { q: "Do you provide after-sales support?", a: "Yes, we offer comprehensive after-sales service including technical support and warranty." },
+  { q: "Can you ship globally?", a: "Absolutely. We provide flexible global shipping solutions to meet your logistics needs." },
 ];
 
 export default function HomePage() {
-  const { t } = useTranslation();
   const [optionIdx, setOptionIdx] = useState(0);
   const [qaOpen, setQaOpen] = useState<number | null>(null);
   const [testimonialPage, setTestimonialPage] = useState(0);
@@ -94,90 +92,90 @@ export default function HomePage() {
         </div>
         {/* 内容层 */}
         <div className="max-w-2xl text-center z-10 relative">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">{t("home.hero.title")}</h1>
-          <p className="text-lg md:text-2xl mb-8 font-medium drop-shadow">{t("home.hero.subtitle")}</p>
-          <a href="#contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-full shadow-lg hover:bg-blue-100 transition">{t("home.hero.cta")}</a>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">OEM/ODM IPL Hair Removal Devices for Cosmetics & Essential Oil Brands</h1>
+          <p className="text-lg md:text-2xl mb-8 font-medium drop-shadow">Empowering your brand with premium, customizable IPL home beauty devices. One-stop solution from design to global delivery.</p>
+          <a href="#contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-full shadow-lg hover:bg-blue-100 transition">Get a Free Quote</a>
         </div>
       </section>
 
-      {/* 品牌赋能/USP */}
+      {/* Brand Empowerment / USP */}
       <section className={`${sectionBg} py-16 px-4 md:px-0`}>
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
           <img src="/about-ipl.svg" alt="iShine IPL" className="w-full md:w-1/2 rounded-xl shadow-xl" />
           <div className="md:w-1/2">
-            <h2 className="text-3xl font-bold mb-4">{t("home.usp.title")}</h2>
-            <p className="text-lg mb-4">{t("home.usp.desc")}</p>
+            <h2 className="text-3xl font-bold mb-4">Why Choose iShine?</h2>
+            <p className="text-lg mb-4">We empower cosmetics and essential oil brands with innovative, safe, and effective IPL home beauty devices. Our OEM/ODM services cover everything from R&D to after-sales support.</p>
             <ul className="space-y-2">
-              <li className="flex items-center gap-2"><Flame className="w-5 h-5 text-blue-700" /> {t("home.usp.innovation")}</li>
-              <li className="flex items-center gap-2"><Palette className="w-5 h-5 text-blue-700" /> {t("home.usp.custom")}</li>
-              <li className="flex items-center gap-2"><BadgeCheck className="w-5 h-5 text-blue-700" /> {t("home.usp.cert")}</li>
+              <li className="flex items-center gap-2"><Flame className="w-5 h-5 text-blue-700" /> Innovation-driven R&D</li>
+              <li className="flex items-center gap-2"><Palette className="w-5 h-5 text-blue-700" /> Unlimited Customization</li>
+              <li className="flex items-center gap-2"><BadgeCheck className="w-5 h-5 text-blue-700" /> Global Certifications</li>
             </ul>
           </div>
         </div>
       </section>
 
-      {/* 产品展示 */}
+      {/* Product Showcase */}
       <section className="py-16 px-4 md:px-0 bg-gradient-to-br from-blue-50 via-white to-purple-50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">{t("home.products.title")}</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">Featured IPL Devices</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {productList.map((p, i) => (
               <div key={i} className={`bg-white rounded-xl p-6 flex flex-col items-center ${gridShadow} hover:scale-105 transition-transform`}>
-                <img src={p.img} alt={t(p.titleKey)} className="w-24 h-24 object-contain mb-4 rounded-lg" />
-                <h3 className="font-bold text-lg">{t(p.titleKey)}</h3>
+                <img src={p.img} alt={p.title} className="w-24 h-24 object-contain mb-4 rounded-lg" />
+                <h3 className="font-bold text-lg">{p.title}</h3>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* 定制选项 */}
+      {/* Customization Options */}
       <section className="py-16 px-4 md:px-0 bg-gradient-to-r from-blue-100 via-white to-purple-100">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2 text-center">{t("home.options.title")}</h2>
-          <p className="text-center mb-8 text-lg">{t("home.options.desc")}</p>
+          <h2 className="text-3xl font-bold mb-2 text-center">Unlimited Customization Options</h2>
+          <p className="text-center mb-8 text-lg">Stand out in the market with fully customizable IPL devices tailored to your brand.</p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             {unlimitedOptions.map((opt, idx) => (
               <button
-                key={opt.labelKey}
+                key={opt.label}
                 className={`flex items-center gap-2 px-5 py-3 rounded-full font-semibold border transition ${optionIdx === idx ? "bg-blue-700 text-white" : "bg-white text-blue-700 border-blue-700"} hover:bg-blue-700 hover:text-white`}
                 onClick={() => setOptionIdx(idx)}
               >
                 {opt.icon}
-                {t(opt.labelKey)}
+                {opt.label}
               </button>
             ))}
           </div>
           <div className="max-w-2xl mx-auto bg-white rounded-xl p-6 shadow-lg text-center text-lg min-h-[80px] flex items-center justify-center transition-all">
-            {t(unlimitedOptions[optionIdx].contentKey)}
+            {unlimitedOptions[optionIdx].content}
           </div>
         </div>
       </section>
 
-      {/* OEM/ODM 流程 */}
+      {/* OEM/ODM Process */}
       <section className="py-16 px-4 md:px-0 bg-gradient-to-br from-blue-50 via-white to-purple-50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2 text-center">{t("home.process.title")}</h2>
-          <p className="text-center mb-8 text-lg">{t("home.process.desc")}</p>
+          <h2 className="text-3xl font-bold mb-2 text-center">OEM/ODM Process</h2>
+          <p className="text-center mb-8 text-lg">From idea to delivery, we make your IPL device project seamless and successful.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             {processSteps.map((step, i) => (
               <div key={i} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg">
-                <img src={step.img} alt={t(step.titleKey)} className="w-16 h-16 object-contain mb-4 rounded-lg" />
-                <h3 className="font-bold text-base mb-1">{t(step.titleKey)}</h3>
-                <p className="text-center text-sm">{t(step.descKey)}</p>
+                <img src={step.img} alt={step.title} className="w-16 h-16 object-contain mb-4 rounded-lg" />
+                <h3 className="font-bold text-base mb-1">{step.title}</h3>
+                <p className="text-center text-sm">{step.desc}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* 客户见证 */}
+      {/* Testimonials */}
       <section className="py-16 px-4 md:px-0">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">{t("home.testimonials.title")}</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">What Our Clients Say</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
             {testimonials.slice(testimonialPage*3, testimonialPage*3+3).map((tk, i) => (
-              <div key={i} className="bg-white rounded-xl p-6 shadow-lg text-center text-lg italic">{t(tk)}</div>
+              <div key={i} className="bg-white rounded-xl p-6 shadow-lg text-center text-lg italic">{tk}</div>
             ))}
           </div>
           <div className="flex justify-center gap-2">
@@ -193,10 +191,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* QA Section */}
+      {/* FAQ Section */}
       <section className="py-16 px-4 md:px-0">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">{t("home.qa.title")}</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {qaList.map((qa, i) => (
               <div
@@ -207,14 +205,14 @@ export default function HomePage() {
                 onMouseLeave={() => setQaOpen(null)}
               >
                 <div className="flex items-center justify-between">
-                  <span className="font-bold">{t(qa.qKey)}</span>
+                  <span className="font-bold">{qa.q}</span>
                   <span className={`absolute right-4 top-1/2 -translate-y-1/2 rounded-full px-2 py-1 transition-colors duration-200 ${qaOpen === i ? qaBadgeHover : qaBadge}`}>
                     <ChevronDown className={`w-5 h-5 transition-transform ${qaOpen === i ? "rotate-180" : ""}`} />
                   </span>
                 </div>
                 {qaOpen === i && (
                   <div className="mt-4 text-base">
-                    {t(qa.aKey)}
+                    {qa.a}
                   </div>
                 )}
               </div>
@@ -223,11 +221,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 联系我们/CTA */}
+      {/* Contact / CTA */}
       <section id="contact" className="py-16 bg-white">
         <div className="max-w-2xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-6">{t("home.contact.title")}</h2>
-          <p className="text-center text-gray-700 mb-8">{t("home.contact.desc")}</p>
+          <h2 className="text-3xl font-bold text-center mb-6">Contact Us</h2>
+          <p className="text-center text-gray-700 mb-8">Ready to empower your brand? Get in touch for a free consultation and quote.</p>
           <ContactFormA />
         </div>
       </section>
@@ -240,10 +238,10 @@ export default function HomePage() {
             <span className="font-bold text-lg">iShine IPL</span>
           </div>
           <div className="flex gap-6">
-            <a href="#about" className="hover:underline">{t("home.footer.about")}</a>
-            <a href="#products" className="hover:underline">{t("home.footer.products")}</a>
-            <a href="#contact" className="hover:underline">{t("home.footer.contact")}</a>
-            <a href="#faq" className="hover:underline">{t("home.footer.faq")}</a>
+            <a href="#about" className="hover:underline">About</a>
+            <a href="#products" className="hover:underline">Products</a>
+            <a href="#contact" className="hover:underline">Contact</a>
+            <a href="#faq" className="hover:underline">FAQ</a>
           </div>
           <div className="text-sm">&copy; {new Date().getFullYear()} iShine IPL. All rights reserved.</div>
         </div>
