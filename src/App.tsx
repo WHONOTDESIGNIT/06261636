@@ -262,7 +262,7 @@ const App: React.FC = () => (
             </Route>
           </Route>
 
-          {/* /en/xxx 自动重定向到无前缀 */}
+          {/* /en/* 自动重定向到无前缀 */}
           <Route path="en/*" element={<Navigate to={window.location.pathname.replace(/^\/en/, '') || '/'} replace />} />
 
           {/* 404 */}
