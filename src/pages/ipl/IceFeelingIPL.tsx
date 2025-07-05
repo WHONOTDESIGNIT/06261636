@@ -12,8 +12,10 @@ import {
   Check,
   Info,
 } from 'lucide-react';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const IceFeelingIPL: React.FC = () => {
+  const { t } = useTranslation();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [activeSubTab, setActiveSubTab] = useState<'specifications' | 'safety' | 'reviews'>('specifications');
@@ -45,11 +47,11 @@ const IceFeelingIPL: React.FC = () => {
       <div className="container mx-auto px-4">
         {/* Breadcrumb */}
         <nav className="text-sm text-gray-500 mb-4 mt-4 uppercase">
-          <a href="/" className="hover:text-[rgb(0,116,224)]">Home</a>
+          <a href="/" className="hover:text-[rgb(0,116,224)]">{t('common.home')}</a>
           <span className="mx-2">/</span>
-          <a href="/ipl-hair-removal" className="hover:text-[rgb(0,116,224)]">IPL Hair Removal</a>
+          <a href="/ipl-hair-removal" className="hover:text-[rgb(0,116,224)]">{t('iplHairRemoval')}</a>
           <span className="mx-2">/</span>
-          <span className="text-gray-800">Sapphire Ice Feeling IPL Device</span>
+          <span className="text-gray-800">{t('ipl.iceFeeling.title')}</span>
         </nav>
 
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
@@ -59,7 +61,7 @@ const IceFeelingIPL: React.FC = () => {
             <div className="relative bg-[#f9f9f9] rounded-2xl overflow-hidden group">
               <img
                 src={productImages[currentImageIndex]}
-                alt="Sapphire Ice Feeling IPL Device"
+                alt={t('ipl.iceFeeling.title')}
                 className="w-full h-[700px] object-cover"
               />
               {/* Navigation Arrows */}
@@ -113,7 +115,7 @@ const IceFeelingIPL: React.FC = () => {
           <div className="space-y-6">
             <div>
               <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Sapphire Ice Feeling IPL Device
+                {t('ipl.iceFeeling.title')}
               </h1>
               <div className="flex items-center space-x-3 mb-4">
                 <div className="flex items-center">
@@ -145,40 +147,32 @@ const IceFeelingIPL: React.FC = () => {
               <div className="bg-[#f9f9f9] rounded-xl p-6">
                 <h3 className="text-lg font-semibold mb-3 flex items-center">
                   <span className="w-5 h-5 mr-2 text-[rgb(0,116,224)]">❄️</span>
-                  Sapphire Ice-Cooling Technology ❄️
+                  {t('ipl.iceFeeling.features.cooling')}
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Enjoy painless hair removal with a clinical-grade{" "}
-                  <strong>Sapphire cooling plate</strong> that chills skin to 5 °C,
-                  enabling higher energy pulses for quicker results.
-                  The integrated{" "}
-                  <strong>Intense Pulsed Light (IPL)</strong> engine delivers
-                  2.0~5.0 J/cm² of energy with <strong>999 999 flashes</strong> for a
-                  lifetime of use.
+                  {t('ipl.iceFeeling.desc')}
                 </p>
               </div>
               <ul className="space-y-3" style={{ listStyle: 'none', paddingLeft: 0 }}>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Long-lasting smoothness — visible reduction after 3-4 weeks.
+                  {t('ipl.iceFeeling.features.longSmooth')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Cooling plate keeps epidermis at 5 °C for true painless
-                  treatments.
+                  {t('ipl.iceFeeling.features.cooling')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Five energy levels adapt to almost all skin tones within
-                  Fitzpatrick I-V.
+                  {t('ipl.iceFeeling.features.energyLevels')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Auto/Manual flash modes for body and precision areas.
+                  {t('ipl.iceFeeling.features.flashModes')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  4-in-1: Full body, Bikini, Face, and skin rejuvenation.
+                  {t('ipl.iceFeeling.features.multiUse')}
                 </li>
               </ul>
             </div>
