@@ -145,8 +145,8 @@ const HomeWithRedirect: React.FC = () => (
 
 const App: React.FC = () => (
   <HelmetProvider>
-    <LanguageProvider>
-      <BrowserRouter>
+    <BrowserRouter>
+      <LanguageProvider>
         <Routes>
           {/* 自动检测语言并初始跳转 */}
           <Route path="/" element={<MainLayout />}>
@@ -268,8 +268,8 @@ const App: React.FC = () => (
           {/* 404 */}
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </BrowserRouter>
-    </LanguageProvider>
+      </LanguageProvider>
+    </BrowserRouter>
   </HelmetProvider>
 );
 
