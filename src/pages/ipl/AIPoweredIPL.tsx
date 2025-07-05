@@ -2,8 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Brain, Cpu, BarChart3, Sparkles } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const AIPoweredIPL: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <div className="min-h-screen pt-20">
       <section className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white py-16">
@@ -15,10 +17,9 @@ const AIPoweredIPL: React.FC = () => {
             className="text-center"
           >
             <Brain className="w-16 h-16 mx-auto mb-6 text-white" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">AI-Powered IPL Device</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('ipl.aiPowered.title')}</h1>
             <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
-              The future of hair removal is here. Artificial intelligence optimizes 
-              every treatment for personalized, effective results.
+              {t('ipl.aiPowered.desc')}
             </p>
           </motion.div>
         </div>
@@ -28,10 +29,10 @@ const AIPoweredIPL: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { icon: Brain, title: 'AI Technology', description: 'Smart learning algorithms' },
-              { icon: Cpu, title: 'Smart Processing', description: 'Real-time optimization' },
-              { icon: BarChart3, title: 'Advanced Analytics', description: 'Detailed progress tracking' },
-              { icon: Sparkles, title: 'Personalized', description: 'Customized for your needs' }
+              { icon: Brain, title: t('ipl.aiPowered.features.aiTech'), description: t('ipl.aiPowered.features.aiTechDesc') },
+              { icon: Cpu, title: t('ipl.aiPowered.features.smartProcessing'), description: t('ipl.aiPowered.features.smartProcessingDesc') },
+              { icon: BarChart3, title: t('ipl.aiPowered.features.analytics'), description: t('ipl.aiPowered.features.analyticsDesc') },
+              { icon: Sparkles, title: t('ipl.aiPowered.features.personalized'), description: t('ipl.aiPowered.features.personalizedDesc') }
             ].map((feature, index) => (
               <motion.div
                 key={feature.title}
