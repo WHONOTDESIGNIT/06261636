@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown } from "lucide-react";
 import ContactFormA from '../components/Forms/ContactFormA';
 import { useTranslation } from '../hooks/useTranslation';
