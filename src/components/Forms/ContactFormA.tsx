@@ -108,7 +108,7 @@ const ContactFormA: React.FC = () => {
               <select
                 value={values.business || ''}
                 onChange={(e) => handleChange('business', e.target.value)}
-                className="w-full px-4 py-3 border border-blue-700 rounded-lg focus:ring-2 focus:ring-ishine-blue-500 focus:border-blue-700"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ishine-blue-500 focus:border-ishine-blue-500"
               >
                 <option value="">Are you new in IPL business?</option>
                 <option value="new">I am new and need more help to start my own IPL project</option>
@@ -120,7 +120,7 @@ const ContactFormA: React.FC = () => {
               <select
                 value={values.timeline || ''}
                 onChange={(e) => handleChange('timeline', e.target.value)}
-                className="w-full px-4 py-3 border border-blue-700 rounded-lg focus:ring-2 focus:ring-ishine-blue-500 focus:border-blue-700"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ishine-blue-500 focus:border-ishine-blue-500"
               >
                 <option value="">When do you want to make your own IPL device?</option>
                 <option value="3months">Within 3 months</option>
