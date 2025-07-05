@@ -117,8 +117,11 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center">Featured IPL Devices</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            {iplDevices.map((product) => (
-              <ProductCard key={product.id} product={product} />
+            {iplDevices.slice(0, 9).map((product) => (
+              <div key={product.id} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg">
+                <img src={product.image} alt={product.name} className="w-24 h-24 object-contain mb-4 rounded-lg" />
+                <h3 className="font-bold text-lg text-center">{product.name}</h3>
+              </div>
             ))}
           </div>
         </div>
