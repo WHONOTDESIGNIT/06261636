@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown } from "lucide-react";
 import ContactFormA from '../components/Forms/ContactFormA';
 import Silk from './Silk';
+import { iplDevices } from '../data/products';
+import ProductCard from '../components/Product/ProductCard';
 
 const heroBg = "bg-gradient-to-br from-blue-700 via-indigo-500 to-purple-600";
 const sectionBg = "bg-white";
@@ -10,15 +12,6 @@ const qaTheme = "bg-blue-700 text-white";
 const qaHover = "bg-white text-blue-700";
 const qaBadge = "bg-white text-blue-700";
 const qaBadgeHover = "bg-blue-700 text-white";
-
-const productList = [
-  { img: "/ipl1.jpg", title: "IPL Hair Removal Device A" },
-  { img: "/ipl2.jpg", title: "IPL Hair Removal Device B" },
-  { img: "/ipl3.jpg", title: "IPL Hair Removal Device C" },
-  { img: "/ipl4.jpg", title: "IPL Hair Removal Device D" },
-  { img: "/ipl5.jpg", title: "IPL Hair Removal Device E" },
-  { img: "/ipl6.jpg", title: "IPL Hair Removal Device F" },
-];
 
 const unlimitedOptions = [
   {
@@ -109,7 +102,11 @@ export default function HomePage() {
             <p className="text-lg mb-4">
               We have the capability for Custom ice cooling IPL, Custom multi-function IPL, Custom Sapphire IPL device, Custom Smart APP-connected IPL device, Custom Dual-lamp IPL, Custom Skin Sensor IPL device. Help you design it, build it and box it. From idea to market. iShine provide solutions that best fit for your brand identity.
             </p>
-
+            <ul className="space-y-2 mb-4">
+              <li className="flex items-center gap-2"><Flame className="w-5 h-5 text-blue-700" /> Innovation-driven R&D</li>
+              <li className="flex items-center gap-2"><Palette className="w-5 h-5 text-blue-700" /> Unlimited Customization</li>
+              <li className="flex items-center gap-2"><BadgeCheck className="w-5 h-5 text-blue-700" /> Global Certifications</li>
+            </ul>
             <h2 className="text-3xl font-bold">Why Choose iShine?</h2>
           </div>
         </div>
@@ -120,11 +117,8 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center">Featured IPL Devices</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            {productList.map((p, i) => (
-              <div key={i} className={`bg-white rounded-xl p-6 flex flex-col items-center ${gridShadow} hover:scale-105 transition-transform`}>
-                <img src={p.img} alt={p.title} className="w-24 h-24 object-contain mb-4 rounded-lg" />
-                <h3 className="font-bold text-lg">{p.title}</h3>
-              </div>
+            {iplDevices.map((product) => (
+              <ProductCard key={product.id} product={product} />
             ))}
           </div>
         </div>
@@ -134,7 +128,7 @@ export default function HomePage() {
       <section className="py-16 px-4 md:px-0 bg-gradient-to-r from-blue-100 via-white to-purple-100">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold mb-2 text-center">Unlimited Customization Options</h2>
-          <p className="text-center mb-8 text-lg">Stand out in the market with fully customizable IPL devices that best fit your brand.</p>
+          <p className="text-center mb-8 text-lg">Stand out in the market with fully customizable IPL devices tailored to your brand.</p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             {unlimitedOptions.map((opt, idx) => (
               <button
