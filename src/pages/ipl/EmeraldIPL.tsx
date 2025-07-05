@@ -11,8 +11,10 @@ import {
   Check,
   Info,
 } from 'lucide-react';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const EmeraldIPL: React.FC = () => {
+  const { t } = useTranslation();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [activeSubTab, setActiveSubTab] = useState<'specifications' | 'safety' | 'reviews'>('specifications');
@@ -40,11 +42,11 @@ const EmeraldIPL: React.FC = () => {
       <div className="container mx-auto px-4">
         {/* Breadcrumb */}
         <nav className="text-sm text-gray-500 mb-4 mt-4 uppercase">
-          <a href="/" className="hover:text-emerald-600">Home</a>
+          <a href="/" className="hover:text-emerald-600">{t('common.home')}</a>
           <span className="mx-2">/</span>
-          <a href="/ipl-hair-removal" className="hover:text-emerald-600">IPL Hair Removal</a>
+          <a href="/ipl-hair-removal" className="hover:text-emerald-600">{t('iplHairRemoval')}</a>
           <span className="mx-2">/</span>
-          <span className="text-gray-800">Emerald IPL Hair Removal Device</span>
+          <span className="text-gray-800">{t('ipl.emerald.title')}</span>
         </nav>
 
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
@@ -108,7 +110,7 @@ const EmeraldIPL: React.FC = () => {
           <div className="space-y-6">
             <div>
               <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Emerald IPL Hair Removal Device
+                {t('ipl.emerald.title')}
               </h1>
               <div className="flex items-center space-x-3 mb-4">
                 <div className="flex items-center">
@@ -140,37 +142,32 @@ const EmeraldIPL: React.FC = () => {
               <div className="bg-[#f9f9f9] rounded-xl p-6">
                 <h3 className="text-lg font-semibold mb-3 flex items-center">
                   <span className="w-5 h-5 mr-2 text-emerald-600">💎</span>
-                  ✨ Emerald Precision IPL Technology ✨
+                  ✨ {t('ipl.emerald.features.proResults')}
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Experience professional-grade hair removal at home with our{" "}
-                  <strong>Emerald IPL Device</strong> featuring advanced{" "}
-                  <strong>Intense Pulsed Light technology</strong> with
-                  15 J/cm² of energy and <strong>600,000+ flashes</strong> for
-                  long-lasting smooth skin. The precision-engineered system
-                  delivers consistent results across all treatment areas.
+                  {t('ipl.emerald.desc')}
                 </p>
               </div>
               <ul className="space-y-3" style={{ listStyle: 'none', paddingLeft: 0 }}>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Professional results — up to 94% hair reduction after 12 weeks.
+                  {t('ipl.emerald.features.proResults')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  5-level manual intensity control for personalized treatments.
+                  {t('ipl.emerald.features.manualIntensity')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Safe for all skin tones within Fitzpatrick I-V range.
+                  {t('ipl.emerald.features.safeAllSkin')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Large 4.2 cm² treatment window for faster coverage.
+                  {t('ipl.emerald.features.largeWindow')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-3 mt-1">✔️</span>
-                  Ergonomic design with built-in safety sensors.
+                  {t('ipl.emerald.features.ergonomic')}
                 </li>
               </ul>
             </div>
@@ -257,15 +254,15 @@ const EmeraldIPL: React.FC = () => {
                   <ul className="space-y-3">
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-white rounded-full mr-3" />
-                      5-level manual intensity control for optimal customization.
+                      {t('ipl.emerald.features.manualIntensity')}
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-white rounded-full mr-3" />
-                      Professional-grade 15 J/cm² energy output for effective results.
+                      {t('ipl.emerald.features.proGrade')}
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-white rounded-full mr-3" />
-                      Advanced skin tone sensor ensures safe treatment delivery.
+                      {t('ipl.emerald.features.skinTone')}
                     </li>
                   </ul>
                 </div>
@@ -274,8 +271,8 @@ const EmeraldIPL: React.FC = () => {
                     <div className="w-16 h-16 mx-auto mb-4 bg-white/30 rounded-full flex items-center justify-center">
                       <span className="text-2xl">💎</span>
                     </div>
-                    <p className="text-sm">Premium Emerald Design</p>
-                    <p className="text-xs opacity-80">Professional Quality</p>
+                    <p className="text-sm">{t('ipl.emerald.design')}</p>
+                    <p className="text-xs opacity-80">{t('ipl.emerald.quality')}</p>
                   </div>
                 </div>
               </div>
@@ -289,11 +286,9 @@ const EmeraldIPL: React.FC = () => {
                   alt="Precision Technology"
                   className="w-full rounded-xl"
                 />
-                <h3 className="text-xl font-bold">Precision Control</h3>
+                <h3 className="text-xl font-bold">{t('ipl.emerald.features.precision')}</h3>
                 <p className="text-gray-700">
-                  Manual 5-level intensity adjustment allows you to customize
-                  treatment power based on your skin sensitivity and hair type
-                  for optimal results and comfort.
+                  {t('ipl.emerald.features.precisionDesc')}
                 </p>
               </div>
               <div className="space-y-6">
@@ -302,11 +297,9 @@ const EmeraldIPL: React.FC = () => {
                   alt="Large Treatment Window"
                   className="w-full rounded-xl"
                 />
-                <h3 className="text-xl font-bold">Fast Coverage</h3>
+                <h3 className="text-xl font-bold">{t('ipl.emerald.features.fastCoverage')}</h3>
                 <p className="text-gray-700">
-                  The large 4.2 cm² treatment window covers more area per flash,
-                  reducing treatment time by up to 40% compared to smaller devices
-                  while maintaining consistent energy distribution.
+                  {t('ipl.emerald.features.fastCoverageDesc')}
                 </p>
               </div>
             </div>
@@ -314,13 +307,13 @@ const EmeraldIPL: React.FC = () => {
             {/* How It Works */}
             <div className="bg-[#f9f9f9] rounded-xl p-8">
               <h2 className="text-2xl font-bold mb-6 text-center">
-                How Emerald IPL Works
+                {t('ipl.emerald.howItWorks')}
               </h2>
               <div className="grid md:grid-cols-3 gap-6">
                 {[
-                  ['Prepare & Set', 'Shave treatment area and select appropriate intensity level'],
-                  ['Target & Flash', 'Place device on skin and trigger manual flash pulses'],
-                  ['Maintain & Enjoy', 'Follow treatment schedule for long-lasting smooth results'],
+                  ['Prepare & Set', t('ipl.emerald.howItWorks.prepare')],
+                  ['Target & Flash', t('ipl.emerald.howItWorks.target')],
+                  ['Maintain & Enjoy', t('ipl.emerald.howItWorks.maintain')],
                 ].map(([title, desc], i) => (
                   <div key={title} className="text-center">
                     <div className="w-16 h-16 bg-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
@@ -408,11 +401,10 @@ const EmeraldIPL: React.FC = () => {
                       <Info className="w-5 h-5 text-yellow-400 mr-3 mt-0.5" />
                       <div>
                         <h3 className="text-lg font-medium text-yellow-800">
-                          Important Safety Guidelines
+                          {t('ipl.emerald.safety.important')}
                         </h3>
                         <p className="text-yellow-700 mt-1">
-                          Always start with the lowest intensity level and gradually
-                          increase as your skin adapts to treatment.
+                          {t('ipl.emerald.safety.start')}
                         </p>
                       </div>
                     </div>
@@ -420,7 +412,7 @@ const EmeraldIPL: React.FC = () => {
                   <div className="grid md:grid-cols-2 gap-8">
                     <div className="space-y-4">
                       <h3 className="text-xl font-semibold text-red-600">
-                        ⚠️ Do Not Use If:
+                        ⚠️ {t('ipl.emerald.safety.doNotUse')}
                       </h3>
                       <ul className="space-y-2 text-sm">
                         {[
@@ -439,7 +431,7 @@ const EmeraldIPL: React.FC = () => {
                     </div>
                     <div className="space-y-4">
                       <h3 className="text-xl font-semibold text-green-600">
-                        ✓ Built-In Safety:
+                        ✓ {t('ipl.emerald.safety.builtIn')}
                       </h3>
                       <ul className="space-y-2 text-sm">
                         {[
@@ -481,15 +473,13 @@ const EmeraldIPL: React.FC = () => {
                           <span className="ml-2 text-xs text-gray-500">Verified Purchase</span>
                         </div>
                         <p className="text-sm text-gray-700">
-                          "Love the simplicity and effectiveness of this device.
-                          The 5-level control gives me perfect customization for
-                          different body areas. Excellent results!"
+                          "{t('ipl.emerald.reviews.love')}"
                         </p>
                       </div>
                     ))}
                     <div className="mt-6 text-center">
                       <button className="text-emerald-600 hover:text-emerald-700 font-medium text-sm">
-                        View All 186 Reviews
+                        {t('ipl.emerald.reviews.viewAll')}
                       </button>
                     </div>
                   </div>
@@ -499,7 +489,7 @@ const EmeraldIPL: React.FC = () => {
 
             {/* Package Contents */}
             <div className="space-y-6">
-              <h2 className="text-2xl font-bold">What's Included</h2>
+              <h2 className="text-2xl font-bold">{t('ipl.emerald.packageContents')}</h2>
               <img
                 src="/images/emerald-ipl/package-contents.jpg"
                 alt="Package Contents"
@@ -529,13 +519,13 @@ const EmeraldIPL: React.FC = () => {
       <section className="bg-gradient-to-r from-emerald-500 to-emerald-600 py-16">
         <div className="max-w-2xl mx-auto text-center px-4">
           <h2 className="text-3xl font-bold text-white mb-4 tracking-tight">
-            Ready for Professional Results at Home?
+            {t('ipl.emerald.cta.ready')}
           </h2>
           <p className="text-lg text-white mb-8">
-            Join thousands who've chosen Emerald IPL for effective, convenient hair removal.
+            {t('ipl.emerald.cta.join')}
           </p>
           <button className="bg-white text-emerald-600 font-semibold px-8 py-3 rounded-full transition hover:opacity-90">
-            Order Now – Free Shipping
+            {t('ipl.emerald.cta.order')}
           </button>
         </div>
       </section>
