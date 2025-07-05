@@ -92,7 +92,7 @@ export default function HomePage() {
         </div>
         {/* 内容层 */}
         <div className="max-w-2xl text-center z-10 relative">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">OEM/ODM IPL Hair Removal Devices for Cosmetics & Essential Oil Brands</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">Custom IPL Hair Removal Devices for Cosmetics Brands</h1>
           <p className="text-lg md:text-2xl mb-8 font-medium drop-shadow">Empowering your brand with premium, customizable IPL home beauty devices. One-stop solution from design to global delivery.</p>
           <a href="#contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-full shadow-lg hover:bg-blue-100 transition">Get a Free Quote</a>
         </div>
