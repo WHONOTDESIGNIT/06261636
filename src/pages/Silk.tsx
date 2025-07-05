@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unknown-property */
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
-import { forwardRef, useRef, useMemo, useLayoutEffect } from "react";
+import { forwardRef, useRef, useMemo, useLayoutEffect, type MutableRefObject } from "react";
 import { Color, Mesh } from "three";
 
 const hexToNormalizedRGB = (hex: string) => {
@@ -71,9 +71,9 @@ void main() {
 
 type SilkPlaneProps = { uniforms: any };
 
-const SilkPlane = forwardRef<THREE.Mesh, SilkPlaneProps>(function SilkPlane({ uniforms }, ref) {
+const SilkPlane = forwardRef<Mesh, SilkPlaneProps>(function SilkPlane({ uniforms }, ref) {
   const { viewport } = useThree();
-  const localRef = useRef<THREE.Mesh>(null);
+  const localRef = useRef<Mesh>(null);
 
   // 让外部 ref 指向 mesh
   useLayoutEffect(() => {
@@ -81,7 +81,7 @@ const SilkPlane = forwardRef<THREE.Mesh, SilkPlaneProps>(function SilkPlane({ un
     if (typeof ref === "function") {
       ref(localRef.current);
     } else {
-      (ref as React.MutableRefObject<THREE.Mesh | null>).current = localRef.current;
+      (ref as MutableRefObject<Mesh | null>).current = localRef.current;
     }
   }, [ref]);
 
@@ -132,7 +132,7 @@ const Silk = ({
   noiseIntensity = 1.5,
   rotation = 0,
 }: SilkProps) => {
-  const meshRef = useRef<THREE.Mesh>(null);
+  const meshRef = useRef<Mesh>(null);
 
   const uniforms = useMemo(
     () => ({
