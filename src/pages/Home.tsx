@@ -227,7 +227,7 @@ export default function HomePage() {
 
       {/* Contact / CTA */}
       <section id="contact" className="py-16 bg-white">
-        <div className="max-w-2xl mx-auto px-4">
+        <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-6">Contact Us</h2>
           <p className="text-center text-gray-700 mb-8">Ready to empower your brand? Get in touch for a free consultation and quote.</p>
           <ContactFormA />
