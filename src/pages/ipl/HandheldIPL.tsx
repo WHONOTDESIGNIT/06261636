@@ -3,12 +3,12 @@ import {
   ChevronLeft,
   ChevronRight,
   Star,
+  ShoppingCart,
   Plus,
   Minus,
   Shield,
   Truck,
   Award,
-  Info,
 } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 import { useTranslation } from '../../hooks/useTranslation';
