@@ -2,22 +2,31 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, Users, Globe, Target } from 'lucide-react';
 import ContactFormA from '../components/Forms/ContactFormA';
+import { useLanguage } from '../context/LanguageContext';
 
 const About: React.FC = () => {
+  const { t } = useLanguage();
+
   const values = [
-    { icon: Award, title: 'Quality Excellence', description: 'FDA GMP certified manufacturing with rigorous quality control' },
-    { icon: Users, title: 'Customer Focus', description: 'Dedicated to understanding and exceeding customer expectations' },
-    { icon: Globe, title: 'Global Impact', description: 'Serving beauty brands worldwide with innovative IPL solutions' },
-    { icon: Target, title: 'Innovation Drive', description: 'Continuous R&D investment in next-generation IPL technology' }
+    { icon: Award, title: t('about.values.qualityTitle'), description: t('about.values.qualityDesc') },
+    { icon: Users, title: t('about.values.customerTitle'), description: t('about.values.customerDesc') },
+    { icon: Globe, title: t('about.values.globalTitle'), description: t('about.values.globalDesc') },
+    { icon: Target, title: t('about.values.innovationTitle'), description: t('about.values.innovationDesc') }
   ];
 
   const milestones = [
-    { year: '2018', title: 'Company Founded', description: 'iShine established as IPL device manufacturer' },
-    { year: '2019', title: 'First International Client', description: 'Partnership with KU-2 Cosmetic in Germany' },
-    { year: '2020', title: 'FDA GMP Certification', description: 'Achieved FDA GMP clean room certification' },
-    { year: '2021', title: 'Smart IPL Launch', description: 'Introduced first app-controlled IPL devices' },
-    { year: '2022', title: 'Global Expansion', description: 'Partnerships with Costco and ROSESKINCO' },
-    { year: '2023', title: 'AI Integration', description: 'Launched AI-powered IPL technology' }
+    { year: '2018', title: t('about.milestones.2018.title'), description: t('about.milestones.2018.desc') },
+    { year: '2019', title: t('about.milestones.2019.title'), description: t('about.milestones.2019.desc') },
+    { year: '2020', title: t('about.milestones.2020.title'), description: t('about.milestones.2020.desc') },
+    { year: '2021', title: t('about.milestones.2021.title'), description: t('about.milestones.2021.desc') },
+    { year: '2022', title: t('about.milestones.2022.title'), description: t('about.milestones.2022.desc') },
+    { year: '2023', title: t('about.milestones.2023.title'), description: t('about.milestones.2023.desc') }
+  ];
+
+  const team = [
+    { role: t('about.team.rnd'), count: '15+', description: t('about.team.rndDesc') },
+    { role: t('about.team.quality'), count: '8+', description: t('about.team.qualityDesc') },
+    { role: t('about.team.customer'), count: '10+', description: t('about.team.customerDesc') }
   ];
 
   return (
@@ -31,9 +40,9 @@ const About: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">About iShine</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('about.heroTitle')}</h1>
             <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
-              Your trusted partner in IPL device manufacturing, bringing innovative beauty technology from concept to market since 2018.
+              {t('about.heroDesc')}
             </p>
           </motion.div>
         </div>
@@ -48,20 +57,15 @@ const About: React.FC = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">{t('about.storyTitle')}</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2018, iShine emerged from a vision to democratize advanced IPL technology. 
-                We recognized that beauty brands needed a reliable partner who could transform their ideas 
-                into market-ready products with precision and excellence.
+                {t('about.storyP1')}
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Today, we're proud to serve clients across three continents, from innovative startups 
-                to established beauty conglomerates. Our commitment to quality, innovation, and customer 
-                success drives everything we do.
+                {t('about.storyP2')}
               </p>
               <p className="text-lg text-gray-600">
-                At iShine, we don't just manufacture devices – we craft solutions that empower brands 
-                to succeed in the competitive beauty market.
+                {t('about.storyP3')}
               </p>
             </motion.div>
 
@@ -91,9 +95,9 @@ const About: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Core Values</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('about.valuesTitle')}</h2>
             <p className="text-lg text-gray-600">
-              The principles that guide our work and relationships with clients
+              {t('about.valuesDesc')}
             </p>
           </motion.div>
 
@@ -124,9 +128,9 @@ const About: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Journey</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('about.journeyTitle')}</h2>
             <p className="text-lg text-gray-600">
-              Key milestones in our growth and innovation
+              {t('about.journeyDesc')}
             </p>
           </motion.div>
 
@@ -167,28 +171,24 @@ const About: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Expert Team</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('about.teamTitle')}</h2>
             <p className="text-lg text-gray-600">
-              Dedicated professionals committed to your success
+              {t('about.teamDesc')}
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              { role: 'R&D Engineers', count: '15+', description: 'Expert engineers developing cutting-edge IPL technology' },
-              { role: 'Quality Specialists', count: '8+', description: 'Ensuring every device meets the highest standards' },
-              { role: 'Customer Success', count: '10+', description: 'Dedicated support from concept to market launch' }
-            ].map((team, index) => (
+            {team.map((member, index) => (
               <motion.div
-                key={team.role}
+                key={member.role}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="bg-white rounded-lg p-8 text-center hover:shadow-lg transition-shadow"
               >
-                <div className="text-4xl font-bold text-ishine-blue-500 mb-2">{team.count}</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">{team.role}</h3>
-                <p className="text-gray-600">{team.description}</p>
+                <div className="text-4xl font-bold text-ishine-blue-500 mb-2">{member.count}</div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">{member.role}</h3>
+                <p className="text-gray-600">{member.description}</p>
               </motion.div>
             ))}
           </div>
