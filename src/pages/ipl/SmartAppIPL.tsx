@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from '../../hooks/useTranslation';
 import {
   ChevronLeft,
   ChevronRight,
@@ -6,11 +7,7 @@ import {
   Plus,
   Minus,
   Shield,
-  Truck,
-  Award,
-  Smartphone,
 } from 'lucide-react';
-import { useTranslation } from '../../hooks/useTranslation';
 
 const SmartAppIPL: React.FC = () => {
   const { t } = useTranslation();
