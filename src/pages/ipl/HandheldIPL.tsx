@@ -1,15 +1,5 @@
 import React, { useState } from 'react';
-import {
-  ChevronLeft,
-  ChevronRight,
-  Star,
-  ShoppingCart,
-  Plus,
-  Minus,
-  Shield,
-  Truck,
-  Award,
-} from 'lucide-react';
+import { ChevronLeft, ChevronRight, Star, Plus, Minus, Shield, Truck, Award } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 import { useTranslation } from '../../hooks/useTranslation';
 
