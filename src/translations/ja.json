@@ -1,15 +1,15 @@
 {
   "meta": {
-    "title": "iShine - IPLデバイス製造ソリューション | アイデアから市場まで",
-    "description": "アイデアから市場まで完全なOEM/ODMソリューションを提供する大手IPLデバイスメーカー。グローバル美容ブランド向けカスタムIPL脱毛デバイス。",
-    "keywords": "IPLデバイス, OEM製造, ODMソリューション, 脱毛, 美容デバイス, カスタム製造"
+    "title": "iShine - IPLデバイス製造ソリューション | アイデアから市場へ",
+    "description": "アイデアから市場までOEM/ODMソリューションを提供する大手IPLデバイスメーカー。グローバルな美容ブランド向けのカスタムIPL脱毛デバイス。",
+    "keywords": "IPLデバイス、OEM製造、ODMソリューション、脱毛、美容デバイス、カスタム製造"
   },
   "header": {
     "navigation": {
       "solutions": "ソリューション",
       "iplHairRemoval": "IPL脱毛",
       "howToUse": "使用方法",
-      "serviceSupport": "サービス・サポート",
+      "serviceSupport": "サービス＆サポート",
       "about": "会社概要",
       "contact": "お問い合わせ"
     },
@@ -18,9 +18,9 @@
       "packaging": "パッケージングソリューション",
       "dropShipping": "ドロップシッピング",
       "globalShipping": "グローバル配送",
-      "brandCustomization": "ブランドカスタマイゼーション",
-      "compliance": "コンプライアンス・認証",
-      "designPrototyping": "デザイン・プロトタイピング",
+      "brandCustomization": "ブランドカスタマイズ",
+      "compliance": "コンプライアンスと認証",
+      "designPrototyping": "設計とプロトタイピング",
       "multiHeadIPL": "マルチヘッドIPLカスタム",
       "dualLampIPL": "デュアルランプIPLカスタム"
     },
@@ -43,25 +43,25 @@
     },
     "serviceSupport": {
       "service": "サービス",
-      "afterSales": "アフターセールスサービス",
+      "afterSales": "アフターサービス",
       "fdaGmp": "FDA GMPクリーンルーム設計",
       "manufacturing": "IPLデバイス製造",
       "knowledgeBase": "ナレッジベース",
       "support": "サポート > 購入ガイド",
-      "beautySourcing": "美容ニッチ調達・アクセサリー",
+      "beautySourcing": "美容ニッチソーシング＆アクセサリー",
       "pricingGuide": "価格ガイド",
       "helpCenter": "ヘルプセンター",
       "gallery": "ギャラリー",
-      "videos": "動画",
+      "videos": "ビデオ",
       "blog": "ブログ",
-      "newsInsights": "ニュース・インサイト",
-      "industries": "サービス業界"
+      "newsInsights": "ニュース＆インサイト",
+      "industries": "対象産業"
     },
     "about": {
-      "founderMessage": "創設者メッセージ",
-      "technology": "私たちの技術",
-      "globalWitness": "グローバル証人",
-      "corePrinciples": "核心原則",
+      "founderMessage": "創業者メッセージ",
+      "technology": "当社の技術",
+      "globalWitness": "グローバルな証",
+      "corePrinciples": "コアプリンシプル",
       "company": "iShineについて",
       "brandStory": "ブランドストーリー",
       "quality": "品質"
@@ -69,7 +69,7 @@
   },
   "footer": {
     "company": {
-      "description": "アイデアから市場まで完全なOEM/ODMソリューションを提供する大手IPLデバイスメーカー。",
+      "description": "アイデアから市場までOEM/ODMソリューションを提供する大手IPLデバイスメーカー。",
       "products": "製品",
       "services": "サービス",
       "company": "会社"
@@ -80,7 +80,7 @@
       "gallery": "ギャラリー"
     },
     "services": {
-      "afterSales": "アフターセールスサービス",
+      "afterSales": "アフターサービス",
       "manufacturing": "IPL製造",
       "buyingGuide": "購入ガイド",
       "helpCenter": "ヘルプセンター"
@@ -92,68 +92,49 @@
       "blog": "ブログ"
     },
     "legal": {
-      "copyright": "© 2025 iShine. 全著作権所有。",
+      "copyright": "© 2025 iShine. 無断複写・転載を禁じます。",
       "privacyPolicy": "プライバシーポリシー",
       "termsOfService": "利用規約"
     }
   },
   "home": {
     "hero": {
-      "title": "カスタムIPLデバイス",
-      "subtitle": "& ブランドIPLデバイス",
-      "description": "世界をリードするIPLデバイスメーカー、\n設計、製造、パッケージングをサポートします。",
-      "getQuote": "見積もり取得"
+      "title1": "カスタムIPLデバイス",
+      "title2": "とブランディングIPLデバイス",
+      "subtitle": "世界をリードするIPLデバイスメーカーが、設計、製造、梱包をお手伝いします。",
+      "cta": "見積もりを取得"
     },
     "partners": {
-      "title": "グローバルブランドに信頼される",
-      "subtitle": "世界中の業界リーダーと協力"
+      "title": "グローバルブランドからの信頼",
+      "subtitle": "世界中の業界リーダーとの連携"
     },
     "features": {
-      "title": "なぜiShineを選ぶのか？",
-      "subtitle": "お客様のニーズに合わせた完全なIPL製造ソリューション",
-      "oemSolutions": {
-        "title": "OEM/ODMソリューション",
-        "description": "デザインからパッケージングまで完全カスタマイゼーション"
-      },
-      "experiencedTeam": {
-        "title": "経験豊富なチーム",
-        "description": "専門エンジニアとデザイナーがサービス提供"
-      },
-      "qualityAssurance": {
-        "title": "品質保証",
-        "description": "FDA GMP認証クリーンルーム製造"
-      },
-      "globalReach": {
-        "title": "グローバルリーチ",
-        "description": "ヨーロッパ、北米、アジアのクライアントにサービス提供"
-      }
+      "title": "iShineを選ぶ理由",
+      "subtitle": "お客様のニーズに合わせた完全なIPL製造ソリューション"
     },
     "products": {
-      "title": "IPLデバイスラインナップ",
-      "subtitle": "あらゆる市場ニーズに対応するカスタマイズ可能なIPLデバイス",
-      "viewAll": "すべてのIPLデバイスを見る"
+      "title": "当社のIPLデバイスレンジ",
+      "subtitle": "あらゆるニーズに対応する幅広いIPLデバイス",
+      "cta": "すべてのIPLデバイスを見る"
     },
     "cta": {
-      "title": "IPLプロジェクトを始める準備はできましたか？",
-      "subtitle": "お客様の要件を話し合い、ブランドに最適なIPLソリューションを作成しましょう",
-      "button": "相談予約"
+      "title": "お困りですか？",
+      "subtitle": "お客様の要件について話し合い、お客様のブランドに最適なIPLソリューションを作成しましょう。",
+      "button": "無料相談を受けるには、フォームにご記入ください"
     }
   },
   "contact": {
     "hero": {
       "title": "お問い合わせ",
-      "description": "IPLプロジェクトについて話し合う準備はできましたか？専門チームにお問い合わせください。私たちがお手伝いいたします。"
-    },
-    "image": {
-      "alt": "iShine製造施設"
+      "description": "IPLプロジェクトについて話し合う準備はできましたか？今すぐ当社の専門チームにご連絡ください。お客様のビジョンを実現するためにお手伝いします。"
     },
     "info": {
       "title": "お問い合わせ",
-      "subtitle": "複数の連絡方法 - 最適な方法をお選びください",
+      "subtitle": "お問い合わせ方法は複数あります。最適な方法をお選びください",
       "address": {
         "title": "住所",
         "company": "iShine Manufacturing Co., Ltd.",
-        "location": "中国広東省深圳市"
+        "location": "中国広東省深セン市"
       },
       "phone": {
         "title": "電話"
@@ -163,108 +144,171 @@
       },
       "hours": {
         "title": "営業時間",
-        "weekdays": "月曜日 - 金曜日: 9:00 - 18:00",
-        "saturday": "土曜日: 9:00 - 12:00"
+        "weekdays": "月曜日～金曜日：午前9時～午後6時",
+        "saturday": "土曜日：午前9時～午後12時"
       }
     },
     "map": {
       "title": "施設見学",
-      "subtitle": "深圳製造業地区の中心部に位置"
+      "subtitle": "深センの製造地区の中心部に位置しています"
     },
     "form": {
-      "title": "何かお考えですか？お話ししましょう！",
-      "subtitle": "このフォームに記入してプロセスを開始してください。24時間以内にご連絡いたします。",
+      "title": "ご意見をお聞かせください。お気軽にご連絡ください！",
+      "subtitle": "プロセスを開始するには、このフォームにご記入ください。24時間以内にご連絡いたします。",
       "name": "お名前*",
       "email": "メールアドレス*",
-      "phone": "電話番号* 例:(+1-541-3456-3001)",
+      "phone": "電話番号* 例：(+1-541-3456-3001)",
       "country": "国",
-      "message": "ご要望をここに記述してください*",
+      "message": "ご要望をご記入ください*",
       "submit": "送信",
-      "sending": "送信中...",
-      "submitSuccess": "お問い合わせありがとうございます！24時間以内にご連絡いたします。",
-      "errors": {
-        "name": "お名前を入力してください",
-        "email": "有効なメールアドレスを入力してください",
-        "phone": "有効な電話番号を入力してください",
-        "message": "メッセージを入力してください"
-      }
-    }
+      "sending": "送信中..."
+    },
+    "title": "お問い合わせ",
+    "subtitle": "ビジネスに関するお問い合わせ、サポート、またはパートナーシップの機会については、当社のチームにお問い合わせください。",
+    "companyPhotoAlt": "iShine Manufacturingの施設"
   },
   "buttons": {
-    "getQuote": "見積もり取得",
+    "getQuote": "見積もりを取得",
     "viewSolutions": "ソリューションを見る",
-    "scheduleConsultation": "相談予約",
+    "scheduleConsultation": "相談を予約",
     "submit": "送信",
     "sending": "送信中...",
-    "viewAll": "すべて見る"
+    "viewAll": "すべて表示"
   },
   "common": {
     "loading": "読み込み中...",
     "error": "エラーが発生しました",
     "success": "成功",
     "readMore": "続きを読む",
-    "learnMore": "詳細を見る",
+    "learnMore": "詳細はこちら",
     "getStarted": "始める",
     "contactUs": "お問い合わせ"
   },
   "solutions": {
-    "compliance": {
-      "title": "グローバルコンプライアンスソリューション",
-      "subtitle": "iShineは、ブランド、輸入業者、卸売業者が、各主要市場で家庭用IPLデバイスの適切な認証を迅速かつ確実に取得するお手伝いをします。",
-      "certTable": {
-        "title": "国別の主要規制と認証",
-        "headers": {
-          "country": "国/地域",
-          "certification": "認証",
-          "notes": "備考"
-        },
-        "countries": {
-          "unitedstates": "アメリカ合衆国",
-          "canada": "カナダ",
-          "australia": "オーストラリア",
-          "europeanunion": "欧州連合",
-          "unitedkingdom": "イギリス",
-          "china": "中国",
-          "japan": "日本",
-          "southkorea": "韓国",
-          "brazil": "ブラジル",
-          "gccmiddleeast": "GCC（中東）"
-        },
-        "notes": {
-          "unitedstates": "医療機器；永久脱毛や医療グレードの性能を謳う場合は510(k)承認が必要。",
-          "canada": "医療機器ライセンス（MDL）が医療用途に必要；ヘルスカナダの監督下。",
-          "australia": "医療機器としてTGA（医療品管理局）の登録が必要。",
-          "europeanunion": "医療機器としてMDR Annex XVIに基づくCEマーク；それ以外は化粧品/電気機器として。",
-          "unitedkingdom": "ブレグジット後の市場向けUKCA；CE/MDRと同様。",
-          "china": "医療機器として国家薬品監督管理局（NMPA）の登録が必要。",
-          "japan": "医療機器として医薬品医療機器総合機構（PMDA）の承認が必要。",
-          "southkorea": "食品医薬品安全処（MFDS）の登録が必要。",
-          "brazil": "医療機器としてANVISAの登録が必要。",
-          "gccmiddleeast": "医療機器としてサウジ食品医薬品局（SFDA）またはGCCマークが必要。"
-        }
+    "productDesignDevelopment": "製品設計と開発",
+    "productDesignDevelopmentDescription": "初期コンセプトから最終設計まで、当社の専門チームが最先端の技術と市場の洞察力で、お客様のIPLビジョンを実現します。",
+    "oemManufacturing": "OEM製造",
+    "oemManufacturingDescription": "お客様の仕様に合わせた完全な製造ソリューション。お客様がブランドと市場に集中できるよう、当社が生産を処理します。",
+    "odmSolutions": "ODMソリューション",
+    "odmSolutionsDescription": "実績のあるIPL設計から選択し、お客様のブランディング、パッケージング、および独自の機能でカスタマイズします。",
+    "endToEndSupport": "エンドツーエンドのサポート",
+    "endToEndSupportDescription": "初期相談から製品の発売、そしてその先まで、完全なプロジェクト管理を行い、お客様の成功をあらゆる段階で保証します。",
+    "consultation": "コンサルティング",
+    "consultationDescription": "お客様のビジョン、市場、および要件を理解します",
+    "design": "設計",
+    "designDescription": "カスタム設計を作成するか、既存のソリューションを適合させます",
+    "prototype": "プロトタイプ",
+    "prototypeDescription": "品質を保証するためにプロトタイプを構築およびテストします",
+    "manufacturing": "製造",
+    "manufacturingDescription": "品質保証付きのフルスケール生産",
+    "launch": "発売",
+    "launchDescription": "お客様の市場参入と継続的な成功をサポートします",
+    "completeIPLSolutions": "完全なIPLソリューション",
+    "completeIPLSolutionsDescription": "初期コンセプトから市場投入まで、お客様のIPLビジョンを成功する製品に変える包括的なOEM/ODMソリューションを提供します。",
+    "ourSolutionPortfolio": "当社のソリューションポートフォリオ",
+    "comprehensiveServices": "お客様のIPL製品を市場に投入するための包括的なサービス",
+    "ourProcess": "当社のプロセス",
+    "streamlinedWorkflow": "プロジェクトの成功を保証するための合理化されたワークフロー",
+    "industriesWeServe": "サービスを提供する業界",
+    "tailoredSolutions": "多様な市場セグメントに合わせたソリューション",
+    "provenSuccess": "実績のある成功",
+    "numbersSpeak": "当社の専門知識とコミットメントを示す数字",
+    "globalClients": "グローバルクライアント",
+    "productsLaunched": "発売された製品",
+    "qualityRate": "品質率",
+    "yearsExperience": "長年の経験"
+  },
+  "about": {
+    "heroTitle": "iShineについて",
+    "heroDesc": "2018年以来、革新的な美容技術をコンセプトから市場に投入してきた、IPLデバイス製造における信頼できるパートナー。",
+    "storyTitle": "私たちの物語",
+    "storyP1": "2018年に設立されたiShineは、高度なIPL技術を民主化するというビジョンから生まれました。私たちは、美容ブランドが、アイデアを正確かつ優れた市場対応製品に変えることができる信頼できるパートナーを必要としていることを認識しました。",
+    "storyP2": "今日、私たちは革新的なスタートアップから確立された美容複合企業まで、3つの大陸にわたるクライアントにサービスを提供できることを誇りに思っています。品質、革新、および顧客の成功への当社のコミットメントは、私たちが行うすべてのことを推進します。",
+    "storyP3": "iShineでは、単にデバイスを製造するだけでなく、競争の激しい美容市場でブランドが成功するためのソリューションを創造しています。",
+    "valuesTitle": "当社のコアバリュー",
+    "valuesDesc": "当社の業務とお客様との関係を導く原則",
+    "values": {
+      "qualityTitle": "卓越した品質",
+      "qualityDesc": "厳格な品質管理によるFDA GMP認証取得の製造",
+      "customerTitle": "顧客重視",
+      "customerDesc": "お客様の期待を理解し、それを超えることに尽力",
+      "globalTitle": "グローバルな影響",
+      "globalDesc": "革新的なIPLソリューションで世界中の美容ブランドに貢献",
+      "innovationTitle": "革新への推進",
+      "innovationDesc": "次世代IPL技術への継続的な研究開発投資"
+    },
+    "journeyTitle": "私たちの歩み",
+    "journeyDesc": "当社の成長と革新における主要なマイルストーン",
+    "milestones": {
+      "2018": {
+        "title": "会社設立",
+        "desc": "iShine、IPLデバイスメーカーとして設立"
       },
-      "strengths": {
-        "title": "なぜiShineのコンプライアンスを選ぶのか？",
-        "point1": "• 認証済み：ISO 13485、FDA（米国）、MDL（カナダ）、TGA（豪州）を既に取得。",
-        "point2": "• 深い規制知識—グローバル認証プロセスを迅速に進行。",
-        "point3": "• 完全な文書サポート：リスク分析、ラベリング、臨床データ、技術文書。",
-        "point4": "• 時間節約—高額な遅延とコンプライアンスの落とし穴を回避。",
-        "point5": "• すべてのB2B顧客に無料の規制コンサルティング。"
+      "2019": {
+        "title": "初の海外クライアント",
+        "desc": "ドイツのKU-2 Cosmeticとの提携"
       },
-      "tip": {
-        "important": "重要：",
-        "content": "製品リストやマーケティングで「永久脱毛」や「医療グレード」などの表現を避ければ、多くの国でIPLデバイスが医療機器として分類されない可能性があります。これにより、一部の市場では医療認証なしで合法的に販売できます。詳細は規制チームにご相談ください。",
-        "note": "コンプライアンス、文書、または認証戦略に関するご質問は、専門家が無料で最新のコンサルティングを提供いたします。"
+      "2020": {
+        "title": "FDA GMP認証",
+        "desc": "FDA GMPクリーンルーム認証を取得"
       },
-      "cta": {
-        "title": "IPLデバイスの迅速で確実な認証が必要ですか？",
-        "subtitle": "無料の規制コンサルティングとグローバルコンプライアンスへの明確なロードマップについて、iShineにお問い合わせください。",
-        "button": "コンプライアンスサポートを受ける"
+      "2021": {
+        "title": "スマートIPLの発売",
+        "desc": "初のアプリ制御IPLデバイスを発表"
+      },
+      "2022": {
+        "title": "グローバル展開",
+        "desc": "CostcoおよびROSESKINCOとの提携"
+      },
+      "2023": {
+        "title": "AI統合",
+        "desc": "AI搭載IPL技術を発表"
       }
+    },
+    "teamTitle": "当社の専門チーム",
+    "teamDesc": "お客様の成功に尽力する専門家",
+    "team": {
+      "rnd": "研究開発エンジニア",
+      "rndDesc": "最先端のIPL技術を開発する専門エンジニア",
+      "quality": "品質スペシャリスト",
+      "qualityDesc": "すべてのデバイスが最高の基準を満たすことを保証",
+      "customer": "カスタマーサクセス",
+      "customerDesc": "コンセプトから市場投入まで、献身的なサポート"
     }
   },
   "countryPage": {
-    "title": "iShine - IPL Device Manufacturing Solutions | Global",
-    "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide."
+    "title": "iShine - IPLデバイス製造ソリューション | グローバル",
+    "description": "アイデアから世界中の市場まで、OEM/ODMソリューションを提供する大手IPLデバイスメーカー。"
+  },
+  "howToUse": {
+    "heroTitle": "IPLデバイスの使用方法",
+    "heroDescription": "安全で効果的なIPL脱毛のための完全ガイド。適切なテクニック、安全ガイドラインを学び、IPLデバイスから最高の結果を得てください。",
+    "stepByStepTitle": "ステップバイステップの説明",
+    "stepByStepDescription": "安全で効果的なIPL治療のために、これらのステップに従ってください",
+    "safetyGuidelinesTitle": "安全ガイドライン",
+    "safetyGuidelinesDescription": "IPL治療のための重要な安全情報",
+    "treatmentScheduleTitle": "推奨される治療スケジュール",
+    "treatmentScheduleDescription": "最適な脱毛結果を得るには、このスケジュールに従ってください",
+    "troubleshootingTitle": "トラブルシューティングガイド",
+    "troubleshootingDescription": "一般的な問題とその解決策",
+    "faqTitle": "よくある質問",
+    "faqDescription": "一般的なIPL治療の質問への回答を入手",
+    "videoTutorialsTitle": "ビデオチュートリアル",
+    "videoTutorialsDescription": "適切なIPL使用のためのステップバイステップのビデオガイドをご覧ください"
+  },
+  "iplHairRemoval": {
+    "heroTitle": "プロフェッショナルIPL脱毛ソリューション",
+    "heroDescription": "安全で効果的、そしてすべての肌タイプ向けに設計された次世代のIPL脱毛デバイスを発見してください。ご自宅やビジネスでサロン品質の結果を体験してください。",
+    "iplDevicesTitle": "当社のIPLデバイスの範囲",
+    "iplDevicesDescription": "最大限の快適さと結果のために設計された、高度なIPL脱毛デバイスのフルラインナップをご覧ください。",
+    "accessoriesTitle": "必須IPLアクセサリー",
+    "accessoriesDescription": "安全性と利便性のために認定されたアクセサリーの範囲で、IPL体験を向上させます。",
+    "advancedIplTitle": "高度なIPL技術",
+    "smartTechnologyIntegration": "スマート技術統合",
+    "smartTechnologyIntegrationDescription": "当社のIPLデバイスは、パーソナライズされた安全で効果的な治療のために、インテリジェントセンサーとアプリ接続を備えています。",
+    "coolingComfortSystems": "冷却コンフォートシステム",
+    "coolingComfortSystemsDescription": "サファイアと金属プレートの冷却により、すべてのセッションで肌を快適に保護します。",
+    "intelligentSkinSensors": "インテリジェントスキンセンサー",
+    "intelligentSkinSensorsDescription": "自動肌色と毛髪検出により、すべてのユーザーに最適なエネルギー供給と安全性を保証します。"
   }
 }
