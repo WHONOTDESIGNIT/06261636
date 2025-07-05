@@ -193,7 +193,7 @@ export default function HomePage() {
       <section className="py-16 px-4 md:px-0">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="flex flex-col gap-6">
             {qaList.map((qa, i) => (
               <div
                 key={i}
