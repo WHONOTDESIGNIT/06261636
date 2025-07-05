@@ -60,7 +60,7 @@ const processSteps = [
 ];
 
 const testimonials = [
-  "“iShine helped us launch our IPL brand in record time. The quality and service are top”",
+  "“iShine helped us launch our IPL brand in record time. The quality and service are top-notch!”",
   "“The customization options are endless. Our clients love the unique packaging and features.”",
   "“Professional team, fast response, and reliable delivery. Highly recommended for OEM/ODM.”",
   "“We expanded to new markets thanks to iShine's certification and compliance support.”",
@@ -91,7 +91,7 @@ export default function HomePage() {
           <Silk speed={5} scale={1} color="#7B7481" noiseIntensity={1.5} rotation={0} />
         </div>
         {/* 内容层 */}
-        <div className="max-w-4xl text-center z-10 relative pt-20">
+        <div className="max-w-4xl text-center z-10 relative pt-14">
           <h1 className="text-2xl md:text-6xl font-bold mb-4 drop-shadow-lg">Custom IPL Hair Removal Devices for Cosmetics Brands</h1>
           <p className="text-lg md:text-2xl mb-8 font-medium drop-shadow">You design it, we build it and box it.</p>
           <a href="#contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-full shadow-lg hover:bg-blue-100 transition">Get a Free Quote</a>
@@ -103,13 +103,13 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
           <img src="/about-ipl.svg" alt="iShine IPL" className="w-full md:w-1/2 rounded-xl shadow-xl" />
           <div className="md:w-1/2">
-            <h2 className="text-3xl font-bold mb-4">Why Choose iShine?</h2>
             <p className="text-lg mb-4">iShine team work with the different industries brands owner, products development managers, products managers, category sourcing manager, retail compliance specialist, products designers together and offer them OEM ODM solution from molded IPL devices design, prototyping to IPL contract manufacturing, printing, package to ensure their IPL projects success. We have the capability for Custom ice cooling IPL, Custom multi-function IPL, Custom Sapphire IPL device, Custom Smart APP-connected IPL device, Custom Dual-lamp IPL, Custom Skin Sensor IPL device. Help you design it, build it and box it. From idea to market. iShine provide solutions that best fit for your brand identity.</p>
-            <ul className="space-y-2">
+            <ul className="space-y-2 mb-4">
               <li className="flex items-center gap-2"><Flame className="w-5 h-5 text-blue-700" /> Innovation-driven R&D</li>
               <li className="flex items-center gap-2"><Palette className="w-5 h-5 text-blue-700" /> Unlimited Customization</li>
               <li className="flex items-center gap-2"><BadgeCheck className="w-5 h-5 text-blue-700" /> Global Certifications</li>
             </ul>
+            <h2 className="text-3xl font-bold">Why Choose iShine?</h2>
           </div>
         </div>
       </section>
