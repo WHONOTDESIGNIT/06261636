@@ -7,6 +7,8 @@ import {
   Plus,
   Minus,
   Shield,
+  Truck,
+  Award,
 } from 'lucide-react';
 
 const SmartAppIPL: React.FC = () => {
