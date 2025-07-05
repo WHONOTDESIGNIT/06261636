@@ -8,10 +8,13 @@ import {
   Shield,
   Truck,
   Award,
+  Info,
 } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const HandheldIPL: React.FC = () => {
+  const { t } = useTranslation();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [activeSubTab, setActiveSubTab] = useState<'specifications' | 'safety' | 'reviews'>('specifications');
@@ -41,11 +44,11 @@ const HandheldIPL: React.FC = () => {
       <div className="container mx-auto px-4">
         {/* Breadcrumb */}
         <nav className="text-sm text-gray-500 mb-4 mt-4 uppercase">
-          <a href="/" className="hover:text-blue-600">Home</a>
+          <a href="/" className="hover:text-blue-600">{t('common.home')}</a>
           <span className="mx-2">/</span>
-          <a href="/ipl-hair-removal" className="hover:text-blue-600">IPL Hair Removal</a>
+          <a href="/ipl-hair-removal" className="hover:text-blue-600">{t('iplHairRemoval')}</a>
           <span className="mx-2">/</span>
-          <span className="text-gray-800">Handheld IPL Hair Removal Device</span>
+          <span className="text-gray-800">{t('ipl.handheld.title')}</span>
         </nav>
 
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
@@ -107,7 +110,7 @@ const HandheldIPL: React.FC = () => {
           <div className="space-y-6">
             <div>
               <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Handheld IPL Hair Removal Device
+                {t('ipl.handheld.title')}
               </h1>
               <div className="flex items-center space-x-3 mb-4">
                 <div className="flex items-center">
@@ -136,33 +139,33 @@ const HandheldIPL: React.FC = () => {
             <div className="space-y-4">
               <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl p-6 border border-blue-100">
                 <h3 className="text-lg font-semibold mb-3 flex items-center">
-                  <span className="w-5 h-5 mr-2 text-blue-600">🤲</span>
-                  ✨ Ergonomic Handheld Design - 5 Adjustable Energy Levels ✨
+                  <span className="w-5 h-5 mr-2 text-blue-600">🦲</span>
+                  ✨ {t('ipl.handheld.features.ergonomic')}
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Discover the perfect blend of comfort and performance with our <strong>handheld IPL device</strong>. Designed for easy grip and precise control, it features 5 adjustable energy levels to suit all skin types and sensitivities. Achieve salon-quality hair removal results at home with a lightweight, portable device.
+                  {t('ipl.handheld.desc')}
                 </p>
               </div>
               <ul className="space-y-3" style={{ listStyle: 'none', paddingLeft: 0 }}>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-3 mt-1">✔️</span>
-                  Ergonomic handheld design for comfortable use.
+                  {t('ipl.handheld.features.ergonomic')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-3 mt-1">✔️</span>
-                  5 adjustable energy levels for personalized treatments.
+                  {t('ipl.handheld.features.energyLevels')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-3 mt-1">✔️</span>
-                  Lightweight and portable—ideal for travel and home use.
+                  {t('ipl.handheld.features.portable')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-3 mt-1">✔️</span>
-                  Suitable for all skin tones, gentle and effective.
+                  {t('ipl.handheld.features.allSkin')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-3 mt-1">✔️</span>
-                  FDA & CE approved for safety and quality.
+                  {t('ipl.handheld.features.certified')}
                 </li>
               </ul>
             </div>
