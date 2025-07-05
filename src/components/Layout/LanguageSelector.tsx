@@ -44,7 +44,6 @@ const LanguageSelector: React.FC = () => {
     const [langCode, countryCode] = selectedCode.split('-');
     setLanguage(langCode, countryCode);
 
-    // 英文跳转到无前缀页面，其它语言带前缀
     let newPath = location.pathname;
     const pathSegments = newPath.split('/');
     if (pathSegments.length > 1 && languages.some(l => l.code.startsWith(pathSegments[1]))) {
@@ -56,6 +55,9 @@ const LanguageSelector: React.FC = () => {
       // 非英文加前缀
       if (!newPath.startsWith('/')) newPath = '/' + newPath;
       newPath = `/${langCode}${newPath}`;
+    } else {
+      // 英文不加前缀，确保没有 /en
+      newPath = newPath.replace(/^\/en/, '') || '/';
     }
     navigate(`${newPath}${location.search}`);
   };
