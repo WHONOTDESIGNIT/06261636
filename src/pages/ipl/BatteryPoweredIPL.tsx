@@ -10,8 +10,10 @@ import {
   Award,
   Info,
 } from 'lucide-react';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const BatteryPoweredIPL: React.FC = () => {
+  const { t } = useTranslation();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [activeSubTab, setActiveSubTab] = useState<'specifications' | 'safety' | 'reviews'>('specifications');
@@ -41,11 +43,11 @@ const BatteryPoweredIPL: React.FC = () => {
       <div className="container mx-auto px-4">
         {/* Breadcrumb */}
         <nav className="text-sm text-gray-500 mb-4 mt-4 uppercase">
-          <a href="/home" className="hover:text-blue-600">Home</a>
+          <a href="/home" className="hover:text-blue-600">{t('common.home')}</a>
           <span className="mx-2">/</span>
-          <a href="/ipl-hair-removal" className="hover:text-blue-600">IPL Hair Removal</a>
+          <a href="/ipl-hair-removal" className="hover:text-blue-600">{t('iplHairRemoval')}</a>
           <span className="mx-2">/</span>
-          <span className="text-gray-800">Battery-Powered IPL Hair Removal Device</span>
+          <span className="text-gray-800">{t('ipl.batteryPowered.title')}</span>
         </nav>
 
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
@@ -107,7 +109,7 @@ const BatteryPoweredIPL: React.FC = () => {
           <div className="space-y-6">
             <div>
               <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Battery-Powered IPL Hair Removal Device
+                {t('ipl.batteryPowered.title')}
               </h1>
               <div className="flex items-center space-x-3 mb-4">
                 <div className="flex items-center">
@@ -137,32 +139,32 @@ const BatteryPoweredIPL: React.FC = () => {
               <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl p-6 border border-blue-100">
                 <h3 className="text-lg font-semibold mb-3 flex items-center">
                   <span className="w-5 h-5 mr-2 text-blue-600">🔋</span>
-                  ✨ Built-in Rechargeable Battery - Freedom from Adapters ✨
+                  ✨ {t('ipl.batteryPowered.features.cordless')}
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Experience the ultimate cordless convenience with our <strong>battery-powered IPL device</strong>. Equipped with a high-capacity rechargeable battery, it offers seamless mobility without the need for power adapters. Enjoy professional-grade hair removal anywhere, anytime, with up to 9 adjustable energy levels for personalized treatments.
+                  {t('ipl.batteryPowered.desc')}
                 </p>
               </div>
               <ul className="space-y-3" style={{ listStyle: 'none', paddingLeft: 0 }}>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-3 mt-1">✔️</span>
-                  Cordless design for ultimate freedom and convenience.
+                  {t('ipl.batteryPowered.features.cordless')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-3 mt-1">✔️</span>
-                  9 adjustable energy levels for customized treatments.
+                  {t('ipl.batteryPowered.features.energyLevels')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-3 mt-1">✔️</span>
-                  Long-lasting rechargeable battery with 600+ recharge cycles.
+                  {t('ipl.batteryPowered.features.longBattery')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-3 mt-1">✔️</span>
-                  No need for power adapters during use, ideal for travel.
+                  {t('ipl.batteryPowered.features.noAdapter')}
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-3 mt-1">✔️</span>
-                  Suitable for all skin tones, FDA & CE approved.
+                  {t('ipl.batteryPowered.features.allSkin')}
                 </li>
               </ul>
             </div>
@@ -247,19 +249,19 @@ const BatteryPoweredIPL: React.FC = () => {
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-white rounded-full mr-3" />
-                    9 adjustable energy levels for personalized treatments.
+                    {t('ipl.batteryPowered.features.energyLevels')}
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-white rounded-full mr-3" />
-                    Long-lasting rechargeable battery with 600+ recharge cycles.
+                    {t('ipl.batteryPowered.features.longBattery')}
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-white rounded-full mr-3" />
-                    Compact and portable, perfect for travel and outdoor use.
+                    {t('ipl.batteryPowered.features.portable')}
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-white rounded-full mr-3" />
-                    Suitable for all skin tones, FDA & CE approved.
+                    {t('ipl.batteryPowered.features.allSkin')}
                   </li>
                 </ul>
               </div>
