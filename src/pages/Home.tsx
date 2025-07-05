@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown } from "lucide-react";
 import ContactFormA from '../components/Forms/ContactFormA';
 import { useTranslation } from '../hooks/useTranslation';
+import Silk from './Silk';
 
 const heroBg = "bg-gradient-to-br from-blue-700 via-indigo-500 to-purple-600";
 const sectionBg = "bg-white";
@@ -87,12 +88,16 @@ export default function HomePage() {
     <div className="font-inter bg-[#F8FAFC] text-[#22223B]">
       {/* Hero Section */}
       <section className={`${heroBg} min-h-[66vh] flex flex-col justify-center items-center text-white relative overflow-hidden`}>
-        <div className="max-w-2xl text-center z-10">
+        {/* Silk Canvas 背景 */}
+        <div className="absolute inset-0 z-0 pointer-events-none">
+          <Silk speed={5} scale={1} color="#7B7481" noiseIntensity={1.5} rotation={0} />
+        </div>
+        {/* 内容层 */}
+        <div className="max-w-2xl text-center z-10 relative">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">{t("home.hero.title")}</h1>
           <p className="text-lg md:text-2xl mb-8 font-medium drop-shadow">{t("home.hero.subtitle")}</p>
           <a href="#contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-full shadow-lg hover:bg-blue-100 transition">{t("home.hero.cta")}</a>
         </div>
-        <div className="absolute inset-0 bg-[url('/hero-bg.svg')] bg-cover bg-center opacity-10 pointer-events-none" />
       </section>
 
       {/* 品牌赋能/USP */}
