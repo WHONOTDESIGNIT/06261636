@@ -1,472 +1,249 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { 
-  BookOpen, 
-  Shield, 
-  Calendar, 
-  Heart, 
-  AlertTriangle, 
-  HelpCircle, 
-  Play,
-  CheckCircle,
-  Clock,
-  Thermometer,
-  Eye,
-  Zap
-} from 'lucide-react';
+import React, { useState } from "react";
+import { Flame, Palette, Box, BadgeCheck, Package, CheckCircle, ChevronDown, ChevronRight, Users, Star, MessageCircle, ArrowRight, ShieldCheck, Globe } from "lucide-react";
 import ContactFormA from '../components/Forms/ContactFormA';
-import { useLanguage } from '../context/LanguageContext';
+import { useTranslation } from '../hooks/useTranslation';
 
-const HowToUse: React.FC = () => {
-  const { t } = useLanguage();
+const heroBg = "bg-gradient-to-br from-blue-700 via-indigo-500 to-purple-600";
+const sectionBg = "bg-white";
+const accent = "text-blue-700";
+const gridShadow = "shadow-[0_4px_16px_rgba(26,77,255,0.08)]";
+const qaTheme = "bg-blue-700 text-white";
+const qaHover = "bg-white text-blue-700";
+const qaBadge = "bg-white text-blue-700";
+const qaBadgeHover = "bg-blue-700 text-white";
 
-  const steps = [
-    {
-      step: '01',
-      title: 'Preparation',
-      description: 'Clean and prepare the treatment area',
-      details: [
-        'Shave the treatment area 24-48 hours before use',
-        'Clean skin thoroughly with mild soap and water',
-        'Ensure skin is completely dry',
-        'Remove any makeup, lotions, or deodorants'
-      ],
-      icon: Heart
-    },
-    {
-      step: '02',
-      title: 'Device Setup',
-      description: 'Power on and configure your IPL device',
-      details: [
-        'Connect the device to power source',
-        'Press the power button to turn on',
-        'Select appropriate intensity level (start with lowest)',
-        'Ensure the treatment head is properly attached'
-      ],
-      icon: Zap
-    },
-    {
-      step: '03',
-      title: 'Skin Tone Test',
-      description: 'Perform a patch test for safety',
-      details: [
-        'Test on a small, inconspicuous area first',
-        'Wait 24 hours to check for adverse reactions',
-        'Adjust intensity if needed based on skin response',
-        'Proceed only if no irritation occurs'
-      ],
-      icon: Eye
-    },
-    {
-      step: '04',
-      title: 'Treatment Process',
-      description: 'Apply IPL treatment systematically',
-      details: [
-        'Place device firmly against skin',
-        'Press flash button for each pulse',
-        'Move to adjacent area without overlapping',
-        'Complete entire treatment area systematically'
-      ],
-      icon: CheckCircle
-    },
-    {
-      step: '05',
-      title: 'Post-Treatment Care',
-      description: 'Proper aftercare for optimal results',
-      details: [
-        'Apply cooling gel or aloe vera if needed',
-        'Avoid sun exposure for 24-48 hours',
-        'Use SPF 30+ sunscreen when going outside',
-        'Moisturize treated area regularly'
-      ],
-      icon: Shield
-    }
-  ];
+const productList = [
+  { img: "/ipl1.jpg", titleKey: "home.products.ipl1" },
+  { img: "/ipl2.jpg", titleKey: "home.products.ipl2" },
+  { img: "/ipl3.jpg", titleKey: "home.products.ipl3" },
+  { img: "/ipl4.jpg", titleKey: "home.products.ipl4" },
+  { img: "/ipl5.jpg", titleKey: "home.products.ipl5" },
+  { img: "/ipl6.jpg", titleKey: "home.products.ipl6" },
+];
 
-  const safetyGuidelines = [
-    {
-      icon: AlertTriangle,
-      title: 'Important Safety Warnings',
-      points: [
-        'Never use on tanned, sunburned, or irritated skin',
-        'Do not use on moles, tattoos, or dark spots',
-        'Avoid eye area and mucous membranes',
-        'Not suitable for pregnant or breastfeeding women',
-        'Consult doctor if you have skin conditions'
-      ]
-    },
-    {
-      icon: Eye,
-      title: 'Eye Protection',
-      points: [
-        'Always wear protective goggles when provided',
-        'Never look directly at the light flash',
-        'Keep device away from eye area',
-        'Ensure others in room are also protected'
-      ]
-    },
-    {
-      icon: Thermometer,
-      title: 'Skin Sensitivity',
-      points: [
-        'Start with lowest intensity setting',
-        'Gradually increase if well tolerated',
-        'Stop immediately if pain or discomfort occurs',
-        'Allow 48-72 hours between treatments on same area'
-      ]
-    }
-  ];
+const unlimitedOptions = [
+  {
+    labelKey: "home.options.color",
+    icon: <Palette className="w-6 h-6" />,
+    contentKey: "home.options.colorDesc"
+  },
+  {
+    labelKey: "home.options.logo",
+    icon: <BadgeCheck className="w-6 h-6" />,
+    contentKey: "home.options.logoDesc"
+  },
+  {
+    labelKey: "home.options.function",
+    icon: <Flame className="w-6 h-6" />,
+    contentKey: "home.options.functionDesc"
+  },
+  {
+    labelKey: "home.options.packaging",
+    icon: <Package className="w-6 h-6" />,
+    contentKey: "home.options.packagingDesc"
+  },
+  {
+    labelKey: "home.options.cert",
+    icon: <CheckCircle className="w-6 h-6" />,
+    contentKey: "home.options.certDesc"
+  },
+];
 
-  const treatmentSchedule = [
-    { week: 'Weeks 1-4', frequency: 'Once per week', description: 'Initial treatment phase for hair reduction' },
-    { week: 'Weeks 5-8', frequency: 'Every 2 weeks', description: 'Maintenance phase as hair growth slows' },
-    { week: 'Weeks 9-12', frequency: 'Every 3-4 weeks', description: 'Final phase for remaining hair follicles' },
-    { week: 'After 12 weeks', frequency: 'As needed', description: 'Touch-up treatments for new hair growth' }
-  ];
+const processSteps = [
+  { img: "/step1.jpg", titleKey: "home.process.step1", descKey: "home.process.step1Desc" },
+  { img: "/step2.jpg", titleKey: "home.process.step2", descKey: "home.process.step2Desc" },
+  { img: "/step3.jpg", titleKey: "home.process.step3", descKey: "home.process.step3Desc" },
+  { img: "/step4.jpg", titleKey: "home.process.step4", descKey: "home.process.step4Desc" },
+  { img: "/step5.jpg", titleKey: "home.process.step5", descKey: "home.process.step5Desc" },
+  { img: "/step6.jpg", titleKey: "home.process.step6", descKey: "home.process.step6Desc" },
+  { img: "/step7.jpg", titleKey: "home.process.step7", descKey: "home.process.step7Desc" },
+  { img: "/step8.jpg", titleKey: "home.process.step8", descKey: "home.process.step8Desc" },
+];
 
-  const troubleshooting = [
-    {
-      problem: 'Device not turning on',
-      solutions: [
-        'Check power connection and ensure device is plugged in',
-        'Verify power button is pressed firmly',
-        'Check if device needs charging (for battery models)',
-        'Contact customer support if issue persists'
-      ]
-    },
-    {
-      problem: 'No light flash when pressing button',
-      solutions: [
-        'Ensure device is in full contact with skin',
-        'Check if safety sensors are blocked',
-        'Verify treatment head is properly attached',
-        'Clean the light window and sensors'
-      ]
-    },
-    {
-      problem: 'Skin irritation after treatment',
-      solutions: [
-        'Apply cooling gel or aloe vera to soothe skin',
-        'Reduce intensity level for next treatment',
-        'Increase time between treatments',
-        'Discontinue use if irritation persists'
-      ]
-    },
-    {
-      problem: 'No visible results after several treatments',
-      solutions: [
-        'Ensure consistent treatment schedule',
-        'Verify you are using appropriate intensity level',
-        'Check that hair color is suitable for IPL (dark hair works best)',
-        'Be patient - results typically visible after 4-6 treatments'
-      ]
-    }
-  ];
+const testimonials = [
+  "home.testimonials.1",
+  "home.testimonials.2",
+  "home.testimonials.3",
+  "home.testimonials.4",
+  "home.testimonials.5",
+  "home.testimonials.6"
+];
 
-  const faqs = [
-    {
-      question: 'How long does each treatment session take?',
-      answer: 'Treatment time varies by area size. Face typically takes 5-10 minutes, legs 15-20 minutes, and full body can take 30-45 minutes.'
-    },
-    {
-      question: 'When will I see results?',
-      answer: 'Most users see initial hair reduction after 3-4 treatments. Significant results are typically visible after 6-8 treatments over 2-3 months.'
-    },
-    {
-      question: 'Is IPL treatment painful?',
-      answer: 'Most users describe the sensation as a mild rubber band snap. Modern IPL devices with cooling technology minimize discomfort significantly.'
-    },
-    {
-      question: 'Can I use IPL on all skin tones?',
-      answer: 'IPL works best on light to medium skin tones with dark hair. Always perform a patch test and consult the device manual for skin tone compatibility.'
-    },
-    {
-      question: 'How long do results last?',
-      answer: 'IPL provides long-lasting hair reduction. Most users enjoy smooth skin for 6-12 months, with occasional touch-up treatments as needed.'
-    },
-    {
-      question: 'Can I use IPL during summer?',
-      answer: 'Yes, but extra sun protection is essential. Avoid sun exposure 48 hours before and after treatment, and always use SPF 30+ sunscreen.'
-    }
-  ];
+const qaList = [
+  { qKey: "home.qa.q1", aKey: "home.qa.a1" },
+  { qKey: "home.qa.q2", aKey: "home.qa.a2" },
+  { qKey: "home.qa.q3", aKey: "home.qa.a3" },
+  { qKey: "home.qa.q4", aKey: "home.qa.a4" },
+  { qKey: "home.qa.q5", aKey: "home.qa.a5" },
+  { qKey: "home.qa.q6", aKey: "home.qa.a6" },
+];
+
+export default function HomePage() {
+  const { t } = useTranslation();
+  const [optionIdx, setOptionIdx] = useState(0);
+  const [qaOpen, setQaOpen] = useState<number | null>(null);
+  const [testimonialPage, setTestimonialPage] = useState(0);
 
   return (
-    <div className="min-h-screen pt-20">
+    <div className="font-inter bg-[#F8FAFC] text-[#22223B]">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-ishine-blue-500 to-ishine-teal-500 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-center"
-          >
-            <BookOpen className="w-16 h-16 mx-auto mb-6 text-white" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('howToUse.heroTitle')}</h1>
-            <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
-              {t('howToUse.heroDescription')}
-            </p>
-          </motion.div>
+      <section className={`${heroBg} min-h-[66vh] flex flex-col justify-center items-center text-white relative overflow-hidden`}>
+        <div className="max-w-2xl text-center z-10">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">{t("home.hero.title")}</h1>
+          <p className="text-lg md:text-2xl mb-8 font-medium drop-shadow">{t("home.hero.subtitle")}</p>
+          <a href="#contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-full shadow-lg hover:bg-blue-100 transition">{t("home.hero.cta")}</a>
+        </div>
+        <div className="absolute inset-0 bg-[url('/hero-bg.svg')] bg-cover bg-center opacity-10 pointer-events-none" />
+      </section>
+
+      {/* 品牌赋能/USP */}
+      <section className={`${sectionBg} py-16 px-4 md:px-0`}>
+        <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
+          <img src="/about-ipl.svg" alt="iShine IPL" className="w-full md:w-1/2 rounded-xl shadow-xl" />
+          <div className="md:w-1/2">
+            <h2 className="text-3xl font-bold mb-4">{t("home.usp.title")}</h2>
+            <p className="text-lg mb-4">{t("home.usp.desc")}</p>
+            <ul className="space-y-2">
+              <li className="flex items-center gap-2"><Flame className="w-5 h-5 text-blue-700" /> {t("home.usp.innovation")}</li>
+              <li className="flex items-center gap-2"><Palette className="w-5 h-5 text-blue-700" /> {t("home.usp.custom")}</li>
+              <li className="flex items-center gap-2"><BadgeCheck className="w-5 h-5 text-blue-700" /> {t("home.usp.cert")}</li>
+            </ul>
+          </div>
         </div>
       </section>
 
-      {/* Step-by-Step Instructions */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('howToUse.stepByStepTitle')}</h2>
-            <p className="text-lg text-gray-600">
-              {t('howToUse.stepByStepDescription')}
-            </p>
-          </motion.div>
+      {/* 产品展示 */}
+      <section className="py-16 px-4 md:px-0 bg-gradient-to-br from-blue-50 via-white to-purple-50">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold mb-8 text-center">{t("home.products.title")}</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            {productList.map((p, i) => (
+              <div key={i} className={`bg-white rounded-xl p-6 flex flex-col items-center ${gridShadow} hover:scale-105 transition-transform`}>
+                <img src={p.img} alt={t(p.titleKey)} className="w-24 h-24 object-contain mb-4 rounded-lg" />
+                <h3 className="font-bold text-lg">{t(p.titleKey)}</h3>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-          <div className="space-y-8">
-            {steps.map((step, index) => (
-              <motion.div
-                key={step.step}
-                initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className={`flex flex-col lg:flex-row items-center gap-8 ${
-                  index % 2 === 1 ? 'lg:flex-row-reverse' : ''
-                }`}
+      {/* 定制选项 */}
+      <section className="py-16 px-4 md:px-0 bg-gradient-to-r from-blue-100 via-white to-purple-100">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold mb-2 text-center">{t("home.options.title")}</h2>
+          <p className="text-center mb-8 text-lg">{t("home.options.desc")}</p>
+          <div className="flex flex-wrap justify-center gap-4 mb-8">
+            {unlimitedOptions.map((opt, idx) => (
+              <button
+                key={opt.labelKey}
+                className={`flex items-center gap-2 px-5 py-3 rounded-full font-semibold border transition ${optionIdx === idx ? "bg-blue-700 text-white" : "bg-white text-blue-700 border-blue-700"} hover:bg-blue-700 hover:text-white`}
+                onClick={() => setOptionIdx(idx)}
               >
-                <div className="flex-1">
-                  <div className="flex items-center mb-4">
-                    <div className="w-12 h-12 bg-ishine-blue-500 text-white rounded-full flex items-center justify-center text-xl font-bold mr-4">
-                      {step.step}
-                    </div>
-                    <step.icon className="w-8 h-8 text-ishine-blue-500 mr-3" />
-                    <h3 className="text-2xl font-semibold text-gray-900">{step.title}</h3>
+                {opt.icon}
+                {t(opt.labelKey)}
+              </button>
+            ))}
+          </div>
+          <div className="max-w-2xl mx-auto bg-white rounded-xl p-6 shadow-lg text-center text-lg min-h-[80px] flex items-center justify-center transition-all">
+            {t(unlimitedOptions[optionIdx].contentKey)}
+          </div>
+        </div>
+      </section>
+
+      {/* OEM/ODM 流程 */}
+      <section className="py-16 px-4 md:px-0 bg-gradient-to-br from-blue-50 via-white to-purple-50">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold mb-2 text-center">{t("home.process.title")}</h2>
+          <p className="text-center mb-8 text-lg">{t("home.process.desc")}</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            {processSteps.map((step, i) => (
+              <div key={i} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg">
+                <img src={step.img} alt={t(step.titleKey)} className="w-16 h-16 object-contain mb-4 rounded-lg" />
+                <h3 className="font-bold text-base mb-1">{t(step.titleKey)}</h3>
+                <p className="text-center text-sm">{t(step.descKey)}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 客户见证 */}
+      <section className="py-16 px-4 md:px-0">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold mb-8 text-center">{t("home.testimonials.title")}</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
+            {testimonials.slice(testimonialPage*3, testimonialPage*3+3).map((tk, i) => (
+              <div key={i} className="bg-white rounded-xl p-6 shadow-lg text-center text-lg italic">{t(tk)}</div>
+            ))}
+          </div>
+          <div className="flex justify-center gap-2">
+            {[0,1].map(i => (
+              <button
+                key={i}
+                className={`w-3 h-3 rounded-full ${testimonialPage === i ? "bg-blue-700" : "bg-blue-200"}`}
+                onClick={() => setTestimonialPage(i)}
+                aria-label={`Go to testimonials page ${i+1}`}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* QA Section */}
+      <section className="py-16 px-4 md:px-0">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold mb-8 text-center">{t("home.qa.title")}</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {qaList.map((qa, i) => (
+              <div
+                key={i}
+                className={`relative rounded-xl p-6 cursor-pointer transition-colors duration-200 group ${qaOpen === i ? qaHover : qaTheme}`}
+                onClick={() => setQaOpen(qaOpen === i ? null : i)}
+                onMouseEnter={() => setQaOpen(i)}
+                onMouseLeave={() => setQaOpen(null)}
+              >
+                <div className="flex items-center justify-between">
+                  <span className="font-bold">{t(qa.qKey)}</span>
+                  <span className={`absolute right-4 top-1/2 -translate-y-1/2 rounded-full px-2 py-1 transition-colors duration-200 ${qaOpen === i ? qaBadgeHover : qaBadge}`}>
+                    <ChevronDown className={`w-5 h-5 transition-transform ${qaOpen === i ? "rotate-180" : ""}`} />
+                  </span>
+                </div>
+                {qaOpen === i && (
+                  <div className="mt-4 text-base">
+                    {t(qa.aKey)}
                   </div>
-                  <p className="text-lg text-gray-600 mb-4">{step.description}</p>
-                  <ul className="space-y-2">
-                    {step.details.map((detail, i) => (
-                      <li key={i} className="flex items-start">
-                        <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
-                        <span className="text-gray-700">{detail}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="flex-1">
-                  <div className="bg-gradient-to-br from-ishine-blue-100 to-ishine-teal-100 rounded-lg p-8 h-64 flex items-center justify-center">
-                    <step.icon className="w-24 h-24 text-ishine-blue-500" />
-                  </div>
-                </div>
-              </motion.div>
+                )}
+              </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Safety Guidelines */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('howToUse.safetyGuidelinesTitle')}</h2>
-            <p className="text-lg text-gray-600">
-              {t('howToUse.safetyGuidelinesDescription')}
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {safetyGuidelines.map((guideline, index) => (
-              <motion.div
-                key={guideline.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-white rounded-lg p-6 shadow-lg"
-              >
-                <guideline.icon className="w-12 h-12 text-red-500 mb-4" />
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">{guideline.title}</h3>
-                <ul className="space-y-2">
-                  {guideline.points.map((point, i) => (
-                    <li key={i} className="flex items-start">
-                      <AlertTriangle className="w-4 h-4 text-red-500 mr-2 mt-1 flex-shrink-0" />
-                      <span className="text-gray-700 text-sm">{point}</span>
-                    </li>
-                  ))}
-                </ul>
-              </motion.div>
-            ))}
-          </div>
+      {/* 联系我们/CTA */}
+      <section id="contact" className="py-16 bg-white">
+        <div className="max-w-2xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-6">{t("home.contact.title")}</h2>
+          <p className="text-center text-gray-700 mb-8">{t("home.contact.desc")}</p>
+          <ContactFormA />
         </div>
       </section>
 
-      {/* Treatment Schedule */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('howToUse.treatmentScheduleTitle')}</h2>
-            <p className="text-lg text-gray-600">
-              {t('howToUse.treatmentScheduleDescription')}
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {treatmentSchedule.map((schedule, index) => (
-              <motion.div
-                key={schedule.week}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-gray-50 rounded-lg p-6 text-center"
-              >
-                <Calendar className="w-12 h-12 text-ishine-blue-500 mx-auto mb-4" />
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">{schedule.week}</h3>
-                <p className="text-ishine-blue-500 font-medium mb-2">{schedule.frequency}</p>
-                <p className="text-gray-600 text-sm">{schedule.description}</p>
-              </motion.div>
-            ))}
+      {/* Footer */}
+      <footer className="py-8 px-4 md:px-0 bg-[#1A4DFF] text-white">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="flex items-center gap-2">
+            <Flame className="w-7 h-7" />
+            <span className="font-bold text-lg">iShine IPL</span>
           </div>
-        </div>
-      </section>
-
-      {/* Troubleshooting */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('howToUse.troubleshootingTitle')}</h2>
-            <p className="text-lg text-gray-600">
-              {t('howToUse.troubleshootingDescription')}
-            </p>
-          </motion.div>
-
-          <div className="space-y-8">
-            {troubleshooting.map((item, index) => (
-              <motion.div
-                key={item.problem}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-white rounded-lg p-6 shadow-lg"
-              >
-                <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
-                  <HelpCircle className="w-6 h-6 text-ishine-blue-500 mr-3" />
-                  {item.problem}
-                </h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {item.solutions.map((solution, i) => (
-                    <div key={i} className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-700">{solution}</span>
-                    </div>
-                  ))}
-                </div>
-              </motion.div>
-            ))}
+          <div className="flex gap-6">
+            <a href="#about" className="hover:underline">{t("home.footer.about")}</a>
+            <a href="#products" className="hover:underline">{t("home.footer.products")}</a>
+            <a href="#contact" className="hover:underline">{t("home.footer.contact")}</a>
+            <a href="#faq" className="hover:underline">{t("home.footer.faq")}</a>
           </div>
+          <div className="text-sm">&copy; {new Date().getFullYear()} iShine IPL. All rights reserved.</div>
         </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('howToUse.faqTitle')}</h2>
-            <p className="text-lg text-gray-600">
-              {t('howToUse.faqDescription')}
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {faqs.map((faq, index) => (
-              <motion.div
-                key={faq.question}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-gray-50 rounded-lg p-6"
-              >
-                <h3 className="text-lg font-semibold text-gray-900 mb-3 flex items-start">
-                  <HelpCircle className="w-5 h-5 text-ishine-blue-500 mr-2 mt-1 flex-shrink-0" />
-                  {faq.question}
-                </h3>
-                <p className="text-gray-700 ml-7">{faq.answer}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Video Tutorials Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('howToUse.videoTutorialsTitle')}</h2>
-            <p className="text-lg text-gray-600">
-              {t('howToUse.videoTutorialsDescription')}
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              { title: 'Getting Started with IPL', duration: '5:30' },
-              { title: 'Safety Guidelines & Preparation', duration: '4:15' },
-              { title: 'Treatment Techniques', duration: '7:20' },
-              { title: 'Post-Treatment Care', duration: '3:45' },
-              { title: 'Troubleshooting Common Issues', duration: '6:10' },
-              { title: 'Maintenance & Storage', duration: '2:55' }
-            ].map((video, index) => (
-              <motion.div
-                key={video.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow cursor-pointer"
-              >
-                <div className="bg-gradient-to-br from-ishine-blue-500 to-ishine-teal-500 h-48 flex items-center justify-center">
-                  <Play className="w-16 h-16 text-white" />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{video.title}</h3>
-                  <div className="flex items-center text-gray-600">
-                    <Clock className="w-4 h-4 mr-2" />
-                    <span className="text-sm">{video.duration}</span>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Form */}
-      <ContactFormA />
+      </footer>
     </div>
   );
-};
-
-export default HowToUse;
+}
