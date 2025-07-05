@@ -1,437 +1,472 @@
-// pages/index.tsx
-import React, { useState } from "react";
-import { Flame, Palette, Box, BadgeCheck, Package, CheckCircle, ChevronDown, ChevronRight, Users, Star, MessageCircle, ArrowRight } from "lucide-react";
+import React from 'react';
+import { motion } from 'framer-motion';
+import { 
+  BookOpen, 
+  Shield, 
+  Calendar, 
+  Heart, 
+  AlertTriangle, 
+  HelpCircle, 
+  Play,
+  CheckCircle,
+  Clock,
+  Thermometer,
+  Eye,
+  Zap
+} from 'lucide-react';
+import ContactFormA from '../components/Forms/ContactFormA';
+import { useLanguage } from '../context/LanguageContext';
 
-const heroBg = "bg-gradient-to-br from-blue-600 via-indigo-500 to-purple-500";
-const sectionBg = "bg-white";
-const accent = "text-blue-700";
-const shadow = "shadow-lg";
-const gridShadow = "shadow-[0_4px_16px_rgba(26,77,255,0.08)]";
-const qaTheme = "bg-blue-700 text-white";
-const qaHover = "bg-white text-blue-700";
-const qaBadge = "bg-white text-blue-700";
-const qaBadgeHover = "bg-blue-700 text-white";
+const HowToUse: React.FC = () => {
+  const { t } = useLanguage();
 
-const productList = [
-  { img: "/product1.jpg", title: "Custom Silicone Bottle" },
-  { img: "/product2.jpg", title: "Silicone Baby Spoon" },
-  { img: "/product3.jpg", title: "Silicone Baking Mat" },
-  { img: "/product4.jpg", title: "Silicone Phone Case" },
-  { img: "/product5.jpg", title: "Silicone Watch Band" },
-  { img: "/product6.jpg", title: "Silicone Ice Tray" },
-  { img: "/product7.jpg", title: "Silicone Key Cover" },
-  { img: "/product8.jpg", title: "Silicone Cup Lid" },
-  { img: "/product9.jpg", title: "Silicone Cable Organizer" },
-];
+  const steps = [
+    {
+      step: '01',
+      title: 'Preparation',
+      description: 'Clean and prepare the treatment area',
+      details: [
+        'Shave the treatment area 24-48 hours before use',
+        'Clean skin thoroughly with mild soap and water',
+        'Ensure skin is completely dry',
+        'Remove any makeup, lotions, or deodorants'
+      ],
+      icon: Heart
+    },
+    {
+      step: '02',
+      title: 'Device Setup',
+      description: 'Power on and configure your IPL device',
+      details: [
+        'Connect the device to power source',
+        'Press the power button to turn on',
+        'Select appropriate intensity level (start with lowest)',
+        'Ensure the treatment head is properly attached'
+      ],
+      icon: Zap
+    },
+    {
+      step: '03',
+      title: 'Skin Tone Test',
+      description: 'Perform a patch test for safety',
+      details: [
+        'Test on a small, inconspicuous area first',
+        'Wait 24 hours to check for adverse reactions',
+        'Adjust intensity if needed based on skin response',
+        'Proceed only if no irritation occurs'
+      ],
+      icon: Eye
+    },
+    {
+      step: '04',
+      title: 'Treatment Process',
+      description: 'Apply IPL treatment systematically',
+      details: [
+        'Place device firmly against skin',
+        'Press flash button for each pulse',
+        'Move to adjacent area without overlapping',
+        'Complete entire treatment area systematically'
+      ],
+      icon: CheckCircle
+    },
+    {
+      step: '05',
+      title: 'Post-Treatment Care',
+      description: 'Proper aftercare for optimal results',
+      details: [
+        'Apply cooling gel or aloe vera if needed',
+        'Avoid sun exposure for 24-48 hours',
+        'Use SPF 30+ sunscreen when going outside',
+        'Moisturize treated area regularly'
+      ],
+      icon: Shield
+    }
+  ];
 
-const unlimitedOptions = [
-  {
-    label: "Colors",
-    icon: <Palette className="w-6 h-6" />,
-    content: "Choose from a spectrum of vibrant, custom-matched silicone colors to fit your brand."
-  },
-  {
-    label: "Logo",
-    icon: <BadgeCheck className="w-6 h-6" />,
-    content: "We offer precise logo printing, embossing, or debossing for maximum brand impact."
-  },
-  {
-    label: "Prototype",
-    icon: <Box className="w-6 h-6" />,
-    content: "Rapid prototyping and sample making to validate your ideas before mass production."
-  },
-  {
-    label: "Box",
-    icon: <Package className="w-6 h-6" />,
-    content: "Custom packaging solutions, from eco-friendly boxes to premium gift sets."
-  },
-  {
-    label: "Functions",
-    icon: <Flame className="w-6 h-6" />,
-    content: "Multi-functional silicone products tailored to your unique requirements."
-  },
-  {
-    label: "QC",
-    icon: <CheckCircle className="w-6 h-6" />,
-    content: "Strict quality control at every stage, ensuring compliance with FDA, LFGB, EN71, REACH, and more."
-  },
-];
+  const safetyGuidelines = [
+    {
+      icon: AlertTriangle,
+      title: 'Important Safety Warnings',
+      points: [
+        'Never use on tanned, sunburned, or irritated skin',
+        'Do not use on moles, tattoos, or dark spots',
+        'Avoid eye area and mucous membranes',
+        'Not suitable for pregnant or breastfeeding women',
+        'Consult doctor if you have skin conditions'
+      ]
+    },
+    {
+      icon: Eye,
+      title: 'Eye Protection',
+      points: [
+        'Always wear protective goggles when provided',
+        'Never look directly at the light flash',
+        'Keep device away from eye area',
+        'Ensure others in room are also protected'
+      ]
+    },
+    {
+      icon: Thermometer,
+      title: 'Skin Sensitivity',
+      points: [
+        'Start with lowest intensity setting',
+        'Gradually increase if well tolerated',
+        'Stop immediately if pain or discomfort occurs',
+        'Allow 48-72 hours between treatments on same area'
+      ]
+    }
+  ];
 
-const moreSupport = [
-  "Flexible customization, providing sample testing and design assistance services.",
-  "MOQ: 1000 pcs by new silicone products developments.",
-  "Prototype time: 7-15 days for silicone prototypes samples making.",
-  "Mass Production time: 30–45 days with quantity in 3,000-300,000pcs.",
-  "Certified: FDA, LFGB, EN71, REACH Products compliant by SGS, Intertek, BV etc. ISO9001, ISO14001, BCSI, SEDEX, SA8000 Certified Factory."
-];
+  const treatmentSchedule = [
+    { week: 'Weeks 1-4', frequency: 'Once per week', description: 'Initial treatment phase for hair reduction' },
+    { week: 'Weeks 5-8', frequency: 'Every 2 weeks', description: 'Maintenance phase as hair growth slows' },
+    { week: 'Weeks 9-12', frequency: 'Every 3-4 weeks', description: 'Final phase for remaining hair follicles' },
+    { week: 'After 12 weeks', frequency: 'As needed', description: 'Touch-up treatments for new hair growth' }
+  ];
 
-const technicalCapabilities = [
-  {
-    img: "/capability1.jpg",
-    title: "Precision Mold Tooling",
-    desc: "16 years of experience in high-precision silicone mold design and manufacturing."
-  },
-  {
-    img: "/capability2.jpg",
-    title: "Advanced Molding",
-    desc: "Silicone compression, over-molding, LSR injection, multi-shot, and more."
-  },
-  {
-    img: "/capability3.jpg",
-    title: "Full Customization",
-    desc: "Infinite variety in design, function, material, color, logo, and packaging."
-  }
-];
+  const troubleshooting = [
+    {
+      problem: 'Device not turning on',
+      solutions: [
+        'Check power connection and ensure device is plugged in',
+        'Verify power button is pressed firmly',
+        'Check if device needs charging (for battery models)',
+        'Contact customer support if issue persists'
+      ]
+    },
+    {
+      problem: 'No light flash when pressing button',
+      solutions: [
+        'Ensure device is in full contact with skin',
+        'Check if safety sensors are blocked',
+        'Verify treatment head is properly attached',
+        'Clean the light window and sensors'
+      ]
+    },
+    {
+      problem: 'Skin irritation after treatment',
+      solutions: [
+        'Apply cooling gel or aloe vera to soothe skin',
+        'Reduce intensity level for next treatment',
+        'Increase time between treatments',
+        'Discontinue use if irritation persists'
+      ]
+    },
+    {
+      problem: 'No visible results after several treatments',
+      solutions: [
+        'Ensure consistent treatment schedule',
+        'Verify you are using appropriate intensity level',
+        'Check that hair color is suitable for IPL (dark hair works best)',
+        'Be patient - results typically visible after 4-6 treatments'
+      ]
+    }
+  ];
 
-const processSteps = [
-  { img: "/step1.jpg", title: "Product Design", desc: "Collaborative design tailored to your needs." },
-  { img: "/step2.jpg", title: "Prototype & Tooling", desc: "Rapid prototyping and precision tooling." },
-  { img: "/step3.jpg", title: "Mass Production", desc: "Efficient, scalable manufacturing." },
-  { img: "/step4.jpg", title: "IPQC", desc: "In-process quality control for every batch." },
-  { img: "/step5.jpg", title: "Printing", desc: "Custom logo and pattern application." },
-  { img: "/step6.jpg", title: "OQC", desc: "Outgoing quality control before shipping." },
-  { img: "/step7.jpg", title: "Package", desc: "Secure, branded packaging solutions." },
-  { img: "/step8.jpg", title: "Shipping", desc: "Global logistics and on-time delivery." },
-];
-
-const howToWorkSteps = [
-  "Submit your idea or sketch",
-  "Collaborative product design",
-  "Prototype & sample approval",
-  "Mass production & QC",
-  "Packaging & branding",
-  "Shipping & after-sales support"
-];
-
-const testimonials = [
-  "“iShine delivered exactly what we needed, on time and with perfect quality.”",
-  "“The customization options are endless. Our brand stands out thanks to iShine.”",
-  "“Responsive, professional, and truly innovative in silicone manufacturing.”",
-  "“From design to delivery, the process was seamless and stress-free.”",
-  "“Our customers love the quality and feel of the silicone products.”",
-  "“iShine’s team went above and beyond to meet our requirements.”"
-];
-
-const relatedProducts = [
-  { img: "/related1.jpg", title: "Silicone Baking Mat" },
-  { img: "/related2.jpg", title: "Silicone Baby Spoon" },
-  { img: "/related3.jpg", title: "Silicone Phone Case" },
-];
-
-const qaList = [
-  { q: "What is your minimum order quantity (MOQ)?", a: "Our MOQ is 1000 pcs for new silicone product developments. For existing products, please contact us for details." },
-  { q: "How long does prototyping take?", a: "Prototype samples can be made in 7-15 days, depending on complexity and requirements." },
-  { q: "What certifications do your products have?", a: "Our products comply with FDA, LFGB, EN71, REACH, and are certified by SGS, Intertek, BV, etc." },
-  { q: "Can you help with product design?", a: "Absolutely! We offer design assistance and can turn your ideas into manufacturable products." },
-  { q: "What is your mass production lead time?", a: "Typically 30–45 days for orders between 3,000–300,000 pcs." },
-  { q: "Do you offer packaging customization?", a: "Yes, we provide a wide range of packaging options, from eco-friendly to premium gift boxes." },
-  { q: "How do you ensure product quality?", a: "We have strict IPQC and OQC processes, and all products are fully inspected before shipping." },
-  { q: "Can I order samples before mass production?", a: "Yes, sample testing is available to ensure your satisfaction before full production." },
-  { q: "What industries do you serve?", a: "We manufacture for industrial, consumer, commercial, and medical applications worldwide." },
-];
-
-export default function HomePage() {
-  const [optionIdx, setOptionIdx] = useState(0);
-  const [qaOpen, setQaOpen] = useState<number | null>(null);
-  const [testimonialPage, setTestimonialPage] = useState(0);
+  const faqs = [
+    {
+      question: 'How long does each treatment session take?',
+      answer: 'Treatment time varies by area size. Face typically takes 5-10 minutes, legs 15-20 minutes, and full body can take 30-45 minutes.'
+    },
+    {
+      question: 'When will I see results?',
+      answer: 'Most users see initial hair reduction after 3-4 treatments. Significant results are typically visible after 6-8 treatments over 2-3 months.'
+    },
+    {
+      question: 'Is IPL treatment painful?',
+      answer: 'Most users describe the sensation as a mild rubber band snap. Modern IPL devices with cooling technology minimize discomfort significantly.'
+    },
+    {
+      question: 'Can I use IPL on all skin tones?',
+      answer: 'IPL works best on light to medium skin tones with dark hair. Always perform a patch test and consult the device manual for skin tone compatibility.'
+    },
+    {
+      question: 'How long do results last?',
+      answer: 'IPL provides long-lasting hair reduction. Most users enjoy smooth skin for 6-12 months, with occasional touch-up treatments as needed.'
+    },
+    {
+      question: 'Can I use IPL during summer?',
+      answer: 'Yes, but extra sun protection is essential. Avoid sun exposure 48 hours before and after treatment, and always use SPF 30+ sunscreen.'
+    }
+  ];
 
   return (
-    <div className="font-inter bg-[#F8FAFC] text-[#22223B]">
+    <div className="min-h-screen pt-20">
       {/* Hero Section */}
-      <section className={`${heroBg} min-h-[66vh] flex flex-col justify-center items-center text-white relative overflow-hidden`}>
-        <div className="max-w-2xl text-center z-10">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">iShine Silicone Solutions</h1>
-          <p className="text-lg md:text-2xl mb-8 font-medium drop-shadow">Custom Silicone Products, Infinite Possibilities</p>
-          <a href="#contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-full shadow-lg hover:bg-blue-100 transition">Start Your Project</a>
-        </div>
-        <div className="absolute inset-0 bg-[url('/hero-bg.svg')] bg-cover bg-center opacity-10 pointer-events-none" />
-      </section>
-
-      {/* 图配文 Section */}
-      <section className={`${sectionBg} py-16 px-4 md:px-0`}>
-        <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
-          <img src="/about-illustration.svg" alt="iShine Business" className="w-full md:w-1/2 rounded-xl shadow-xl" />
-          <div className="md:w-1/2">
-            <h2 className="text-3xl font-bold mb-4">Empowering Brands with Custom Silicone</h2>
-            <p className="text-lg mb-4">iShine specializes in the design, development, and manufacturing of high-quality silicone products for global brands. From kitchenware to medical devices, we turn your ideas into reality with precision and care.</p>
-            <ul className="space-y-2">
-              <li className="flex items-center gap-2"><Flame className="w-5 h-5 text-blue-700" /> Innovative Product Design</li>
-              <li className="flex items-center gap-2"><Palette className="w-5 h-5 text-blue-700" /> Unlimited Customization</li>
-              <li className="flex items-center gap-2"><BadgeCheck className="w-5 h-5 text-blue-700" /> Certified Quality</li>
-            </ul>
-          </div>
+      <section className="bg-gradient-to-r from-ishine-blue-500 to-ishine-teal-500 text-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="text-center"
+          >
+            <BookOpen className="w-16 h-16 mx-auto mb-6 text-white" />
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('howToUse.heroTitle')}</h1>
+            <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
+              {t('howToUse.heroDescription')}
+            </p>
+          </motion.div>
         </div>
       </section>
 
-      {/* What We Do + Video */}
-      <section className="py-16 px-4 md:px-0 bg-gradient-to-r from-blue-50 via-white to-purple-50">
-        <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
-          <div className="md:w-1/2">
-            <h2 className="text-3xl font-bold mb-4">What We Do</h2>
-            <p className="mb-6">From concept to delivery, iShine provides end-to-end silicone product solutions. Watch our process in action:</p>
-            <div className="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-lg">
-              <iframe
-                src="https://www.youtube.com/embed/2g811Eo7K8U"
-                title="iShine Process"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                className="w-full h-full"
-                allowFullScreen
-              />
-            </div>
-          </div>
-          <div className="md:w-1/2 flex flex-col gap-4">
-            <div className="flex items-center gap-3">
-              <Flame className="w-7 h-7 text-blue-700" />
-              <span className="font-semibold">Product Innovation</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <Palette className="w-7 h-7 text-blue-700" />
-              <span className="font-semibold">Color & Logo Customization</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <BadgeCheck className="w-7 h-7 text-blue-700" />
-              <span className="font-semibold">Certified Manufacturing</span>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Step-by-Step Instructions */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('howToUse.stepByStepTitle')}</h2>
+            <p className="text-lg text-gray-600">
+              {t('howToUse.stepByStepDescription')}
+            </p>
+          </motion.div>
 
-      {/* Gallery Section */}
-      <section className="py-16 px-4 md:px-0">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">Our Gallery</h2>
-          <div className="flex gap-4 overflow-x-auto pb-4">
-            {[1,2,3,4,5,6].map(i => (
-              <img key={i} src={`/gallery${i}.jpg`} alt={`Gallery ${i}`} className="w-64 h-40 object-cover rounded-xl shadow-md flex-shrink-0" />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 九宫格产品展示 */}
-      <section className="py-16 px-4 md:px-0 bg-gradient-to-br from-blue-50 via-white to-purple-50">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">Featured Products</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            {productList.map((p, i) => (
-              <div key={i} className={`bg-white rounded-xl p-6 flex flex-col items-center ${gridShadow} hover:scale-105 transition-transform`}>
-                <img src={p.img} alt={p.title} className="w-24 h-24 object-contain mb-4 rounded-lg" />
-                <h3 className="font-bold text-lg">{p.title}</h3>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 富文本容器 */}
-      <section className="py-12 px-4 md:px-0">
-        <div className="max-w-3xl mx-auto bg-white rounded-xl p-8 shadow-lg">
-          <h2 className="text-2xl font-bold mb-4">Why Choose iShine?</h2>
-          <p className="mb-2">We combine <b>innovation</b>, <b>quality</b>, and <b>service</b> to deliver the best silicone products for your business. Our team supports you from idea to delivery, ensuring every detail meets your expectations.</p>
-          <ul className="list-disc pl-6 space-y-1">
-            <li>One-stop solution: design, prototyping, production, packaging, and shipping</li>
-            <li>Strict quality control and global certifications</li>
-            <li>Flexible customization and low MOQ</li>
-          </ul>
-        </div>
-      </section>
-
-      {/* UNLIMITED CUSTOMIZED OPTIONS */}
-      <section className="py-16 px-4 md:px-0 bg-gradient-to-r from-blue-100 via-white to-purple-100">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2 text-center">UNLIMITED CUSTOMIZED OPTIONS</h2>
-          <p className="text-center mb-8 text-lg">iShine offer a wide range of customization options for you. You can work with us to create unique and competitive IPL products.</p>
-          <div className="flex flex-wrap justify-center gap-4 mb-8">
-            {unlimitedOptions.map((opt, idx) => (
-              <button
-                key={opt.label}
-                className={`flex items-center gap-2 px-5 py-3 rounded-full font-semibold border transition ${optionIdx === idx ? "bg-blue-700 text-white" : "bg-white text-blue-700 border-blue-700"} hover:bg-blue-700 hover:text-white`}
-                onClick={() => setOptionIdx(idx)}
+          <div className="space-y-8">
+            {steps.map((step, index) => (
+              <motion.div
+                key={step.step}
+                initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className={`flex flex-col lg:flex-row items-center gap-8 ${
+                  index % 2 === 1 ? 'lg:flex-row-reverse' : ''
+                }`}
               >
-                {opt.icon}
-                {opt.label}
-              </button>
-            ))}
-          </div>
-          <div className="max-w-2xl mx-auto bg-white rounded-xl p-6 shadow-lg text-center text-lg min-h-[80px] flex items-center justify-center transition-all">
-            {unlimitedOptions[optionIdx].content}
-          </div>
-        </div>
-      </section>
-
-      {/* More Support */}
-      <section className="py-12 px-4 md:px-0">
-        <div className="max-w-3xl mx-auto bg-white rounded-xl p-8 shadow-lg">
-          <h2 className="text-2xl font-bold mb-4">More Support</h2>
-          <ul className="list-disc pl-6 space-y-2">
-            {moreSupport.map((item, i) => <li key={i}>{item}</li>)}
-          </ul>
-        </div>
-      </section>
-
-      {/* Parallax Hero Section 2 */}
-      <section className="relative min-h-screen flex items-center justify-center bg-[url('/parallax-bg.jpg')] bg-cover bg-center">
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-900/70 to-transparent" />
-        <div className="relative z-10 w-full flex flex-col items-center justify-center min-h-[50vh]">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Design Your Next Silicone Product</h2>
-          <p className="text-xl text-white mb-8">From idea to delivery, we make it easy.</p>
-          <a href="#contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-full shadow-lg hover:bg-blue-100 transition">Get Started</a>
-        </div>
-      </section>
-
-      {/* OUR TECHNICAL CAPABILITIES */}
-      <section className="py-16 px-4 md:px-0">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">OUR TECHNICAL CAPABILITIES</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {technicalCapabilities.map((cap, i) => (
-              <div key={i} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg">
-                <img src={cap.img} alt={cap.title} className="w-20 h-20 object-contain mb-4 rounded-lg" />
-                <h3 className="font-bold text-lg mb-2">{cap.title}</h3>
-                <p className="text-center">{cap.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* THE PROCESS OF CUSTOMIZED SILICONE PRODUCTS */}
-      <section className="py-16 px-4 md:px-0 bg-gradient-to-br from-blue-50 via-white to-purple-50">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2 text-center">THE PROCESS OF CUSTOMIZED SILICONE PRODUCTS</h2>
-          <p className="text-center mb-8 text-lg">From sketch to delivery, our 8-step process ensures quality and efficiency.</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-            {processSteps.map((step, i) => (
-              <div key={i} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg">
-                <img src={step.img} alt={step.title} className="w-16 h-16 object-contain mb-4 rounded-lg" />
-                <h3 className="font-bold text-base mb-1">{step.title}</h3>
-                <p className="text-center text-sm">{step.desc}</p>
-              </div>
-            ))}
-          </div>
-          <div className="text-center mt-8">
-            <a href="#howto" className="inline-flex items-center gap-2 text-blue-700 font-bold hover:underline">
-              How to make silicone products and how to put the logo on silicone products <ArrowRight className="w-4 h-4" />
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* How To Work With iShine */}
-      <section className="relative min-h-screen flex items-center justify-center bg-[url('/workwith-bg.jpg')] bg-cover bg-center">
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-900/70 to-transparent" />
-        <div className="relative z-10 w-full flex flex-col items-center justify-center min-h-[50vh]">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">How To Work With iShine?</h2>
-          <p className="text-xl text-white mb-8">One-stop service from design to delivery. Save time, reduce hassle.</p>
-          <div className="flex flex-col md:flex-row gap-6 items-center justify-center">
-            {howToWorkSteps.map((step, i) => (
-              <div key={i} className="flex items-center gap-2">
-                <span className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-blue-700 font-bold">{i+1}</span>
-                <span className="text-white font-semibold">{step}</span>
-                {i < howToWorkSteps.length - 1 && <ChevronRight className="w-6 h-6 text-white" />}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* OUR CUSTOMER TESTIMONIALS */}
-      <section className="py-16 px-4 md:px-0">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">OUR CUSTOMER TESTIMONIALS</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
-            {testimonials.slice(testimonialPage*3, testimonialPage*3+3).map((t, i) => (
-              <div key={i} className="bg-white rounded-xl p-6 shadow-lg text-center text-lg italic">{t}</div>
-            ))}
-          </div>
-          <div className="flex justify-center gap-2">
-            {[0,1].map(i => (
-              <button
-                key={i}
-                className={`w-3 h-3 rounded-full ${testimonialPage === i ? "bg-blue-700" : "bg-blue-200"}`}
-                onClick={() => setTestimonialPage(i)}
-                aria-label={`Go to testimonials page ${i+1}`}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Related Products */}
-      <section className="py-12 px-4 md:px-0 bg-gradient-to-r from-blue-50 via-white to-purple-50">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6 text-center">Related Products</h2>
-          <div className="flex flex-wrap justify-center gap-8">
-            {relatedProducts.map((p, i) => (
-              <div key={i} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg">
-                <img src={p.img} alt={p.title} className="w-20 h-20 object-contain mb-2 rounded-lg" />
-                <h3 className="font-bold">{p.title}</h3>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* QA Section */}
-      <section className="py-16 px-4 md:px-0">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {qaList.map((qa, i) => (
-              <div
-                key={i}
-                className={`relative rounded-xl p-6 cursor-pointer transition-colors duration-200 group ${qaOpen === i ? qaHover : qaTheme}`}
-                onClick={() => setQaOpen(qaOpen === i ? null : i)}
-                onMouseEnter={() => setQaOpen(i)}
-                onMouseLeave={() => setQaOpen(null)}
-              >
-                <div className="flex items-center justify-between">
-                  <span className="font-bold">{qa.q}</span>
-                  <span className={`absolute right-4 top-1/2 -translate-y-1/2 rounded-full px-2 py-1 transition-colors duration-200 ${qaOpen === i ? qaBadgeHover : qaBadge}`}>
-                    <ChevronDown className={`w-5 h-5 transition-transform ${qaOpen === i ? "rotate-180" : ""}`} />
-                  </span>
-                </div>
-                {qaOpen === i && (
-                  <div className="mt-4 text-base">
-                    {qa.a}
+                <div className="flex-1">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 bg-ishine-blue-500 text-white rounded-full flex items-center justify-center text-xl font-bold mr-4">
+                      {step.step}
+                    </div>
+                    <step.icon className="w-8 h-8 text-ishine-blue-500 mr-3" />
+                    <h3 className="text-2xl font-semibold text-gray-900">{step.title}</h3>
                   </div>
-                )}
-              </div>
+                  <p className="text-lg text-gray-600 mb-4">{step.description}</p>
+                  <ul className="space-y-2">
+                    {step.details.map((detail, i) => (
+                      <li key={i} className="flex items-start">
+                        <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
+                        <span className="text-gray-700">{detail}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="flex-1">
+                  <div className="bg-gradient-to-br from-ishine-blue-100 to-ishine-teal-100 rounded-lg p-8 h-64 flex items-center justify-center">
+                    <step.icon className="w-24 h-24 text-ishine-blue-500" />
+                  </div>
+                </div>
+              </motion.div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Banner */}
-      <section className="py-8 px-4 md:px-0 bg-blue-700 text-white text-center">
-        <div className="max-w-3xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <div>
-            <h3 className="text-xl font-bold mb-2">Start Designing Better IPL Products Today.</h3>
-            <p>Learn More Custom IPL Service.</p>
+      {/* Safety Guidelines */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('howToUse.safetyGuidelinesTitle')}</h2>
+            <p className="text-lg text-gray-600">
+              {t('howToUse.safetyGuidelinesDescription')}
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {safetyGuidelines.map((guideline, index) => (
+              <motion.div
+                key={guideline.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className="bg-white rounded-lg p-6 shadow-lg"
+              >
+                <guideline.icon className="w-12 h-12 text-red-500 mb-4" />
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">{guideline.title}</h3>
+                <ul className="space-y-2">
+                  {guideline.points.map((point, i) => (
+                    <li key={i} className="flex items-start">
+                      <AlertTriangle className="w-4 h-4 text-red-500 mr-2 mt-1 flex-shrink-0" />
+                      <span className="text-gray-700 text-sm">{point}</span>
+                    </li>
+                  ))}
+                </ul>
+              </motion.div>
+            ))}
           </div>
-          <form className="flex gap-2 mt-4 md:mt-0">
-            <input type="email" placeholder="Enter your email" className="px-4 py-2 rounded-l-full text-blue-700" />
-            <button type="submit" className="px-6 py-2 bg-white text-blue-700 font-bold rounded-r-full hover:bg-blue-100 transition">Confirm</button>
-          </form>
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="py-8 px-4 md:px-0 bg-[#1A4DFF] text-white">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="flex items-center gap-2">
-            <Flame className="w-7 h-7" />
-            <span className="font-bold text-lg">iShine Silicone</span>
+      {/* Treatment Schedule */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('howToUse.treatmentScheduleTitle')}</h2>
+            <p className="text-lg text-gray-600">
+              {t('howToUse.treatmentScheduleDescription')}
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {treatmentSchedule.map((schedule, index) => (
+              <motion.div
+                key={schedule.week}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className="bg-gray-50 rounded-lg p-6 text-center"
+              >
+                <Calendar className="w-12 h-12 text-ishine-blue-500 mx-auto mb-4" />
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">{schedule.week}</h3>
+                <p className="text-ishine-blue-500 font-medium mb-2">{schedule.frequency}</p>
+                <p className="text-gray-600 text-sm">{schedule.description}</p>
+              </motion.div>
+            ))}
           </div>
-          <div className="flex gap-6">
-            <a href="#about" className="hover:underline">About</a>
-            <a href="#products" className="hover:underline">Products</a>
-            <a href="#contact" className="hover:underline">Contact</a>
-            <a href="#faq" className="hover:underline">FAQ</a>
-          </div>
-          <div className="text-sm">&copy; {new Date().getFullYear()} iShine Silicone. All rights reserved.</div>
         </div>
-      </footer>
+      </section>
+
+      {/* Troubleshooting */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('howToUse.troubleshootingTitle')}</h2>
+            <p className="text-lg text-gray-600">
+              {t('howToUse.troubleshootingDescription')}
+            </p>
+          </motion.div>
+
+          <div className="space-y-8">
+            {troubleshooting.map((item, index) => (
+              <motion.div
+                key={item.problem}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className="bg-white rounded-lg p-6 shadow-lg"
+              >
+                <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+                  <HelpCircle className="w-6 h-6 text-ishine-blue-500 mr-3" />
+                  {item.problem}
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {item.solutions.map((solution, i) => (
+                    <div key={i} className="flex items-start">
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-700">{solution}</span>
+                    </div>
+                  ))}
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('howToUse.faqTitle')}</h2>
+            <p className="text-lg text-gray-600">
+              {t('howToUse.faqDescription')}
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {faqs.map((faq, index) => (
+              <motion.div
+                key={faq.question}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className="bg-gray-50 rounded-lg p-6"
+              >
+                <h3 className="text-lg font-semibold text-gray-900 mb-3 flex items-start">
+                  <HelpCircle className="w-5 h-5 text-ishine-blue-500 mr-2 mt-1 flex-shrink-0" />
+                  {faq.question}
+                </h3>
+                <p className="text-gray-700 ml-7">{faq.answer}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Video Tutorials Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('howToUse.videoTutorialsTitle')}</h2>
+            <p className="text-lg text-gray-600">
+              {t('howToUse.videoTutorialsDescription')}
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              { title: 'Getting Started with IPL', duration: '5:30' },
+              { title: 'Safety Guidelines & Preparation', duration: '4:15' },
+              { title: 'Treatment Techniques', duration: '7:20' },
+              { title: 'Post-Treatment Care', duration: '3:45' },
+              { title: 'Troubleshooting Common Issues', duration: '6:10' },
+              { title: 'Maintenance & Storage', duration: '2:55' }
+            ].map((video, index) => (
+              <motion.div
+                key={video.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow cursor-pointer"
+              >
+                <div className="bg-gradient-to-br from-ishine-blue-500 to-ishine-teal-500 h-48 flex items-center justify-center">
+                  <Play className="w-16 h-16 text-white" />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{video.title}</h3>
+                  <div className="flex items-center text-gray-600">
+                    <Clock className="w-4 h-4 mr-2" />
+                    <span className="text-sm">{video.duration}</span>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Form */}
+      <ContactFormA />
     </div>
   );
-}
+};
+
+export default HowToUse;
