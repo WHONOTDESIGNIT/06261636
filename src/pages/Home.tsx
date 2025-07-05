@@ -197,12 +197,20 @@ export default function HomePage() {
             {qaList.map((qa, i) => (
               <div
                 key={i}
-                className={`relative rounded-xl p-6 cursor-pointer transition-colors duration-200 group ${qaOpen === i ? qaHover : qaTheme}`}
+                className={`relative rounded-xl p-6 cursor-pointer transition-colors duration-200 group
+                  ${qaOpen === i ? qaHover : qaTheme}
+                  hover:bg-white hover:text-blue-700
+                `}
                 onClick={() => setQaOpen(qaOpen === i ? null : i)}
               >
                 <div className="flex items-center justify-between">
-                  <span className="font-bold">{qa.q}</span>
-                  <span className={`absolute right-4 top-1/2 -translate-y-1/2 rounded-full px-2 py-1 transition-colors duration-200 ${qaOpen === i ? qaBadgeHover : qaBadge}`}>
+                  <span className="font-bold transition-colors duration-200 group-hover:text-blue-700 group-hover:bg-white px-1 rounded">
+                    {qa.q}
+                  </span>
+                  <span className={`absolute right-4 top-1/2 -translate-y-1/2 rounded-full px-2 py-1 transition-colors duration-200
+                    ${qaOpen === i ? qaBadgeHover : qaBadge}
+                    group-hover:bg-blue-700 group-hover:text-white
+                  `}>
                     <ChevronDown className={`w-5 h-5 transition-transform ${qaOpen === i ? "rotate-180" : ""}`} />
                   </span>
                 </div>
