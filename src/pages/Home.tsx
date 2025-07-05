@@ -3,11 +3,9 @@ import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown } from "l
 import ContactFormA from '../components/Forms/ContactFormA';
 import Silk from './Silk';
 import { iplDevices } from '../data/products';
-import ProductCard from '../components/Product/ProductCard';
 
 const heroBg = "bg-gradient-to-br from-blue-700 via-indigo-500 to-purple-600";
 const sectionBg = "bg-white";
-const gridShadow = "shadow-[0_4px_16px_rgba(26,77,255,0.08)]";
 const qaTheme = "bg-blue-700 text-white";
 const qaHover = "bg-white text-blue-700";
 const qaBadge = "bg-white text-blue-700";
