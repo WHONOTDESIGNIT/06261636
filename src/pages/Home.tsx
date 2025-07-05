@@ -104,7 +104,7 @@ export default function HomePage() {
           <img src="/about-ipl.svg" alt="iShine IPL" className="w-full md:w-1/2 rounded-xl shadow-xl" />
           <div className="md:w-1/2">
             <h2 className="text-3xl font-bold mb-4">Why Choose iShine?</h2>
-            <p className="text-lg mb-4">We empower cosmetics and essential oil brands with innovative, safe, and effective IPL home beauty devices. Our OEM/ODM services cover everything from R&D to after-sales support.</p>
+            <p className="text-lg mb-4">iShine team work with the different industries brands owner, products development managers, products managers, category sourcing manager, retail compliance specialist, products designers together and offer them OEM ODM solution from molded IPL devices design, prototyping to IPL contract manufacturing, printing, package to ensure their IPL projects success. We have the capability for Custom ice cooling IPL, Custom multi-function IPL, Custom Sapphire IPL device, Custom Smart APP-connected IPL device, Custom Dual-lamp IPL, Custom Skin Sensor IPL device. Help you design it, build it and box it. From idea to market. iShine provide solutions that best fit for your brand identity.</p>
             <ul className="space-y-2">
               <li className="flex items-center gap-2"><Flame className="w-5 h-5 text-blue-700" /> Innovation-driven R&D</li>
               <li className="flex items-center gap-2"><Palette className="w-5 h-5 text-blue-700" /> Unlimited Customization</li>
