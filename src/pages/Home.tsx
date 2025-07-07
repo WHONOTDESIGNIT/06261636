@@ -230,8 +230,8 @@ export default function HomePage() {
       {/* Product Showcase */}
       <section className="py-16 px-4 md:px-0 bg-gradient-to-br from-blue-50 via-white to-purple-50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-5xl font-bold mb-4 text-blue-700 text-center">CUSTMIZED IPL DEVICES</h2>
-          <h3 className="text-xl font-semibold mb-4 text-blue-700 text-center">You design it, we build it, box it</h3>
+          <h2 className="text-4xl font-bold mb-4 text-blue-700 text-center">CUSTMIZED IPL DEVICES</h2>
+          <h3 className="text-2xl font-semibold mb-4 text-blue-700 text-center">You design it, we build it, box it</h3>
           {/* 黄色细线+正文 */}
           <div className="flex flex-col items-center mb-8">
             <div className="w-16 h-1 mb-4" style={{ background: 'rgb(239,187,32)' }}></div>
