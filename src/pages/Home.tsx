@@ -125,7 +125,7 @@ export default function HomePage() {
           </div>
           {/* 右侧：富文本 */}
           <div>
-            <h2 className="text-3xl font-bold text-blue-700 mb-4">Why IPL is the Future of Beauty</h2>
+            <h2 className="text-3xl font-bold text-blue-700 mb-4">WHAT WE DO</h2>
             <div className="w-16 h-1 mb-4" style={{ background: 'rgb(239,187,32)' }}></div>
             <p className="text-lg text-gray-700">
               IPL (Intense Pulsed Light) technology is revolutionizing the beauty industry by offering safe, effective, and long-lasting hair removal solutions. With customizable features and global certifications, IPL devices are becoming the preferred choice for brands and consumers worldwide. Discover how iShine empowers your brand with cutting-edge IPL technology and comprehensive OEM/ODM services.
