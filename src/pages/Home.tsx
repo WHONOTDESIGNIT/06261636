@@ -100,7 +100,7 @@ export default function HomePage() {
           </div>
           {/* 容器2：富文本1 */}
           <div className="text-lg">
-            iShine team work with the different industries brands owner, products development managers, products managers, category sourcing manager, retail compliance specialist, products designers together and offer them OEM ODM solution from molded IPL devices design, prototyping to IPL contract manufacturing, printing, package to ensure their IPL projects success.
+            iShine team works with brands owners, product development managers, category sourcing managers, retail compliance specialists, and product designers across various industries. We offer OEM and ODM solutions, covering every stage from molded IPL device design and prototyping to contract manufacturing, printing, and packaging, ensuring the success of your IPL projects.
           </div>
           {/* 容器3：富文本2 */}
           <div className="text-lg">
