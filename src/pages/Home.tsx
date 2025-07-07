@@ -254,7 +254,7 @@ export default function HomePage() {
       <section className="py-16 px-4 md:px-0 bg-gradient-to-r from-blue-100 via-white to-purple-100">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold mb-2 text-center">Unlimited Customization Options</h2>
-          <p className="text-center mb-8 text-lg">Stand out in the market with fully customizable IPL devices tailored to your brand.</p>
+          <p className="text-center mb-8 text-lg">Stand out in the market with fully customizable IPL devices fit for your brand.</p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             {unlimitedOptions.map((opt, idx) => (
               <button
