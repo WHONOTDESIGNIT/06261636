@@ -161,6 +161,76 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* 图册 Section */}
+      <section className="py-16 px-4 md:px-0 flex justify-center">
+        <div
+          className="relative flex items-center"
+          style={{ width: 1753, height: 533 }}
+        >
+          {/* 左侧角标 */}
+          <button
+            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-black bg-opacity-60 rounded-full w-12 h-12 flex items-center justify-center text-white hover:bg-opacity-80 transition"
+            onClick={() => setGalleryIndex((prev) => (prev - 1 + galleryImages.length) % galleryImages.length)}
+            aria-label="Previous"
+            style={{ left: 0 }}
+          >
+            <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+          </button>
+
+          {/* 左侧缩略图 */}
+          <img
+            src={galleryImages[(galleryIndex - 1 + galleryImages.length) % galleryImages.length]}
+            alt="prev"
+            style={{ width: (1753 - 20) / 2, height: 533, objectFit: 'cover', marginRight: 10, borderRadius: 12, opacity: 0.7 }}
+          />
+
+          {/* 主图 */}
+          <img
+            src={galleryImages[galleryIndex]}
+            alt="main"
+            style={{ width: 1753 / 3, height: 533, objectFit: 'cover', borderRadius: 16, zIndex: 1 }}
+          />
+
+          {/* 右侧缩略图 */}
+          <img
+            src={galleryImages[(galleryIndex + 1) % galleryImages.length]}
+            alt="next"
+            style={{ width: (1753 - 20) / 2, height: 533, objectFit: 'cover', marginLeft: 10, borderRadius: 12, opacity: 0.7 }}
+          />
+
+          {/* 右侧角标 */}
+          <button
+            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-black bg-opacity-60 rounded-full w-12 h-12 flex items-center justify-center text-white hover:bg-opacity-80 transition"
+            onClick={() => setGalleryIndex((prev) => (prev + 1) % galleryImages.length)}
+            aria-label="Next"
+            style={{ right: 0 }}
+          >
+            <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </button>
+
+          {/* 小圆点指示器 */}
+          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-4 z-20">
+            {galleryImages.map((_, idx) => (
+              <span
+                key={idx}
+                className={`block rounded-full transition-colors duration-200 cursor-pointer`}
+                style={{
+                  width: 8,
+                  height: 8,
+                  background: galleryIndex === idx ? 'rgb(64,64,64)' : 'rgb(191,191,191)',
+                  border: 'none',
+                  boxShadow: galleryIndex === idx ? '0 0 0 2px #222' : 'none',
+                }}
+                onMouseEnter={() => setGalleryIndex(idx)}
+                onClick={() => setGalleryIndex(idx)}
+                onMouseOver={e => (e.currentTarget.style.background = 'black')}
+                onMouseOut={e => (e.currentTarget.style.background = galleryIndex === idx ? 'rgb(64,64,64)' : 'rgb(191,191,191)')}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Customization Options */}
       <section className="py-16 px-4 md:px-0 bg-gradient-to-r from-blue-100 via-white to-purple-100">
         <div className="max-w-5xl mx-auto">
@@ -254,76 +324,6 @@ export default function HomePage() {
                   </div>
                 )}
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 图册 Section */}
-      <section className="py-16 px-4 md:px-0 flex justify-center">
-        <div
-          className="relative flex items-center"
-          style={{ width: 1753, height: 533 }}
-        >
-          {/* 左侧角标 */}
-          <button
-            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-black bg-opacity-60 rounded-full w-12 h-12 flex items-center justify-center text-white hover:bg-opacity-80 transition"
-            onClick={() => setGalleryIndex((prev) => (prev - 1 + galleryImages.length) % galleryImages.length)}
-            aria-label="Previous"
-            style={{ left: 0 }}
-          >
-            <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
-          </button>
-
-          {/* 左侧缩略图 */}
-          <img
-            src={galleryImages[(galleryIndex - 1 + galleryImages.length) % galleryImages.length]}
-            alt="prev"
-            style={{ width: (1753 - 20) / 2, height: 533, objectFit: 'cover', marginRight: 10, borderRadius: 12, opacity: 0.7 }}
-          />
-
-          {/* 主图 */}
-          <img
-            src={galleryImages[galleryIndex]}
-            alt="main"
-            style={{ width: 1753 / 3, height: 533, objectFit: 'cover', borderRadius: 16, zIndex: 1 }}
-          />
-
-          {/* 右侧缩略图 */}
-          <img
-            src={galleryImages[(galleryIndex + 1) % galleryImages.length]}
-            alt="next"
-            style={{ width: (1753 - 20) / 2, height: 533, objectFit: 'cover', marginLeft: 10, borderRadius: 12, opacity: 0.7 }}
-          />
-
-          {/* 右侧角标 */}
-          <button
-            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-black bg-opacity-60 rounded-full w-12 h-12 flex items-center justify-center text-white hover:bg-opacity-80 transition"
-            onClick={() => setGalleryIndex((prev) => (prev + 1) % galleryImages.length)}
-            aria-label="Next"
-            style={{ right: 0 }}
-          >
-            <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
-          </button>
-
-          {/* 小圆点指示器 */}
-          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-4 z-20">
-            {galleryImages.map((_, idx) => (
-              <span
-                key={idx}
-                className={`block rounded-full transition-colors duration-200 cursor-pointer`}
-                style={{
-                  width: 8,
-                  height: 8,
-                  background: galleryIndex === idx ? 'rgb(64,64,64)' : 'rgb(191,191,191)',
-                  border: 'none',
-                  boxShadow: galleryIndex === idx ? '0 0 0 2px #222' : 'none',
-                }}
-                onMouseEnter={() => setGalleryIndex(idx)}
-                onClick={() => setGalleryIndex(idx)}
-                onMouseOver={e => (e.currentTarget.style.background = 'black')}
-                onMouseOut={e => (e.currentTarget.style.background = galleryIndex === idx ? 'rgb(64,64,64)' : 'rgb(191,191,191)')}
-              />
             ))}
           </div>
         </div>
