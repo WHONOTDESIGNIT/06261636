@@ -73,6 +73,9 @@ import Quality from './pages/about/Quality';
 // Country-specific page
 import CountryPage from './pages/CountryPage';
 
+// Sitemap Page
+import Sitemap from './pages/Sitemap';
+
 // 404 Not Found Page
 const NotFound: React.FC = () => (
   <div style={{ padding: '4rem', textAlign: 'center' }}>
@@ -204,6 +207,7 @@ const App: React.FC = () => (
             <Route path="blog/future-home-hair-removal-devices" element={<FutureHomeHairRemoval />} />
             <Route path="blog/fda-510k-pathway" element={<FDA510kPathway />} />
             <Route path="iplmanufacturer/:countryCode" element={<CountryPage />} />
+            <Route path="sitemap" element={<Sitemap />} />
           </Route>
 
           {/* 非英文带前缀路由 */}
@@ -259,6 +263,7 @@ const App: React.FC = () => (
               <Route path="blog/future-home-hair-removal-devices" element={<FutureHomeHairRemoval />} />
               <Route path="blog/fda-510k-pathway" element={<FDA510kPathway />} />
               <Route path="iplmanufacturer/:countryCode" element={<CountryPage />} />
+              <Route path="sitemap" element={<Sitemap />} />
             </Route>
           </Route>
 
