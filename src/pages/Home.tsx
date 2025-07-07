@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown, Handshake, Settings } from "lucide-react";
+import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown, Handshake, Settings, Send, ThumbsUp } from "lucide-react";
 import ContactFormA from '../components/Forms/ContactFormA';
 import Silk from './Silk';
 import { iplDevices } from '../data/products';
@@ -73,14 +73,14 @@ const galleryImages = [
 ];
 
 const processIcons = [
-  Handshake,    // Consultation
+  Send,         // Consultation
   Palette,      // Design & Prototyping
   BadgeCheck,   // Sample Confirmation
   Settings,     // Mass Production
   CheckCircle,  // Quality Inspection
   BadgeCheck,   // Certification
   Package,      // Global Shipping
-  CheckCircle   // After-Sales Service
+  ThumbsUp      // After-Sales Service
 ];
 
 export default function HomePage() {
