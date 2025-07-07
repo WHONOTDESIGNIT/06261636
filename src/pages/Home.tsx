@@ -99,7 +99,7 @@ export default function HomePage() {
           </div>
           {/* 容器2：富文本1 */}
           <div className="text-lg">
-            iShine team work with the different industries brands owner, products development managers, products managers, category sourcing manager, retail compliance specialist, products designers together and offer them OEM ODM solution from molded IPL devices design, prototyping to IPL contract manufacturing, printing, package to ensure their IPL projects success.
+            iShine Tech Co., Limited, is one-stop supplier for IPL devices manufacturing and customization, team work with the different industries brands owner, products development managers, products managers, category sourcing manager, retail compliance specialist, products designers together and offer them OEM ODM solution from molded IPL devices design, prototyping to IPL contract manufacturing, printing, package to ensure their IPL projects success.
           </div>
           {/* 容器3：富文本2 */}
           <div className="text-lg">
@@ -128,7 +128,7 @@ export default function HomePage() {
             <h2 className="text-4xl font-bold text-blue-700 mb-4">WHAT WE DO</h2>
             <div className="w-16 h-1 mb-4" style={{ background: 'rgb(239,187,32)' }}></div>
             <p className="text-lg text-gray-700">
-              IPL (Intense Pulsed Light) technology is revolutionizing the beauty industry by offering safe, effective, and long-lasting hair removal solutions. With customizable features and global certifications, IPL devices are becoming the preferred choice for brands and consumers worldwide. Discover how iShine empowers your brand with cutting-edge IPL technology and comprehensive OEM/ODM services.
+            iShine team work with the different industries brands owner, products development managers, products managers, category sourcing manager, retail compliance specialist, products designers together and offer them OEM ODM solution from molded IPL devices design, prototyping to IPL contract manufacturing, printing, package to ensure their IPL projects success.
             </p>
           </div>
         </div>
