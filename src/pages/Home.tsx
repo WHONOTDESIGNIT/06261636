@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown, Settings, Send, ThumbsUp } from "lucide-react";
+import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown, Handshake, Settings, Send, ThumbsUp } from "lucide-react";
 import ContactFormA from '../components/Forms/ContactFormA';
 import Silk from './Silk';
 import { iplDevices } from '../data/products';
@@ -370,23 +370,6 @@ export default function HomePage() {
           <ContactFormA />
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="py-8 px-4 md:px-0 bg-[#1A4DFF] text-white">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="flex items-center gap-2">
-            <Flame className="w-7 h-7" />
-            <span className="font-bold text-lg">iShine IPL</span>
-          </div>
-          <div className="flex gap-6">
-            <a href="#about" className="hover:underline">About</a>
-            <a href="#products" className="hover:underline">Products</a>
-            <a href="#contact" className="hover:underline">Contact</a>
-            <a href="#faq" className="hover:underline">FAQ</a>
-          </div>
-          <div className="text-sm">&copy; {new Date().getFullYear()} iShine IPL. All rights reserved.</div>
-        </div>
-      </footer>
     </div>
   );
 }
