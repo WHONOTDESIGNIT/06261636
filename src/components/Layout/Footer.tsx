@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
               <span className="text-xl font-bold">iShine</span>
             </div>
             <p className="text-gray-300 mb-4">
-              {t('footer.companyInfo')}
+              Company Info
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white transition-colors">
@@ -70,14 +70,14 @@ const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-600 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300 text-sm">
-            {t('footer.allRightsReserved')}
+            All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link to="/privacy-policy" className="text-gray-300 hover:text-white text-sm transition-colors">
-              {t('footer.privacyPolicy')}
+              Privacy Policy
             </Link>
             <Link to="/terms-of-service" className="text-gray-300 hover:text-white text-sm transition-colors">
-              {t('footer.termsOfService')}
+              Terms of Service
             </Link>
           </div>
         </div>
