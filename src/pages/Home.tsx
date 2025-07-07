@@ -100,11 +100,11 @@ export default function HomePage() {
           </div>
           {/* 容器2：富文本1 */}
           <div className="text-lg">
-            iShine team works with brands owners, product development managers, category sourcing managers, retail compliance specialists, and product designers across various industries. We offer OEM and ODM solutions, covering every stage from molded IPL device design and prototyping to contract manufacturing, printing, and packaging, ensuring the success of your IPL projects.
+            iShine team works with brands owners, product development managers, category sourcing managers, retail compliance specialists, and product designers across various industries. We offer olutions, covering every stage from molded IPL device design and prototyping to contract manufacturing, printing, and packaging, ensuring the success of your IPL projects.
           </div>
           {/* 容器3：富文本2 */}
           <div className="text-lg">
-            Our capabilities include custom ice-cooling IPL devices, multi-function IPL devices, sapphire IPL devices, smart app-connected IPL devices, dual-lamp IPL devices, and skin sensor IPL devices. We help you design, build, and package your products—from idea to market. iShine provides solutions tailored to fit your brand identity.
+            Our capabilities include custom ice-cooling IPL devices, multi-function IPL devices, sapphire IPL devices, smart app-connected IPL devices, dual-lamp IPL devices, and skin sensor IPL devices. We help you design, build, and package your products—from idea to market. iShine provides solutions best fit your brand identity.
           </div>
         </div>
       </section>
