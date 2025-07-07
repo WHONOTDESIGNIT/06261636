@@ -234,8 +234,8 @@ export default function HomePage() {
           <h3 className="text-2xl font-semibold mb-4 text-blue-700 text-center">You design it, we build it, box it</h3>
           {/* 黄色细线+正文 */}
           <div className="flex flex-col items-center mb-8">
-            <div className="w-32 h-1 mb-4 mt-10" style={{ background: 'rgb(239,187,32)' }}></div>
-            <p className="text-lg text-gray-700 max-w-5.5xl text-justify mt-12">
+            <div className="w-32 h-1 mb-4 mt-8" style={{ background: 'rgb(239,187,32)' }}></div>
+            <p className="text-lg text-gray-700 max-w-5.5xl text-justify mt-8">
               iShine is a full-service custom IPL products manufacturer offering end-to-end customization, from mold development and prototyping to mass production and packaging. iShine already customized more than 1,000 custom devices IPL projects for our partner in the past with much experience in IPL products Technical solution and Compliance solution. The custom IPL products include:
             </p>
           </div>
