@@ -146,7 +146,13 @@ export default function HomePage() {
         </div>
       </section>
 
-
+      {/* 黄色细线+正文 */}
+      <div className="flex flex-col items-center mb-8">
+        <div className="w-16 h-1 mb-4" style={{ background: 'rgb(239,187,32)' }}></div>
+        <p className="text-lg text-gray-700 max-w-3xl text-center">
+          Our IPL devices are engineered for performance, safety, and design flexibility. Whether you need custom features, global certifications, or unique packaging, iShine delivers solutions that help your brand stand out in the beauty industry.
+        </p>
+      </div>
 
       {/* 图册 Section */}
       <section className="py-16 px-4 md:px-0 flex justify-center">
@@ -234,7 +240,7 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {iplDevices.slice(0, 9).map((product) => (
-              <div key={product.id} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg">
+              <div key={product.id} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg border border-gray-400">
                 <img src={product.image} alt={product.name} className="w-72 h-72 object-contain mb-4 rounded-lg" />
                 <h3 className="font-bold text-lg text-center">{product.name}</h3>
               </div>
