@@ -96,7 +96,7 @@ export default function HomePage() {
           <div className="flex flex-col items-start justify-center h-full">
             <h2 className="text-4xl font-bold mb-4 text-blue-700">About iShine</h2>
             <p className="text-xl mb-6 text-blue-700">One-stop IPL solutions.</p>
-            <a href="#contact" className="inline-block px-6 py-2 bg-blue-700 text-white font-semibold rounded-full shadow hover:bg-blue-800 transition">Read More</a>
+            <a href="/solutions" className="inline-block px-6 py-2 bg-blue-700 text-white font-semibold rounded-full shadow hover:bg-blue-800 transition">Read More</a>
           </div>
           {/* 容器2：富文本1 */}
           <div className="text-lg">
