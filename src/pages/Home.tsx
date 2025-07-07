@@ -288,7 +288,7 @@ export default function HomePage() {
       <section className="py-16 px-4 md:px-0 bg-gradient-to-br from-blue-50 via-white to-purple-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-2 text-center">OEM/ODM Process</h2>
-          <p className="text-center mb-8 text-lg">From idea to delivery, we make your IPL device project seamless and successful.</p>
+          <p className="text-center mb-8 text-lg">From idea to delivery, we make your IPL device project successful.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             {processSteps.map((step, i) => {
               const Icon = processIcons[i % processIcons.length];
