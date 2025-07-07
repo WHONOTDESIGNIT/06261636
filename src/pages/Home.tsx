@@ -164,8 +164,8 @@ export default function HomePage() {
       {/* 图册 Section */}
       <section className="py-16 px-4 md:px-0 flex justify-center">
         <div
-          className="relative flex items-center"
-          style={{ width: 1753, height: 533 }}
+          className="relative flex items-center w-full max-w-5xl"
+          style={{ height: 400 }}
         >
           {/* 左侧角标 */}
           <button
@@ -181,21 +181,24 @@ export default function HomePage() {
           <img
             src={galleryImages[(galleryIndex - 1 + galleryImages.length) % galleryImages.length]}
             alt="prev"
-            style={{ width: (1753 - 20) / 2, height: 533, objectFit: 'cover', marginRight: 10, borderRadius: 12, opacity: 0.7 }}
+            className="rounded-xl opacity-70"
+            style={{ width: '40%', height: '100%', objectFit: 'cover', marginRight: 10 }}
           />
 
           {/* 主图 */}
           <img
             src={galleryImages[galleryIndex]}
             alt="main"
-            style={{ width: 1753 / 3, height: 533, objectFit: 'cover', borderRadius: 16, zIndex: 1 }}
+            className="rounded-2xl z-10"
+            style={{ width: '20%', height: '100%', objectFit: 'cover' }}
           />
 
           {/* 右侧缩略图 */}
           <img
             src={galleryImages[(galleryIndex + 1) % galleryImages.length]}
             alt="next"
-            style={{ width: (1753 - 20) / 2, height: 533, objectFit: 'cover', marginLeft: 10, borderRadius: 12, opacity: 0.7 }}
+            className="rounded-xl opacity-70"
+            style={{ width: '40%', height: '100%', objectFit: 'cover', marginLeft: 10 }}
           />
 
           {/* 右侧角标 */}
