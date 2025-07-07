@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown, Handshake, Settings, Send, ThumbsUp } from "lucide-react";
+import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown, Settings, Send, ThumbsUp } from "lucide-react";
 import ContactFormA from '../components/Forms/ContactFormA';
 import Silk from './Silk';
 import { iplDevices } from '../data/products';
