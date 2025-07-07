@@ -99,11 +99,11 @@ export default function HomePage() {
           </div>
           {/* 容器2：富文本1 */}
           <div className="text-lg">
-            iShine Tech Co., Limited, is one-stop supplier for IPL devices manufacturing and customization.
+            iShine Tech Co., Limited, is one-stop supplier for IPL devices manufacturing and customization. Help you design it, build it and box it. From idea to market. 
           </div>
           {/* 容器3：富文本2 */}
           <div className="text-lg">
-            We have the capability for Custom ice cooling IPL, Custom Sapphire IPL device, Custom Smart APP-connected IPL device, Custom Skin Sensor IPL device. Help you design it, build it and box it. From idea to market. iShine provide solutions that best fit for your brand identity.
+            We have the capability for Custom ice cooling IPL, Custom Sapphire IPL device, Custom Smart APP-connected IPL device, Custom Skin Sensor IPL device. iShine provide solutions that best fit for your brand identity.
           </div>
         </div>
       </section>
