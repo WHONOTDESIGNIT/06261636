@@ -146,21 +146,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Product Showcase */}
-      <section className="py-16 px-4 md:px-0 bg-gradient-to-br from-blue-50 via-white to-purple-50">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">Featured IPL Devices</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            {iplDevices.slice(0, 9).map((product) => (
-              <div key={product.id} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg">
-                <img src={product.image} alt={product.name} className="w-72 h-72 object-contain mb-4 rounded-lg" />
-                <h3 className="font-bold text-lg text-center">{product.name}</h3>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* 图册 Section */}
       <section className="py-16 px-4 md:px-0 flex justify-center">
         <div
@@ -229,6 +214,21 @@ export default function HomePage() {
                 onMouseOver={e => (e.currentTarget.style.background = 'black')}
                 onMouseOut={e => (e.currentTarget.style.background = galleryIndex === idx ? 'rgb(64,64,64)' : 'rgb(191,191,191)')}
               />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Product Showcase */}
+      <section className="py-16 px-4 md:px-0 bg-gradient-to-br from-blue-50 via-white to-purple-50">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold mb-8 text-center">Featured IPL Devices</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            {iplDevices.slice(0, 9).map((product) => (
+              <div key={product.id} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg">
+                <img src={product.image} alt={product.name} className="w-72 h-72 object-contain mb-4 rounded-lg" />
+                <h3 className="font-bold text-lg text-center">{product.name}</h3>
+              </div>
             ))}
           </div>
         </div>
