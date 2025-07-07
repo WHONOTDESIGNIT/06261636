@@ -29,12 +29,12 @@ const unlimitedOptions = [
   {
     label: "Packaging Design",
     icon: <Package className="w-6 h-6" />,
-    content: "Tailor packaging for retail, e-commerce, or gifting."
+    content: "Premium packaging for retail, e-commerce, or gifting."
   },
   {
     label: "Certification Support",
     icon: <CheckCircle className="w-6 h-6" />,
-    content: "Comprehensive support for global certifications."
+    content: "Fully support for global certifications."
   },
 ];
 
@@ -50,12 +50,12 @@ const processSteps = [
 ];
 
 const testimonials = [
-  "“iShine helped us launch our IPL brand in record time. The quality and service are top-notch!”",
+  "“iShine helped us launch our IPL brand in record time. The quality and service are impressive!”",
   "“The customization options are endless. Our clients love the unique packaging and features.”",
   "“Professional team, fast response, and reliable delivery. Highly recommended for OEM/ODM.”",
   "“We expanded to new markets thanks to iShine's certification and compliance support.”",
   "“The after-sales service is excellent. Any issues are resolved quickly and professionally.”",
-  "“Our brand image improved significantly with iShine's design and manufacturing expertise.”"
+  "“Our brand repuation improved significantly with iShine's design and manufacturing expertise.”"
 ];
 
 const qaList = [
