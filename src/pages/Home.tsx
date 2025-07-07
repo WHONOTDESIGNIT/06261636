@@ -83,8 +83,8 @@ export default function HomePage() {
         {/* 内容层 */}
         <div className="max-w-4xl text-center z-10 relative pt-14">
           <h1 className="text-2xl md:text-6xl font-bold mb-4 drop-shadow-lg">Custom IPL Hair Removal Devices for Cosmetics Brands</h1>
-          <p className="text-lg md:text-2xl mb-8 font-medium drop-shadow  mt-14">You design it, we build it and box it.</p>
-          <a href="#contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-full shadow-lg hover:bg-blue-100 transition  mt-8">Get a Free Quote</a>
+          <p className="text-lg md:text-2xl mb-8 font-medium drop-shadow mt-8">You design it, we build it and box it.</p>
+          <a href="#contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-full shadow-lg hover:bg-blue-100 transition">Get a Free Quote</a>
         </div>
       </section>
 
