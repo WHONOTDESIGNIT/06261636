@@ -103,7 +103,7 @@ export default function HomePage() {
           </div>
           {/* 容器3：富文本2 */}
           <div className="text-lg">
-            We have the capability for Custom ice cooling IPL, Custom multi-function IPL, Custom Sapphire IPL device, Custom Smart APP-connected IPL device, Custom Dual-lamp IPL, Custom Skin Sensor IPL device. Help you design it, build it and box it. From idea to market. iShine provide solutions that best fit for your brand identity.
+            We have the capability for Custom ice cooling IPL, Custom Sapphire IPL device, Custom Smart APP-connected IPL device, Custom Skin Sensor IPL device. Help you design it, build it and box it. From idea to market. iShine provide solutions that best fit for your brand identity.
           </div>
         </div>
       </section>
