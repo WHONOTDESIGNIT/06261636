@@ -71,12 +71,12 @@ const galleryImages = [
   '/gallery1.jpg', '/gallery2.jpg', '/gallery3.jpg', '/gallery4.jpg',
   '/gallery5.jpg', '/gallery6.jpg', '/gallery7.jpg', '/gallery8.jpg'
 ];
-const [galleryIndex, setGalleryIndex] = useState(0);
 
 export default function HomePage() {
   const [optionIdx, setOptionIdx] = useState(0);
   const [qaOpen, setQaOpen] = useState<number | null>(null);
   const [testimonialPage, setTestimonialPage] = useState(0);
+  const [galleryIndex, setGalleryIndex] = useState(0);
 
   return (
     <div className="font-inter bg-[#F8FAFC] text-[#22223B]">
