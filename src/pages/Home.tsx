@@ -99,7 +99,7 @@ export default function HomePage() {
           </div>
           {/* 容器2：富文本1 */}
           <div className="text-lg">
-            iShine Tech Co., Limited, is one-stop supplier for IPL devices manufacturing and customization, team work with the different industries brands owner, products development managers, products managers, category sourcing manager, retail compliance specialist, products designers together and offer them OEM ODM solution from molded IPL devices design, prototyping to IPL contract manufacturing, printing, package to ensure their IPL projects success.
+            iShine Tech Co., Limited, is one-stop supplier for IPL devices manufacturing and customization.
           </div>
           {/* 容器3：富文本2 */}
           <div className="text-lg">
