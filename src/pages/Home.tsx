@@ -72,6 +72,17 @@ const galleryImages = [
   '/gallery5.jpg', '/gallery6.jpg', '/gallery7.jpg', '/gallery8.jpg'
 ];
 
+const processIcons = [
+  Flame,        // Consultation
+  Palette,      // Design & Prototyping
+  BadgeCheck,   // Sample Confirmation
+  Package,      // Mass Production
+  CheckCircle,  // Quality Inspection
+  BadgeCheck,   // Certification
+  Package,      // Global Shipping
+  CheckCircle   // After-Sales Service
+];
+
 export default function HomePage() {
   const [optionIdx, setOptionIdx] = useState(0);
   const [qaOpen, setQaOpen] = useState<number | null>(null);
@@ -279,13 +290,16 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold mb-2 text-center">OEM/ODM Process</h2>
           <p className="text-center mb-8 text-lg">From idea to delivery, we make your IPL device project seamless and successful.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-            {processSteps.map((step, i) => (
-              <div key={i} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg">
-                <img src={step.img} alt={step.title} className="w-16 h-16 object-contain mb-4 rounded-lg" />
-                <h3 className="font-bold text-base mb-1">{step.title}</h3>
-                <p className="text-center text-sm">{step.desc}</p>
-              </div>
-            ))}
+            {processSteps.map((step, i) => {
+              const Icon = processIcons[i % processIcons.length];
+              return (
+                <div key={i} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg">
+                  <Icon className="w-16 h-16 text-blue-700 mb-4" />
+                  <h3 className="font-bold text-base mb-1">{step.title}</h3>
+                  <p className="text-center text-sm">{step.desc}</p>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
