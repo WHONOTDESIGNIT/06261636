@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown, Message-square-share, Settings } from "lucide-react";
+import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown, Handshake, Settings } from "lucide-react";
 import ContactFormA from '../components/Forms/ContactFormA';
 import Silk from './Silk';
 import { iplDevices } from '../data/products';
@@ -73,7 +73,7 @@ const galleryImages = [
 ];
 
 const processIcons = [
-  Message-square-share,    // Consultation
+  Handshake,    // Consultation
   Palette,      // Design & Prototyping
   BadgeCheck,   // Sample Confirmation
   Settings,     // Mass Production
