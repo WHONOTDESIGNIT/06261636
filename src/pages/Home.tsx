@@ -99,7 +99,7 @@ export default function HomePage() {
           </div>
           {/* 容器2：富文本1 */}
           <div className="text-lg">
-            iShine Tech Co., Limited, is one-stop supplier for IPL devices manufacturing and customization. Help you design it, build it and box it. From idea to market. 
+            iShine Tech Co., Limited, is one-stop supplier for IPL hair removal devices manufacturing and customization. Help you design it, build it and box it. From idea to market. 
           </div>
           {/* 容器3：富文本2 */}
           <div className="text-lg">
