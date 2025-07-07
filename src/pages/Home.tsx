@@ -76,7 +76,7 @@ const processIcons = [
   Flame,        // Consultation
   Palette,      // Design & Prototyping
   BadgeCheck,   // Sample Confirmation
-  Package,      // Mass Production
+  Flame,        // Mass Production
   CheckCircle,  // Quality Inspection
   BadgeCheck,   // Certification
   Package,      // Global Shipping
