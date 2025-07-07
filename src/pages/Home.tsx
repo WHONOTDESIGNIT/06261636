@@ -1,362 +1,254 @@
-import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { Search, Youtube, Linkedin, Menu, X, ChevronDown } from 'lucide-react';
-import LanguageSelector from './LanguageSelector';
-import { iplDevices, accessories } from '../../data/products'; // 导入产品数据
-import { useLanguage } from '../../context/LanguageContext';
+import { useState } from "react";
+import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown } from "lucide-react";
+import ContactFormA from '../components/Forms/ContactFormA';
+import Silk from './Silk';
+import LanguageSelector from '../components/Layout/LanguageSelector';
+import { iplDevices, accessories } from '../data/products';
+import { useLanguage } from '../context/LanguageContext';
 
-const Header: React.FC = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-  const location = useLocation();
-  const { currentLanguage, t } = useLanguage();
+const heroBg = "bg-gradient-to-br from-blue-700 via-indigo-500 to-purple-600";
+const sectionBg = "bg-white";
+const qaTheme = "bg-blue-700 text-white";
+const qaHover = "bg-white text-blue-700";
+const qaBadge = "bg-white text-blue-700";
+const qaBadgeHover = "bg-blue-700 text-white";
 
-  const navigation = [
-    {
-      name: t('header.nav.solutions', 'Solutions'),
-      href: `/${currentLanguage}/solutions`,
-      hasDropdown: true,
-      items: [
-        { name: t('header.nav.logoPrinting', 'Logo Printing'), href: `/${currentLanguage}/solutions/logo-printing`, icon: '🖨️' },
-        { name: t('header.nav.packaging', 'Packaging Solutions'), href: `/${currentLanguage}/solutions/packaging`, icon: '📦' },
-        { name: t('header.nav.dropShipping', 'Drop Shipping'), href: `/${currentLanguage}/solutions/drop-shipping`, icon: '🚚' },
-        { name: t('header.nav.globalShipping', 'Global Shipping'), href: `/${currentLanguage}/solutions/global-shipping`, icon: '🌍' },
-        { name: t('header.nav.brandCustomization', 'Brand Customization'), href: `/${currentLanguage}/solutions/brand-customization`, icon: '🎨' },
-        { name: t('header.nav.compliance', 'Compliance & Certifications'), href: `/${currentLanguage}/solutions/compliance`, icon: '✅' },
-        { name: t('header.nav.designPrototyping', 'Design & Prototyping'), href: `/${currentLanguage}/solutions/design-prototyping`, icon: '⚙️' },
-        { name: t('header.nav.multiHeadIPL', 'Multi-head IPL Custom'), href: `/${currentLanguage}/solutions/multi-head-ipl`, icon: '🔬' },
-        { name: t('header.nav.dualLampIPL', 'Dual-lamp IPL Custom'), href: `/${currentLanguage}/solutions/dual-lamp-ipl`, icon: '💡' }
-      ]
-    },
-    {
-      name: t('header.nav.iplHairRemoval', 'IPL Hair Removal'),
-      href: `/${currentLanguage}/ipl-hair-removal`,
-      hasDropdown: true,
-      items: [
-        {
-          name: t('header.nav.iplDevices', 'IPL Devices'),
-          isCategory: true,
-          items: [
-            { name: t('header.nav.smartAppIPL', 'Smart App-Controlled IPL Device'), href: `/${currentLanguage}/ipl-hair-removal/smart-app`, thumbnail: true },
-            { name: t('header.nav.iceFeelingIPL', 'Ice Feeling IPL Device'), href: `/${currentLanguage}/ipl-hair-removal/ice-feeling`, thumbnail: true },
-            { name: t('header.nav.emeraldIPL', 'Emerald IPL Device'), href: `/${currentLanguage}/ipl-hair-removal/emerald`, thumbnail: true },
-            { name: t('header.nav.skinSensorIPL', 'Skin Sensor IPL Device'), href: `/${currentLanguage}/ipl-hair-removal/skin-sensor`, thumbnail: true },
-            { name: t('header.nav.batteryPoweredIPL', 'Battery Powered IPL Device'), href: `/${currentLanguage}/ipl-hair-removal/battery-powered`, thumbnail: true },
-            { name: t('header.nav.handheldIPL', 'Handheld IPL Device'), href: `/${currentLanguage}/ipl-hair-removal/handheld`, thumbnail: true },
-            { name: t('header.nav.iceCoolingIPL', 'Ice Cooling IPL Device'), href: `/${currentLanguage}/ipl-hair-removal/ice-cooling`, thumbnail: true },
-            { name: t('header.nav.dualLampIPLDevice', 'Dual-Lamp IPL Device'), href: `/${currentLanguage}/ipl-hair-removal/dual-lamp`, thumbnail: true },
-            { name: t('header.nav.aiPoweredIPL', 'AI-POWERED IPL Device'), href: `/${currentLanguage}/ipl-hair-removal/ai-powered`, thumbnail: true }
-          ]
-        },
-        {
-          name: t('header.nav.accessories', 'Accessories'),
-          isCategory: true,
-          items: [
-            { name: t('header.nav.sapphireLens', 'Sapphire Lens'), href: `/${currentLanguage}/accessories/sapphire-lens`, icon: '💎' },
-            { name: t('header.nav.opticalFilter', 'Optical Filter'), href: `/${currentLanguage}/accessories/filter`, icon: '🔍' },
-            { name: t('header.nav.powerAdapter', 'Power Adapter'), href: `/${currentLanguage}/accessories/adapter`, icon: '🔌' },
-            { name: t('header.nav.safetyGoggles', 'Safety Goggles'), href: `/${currentLanguage}/accessories/goggles`, icon: '🥽' }
-          ]
-        }
-      ]
-    },
-    {
-      name: t('header.nav.howToUse', 'How to Use'),
-      href: `/${currentLanguage}/how-to-use`
-    },
-    {
-      name: t('header.nav.serviceSupport', 'Service & Support'),
-      href: `/${currentLanguage}/service-support`,
-      hasDropdown: true,
-      items: [
-        {
-          name: t('header.nav.service', 'Service'),
-          isCategory: true,
-          items: [
-            { name: t('header.nav.afterSales', 'After-Sales Service'), href: `/${currentLanguage}/service-support/after-sales` },
-            { name: t('header.nav.winFDAListing', 'Win FDA Listing'), href: `/${currentLanguage}/service-support/win-fda-listing` },
-            { name: t('header.nav.iplManufacturing', 'IPL Devices Manufacturing'), href: `/${currentLanguage}/service-support/manufacturing` },
-            { name: t('header.nav.knowledgeBase', 'Knowledge Base'), href: `/${currentLanguage}/service-support/knowledge-base` }
-          ]
-        },
-        {
-          name: t('header.nav.supportGuide', 'Support > Buying Guide'),
-          isCategory: true,
-          items: [
-            { name: t('header.nav.beautySourcing', 'Beauty Niche Sourcing & Accessories'), href: `/${currentLanguage}/service-support/beauty-sourcing` },
-            { name: t('header.nav.pricingGuide', 'Pricing Guide'), href: `/${currentLanguage}/service-support/pricing-guide` },
-            { name: t('header.nav.helpCenter', 'Help Center'), href: `/${currentLanguage}/service-support/help-center` },
-            { name: t('header.nav.gallery', 'Gallery'), href: `/${currentLanguage}/service-support/gallery` },
-            { name: t('header.nav.videos', 'Videos'), href: `/${currentLanguage}/service-support/videos` }
-          ]
-        },
-        {
-          name: t('header.nav.blog', 'Blog'),
-          isCategory: true,
-          items: [
-            { name: t('header.nav.newsInsights', 'News & Insights'), href: `/${currentLanguage}/blog/news-insights` },
-            { name: t('header.nav.industries', 'Industries We Serve'), href: `/${currentLanguage}/blog/industries` }
-          ]
-        }
-      ]
-    },
-    {
-      name: t('header.nav.about', 'About'),
-      href: `/${currentLanguage}/about`,
-      hasDropdown: true,
-      items: [
-        { name: t('header.nav.founderMessage', 'Founder Message'), href: `/${currentLanguage}/about/founder-message` },
-        { name: t('header.nav.technology', 'Our Technology'), href: `/${currentLanguage}/about/technology` },
-        { name: t('header.nav.globalWitness', 'Global Witness'), href: `/${currentLanguage}/about/global-witness` },
-        { name: t('header.nav.corePrinciples', 'Core Principles'), href: `/${currentLanguage}/about/core-principles` },
-        { name: t('header.nav.company', 'About iShine'), href: `/${currentLanguage}/about/company` },
-        { name: t('header.nav.brandStory', 'Brand Story'), href: `/${currentLanguage}/about/brand-story` },
-        { name: t('header.nav.quality', 'Quality'), href: `/${currentLanguage}/about/quality` }
-      ]
-    },
-    { name: t('header.nav.contact', 'Contact'), href: `/${currentLanguage}/contact` }
-  ];
+const unlimitedOptions = [
+  {
+    label: "Color Customization",
+    icon: <Palette className="w-6 h-6" />,
+    content: "Choose from unlimited color options to match your brand identity."
+  },
+  {
+    label: "Logo Printing",
+    icon: <BadgeCheck className="w-6 h-6" />,
+    content: "Add your logo for a fully branded product experience."
+  },
+  {
+    label: "Function Customization",
+    icon: <Flame className="w-6 h-6" />,
+    content: "Customize features and functions to meet your market needs."
+  },
+  {
+    label: "Packaging Design",
+    icon: <Package className="w-6 h-6" />,
+    content: "Tailor packaging for retail, e-commerce, or gifting."
+  },
+  {
+    label: "Certification Support",
+    icon: <CheckCircle className="w-6 h-6" />,
+    content: "Comprehensive support for global certifications."
+  },
+];
 
-  const isActive = (href: string) => location.pathname === href;
+const processSteps = [
+  { img: "/step1.jpg", title: "Consultation", desc: "Discuss your brand vision and requirements." },
+  { img: "/step2.jpg", title: "Design & Prototyping", desc: "Get custom designs and functional prototypes." },
+  { img: "/step3.jpg", title: "Sample Confirmation", desc: "Approve samples before mass production." },
+  { img: "/step4.jpg", title: "Mass Production", desc: "Efficient and high-quality manufacturing." },
+  { img: "/step5.jpg", title: "Quality Inspection", desc: "Strict QC for every batch." },
+  { img: "/step6.jpg", title: "Certification", desc: "Support for FDA, CE, and more." },
+  { img: "/step7.jpg", title: "Global Shipping", desc: "Worldwide delivery with flexible logistics." },
+  { img: "/step8.jpg", title: "After-Sales Service", desc: "Ongoing support for your business." },
+];
 
-  const handleDropdownToggle = (name: string) => {
-    setActiveDropdown(activeDropdown === name ? null : name);
-  };
+const testimonials = [
+  "“iShine helped us launch our IPL brand in record time. The quality and service are top-notch!”",
+  "“The customization options are endless. Our clients love the unique packaging and features.”",
+  "“Professional team, fast response, and reliable delivery. Highly recommended for OEM/ODM.”",
+  "“We expanded to new markets thanks to iShine's certification and compliance support.”",
+  "“The after-sales service is excellent. Any issues are resolved quickly and professionally.”",
+  "“Our brand image improved significantly with iShine's design and manufacturing expertise.”"
+];
 
-  // 从产品数据中获取缩略图URL的函数
-  const getThumbnailUrl = (itemName: string) => {
-    // 首先在IPL设备中查找
-    const iplDevice = iplDevices.find(device => device.name === itemName);
-    if (iplDevice && iplDevice.thumbnail) {
-      return iplDevice.thumbnail;
-    }
-    
-    // 然后在配件中查找
-    const accessory = accessories.find(acc => acc.name === itemName);
-    if (accessory && accessory.thumbnail) {
-      return accessory.thumbnail;
-    }
-    
-    // 如果没有找到，返回空字符串
-    return '';
-  };
+const qaList = [
+  { q: "What is IPL and how does it work?", a: "IPL (Intense Pulsed Light) uses broad-spectrum light to target hair follicles, reducing hair growth safely and effectively." },
+  { q: "Can I customize the device functions?", a: "Yes, we offer full customization of features, colors, packaging, and more to fit your brand needs." },
+  { q: "What certifications do you support?", a: "We support FDA, CE, RoHS, and other global certifications to ensure compliance in your target markets." },
+  { q: "How long is the production lead time?", a: "Typical lead time is 25-35 days after sample approval, depending on order size and customization." },
+  { q: "Do you provide after-sales support?", a: "Yes, we offer comprehensive after-sales service including technical support and warranty." },
+  { q: "Can you ship globally?", a: "Absolutely. We provide flexible global shipping solutions to meet your logistics needs." },
+];
+
+export default function HomePage() {
+  const [optionIdx, setOptionIdx] = useState(0);
+  const [qaOpen, setQaOpen] = useState<number | null>(null);
+  const [testimonialPage, setTestimonialPage] = useState(0);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-ishine-blue-500 to-ishine-purple-500 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">iS</span>
-            </div>
-            <span className="text-xl font-bold text-gray-900">{t('header.logo', 'iShine')}</span>
-          </Link>
+    <div className="font-inter bg-[#F8FAFC] text-[#22223B]">
+      {/* Hero Section */}
+      <section className={`${heroBg} min-h-[66vh] flex flex-col justify-center items-center text-white relative overflow-hidden`}>
+        {/* Silk Canvas 背景 */}
+        <div className="absolute inset-0 z-0 pointer-events-none">
+          <Silk speed={5} scale={1} color="#7B7481" noiseIntensity={1.5} rotation={0} />
+        </div>
+        {/* 内容层 */}
+        <div className="max-w-4xl text-center z-10 relative pt-14">
+          <h1 className="text-2xl md:text-6xl font-bold mb-4 drop-shadow-lg">Custom IPL Hair Removal Devices for Cosmetics Brands</h1>
+          <p className="text-lg md:text-2xl mb-8 font-medium drop-shadow">You design it, we build it and box it.</p>
+          <a href="#contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-full shadow-lg hover:bg-blue-100 transition">Get a Free Quote</a>
+        </div>
+      </section>
 
-          {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-8">
-            {navigation.map((item) => (
-              <div key={item.name} className="relative group">
-                <div className="flex items-center">
-                  <Link
-                    to={item.href}
-                    className={`text-sm font-medium transition-colors duration-200 hover:text-ishine-blue-500 ${
-                      isActive(item.href) ? 'text-ishine-blue-500' : 'text-gray-700'
-                    }`}
-                  >
-                    {item.name}
-                  </Link>
-                  {item.hasDropdown && (
-                    <ChevronDown className="ml-1 w-4 h-4 text-gray-500 group-hover:text-ishine-blue-500 transition-colors" />
-                  )}
+      {/* Brand Empowerment / USP */}
+      <section className={`${sectionBg} py-16 px-4 md:px-0`}>
+        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
+          {/* 容器1：主标题+副标题+按钮 */}
+          <div className="flex flex-col items-start justify-center h-full">
+            <h2 className="text-3xl font-bold mb-4">Empower Your Brand</h2>
+            <p className="text-lg mb-6">Unlock the full potential of your cosmetics business with iShine's OEM/ODM IPL solutions.</p>
+            <a href="#contact" className="inline-block px-6 py-2 bg-blue-700 text-white font-semibold rounded-full shadow hover:bg-blue-800 transition">Read More</a>
+          </div>
+          {/* 容器2：富文本1 */}
+          <div className="text-lg">
+            iShine team work with the different industries brands owner, products development managers, products managers, category sourcing manager, retail compliance specialist, products designers together and offer them OEM ODM solution from molded IPL devices design, prototyping to IPL contract manufacturing, printing, package to ensure their IPL projects success.
+          </div>
+          {/* 容器3：富文本2 */}
+          <div className="text-lg">
+            We have the capability for Custom ice cooling IPL, Custom multi-function IPL, Custom Sapphire IPL device, Custom Smart APP-connected IPL device, Custom Dual-lamp IPL, Custom Skin Sensor IPL device. Help you design it, build it and box it. From idea to market. iShine provide solutions that best fit for your brand identity.
+          </div>
+        </div>
+      </section>
+
+      {/* Product Showcase */}
+      <section className="py-16 px-4 md:px-0 bg-gradient-to-br from-blue-50 via-white to-purple-50">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold mb-8 text-center">Featured IPL Devices</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            {iplDevices.slice(0, 9).map((product) => (
+              <div key={product.id} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg">
+                <img src={product.image} alt={product.name} className="w-72 h-72 object-contain mb-4 rounded-lg" />
+                <h3 className="font-bold text-lg text-center">{product.name}</h3>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Customization Options */}
+      <section className="py-16 px-4 md:px-0 bg-gradient-to-r from-blue-100 via-white to-purple-100">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold mb-2 text-center">Unlimited Customization Options</h2>
+          <p className="text-center mb-8 text-lg">Stand out in the market with fully customizable IPL devices tailored to your brand.</p>
+          <div className="flex flex-wrap justify-center gap-4 mb-8">
+            {unlimitedOptions.map((opt, idx) => (
+              <button
+                key={opt.label}
+                className={`flex items-center gap-2 px-5 py-3 rounded-full font-semibold border transition ${optionIdx === idx ? "bg-blue-700 text-white" : "bg-white text-blue-700 border-blue-700"} hover:bg-blue-700 hover:text-white`}
+                onClick={() => setOptionIdx(idx)}
+              >
+                {opt.icon}
+                {opt.label}
+              </button>
+            ))}
+          </div>
+          <div className="max-w-2xl mx-auto bg-white rounded-xl p-6 shadow-lg text-center text-lg min-h-[80px] flex items-center justify-center transition-all">
+            {unlimitedOptions[optionIdx].content}
+          </div>
+        </div>
+      </section>
+
+      {/* OEM/ODM Process */}
+      <section className="py-16 px-4 md:px-0 bg-gradient-to-br from-blue-50 via-white to-purple-50">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold mb-2 text-center">OEM/ODM Process</h2>
+          <p className="text-center mb-8 text-lg">From idea to delivery, we make your IPL device project seamless and successful.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            {processSteps.map((step, i) => (
+              <div key={i} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg">
+                <img src={step.img} alt={step.title} className="w-16 h-16 object-contain mb-4 rounded-lg" />
+                <h3 className="font-bold text-base mb-1">{step.title}</h3>
+                <p className="text-center text-sm">{step.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="py-16 px-4 md:px-0">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold mb-8 text-center">What Our Clients Say</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
+            {testimonials.slice(testimonialPage*3, testimonialPage*3+3).map((tk, i) => (
+              <div key={i} className="bg-white rounded-xl p-6 shadow-lg text-center text-lg italic">{tk}</div>
+            ))}
+          </div>
+          <div className="flex justify-center gap-2">
+            {[0,1].map(i => (
+              <button
+                key={i}
+                className={`w-3 h-3 rounded-full ${testimonialPage === i ? "bg-blue-700" : "bg-blue-200"}`}
+                onClick={() => setTestimonialPage(i)}
+                aria-label={`Go to testimonials page ${i+1}`}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 px-4 md:px-0">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
+          <div className="flex flex-col gap-6">
+            {qaList.map((qa, i) => (
+              <div
+                key={i}
+                className={`relative rounded-xl p-6 cursor-pointer transition-colors duration-200 group border-2 border-blue-700
+                  ${qaOpen === i ? qaHover : qaTheme}
+                  hover:bg-white hover:text-blue-700
+                `}
+                onClick={() => setQaOpen(qaOpen === i ? null : i)}
+              >
+                <div className="flex items-center justify-between">
+                  <span className="font-bold transition-colors duration-200 group-hover:text-blue-700 group-hover:bg-white px-1 rounded">
+                    {qa.q}
+                  </span>
+                  <span className={`absolute right-4 top-1/2 -translate-y-1/2 rounded-full px-2 py-1 transition-colors duration-200
+                    ${qaOpen === i ? qaBadgeHover : qaBadge}
+                    group-hover:bg-blue-700 group-hover:text-white
+                  `}>
+                    <ChevronDown className={`w-5 h-5 transition-transform ${qaOpen === i ? "rotate-180" : ""}`} />
+                  </span>
                 </div>
-
-                {/* Dropdown Menu - IPL Hair Removal 菜单宽度调整为150% */}
-                {item.hasDropdown && (
-                  <div className={`absolute top-full left-0 mt-2 ${
-                    item.name === 'IPL Hair Removal' ? 'w-120' : 'w-80'
-                  } bg-white rounded-lg shadow-xl border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50`}>
-                    <div className="p-4">
-                      {item.items?.map((subItem: any, index) => (
-                        <div key={index}>
-                          {subItem.isCategory ? (
-                            <div className="mb-4">
-                              <h4 className="font-semibold text-gray-900 mb-2 text-sm border-b border-gray-200 pb-1">
-                                {subItem.name}
-                              </h4>
-                              <div className="space-y-1">
-                                {subItem.items?.map((categoryItem: any, catIndex: number) => (
-                                  <Link
-                                    key={catIndex}
-                                    to={categoryItem.href}
-                                    className="flex items-center px-3 py-2 text-sm text-gray-600 hover:text-ishine-blue-500 hover:bg-gray-50 rounded-md transition-colors"
-                                  >
-                                    {categoryItem.thumbnail ? (
-                                      <img
-                                        src={getThumbnailUrl(categoryItem.name)}
-                                        alt={categoryItem.name}
-                                        className="w-8 h-8 rounded object-cover mr-3"
-                                        onError={(e) => {
-                                          // 如果图片加载失败，隐藏图片元素
-                                          e.currentTarget.style.display = 'none';
-                                        }}
-                                      />
-                                    ) : categoryItem.icon ? (
-                                      <span className="text-lg mr-3">{categoryItem.icon}</span>
-                                    ) : null}
-                                    {categoryItem.name}
-                                  </Link>
-                                ))}
-                              </div>
-                            </div>
-                          ) : (
-                            <Link
-                              to={subItem.href}
-                              className="flex items-center px-3 py-2 text-sm text-gray-600 hover:text-ishine-blue-500 hover:bg-gray-50 rounded-md transition-colors"
-                            >
-                              {subItem.thumbnail ? (
-                                <img
-                                  src={getThumbnailUrl(subItem.name)}
-                                  alt={subItem.name}
-                                  className="w-8 h-8 rounded object-cover mr-3"
-                                  onError={(e) => {
-                                    e.currentTarget.style.display = 'none';
-                                  }}
-                                />
-                              ) : subItem.icon ? (
-                                <span className="text-lg mr-3">{subItem.icon}</span>
-                              ) : null}
-                              {subItem.name}
-                            </Link>
-                          )}
-                        </div>
-                      ))}
-                    </div>
+                {qaOpen === i && (
+                  <div className="mt-4 text-base">
+                    {qa.a}
                   </div>
                 )}
               </div>
             ))}
           </div>
-
-          {/* Right Side Icons */}
-          <div className="flex items-center space-x-4">
-            <LanguageSelector />
-            <button className="p-2 text-gray-600 hover:text-ishine-blue-500 transition-colors">
-              <Search className="w-5 h-5" />
-            </button>
-            <a
-              href="https://youtube.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 text-gray-600 hover:text-red-500 transition-colors"
-            >
-              <Youtube className="w-5 h-5" />
-            </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 text-gray-600 hover:text-blue-600 transition-colors"
-            >
-              <Linkedin className="w-5 h-5" />
-            </a>
-
-            {/* Mobile menu button */}
-            <button
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="lg:hidden p-2 text-gray-600 hover:text-gray-900"
-            >
-              {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-            </button>
-          </div>
         </div>
+      </section>
 
-        {/* Mobile Navigation */}
-        {isMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-gray-200 max-h-96 overflow-y-auto">
-            <div className="flex flex-col space-y-4">
-              {navigation.map((item) => (
-                <div key={item.name}>
-                  <div className="flex items-center justify-between">
-                    <Link
-                      to={item.href}
-                      onClick={() => setIsMenuOpen(false)}
-                      className={`text-sm font-medium transition-colors duration-200 hover:text-ishine-blue-500 ${
-                        isActive(item.href) ? 'text-ishine-blue-500' : 'text-gray-700'
-                      }`}
-                    >
-                      {item.name}
-                    </Link>
-                    {item.hasDropdown && (
-                      <button
-                        onClick={() => handleDropdownToggle(item.name)}
-                        className="p-1"
-                      >
-                        <ChevronDown
-                          className={`w-4 h-4 text-gray-500 transition-transform ${
-                            activeDropdown === item.name ? 'rotate-180' : ''
-                          }`}
-                        />
-                      </button>
-                    )}
-                  </div>
+      {/* Contact / CTA */}
+      <section id="contact" className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-6">Contact Us</h2>
+          <p className="text-center text-gray-700 mb-8">Ready to empower your brand? Get in touch for a free consultation and quote.</p>
+          <ContactFormA />
+        </div>
+      </section>
 
-                  {/* Mobile Dropdown */}
-                  {item.hasDropdown && activeDropdown === item.name && (
-                    <div className="mt-2 ml-4 space-y-2">
-                      {item.items?.map((subItem: any, index) => (
-                        <div key={index}>
-                          {subItem.isCategory ? (
-                            <div className="mb-3">
-                              <h4 className="font-semibold text-gray-900 mb-1 text-xs">
-                                {subItem.name}
-                              </h4>
-                              <div className="space-y-1 ml-2">
-                                {subItem.items?.map((categoryItem: any, catIndex: number) => (
-                                  <Link
-                                    key={catIndex}
-                                    to={categoryItem.href}
-                                    onClick={() => setIsMenuOpen(false)}
-                                    className="block text-xs text-gray-600 hover:text-ishine-blue-500 py-1"
-                                  >
-                                    {categoryItem.name}
-                                  </Link>
-                                ))}
-                              </div>
-                            </div>
-                          ) : (
-                            <Link
-                              to={subItem.href}
-                              onClick={() => setIsMenuOpen(false)}
-                              className="flex items-center text-sm text-gray-600 hover:text-ishine-blue-500 py-1"
-                            >
-                              {subItem.thumbnail ? (
-                                <img
-                                  src={getThumbnailUrl(subItem.name)}
-                                  alt={subItem.name}
-                                  className="w-6 h-6 rounded object-cover mr-2"
-                                  onError={(e) => {
-                                    e.currentTarget.style.display = 'none';
-                                  }}
-                                />
-                              ) : subItem.icon ? (
-                                <span className="text-sm mr-2">{subItem.icon}</span>
-                              ) : null}
-                              {subItem.name}
-                            </Link>
-                          )}
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
+      {/* Footer */}
+      <footer className="py-8 px-4 md:px-0 bg-[#1A4DFF] text-white">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="flex items-center gap-2">
+            <Flame className="w-7 h-7" />
+            <span className="font-bold text-lg">iShine IPL</span>
           </div>
-        )}
-      </nav>
-    </header>
+          <div className="flex gap-6">
+            <a href="#about" className="hover:underline">About</a>
+            <a href="#products" className="hover:underline">Products</a>
+            <a href="#contact" className="hover:underline">Contact</a>
+            <a href="#faq" className="hover:underline">FAQ</a>
+          </div>
+          <div className="text-sm">&copy; {new Date().getFullYear()} iShine IPL. All rights reserved.</div>
+        </div>
+      </footer>
+    </div>
   );
-};
-
-export default Header;
+}
