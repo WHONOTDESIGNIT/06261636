@@ -94,8 +94,8 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
           {/* 容器1：主标题+副标题+按钮 */}
           <div className="flex flex-col items-start justify-center h-full">
-            <h2 className="text-3xl font-bold mb-4">About iShine</h2>
-            <p className="text-lg mb-6">One-stop IPL solutions.</p>
+            <h2 className="text-3xl font-bold mb-4 text-blue-700">About iShine</h2>
+            <p className="text-lg mb-6 text-blue-700">One-stop IPL solutions.</p>
             <a href="#contact" className="inline-block px-6 py-2 bg-blue-700 text-white font-semibold rounded-full shadow hover:bg-blue-800 transition">Read More</a>
           </div>
           {/* 容器2：富文本1 */}
