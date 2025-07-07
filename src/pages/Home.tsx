@@ -2,9 +2,7 @@ import { useState } from "react";
 import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown } from "lucide-react";
 import ContactFormA from '../components/Forms/ContactFormA';
 import Silk from './Silk';
-import LanguageSelector from '../components/Layout/LanguageSelector';
-import { iplDevices, accessories } from '../data/products';
-import { useLanguage } from '../context/LanguageContext';
+import { iplDevices } from '../data/products';
 
 const heroBg = "bg-gradient-to-br from-blue-700 via-indigo-500 to-purple-600";
 const sectionBg = "bg-white";
