@@ -236,7 +236,7 @@ export default function HomePage() {
           <div className="flex flex-col items-center mb-8">
             <div className="w-32 h-1 mb-4" style={{ background: 'rgb(239,187,32)' }}></div>
             <p className="text-lg text-gray-700 max-w-3xl text-center">
-              Our IPL devices are engineered for performance, safety, and design flexibility. Whether you need custom features, global certifications, or unique packaging, iShine delivers solutions that help your brand stand out in the beauty industry.
+              iShine is a full-service custom IPL products manufacturer offering end-to-end customization, from mold development and prototyping to mass production and packaging. iShine already customized more than 1,000 custom devices IPL projects for our partner in the past with much experience in IPL products Technical solution and Compliance solution. The custom IPL products include:
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
