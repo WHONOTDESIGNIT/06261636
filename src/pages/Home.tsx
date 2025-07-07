@@ -90,21 +90,21 @@ export default function HomePage() {
       </section>
 
       {/* Brand Empowerment / USP */}
-      <section className={`${sectionBg} py-16 px-4 md:px-0`}>
+      <section className="py-16 px-4 md:px-0 bg-gradient-to-r from-blue-100 via-white to-purple-100">
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
           {/* 容器1：主标题+副标题+按钮 */}
           <div className="flex flex-col items-start justify-center h-full">
-            <h2 className="text-4xl font-bold mb-4 text-blue-700">About iShine</h2>
-            <p className="text-xl mb-6 text-blue-700">One-stop IPL solutions.</p>
-            <a href="/solutions" className="inline-block px-6 py-2 bg-blue-700 text-white font-semibold rounded-full shadow hover:bg-blue-800 transition">Read More</a>
+            <h2 className="text-3xl font-bold mb-4 text-blue-700">About iShine</h2>
+            <p className="text-lg mb-6 text-blue-700">One-stop IPL solutions.</p>
+            <a href="#contact" className="inline-block px-6 py-2 bg-blue-700 text-white font-semibold rounded-full shadow hover:bg-blue-800 transition">Read More</a>
           </div>
           {/* 容器2：富文本1 */}
           <div className="text-lg">
-            iShine team works with brands owners, product development managers, category sourcing managers, retail compliance specialists, and product designers across various industries. We offer olutions, covering every stage from molded IPL device design and prototyping to contract manufacturing, printing, and packaging, ensuring the success of your IPL projects.
+            iShine team work with the different industries brands owner, products development managers, products managers, category sourcing manager, retail compliance specialist, products designers together and offer them OEM ODM solution from molded IPL devices design, prototyping to IPL contract manufacturing, printing, package to ensure their IPL projects success.
           </div>
           {/* 容器3：富文本2 */}
           <div className="text-lg">
-            Our capabilities include custom ice-cooling IPL devices, multi-function IPL devices, sapphire IPL devices, smart app-connected IPL devices, dual-lamp IPL devices, and skin sensor IPL devices. We help you design, build, and package your products—from idea to market. iShine provides solutions best fit your brand identity.
+            We have the capability for Custom ice cooling IPL, Custom multi-function IPL, Custom Sapphire IPL device, Custom Smart APP-connected IPL device, Custom Dual-lamp IPL, Custom Skin Sensor IPL device. Help you design it, build it and box it. From idea to market. iShine provide solutions that best fit for your brand identity.
           </div>
         </div>
       </section>
