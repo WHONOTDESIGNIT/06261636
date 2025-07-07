@@ -234,7 +234,7 @@ export default function HomePage() {
           <h3 className="text-2xl font-semibold mb-4 text-blue-700 text-center">You design it, we build it, box it</h3>
           {/* 黄色细线+正文 */}
           <div className="flex flex-col items-center mb-8">
-            <div className="w-20 h-1 mb-4" style={{ background: 'rgb(239,187,32)' }}></div>
+            <div className="w-32 h-1 mb-4" style={{ background: 'rgb(239,187,32)' }}></div>
             <p className="text-lg text-gray-700 max-w-3xl text-center">
               Our IPL devices are engineered for performance, safety, and design flexibility. Whether you need custom features, global certifications, or unique packaging, iShine delivers solutions that help your brand stand out in the beauty industry.
             </p>
