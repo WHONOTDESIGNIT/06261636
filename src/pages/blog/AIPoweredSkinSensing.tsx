@@ -1,8 +1,6 @@
 import React from 'react';
-import { useTranslation } from '../../hooks/useTranslation';
 
 const AIPoweredSkinSensing: React.FC = () => {
-  const { t } = useTranslation();
   return (
     <div className="min-h-screen bg-white pt-20 px-4 md:px-0">
       <section className="max-w-4xl mx-auto py-12">
