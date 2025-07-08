@@ -57,7 +57,8 @@ const blogPosts = [
     date: "2025-06-24",
     category: "Market Analysis",
     image: "/images/blog/multi-head-systems.jpg",
-    tags: ["Product Innovation", "User Experience"]
+    tags: ["Product Innovation", "User Experience"],
+    link: "/blog/multi-head-ipl-systems"
   },
   {
     id: 6,
