@@ -47,6 +47,7 @@ const pages = [
   { path: "/blog/ipl-best-choice", label: "IPL Best Choice" },
   { path: "/blog/future-home-hair-removal-devices", label: "Future Home Hair Removal" },
   { path: "/blog/fda-510k-pathway", label: "FDA 510k Pathway" },
+  { path: "/shipping-cost", label: "Shipping Cost Calculator" },
 ];
 
 const Sitemap: React.FC = () => (
