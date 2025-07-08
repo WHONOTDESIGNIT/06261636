@@ -66,6 +66,7 @@ import FDA510kPathway from './pages/blog/FDA510kPathway';
 import MultiHeadIPLSystems from './pages/blog/MultiHeadIPLSystems';
 import AIPoweredSkinSensing from './pages/blog/AIPoweredSkinSensing';
 import GlobalMarketShifts from './pages/blog/GlobalMarketShifts';
+import SustainableManufacturing from './pages/blog/SustainableManufacturing';
 
 // About Pages
 import FounderMessage from './pages/about/FounderMessage';
@@ -219,6 +220,7 @@ const App: React.FC = () => (
             <Route path="blog/multi-head-ipl-systems" element={<MultiHeadIPLSystems />} />
             <Route path="blog/ai-powered-skin-sensing" element={<AIPoweredSkinSensing />} />
             <Route path="blog/global-market-shifts" element={<GlobalMarketShifts />} />
+            <Route path="blog/sustainable-manufacturing" element={<SustainableManufacturing />} />
             <Route path="iplmanufacturer/:countryCode" element={<CountryPage />} />
             <Route path="sitemap" element={<Sitemap />} />
             <Route path="shipping-cost" element={<ShippingCostPage />} />
@@ -280,6 +282,7 @@ const App: React.FC = () => (
               <Route path="blog/multi-head-ipl-systems" element={<MultiHeadIPLSystems />} />
               <Route path="blog/ai-powered-skin-sensing" element={<AIPoweredSkinSensing />} />
               <Route path="blog/global-market-shifts" element={<GlobalMarketShifts />} />
+              <Route path="blog/sustainable-manufacturing" element={<SustainableManufacturing />} />
               <Route path="iplmanufacturer/:countryCode" element={<CountryPage />} />
               <Route path="sitemap" element={<Sitemap />} />
               <Route path="shipping-cost" element={<ShippingCostPage />} />
