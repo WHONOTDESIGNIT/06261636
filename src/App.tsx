@@ -82,9 +82,6 @@ import Sitemap from './pages/Sitemap';
 // Shipping Cost Page
 import ShippingCostPage from './pages/shipping-cost';
 
-// Smooth Skin FAQ Page
-import SmoothSkinFAQ from './pages/SmoothSkinFAQ';
-
 // 404 Not Found Page
 const NotFound: React.FC = () => (
   <div style={{ padding: '4rem', textAlign: 'center' }}>
@@ -168,6 +165,7 @@ const App: React.FC = () => (
           {/* 英文无前缀路由 */}
           <Route element={<MainLayout />}>
             <Route path="solutions" element={<Solutions />} />
+            <Route path="service-support" element={<ServiceSupport />} />
             <Route path="ipl-hair-removal" element={<IPLHairRemoval />} />
             <Route path="ipl-hair-removal/smart-app" element={<SmartAppIPL />} />
             <Route path="ipl-hair-removal/ice-feeling" element={<IceFeelingIPL />} />
@@ -201,7 +199,6 @@ const App: React.FC = () => (
             <Route path="accessories/adapter" element={<Adapter />} />
             <Route path="accessories/goggles" element={<ProtectiveGoggles />} />
             <Route path="accessories/filter" element={<Filter />} />
-            <Route path="service-support" element={<ServiceSupport />} />
             <Route path="service-support/after-sales" element={<AfterSalesService />} />
             <Route path="service-support/win-fda-listing" element={<WinFDAListing />} />
             <Route path="service-support/manufacturing" element={<IPLManufacturing />} />
@@ -219,7 +216,6 @@ const App: React.FC = () => (
             <Route path="iplmanufacturer/:countryCode" element={<CountryPage />} />
             <Route path="sitemap" element={<Sitemap />} />
             <Route path="shipping-cost" element={<ShippingCostPage />} />
-            <Route path="smoothskin-faq" element={<SmoothSkinFAQ />} />
           </Route>
 
           {/* 非英文带前缀路由 */}
@@ -227,6 +223,7 @@ const App: React.FC = () => (
             <Route element={<MainLayout />}>
               <Route index element={<Home />} />
               <Route path="solutions" element={<Solutions />} />
+              <Route path="service-support" element={<ServiceSupport />} />
               <Route path="ipl-hair-removal" element={<IPLHairRemoval />} />
               <Route path="ipl-hair-removal/smart-app" element={<SmartAppIPL />} />
               <Route path="ipl-hair-removal/ice-feeling" element={<IceFeelingIPL />} />
@@ -260,7 +257,6 @@ const App: React.FC = () => (
               <Route path="accessories/adapter" element={<Adapter />} />
               <Route path="accessories/goggles" element={<ProtectiveGoggles />} />
               <Route path="accessories/filter" element={<Filter />} />
-              <Route path="service-support" element={<ServiceSupport />} />
               <Route path="service-support/after-sales" element={<AfterSalesService />} />
               <Route path="service-support/win-fda-listing" element={<WinFDAListing />} />
               <Route path="service-support/manufacturing" element={<IPLManufacturing />} />
@@ -278,7 +274,6 @@ const App: React.FC = () => (
               <Route path="iplmanufacturer/:countryCode" element={<CountryPage />} />
               <Route path="sitemap" element={<Sitemap />} />
               <Route path="shipping-cost" element={<ShippingCostPage />} />
-              <Route path="smoothskin-faq" element={<SmoothSkinFAQ />} />
             </Route>
           </Route>
 
