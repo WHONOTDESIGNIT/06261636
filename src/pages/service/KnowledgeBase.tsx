@@ -424,9 +424,9 @@ const KnowledgeBase: React.FC = () => {
             transition={{ duration: 0.8 }}
           >
             <BookOpen className="w-16 h-16 mx-auto mb-6" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Your IPL Questions, Answered</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">FAQs</h1>
             <p className="text-lg md:text-xl max-w-3xl mx-auto text-gray-100">
-              Explore expert, data-driven answers to the most common questions about IPL home hair removal devices. If you need more support, our technical team is ready to help.
+              Do you have a question? Don’t worry we have the answer. You can also contact us at help@iplmanufacturer.com.
             </p>
           </motion.div>
         </div>
