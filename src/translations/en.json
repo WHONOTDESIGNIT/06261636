@@ -95,6 +95,17 @@
       "copyright": "© 2025 iShine. All rights reserved.",
       "privacyPolicy": "Privacy Policy",
       "termsOfService": "Terms of Service"
+    },
+    "contact": {
+      "title": "Contact",
+      "tel": "Tel",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "address": "ADDRESS",
+      "telValue": "+86-15900283962",
+      "whatsappValue": "+86-15012891148",
+      "emailValue": "service@ishineco.com",
+      "addressValue": "208 Room, 4 Building, No.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, China, 518071"
     }
   },
   "home": {
@@ -399,5 +410,46 @@
         "compatibility": "Compatible with iOS & Android"
       }
     }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "shipping": {
+      "q": "Can you ship globally?",
+      "a": "Absolutely. We offer reliable worldwide shipping to support your business wherever you are."
+    },
+    "customization": {
+      "q": "Can I customize the device functions?",
+      "a": "Yes, we offer full customization of features, colors, packaging, and more to fit your brand needs."
+    },
+    "certifications": {
+      "q": "What certifications do you support?",
+      "a": "We support FDA, CE, RoHS, and other global certifications to ensure compliance in your target markets."
+    },
+    "leadTime": {
+      "q": "How long is the production lead time?",
+      "a": "Typical lead time is 25-35 days after sample approval, depending on order size and customization."
+    },
+    "afterSales": {
+      "q": "Do you provide after-sales support?",
+      "a": "Yes, we offer comprehensive after-sales service including technical support and warranty."
+    }
+  },
+  "cta": {
+    "getSupport": "Get Support Now",
+    "readyToStart": "Ready to Get Started?",
+    "contactUs": "Contact Us",
+    "freeQuote": "Get a Free Quote",
+    "readMore": "Read More"
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "country": "Country",
+    "message": "Message",
+    "submit": "Submit",
+    "sending": "Sending...",
+    "success": "Your message has been sent successfully!",
+    "error": "There was an error sending your message. Please try again."
   }
 }
