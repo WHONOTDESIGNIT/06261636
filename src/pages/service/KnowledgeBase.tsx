@@ -54,6 +54,14 @@ const faqData: Category[] = [
       {
         question: 'How long will it take to see results? Is IPL permanent?',
         answer: "Most users notice hair reduction between 2-4 weeks. SmoothSkin devices will prevent hair regrowth as long as you keep treating it regularly. After the initial 12-week regime, you will need to do 'top up' treatments every 4-8 weeks depending on your hair growth rate. After 12 weeks, you could see up to 99% hair reduction. Remember that results may vary for different people."
+      },
+      {
+        question: 'Do I need to wear eye protection when using SmoothSkin?',
+        answer: 'Our devices have been developed with safety at the forefront and are safe to use without the need for eye protection. However, you should never attempt to fire on to or close to the eye itself.'
+      },
+      {
+        question: 'How often should I use my SmoothSkin?',
+        answer: 'To get the most out of your SmoothSkin you should start off by using it once a week for 12 weeks continuously. After the initial 12-week, switch to maintenance treatments every 2 to 4 weeks. There is no increased benefit from using your device more than once a week.'
       }
     ]
   },
@@ -83,10 +91,6 @@ const faqData: Category[] = [
       {
         question: 'Is IPL safe? Is it safe for my skin?',
         answer: 'Yes. Our devices are FDA cleared and have been clinically proven to be safe and effective, with over 5,500 clinical treatments performed on different skin tones. All our devices feature a skin tone sensor that automatically reads your skin tone before every flash ensuring the device flashes only if safe, so you will never burn your skin. Our devices are compliant with the latest Eye Safety Standards. Your skin is protected by our advanced 3mm glass UV filter which prevents damaging light reaching your skin.'
-      },
-      {
-        question: 'Do I need to wear eye protection when using SmoothSkin?',
-        answer: 'Our devices have been developed with safety at the forefront and are safe to use without the need for eye protection. However, you should never attempt to fire on to or close to the eye itself.'
       },
       {
         question: 'Can I use SmoothSkin if I am pregnant or breastfeeding?',
