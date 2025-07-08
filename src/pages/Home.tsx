@@ -374,27 +374,29 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
           <div className="flex flex-col gap-6">
             {qaList.map((qa, i) => (
-              <div
-                key={i}
-                className={`relative rounded-xl p-6 cursor-pointer transition-colors duration-200 group border-2 border-blue-700
-                  ${qaOpen === i ? qaHover : qaTheme}
-                  hover:bg-white hover:text-blue-700
-                `}
-                onClick={() => setQaOpen(qaOpen === i ? null : i)}
-              >
-                <div className="flex items-center justify-between">
-                  <span className="font-bold transition-colors duration-200 group-hover:text-blue-700 group-hover:bg-white px-1 rounded">
-                    {qa.q}
-                  </span>
-                  <span className={`absolute right-4 top-1/2 -translate-y-1/2 rounded-full px-2 py-1 transition-colors duration-200
-                    ${qaOpen === i ? qaBadgeHover : qaBadge}
-                    group-hover:bg-blue-700 group-hover:text-white
-                  `}>
+              <div key={i} className="mb-4">
+                {/* 问题卡片 */}
+                <div
+                  className={`
+                    flex items-center justify-between
+                    rounded-xl px-6 py-4 cursor-pointer
+                    border-2 border-blue-700
+                    bg-blue-700 text-white
+                    hover:bg-white hover:text-blue-700
+                    transition-colors duration-200
+                    min-h-[56px]  // 你可以根据实际需要设置固定高度
+                  `}
+                  onClick={() => setQaOpen(qaOpen === i ? null : i)}
+                  style={{ transition: 'background 0.2s, color 0.2s' }}
+                >
+                  <span className="font-bold">{qa.q}</span>
+                  <span>
                     <ChevronDown className={`w-5 h-5 transition-transform ${qaOpen === i ? "rotate-180" : ""}`} />
                   </span>
                 </div>
+                {/* 答案内容，下拉区域，无边框 */}
                 {qaOpen === i && (
-                  <div className="mt-4 text-base">
+                  <div className="px-6 py-4 bg-transparent text-base">
                     {qa.a}
                   </div>
                 )}
