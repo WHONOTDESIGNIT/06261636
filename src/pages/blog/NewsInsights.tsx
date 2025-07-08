@@ -91,6 +91,17 @@ const blogPosts = [
     category: "Sustainability",
     image: "/images/blog/sustainable-manufacturing.jpg",
     tags: ["Environmental Impact", "Green Technology"]
+  },
+  {
+    id: 9,
+    title: "Sustainable Manufacturing: Green IPL Production Methods",
+    excerpt: "As the demand for at-home IPL devices surges, so does the responsibility to produce with minimal environmental impact. This article explores practical strategies for a green supply chain, from electronics to packaging and waste reutilization.",
+    author: "Sustainability Team",
+    date: "2025-06-18",
+    category: "Sustainability",
+    image: "/images/blog/sustainable-manufacturing.jpg",
+    tags: ["Environmental Impact", "Green Technology", "Supply Chain"],
+    link: "/blog/sustainable-manufacturing"
   }
 ];
 
