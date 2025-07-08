@@ -269,16 +269,6 @@ const faqData: Category[] = [
     ]
   },
   {
-    title: 'iShine: Refunds & 100-day money back guarantee',
-    icon: BookOpen,
-    qas: [
-      {
-        question: 'For queries relating to refunds, returns or our 100-day money back guarantee, please visit our terms and conditions page.',
-        answer: 'See our terms and conditions: https://iplmanufacturer.com/terms-and-conditions/'
-      }
-    ]
-  },
-  {
     title: 'iShine: Treatment',
     icon: Wrench,
     qas: [
@@ -356,8 +346,8 @@ const faqData: Category[] = [
 
 const KnowledgeBase: React.FC = () => {
   const [open, setOpen] = useState<{ catIdx: number; qaIdx: number } | null>(null);
-  // 删除 'iShine: Troubleshooting' 板块
-  const filteredFaqData = faqData.filter(cat => cat.title !== 'iShine: Troubleshooting');
+  // 删除 'iShine: Refunds & 100-day money back guarantee' 板块
+  const filteredFaqData = faqData.filter(cat => cat.title !== 'iShine: Troubleshooting' && cat.title !== 'iShine: Refunds & 100-day money back guarantee');
   return (
     <>
       {/* ---------------- FAQ CATEGORIES ---------------- */}
