@@ -1,9 +1,12 @@
 import React from 'react';
+import { t } from '../../hooks/useTranslation';
 
 const SustainableManufacturing: React.FC = () => (
   <div className="min-h-screen bg-white pt-20 px-4 md:px-0">
     <section className="max-w-4xl mx-auto py-12">
-      <h1 className="text-3xl md:text-5xl font-bold mb-6">Sustainable Manufacturing: Green IPL Production Methods</h1>
+      <h1>{t('blog.posts.sustainableManufacturing.title')}</h1>
+      <h2>{t('blog.posts.sustainableManufacturing.sections.environmentalImpact')}</h2>
+      <p>{t('blog.posts.sustainableManufacturing.intro')}</p>
       <h2 className="text-2xl font-semibold mb-4">Introduction</h2>
       <p className="mb-4">As the demand for at-home IPL (Intense Pulsed Light) hair removal devices surges, so does the responsibility to produce these electronics with minimal environmental impact. Sustainable manufacturing is no longer a trend but a necessity—encompassing every stage from raw material sourcing to end-of-life recycling. This article assesses the environmental footprint of IPL device production and explores innovative, practical strategies for achieving a truly green supply chain, with a focus on electronics, optics, eco-friendly ABS housings, sustainable packaging, and waste reutilization.</p>
       <h2 className="text-xl font-semibold mb-2">Environmental Impact Assessment of IPL Device Manufacturing</h2>
