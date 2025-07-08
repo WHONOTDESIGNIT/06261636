@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-ishine-blue-700 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
@@ -61,6 +61,17 @@ const Footer: React.FC = () => {
               <li><Link to="/about/brand-story" className="hover:text-white transition-colors">Brand Story</Link></li>
               <li><Link to="/about/quality" className="hover:text-white transition-colors">Quality</Link></li>
               <li><Link to="/blog/news-insights" className="hover:text-white transition-colors">Blog</Link></li>
+            </ul>
+          </div>
+
+          {/* Contact Info */}
+          <div>
+            <h3 className="font-semibold mb-4">Contact</h3>
+            <ul className="space-y-2 text-gray-300 text-sm">
+              <li>Tel: <a href="tel:+8615900283962" className="hover:text-white transition-colors">+86-15900283962</a></li>
+              <li>WhatsApp: <a href="https://wa.me/8615012891148" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">+86-15012891148</a></li>
+              <li>Email: <a href="mailto:service@ishineco.com" className="hover:text-white transition-colors">service@ishineco.com</a></li>
+              <li>ADDRESS: 208 Room, 4 Building, No.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, China, 518071</li>
             </ul>
           </div>
         </div>
