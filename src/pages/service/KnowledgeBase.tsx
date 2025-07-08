@@ -188,7 +188,21 @@ const faqData: Category[] = [
         answer: 'Contact our support team—responses within 24 hours.'
       }
     ]
-  }
+  },
+  {
+    title: 'SmoothSkin Official FAQ',
+    icon: HelpCircle,
+    qas: [
+      {
+        question: 'What Is IPL?',
+        answer: 'IPL (Intense Pulsed Light) is a light-based hair removal method, that targets the melanin (pigment) inside the hair to interrupt the hair growth cycle and prevent hair regrowth, without damaging the skin.',
+      },
+      {
+        question: 'Is IPL safe? Is it safe for my skin?',
+        answer: 'Yes. Our devices are FDA cleared and have been clinically proven to be safe and effective, with over 5,500 clinical treatments performed on different skin tones. ...',
+      },
+    ]
+  },
 ];
 
 const KnowledgeBase: React.FC = () => {
@@ -230,7 +244,9 @@ const KnowledgeBase: React.FC = () => {
                 {cat.qas.map((qa) => (
                   <div key={qa.question} className="bg-gray-50 rounded-lg p-4 shadow">
                     <h3 className="font-semibold text-ishine-blue-500 mb-2">{qa.question}</h3>
-                    <p className="text-gray-700 text-sm leading-relaxed whitespace-pre-line">{qa.answer}</p>
+                    <p className="text-gray-700 text-sm leading-relaxed whitespace-pre-line">
+                      {typeof qa.answer === 'string' ? qa.answer : qa.answer}
+                    </p>
                   </div>
                 ))}
               </div>
