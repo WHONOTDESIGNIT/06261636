@@ -189,9 +189,7 @@ const HelpCenter: React.FC = () => {
                       </div>
                       {isOpen && (
                         <div className="bg-white rounded-lg p-4 mt-2 mb-4 ml-4 shadow-inner animate-fade-in">
-                          <p className="text-gray-700 text-base leading-relaxed whitespace-pre-line">
-                            {typeof qa.answer === 'string' ? qa.answer : qa.answer}
-                          </p>
+                          <p className="text-gray-700 text-base leading-relaxed whitespace-pre-line" dangerouslySetInnerHTML={{ __html: qa.answer }} />
                         </div>
                       )}
                     </React.Fragment>
