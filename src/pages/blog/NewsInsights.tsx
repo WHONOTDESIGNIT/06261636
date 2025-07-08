@@ -74,12 +74,13 @@ const blogPosts = [
   {
     id: 7,
     title: "Global Market Shifts: IPL Adoption in Emerging Markets",
-    excerpt: "Economic analysis of IPL device penetration rates across Asia-Pacific and Latin American markets through 2025.",
+    excerpt: "The global IPL hair removal device market is booming, especially in Asia-Pacific, Latin America, and the Middle East. Explore 2025-2026 market size, growth drivers, and the impact on the broader cosmetics industry.",
     author: "Market Intelligence",
     date: "2025-06-20",
     category: "Market Analysis",
     image: "/images/blog/global-market.jpg",
-    tags: ["Market Expansion", "Economic Trends"]
+    tags: ["Market Expansion", "Economic Trends"],
+    link: "/blog/global-market-shifts"
   },
   {
     id: 8,
