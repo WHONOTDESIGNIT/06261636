@@ -102,4 +102,7 @@ const path = require('path');
 const sitemapPath = path.join(__dirname, 'sitemap.xml');
 fs.writeFileSync(sitemapPath, sitemap);
 
-console.log('Sitemap generated successfully!'); 
+console.log(`✅ Sitemap generated successfully at ${sitemapPath}`);
+console.log(`📊 Total URLs: ${allPaths.length}`);
+console.log(`🌍 Languages: en + ${allLangs.length - 1} others`);
+console.log(`📄 Pages per language: ${Math.round(allPaths.length / allLangs.length)}`); 
