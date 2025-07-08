@@ -260,7 +260,7 @@ const faqData: Category[] = [
       },
       {
         question: 'Why is my device not flashing?',
-        answer: `- Make sure your power supply is plugged in all the way.\n- Do you have full skin contact? IPL devices will not activate unless all 4-points are in contact with your skin.\n- Check your skin-tone suitability. IPL is not suitable for use on deep skin tones that are rich in melanin.\n- For more information on how to look after your SmoothSkin device, see above.\n- If your IPL is not working, please reach out to us at help@iplmanufacturer.com.`
+        answer: `- Make sure your power supply is plugged in all the way.\n- Do you have full skin contact? IPL devices will not activate unless all 4-points are in contact with your skin.\n- Check your skin-tone suitability. IPL is not suitable for use on deep skin tones that are rich in melanin.\n- For more information on how to look after your IPL device, see above.\n- If your IPL is not working, please reach out to us at help@iplmanufacturer.com.`
       },
       {
         question: 'What should I do if I get a red light when using my device?',
@@ -269,17 +269,17 @@ const faqData: Category[] = [
     ]
   },
   {
-    title: 'SmoothSkin: Refunds & 100-day money back guarantee',
+    title: 'iShine: Refunds & 100-day money back guarantee',
     icon: BookOpen,
     qas: [
       {
         question: 'For queries relating to refunds, returns or our 100-day money back guarantee, please visit our terms and conditions page.',
-        answer: 'See our terms and conditions: https://smoothskin.com/terms-and-conditions/'
+        answer: 'See our terms and conditions: https://iplmanufacturer.com/terms-and-conditions/'
       }
     ]
   },
   {
-    title: 'SmoothSkin: Treatment',
+    title: 'iShine: Treatment',
     icon: Wrench,
     qas: [
       {
@@ -296,11 +296,11 @@ const faqData: Category[] = [
       },
       {
         question: 'What does a treatment feel like?',
-        answer: 'Most people describe it as a slight tingling or warm sensation. In recent clinical trials, users rated the discomfort of a SmoothSkin treatment at just 3 out of 10. Some of our devices have a Gentle Mode for sensitive areas.'
+        answer: 'Most people describe it as a slight tingling or warm sensation. In recent clinical trials, users rated the discomfort of a IPL treatment at just 3 out of 10. Some of our devices have a Gentle Mode for sensitive areas.'
       },
       {
-        question: 'What areas of the body can I use SmoothSkin?',
-        answer: 'SmoothSkin is FDA cleared to treat the arms, legs, face, back, fingers, toes and bikini area.'
+        question: 'What areas of the body can I use IPL?',
+        answer: 'IPL is FDA cleared to treat the arms, legs, face, back, fingers, toes and bikini area.'
       },
       {
         question: 'What happens if I miss a treatment?',
@@ -311,19 +311,19 @@ const faqData: Category[] = [
         answer: 'Our devices are built to last. They feature unlimited flashes so you will never run out.'
       },
       {
-        question: 'Can I use SmoothSkin if I am pregnant or breastfeeding?',
-        answer: 'We don\'t recommend using SmoothSkin if you are pregnant or breastfeeding. Our devices have not been tested with these individuals.'
+        question: 'Can I use IPL if I am pregnant or breastfeeding?',
+        answer: 'We don\'t recommend using IPL if you are pregnant or breastfeeding. Our devices have not been tested with these individuals.'
       },
       {
-        question: 'Can I use SmoothSkin over my tattoos?',
-        answer: 'Do not use SmoothSkin over scars or tattoos. You can, however, use it to treat areas around scars and tattoos.'
+        question: 'Can I use IPL over my tattoos?',
+        answer: 'Do not use IPL over scars or tattoos. You can, however, use it to treat areas around scars and tattoos.'
       },
       {
-        question: 'Can men use SmoothSkin products too?',
-        answer: 'Of course! SmoothSkin devices are not gender specific, but just remember that the results will be permanent. Always complete a patch test before your first treatment.'
+        question: 'Can men use IPL products too?',
+        answer: 'Of course! IPL devices are not gender specific, but just remember that the results will be permanent. Always complete a patch test before your first treatment.'
       },
       {
-        question: 'Do I need gel when I use SmoothSkin?',
+        question: 'Do I need gel when I use IPL?',
         answer: "No, you don't need gel with our devices."
       },
       {
@@ -333,22 +333,22 @@ const faqData: Category[] = [
     ]
   },
   {
-    title: 'SmoothSkin: Looking after your device',
+    title: 'iShine: Looking after your device',
     icon: Wrench,
     qas: [
       {
-        question: 'How do I take care of my SmoothSkin device?',
-        answer: `- After treatment, always switch off your SmoothSkin by unplugging the electrical outlet.\n- To ensure the maximum performance of your device it is important to keep the front of the device free from dirt, hair or debris. Before and after every use wipe clean the front of the device with a soft lint free, dry cloth. If necessary, you can also carefully clean the front of the device with a slightly damp cotton bud.\n- The glass filter can get hot during use, please DO NOT touch, or clean the filter for at least 5 minutes after use to allow it to cool down.\n- Please don't use water or other cleaning fluids, as these can damage the device leading to a potential safety hazard. Always inspect the treatment window to ensure the window is undamaged.\n- Store your SmoothSkin device in a cool, dry place. Make sure the treatment window and skin tone sensor on the device are protected from damage. Please regularly check the device (including cords) for visible signs of damage. In case of damage or cracks, stop using the device - and visit the website for support details.`
+        question: 'How do I take care of my IPL device?',
+        answer: `- After treatment, always switch off your IPL by unplugging the electrical outlet.\n- To ensure the maximum performance of your device it is important to keep the front of the device free from dirt, hair or debris. Before and after every use wipe clean the front of the device with a soft lint free, dry cloth. If necessary, you can also carefully clean the front of the device with a slightly damp cotton bud.\n- The glass filter can get hot during use, please DO NOT touch, or clean the filter for at least 5 minutes after use to allow it to cool down.\n- Please don't use water or other cleaning fluids, as these can damage the device leading to a potential safety hazard. Always inspect the treatment window to ensure the window is undamaged.\n- Store your IPL device in a cool, dry place. Make sure the treatment window and skin tone sensor on the device are protected from damage. Please regularly check the device (including cords) for visible signs of damage. In case of damage or cracks, stop using the device - and visit the website for support details.`
       }
     ]
   },
   {
-    title: 'SmoothSkin: Troubleshooting',
+    title: 'iShine: Troubleshooting',
     icon: AlertCircle,
     qas: [
       {
         question: 'Why is my device not flashing?',
-        answer: `- Make sure your power supply is plugged in all the way.\n- Do you have full skin contact? SmoothSkin devices will not activate unless all 4-points are in contact with your skin.\n- Check your skin-tone suitability. IPL is not suitable for use on deep skin tones that are rich in melanin.\n- For more information on how to look after your SmoothSkin device, see above.\n- If your SmoothSkin is not working, please reach out to us at help@smoothskin.com.`
+        answer: `- Make sure your power supply is plugged in all the way.\n- Do you have full skin contact? IPL devices will not activate unless all 4-points are in contact with your skin.\n- Check your skin-tone suitability. IPL is not suitable for use on deep skin tones that are rich in melanin.\n- For more information on how to look after your SmoothSkin device, see above.\n- If your IPL is not working, please reach out to us at help@iplmanufacturer.com.`
       },
       {
         question: 'What should I do if I get a red light when using my device?',
