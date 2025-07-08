@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import {
   BookOpen,
@@ -328,6 +328,7 @@ const faqData: Category[] = [
 ];
 
 const KnowledgeBase: React.FC = () => {
+  const [open, setOpen] = useState<{ catIdx: number; qaIdx: number } | null>(null);
   return (
     <div className="min-h-screen pt-20 overflow-x-hidden">
       {/* ---------------------------- HERO ---------------------------- */}
@@ -350,27 +351,50 @@ const KnowledgeBase: React.FC = () => {
       {/* ---------------- FAQ CATEGORIES ---------------- */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          {faqData.map((cat, idx) => (
+          {faqData.map((cat, catIdx) => (
             <motion.div
               key={cat.title}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: idx * 0.1 }}
+              transition={{ duration: 0.5, delay: catIdx * 0.1 }}
               className="mb-12"
             >
               <h2 className="text-2xl md:text-3xl font-bold text-ishine-blue-600 mb-6">
                 {cat.title}
               </h2>
               <div className="space-y-4 pl-2">
-                {cat.qas.map((qa) => (
-                  <div key={qa.question} className="bg-gray-50 rounded-lg p-4 shadow">
-                    <h3 className="font-semibold text-ishine-blue-500 mb-2">{qa.question}</h3>
-                    <p className="text-gray-700 text-sm leading-relaxed whitespace-pre-line">
-                      {typeof qa.answer === 'string' ? qa.answer : qa.answer}
-                    </p>
-                  </div>
-                ))}
+                {cat.qas.map((qa, qaIdx) => {
+                  const isOpen = open && open.catIdx === catIdx && open.qaIdx === qaIdx;
+                  return (
+                    <div key={qa.question} className="bg-gray-50 rounded-lg p-4 shadow flex items-center justify-between">
+                      <div className="flex-1">
+                        <h3 className="font-semibold text-ishine-blue-500 mb-0 select-none cursor-default">{qa.question}</h3>
+                      </div>
+                      <button
+                        className="ml-4 w-8 h-8 flex items-center justify-center rounded-full border border-blue-700 text-blue-700 text-xl font-bold focus:outline-none focus:ring-2 focus:ring-blue-300 transition"
+                        aria-label={isOpen ? 'Collapse answer' : 'Expand answer'}
+                        onClick={() => setOpen(isOpen ? null : { catIdx, qaIdx })}
+                        tabIndex={0}
+                      >
+                        {isOpen ? <span className="text-2xl">−</span> : <span className="text-2xl">+</span>}
+                      </button>
+                    </div>
+                  );
+                })}
+                {/* 展开答案区域 */}
+                {cat.qas.map((qa, qaIdx) => {
+                  const isOpen = open && open.catIdx === catIdx && open.qaIdx === qaIdx;
+                  return (
+                    isOpen && (
+                      <div key={qa.question + '-answer'} className="bg-white border-l-4 border-blue-700 rounded-lg p-4 mt-2 mb-4 ml-4 shadow-inner animate-fade-in">
+                        <p className="text-gray-700 text-base leading-relaxed whitespace-pre-line">
+                          {typeof qa.answer === 'string' ? qa.answer : qa.answer}
+                        </p>
+                      </div>
+                    )
+                  );
+                })}
               </div>
             </motion.div>
           ))}
