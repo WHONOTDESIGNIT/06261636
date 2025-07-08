@@ -30,9 +30,9 @@ const faqData: Category[] = [
     icon: Zap,
     qas: [
       {
-        question: 'What is IPL and how does it work?',
+        question: 'What is IPL?',
         answer:
-          'IPL (Intense Pulsed Light) targets melanin in the hair. Broad-spectrum light is absorbed and converted to heat, disabling follicles and disrupting the growth cycle. Treated hairs fall out naturally within 1–2 weeks.'
+          'IPL (Intense Pulsed Light) is a light-based hair removal method, that targets the melanin (pigment) inside the hair to interrupt the hair growth cycle and prevent hair regrowth, without damaging the skin.'
       },
       {
         question: 'How is IPL different from laser hair removal?',
@@ -40,7 +40,7 @@ const faqData: Category[] = [
           'Both use light to heat and disable the follicle, but IPL delivers a broad flash covering larger areas for faster sessions, while lasers emit a concentrated beam that requires more passes and time.'
       },
       {
-        question: 'What Is IPL?',
+        question: 'How IPL works?',
         answer: 'IPL (Intense Pulsed Light) is a light-based hair removal method, that targets the melanin (pigment) inside the hair to interrupt the hair growth cycle and prevent hair regrowth, without damaging the skin.'
       },
       {
