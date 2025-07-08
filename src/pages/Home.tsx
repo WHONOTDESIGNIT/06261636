@@ -59,12 +59,54 @@ const testimonials = [
 ];
 
 const qaList = [
-  { q: "What is IPL and how does it work?", a: "IPL (Intense Pulsed Light) uses broad-spectrum light to target hair follicles, reducing hair growth safely and effectively." },
-  { q: "Can I customize the device functions?", a: "Yes, we offer full customization of features, colors, packaging, and more to fit your brand needs." },
-  { q: "What certifications do you support?", a: "We support FDA, CE, RoHS, and other global certifications to ensure compliance in your target markets." },
-  { q: "How long is the production lead time?", a: "Typical lead time is 25-35 days after sample approval, depending on order size and customization." },
-  { q: "Do you provide after-sales support?", a: "Yes, we offer comprehensive after-sales service including technical support and warranty." },
-  { q: "Can you ship globally?", a: "Absolutely. We provide flexible global shipping solutions to meet your logistics needs." },
+  {
+    q: "What is IPL and how does it work?",
+    a: (
+      <span>
+        IPL (Intense Pulsed Light) uses broad-spectrum light to target hair follicles, reducing hair growth safely and effectively.
+      </span>
+    ),
+  },
+  {
+    q: "Can I customize the device functions?",
+    a: "Yes, we offer full customization of features, colors, packaging, and more to fit your brand needs."
+  },
+  {
+    q: "What certifications do you support?",
+    a: "We support FDA, CE, RoHS, and other global certifications to ensure compliance in your target markets."
+  },
+  {
+    q: "How long is the production lead time?",
+    a: "Typical lead time is 25-35 days after sample approval, depending on order size and customization."
+  },
+  {
+    q: "Do you provide after-sales support?",
+    a: "Yes, we offer comprehensive after-sales service including technical support and warranty."
+  },
+  {
+    q: "Can you ship globally?",
+    a: (
+      <div>
+        <p>Absolutely. We offer reliable worldwide shipping to support your business wherever you are.</p>
+        <ul className="list-disc pl-5 my-2">
+          <li>
+            <b>Global Logistics Coverage:</b> Yes, we provide international shipping solutions with tracking codes for every order.
+          </li>
+          <li>
+            <b>Transparent Shipping Costs:</b> Shipping fees are calculated based on your order's weight and quantity.
+          </li>
+        </ul>
+        <p className="mt-2"><b>How to Check Your Shipping Cost:</b></p>
+        <ol className="list-decimal pl-5 my-2">
+          <li>Click on the "Check Shipping Cost" button.</li>
+          <li>Enter your order details (weight/quantity).</li>
+          <li>Instantly view the corresponding shipping rates and options.</li>
+          <li>Track your shipment anytime with the provided logistics code after dispatch.</li>
+        </ol>
+        <p className="mt-2">Need help? Our team is here to assist you with any shipping or logistics questions.</p>
+      </div>
+    ),
+  },
 ];
 
 const galleryImages = [
