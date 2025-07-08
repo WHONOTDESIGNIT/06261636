@@ -343,20 +343,6 @@ const faqData: Category[] = [
     ]
   },
   {
-    title: 'iShine: Troubleshooting',
-    icon: AlertCircle,
-    qas: [
-      {
-        question: 'Why is my device not flashing?',
-        answer: `- Make sure your power supply is plugged in all the way.\n- Do you have full skin contact? IPL devices will not activate unless all 4-points are in contact with your skin.\n- Check your skin-tone suitability. IPL is not suitable for use on deep skin tones that are rich in melanin.\n- For more information on how to look after your IPL device, see above.\n- If your IPL is not working, please reach out to us at help@iplmanufacturer.com.`
-      },
-      {
-        question: 'What should I do if I get a red light when using my device?',
-        answer: 'There are typically two reasons: 1) Ensure your skin is in full contact with the device. 2) The device may detect an unsuitable skin tone.'
-      }
-    ]
-  },
-  {
     title: 'Refunds & Guarantee',
     icon: BookOpen,
     qas: [
@@ -370,12 +356,14 @@ const faqData: Category[] = [
 
 const KnowledgeBase: React.FC = () => {
   const [open, setOpen] = useState<{ catIdx: number; qaIdx: number } | null>(null);
+  // 删除 'iShine: Troubleshooting' 板块
+  const filteredFaqData = faqData.filter(cat => cat.title !== 'iShine: Troubleshooting');
   return (
     <>
       {/* ---------------- FAQ CATEGORIES ---------------- */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          {faqData.map((cat, catIdx) => (
+          {filteredFaqData.map((cat, catIdx) => (
             <motion.div
               key={cat.title}
               initial={{ opacity: 0, y: 20 }}
