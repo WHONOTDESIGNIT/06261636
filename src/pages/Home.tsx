@@ -87,7 +87,7 @@ const qaList = [
     q: "Can you ship globally?",
     a: (
       <div>
-        <p>Absolutely. We offer reliable worldwide shipping to support your business wherever you are.</p>
+        <p style={{ marginBottom: '157px' }}>Absolutely. We offer reliable worldwide shipping to support your business wherever you are.</p>
         <ul className="list-disc pl-5 my-2">
           <li>
             <b>Global Logistics Coverage:</b> Yes, we provide international shipping solutions with tracking codes for every order.
