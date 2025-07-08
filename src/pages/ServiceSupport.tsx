@@ -138,12 +138,6 @@ const ServiceSupport: React.FC = () => {
               >
                 Get Support Now
               </Link>
-              <Link
-                to="/contact"
-                className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-700 transition-colors duration-300"
-              >
-                Contact Our Team
-              </Link>
             </div>
           </motion.div>
         </div>
