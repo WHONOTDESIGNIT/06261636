@@ -1,7 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import { useTranslation } from '../../hooks/useTranslation';
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -20,7 +19,6 @@ const jsonLd = {
 };
 
 const SapphireCooling: React.FC = () => {
-  const { t } = useTranslation();
   return (
     <div className="min-h-screen bg-white pt-20">
       <Helmet>
