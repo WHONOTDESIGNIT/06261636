@@ -26,7 +26,7 @@ interface Category {
 
 const faqData: Category[] = [
   {
-    title: 'IPL Technology & How It Works',
+    title: 'About IPL',
     icon: Zap,
     qas: [
       {
