@@ -1,5 +1,7 @@
-// ... existing code ...
-// 自动扫描所有 .tsx 页面文件
+const fs = require('fs');
+const path = require('path');
+
+// 递归扫描 src/pages 下所有 .tsx 文件
 function scanPageRoutes() {
   const baseDir = path.join(__dirname, '../src/pages');
   function walk(dir) {
@@ -19,7 +21,7 @@ function scanPageRoutes() {
   const files = walk(baseDir);
   // 生成路由路径
   return files.map(f => {
-    let rel = f.replace(baseDir, '').replace(/\\/g, '/').replace(/\/g, '/');
+    let rel = f.replace(baseDir, '').replace(/\\/g, '/');
     rel = rel.replace(/\.tsx$/, '');
     if (rel.endsWith('/index')) rel = rel.slice(0, -6);
     if (rel === '/Home') return '';
@@ -27,11 +29,11 @@ function scanPageRoutes() {
   });
 }
 
-const scannedRoutes = scanPageRoutes();
-
 const langs = [
   'en', 'zh', 'fr', 'de', 'es', 'it', 'pt', 'ru', 'ja', 'ko', 'hi', 'ar', 'th', 'vi', 'id', 'ms', 'he', 'tr', 'nl', 'cs', 'da', 'et', 'hr', 'pl'
 ];
+
+const scannedRoutes = scanPageRoutes();
 const allPaths = [];
 scannedRoutes.forEach(route => {
   langs.forEach(lang => {
@@ -43,12 +45,12 @@ scannedRoutes.forEach(route => {
   });
 });
 
+// 生成 sitemap.xml
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  ${allPaths.map(path => `<url><loc>${path}</loc></url>`).join('')}\n</urlset>`;
-
 const sitemapPath = path.join(__dirname, 'sitemap.xml');
 fs.writeFileSync(sitemapPath, sitemap);
 
 console.log(`✅ Sitemap generated successfully at ${sitemapPath}`);
 console.log(`📊 Total URLs: ${allPaths.length}`);
 console.log(`🌍 Languages: en + ${langs.length - 1} others`);
-console.log(`📄 Pages per language: ${Math.round(allPaths.length / langs.length)}`);
+console.log(`📄 Pages per language: ${Math.round(allPaths.length / langs.length)}`); 
