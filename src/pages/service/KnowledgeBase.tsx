@@ -348,7 +348,7 @@ const faqData: Category[] = [
     qas: [
       {
         question: 'Why is my device not flashing?',
-        answer: `- Make sure your power supply is plugged in all the way.\n- Do you have full skin contact? IPL devices will not activate unless all 4-points are in contact with your skin.\n- Check your skin-tone suitability. IPL is not suitable for use on deep skin tones that are rich in melanin.\n- For more information on how to look after your SmoothSkin device, see above.\n- If your IPL is not working, please reach out to us at help@iplmanufacturer.com.`
+        answer: `- Make sure your power supply is plugged in all the way.\n- Do you have full skin contact? IPL devices will not activate unless all 4-points are in contact with your skin.\n- Check your skin-tone suitability. IPL is not suitable for use on deep skin tones that are rich in melanin.\n- For more information on how to look after your IPL device, see above.\n- If your IPL is not working, please reach out to us at help@iplmanufacturer.com.`
       },
       {
         question: 'What should I do if I get a red light when using my device?',
@@ -362,36 +362,13 @@ const faqData: Category[] = [
     qas: [
       {
         question: 'For queries relating to refunds, returns or our 100-day money back guarantee, please visit our terms and conditions page.',
-        answer: 'See our terms and conditions: https://smoothskin.com/terms-and-conditions/'
+        answer: 'See our terms and conditions: https://iplmanufacturer.com/terms-and-conditions/'
       }
     ]
   },
 ];
 
-// 删除 SmoothSkin: About IPL 分组
-const smoothSkinAboutIdx = faqData.findIndex(cat => cat.title === 'SmoothSkin: About IPL');
-if (smoothSkinAboutIdx !== -1) faqData.splice(smoothSkinAboutIdx, 1);
 
-const KnowledgeBase: React.FC = () => {
-  const [open, setOpen] = useState<{ catIdx: number; qaIdx: number } | null>(null);
-  return (
-    <div className="min-h-screen pt-20 overflow-x-hidden">
-      {/* ---------------------------- HERO ---------------------------- */}
-      <section className="bg-gradient-to-r from-ishine-teal-500 to-ishine-blue-500 text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            <BookOpen className="w-16 h-16 mx-auto mb-6" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Your IPL Questions, Answered</h1>
-            <p className="text-lg md:text-xl max-w-3xl mx-auto text-gray-100">
-              Explore expert, data-driven answers to the most common questions about IPL home hair removal devices. If you need more support, our technical team is ready to help.
-            </p>
-          </motion.div>
-        </div>
-      </section>
 
       {/* ---------------- FAQ CATEGORIES ---------------- */}
       <section className="py-20 bg-white">
