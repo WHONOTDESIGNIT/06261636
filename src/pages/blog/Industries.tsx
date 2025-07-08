@@ -1,11 +1,8 @@
 import React from 'react';
 import { TrendingUp, Users, Globe } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
-import { useTranslation } from '../../hooks/useTranslation';
 
 const Industries: React.FC = () => {
-  const { t } = useTranslation();
-
   return (
     <div className="min-h-screen bg-white pt-20">
       {/* Hero Section */}
