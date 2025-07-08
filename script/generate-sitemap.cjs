@@ -75,7 +75,32 @@ const extraPages = [
 ];
 
 // 生成所有语种的路径
-const allLangs = ['en', 'zh', 'fr', 'de', 'es', 'it', 'pt', 'ru', 'ja', 'ko', 'hi', 'ar', 'th', 'vi', 'id', 'ms', 'he', 'tr', 'nl', 'cs', 'da', 'et', 'hr'];
+const allLangs = [
+  'en', // English
+  'zh', // Chinese
+  'fr', // French
+  'de', // German
+  'es', // Spanish
+  'it', // Italian
+  'pt', // Portuguese
+  'ru', // Russian
+  'ja', // Japanese
+  'ko', // Korean
+  'hi', // Hindi
+  'ar', // Arabic
+  'th', // Thai
+  'vi', // Vietnamese
+  'id', // Indonesian
+  'ms', // Malay
+  'he', // Hebrew
+  'tr', // Turkish
+  'nl', // Dutch
+  'cs', // Czech
+  'da', // Danish
+  'et', // Estonian
+  'hr', // Croatian
+  'pl'  // Polish（如有pl.json）
+];
 const extraLangPages = [];
 extraPages.forEach(page => {
   allLangs.forEach(lang => {
