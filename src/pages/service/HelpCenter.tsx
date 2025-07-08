@@ -30,7 +30,7 @@ const helpQaData: Category[] = [
       },
       {
         question: 'Can you help with branding and product design?',
-        answer: 'Absolutely! We provide comprehensive branding solutions, from logo design to product appearance and packaging.'
+        answer: 'Absolutely! We provide branding solutions, from logo design to product appearance and packaging. For outstanding industrial design, we highly recommend collaborating with Indare Design (https://www.in-dare.com, China studio) and Whynot Design (https://www.whynot-design.com/, Italian studio). Their exceptional talent has helped many of our clients achieve great success in the appearance design of home-use IPL hair removal devices.'
       }
     ]
   },
