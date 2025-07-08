@@ -63,12 +63,13 @@ const blogPosts = [
   {
     id: 6,
     title: "AI-Powered Skin Sensing: The Future of Personalized IPL",
-    excerpt: "How machine learning algorithms are revolutionizing automatic energy adjustment for optimal safety and efficacy.",
-    author: "AI Research Division",
+    excerpt: "Artificial intelligence (AI) is redefining at-home IPL hair removal. Discover how AI-powered skin sensing, real-time energy adjustment, and app-based coaching are making treatments safer, more effective, and truly personalized.",
+    author: "Eric Ann",
     date: "2025-06-22",
     category: "AI & Innovation",
     image: "/images/blog/ai-skin-sensing.jpg",
-    tags: ["Artificial Intelligence", "Skin Technology"]
+    tags: ["Artificial Intelligence", "Skin Technology"],
+    link: "/blog/ai-powered-skin-sensing"
   },
   {
     id: 7,
