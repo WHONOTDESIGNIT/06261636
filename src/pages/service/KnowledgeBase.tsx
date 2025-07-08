@@ -368,8 +368,10 @@ const faqData: Category[] = [
   },
 ];
 
-
-
+const KnowledgeBase: React.FC = () => {
+  const [open, setOpen] = useState<{ catIdx: number; qaIdx: number } | null>(null);
+  return (
+    <>
       {/* ---------------- FAQ CATEGORIES ---------------- */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -429,7 +431,7 @@ const faqData: Category[] = [
 
       {/* ---------------- CONTACT FORM ---------------- */}
       <ContactFormA />
-    </div>
+    </>
   );
 };
 
