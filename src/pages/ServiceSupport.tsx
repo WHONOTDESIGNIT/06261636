@@ -8,7 +8,6 @@ import {
   HelpCircle,
   Award,
   Truck,
-  Package,
   Users,
   BookOpen,
   Camera,
