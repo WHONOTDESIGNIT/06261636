@@ -225,7 +225,7 @@ const faqData: Category[] = [
       },
       {
         question: 'How long will it take to see results? Is IPL permanent?',
-        answer: 'Most users notice hair reduction between 2-4 weeks. SmoothSkin devices will prevent hair regrowth as long as you keep treating it regularly. After the initial 12-week regime, you will need to do 'top up' treatments every 4-8 weeks depending on your hair growth rate. After 12 weeks, you could see up to 99% hair reduction. Remember that results may vary for different people.'
+        answer: "Most users notice hair reduction between 2-4 weeks. SmoothSkin devices will prevent hair regrowth as long as you keep treating it regularly. After the initial 12-week regime, you will need to do 'top up' treatments every 4-8 weeks depending on your hair growth rate. After 12 weeks, you could see up to 99% hair reduction. Remember that results may vary for different people."
       },
       {
         question: 'Do I need to wear eye protection when using SmoothSkin?',
@@ -273,7 +273,7 @@ const faqData: Category[] = [
       },
       {
         question: 'What happens if I miss a treatment?',
-        answer: 'If you miss a treatment don't worry, it happens every now and then. Just get back on track and start your treatment again.'
+        answer: "If you miss a treatment don't worry, it happens every now and then. Just get back on track and start your treatment again."
       },
       {
         question: 'How long will my device last?',
@@ -293,7 +293,7 @@ const faqData: Category[] = [
       },
       {
         question: 'Do I need gel when I use SmoothSkin?',
-        answer: 'No, you don't need gel with our devices.'
+        answer: "No, you don't need gel with our devices."
       },
       {
         question: 'Can I treat my underarms if I have deodorant on?',
