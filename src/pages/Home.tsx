@@ -83,7 +83,7 @@ const qaList = [
   },
   {
     q: "Can you ship globally?",
-    a: (
+    a: (lang: string) => (
       <div>
         <p style={{ marginTop: '56px' }}>Absolutely. We offer reliable worldwide shipping to support your business wherever you are.</p>
         <ul className="list-disc pl-5 my-2">
@@ -93,7 +93,7 @@ const qaList = [
           <li>
             <b>Transparent Shipping Costs:</b> Shipping fees are calculated based on your order's weight and quantity.
           </li>
-          <li>Click on the <Link to={`/${currentLanguage}/shipping-cost`} className="text-blue-700 font-bold underline underline-offset-2 hover:text-blue-800 transition">Check Shipping Cost</Link> button.</li>
+          <li>Click on the <Link to={`/${lang}/shipping-cost`} className="text-blue-700 font-bold underline underline-offset-2 hover:text-blue-800 transition">Check Shipping Cost</Link> button.</li>
         </ul>
         <p className="mt-2"><b>How to Check Your Shipping Cost:</b></p>
         <ol className="list-decimal pl-5 my-2">
@@ -364,8 +364,8 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
           <div className="flex flex-col gap-6">
-            {qaList.map((qa, i) => (
-              <div key={i} className="mb-4">
+            {qaList.map((item, idx) => (
+              <div key={idx} className="mb-4">
                 {/* 问题卡片 */}
                 <div
                   className={`
@@ -377,18 +377,18 @@ export default function HomePage() {
                     transition-colors duration-200
                     min-h-[56px]  // 你可以根据实际需要设置固定高度
                   `}
-                  onClick={() => setQaOpen(qaOpen === i ? null : i)}
+                  onClick={() => setQaOpen(qaOpen === idx ? null : idx)}
                   style={{ transition: 'background 0.2s, color 0.2s' }}
                 >
-                  <span className="font-bold">{qa.q}</span>
+                  <span className="font-bold">{item.q}</span>
                   <span>
-                    <ChevronDown className={`w-5 h-5 transition-transform ${qaOpen === i ? "rotate-180" : ""}`} />
+                    <ChevronDown className={`w-5 h-5 transition-transform ${qaOpen === idx ? "rotate-180" : ""}`} />
                   </span>
                 </div>
                 {/* 答案内容，下拉区域，无边框 */}
-                {qaOpen === i && (
+                {qaOpen === idx && (
                   <div className="px-6 py-4 bg-transparent text-base">
-                    {qa.a}
+                    {typeof item.a === "function" ? item.a(currentLanguage) : item.a}
                   </div>
                 )}
               </div>
