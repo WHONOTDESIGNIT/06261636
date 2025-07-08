@@ -5,10 +5,6 @@ import Silk from './Silk';
 import { iplDevices } from '../data/products';
 
 const heroBg = "bg-gradient-to-br from-blue-700 via-indigo-500 to-purple-600";
-const qaTheme = "bg-blue-700 text-white";
-const qaHover = "bg-white text-blue-700";
-const qaBadge = "bg-white text-blue-700";
-const qaBadgeHover = "bg-blue-700 text-white";
 
 const unlimitedOptions = [
   {
