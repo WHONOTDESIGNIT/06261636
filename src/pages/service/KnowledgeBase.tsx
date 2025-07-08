@@ -49,19 +49,19 @@ const faqData: Category[] = [
       },
       {
         question: 'Is IPL painful?',
-        answer: 'Most people describe it as a slight tingling or warm sensation. In recent clinical trials, users rated the discomfort of a SmoothSkin treatment at just 3 out of 10. If you are a little sensitive to the treatment at first, we recommend you use Gentle Mode, which can help you get used to the experience.'
+        answer: 'Most people describe it as a slight tingling or warm sensation. In recent clinical trials, users rated the discomfort of a IPL treatment at just 3 out of 10. If you are a little sensitive to the treatment at first, we recommend you use Gentle Mode, which can help you get used to the experience.'
       },
       {
         question: 'How long will it take to see results? Is IPL permanent?',
-        answer: "Most users notice hair reduction between 2-4 weeks. SmoothSkin devices will prevent hair regrowth as long as you keep treating it regularly. After the initial 12-week regime, you will need to do 'top up' treatments every 4-8 weeks depending on your hair growth rate. After 12 weeks, you could see up to 99% hair reduction. Remember that results may vary for different people."
+        answer: "Most users notice hair reduction between 2-4 weeks. IPL devices will prevent hair regrowth as long as you keep treating it regularly. After the initial 12-week regime, you will need to do 'top up' treatments every 4-8 weeks depending on your hair growth rate. After 12 weeks, you could see up to 99% hair reduction. Remember that results may vary for different people."
       },
       {
-        question: 'Do I need to wear eye protection when using SmoothSkin?',
+        question: 'Do I need to wear eye protection when using IPL?',
         answer: 'Our devices have been developed with safety at the forefront and are safe to use without the need for eye protection. However, you should never attempt to fire on to or close to the eye itself.'
       },
       {
-        question: 'How often should I use my SmoothSkin?',
-        answer: 'To get the most out of your SmoothSkin you should start off by using it once a week for 12 weeks continuously. After the initial 12-week, switch to maintenance treatments every 2 to 4 weeks. There is no increased benefit from using your device more than once a week.'
+        question: 'How often should I use my IPL?',
+        answer: 'To get the most out of your IPL you should start off by using it once a week for 12 weeks continuously. After the initial 12-week, switch to maintenance treatments every 2 to 4 weeks. There is no increased benefit from using your device more than once a week.'
       }
     ]
   },
@@ -93,16 +93,16 @@ const faqData: Category[] = [
         answer: 'Yes. Our devices are FDA cleared and have been clinically proven to be safe and effective, with over 5,500 clinical treatments performed on different skin tones. All our devices feature a skin tone sensor that automatically reads your skin tone before every flash ensuring the device flashes only if safe, so you will never burn your skin. Our devices are compliant with the latest Eye Safety Standards. Your skin is protected by our advanced 3mm glass UV filter which prevents damaging light reaching your skin.'
       },
       {
-        question: 'Can I use SmoothSkin if I am pregnant or breastfeeding?',
-        answer: "We don't recommend using SmoothSkin if you are pregnant or breastfeeding. Our devices have not been tested with these individuals."
+        question: 'Can I use IPL if I am pregnant or breastfeeding?',
+        answer: "We don't recommend using IPL if you are pregnant or breastfeeding. Our devices have not been tested with these individuals."
       },
       {
-        question: 'Can I use SmoothSkin over my tattoos?',
-        answer: 'Do not use SmoothSkin over scars or tattoos. You can, however, use it to treat areas around scars and tattoos.'
+        question: 'Can I use IPL over my tattoos?',
+        answer: 'Do not use IPL over scars or tattoos. You can, however, use it to treat areas around scars and tattoos.'
       },
       {
-        question: 'Can men use SmoothSkin products too?',
-        answer: 'Of course! SmoothSkin devices are not gender specific, but just remember that the results will be permanent. Always complete a patch test before your first treatment.'
+        question: 'Can men use IPL products too?',
+        answer: 'Of course! IPL devices are not gender specific, but just remember that the results will be permanent. Always complete a patch test before your first treatment.'
       }
     ]
   },
@@ -110,16 +110,6 @@ const faqData: Category[] = [
     title: 'Usage & Results',
     icon: Repeat,
     qas: [
-      {
-        question: 'How long until I see results? Is IPL permanent?',
-        answer:
-          'Expect visible reduction after 3–4 treatments; up to 99% after 12 weeks. Results are long-lasting; occasional touch-ups maintain smoothness.'
-      },
-      {
-        question: 'How often should I use my IPL device?',
-        answer:
-          'Use weekly for the first 12 weeks, then once a month for three months, and every 2–3 months as new hair appears.'
-      },
       {
         question: 'Does IPL treatment hurt?',
         answer:
@@ -130,10 +120,7 @@ const faqData: Category[] = [
         answer:
           'Legs, arms, underarms, bikini line, and face below the cheekbones. Avoid inner bikini, genitals, anus, and areas above the cheekbones.'
       },
-      {
-        question: 'How often should I use my SmoothSkin?',
-        answer: 'To get the most out of your SmoothSkin you should start off by using it once a week for 12 weeks continuously. After the initial 12-week, switch to maintenance treatments every 2 to 4 weeks. There is no increased benefit from using your device more than once a week.'
-      },
+     
       {
         question: 'Can I remove hair in between treatments?',
         answer: 'Of course! For the very best results from your treatment, we recommend shaving. Shaving will keep the root in place to help target the hair follicle and ensure maximum efficacy and maximum results.'
@@ -148,18 +135,18 @@ const faqData: Category[] = [
       },
       {
         question: 'What does a treatment feel like?',
-        answer: 'Most people describe it as a slight tingling or warm sensation. In recent clinical trials, users rated the discomfort of a SmoothSkin treatment at just 3 out of 10. Some of our devices have a Gentle Mode for sensitive areas.'
+        answer: 'Most people describe it as a slight tingling or warm sensation. In recent clinical trials, users rated the discomfort of a IPL treatment at just 3 out of 10. Some of our devices have a Gentle Mode for sensitive areas.'
       },
       {
-        question: 'What areas of the body can I use SmoothSkin?',
-        answer: 'SmoothSkin is FDA cleared to treat the arms, legs, face, back, fingers, toes and bikini area.'
+        question: 'What areas of the body can I use IPL?',
+        answer: 'IPL is FDA cleared to treat the arms, legs, face, back, fingers, toes and bikini area.'
       },
       {
         question: 'How long will my device last?',
         answer: 'Our devices are built to last. They feature unlimited flashes so you will never run out.'
       },
       {
-        question: 'Do I need gel when I use SmoothSkin?',
+        question: 'Do I need gel when I use IPL?',
         answer: "No, you don't need gel with our devices."
       },
       {
@@ -211,8 +198,8 @@ const faqData: Category[] = [
         answer: 'A xenon quartz ray tube with a UV-blocking glass filter.'
       },
       {
-        question: 'How do I take care of my SmoothSkin device?',
-        answer: `- After treatment, always switch off your SmoothSkin by unplugging the electrical outlet.\n- To ensure the maximum performance of your device it is important to keep the front of the device free from dirt, hair or debris. Before and after every use wipe clean the front of the device with a soft lint free, dry cloth. If necessary, you can also carefully clean the front of the device with a slightly damp cotton bud.\n- The glass filter can get hot during use, please DO NOT touch, or clean the filter for at least 5 minutes after use to allow it to cool down.\n- Please don't use water or other cleaning fluids, as these can damage the device leading to a potential safety hazard. Always inspect the treatment window to ensure the window is undamaged.\n- Store your SmoothSkin device in a cool, dry place. Make sure the treatment window and skin tone sensor on the device are protected from damage. Please regularly check the device (including cords) for visible signs of damage. In case of damage or cracks, stop using the device - and visit the website for support details.`
+        question: 'How do I take care of my IPL device?',
+        answer: `- After treatment, always switch off your IPL by unplugging the electrical outlet.\n- To ensure the maximum performance of your device it is important to keep the front of the device free from dirt, hair or debris. Before and after every use wipe clean the front of the device with a soft lint free, dry cloth. If necessary, you can also carefully clean the front of the device with a slightly damp cotton bud.\n- The glass filter can get hot during use, please DO NOT touch, or clean the filter for at least 5 minutes after use to allow it to cool down.\n- Please don't use water or other cleaning fluids, as these can damage the device leading to a potential safety hazard. Always inspect the treatment window to ensure the window is undamaged.\n- Store your IPL device in a cool, dry place. Make sure the treatment window and skin tone sensor on the device are protected from damage. Please regularly check the device (including cords) for visible signs of damage. In case of damage or cracks, stop using the device - and visit the website for support details.`
       }
     ]
   },
@@ -273,7 +260,7 @@ const faqData: Category[] = [
       },
       {
         question: 'Why is my device not flashing?',
-        answer: `- Make sure your power supply is plugged in all the way.\n- Do you have full skin contact? SmoothSkin devices will not activate unless all 4-points are in contact with your skin.\n- Check your skin-tone suitability. IPL is not suitable for use on deep skin tones that are rich in melanin.\n- For more information on how to look after your SmoothSkin device, see above.\n- If your SmoothSkin is not working, please reach out to us at help@smoothskin.com.`
+        answer: `- Make sure your power supply is plugged in all the way.\n- Do you have full skin contact? IPL devices will not activate unless all 4-points are in contact with your skin.\n- Check your skin-tone suitability. IPL is not suitable for use on deep skin tones that are rich in melanin.\n- For more information on how to look after your SmoothSkin device, see above.\n- If your IPL is not working, please reach out to us at help@iplmanufacturer.com.`
       },
       {
         question: 'What should I do if I get a red light when using my device?',
