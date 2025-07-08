@@ -254,20 +254,6 @@ const ServiceSupport: React.FC = () => {
               Our expert team is standing by to help you with any questions or support needs. 
               Get in touch today and experience the iShine difference.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                to="/service-support/help-center"
-                className="bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300"
-              >
-                Start Support Chat
-              </Link>
-              <Link
-                to="/service-support/knowledge-base"
-                className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-700 transition-colors duration-300"
-              >
-                Browse Knowledge Base
-              </Link>
-            </div>
           </motion.div>
         </div>
       </section>
