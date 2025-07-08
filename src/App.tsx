@@ -54,6 +54,9 @@ import HelpCenter from './pages/service/HelpCenter';
 import Gallery from './pages/service/Gallery';
 import Videos from './pages/service/Videos';
 
+// Service Support Main Page
+import ServiceSupport from './pages/ServiceSupport';
+
 // Blog Pages
 import NewsInsights from './pages/blog/NewsInsights';
 import Industries from './pages/blog/Industries';
@@ -78,6 +81,9 @@ import Sitemap from './pages/Sitemap';
 
 // Shipping Cost Page
 import ShippingCostPage from './pages/shipping-cost';
+
+// Smooth Skin FAQ Page
+import SmoothSkinFAQ from './pages/SmoothSkinFAQ';
 
 // 404 Not Found Page
 const NotFound: React.FC = () => (
@@ -195,6 +201,7 @@ const App: React.FC = () => (
             <Route path="accessories/adapter" element={<Adapter />} />
             <Route path="accessories/goggles" element={<ProtectiveGoggles />} />
             <Route path="accessories/filter" element={<Filter />} />
+            <Route path="service-support" element={<ServiceSupport />} />
             <Route path="service-support/after-sales" element={<AfterSalesService />} />
             <Route path="service-support/win-fda-listing" element={<WinFDAListing />} />
             <Route path="service-support/manufacturing" element={<IPLManufacturing />} />
@@ -212,6 +219,7 @@ const App: React.FC = () => (
             <Route path="iplmanufacturer/:countryCode" element={<CountryPage />} />
             <Route path="sitemap" element={<Sitemap />} />
             <Route path="shipping-cost" element={<ShippingCostPage />} />
+            <Route path="smoothskin-faq" element={<SmoothSkinFAQ />} />
           </Route>
 
           {/* 非英文带前缀路由 */}
@@ -252,6 +260,7 @@ const App: React.FC = () => (
               <Route path="accessories/adapter" element={<Adapter />} />
               <Route path="accessories/goggles" element={<ProtectiveGoggles />} />
               <Route path="accessories/filter" element={<Filter />} />
+              <Route path="service-support" element={<ServiceSupport />} />
               <Route path="service-support/after-sales" element={<AfterSalesService />} />
               <Route path="service-support/win-fda-listing" element={<WinFDAListing />} />
               <Route path="service-support/manufacturing" element={<IPLManufacturing />} />
@@ -269,6 +278,7 @@ const App: React.FC = () => (
               <Route path="iplmanufacturer/:countryCode" element={<CountryPage />} />
               <Route path="sitemap" element={<Sitemap />} />
               <Route path="shipping-cost" element={<ShippingCostPage />} />
+              <Route path="smoothskin-faq" element={<SmoothSkinFAQ />} />
             </Route>
           </Route>
 
