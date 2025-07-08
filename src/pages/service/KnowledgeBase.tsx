@@ -26,7 +26,7 @@ interface Category {
 
 const faqData: Category[] = [
   {
-    title: 'About IPL',
+    title: 'IPL Technology & How It Works',
     icon: Zap,
     qas: [
       {
@@ -282,40 +282,6 @@ const faqData: Category[] = [
     ]
   },
   {
-    title: 'SmoothSkin: About IPL',
-    icon: HelpCircle,
-    qas: [
-      {
-        question: 'What Is IPL?',
-        answer: 'IPL (Intense Pulsed Light) is a light-based hair removal method, that targets the melanin (pigment) inside the hair to interrupt the hair growth cycle and prevent hair regrowth, without damaging the skin.'
-      },
-      {
-        question: 'Is IPL safe? Is it safe for my skin?',
-        answer: 'Yes. Our devices are FDA cleared and have been clinically proven to be safe and effective, with over 5,500 clinical treatments performed on different skin tones. All our devices feature a skin tone sensor that automatically reads your skin tone before every flash ensuring the device flashes only if safe, so you will never burn your skin. Our devices are compliant with the latest Eye Safety Standards. Your skin is protected by our advanced 3mm glass UV filter which prevents damaging light reaching your skin.'
-      },
-      {
-        question: 'Is IPL suitable for me?',
-        answer: "IPL is most effective when there is a contrast between the skin and hair, meaning it is suitable on most hair colours and all hair types. IPL isn't effective on white or grey hair due to lower amounts of melanin, and red hair contains a different type of melanin which isn't responsive to IPL. It is not suitable for use on deep skin tones or skin rich in melanin. It is possible to see results when treating darker blonde hair, but you may need a few extra treatments to get the same standard of hair reduction."
-      },
-      {
-        question: 'Is IPL painful?',
-        answer: 'Most people describe it as a slight tingling or warm sensation. In recent clinical trials, users rated the discomfort of a SmoothSkin treatment at just 3 out of 10. If you are a little sensitive to the treatment at first, we recommend you use Gentle Mode, which can help you get used to the experience.'
-      },
-      {
-        question: 'How long will it take to see results? Is IPL permanent?',
-        answer: "Most users notice hair reduction between 2-4 weeks. SmoothSkin devices will prevent hair regrowth as long as you keep treating it regularly. After the initial 12-week regime, you will need to do 'top up' treatments every 4-8 weeks depending on your hair growth rate. After 12 weeks, you could see up to 99% hair reduction. Remember that results may vary for different people."
-      },
-      {
-        question: 'Do I need to wear eye protection when using SmoothSkin?',
-        answer: 'Our devices have been developed with safety at the forefront and are safe to use without the need for eye protection. However, you should never attempt to fire on to or close to the eye itself.'
-      },
-      {
-        question: 'How often should I use my SmoothSkin?',
-        answer: 'To get the most out of your SmoothSkin you should start off by using it once a week for 12 weeks continuously. After the initial 12-week, switch to maintenance treatments every 2 to 4 weeks. There is no increased benefit from using your device more than once a week.'
-      }
-    ]
-  },
-  {
     title: 'SmoothSkin: Refunds & 100-day money back guarantee',
     icon: BookOpen,
     qas: [
@@ -414,6 +380,10 @@ const faqData: Category[] = [
     ]
   },
 ];
+
+// 删除 SmoothSkin: About IPL 分组
+const smoothSkinAboutIdx = faqData.findIndex(cat => cat.title === 'SmoothSkin: About IPL');
+if (smoothSkinAboutIdx !== -1) faqData.splice(smoothSkinAboutIdx, 1);
 
 const KnowledgeBase: React.FC = () => {
   const [open, setOpen] = useState<{ catIdx: number; qaIdx: number } | null>(null);
