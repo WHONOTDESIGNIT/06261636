@@ -95,10 +95,10 @@ const qaList = [
           <li>
             <b>Transparent Shipping Costs:</b> Shipping fees are calculated based on your order's weight and quantity.
           </li>
+          <li>Click on the <a href="/shipping-cost" className="text-blue-700 font-bold underline underline-offset-2 hover:text-blue-800 transition">Check Shipping Cost</a> button.</li>
         </ul>
         <p className="mt-2"><b>How to Check Your Shipping Cost:</b></p>
         <ol className="list-decimal pl-5 my-2">
-          <li>Click on the "Check Shipping Cost" button.</li>
           <li>Enter your order details (weight/quantity).</li>
           <li>Instantly view the corresponding shipping rates and options.</li>
           <li>Track your shipment anytime with the provided logistics code after dispatch.</li>
