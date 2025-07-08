@@ -63,6 +63,7 @@ import Industries from './pages/blog/Industries';
 import IPLBestChoice from './pages/blog/IPLBestChoice';
 import FutureHomeHairRemoval from './pages/blog/FutureHomeHairRemoval';
 import FDA510kPathway from './pages/blog/FDA510kPathway';
+import MultiHeadIPLSystems from './pages/blog/MultiHeadIPLSystems';
 
 // About Pages
 import FounderMessage from './pages/about/FounderMessage';
@@ -213,6 +214,7 @@ const App: React.FC = () => (
             <Route path="blog/ipl-best-choice" element={<IPLBestChoice />} />
             <Route path="blog/future-home-hair-removal-devices" element={<FutureHomeHairRemoval />} />
             <Route path="blog/fda-510k-pathway" element={<FDA510kPathway />} />
+            <Route path="blog/multi-head-ipl-systems" element={<MultiHeadIPLSystems />} />
             <Route path="iplmanufacturer/:countryCode" element={<CountryPage />} />
             <Route path="sitemap" element={<Sitemap />} />
             <Route path="shipping-cost" element={<ShippingCostPage />} />
@@ -271,6 +273,7 @@ const App: React.FC = () => (
               <Route path="blog/ipl-best-choice" element={<IPLBestChoice />} />
               <Route path="blog/future-home-hair-removal-devices" element={<FutureHomeHairRemoval />} />
               <Route path="blog/fda-510k-pathway" element={<FDA510kPathway />} />
+              <Route path="blog/multi-head-ipl-systems" element={<MultiHeadIPLSystems />} />
               <Route path="iplmanufacturer/:countryCode" element={<CountryPage />} />
               <Route path="sitemap" element={<Sitemap />} />
               <Route path="shipping-cost" element={<ShippingCostPage />} />
