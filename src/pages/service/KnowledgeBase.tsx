@@ -217,7 +217,7 @@ const faqData: Category[] = [
       },
       {
         question: 'Is IPL suitable for me?',
-        answer: 'IPL is most effective when there is a contrast between the skin and hair, meaning it is suitable on most hair colours and all hair types. IPL isn't effective on white or grey hair due to lower amounts of melanin, and red hair contains a different type of melanin which isn't responsive to IPL. It is not suitable for use on deep skin tones or skin rich in melanin. It is possible to see results when treating darker blonde hair, but you may need a few extra treatments to get the same standard of hair reduction.'
+        answer: "IPL is most effective when there is a contrast between the skin and hair, meaning it is suitable on most hair colours and all hair types. IPL isn't effective on white or grey hair due to lower amounts of melanin, and red hair contains a different type of melanin which isn't responsive to IPL. It is not suitable for use on deep skin tones or skin rich in melanin. It is possible to see results when treating darker blonde hair, but you may need a few extra treatments to get the same standard of hair reduction."
       },
       {
         question: 'Is IPL painful?',
