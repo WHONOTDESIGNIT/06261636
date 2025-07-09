@@ -5,7 +5,7 @@ import ContactFormA from '../../components/Forms/ContactFormA';
 // 八种主流包装盒型
 const boxTypes = [
   { label: 'Magnetic Box', img: 'magnetic.jpg', desc: 'Premium, elegant, fully customizable. Supports hot stamping, embossing, soft touch, eco-paper, and foam/cardboard inserts for secure display.' },
-  { label: 'Two-Piece Box', img: '/homeimages/home-ipl-hair-removal-device-packaging-process.webp', desc: 'Classic rigid box, sturdy and protective, ideal for luxury and retail packaging. Can be branded with inserts.' },
+  { label: 'Two-Piece Box', img: '/homeimages/two-piece-boxes.webp', desc: 'Classic rigid box, sturdy and protective, ideal for luxury and retail packaging. Can be branded with inserts.' },
   { label: 'Drawer Box', img: 'drawer.jpg', desc: 'Slide-out structure that elevates unboxing and adds protection.' },
   { label: 'Folding Carton', img: 'folding.jpg', desc: 'Lightweight & cost-effective for retail and e-commerce; easy to print & assemble.' },
   { label: 'Gable Box', img: 'gable.jpg', desc: 'Unique portable shape—perfect for gifting and limited editions.' },
