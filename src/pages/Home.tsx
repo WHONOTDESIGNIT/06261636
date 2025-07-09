@@ -232,24 +232,26 @@ export default function HomePage() {
           <img
             src={galleryImages[(galleryIndex - 1 + galleryImages.length) % galleryImages.length].src}
             alt={galleryImages[(galleryIndex - 1 + galleryImages.length) % galleryImages.length].alt}
-            className="rounded-xl opacity-70"
-            style={{ width: '40%', height: '100%', objectFit: 'cover', marginRight: 10 }}
+            className="rounded-xl opacity-70 hover:opacity-90 transition-opacity cursor-pointer"
+            style={{ width: '15%', height: '100%', objectFit: 'cover', marginRight: 10 }}
+            onClick={() => setGalleryIndex((prev) => (prev - 1 + galleryImages.length) % galleryImages.length)}
           />
 
           {/* 主图 */}
           <img
             src={galleryImages[galleryIndex].src}
             alt={galleryImages[galleryIndex].alt}
-            className="rounded-2xl z-10"
-            style={{ width: '20%', height: '100%', objectFit: 'cover' }}
+            className="rounded-2xl z-10 shadow-lg"
+            style={{ width: '70%', height: '100%', objectFit: 'cover' }}
           />
 
           {/* 右侧缩略图 */}
           <img
             src={galleryImages[(galleryIndex + 1) % galleryImages.length].src}
             alt={galleryImages[(galleryIndex + 1) % galleryImages.length].alt}
-            className="rounded-xl opacity-70"
-            style={{ width: '40%', height: '100%', objectFit: 'cover', marginLeft: 10 }}
+            className="rounded-xl opacity-70 hover:opacity-90 transition-opacity cursor-pointer"
+            style={{ width: '15%', height: '100%', objectFit: 'cover', marginLeft: 10 }}
+            onClick={() => setGalleryIndex((prev) => (prev + 1) % galleryImages.length)}
           />
 
           {/* 右侧角标 */}
