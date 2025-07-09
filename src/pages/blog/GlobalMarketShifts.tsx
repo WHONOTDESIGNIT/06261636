@@ -2,12 +2,115 @@ import React from 'react';
 
 const GlobalMarketShifts: React.FC = () => {
   return (
-    <div className="min-h-screen bg-white pt-20 px-4 md:px-0">
-      <section className="max-w-4xl mx-auto py-12">
-        <h1 className="text-3xl md:text-5xl font-bold mb-6">Global Market Shifts: IPL Adoption in Emerging Markets</h1>
-        <h2 className="text-2xl font-semibold mb-4">Introduction</h2>
-        <p className="mb-4">The global beauty and personal care market is undergoing a significant transformation, driven by the rapid adoption of at-home Intense Pulsed Light (IPL) hair removal devices. As emerging markets embrace advanced beauty technologies, the IPL segment is poised for remarkable growth in 2025 and 2026. This surge is not only reshaping consumer grooming habits but also fueling unprecedented expansion in the broader cosmetics industry.</p>
-        <h2 className="text-xl font-semibold mb-2">IPL Home Device Market Size: 2025 & 2026 Outlook</h2>
+    <div className="min-h-screen bg-white" style={{ wordSpacing: '0.1em' }}>
+      {/* Hero 横幅区域 - 统一YBS Packaging样式 */}
+      <div 
+        className="w-full py-16 px-4"
+        style={{
+          background: 'linear-gradient(135deg, #1a365d 0%, #2c5282 50%, #1a365d 100%)',
+          minHeight: '400px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}
+      >
+        <div className="max-w-6xl mx-auto px-4">
+          {/* 面包屑导航 */}
+          <div className="mb-6 text-center">
+            <span 
+              style={{
+                color: '#a0aec0',
+                fontSize: '14px',
+                fontWeight: '400'
+              }}
+            >
+              🏠 Blog
+            </span>
+          </div>
+          
+          {/* 主标题 */}
+          <h1 
+            style={{
+              fontSize: '3rem',
+              fontWeight: '700',
+              color: '#ffffff',
+              lineHeight: '1.1',
+              marginBottom: '16px',
+              letterSpacing: '-0.02em',
+              textAlign: 'center',
+              margin: '0 auto',
+              whiteSpace: 'nowrap',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis'
+            }}
+          >
+            Global Market Shifts: IPL Adoption in Emerging Markets
+          </h1>
+          
+          {/* 发布日期 */}
+          <p 
+            style={{
+              color: '#a0aec0',
+              fontSize: '16px',
+              fontWeight: '400',
+              marginTop: '20px',
+              textAlign: 'left'
+            }}
+          >
+            June 20, 2025
+          </p>
+        </div>
+      </div>
+
+      <article 
+        className="max-w-4xl mx-auto px-5 py-16" 
+        style={{ 
+          maxWidth: '1400px',
+          lineHeight: '1.7',
+          wordSpacing: '0.1em'
+        }}
+      >
+        {/* 介绍部分 */}
+        <section className="mb-12">
+          <h2 
+            style={{
+              fontSize: '1.75rem',
+              fontWeight: '600',
+              marginTop: '48px',
+              marginBottom: '24px',
+              color: '#212529',
+              letterSpacing: '-0.02em'
+            }}
+          >
+            Introduction
+          </h2>
+          <p 
+            style={{
+              fontSize: '18px',
+              lineHeight: '1.7',
+              color: '#495057',
+              marginBottom: '24px',
+              textAlign: 'justify',
+              wordSpacing: '0.1em'
+            }}
+          >
+            The global beauty and personal care market is undergoing a significant transformation, driven by the rapid adoption of at-home Intense Pulsed Light (IPL) hair removal devices. As emerging markets embrace advanced beauty technologies, the IPL segment is poised for remarkable growth in 2025 and 2026. This surge is not only reshaping consumer grooming habits but also fueling unprecedented expansion in the broader cosmetics industry.
+          </p>
+                </section>
+
+        <section className="mb-12">
+          <h2 
+            style={{
+              fontSize: '1.75rem',
+              fontWeight: '600',
+              marginTop: '48px',
+              marginBottom: '24px',
+              color: '#212529',
+              letterSpacing: '-0.02em'
+            }}
+          >
+            IPL Home Device Market Size: 2025 & 2026 Outlook
+          </h2>
         <h3 className="font-semibold mb-1">Key Market Figures</h3>
         <ul className="list-disc pl-6 mb-4">
           <li><b>2025 Market Size:</b> The global at-home IPL hair removal device market is projected to reach approximately $2.5 billion in 2025, with emerging markets contributing a rapidly increasing share.</li>
@@ -87,6 +190,7 @@ const GlobalMarketShifts: React.FC = () => {
           <li>At-home Use IPL Hair Removal Device and Equipment Market</li>
         </ul>
       </section>
+      </article>
     </div>
   );
 };
