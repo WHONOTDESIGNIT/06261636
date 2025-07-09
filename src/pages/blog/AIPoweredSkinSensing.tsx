@@ -14,9 +14,9 @@ const AIPoweredSkinSensing: React.FC = () => {
           justifyContent: 'center'
         }}
       >
-        <div className="max-w-6xl mx-auto text-center px-4">
+        <div className="max-w-6xl mx-auto px-4">
           {/* 面包屑导航 */}
-          <div className="mb-6">
+          <div className="mb-6 text-center">
             <span 
               style={{
                 color: '#a0aec0',
@@ -50,7 +50,8 @@ const AIPoweredSkinSensing: React.FC = () => {
               color: '#a0aec0',
               fontSize: '16px',
               fontWeight: '400',
-              marginTop: '20px'
+              marginTop: '20px',
+              textAlign: 'left'
             }}
           >
             January 27, 2025
