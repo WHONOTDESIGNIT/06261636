@@ -7,20 +7,74 @@ const IPLBestChoice: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-white pt-20">
-      {/* Hero Section */}
-      <section className="bg-blue-900 text-white py-10 border-b-4 border-blue-500">
-        <div className="max-w-5xl mx-auto px-4 flex flex-col md:flex-row items-center gap-8">
-          <div className="flex-1">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">{t('whyIPLHomeHairRemovalDevicesAreTheBestChoiceAmongAllHairRemovalTools.title')}</h1>
-            <p className="text-lg text-blue-100 mb-6">{t('whyIPLHomeHairRemovalDevicesAreTheBestChoiceAmongAllHairRemovalTools.description')}</p>
-            <a href="https://www.aad.org/public/cosmetic/hair-removal/laser-hair-removal" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full transition">{t('learnMoreFromAAD')}</a>
+    <div className="min-h-screen bg-white" style={{ wordSpacing: '0.1em' }}>
+      {/* Hero 横幅区域 - 统一YBS Packaging样式 */}
+      <div 
+        className="w-full py-16 px-4"
+        style={{
+          background: 'linear-gradient(135deg, #1a365d 0%, #2c5282 50%, #1a365d 100%)',
+          minHeight: '400px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}
+      >
+        <div className="max-w-6xl mx-auto px-4">
+          {/* 面包屑导航 */}
+          <div className="mb-6 text-center">
+            <span 
+              style={{
+                color: '#a0aec0',
+                fontSize: '14px',
+                fontWeight: '400'
+              }}
+            >
+              🏠 Blog
+            </span>
           </div>
-          <div className="flex-1 flex justify-center">
-            <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=500&q=80" alt="IPL Home Device" className="rounded-xl shadow-lg w-full max-w-xs" />
-          </div>
+          
+          {/* 主标题 */}
+          <h1 
+            style={{
+              fontSize: '3rem',
+              fontWeight: '700',
+              color: '#ffffff',
+              lineHeight: '1.1',
+              marginBottom: '16px',
+              letterSpacing: '-0.02em',
+              textAlign: 'center',
+              margin: '0 auto',
+              whiteSpace: 'nowrap',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis'
+            }}
+          >
+            Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools
+          </h1>
+          
+          {/* 发布日期 */}
+          <p 
+            style={{
+              color: '#a0aec0',
+              fontSize: '16px',
+              fontWeight: '400',
+              marginTop: '20px',
+              textAlign: 'left'
+            }}
+          >
+            July 10, 2025
+          </p>
         </div>
-      </section>
+      </div>
+
+      <article 
+        className="max-w-4xl mx-auto px-5 py-16" 
+        style={{ 
+          maxWidth: '1400px',
+          lineHeight: '1.7',
+          wordSpacing: '0.1em'
+        }}
+      >
 
       {/* Comparison Table */}
       <section className="py-10 bg-gray-50">
@@ -143,6 +197,29 @@ const IPLBestChoice: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/* Contact Form */}
+      <div className="bg-[#f9f9f9] py-16">
+        <ContactFormA />
+      </div>
+
+      {/* Recommended Blog Section */}
+      <section className="py-8 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('recommendedBlog.title')}</h2>
+          <div className="flex flex-col md:flex-row gap-6">
+            <div className="flex-1">
+              <img src="/images/blog/ipl-best-choice.jpg" alt="IPL Best Choice" className="rounded-xl shadow-lg w-full max-w-xs" />
+            </div>
+            <div className="flex-1 flex flex-col justify-center">
+              <h3 className="text-xl font-bold mb-2">{t('recommendedBlog.title')}</h3>
+              <p className="mb-4">{t('recommendedBlog.description')}</p>
+              <Link to="/blog/ipl-best-choice" className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full transition">{t('recommendedBlog.readFullArticle')}</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+      </article>
 
       {/* Contact Form */}
       <div className="bg-[#f9f9f9] py-16">
