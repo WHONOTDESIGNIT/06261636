@@ -122,20 +122,53 @@ const SapphireCooling: React.FC = () => {
             Intense Pulsed Light (IPL) technology is a popular choice for hair removal and skin treatments, but its safety and comfort for darker skin types have long been debated. <strong>Sapphire contact cooling</strong> technology has emerged as a significant advancement, greatly improving the comfort and safety of IPL treatments for a broader range of skin tones. However, not all Fitzpatrick skin types are equally suitable for IPL, even with sapphire cooling.
           </p>
         </section>
-      {/* What Is Sapphire Cooling? */}
-      <section className="py-10 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-6 text-gray-900">What Is Sapphire Cooling?</h2>
-          <p><strong>Sapphire cooling</strong> uses a highly conductive sapphire crystal at the tip of the IPL device. This crystal rapidly absorbs and dissipates heat, keeping the skin surface cool during treatment. The result is a significant reduction in pain, risk of burns, and skin irritation, even at higher IPL energy settings.</p>
-          <h3 className="text-xl font-semibold mb-2 mt-6">Key Benefits</h3>
-          <ul className="list-disc pl-6 mb-4">
-            <li><strong>Rapid Heat Dissipation:</strong> Maintains a low skin temperature throughout the session.</li>
-            <li><strong>Continuous Cooling:</strong> Provides a constant cooling effect, unlike intermittent cooling methods.</li>
-            <li><strong>Enhanced Comfort:</strong> Users report up to 90% less discomfort compared to non-cooled IPL treatments.</li>
-            <li><strong>Improved Safety:</strong> Reduces the risk of burns and pigment changes, especially important for darker skin tones.</li>
+              {/* What Is Sapphire Cooling? */}
+        <section className="mb-12">
+          <h2 
+            style={{
+              fontSize: '1.75rem',
+              fontWeight: '600',
+              marginTop: '48px',
+              marginBottom: '24px',
+              color: '#212529',
+              letterSpacing: '-0.02em'
+            }}
+          >
+            What Is Sapphire Cooling?
+          </h2>
+          <p 
+            style={{
+              fontSize: '18px',
+              lineHeight: '1.7',
+              color: '#495057',
+              marginBottom: '24px',
+              textAlign: 'justify',
+              wordSpacing: '0.1em'
+            }}
+          >
+            <strong>Sapphire cooling</strong> uses a highly conductive sapphire crystal at the tip of the IPL device. This crystal rapidly absorbs and dissipates heat, keeping the skin surface cool during treatment. The result is a significant reduction in pain, risk of burns, and skin irritation, even at higher IPL energy settings.
+          </p>
+          <h3 
+            style={{
+              fontSize: '1.5rem',
+              fontWeight: '600',
+              marginBottom: '16px',
+              color: '#212529',
+              letterSpacing: '-0.02em'
+            }}
+          >
+            Key Benefits
+          </h3>
+          <ul 
+            className="list-disc pl-6"
+            style={{ marginBottom: '24px' }}
+          >
+            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}><strong>Rapid Heat Dissipation:</strong> Maintains a low skin temperature throughout the session.</li>
+            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}><strong>Continuous Cooling:</strong> Provides a constant cooling effect, unlike intermittent cooling methods.</li>
+            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}><strong>Enhanced Comfort:</strong> Users report up to 90% less discomfort compared to non-cooled IPL treatments.</li>
+            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}><strong>Improved Safety:</strong> Reduces the risk of burns and pigment changes, especially important for darker skin tones.</li>
           </ul>
-        </div>
-      </section>
+        </section>
       {/* Updated Clinical Data: Comfort and Safety for Dark Skin */}
       <section className="py-10 bg-white">
         <div className="max-w-4xl mx-auto px-4">
