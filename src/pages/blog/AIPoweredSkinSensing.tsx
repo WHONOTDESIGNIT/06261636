@@ -59,7 +59,14 @@ const AIPoweredSkinSensing: React.FC = () => {
         </div>
       </div>
 
-      <article className="max-w-4xl mx-auto px-5 py-16" style={{ maxWidth: '750px' }}>
+      <article 
+        className="max-w-4xl mx-auto px-5 py-16" 
+        style={{ 
+          maxWidth: '680px',
+          lineHeight: '1.7',
+          wordSpacing: '0.1em'
+        }}
+      >
         {/* 介绍部分 */}
         <section className="mb-12">
           <h2 
@@ -80,7 +87,9 @@ const AIPoweredSkinSensing: React.FC = () => {
               fontSize: '18px',
               lineHeight: '1.7',
               color: '#495057',
-              marginBottom: '24px'
+              marginBottom: '24px',
+              maxWidth: '65ch',
+              textAlign: 'justify'
             }}
           >
             Artificial intelligence (AI) is everywhere—its hype is as inflated as any bubble, yet its transformative power is undeniable. In the world of at-home beauty tech, AI is no longer just a buzzword; it's redefining what's possible with Intense Pulsed Light (IPL) hair removal. Today, even the most skeptical observers recognize that AI's ability to sense, adapt, and personalize is a leap beyond anything seen in the past decades. But what does AI truly deliver, and how does it cut through the noise to create real value for users?
@@ -329,7 +338,9 @@ const AIPoweredSkinSensing: React.FC = () => {
               fontSize: '18px',
               lineHeight: '1.7',
               color: '#495057',
-              marginBottom: '24px'
+              marginBottom: '24px',
+              maxWidth: '65ch',
+              textAlign: 'justify'
             }}
           >
             AI-powered skin sensing is not just a technological upgrade—it's a paradigm shift for at-home IPL. By combining objective analysis, real-time adaptation, and seamless user support, AI makes hair removal and skin rejuvenation safer, more effective, and more personalized than ever before. In a world awash with hype, this is the kind of progress that even the most jaded observer can't ignore.
