@@ -2,7 +2,7 @@ import React from 'react';
 
 const AIPoweredSkinSensing: React.FC = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white" style={{ wordSpacing: '0.1em' }}>
       {/* Hero 横幅区域 - 模仿YBS Packaging样式 */}
       <div 
         className="w-full py-20 px-4"
@@ -62,7 +62,7 @@ const AIPoweredSkinSensing: React.FC = () => {
       <article 
         className="max-w-4xl mx-auto px-5 py-16" 
         style={{ 
-          maxWidth: '900px',
+          maxWidth: '1400px',
           lineHeight: '1.7',
           wordSpacing: '0.1em'
         }}
@@ -88,8 +88,8 @@ const AIPoweredSkinSensing: React.FC = () => {
               lineHeight: '1.7',
               color: '#495057',
               marginBottom: '24px',
-              maxWidth: '65ch',
-              textAlign: 'justify'
+              textAlign: 'justify',
+              wordSpacing: '0.1em'
             }}
           >
             Artificial intelligence (AI) is everywhere—its hype is as inflated as any bubble, yet its transformative power is undeniable. In the world of at-home beauty tech, AI is no longer just a buzzword; it's redefining what's possible with Intense Pulsed Light (IPL) hair removal. Today, even the most skeptical observers recognize that AI's ability to sense, adapt, and personalize is a leap beyond anything seen in the past decades. But what does AI truly deliver, and how does it cut through the noise to create real value for users?
@@ -126,7 +126,7 @@ const AIPoweredSkinSensing: React.FC = () => {
             className="list-disc pl-6"
             style={{ marginBottom: '24px' }}
           >
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
+            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057', wordSpacing: '0.1em' }}>
               <b>Objective Skin Assessment:</b> Modern AI-powered IPLs use sensors to randomly sample and analyze skin across different body areas, building a nuanced, unbiased profile of your skin's current state.
             </li>
             <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
@@ -339,8 +339,8 @@ const AIPoweredSkinSensing: React.FC = () => {
               lineHeight: '1.7',
               color: '#495057',
               marginBottom: '24px',
-              maxWidth: '65ch',
-              textAlign: 'justify'
+              textAlign: 'justify',
+              wordSpacing: '0.1em'
             }}
           >
             AI-powered skin sensing is not just a technological upgrade—it's a paradigm shift for at-home IPL. By combining objective analysis, real-time adaptation, and seamless user support, AI makes hair removal and skin rejuvenation safer, more effective, and more personalized than ever before. In a world awash with hype, this is the kind of progress that even the most jaded observer can't ignore.
