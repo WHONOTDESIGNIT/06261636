@@ -3,12 +3,12 @@ import React from 'react';
 const AIPoweredSkinSensing: React.FC = () => {
   return (
     <div className="min-h-screen bg-white" style={{ wordSpacing: '0.1em' }}>
-      {/* Hero 横幅区域 - 模仿YBS Packaging样式 */}
+      {/* Hero 横幅区域 - 调整高度和布局 */}
       <div 
-        className="w-full py-20 px-4"
+        className="w-full py-16 px-4"
         style={{
           background: 'linear-gradient(135deg, #1a365d 0%, #2c5282 50%, #1a365d 100%)',
-          minHeight: '300px',
+          minHeight: '400px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center'
