@@ -29,9 +29,12 @@ function scanPageRoutes() {
   });
 }
 
-const langs = [
-  'en', 'de', 'nl', 'cs', 'es', 'da', 'et', 'fr', 'ru', 'hr', 'it', 'pt', 'hi', 'ja', 'ko', 'zh', 'th', 'vi', 'id', 'ms', 'ar', 'he', 'tr'
-];
+// 动态读取实际支持的语言列表
+const translationsDir = path.join(__dirname, '../src/translations');
+const langs = fs.readdirSync(translationsDir)
+  .filter(file => file.endsWith('.json'))
+  .map(file => file.replace('.json', ''))
+  .sort();
 
 const baseUrl = 'https://iplmanufacturer.com';
 const currentDate = new Date().toISOString().split('T')[0]; // YYYY-MM-DD format
