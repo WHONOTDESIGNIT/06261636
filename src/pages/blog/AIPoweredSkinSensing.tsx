@@ -350,8 +350,7 @@ const AIPoweredSkinSensing: React.FC = () => {
           </p>
         </section>
       </article>
-      </div>
-    </>
+    </div>
   );
 };
 
