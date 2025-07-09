@@ -20,7 +20,7 @@ const jsonLd = {
 
 const SapphireCooling: React.FC = () => {
   return (
-    <div className="min-h-screen bg-white pt-20">
+    <div className="min-h-screen bg-white" style={{ wordSpacing: '0.1em' }}>
       <Helmet>
         <title>Sapphire Cooling: Reducing Pain by 90% for Dark Skin Types</title>
         <meta name="description" content="Discover how sapphire cooling technology makes IPL hair removal safer and more comfortable for dark skin types. Learn about clinical data, best practices, and expert advice." />
@@ -28,20 +28,100 @@ const SapphireCooling: React.FC = () => {
         <link rel="canonical" href="/blog/sapphire-cooling" />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
-      {/* H1 Title */}
-      <section className="bg-blue-900 text-white py-10 border-b-4 border-blue-500">
-        <div className="max-w-5xl mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Sapphire Cooling: Reducing Pain by 90% for Dark Skin Types</h1>
-          <p className="text-lg text-blue-100 mb-6">How sapphire cooling technology is revolutionizing IPL hair removal for a wider range of skin tones—safer, more comfortable, and clinically proven.</p>
+      
+      {/* Hero 横幅区域 - 统一YBS Packaging样式 */}
+      <div 
+        className="w-full py-16 px-4"
+        style={{
+          background: 'linear-gradient(135deg, #1a365d 0%, #2c5282 50%, #1a365d 100%)',
+          minHeight: '400px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}
+      >
+        <div className="max-w-6xl mx-auto px-4">
+          {/* 面包屑导航 */}
+          <div className="mb-6 text-center">
+            <span 
+              style={{
+                color: '#a0aec0',
+                fontSize: '14px',
+                fontWeight: '400'
+              }}
+            >
+              🏠 Blog
+            </span>
+          </div>
+          
+          {/* 主标题 */}
+          <h1 
+            style={{
+              fontSize: '3rem',
+              fontWeight: '700',
+              color: '#ffffff',
+              lineHeight: '1.1',
+              marginBottom: '16px',
+              letterSpacing: '-0.02em',
+              textAlign: 'center',
+              margin: '0 auto',
+              whiteSpace: 'nowrap',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis'
+            }}
+          >
+            Sapphire Cooling: Reducing Pain by 90% for Dark Skin Types
+          </h1>
+          
+          {/* 发布日期 */}
+          <p 
+            style={{
+              color: '#a0aec0',
+              fontSize: '16px',
+              fontWeight: '400',
+              marginTop: '20px',
+              textAlign: 'left'
+            }}
+          >
+            July 4, 2024
+          </p>
         </div>
-      </section>
-      {/* Introduction */}
-      <section className="py-10 bg-white">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-6 text-gray-900">Introduction</h2>
-          <p>Intense Pulsed Light (IPL) technology is a popular choice for hair removal and skin treatments, but its safety and comfort for darker skin types have long been debated. <strong>Sapphire contact cooling</strong> technology has emerged as a significant advancement, greatly improving the comfort and safety of IPL treatments for a broader range of skin tones. However, not all Fitzpatrick skin types are equally suitable for IPL, even with sapphire cooling.</p>
-        </div>
-      </section>
+      </div>
+      <article 
+        className="max-w-4xl mx-auto px-5 py-16" 
+        style={{ 
+          maxWidth: '1400px',
+          lineHeight: '1.7',
+          wordSpacing: '0.1em'
+        }}
+      >
+        {/* Introduction */}
+        <section className="mb-12">
+          <h2 
+            style={{
+              fontSize: '1.75rem',
+              fontWeight: '600',
+              marginTop: '48px',
+              marginBottom: '24px',
+              color: '#212529',
+              letterSpacing: '-0.02em'
+            }}
+          >
+            Introduction
+          </h2>
+          <p 
+            style={{
+              fontSize: '18px',
+              lineHeight: '1.7',
+              color: '#495057',
+              marginBottom: '24px',
+              textAlign: 'justify',
+              wordSpacing: '0.1em'
+            }}
+          >
+            Intense Pulsed Light (IPL) technology is a popular choice for hair removal and skin treatments, but its safety and comfort for darker skin types have long been debated. <strong>Sapphire contact cooling</strong> technology has emerged as a significant advancement, greatly improving the comfort and safety of IPL treatments for a broader range of skin tones. However, not all Fitzpatrick skin types are equally suitable for IPL, even with sapphire cooling.
+          </p>
+        </section>
       {/* What Is Sapphire Cooling? */}
       <section className="py-10 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4">
