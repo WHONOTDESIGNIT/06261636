@@ -62,7 +62,7 @@ const AIPoweredSkinSensing: React.FC = () => {
       <article 
         className="max-w-4xl mx-auto px-5 py-16" 
         style={{ 
-          maxWidth: '680px',
+          maxWidth: '900px',
           lineHeight: '1.7',
           wordSpacing: '0.1em'
         }}
