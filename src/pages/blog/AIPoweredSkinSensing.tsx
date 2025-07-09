@@ -38,7 +38,10 @@ const AIPoweredSkinSensing: React.FC = () => {
               marginBottom: '16px',
               letterSpacing: '-0.02em',
               textAlign: 'center',
-              margin: '0 auto'
+              margin: '0 auto',
+              whiteSpace: 'nowrap',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis'
             }}
           >
             AI-Powered Skin Sensing: The Future of Personalized IPL
