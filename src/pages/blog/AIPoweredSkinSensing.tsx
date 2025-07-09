@@ -2,9 +2,65 @@ import React from 'react';
 
 const AIPoweredSkinSensing: React.FC = () => {
   return (
-    <div className="min-h-screen bg-white pt-20">
+    <div className="min-h-screen bg-white">
+      {/* Hero 横幅区域 - 模仿YBS Packaging样式 */}
+      <div 
+        className="w-full py-20 px-4"
+        style={{
+          background: 'linear-gradient(135deg, #1a365d 0%, #2c5282 50%, #1a365d 100%)',
+          minHeight: '300px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}
+      >
+        <div className="max-w-4xl mx-auto text-center">
+          {/* 面包屑导航 */}
+          <div className="mb-6">
+            <span 
+              style={{
+                color: '#a0aec0',
+                fontSize: '14px',
+                fontWeight: '400'
+              }}
+            >
+              🏠 Blog
+            </span>
+          </div>
+          
+          {/* 主标题 */}
+          <h1 
+            style={{
+              fontSize: '3rem',
+              fontWeight: '700',
+              color: '#ffffff',
+              lineHeight: '1.1',
+              marginBottom: '16px',
+              letterSpacing: '-0.02em',
+              textAlign: 'center',
+              maxWidth: '900px',
+              margin: '0 auto'
+            }}
+          >
+            AI-Powered Skin Sensing: The Future of Personalized IPL
+          </h1>
+          
+          {/* 发布日期 */}
+          <p 
+            style={{
+              color: '#a0aec0',
+              fontSize: '16px',
+              fontWeight: '400',
+              marginTop: '20px'
+            }}
+          >
+            January 27, 2025
+          </p>
+        </div>
+      </div>
+
       <article className="max-w-4xl mx-auto px-5 py-16" style={{ maxWidth: '750px' }}>
-        {/* 博客标题 - 基于JSON设计规范 */}
+        {/* 作者信息 */}
         <header className="mb-8">
           <h1 
             className="font-bold mb-6 text-gray-900"
