@@ -60,33 +60,6 @@ const AIPoweredSkinSensing: React.FC = () => {
       </div>
 
       <article className="max-w-4xl mx-auto px-5 py-16" style={{ maxWidth: '750px' }}>
-        {/* 作者信息 */}
-        <header className="mb-8">
-          <h1 
-            className="font-bold mb-6 text-gray-900"
-            style={{ 
-              fontSize: '2.5rem',
-              lineHeight: '1.2',
-              fontWeight: '700',
-              marginBottom: '24px',
-              color: '#212529',
-              letterSpacing: '-0.02em'
-            }}
-          >
-            AI-Powered Skin Sensing: The Future of Personalized IPL
-          </h1>
-          <p 
-            className="mb-8"
-            style={{
-              fontSize: '14px',
-              color: '#6c757d',
-              marginBottom: '32px'
-            }}
-          >
-            By Eric Ann
-          </p>
-        </header>
-
         {/* 介绍部分 */}
         <section className="mb-12">
           <h2 
