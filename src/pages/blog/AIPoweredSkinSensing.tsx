@@ -2,7 +2,22 @@ import React from 'react';
 
 const AIPoweredSkinSensing: React.FC = () => {
   return (
-    <div className="min-h-screen bg-white" style={{ wordSpacing: '0.1em' }}>
+    <>
+      {/* 页面特定的Header样式覆盖 */}
+      <style>
+        {`
+          header {
+            height: 80px !important;
+          }
+          header nav > div {
+            height: 80px !important;
+          }
+          header .flex.items-center {
+            height: 80px !important;
+          }
+        `}
+      </style>
+      <div className="min-h-screen bg-white" style={{ wordSpacing: '0.1em', paddingTop: '80px' }}>
       {/* Hero 横幅区域 - 调整高度和布局 */}
       <div 
         className="w-full py-16 px-4"
@@ -350,7 +365,8 @@ const AIPoweredSkinSensing: React.FC = () => {
           </p>
         </section>
       </article>
-    </div>
+      </div>
+    </>
   );
 };
 
