@@ -14,7 +14,7 @@ const AIPoweredSkinSensing: React.FC = () => {
           justifyContent: 'center'
         }}
       >
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-6xl mx-auto text-center px-4">
           {/* 面包屑导航 */}
           <div className="mb-6">
             <span 
@@ -38,7 +38,6 @@ const AIPoweredSkinSensing: React.FC = () => {
               marginBottom: '16px',
               letterSpacing: '-0.02em',
               textAlign: 'center',
-              maxWidth: '900px',
               margin: '0 auto'
             }}
           >
