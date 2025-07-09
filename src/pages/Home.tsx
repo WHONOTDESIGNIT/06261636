@@ -213,7 +213,7 @@ export default function HomePage() {
       </section>
 
       {/* 图册 Section */}
-      <section className="py-16 px-4 md:px-0 flex justify-center">
+      <section className="py-16 px-4 md:px-0 flex flex-col items-center">
         <div
           className="relative flex items-center w-full max-w-5xl"
           style={{ height: 400 }}
@@ -263,27 +263,27 @@ export default function HomePage() {
           >
             <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
           </button>
+        </div>
 
-          {/* 小圆点指示器 */}
-          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-4 z-20">
-            {galleryImages.map((_, idx) => (
-              <span
-                key={idx}
-                className={`block rounded-full transition-colors duration-200 cursor-pointer`}
-                style={{
-                  width: 8,
-                  height: 8,
-                  background: galleryIndex === idx ? 'rgb(64,64,64)' : 'rgb(191,191,191)',
-                  border: 'none',
-                  boxShadow: galleryIndex === idx ? '0 0 0 2px #222' : 'none',
-                }}
-                onMouseEnter={() => setGalleryIndex(idx)}
-                onClick={() => setGalleryIndex(idx)}
-                onMouseOver={e => (e.currentTarget.style.background = 'black')}
-                onMouseOut={e => (e.currentTarget.style.background = galleryIndex === idx ? 'rgb(64,64,64)' : 'rgb(191,191,191)')}
-              />
-            ))}
-          </div>
+        {/* 小圆点指示器 - 移到图片下方 */}
+        <div className="flex gap-4 mt-6">
+          {galleryImages.map((_, idx) => (
+            <span
+              key={idx}
+              className={`block rounded-full transition-colors duration-200 cursor-pointer`}
+              style={{
+                width: 8,
+                height: 8,
+                background: galleryIndex === idx ? 'rgb(64,64,64)' : 'rgb(191,191,191)',
+                border: 'none',
+                boxShadow: galleryIndex === idx ? '0 0 0 2px #222' : 'none',
+              }}
+              onMouseEnter={() => setGalleryIndex(idx)}
+              onClick={() => setGalleryIndex(idx)}
+              onMouseOver={e => (e.currentTarget.style.background = 'black')}
+              onMouseOut={e => (e.currentTarget.style.background = galleryIndex === idx ? 'rgb(64,64,64)' : 'rgb(191,191,191)')}
+            />
+          ))}
         </div>
       </section>
 
