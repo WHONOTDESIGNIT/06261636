@@ -470,6 +470,10 @@
     "success": "Ihre Nachricht wurde erfolgreich gesendet!",
     "error": "Es gab einen Fehler beim Senden Ihrer Nachricht. Bitte versuchen Sie es erneut."
   },
+  "floating": {
+    "contact": "Kontaktieren Sie uns",
+    "backToTop": "Nach oben"
+  },
   "blog": {
     "posts": {
       "sustainableManufacturing": {
