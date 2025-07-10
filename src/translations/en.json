@@ -452,6 +452,10 @@
     "success": "Your message has been sent successfully!",
     "error": "There was an error sending your message. Please try again."
   },
+  "floating": {
+    "contact": "Contact Us",
+    "backToTop": "Back to top"
+  },
   "blog": {
     "posts": {
       "sustainableManufacturing": {
