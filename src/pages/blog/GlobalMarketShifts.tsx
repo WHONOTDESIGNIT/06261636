@@ -1,9 +1,38 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const GlobalMarketShifts: React.FC = () => {
+  const { t } = useTranslation();
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": t('blog.posts.globalMarketShifts.title'),
+    "description": t('blog.posts.globalMarketShifts.intro'),
+    "author": {
+      "@type": "Organization",
+      "name": "SHENZHEN ISHINE TECHNOLOGY COMPANY LIMITED"
+    },
+    "datePublished": "2024-07-01",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "/blog/global-market-shifts"
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white" style={{ wordSpacing: '0.1em' }}>
-      {/* Hero 横幅区域 - 统一YBS Packaging样式 */}
+      <Helmet>
+        <title>{t('blog.posts.globalMarketShifts.title')}</title>
+        <meta name="description" content={t('blog.posts.globalMarketShifts.intro')} />
+        <meta name="keywords" content="global beauty market, IPL hair removal trends, market analysis, beauty technology, consumer behavior" />
+        <link rel="canonical" href="/blog/global-market-shifts" />
+        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+      </Helmet>
+      
+      {/* Hero Banner */}
       <div 
         className="w-full py-16 px-4"
         style={{
@@ -15,20 +44,12 @@ const GlobalMarketShifts: React.FC = () => {
         }}
       >
         <div className="max-w-6xl mx-auto px-4">
-          {/* 面包屑导航 */}
           <div className="mb-6 text-center">
-            <span 
-              style={{
-                color: '#a0aec0',
-                fontSize: '14px',
-                fontWeight: '400'
-              }}
-            >
+            <span style={{ color: '#a0aec0', fontSize: '14px', fontWeight: '400' }}>
               🏠 Blog
             </span>
           </div>
           
-          {/* 主标题 */}
           <h1 
             style={{
               fontSize: '3rem',
@@ -37,17 +58,12 @@ const GlobalMarketShifts: React.FC = () => {
               lineHeight: '1.1',
               marginBottom: '16px',
               letterSpacing: '-0.02em',
-              textAlign: 'center',
-              margin: '0 auto',
-              whiteSpace: 'nowrap',
-              overflow: 'hidden',
-              textOverflow: 'ellipsis'
+              textAlign: 'center'
             }}
           >
-            Global Market Shifts: IPL Adoption in Emerging Markets
+            {t('blog.posts.globalMarketShifts.title')}
           </h1>
           
-          {/* 发布日期 */}
           <p 
             style={{
               color: '#a0aec0',
@@ -57,139 +73,113 @@ const GlobalMarketShifts: React.FC = () => {
               textAlign: 'left'
             }}
           >
-            June 20, 2025
+            {t('globalMarketShifts.publishDate')}
           </p>
         </div>
       </div>
-
-      <article 
-        className="max-w-4xl mx-auto px-5 py-16" 
-        style={{ 
-          maxWidth: '1400px',
-          lineHeight: '1.7',
-          wordSpacing: '0.1em'
-        }}
-      >
-        {/* 介绍部分 */}
+      
+      <article className="max-w-4xl mx-auto px-5 py-16" style={{ lineHeight: '1.7', wordSpacing: '0.1em' }}>
+        {/* Introduction */}
         <section className="mb-12">
-          <h2 
-            style={{
-              fontSize: '1.75rem',
-              fontWeight: '600',
-              marginTop: '48px',
-              marginBottom: '24px',
-              color: '#212529',
-              letterSpacing: '-0.02em'
-            }}
-          >
-            Introduction
-          </h2>
-          <p 
-            style={{
-              fontSize: '18px',
-              lineHeight: '1.7',
-              color: '#495057',
-              marginBottom: '24px',
-              textAlign: 'justify',
-              wordSpacing: '0.1em'
-            }}
-          >
-            The global beauty and personal care market is undergoing a significant transformation, driven by the rapid adoption of at-home Intense Pulsed Light (IPL) hair removal devices. As emerging markets embrace advanced beauty technologies, the IPL segment is poised for remarkable growth in 2025 and 2026. This surge is not only reshaping consumer grooming habits but also fueling unprecedented expansion in the broader cosmetics industry.
-          </p>
-                </section>
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('blog.posts.globalMarketShifts.sections.introduction')}</h2>
+          <p className="text-lg text-gray-700 mb-6">{t('globalMarketShifts.introduction.content')}</p>
+        </section>
 
+        {/* Market Size and Growth */}
         <section className="mb-12">
-          <h2 
-            style={{
-              fontSize: '1.75rem',
-              fontWeight: '600',
-              marginTop: '48px',
-              marginBottom: '24px',
-              color: '#212529',
-              letterSpacing: '-0.02em'
-            }}
-          >
-            IPL Home Device Market Size: 2025 & 2026 Outlook
-          </h2>
-        <h3 className="font-semibold mb-1">Key Market Figures</h3>
-        <ul className="list-disc pl-6 mb-4">
-          <li><b>2025 Market Size:</b> The global at-home IPL hair removal device market is projected to reach approximately $2.5 billion in 2025, with emerging markets contributing a rapidly increasing share.</li>
-          <li><b>Growth Rate:</b> Compound annual growth rates (CAGR) for the sector are forecast between 10.5% and 15% from 2025 through 2033, reflecting robust demand and expanding consumer awareness.</li>
-          <li><b>2026 Projection:</b> By 2026, the market is expected to surpass $3 billion, driven by technology upgrades, affordability, and greater accessibility in regions such as Asia-Pacific, Latin America, and the Middle East.</li>
-        </ul>
-        <table className="w-full text-sm mb-4 border border-gray-200">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="p-2 border">Year</th>
-              <th className="p-2 border">Global At-Home IPL Market Size</th>
-              <th className="p-2 border">CAGR Estimate</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td className="p-2 border">2024</td>
-              <td className="p-2 border">$1.2 billion</td>
-              <td className="p-2 border">—</td>
-            </tr>
-            <tr>
-              <td className="p-2 border">2025</td>
-              <td className="p-2 border">$2.5 billion</td>
-              <td className="p-2 border">10.5–15%</td>
-            </tr>
-            <tr>
-              <td className="p-2 border">2026</td>
-              <td className="p-2 border">$3.0+ billion</td>
-              <td className="p-2 border">10.5–15%</td>
-            </tr>
-          </tbody>
-        </table>
-        <h3 className="font-semibold mb-1">Regional Highlights</h3>
-        <ul className="list-disc pl-6 mb-4">
-          <li><b>Asia-Pacific:</b> Fastest-growing region, with rising disposable incomes and beauty consciousness.</li>
-          <li><b>Latin America & Middle East:</b> Increasing urbanization and digital access are accelerating IPL device adoption.</li>
-          <li><b>Africa:</b> Early-stage market, but showing strong potential due to mobile commerce and influencer-driven trends.</li>
-        </ul>
-        <h2 className="text-xl font-semibold mb-2">Drivers of IPL Adoption in Emerging Markets</h2>
-        <h3 className="font-semibold mb-1">Technology and Accessibility</h3>
-        <ul className="list-disc pl-6 mb-4">
-          <li><b>Improved Safety & Efficacy:</b> Advances in IPL technology have made devices safer and more effective for a wider range of skin tones and hair types.</li>
-          <li><b>Affordability:</b> A broader range of price points makes IPL devices accessible to middle-income consumers.</li>
-          <li><b>E-commerce Expansion:</b> Online platforms enable direct-to-consumer sales, increasing reach in remote or underserved areas.</li>
-        </ul>
-        <h3 className="font-semibold mb-1">Social and Cultural Shifts</h3>
-        <ul className="list-disc pl-6 mb-4">
-          <li><b>Beauty Standards:</b> Social media and global beauty trends are fueling demand for smooth, hair-free skin.</li>
-          <li><b>Convenience:</b> At-home IPL offers a cost-effective, time-saving alternative to salon treatments, appealing to busy urban consumers.</li>
-        </ul>
-        <h2 className="text-xl font-semibold mb-2">Impact on the Cosmetics Market</h2>
-        <h3 className="font-semibold mb-1">Synergistic Growth</h3>
-        <ul className="list-disc pl-6 mb-4">
-          <li><b>Increased Skincare Product Demand:</b> IPL treatments often require pre- and post-care, boosting sales of moisturizers, sunscreens, and soothing serums.</li>
-          <li><b>Cross-Selling Opportunities:</b> Brands bundle IPL devices with skincare products, enhancing customer loyalty and average order value.</li>
-          <li><b>Market Education:</b> As consumers become more informed about skin health, they invest in higher-quality cosmetics and targeted treatments.</li>
-        </ul>
-        <h3 className="font-semibold mb-1">Industry Transformation</h3>
-        <ul className="list-disc pl-6 mb-4">
-          <li><b>Beauty Tech Integration:</b> Major cosmetics brands are investing in or acquiring IPL device manufacturers to expand their portfolios.</li>
-          <li><b>Salon and Clinic Partnerships:</b> Beauty service providers are incorporating IPL into their offerings, creating new revenue streams and driving device awareness.</li>
-        </ul>
-        <h2 className="text-xl font-semibold mb-2">Future Trends: 2025–2026 and Beyond</h2>
-        <ul className="list-disc pl-6 mb-4">
-          <li><b>AI-Driven Personalization:</b> Next-gen IPL devices will leverage artificial intelligence for customized treatments, further improving safety and efficacy.</li>
-          <li><b>Sustainability:</b> Eco-friendly device designs and recyclable packaging will become key differentiators.</li>
-          <li><b>Regulatory Evolution:</b> As the market matures, stricter safety standards and certifications will enhance consumer trust.</li>
-        </ul>
-        <h2 className="text-xl font-semibold mb-2">Conclusion</h2>
-        <p className="mb-4">By 2025 and 2026, at-home IPL hair removal devices will have established themselves as a cornerstone of the global beauty market, especially in emerging economies. This shift is not only expanding the IPL sector itself but also driving significant growth across the cosmetics industry, as consumers seek comprehensive, tech-enabled beauty solutions. The convergence of technology, affordability, and evolving beauty standards ensures that IPL adoption will remain a powerful engine for market expansion in the years ahead.</p>
-        <h3 className="font-semibold mb-2">References</h3>
-        <ul className="list-disc pl-6 text-xs text-gray-600">
-          <li>At-home Use IPL Hair Removal System Market Insights</li>
-          <li>IPL Hair Removal Devices Reshape the Grooming Market</li>
-          <li>Consumer Use IPL Hair Removal Devices Market Size & Forecast</li>
-          <li>Home Use IPL Hair Removals Strategic Roadmap: Analysis and ...</li>
-          <li>At-home Use IPL Hair Removal Device and Equipment Market</li>
-        </ul>
-      </section>
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('globalMarketShifts.marketSize.title')}</h2>
+          <div className="bg-blue-50 p-6 rounded-lg mb-6">
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="text-center">
+                <h3 className="text-2xl font-bold text-blue-900">{t('globalMarketShifts.stats.marketValue')}</h3>
+                <p className="text-blue-800">{t('globalMarketShifts.stats.currentMarket')}</p>
+              </div>
+              <div className="text-center">
+                <h3 className="text-2xl font-bold text-blue-900">{t('globalMarketShifts.stats.cagr')}</h3>
+                <p className="text-blue-800">{t('globalMarketShifts.stats.growthRate')}</p>
+              </div>
+              <div className="text-center">
+                <h3 className="text-2xl font-bold text-blue-900">{t('globalMarketShifts.stats.projection')}</h3>
+                <p className="text-blue-800">{t('globalMarketShifts.stats.futureValue')}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Regional Analysis */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('globalMarketShifts.regionalAnalysis.title')}</h2>
+          <div className="space-y-6">
+            <div className="border-l-4 border-green-500 pl-4">
+              <h3 className="font-semibold text-lg">{t('globalMarketShifts.regions.northAmerica.title')}</h3>
+              <p className="text-gray-700">{t('globalMarketShifts.regions.northAmerica.desc')}</p>
+            </div>
+            <div className="border-l-4 border-blue-500 pl-4">
+              <h3 className="font-semibold text-lg">{t('globalMarketShifts.regions.europe.title')}</h3>
+              <p className="text-gray-700">{t('globalMarketShifts.regions.europe.desc')}</p>
+            </div>
+            <div className="border-l-4 border-purple-500 pl-4">
+              <h3 className="font-semibold text-lg">{t('globalMarketShifts.regions.asiaPacific.title')}</h3>
+              <p className="text-gray-700">{t('globalMarketShifts.regions.asiaPacific.desc')}</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Key Trends */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('globalMarketShifts.keyTrends.title')}</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-green-50 p-6 rounded-lg">
+              <h3 className="font-semibold mb-3 text-green-900">{t('globalMarketShifts.trends.athomeDevices.title')}</h3>
+              <p className="text-green-800">{t('globalMarketShifts.trends.athomeDevices.desc')}</p>
+            </div>
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <h3 className="font-semibold mb-3 text-blue-900">{t('globalMarketShifts.trends.aiIntegration.title')}</h3>
+              <p className="text-blue-800">{t('globalMarketShifts.trends.aiIntegration.desc')}</p>
+            </div>
+            <div className="bg-purple-50 p-6 rounded-lg">
+              <h3 className="font-semibold mb-3 text-purple-900">{t('globalMarketShifts.trends.sustainability.title')}</h3>
+              <p className="text-purple-800">{t('globalMarketShifts.trends.sustainability.desc')}</p>
+            </div>
+            <div className="bg-orange-50 p-6 rounded-lg">
+              <h3 className="font-semibold mb-3 text-orange-900">{t('globalMarketShifts.trends.personalization.title')}</h3>
+              <p className="text-orange-800">{t('globalMarketShifts.trends.personalization.desc')}</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Future Outlook */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('globalMarketShifts.futureOutlook.title')}</h2>
+          <p className="text-lg text-gray-700 mb-6">{t('globalMarketShifts.futureOutlook.content')}</p>
+          
+          <div className="bg-yellow-50 p-6 rounded-lg">
+            <h3 className="font-semibold mb-3 text-yellow-900">{t('globalMarketShifts.predictions.title')}</h3>
+            <ul className="list-disc pl-6 space-y-2">
+              <li className="text-yellow-800">{t('globalMarketShifts.predictions.growth')}</li>
+              <li className="text-yellow-800">{t('globalMarketShifts.predictions.technology')}</li>
+              <li className="text-yellow-800">{t('globalMarketShifts.predictions.accessibility')}</li>
+            </ul>
+          </div>
+        </section>
+
+        {/* Conclusion */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('blog.posts.globalMarketShifts.sections.conclusion')}</h2>
+          <p className="text-lg text-gray-700 mb-6">{t('globalMarketShifts.conclusion.content')}</p>
+        </section>
+
+        {/* Related Articles */}
+        <section className="py-10 bg-gray-50">
+          <div className="max-w-4xl mx-auto px-4">
+            <h2 className="text-xl font-bold mb-4 text-gray-900">{t('common.relatedArticles')}</h2>
+            <ul className="list-inside list-disc space-y-2">
+              <li><Link to="/blog/future-home-hair-removal" className="text-blue-600 underline">{t('blog.posts.futureHomeHairRemoval.title')}</Link></li>
+              <li><Link to="/blog/industries" className="text-blue-600 underline">{t('blog.posts.industries.title')}</Link></li>
+              <li><Link to="/blog/sustainable-manufacturing" className="text-blue-600 underline">{t('blog.posts.sustainableManufacturing.title')}</Link></li>
+            </ul>
+          </div>
+        </section>
       </article>
     </div>
   );
