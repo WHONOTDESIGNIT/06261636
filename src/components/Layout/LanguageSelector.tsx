@@ -1,292 +1,70 @@
+//
 import React, { useEffect } from 'react';
-import { BrowserRouter, Routes, Route, Navigate, Outlet, useParams, useLocation } from 'react-router-dom';
-import { HelmetProvider } from 'react-helmet-async';
-import { LanguageProvider, useLanguage } from './context/LanguageContext';
-import Header from './components/Layout/Header';
-import Footer from './components/Layout/Footer';
-import FloatingWidgets from './components/Layout/FloatingWidgets';
-import { languages } from './data/languages';
+import { ChevronDown } from 'lucide-react';
+import { useLanguage } from '../../context/LanguageContext';
+import { languages } from '../../data/languages';
+import { useNavigate, useLocation } from 'react-router-dom';
 
-// Main Pages
-import Home from './pages/Home';
-import Solutions from './pages/Solutions';
-import IPLHairRemoval from './pages/IPLHairRemoval';
-import HowToUse from './pages/HowToUse';
-import About from './pages/About';
-import Contact from './pages/Contact';
+interface Language {
+  code: string;
+  flag: string;
+  name: string;
+  nativeName?: string;
+}
 
-// Solutions Pages
-import LogoPrinting from './pages/solutions/LogoPrinting';
-import PackagingSolutions from './pages/solutions/PackagingSolutions';
-import DropShipping from './pages/solutions/DropShipping';
-import GlobalShipping from './pages/solutions/GlobalShipping';
-import BrandCustomization from './pages/solutions/BrandCustomization';
-import Compliance from './pages/solutions/Compliance';
-import DesignPrototyping from './pages/solutions/DesignPrototyping';
-import MultiHeadIPL from './pages/solutions/MultiHeadIPL';
-import DualLampIPL from './pages/solutions/DualLampIPL';
+const LanguageSelector: React.FC = () => {
+  const { currentLanguage, currentCountry, setLanguage } = useLanguage();
+  const navigate = useNavigate();
+  const location = useLocation();
 
-// IPL Device Pages
-import SmartAppIPL from './pages/ipl/SmartAppIPL';
-import IceFeelingIPL from './pages/ipl/IceFeelingIPL';
-import EmeraldIPL from './pages/ipl/EmeraldIPL';
-import SkinSensorIPL from './pages/ipl/SkinSensorIPL';
-import BatteryPoweredIPL from './pages/ipl/BatteryPoweredIPL';
-import HandheldIPL from './pages/ipl/HandheldIPL';
-import IceCoolingIPL from './pages/ipl/IceCoolingIPL';
-import DualLampIPLDevice from './pages/ipl/DualLampIPLDevice';
-import AIPoweredIPL from './pages/ipl/AIPoweredIPL';
-
-// Accessories Pages
-import SapphireLens from './pages/accessories/SapphireLens';
-import Adapter from './pages/accessories/Adapter';
-import ProtectiveGoggles from './pages/accessories/ProtectiveGoggles';
-import Filter from './pages/accessories/Filter';
-
-// Service & Support Pages
-import AfterSalesService from './pages/service/AfterSalesService';
-import WinFDAListing from './pages/service/WinFDAListing';
-import IPLManufacturing from './pages/service/IPLManufacturing';
-import KnowledgeBase from './pages/service/KnowledgeBase';
-import BeautySourcing from './pages/service/BeautySourcing';
-import PricingGuide from './pages/service/PricingGuide';
-import HelpCenter from './pages/service/HelpCenter';
-import Gallery from './pages/service/Gallery';
-import Videos from './pages/service/Videos';
-
-// Service Support Main Page
-import ServiceSupport from './pages/ServiceSupport';
-
-// Blog Pages
-import NewsInsights from './pages/blog/NewsInsights';
-import Industries from './pages/blog/Industries';
-import IPLBestChoice from './pages/blog/IPLBestChoice';
-import FutureHomeHairRemoval from './pages/blog/FutureHomeHairRemoval';
-import FDA510kPathway from './pages/blog/FDA510kPathway';
-import MultiHeadIPLSystems from './pages/blog/MultiHeadIPLSystems';
-import AIPoweredSkinSensing from './pages/blog/AIPoweredSkinSensing';
-import GlobalMarketShifts from './pages/blog/GlobalMarketShifts';
-import SustainableManufacturing from './pages/blog/SustainableManufacturing';
-
-// About Pages
-import FounderMessage from './pages/about/FounderMessage';
-import Technology from './pages/about/Technology';
-import GlobalWitness from './pages/about/GlobalWitness';
-import CorePrinciples from './pages/about/CorePrinciples';
-import CompanyInfo from './pages/about/CompanyInfo';
-import BrandStory from './pages/about/BrandStory';
-import Quality from './pages/about/Quality';
-
-// Country-specific page
-import CountryPage from './pages/CountryPage';
-
-// Sitemap Page
-import Sitemap from './pages/Sitemap';
-
-// Shipping Cost Page
-import ShippingCostPage from './pages/shipping-cost';
-
-// 404 Not Found Page
-const NotFound: React.FC = () => (
-  <div style={{ padding: '4rem', textAlign: 'center' }}>
-    <h1>404 - Page Not Found</h1>
-    <p>The page you are looking for does not exist.</p>
-  </div>
-);
-
-// Supported language codes
-const supportedLangs = languages.map((l: { code: string }) => l.code.split('-')[0]);
-const defaultLang = 'en';
-
-// Layout with header/footer/widgets
-const MainLayout: React.FC = () => (
-  <>
-    <Header />
-    <main>
-      <Outlet />
-    </main>
-    <Footer />
-    <FloatingWidgets />
-  </>
-);
-
-// Language validation and context sync wrapper - 移除重定向，只验证
-const LanguageGuard: React.FC = () => {
-  const { lang } = useParams<{ lang: string }>();
-  const { setLanguage, currentLanguage } = useLanguage();
-
-  // Validate language param - 移除自动重定向
-  if (!lang || !supportedLangs.includes(lang)) {
-    return <NotFound />; // 显示404而不是重定向
-  }
-
-  // Sync context with URL - 保持语言同步但不触发重定向
+  // 移除自动IP检测和重定向功能，只保留默认设置
   useEffect(() => {
-    if (lang && lang !== currentLanguage) {
-      setLanguage(lang);
+    if (!currentLanguage || !currentCountry) {
+      // 静态设置默认语言，不触发任何重定向
+      setLanguage('en', 'global');
     }
-  }, [lang, currentLanguage, setLanguage]);
+  }, [currentLanguage, currentCountry, setLanguage]);
 
-  return <Outlet />;
+  /* ---------------- 语言切换下拉 ---------------- */
+  const currentValue = `${currentLanguage || 'en'}-${currentCountry || 'global'}`;
+
+  const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const selectedCode = e.target.value;
+    const [langCode, countryCode] = selectedCode.split('-');
+    setLanguage(langCode, countryCode);
+
+    // 英文跳转到无前缀页面，其它语言带前缀
+    let newPath = location.pathname;
+    const pathSegments = newPath.split('/');
+    if (pathSegments.length > 1 && languages.some(l => l.code.startsWith(pathSegments[1]))) {
+      // 当前有语言前缀，去掉
+      pathSegments.splice(1, 1);
+      newPath = pathSegments.join('/') || '/';
+    }
+    if (langCode !== 'en') {
+      // 非英文加前缀
+      if (!newPath.startsWith('/')) newPath = '/' + newPath;
+      newPath = `/${langCode}${newPath}`;
+    }
+    navigate(`${newPath}${location.search}`);
+  };
+
+  return (
+    <div className="relative inline-block">
+      <select
+        value={currentValue}
+        onChange={handleLanguageChange}
+        className="appearance-none bg-white border border-gray-300 rounded-md pl-4 pr-10 py-2 text-sm font-medium text-gray-700 hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-ishine-blue-500 focus:border-transparent cursor-pointer min-w-[140px]"
+      >
+        {languages.map((option: Language) => (
+          <option key={option.code} value={option.code}>
+            {option.flag} {option.nativeName || option.name}
+          </option>
+        ))}
+      </select>
+      <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500 pointer-events-none" />
+    </div>
+  );
 };
 
-// 移除自动重定向组件，直接渲染Home页面
-const HomeWithLanguageSetup: React.FC = () => {
-  const { setLanguage } = useLanguage();
-  
-  // 静态设置英文语言，不触发重定向
-  useEffect(() => {
-    setLanguage('en');
-  }, [setLanguage]);
-
-  return <Home />;
-};
-
-const App: React.FC = () => (
-  <HelmetProvider>
-    <BrowserRouter>
-      <LanguageProvider>
-        <Routes>
-          {/* 英文主页 - 无重定向 */}
-          <Route path="/" element={<MainLayout />}>
-            <Route index element={<HomeWithLanguageSetup />} />
-          </Route>
-
-          {/* 英文无前缀路由 */}
-          <Route element={<MainLayout />}>
-            <Route path="solutions" element={<Solutions />} />
-            <Route path="service-support" element={<ServiceSupport />} />
-            <Route path="ipl-hair-removal" element={<IPLHairRemoval />} />
-            <Route path="ipl-hair-removal/smart-app" element={<SmartAppIPL />} />
-            <Route path="ipl-hair-removal/ice-feeling" element={<IceFeelingIPL />} />
-            <Route path="ipl-hair-removal/emerald" element={<EmeraldIPL />} />
-            <Route path="ipl-hair-removal/skin-sensor" element={<SkinSensorIPL />} />
-            <Route path="ipl-hair-removal/battery-powered" element={<BatteryPoweredIPL />} />
-            <Route path="ipl-hair-removal/handheld" element={<HandheldIPL />} />
-            <Route path="ipl-hair-removal/ice-cooling" element={<IceCoolingIPL />} />
-            <Route path="ipl-hair-removal/dual-lamp" element={<DualLampIPLDevice />} />
-            <Route path="ipl-hair-removal/ai-powered" element={<AIPoweredIPL />} />
-            <Route path="how-to-use" element={<HowToUse />} />
-            <Route path="about" element={<About />} />
-            <Route path="about/founder-message" element={<FounderMessage />} />
-            <Route path="about/technology" element={<Technology />} />
-            <Route path="about/global-witness" element={<GlobalWitness />} />
-            <Route path="about/core-principles" element={<CorePrinciples />} />
-            <Route path="about/company" element={<CompanyInfo />} />
-            <Route path="about/brand-story" element={<BrandStory />} />
-            <Route path="about/quality" element={<Quality />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="solutions/logo-printing" element={<LogoPrinting />} />
-            <Route path="solutions/packaging" element={<PackagingSolutions />} />
-            <Route path="solutions/drop-shipping" element={<DropShipping />} />
-            <Route path="solutions/global-shipping" element={<GlobalShipping />} />
-            <Route path="solutions/brand-customization" element={<BrandCustomization />} />
-            <Route path="solutions/compliance" element={<Compliance />} />
-            <Route path="solutions/design-prototyping" element={<DesignPrototyping />} />
-            <Route path="solutions/multi-head-ipl" element={<MultiHeadIPL />} />
-            <Route path="solutions/dual-lamp-ipl" element={<DualLampIPL />} />
-            <Route path="accessories/sapphire-lens" element={<SapphireLens />} />
-            <Route path="accessories/adapter" element={<Adapter />} />
-            <Route path="accessories/goggles" element={<ProtectiveGoggles />} />
-            <Route path="accessories/filter" element={<Filter />} />
-            <Route path="service-support/after-sales" element={<AfterSalesService />} />
-            <Route path="service-support/win-fda-listing" element={<WinFDAListing />} />
-            <Route path="service-support/manufacturing" element={<IPLManufacturing />} />
-            <Route path="service-support/knowledge-base" element={<KnowledgeBase />} />
-            <Route path="service-support/beauty-sourcing" element={<BeautySourcing />} />
-            <Route path="service-support/pricing-guide" element={<PricingGuide />} />
-            <Route path="service-support/help-center" element={<HelpCenter />} />
-            <Route path="service-support/gallery" element={<Gallery />} />
-            <Route path="service-support/videos" element={<Videos />} />
-            <Route path="blog/news-insights" element={<NewsInsights />} />
-            <Route path="blog/industries" element={<Industries />} />
-            <Route path="blog/ipl-best-choice" element={<IPLBestChoice />} />
-            <Route path="blog/future-home-hair-removal-devices" element={<FutureHomeHairRemoval />} />
-            <Route path="blog/fda-510k-pathway" element={<FDA510kPathway />} />
-            <Route path="blog/multi-head-ipl-systems" element={<MultiHeadIPLSystems />} />
-            <Route path="blog/ai-powered-skin-sensing" element={<AIPoweredSkinSensing />} />
-            <Route path="blog/global-market-shifts" element={<GlobalMarketShifts />} />
-            <Route path="blog/sustainable-manufacturing" element={<SustainableManufacturing />} />
-            <Route path="iplmanufacturer/:countryCode" element={<CountryPage />} />
-            <Route path="sitemap" element={<Sitemap />} />
-            <Route path="shipping-cost" element={<ShippingCostPage />} />
-          </Route>
-
-          {/* 非英文带前缀路由 */}
-          <Route path=":lang" element={<LanguageGuard />}>
-            <Route element={<MainLayout />}>
-              <Route index element={<Home />} />
-              <Route path="solutions" element={<Solutions />} />
-              <Route path="service-support" element={<ServiceSupport />} />
-              <Route path="ipl-hair-removal" element={<IPLHairRemoval />} />
-              <Route path="ipl-hair-removal/smart-app" element={<SmartAppIPL />} />
-              <Route path="ipl-hair-removal/ice-feeling" element={<IceFeelingIPL />} />
-              <Route path="ipl-hair-removal/emerald" element={<EmeraldIPL />} />
-              <Route path="ipl-hair-removal/skin-sensor" element={<SkinSensorIPL />} />
-              <Route path="ipl-hair-removal/battery-powered" element={<BatteryPoweredIPL />} />
-              <Route path="ipl-hair-removal/handheld" element={<HandheldIPL />} />
-              <Route path="ipl-hair-removal/ice-cooling" element={<IceCoolingIPL />} />
-              <Route path="ipl-hair-removal/dual-lamp" element={<DualLampIPLDevice />} />
-              <Route path="ipl-hair-removal/ai-powered" element={<AIPoweredIPL />} />
-              <Route path="how-to-use" element={<HowToUse />} />
-              <Route path="about" element={<About />} />
-              <Route path="about/founder-message" element={<FounderMessage />} />
-              <Route path="about/technology" element={<Technology />} />
-              <Route path="about/global-witness" element={<GlobalWitness />} />
-              <Route path="about/core-principles" element={<CorePrinciples />} />
-              <Route path="about/company" element={<CompanyInfo />} />
-              <Route path="about/brand-story" element={<BrandStory />} />
-              <Route path="about/quality" element={<Quality />} />
-              <Route path="contact" element={<Contact />} />
-              <Route path="solutions/logo-printing" element={<LogoPrinting />} />
-              <Route path="solutions/packaging" element={<PackagingSolutions />} />
-              <Route path="solutions/drop-shipping" element={<DropShipping />} />
-              <Route path="solutions/global-shipping" element={<GlobalShipping />} />
-              <Route path="solutions/brand-customization" element={<BrandCustomization />} />
-              <Route path="solutions/compliance" element={<Compliance />} />
-              <Route path="solutions/design-prototyping" element={<DesignPrototyping />} />
-              <Route path="solutions/multi-head-ipl" element={<MultiHeadIPL />} />
-              <Route path="solutions/dual-lamp-ipl" element={<DualLampIPL />} />
-              <Route path="accessories/sapphire-lens" element={<SapphireLens />} />
-              <Route path="accessories/adapter" element={<Adapter />} />
-              <Route path="accessories/goggles" element={<ProtectiveGoggles />} />
-              <Route path="accessories/filter" element={<Filter />} />
-              <Route path="service-support/after-sales" element={<AfterSalesService />} />
-              <Route path="service-support/win-fda-listing" element={<WinFDAListing />} />
-              <Route path="service-support/manufacturing" element={<IPLManufacturing />} />
-              <Route path="service-support/knowledge-base" element={<KnowledgeBase />} />
-              <Route path="service-support/beauty-sourcing" element={<BeautySourcing />} />
-              <Route path="service-support/pricing-guide" element={<PricingGuide />} />
-              <Route path="service-support/help-center" element={<HelpCenter />} />
-              <Route path="service-support/gallery" element={<Gallery />} />
-              <Route path="service-support/videos" element={<Videos />} />
-              <Route path="blog/news-insights" element={<NewsInsights />} />
-              <Route path="blog/industries" element={<Industries />} />
-              <Route path="blog/ipl-best-choice" element={<IPLBestChoice />} />
-              <Route path="blog/future-home-hair-removal-devices" element={<FutureHomeHairRemoval />} />
-              <Route path="blog/fda-510k-pathway" element={<FDA510kPathway />} />
-              <Route path="blog/multi-head-ipl-systems" element={<MultiHeadIPLSystems />} />
-              <Route path="blog/ai-powered-skin-sensing" element={<AIPoweredSkinSensing />} />
-              <Route path="blog/global-market-shifts" element={<GlobalMarketShifts />} />
-              <Route path="blog/sustainable-manufacturing" element={<SustainableManufacturing />} />
-              <Route path="iplmanufacturer/:countryCode" element={<CountryPage />} />
-              <Route path="sitemap" element={<Sitemap />} />
-              <Route path="shipping-cost" element={<ShippingCostPage />} />
-            </Route>
-          </Route>
-
-          {/* 移除 /en/* 重定向，改为静态路由 */}
-          <Route path="en" element={<MainLayout />}>
-            <Route index element={<Home />} />
-            <Route path="*" element={<NotFound />} />
-          </Route>
-
-          {/* 404 */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </LanguageProvider>
-    </BrowserRouter>
-  </HelmetProvider>
-);
-
-export default App;
+export default LanguageSelector;
