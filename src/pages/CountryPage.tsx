@@ -246,7 +246,7 @@ const CountryPage: React.FC = () => {
       hreflang.rel = 'alternate';
       hreflang.hreflang = lang;
       // 使用静态URL，不会触发重定向
-      hreflang.href = `https://ishine-ipl.com/iplmanufacturer/${country}`;
+      hreflang.href = `https://iplmanufacturer.com/iplmanufacturer/${country}`;
       document.head.appendChild(hreflang);
     });
   };
