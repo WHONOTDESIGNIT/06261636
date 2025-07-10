@@ -1,39 +1,39 @@
 {
   "meta": {
-    "title": "iShine - IPL seadmete tootmislahendused | Ideest turuni",
-    "description": "Juhtiv IPL seadmete tootja, mis pakub täielikke OEM/ODM lahendusi ideest turuni. Kohandatud IPL karvaeemaldusseadmed globaalsetele ilubrändidle.",
-    "keywords": "IPL seadmed, OEM tootmine, ODM lahendused, karvaeemaldus, iluseadmed, kohandatud tootmine"
+    "title": "iShine - IPL-seadmete tootmislahendused | Ideest turuni",
+    "description": "Juhtiv IPL-seadmete tootja, pakkudes põhjalikke OEM/ODM lahendusi ideest turuni. Kohandatud IPL-karvaeemaldamise seadmed globaalsetele ilubrandidele.",
+    "keywords": "IPL-seadmed, OEM-tootmine, ODM-lahendused, karvaeemaldamine, ilususeadmed, kohandatud tootmine"
   },
   "header": {
     "navigation": {
       "solutions": "Lahendused",
-      "iplHairRemoval": "IPL karvaeemaldus",
+      "iplHairRemoval": "IPL-karvaeemaldamine",
       "howToUse": "Kuidas kasutada",
-      "serviceSupport": "Teenus ja tugi",
+      "serviceSupport": "Teenindus ja tugi",
       "about": "Meist",
       "contact": "Kontakt"
     },
     "solutions": {
-      "logoPrinting": "Logo trükkimine",
+      "logoPrinting": "Logo printimine",
       "packaging": "Pakendilahendused",
-      "dropShipping": "Drop shipping",
-      "globalShipping": "Globaalne transport",
-      "brandCustomization": "Brändi kohandamine",
+      "dropShipping": "Dropshipping",
+      "globalShipping": "Ülemaailmne saatmine",
+      "brandCustomization": "Brändikohastamine",
       "compliance": "Vastavus ja sertifikaadid",
       "designPrototyping": "Disain ja prototüüpimine",
       "multiHeadIPL": "Mitmepealine IPL kohandatud",
-      "dualLampIPL": "Kahepealine IPL kohandatud"
+      "dualLampIPL": "Topeltlambiga IPL kohandatud"
     },
     "iplDevices": {
-      "smartApp": "Nutitelefoni rakendusega juhitav IPL seade",
-      "iceFeeling": "Jäätunne IPL seade",
-      "emerald": "Smaragd IPL seade",
-      "skinSensor": "Nahaseadur IPL seade",
-      "batteryPowered": "Patareiga töötav IPL seade",
-      "handheld": "Käes hoitav IPL seade",
-      "iceCooling": "Jääjahutusega IPL seade",
-      "dualLamp": "Kahepealine IPL seade",
-      "aiPowered": "AI-toega IPL seade"
+      "smartApp": "Nutirakendusega juhitav IPL-seade",
+      "iceFeeling": "Jäätunne IPL-seade",
+      "emerald": "Smaragd IPL-seade",
+      "skinSensor": "IPL-seade nahkanduriga",
+      "batteryPowered": "Patareiga töötav IPL-seade",
+      "handheld": "Käeshoitav IPL-seade",
+      "iceCooling": "Jääjahutusega IPL-seade",
+      "dualLamp": "Topeltlambiga IPL-seade",
+      "aiPowered": "AI-toega IPL-seade"
     },
     "accessories": {
       "sapphireLens": "Safiir lääts",
@@ -105,15 +105,15 @@
       "telValue": "+86-15900283962",
       "whatsappValue": "+86-15012891148",
       "emailValue": "service@ishineco.com",
-      "addressValue": "208 Room, 4 Building, No.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, China, 518071"
+      "addressValue": "Ruum 208, Hoone 4, Nr.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, Hiina, 518071"
     }
   },
   "home": {
     "hero": {
-      "title1": "Kohandatud IPL seadmed",
-      "title2": "ja brändi IPL seadmed",
-      "subtitle": "Globaalne juhtiv IPL seadmete tootja, aitame teil seda disainida, ehitada ja pakkida.",
-      "cta": "Hangi pakkumine"
+      "title1": "Kohandatud IPL-seadmed",
+      "title2": "ja brändi IPL-seadmed",
+      "subtitle": "Ülemaailmselt juhtiv IPL-seadmete tootja, aitame teil disainida, ehitada ja pakkida.",
+      "cta": "Saada hinnapakkumine"
     },
     "partners": {
       "title": "Usaldatud globaalsete brändide poolt",
@@ -164,13 +164,13 @@
       "subtitle": "Asub Shenzheni tootmispiirkonna südames"
     },
     "form": {
-      "title": "Mis teil meeles on? Rääkigem!",
-      "subtitle": "Täitke see vorm protsessi alustamiseks. Võtame teiega ühendust 24 tunni jooksul.",
+      "title": "Mis sul meeles on? Rääkigem!",
+      "subtitle": "Täida see vorm protsessi käivitamiseks. Võtame ühendust 24 tunni jooksul.",
       "name": "Nimi*",
       "email": "E-posti aadress*",
-      "phone": "Telefoninumber* nt (+1-541-3456-3001)",
+      "phone": "Telefoninumber* nt (+372-123-4567)",
       "country": "Riik",
-      "message": "Kirjeldage oma vajadusi siin*",
+      "message": "Kirjelda oma vajadusi siin*",
       "submit": "Saada",
       "sending": "Saatmine..."
     },
@@ -385,8 +385,8 @@
       }
     },
     "iceCooling": {
-      "title": "Jääjahutusega IPL karvaeemalduse seade",
-      "desc": "Kogege professionaalse taseme luksuslikku jääjahutuse karvaeemalduse tehnoloogiat, mis sisaldab kosmosekvaliteedi jahutava metallplaadi, mis jahutab naha koheselt 5°C ultra-madalale temperatuurile. Kombineerituna 2,0~5,0 J/cm² kõrgenergia IPL impulssidega ja üle 999 000 välguga, pakub see jumalannade-taoline silkse naha kogemust. Luksuslik disain on loodud täiust otsivate kaasaegsete naiste jaoks.",
+      "title": "IPL-karvaeemaldamise seade jääjahutusega",
+      "desc": "Koge luksuslikku professionaalset jääjahutusega karvaeemaldamise tehnoloogiat, mis on varustatud kosmoseklassi jahutava metallplaadiga, mis jahutab nahka koheselt ülimadalale temperatuurile 5°C.",
       "features": {
         "luxuryDesign": "Luksuslik jumalanna disain — Kosmosekvaliteedi metalli tekstuur, näitades väärikat maitset.",
         "coolingPlate": "Jääjahutuse plaadi tehnoloogia — Jahutab naha koheselt 5°C-ni tõeliselt valutule kogemusele.",
@@ -396,8 +396,8 @@
       }
     },
     "iceFeeling": {
-      "title": "Safiir jäätunne IPL seade",
-      "desc": "Nautige valutut karvaeemaldust kliinilise taseme Safiir jahutusplaadiga, mis jahutab naha 5°C-ni, võimaldades kõrgemaid energia impulsse kiiremate tulemuste jaoks. Integreeritud intensiivse valgusimpulsi (IPL) mootor annab 2,0~5,0 J/cm² energiat 999 999 välguga eluaegseks kasutamiseks.",
+      "title": "Safiirist jäätunne IPL-seade",
+      "desc": "Naudi valuvabu karvaeemaldamist kliinilise safiirist jahutusplaadiga, mis jahutab nahka 5°C-ni, võimaldades kõrgemaid energiaimpulsse kiiremate tulemuste saamiseks.",
       "features": {
         "longSmooth": "Pikakestev siledus — nähtav vähenemine pärast 3-4 nädalat.",
         "cooling": "Jahutusplaat hoiab nahaülas 5°C juures tõeliselt valutute ravide jaoks.",
@@ -407,8 +407,8 @@
       }
     },
     "skinSensor": {
-      "title": "Nahaseadur IPL seade",
-      "desc": "Kogege turvalimat ja intelligentsemat kodust karvaeemaldust meie Nahaseadur IPL seadmega. See revolutsiooniline seade sisaldab kõrgtasemel optilisi nahaandureid, mis tuvastavad automaatselt teie nahatooni ja karva värvi – andes personaliseeritud ravi intensiivsuse maksimaalse tõhususe ja täieliku ohutuse jaoks. Reaalajas naha analüüsi ja automaatse energia reguleerimisega on see seade täiuslik kõigile sobivatel nahatüüpidele ja tagab optimaalsed tulemused iga kord.",
+      "title": "IPL-seade nahkanduriga",
+      "desc": "Koge kõige turvalisemat ja nutikaimat kodust karvaeemaldamist meie nahkanduriga IPL-seadmega. See revolutsiooniline seade on varustatud arenenud optiliste nahkanduritega, mis tuvastab automaatselt teie nahatoon ja karva värvi.",
       "features": {
         "intelligentDetection": "Intelligentne naha tuvastamine – Kõrgtasemel andurid tuvastavad automaatselt nahatooni ja reguleerivad energiatasemeid",
         "maxSafety": "Maksimaalne ohutus – Takistab üleravi ja vähendab nahaarrituse või põletuste riski",
@@ -418,8 +418,8 @@
       }
     },
     "smartApp": {
-      "title": "Nutika rakendusega IPL karvaeemalduse seade",
-      "desc": "Ühendage sujuvalt oma IPL seade Bluetooth'i kaudu meie SmartApp'iga. Nautige juhendatud ravi, reaalajas seansi jälgimist, personaliseeritud rutiine ja AI-toega ülevaateid. Kontrollige intensiivsuse tasemeid, jälgige edu ja saage meeldetuletusi—kõik oma nutitelefonist.",
+      "title": "Nutirakendusega IPL-karvaeemaldamise seade",
+      "desc": "Ühenda oma IPL-seade lihtsalt Bluetoothi kaudu meie nutirakendusega. Naudi juhendatud töötlusi, reaalajas seansi jälgimist, isikupärastatud rutiine ja AI-toega teadmisi.",
       "features": {
         "bluetooth": "Bluetooth 5.0 ühenduvus stabiilse sidumise jaoks",
         "aiPlans": "Personaliseeritud ravi plaanid AI analüüsi kaudu",
@@ -432,24 +432,24 @@
   "faq": {
     "title": "Korduma kippuvad küsimused",
     "shipping": {
-      "q": "Kas saate saata maailma laajuiselt?",
-      "a": "Absoluutselt. Pakume usaldusväärset maailma laajust transporti, et toetada teie äri, kus iganes te olete."
+      "q": "Kas saate saata üle maailma?",
+      "a": "Kindlasti. Pakume usaldusväärset ülemaailmset saatmist teie äri toetamiseks kõikjal, kus te olete."
     },
     "customization": {
-      "q": "Kas ma saan kohandada seadme funktsioone?",
-      "a": "Jah, pakume täielikku funktsioonide, värvide, pakendi ja muude omaduste kohandamist, et sobida teie brändi vajadustega."
+      "q": "Kas saan kohandada seadme funktsioone?",
+      "a": "Jah, pakume täielikku funktsioonide, värvide, pakendite ja muude kohandamist teie brändi vajaduste rahuldamiseks."
     },
     "certifications": {
-      "q": "Milliseid sertifikaate te toetate?",
-      "a": "Toetame FDA, CE, RoHS ja teisi globaalseid sertifikaate, et tagada vastavus teie sihtmarketail."
+      "q": "Milliseid sertifikaate toetate?",
+      "a": "Toetame FDA, CE, RoHS ja teisi ülemaailmseid sertifikaate vastavuse tagamiseks teie sihtturgudel."
     },
     "leadTime": {
-      "q": "Kui pikk on tootmise tähtaeg?",
-      "a": "Tüüpiline tähtaeg on 25-35 päeva pärast proovi kinnitamist, sõltuvalt tellimuse suurusest ja kohandamisest."
+      "q": "Milline on tootmise täitmisaeg?",
+      "a": "Tüüpiline täitmisaeg on 25-35 päeva pärast proovi heakskiitu, sõltuvalt tellimuse suurusest ja kohandamisest."
     },
     "afterSales": {
       "q": "Kas pakute müügijärgset tuge?",
-      "a": "Jah, pakume põhjalikku müügijärgset teenust, sealhulgas tehnilist tuge ja garantiid."
+      "a": "Jah, pakume põhjalikku müügijärgset tuge, sealhulgas tehnilist tuge ja garantiid."
     }
   },
   "cta": {
@@ -473,7 +473,7 @@
   "blog": {
     "posts": {
       "sustainableManufacturing": {
-        "title": "Jätkusuutlik tootmine: Rohelised IPL tootmismeetodid",
+        "title": "Jätkusuutlik tootmine: Rohelised IPL-tootmismeetodid",
         "intro": "Kuna kodus kasutatavate IPL (intensiivse valgusimpulsi) karvaeemalduse seadmete nõudlus suureneb, suureneb ka vastutus toota need elektronikaseadmed minimaalse keskkonnamõjuga. Jätkusuutlik tootmine ei ole enam trend, vaid vajadus—hõlmates iga etappi toorainete hankimisest kuni elutsükli lõpu ümbertöötlemiseni. See artikkel hindab IPL seadmete tootmise keskkonnajalajälge ja uurib innovaatilisi, praktilisi strateegiaid tõeliselt rohelise tarneahela saavutamiseks, keskendudes elektroonikale, optikale, keskkonnasõbralikele ABS korpustele, jätkusuutlikule pakendile ja jäätmete taaskasutamisele.",
         "sections": {
           "environmentalImpact": "IPL seadmete tootmise keskkonnamõju hindamine",
@@ -489,7 +489,7 @@
         }
       },
       "globalMarketShifts": {
-        "title": "Globaalsed turumuutused: IPL seadmete trendid ja võimalused",
+        "title": "Globaalsed turumuutused: IPL-seadmete suundumused ja võimalused",
         "intro": "Uurige uusimaid globaalseid trende IPL seadmete omaksvõtus, regulatiivseid muutusi ja turuvõimalusi brändidele ja tootjatele.",
         "sections": {
           "marketOverview": "Turu ülevaade",
@@ -502,7 +502,7 @@
         }
       },
       "aiPoweredSkinSensing": {
-        "title": "AI-toega nahaseadur: IPL ohutuse järgmine piir",
+        "title": "AI-toega nahatuvastus: Järgmine piir IPL-ohutuses",
         "intro": "Kuidas tehisintellekt revolutsioneerib IPL seadmete ohutust ja personaliseerimist reaalajas naha analüüsi kaudu.",
         "sections": {
           "introduction": "Sissejuhatus",
@@ -515,7 +515,7 @@
         }
       },
       "multiHeadIPLSystems": {
-        "title": "Mitmepealised IPL süsteemid: Täpsus kohtub täiskeha tõhususega",
+        "title": "Mitmepealised IPL-süsteemid: Täpsus kohtub täiskeha tõhususega",
         "intro": "Kodus karvaeemalduse evolutsiooni on sügavalt mõjutanud mitmepealiste intensiivse valgusimpulsi (IPL) süsteemide kasutuselevõtt. Philips oli selle trendi pioneering oma vahetatavate päädega tehnoloogiaga, seades uue standardi mitmekülgsuse ja kasutajakeskse disaini jaoks koduselt kasutatavates IPL seadmetes.",
         "sections": {
           "philipsLegacy": "Philipsi pärand: Mitmepealise IPL standardi seadmine",
@@ -529,7 +529,7 @@
         }
       },
       "sapphireCooling": {
-        "title": "Safiir jahutus: Mugavuse suurendamine IPL ravides",
+        "title": "Safiirijahutus: Mugavuse parandamine IPL-töötlustes",
         "intro": "Avastage, kuidas safiir jahutuse tehnoloogia muudab IPL karvaeemalduse ravide mugavust ja ohutust.",
         "sections": {
           "technologyOverview": "Tehnoloogia ülevaade",
@@ -542,7 +542,7 @@
         }
       },
       "industries": {
-        "title": "Valdkonnad, mida teenindame: IPL rakendused erinevates sektorites",
+        "title": "Tööstusharud, mida teenindame: IPL-rakendused sektorite lõikes",
         "intro": "IPL tehnoloogia ei ole mitte ainult ilu jaoks—uurige selle rakendusi meditsiini-, veterinaar- ja tööstussektorites.",
         "sections": {
           "beauty": "Ilutööstus",
@@ -554,7 +554,7 @@
         }
       },
       "iplBestChoice": {
-        "title": "Miks IPL kodu karvaeemalduse seadmed on parim valik kõigi karvaeemalduse vahendite seas",
+        "title": "Miks kodu IPL-karvaeemaldamise seadmed on parim valik kõigi karvaeemaldamise tööriistade seas",
         "intro": "Avastage, miks IPL on kõige tõhusam, mugavam ja mugavam lahendus pikaajalise karvaeemalduse jaoks kodus—toetatud teaduse ja tegelike kasutajate kogemustega.",
         "sections": {
           "comparison": "Karvaeemalduse meetodite võrdlus",
@@ -566,7 +566,7 @@
         }
       },
       "futureHomeHairRemoval": {
-        "title": "Kodu karvaeemalduse seadmete tulevik: Trendid, innovatsioonid ja mis tuleb järgmisena",
+        "title": "Kodu karvaeemaldamise seadmete tulevik: Suundumused, innovatsioonid ja mis järgneb",
         "intro": "Uurige evolutsiooni, praeguseid läbimurdeid ja järgmise põlvkonna kodu karvaeemalduse seadmeid—AI, mitmefunktsionaalsus ja jätkusuutlik disain 2025. aastaks ja edasi.",
         "sections": {
           "evolution": "Kodu karvaeemalduse tehnoloogia evolutsioon",
@@ -580,7 +580,7 @@
         }
       },
       "fda510kPathway": {
-        "title": "FDA 510(k) tee: Meditsiiniseadmete klassifikatsiooni navigeerimine IPL jaoks",
+        "title": "FDA 510(k) tee: Meditsiiniseadmete klassifikatsiooni navigeerimine IPL-i jaoks",
         "intro": "Põhjalik juhend FDA 510(k) teele kodus kasutatavate IPL karvaeemalduse seadmete jaoks. Õppige regulatiivseid nõudeid, turundusväiteid ja seda, kuidas iShine aitab brändidel saavutada vastavust.",
         "sections": {
           "introduction": "Sissejuhatus",
@@ -596,5 +596,9 @@
         }
       }
     }
+  },
+  "floating": {
+    "contact": "Võta meiega ühendust",
+    "backToTop": "Tagasi üles"
   }
 }
