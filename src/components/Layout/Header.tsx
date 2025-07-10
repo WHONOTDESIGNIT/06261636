@@ -14,107 +14,107 @@ const Header: React.FC = () => {
   const navigation = [
     {
       name: t('header.nav.solutions', 'Solutions'),
-      href: `/${currentLanguage}/solutions`,
+      href: currentLanguage === 'en' ? '/solutions' : `/${currentLanguage}/solutions`,
       hasDropdown: true,
       items: [
-        { name: t('header.nav.logoPrinting', 'Logo Printing'), href: `/${currentLanguage}/solutions/logo-printing`, icon: '🖨️' },
-        { name: t('header.nav.packaging', 'Packaging Solutions'), href: `/${currentLanguage}/solutions/packaging`, icon: '📦' },
-        { name: t('header.nav.dropShipping', 'Drop Shipping'), href: `/${currentLanguage}/solutions/drop-shipping`, icon: '🚚' },
-        { name: t('header.nav.globalShipping', 'Global Shipping'), href: `/${currentLanguage}/solutions/global-shipping`, icon: '🌍' },
-        { name: t('header.nav.brandCustomization', 'Brand Customization'), href: `/${currentLanguage}/solutions/brand-customization`, icon: '🎨' },
-        { name: t('header.nav.compliance', 'Compliance & Certifications'), href: `/${currentLanguage}/solutions/compliance`, icon: '✅' },
-        { name: t('header.nav.designPrototyping', 'Design & Prototyping'), href: `/${currentLanguage}/solutions/design-prototyping`, icon: '⚙️' },
-        { name: t('header.nav.multiHeadIPL', 'Multi-head IPL Custom'), href: `/${currentLanguage}/solutions/multi-head-ipl`, icon: '🔬' },
-        { name: t('header.nav.dualLampIPL', 'Dual-lamp IPL Custom'), href: `/${currentLanguage}/solutions/dual-lamp-ipl`, icon: '💡' }
+        { name: t('header.nav.logoPrinting', 'Logo Printing'), href: currentLanguage === 'en' ? '/solutions/logo-printing' : `/${currentLanguage}/solutions/logo-printing`, icon: '🖨️' },
+        { name: t('header.nav.packaging', 'Packaging Solutions'), href: currentLanguage === 'en' ? '/solutions/packaging' : `/${currentLanguage}/solutions/packaging`, icon: '📦' },
+        { name: t('header.nav.dropShipping', 'Drop Shipping'), href: currentLanguage === 'en' ? '/solutions/drop-shipping' : `/${currentLanguage}/solutions/drop-shipping`, icon: '🚚' },
+        { name: t('header.nav.globalShipping', 'Global Shipping'), href: currentLanguage === 'en' ? '/solutions/global-shipping' : `/${currentLanguage}/solutions/global-shipping`, icon: '🌍' },
+        { name: t('header.nav.brandCustomization', 'Brand Customization'), href: currentLanguage === 'en' ? '/solutions/brand-customization' : `/${currentLanguage}/solutions/brand-customization`, icon: '🎨' },
+        { name: t('header.nav.compliance', 'Compliance & Certifications'), href: currentLanguage === 'en' ? '/solutions/compliance' : `/${currentLanguage}/solutions/compliance`, icon: '✅' },
+        { name: t('header.nav.designPrototyping', 'Design & Prototyping'), href: currentLanguage === 'en' ? '/solutions/design-prototyping' : `/${currentLanguage}/solutions/design-prototyping`, icon: '⚙️' },
+        { name: t('header.nav.multiHeadIPL', 'Multi-head IPL Custom'), href: currentLanguage === 'en' ? '/solutions/multi-head-ipl' : `/${currentLanguage}/solutions/multi-head-ipl`, icon: '🔬' },
+        { name: t('header.nav.dualLampIPL', 'Dual-lamp IPL Custom'), href: currentLanguage === 'en' ? '/solutions/dual-lamp-ipl' : `/${currentLanguage}/solutions/dual-lamp-ipl`, icon: '💡' }
       ]
     },
     {
       name: t('header.nav.iplHairRemoval', 'IPL Hair Removal'),
-      href: `/${currentLanguage}/ipl-hair-removal`,
+      href: currentLanguage === 'en' ? '/ipl-hair-removal' : `/${currentLanguage}/ipl-hair-removal`,
       hasDropdown: true,
       items: [
         {
           name: t('header.nav.iplDevices', 'IPL Devices'),
           isCategory: true,
           items: [
-            { name: t('header.nav.smartAppIPL', 'Smart App-Controlled IPL Device'), href: `/${currentLanguage}/ipl-hair-removal/smart-app`, thumbnail: true },
-            { name: t('header.nav.iceFeelingIPL', 'Ice Feeling IPL Device'), href: `/${currentLanguage}/ipl-hair-removal/ice-feeling`, thumbnail: true },
-            { name: t('header.nav.emeraldIPL', 'Emerald IPL Device'), href: `/${currentLanguage}/ipl-hair-removal/emerald`, thumbnail: true },
-            { name: t('header.nav.skinSensorIPL', 'Skin Sensor IPL Device'), href: `/${currentLanguage}/ipl-hair-removal/skin-sensor`, thumbnail: true },
-            { name: t('header.nav.batteryPoweredIPL', 'Battery Powered IPL Device'), href: `/${currentLanguage}/ipl-hair-removal/battery-powered`, thumbnail: true },
-            { name: t('header.nav.handheldIPL', 'Handheld IPL Device'), href: `/${currentLanguage}/ipl-hair-removal/handheld`, thumbnail: true },
-            { name: t('header.nav.iceCoolingIPL', 'Ice Cooling IPL Device'), href: `/${currentLanguage}/ipl-hair-removal/ice-cooling`, thumbnail: true },
-            { name: t('header.nav.dualLampIPLDevice', 'Dual-Lamp IPL Device'), href: `/${currentLanguage}/ipl-hair-removal/dual-lamp`, thumbnail: true },
-            { name: t('header.nav.aiPoweredIPL', 'AI-POWERED IPL Device'), href: `/${currentLanguage}/ipl-hair-removal/ai-powered`, thumbnail: true }
+            { name: t('header.nav.smartAppIPL', 'Smart App-Controlled IPL Device'), href: currentLanguage === 'en' ? '/ipl-hair-removal/smart-app' : `/${currentLanguage}/ipl-hair-removal/smart-app`, thumbnail: true },
+            { name: t('header.nav.iceFeelingIPL', 'Ice Feeling IPL Device'), href: currentLanguage === 'en' ? '/ipl-hair-removal/ice-feeling' : `/${currentLanguage}/ipl-hair-removal/ice-feeling`, thumbnail: true },
+            { name: t('header.nav.emeraldIPL', 'Emerald IPL Device'), href: currentLanguage === 'en' ? '/ipl-hair-removal/emerald' : `/${currentLanguage}/ipl-hair-removal/emerald`, thumbnail: true },
+            { name: t('header.nav.skinSensorIPL', 'Skin Sensor IPL Device'), href: currentLanguage === 'en' ? '/ipl-hair-removal/skin-sensor' : `/${currentLanguage}/ipl-hair-removal/skin-sensor`, thumbnail: true },
+            { name: t('header.nav.batteryPoweredIPL', 'Battery Powered IPL Device'), href: currentLanguage === 'en' ? '/ipl-hair-removal/battery-powered' : `/${currentLanguage}/ipl-hair-removal/battery-powered`, thumbnail: true },
+            { name: t('header.nav.handheldIPL', 'Handheld IPL Device'), href: currentLanguage === 'en' ? '/ipl-hair-removal/handheld' : `/${currentLanguage}/ipl-hair-removal/handheld`, thumbnail: true },
+            { name: t('header.nav.iceCoolingIPL', 'Ice Cooling IPL Device'), href: currentLanguage === 'en' ? '/ipl-hair-removal/ice-cooling' : `/${currentLanguage}/ipl-hair-removal/ice-cooling`, thumbnail: true },
+            { name: t('header.nav.dualLampIPLDevice', 'Dual-Lamp IPL Device'), href: currentLanguage === 'en' ? '/ipl-hair-removal/dual-lamp' : `/${currentLanguage}/ipl-hair-removal/dual-lamp`, thumbnail: true },
+            { name: t('header.nav.aiPoweredIPL', 'AI-POWERED IPL Device'), href: currentLanguage === 'en' ? '/ipl-hair-removal/ai-powered' : `/${currentLanguage}/ipl-hair-removal/ai-powered`, thumbnail: true }
           ]
         },
         {
           name: t('header.nav.accessories', 'Accessories'),
           isCategory: true,
           items: [
-            { name: t('header.nav.sapphireLens', 'Sapphire Lens'), href: `/${currentLanguage}/accessories/sapphire-lens`, icon: '💎' },
-            { name: t('header.nav.opticalFilter', 'Optical Filter'), href: `/${currentLanguage}/accessories/filter`, icon: '🔍' },
-            { name: t('header.nav.powerAdapter', 'Power Adapter'), href: `/${currentLanguage}/accessories/adapter`, icon: '🔌' },
-            { name: t('header.nav.safetyGoggles', 'Safety Goggles'), href: `/${currentLanguage}/accessories/goggles`, icon: '🥽' }
+            { name: t('header.nav.sapphireLens', 'Sapphire Lens'), href: currentLanguage === 'en' ? '/accessories/sapphire-lens' : `/${currentLanguage}/accessories/sapphire-lens`, icon: '💎' },
+            { name: t('header.nav.opticalFilter', 'Optical Filter'), href: currentLanguage === 'en' ? '/accessories/filter' : `/${currentLanguage}/accessories/filter`, icon: '🔍' },
+            { name: t('header.nav.powerAdapter', 'Power Adapter'), href: currentLanguage === 'en' ? '/accessories/adapter' : `/${currentLanguage}/accessories/adapter`, icon: '🔌' },
+            { name: t('header.nav.safetyGoggles', 'Safety Goggles'), href: currentLanguage === 'en' ? '/accessories/goggles' : `/${currentLanguage}/accessories/goggles`, icon: '🥽' }
           ]
         }
       ]
     },
     {
       name: t('header.nav.howToUse', 'How to Use'),
-      href: `/${currentLanguage}/how-to-use`
+      href: currentLanguage === 'en' ? '/how-to-use' : `/${currentLanguage}/how-to-use`
     },
     {
       name: t('header.nav.serviceSupport', 'Service & Support'),
-      href: `/${currentLanguage}/service-support`,
+      href: currentLanguage === 'en' ? '/service-support' : `/${currentLanguage}/service-support`,
       hasDropdown: true,
       items: [
         {
           name: t('header.nav.service', 'Service'),
           isCategory: true,
           items: [
-            { name: t('header.nav.afterSales', 'After-Sales Service'), href: `/${currentLanguage}/service-support/after-sales` },
-            { name: t('header.nav.winFDAListing', 'Win FDA Listing'), href: `/${currentLanguage}/service-support/win-fda-listing` },
-            { name: t('header.nav.iplManufacturing', 'IPL Devices Manufacturing'), href: `/${currentLanguage}/service-support/manufacturing` },
-            { name: t('header.nav.knowledgeBase', 'Knowledge Base'), href: `/${currentLanguage}/service-support/knowledge-base` }
+            { name: t('header.nav.afterSales', 'After-Sales Service'), href: currentLanguage === 'en' ? '/service-support/after-sales' : `/${currentLanguage}/service-support/after-sales` },
+            { name: t('header.nav.winFDAListing', 'Win FDA Listing'), href: currentLanguage === 'en' ? '/service-support/win-fda-listing' : `/${currentLanguage}/service-support/win-fda-listing` },
+            { name: t('header.nav.iplManufacturing', 'IPL Devices Manufacturing'), href: currentLanguage === 'en' ? '/service-support/manufacturing' : `/${currentLanguage}/service-support/manufacturing` },
+            { name: t('header.nav.knowledgeBase', 'Knowledge Base'), href: currentLanguage === 'en' ? '/service-support/knowledge-base' : `/${currentLanguage}/service-support/knowledge-base` }
           ]
         },
         {
           name: t('header.nav.supportGuide', 'Support > Buying Guide'),
           isCategory: true,
           items: [
-            { name: t('header.nav.beautySourcing', 'Beauty Niche Sourcing & Accessories'), href: `/${currentLanguage}/service-support/beauty-sourcing` },
-            { name: t('header.nav.pricingGuide', 'Pricing Guide'), href: `/${currentLanguage}/service-support/pricing-guide` },
-            { name: t('header.nav.helpCenter', 'Help Center'), href: `/${currentLanguage}/service-support/help-center` },
-            { name: t('header.nav.gallery', 'Gallery'), href: `/${currentLanguage}/service-support/gallery` },
-            { name: t('header.nav.videos', 'Videos'), href: `/${currentLanguage}/service-support/videos` }
+            { name: t('header.nav.beautySourcing', 'Beauty Niche Sourcing & Accessories'), href: currentLanguage === 'en' ? '/service-support/beauty-sourcing' : `/${currentLanguage}/service-support/beauty-sourcing` },
+            { name: t('header.nav.pricingGuide', 'Pricing Guide'), href: currentLanguage === 'en' ? '/service-support/pricing-guide' : `/${currentLanguage}/service-support/pricing-guide` },
+            { name: t('header.nav.helpCenter', 'Help Center'), href: currentLanguage === 'en' ? '/service-support/help-center' : `/${currentLanguage}/service-support/help-center` },
+            { name: t('header.nav.gallery', 'Gallery'), href: currentLanguage === 'en' ? '/service-support/gallery' : `/${currentLanguage}/service-support/gallery` },
+            { name: t('header.nav.videos', 'Videos'), href: currentLanguage === 'en' ? '/service-support/videos' : `/${currentLanguage}/service-support/videos` }
           ]
         },
         {
           name: t('header.nav.blog', 'Blog'),
           isCategory: true,
           items: [
-            { name: t('header.nav.newsInsights', 'News & Insights'), href: `/${currentLanguage}/blog/news-insights` },
-            { name: t('header.nav.industries', 'Industries We Serve'), href: `/${currentLanguage}/blog/industries` }
+            { name: t('header.nav.newsInsights', 'News & Insights'), href: currentLanguage === 'en' ? '/blog/news-insights' : `/${currentLanguage}/blog/news-insights` },
+            { name: t('header.nav.industries', 'Industries We Serve'), href: currentLanguage === 'en' ? '/blog/industries' : `/${currentLanguage}/blog/industries` }
           ]
         }
       ]
     },
     {
       name: t('header.nav.about', 'About'),
-      href: `/${currentLanguage}/about`,
+      href: currentLanguage === 'en' ? '/about' : `/${currentLanguage}/about`,
       hasDropdown: true,
       items: [
-        { name: t('header.nav.founderMessage', 'Founder Message'), href: `/${currentLanguage}/about/founder-message` },
-        { name: t('header.nav.technology', 'Our Technology'), href: `/${currentLanguage}/about/technology` },
-        { name: t('header.nav.globalWitness', 'Global Witness'), href: `/${currentLanguage}/about/global-witness` },
-        { name: t('header.nav.corePrinciples', 'Core Principles'), href: `/${currentLanguage}/about/core-principles` },
-        { name: t('header.nav.company', 'About iShine'), href: `/${currentLanguage}/about/company` },
-        { name: t('header.nav.brandStory', 'Brand Story'), href: `/${currentLanguage}/about/brand-story` },
-        { name: t('header.nav.quality', 'Quality'), href: `/${currentLanguage}/about/quality` }
+        { name: t('header.nav.founderMessage', 'Founder Message'), href: currentLanguage === 'en' ? '/about/founder-message' : `/${currentLanguage}/about/founder-message` },
+        { name: t('header.nav.technology', 'Our Technology'), href: currentLanguage === 'en' ? '/about/technology' : `/${currentLanguage}/about/technology` },
+        { name: t('header.nav.globalWitness', 'Global Witness'), href: currentLanguage === 'en' ? '/about/global-witness' : `/${currentLanguage}/about/global-witness` },
+        { name: t('header.nav.corePrinciples', 'Core Principles'), href: currentLanguage === 'en' ? '/about/core-principles' : `/${currentLanguage}/about/core-principles` },
+        { name: t('header.nav.company', 'About iShine'), href: currentLanguage === 'en' ? '/about/company' : `/${currentLanguage}/about/company` },
+        { name: t('header.nav.brandStory', 'Brand Story'), href: currentLanguage === 'en' ? '/about/brand-story' : `/${currentLanguage}/about/brand-story` },
+        { name: t('header.nav.quality', 'Quality'), href: currentLanguage === 'en' ? '/about/quality' : `/${currentLanguage}/about/quality` }
       ]
     },
-    { name: t('header.nav.contact', 'Contact'), href: `/${currentLanguage}/contact` }
+    { name: t('header.nav.contact', 'Contact'), href: currentLanguage === 'en' ? '/contact' : `/${currentLanguage}/contact` }
   ];
 
   const isActive = (href: string) => location.pathname === href;
