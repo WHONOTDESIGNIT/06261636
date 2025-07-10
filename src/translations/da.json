@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "iShine - IPL-enhedsproduktionsløsninger | Fra idé til marked",
-    "description": "Førende IPL-enhedsproducent, der leverer komplette OEM/ODM-løsninger fra idé til marked. Tilpassede IPL-hårfjerningsenheder til globale skønhedsbrands.",
+    "title": "iShine - IPL-enhed produktionsløsninger | Fra idé til marked",
+    "description": "Førende IPL-enhed producent der leverer omfattende OEM/ODM-løsninger fra idé til marked. Tilpassede IPL-hårfjerning enheder til globale skønhedsbrands.",
     "keywords": "IPL-enheder, OEM-produktion, ODM-løsninger, hårfjerning, skønhedsenheder, tilpasset produktion"
   },
   "header": {
@@ -14,25 +14,25 @@
       "contact": "Kontakt"
     },
     "solutions": {
-      "logoPrinting": "Logo-print",
+      "logoPrinting": "Logo udskrivning",
       "packaging": "Emballageløsninger",
-      "dropShipping": "Drop shipping",
+      "dropShipping": "Dropshipping",
       "globalShipping": "Global forsendelse",
-      "brandCustomization": "Brand-tilpasning",
+      "brandCustomization": "Brand tilpasning",
       "compliance": "Overholdelse og certificeringer",
       "designPrototyping": "Design og prototyping",
       "multiHeadIPL": "Multi-hoved IPL tilpasset",
-      "dualLampIPL": "Dobbelt-lampe IPL tilpasset"
+      "dualLampIPL": "Dobbelt lampe IPL tilpasset"
     },
     "iplDevices": {
       "smartApp": "Smart app-styret IPL-enhed",
-      "iceFeeling": "Is-følelse IPL-enhed",
+      "iceFeeling": "Isfølelse IPL-enhed",
       "emerald": "Smaragd IPL-enhed",
-      "skinSensor": "Hudsensor IPL-enhed",
-      "batteryPowered": "Batteridrevet IPL-enhed",
+      "skinSensor": "IPL-enhed med hudsensor",
+      "batteryPowered": "Batteri-drevet IPL-enhed",
       "handheld": "Håndholdt IPL-enhed",
-      "iceCooling": "Is-køling IPL-enhed",
-      "dualLamp": "Dobbelt-lampe IPL-enhed",
+      "iceCooling": "Iskøling IPL-enhed",
+      "dualLamp": "Dobbelt lampe IPL-enhed",
       "aiPowered": "AI-drevet IPL-enhed"
     },
     "accessories": {
@@ -98,21 +98,21 @@
     },
     "contact": {
       "title": "Kontakt",
-      "tel": "Tel",
+      "tel": "Tlf",
       "whatsapp": "WhatsApp",
       "email": "Email",
       "address": "ADRESSE",
       "telValue": "+86-15900283962",
       "whatsappValue": "+86-15012891148",
       "emailValue": "service@ishineco.com",
-      "addressValue": "208 Room, 4 Building, No.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, China, 518071"
+      "addressValue": "Rum 208, Bygning 4, Nr.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, Kina, 518071"
     }
   },
   "home": {
     "hero": {
       "title1": "Tilpassede IPL-enheder",
-      "title2": "& Brand IPL-enheder",
-      "subtitle": "Global førende IPL-enhedsproducent, hjælper dig med at designe, bygge og pakke det.",
+      "title2": "og brand IPL-enheder",
+      "subtitle": "Globalt førende IPL-enhed producent, vi hjælper dig med at designe, bygge og pakke.",
       "cta": "Få tilbud"
     },
     "partners": {
@@ -164,11 +164,11 @@
       "subtitle": "Beliggende i hjertet af Shenzhens produktionsdistrikt"
     },
     "form": {
-      "title": "Hvad har du på hjerte? Lad os tale!",
+      "title": "Hvad har du i tankerne? Lad os tale!",
       "subtitle": "Udfyld denne formular for at starte processen. Vi kontakter dig inden for 24 timer.",
       "name": "Navn*",
-      "email": "E-mailadresse*",
-      "phone": "Telefonnummer* f.eks. (+1-541-3456-3001)",
+      "email": "Email adresse*",
+      "phone": "Telefonnummer* f.eks. (+45-12-34-56-78)",
       "country": "Land",
       "message": "Beskriv dine behov her*",
       "submit": "Send",
@@ -385,8 +385,8 @@
       }
     },
     "iceCooling": {
-      "title": "Is-køling IPL-hårfjerningsenhed",
-      "desc": "Oplev professionel luksuriøs is-køling hårfjerningsteknologi med en rumfartskvalitets kølemetal plade, der øjeblikkeligt køler huden til 5°C ultra-lav temperatur. Kombineret med 2,0~5,0 J/cm² højenergi IPL-pulser og 999.000+ blitz leverer den en gudindelignende silkeblød hudoplevelse. Det luksuriøse design er skabt til perfektionssøgende moderne kvinder.",
+      "title": "IPL-hårfjerning enhed iskøling",
+      "desc": "Oplev luksuriøs professionel iskøling hårfjerning teknologi, udstyret med en rumfart-grade køling metal plade der øjeblikkeligt køler huden til en ultra-lav temperatur på 5°C.",
       "features": {
         "luxuryDesign": "Luksuriøst gudinde-design — Rumfartskvalitets metal tekstur, der viser nobel smag.",
         "coolingPlate": "Is-køleplade teknologi — Køler huden øjeblikkeligt til 5°C for virkelig smertefri oplevelse.",
@@ -396,8 +396,8 @@
       }
     },
     "iceFeeling": {
-      "title": "Safir is-følelse IPL-enhed",
-      "desc": "Nyd smertefri hårfjerning med en klinisk kvalitets safir køleplade, der køler huden til 5°C, hvilket muliggør højere energipulser for hurtigere resultater. Den integrerede Intense Pulsed Light (IPL) motor leverer 2,0~5,0 J/cm² energi med 999.999 blitz til livstidsbrug.",
+      "title": "Safir isfølelse IPL-enhed",
+      "desc": "Nyd smertefri hårfjerning med en klinisk safir køleplade der køler huden til 5°C, hvilket muliggør højere energi pulser for hurtigere resultater.",
       "features": {
         "longSmooth": "Langvarig glathed — synlig reduktion efter 3-4 uger.",
         "cooling": "Køleplade holder epidermis på 5°C for ægte smertefri behandlinger.",
@@ -407,8 +407,8 @@
       }
     },
     "skinSensor": {
-      "title": "Hudsensor IPL-enhed",
-      "desc": "Oplev den sikreste og mest intelligente hjemme hårfjerning med vores Hudsensor IPL-enhed. Denne revolutionære enhed har avancerede optiske hudsensorer, der automatisk registrerer din hudtone og hårfarve – leverer personlig behandlingsintensitet for maksimal effektivitet og komplet sikkerhed. Med realtids hudanalyse og automatisk energijustering er denne enhed perfekt til alle egnede hudtyper og sikrer optimale resultater hver gang.",
+      "title": "IPL-enhed med hudsensor",
+      "desc": "Oplev den sikreste og smarteste hjemme hårfjerning med vores hudsensor IPL-enhed. Denne revolutionære enhed har avancerede optiske hudsensorer der automatisk registrerer din hudtone og hårfarve.",
       "features": {
         "intelligentDetection": "Intelligent hudregistrering — Avancerede sensorer identificerer automatisk hudtone og justerer energiniveauer",
         "maxSafety": "Maksimal sikkerhed — Forhindrer overbehandling og reducerer risiko for hudirritation eller forbrændinger",
@@ -418,8 +418,8 @@
       }
     },
     "smartApp": {
-      "title": "Smart app IPL-hårfjerningsenhed",
-      "desc": "Forbind problemfrit din IPL-enhed via Bluetooth til vores SmartApp. Nyd guidede behandlinger, realtids sessionssporing, personlige rutiner og AI-drevne indsigter. Kontroller intensitetsniveauer, overvåg fremskridt og modtag påmindelser—alt fra din smartphone.",
+      "title": "Smart app IPL-hårfjerning enhed",
+      "desc": "Forbind nemt din IPL-enhed via Bluetooth til vores SmartApp. Nyd guidede behandlinger, real-time session tracking, personaliserede rutiner og AI-drevne indsigter.",
       "features": {
         "bluetooth": "Bluetooth 5.0-forbindelse til stabil parring",
         "aiPlans": "Personlige behandlingsplaner via AI-analyse",
@@ -432,24 +432,24 @@
   "faq": {
     "title": "Ofte stillede spørgsmål",
     "shipping": {
-      "q": "Kan I sende globalt?",
-      "a": "Absolut. Vi tilbyder pålidelig verdensomspændende forsendelse for at støtte din virksomhed, hvor end du er."
+      "q": "Kan I sende til hele verden?",
+      "a": "Absolut. Vi tilbyder pålidelig global forsendelse for at støtte din forretning hvor end du er."
     },
     "customization": {
       "q": "Kan jeg tilpasse enhedens funktioner?",
-      "a": "Ja, vi tilbyder fuld tilpasning af funktioner, farver, emballage og mere for at passe til dine brand behov."
+      "a": "Ja, vi tilbyder fuld tilpasning af funktioner, farver, emballage og mere for at imødekomme dit brands behov."
     },
     "certifications": {
-      "q": "Hvilke certificeringer støtter I?",
-      "a": "Vi støtter FDA, CE, RoHS og andre globale certificeringer for at sikre overholdelse på dine målmarkeder."
+      "q": "Hvilke certificeringer understøtter I?",
+      "a": "Vi understøtter FDA, CE, RoHS og andre globale certificeringer for at sikre overholdelse på dine målmarkeder."
     },
     "leadTime": {
-      "q": "Hvor lang er produktionsleveringstiden?",
-      "a": "Typisk leveringstid er 25-35 dage efter prøvegodkendelse, afhængigt af ordrestørrelse og tilpasning."
+      "q": "Hvad er produktionens leveringstid?",
+      "a": "Typisk leveringstid er 25-35 dage efter prøve godkendelse, afhængigt af ordre størrelse og tilpasning."
     },
     "afterSales": {
-      "q": "Leverer I eftersalgsservice?",
-      "a": "Ja, vi tilbyder omfattende eftersalgsservice inklusiv teknisk support og garanti."
+      "q": "Giver I eftersalg support?",
+      "a": "Ja, vi tilbyder omfattende eftersalg support inklusive teknisk support og garanti."
     }
   },
   "cta": {
@@ -473,7 +473,7 @@
   "blog": {
     "posts": {
       "sustainableManufacturing": {
-        "title": "Bæredygtig fremstilling: Grønne IPL-produktionsmetoder",
+        "title": "Bæredygtig produktion: Grønne IPL-produktionsmetoder",
         "intro": "Da efterspørgslen efter hjemme-IPL (Intense Pulsed Light) hårfjerningsenheder stiger, stiger ansvaret for at producere denne elektronik med minimal miljøpåvirkning også. Bæredygtig fremstilling er ikke længere en trend, men en nødvendighed—der omfatter alle stadier fra råmaterialeindkøb til slutbrugs genbrug. Denne artikel vurderer miljøaftrykket af IPL-enhedsproduktion og udforsker innovative, praktiske strategier til at opnå en virkelig grøn forsyningskæde, med fokus på elektronik, optik, miljøvenlige ABS-huse, bæredygtig emballage og affaldsgenbrug.",
         "sections": {
           "environmentalImpact": "Miljøpåvirkningsvurdering af IPL-enhedsfremstilling",
@@ -489,7 +489,7 @@
         }
       },
       "globalMarketShifts": {
-        "title": "Globale markedsskift: IPL-enhedstendenser og muligheder",
+        "title": "Globale markedsændringer: IPL-enhed tendenser og muligheder",
         "intro": "Udforsk de seneste globale tendenser i IPL-enhedsadoption, lovgivningsændringer og markedsmuligheder for brands og producenter.",
         "sections": {
           "marketOverview": "Markedsoversigt",
@@ -502,7 +502,7 @@
         }
       },
       "aiPoweredSkinSensing": {
-        "title": "AI-drevet hudregistrering: Den næste grænse inden for IPL-sikkerhed",
+        "title": "AI-drevet hudregistrering: Den næste grænse i IPL-sikkerhed",
         "intro": "Hvordan kunstig intelligens revolutionerer IPL-enhedssikkerhed og personalisering gennem realtids hudanalyse.",
         "sections": {
           "introduction": "Introduktion",
@@ -542,7 +542,7 @@
         }
       },
       "industries": {
-        "title": "Brancher vi betjener: IPL-anvendelser på tværs af sektorer",
+        "title": "Industrier vi betjener: IPL-anvendelser på tværs af sektorer",
         "intro": "IPL-teknologi er ikke kun til skønhed—udforsk dens anvendelser inden for medicinske, veterinære og industrielle sektorer.",
         "sections": {
           "beauty": "Skønhedsindustrien",
@@ -554,7 +554,7 @@
         }
       },
       "iplBestChoice": {
-        "title": "Hvorfor IPL hjemme hårfjerningsenheder er det bedste valg blandt alle hårfjerningsværktøjer",
+        "title": "Hvorfor hjemme IPL-hårfjerning enheder er det bedste valg blandt alle hårfjerning værktøjer",
         "intro": "Opdag hvorfor IPL er den mest effektive, behagelige og bekvemme løsning til langtidsholdbar hårfjerning derhjemme—bakket op af videnskab og ægte brugeroplevelse.",
         "sections": {
           "comparison": "Sammenligning af hårfjerningsmetoder",
@@ -566,7 +566,7 @@
         }
       },
       "futureHomeHairRemoval": {
-        "title": "Fremtiden for hjemme hårfjerningsenheder: Tendenser, innovationer og hvad der kommer næst",
+        "title": "Fremtiden for hjemme hårfjerning enheder: Tendenser, innovationer og hvad der kommer",
         "intro": "Udforsk udviklingen, nuværende gennembrud og den næste generation af hjemme hårfjerningsenheder—AI, multifunktionalitet og bæredygtigt design til 2025 og derudover.",
         "sections": {
           "evolution": "Udvikling af hjemme hårfjerningsteknologi",
@@ -580,7 +580,7 @@
         }
       },
       "fda510kPathway": {
-        "title": "FDA 510(k) vej: Navigation af medicinsk enhedsklassifikation for IPL",
+        "title": "FDA 510(k) vej: Navigation af medicinsk enhed klassificering for IPL",
         "intro": "En omfattende guide til FDA 510(k) vejen for hjemmebrug IPL-hårfjerningsenheder. Lær om lovgivningsmæssige krav, markedsføringspåstande og hvordan iShine hjælper brands med at opnå overholdelse.",
         "sections": {
           "introduction": "Introduktion",
@@ -596,5 +596,9 @@
         }
       }
     }
+  },
+  "floating": {
+    "contact": "Kontakt os",
+    "backToTop": "Tilbage til toppen"
   }
 }
