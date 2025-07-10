@@ -31,9 +31,11 @@ const SEOTags: React.FC<SEOTagsProps> = ({
   const getCanonicalUrl = () => {
     if (canonical) return canonical;
     
-    // 如果是英文页面，移除语言前缀
+    // 如果是英文页面，使用无前缀URL
     if (currentLanguage === 'en') {
-      return `${baseUrl}${currentPath}`;
+      // 移除可能存在的语言前缀
+      const cleanPath = currentPath.replace(/^\/en(\/|$)/, '/').replace(/\/$/, '') || '/';
+      return `${baseUrl}${cleanPath === '/' ? '' : cleanPath}`;
     }
     
     return `${baseUrl}${currentPath}`;
@@ -45,7 +47,7 @@ const SEOTags: React.FC<SEOTagsProps> = ({
     
     // 获取不带语言前缀的路径
     const pathWithoutLang = currentPath.replace(/^\/[a-z]{2}(\/|$)/, '/');
-    const cleanPath = pathWithoutLang === '/' ? '' : pathWithoutLang;
+    const cleanPath = pathWithoutLang === '/' ? '' : pathWithoutLang.replace(/\/$/, '');
     
     // 为每种支持的语言生成hreflang链接
     const supportedLangs = languages.map(l => l.code.split('-')[0]);
@@ -54,7 +56,7 @@ const SEOTags: React.FC<SEOTagsProps> = ({
       let href: string;
       
       if (langCode === 'en') {
-        // 英文版本无前缀
+        // 英文版本无前缀，避免重定向
         href = `${baseUrl}${cleanPath}`;
       } else {
         // 其他语言版本带前缀
@@ -68,7 +70,7 @@ const SEOTags: React.FC<SEOTagsProps> = ({
       });
     });
     
-    // 添加x-default链接指向英文版本
+    // 添加x-default链接指向英文版本，无前缀
     hreflangLinks.push({
       rel: 'alternate',
       hreflang: 'x-default',
