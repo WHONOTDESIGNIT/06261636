@@ -596,5 +596,9 @@
         }
       }
     }
+  },
+  "floating": {
+    "contact": "Contact Us",
+    "backToTop": "Back to top"
   }
 }
