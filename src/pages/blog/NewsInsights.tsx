@@ -1,368 +1,230 @@
-import React, { useState } from 'react';
-import { Calendar, TrendingUp, Search, ArrowRight } from 'lucide-react';
-import ContactFormA from '../../components/Forms/ContactFormA';
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-
-// Sample blog data - replace with actual content
-const featuredArticle = {
-  id: 1,
-  title: "Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools",
-  excerpt: "Discover why IPL is the most effective, comfortable, and convenient solution for long-term hair removal at home—backed by science and real user experience.",
-  author: "iShine Editorial Team",
-  date: "2025-07-10",
-  category: "Expert Opinion",
-  image: "/images/blog/ipl-best-choice.jpg",
-  tags: ["IPL", "Hair Removal", "Comparison"]
-};
-
-const blogPosts = [
-  {
-    id: 2,
-    title: "The Future of Home Hair Removal Devices: Trends, Innovations, and What's Next",
-    excerpt: "Explore the evolution, breakthroughs, and next-gen trends in home hair removal devices—AI, multifunctionality, and sustainable design for 2025 and beyond.",
-    author: "iShine Editorial Team",
-    date: "2025-07-04",
-    category: "Expert Opinion",
-    image: "/images/blog/ai-home-hair-removal.jpg",
-    tags: ["Home Hair Removal", "AI Beauty Tech", "Trends 2025"],
-    link: "/blog/future-home-hair-removal-devices",
-  },
-  {
-    id: 3,
-    title: "Sapphire Cooling: Reducing Pain by 90% for Dark Skin Types",
-    excerpt: "How sapphire cooling technology is revolutionizing IPL hair removal for a wider range of skin tones—safer, more comfortable, and clinically proven.",
-    author: "iShine Editorial Team",
-    date: "2025-07-04",
-    category: "Clinical Research",
-    image: "/images/blog/sapphire-cooling.jpg",
-    tags: ["Sapphire Cooling", "Dark Skin", "IPL Safety"],
-    link: "/blog/sapphire-cooling",
-  },
-  {
-    id: 4,
-    title: "FDA 510(k) Pathway: Navigating Medical Device Classification for IPL",
-    excerpt: "A comprehensive guide to the FDA 510(k) pathway for home-use IPL hair removal devices. Learn about regulatory requirements, marketing claims, and how iShine helps brands achieve compliance.",
-    author: "iShine Editorial Team",
-    date: "2025-07-04",
-    category: "Regulatory Insights",
-    image: "/images/blog/fda-pathway.jpg",
-    tags: ["FDA Compliance", "Medical Device", "510k"],
-    link: "/blog/fda-510k-pathway",
-  },
-  {
-    id: 5,
-    title: "Multi-Head IPL Systems: Precision Meets Full-Body Efficiency",
-    excerpt: "Market analysis of attachment-based IPL devices and their impact on treatment efficacy across different body areas.",
-    author: "Market Research",
-    date: "2025-06-24",
-    category: "Market Analysis",
-    image: "/images/blog/multi-head-systems.jpg",
-    tags: ["Product Innovation", "User Experience"],
-    link: "/blog/multi-head-ipl-systems"
-  },
-  {
-    id: 6,
-    title: "AI-Powered Skin Sensing: The Future of Personalized IPL",
-    excerpt: "Artificial intelligence (AI) is redefining at-home IPL hair removal. Discover how AI-powered skin sensing, real-time energy adjustment, and app-based coaching are making treatments safer, more effective, and truly personalized.",
-    author: "Eric Ann",
-    date: "2025-06-22",
-    category: "AI & Innovation",
-    image: "/images/blog/ai-skin-sensing.jpg",
-    tags: ["Artificial Intelligence", "Skin Technology"],
-    link: "/blog/ai-powered-skin-sensing"
-  },
-  {
-    id: 7,
-    title: "Global Market Shifts: IPL Adoption in Emerging Markets",
-    excerpt: "The global IPL hair removal device market is booming, especially in Asia-Pacific, Latin America, and the Middle East. Explore 2025-2026 market size, growth drivers, and the impact on the broader cosmetics industry.",
-    author: "Market Intelligence",
-    date: "2025-06-20",
-    category: "Market Analysis",
-    image: "/images/blog/global-market.jpg",
-    tags: ["Market Expansion", "Economic Trends"],
-    link: "/blog/global-market-shifts"
-  },
-  {
-    id: 8,
-    title: "Sustainable Manufacturing: Green IPL Production Methods",
-    excerpt: "Environmental impact assessment of IPL device manufacturing and sustainable supply chain innovations.",
-    author: "Sustainability Team",
-    date: "2025-06-18",
-    category: "Sustainability",
-    image: "/images/blog/sustainable-manufacturing.jpg",
-    tags: ["Environmental Impact", "Green Technology"]
-  },
-  {
-    id: 9,
-    title: "Sustainable Manufacturing: Green IPL Production Methods",
-    excerpt: "As the demand for at-home IPL devices surges, so does the responsibility to produce with minimal environmental impact. This article explores practical strategies for a green supply chain, from electronics to packaging and waste reutilization.",
-    author: "Sustainability Team",
-    date: "2025-06-18",
-    category: "Sustainability",
-    image: "/images/blog/sustainable-manufacturing.jpg",
-    tags: ["Environmental Impact", "Green Technology", "Supply Chain"],
-    link: "/blog/sustainable-manufacturing"
-  }
-];
-
-const categories = ["All", "Technology Analysis", "Clinical Research", "Regulatory Insights", "Market Analysis", "AI & Innovation", "Sustainability"];
+import { useTranslation } from '../../hooks/useTranslation';
 
 const NewsInsights: React.FC = () => {
-  const [selectedCategory, setSelectedCategory] = useState("All");
-  const [searchTerm, setSearchTerm] = useState("");
+  const { t } = useTranslation();
 
-  const filteredPosts = blogPosts.filter(post => {
-    const matchesCategory = selectedCategory === "All" || post.category === selectedCategory;
-    const matchesSearch = post.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
-                         post.excerpt.toLowerCase().includes(searchTerm.toLowerCase());
-    return matchesCategory && matchesSearch;
-  });
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": t('blog.posts.newsInsights.title'),
+    "description": t('blog.posts.newsInsights.intro'),
+    "author": {
+      "@type": "Organization",
+      "name": "SHENZHEN ISHINE TECHNOLOGY COMPANY LIMITED"
+    },
+    "datePublished": "2024-06-27",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "/blog/news-insights"
+    }
+  };
 
   return (
-    <div className="min-h-screen bg-white pt-20">
-      {/* Bloomberg-style Header */}
-      <section className="bg-[rgb(0,43,92)] text-white py-8 border-b-4 border-[rgb(0,116,224)]">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="flex items-center justify-between">
-            <div>
-              <h1 className="text-4xl font-bold mb-2">IPL Technology Insights</h1>
-              <p className="text-lg text-gray-300">Expert analysis on the future of home hair removal technology</p>
-            </div>
-            <div className="hidden md:flex items-center space-x-4">
-              <TrendingUp className="w-8 h-8 text-[rgb(0,116,224)]" />
-              <span className="text-sm">Live Market Intelligence</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Bloomberg-style Navigation & Filters */}
-      <section className="bg-gray-50 py-4 border-b">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center space-y-4 md:space-y-0">
-            {/* Category Filters */}
-            <div className="flex flex-wrap gap-2">
-              {categories.map((category) => (
-                <button
-                  key={category}
-                  onClick={() => setSelectedCategory(category)}
-                  className={`px-3 py-1 text-sm rounded-full transition ${
-                    selectedCategory === category
-                      ? 'bg-[rgb(0,116,224)] text-white'
-                      : 'bg-white text-gray-700 hover:bg-gray-100 border'
-                  }`}
-                >
-                  {category}
-                </button>
-              ))}
-            </div>
-            
-            {/* Search */}
-            <div className="relative">
-              <Search className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
-              <input
-                type="text"
-                placeholder="Search insights..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className="pl-10 pr-4 py-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-[rgb(0,116,224)] w-64"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Featured Article - Bloomberg Style */}
-      <section className="py-8 bg-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
-              <span className="text-[rgb(0,116,224)] font-semibold text-sm uppercase tracking-wide">
-                {featuredArticle.category}
-              </span>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-4 leading-tight">
-                {featuredArticle.title}
-              </h2>
-              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                {featuredArticle.excerpt}
-              </p>
-              <div className="flex items-center space-x-4 text-sm text-gray-500 mb-6">
-                <span className="flex items-center">
-                  <Calendar className="w-4 h-4 mr-1" />
-                  {featuredArticle.date}
-                </span>
-              </div>
-              <div className="flex flex-wrap gap-2 mb-6">
-                {featuredArticle.tags.map((tag) => (
-                  <span key={tag} className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded">
-                    {tag}
-                  </span>
-                ))}
-              </div>
-              <Link
-                to="/blog/ipl-best-choice"
-                className="bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold px-6 py-3 rounded-full transition flex items-center"
-              >
-                Read Full Analysis
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-            <div className="relative">
-              <img
-                src={featuredArticle.image}
-                alt={featuredArticle.title}
-                className="w-full h-80 object-cover rounded-xl shadow-lg"
-              />
-              <div className="absolute top-4 left-4 bg-[rgb(0,116,224)] text-white px-3 py-1 rounded-full text-sm font-semibold">
-                Featured
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Bloomberg-style Article Grid */}
-      <section className="py-12 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="flex items-center justify-between mb-8">
-            <h3 className="text-2xl font-bold text-gray-900">Latest Analysis</h3>
-            <span className="text-sm text-gray-500">
-              {filteredPosts.length} article{filteredPosts.length !== 1 ? 's' : ''}
+    <div className="min-h-screen bg-white" style={{ wordSpacing: '0.1em' }}>
+      <Helmet>
+        <title>{t('blog.posts.newsInsights.title')}</title>
+        <meta name="description" content={t('blog.posts.newsInsights.intro')} />
+        <meta name="keywords" content="beauty technology news, IPL industry insights, market trends, innovation updates, beauty devices" />
+        <link rel="canonical" href="/blog/news-insights" />
+        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+      </Helmet>
+      
+      {/* Hero Banner */}
+      <div 
+        className="w-full py-16 px-4"
+        style={{
+          background: 'linear-gradient(135deg, #1a365d 0%, #2c5282 50%, #1a365d 100%)',
+          minHeight: '400px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}
+      >
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="mb-6 text-center">
+            <span style={{ color: '#a0aec0', fontSize: '14px', fontWeight: '400' }}>
+              🏠 Blog
             </span>
           </div>
           
-          {/* Main Grid Layout */}
-          <div className="grid lg:grid-cols-4 gap-6">
-            {/* Primary Column - Larger Articles */}
-            <div className="lg:col-span-2 space-y-6">
-              {filteredPosts.slice(0, 2).map((post) => (
-                <article key={post.id} className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                  <img
-                    src={post.image}
-                    alt={post.title}
-                    className="w-full h-48 object-cover rounded-t-xl"
-                  />
-                  <div className="p-6">
-                    <span className="text-[rgb(0,116,224)] font-semibold text-sm uppercase tracking-wide">
-                      {post.category}
-                    </span>
-                    <h4 className="text-xl font-bold text-gray-900 mt-2 mb-3 leading-tight hover:text-[rgb(0,116,224)] cursor-pointer">
-                      <Link to={post.link ? post.link : `/blog/${post.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')}`}>{post.title}</Link>
-                    </h4>
-                    <p className="text-gray-600 mb-4 leading-relaxed">
-                      {post.excerpt}
-                    </p>
-                    <div className="flex items-center justify-between text-sm text-gray-500">
-                      <span className="flex items-center">
-                        <Calendar className="w-3 h-3 mr-1" />
-                        {post.date}
-                      </span>
-                    </div>
-                    <div className="flex flex-wrap gap-1 mt-3">
-                      {post.tags.map((tag) => (
-                        <span key={tag} className="px-2 py-1 bg-gray-100 text-gray-600 text-xs rounded">
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                    <Link
-                      to={post.link ? post.link : `/blog/${post.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')}`}
-                      className="inline-block mt-4 bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold px-6 py-2 rounded-full transition"
-                    >
-                      Read More
-                    </Link>
-                  </div>
-                </article>
-              ))}
-            </div>
-
-            {/* Secondary Columns - Compact Articles */}
-            <div className="lg:col-span-2 grid md:grid-cols-2 lg:grid-cols-1 gap-6">
-              {filteredPosts.slice(2).map((post) => (
-                <article key={post.id} className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                  <div className="md:flex lg:block">
-                    <img
-                      src={post.image}
-                      alt={post.title}
-                      className="w-full md:w-32 lg:w-full h-32 lg:h-40 object-cover rounded-t-xl md:rounded-l-xl md:rounded-tr-none lg:rounded-t-xl lg:rounded-bl-none"
-                    />
-                    <div className="p-4 flex-1">
-                      <span className="text-[rgb(0,116,224)] font-semibold text-xs uppercase tracking-wide">
-                        {post.category}
-                      </span>
-                      <h4 className="text-lg font-bold text-gray-900 mt-1 mb-2 leading-tight hover:text-[rgb(0,116,224)] cursor-pointer">
-                        <Link to={post.link ? post.link : `/blog/${post.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')}`}>{post.title}</Link>
-                      </h4>
-                      <p className="text-gray-600 text-sm mb-3 leading-relaxed line-clamp-2">
-                        {post.excerpt}
-                      </p>
-                      <div className="flex items-center justify-between text-xs text-gray-500">
-                        <span className="flex items-center">
-                          <Calendar className="w-3 h-3 mr-1" />
-                          {post.date}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Bloomberg-style Data/Stats Section */}
-      <section className="py-12 bg-[rgb(0,43,92)] text-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <h3 className="text-2xl font-bold mb-8 text-center">IPL Market Intelligence</h3>
-          <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-3xl font-bold text-[rgb(0,116,224)] mb-2">38-40 J/cm²</div>
-              <div className="text-sm text-gray-300">Peak Dual-Lamp Energy Output</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-[rgb(0,116,224)] mb-2">90%</div>
-              <div className="text-sm text-gray-300">Pain Reduction with Sapphire Cooling</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-[rgb(0,116,224)] mb-2">$2.5B</div>
-              <div className="text-sm text-gray-300">Global IPL Market Size 2025</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-[rgb(0,116,224)] mb-2">15%</div>
-              <div className="text-sm text-gray-300">Annual Market Growth Rate</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Newsletter Subscription - Bloomberg Style */}
-      <section className="py-12 bg-white border-t">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">Stay Ahead of IPL Innovation</h3>
-          <p className="text-lg text-gray-600 mb-8">
-            Get weekly insights on cutting-edge IPL technology, market trends, and regulatory updates delivered to your inbox.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 border rounded-full focus:outline-none focus:ring-2 focus:ring-[rgb(0,116,224)]"
-            />
-            <button className="bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold px-6 py-3 rounded-full transition">
-              Subscribe
-            </button>
-          </div>
-          <p className="text-sm text-gray-500 mt-4">
-            Join 15,000+ industry professionals. Unsubscribe anytime.
+          <h1 
+            style={{
+              fontSize: '3rem',
+              fontWeight: '700',
+              color: '#ffffff',
+              lineHeight: '1.1',
+              marginBottom: '16px',
+              letterSpacing: '-0.02em',
+              textAlign: 'center'
+            }}
+          >
+            {t('blog.posts.newsInsights.title')}
+          </h1>
+          
+          <p 
+            style={{
+              color: '#a0aec0',
+              fontSize: '16px',
+              fontWeight: '400',
+              marginTop: '20px',
+              textAlign: 'left'
+            }}
+          >
+            {t('newsInsights.publishDate')}
           </p>
         </div>
-      </section>
-
-      {/* Contact Form */}
-      <div className="bg-[#f9f9f9] py-16">
-        <ContactFormA />
       </div>
+      
+      <article className="max-w-4xl mx-auto px-5 py-16" style={{ lineHeight: '1.7', wordSpacing: '0.1em' }}>
+        {/* Introduction */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('blog.posts.newsInsights.sections.introduction')}</h2>
+          <p className="text-lg text-gray-700 mb-6">{t('newsInsights.introduction.content')}</p>
+        </section>
+
+        {/* Latest Technology Trends */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('newsInsights.technologyTrends.title')}</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <h3 className="font-semibold mb-3 text-blue-900">{t('newsInsights.trends.aiIntegration.title')}</h3>
+              <p className="text-blue-800">{t('newsInsights.trends.aiIntegration.desc')}</p>
+            </div>
+            <div className="bg-green-50 p-6 rounded-lg">
+              <h3 className="font-semibold mb-3 text-green-900">{t('newsInsights.trends.smartDevices.title')}</h3>
+              <p className="text-green-800">{t('newsInsights.trends.smartDevices.desc')}</p>
+            </div>
+            <div className="bg-purple-50 p-6 rounded-lg">
+              <h3 className="font-semibold mb-3 text-purple-900">{t('newsInsights.trends.portability.title')}</h3>
+              <p className="text-purple-800">{t('newsInsights.trends.portability.desc')}</p>
+            </div>
+            <div className="bg-orange-50 p-6 rounded-lg">
+              <h3 className="font-semibold mb-3 text-orange-900">{t('newsInsights.trends.sustainability.title')}</h3>
+              <p className="text-orange-800">{t('newsInsights.trends.sustainability.desc')}</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Market Analysis */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('newsInsights.marketAnalysis.title')}</h2>
+          <p className="text-lg text-gray-700 mb-6">{t('newsInsights.marketAnalysis.content')}</p>
+          
+          <div className="bg-gray-50 p-6 rounded-lg mb-6">
+            <h3 className="font-semibold mb-3 text-gray-900">{t('newsInsights.marketStats.title')}</h3>
+            <div className="grid md:grid-cols-3 gap-4 text-center">
+              <div>
+                <h4 className="text-2xl font-bold text-blue-600">{t('newsInsights.marketStats.globalValue')}</h4>
+                <p className="text-gray-700">{t('newsInsights.marketStats.currentMarket')}</p>
+              </div>
+              <div>
+                <h4 className="text-2xl font-bold text-green-600">{t('newsInsights.marketStats.growth')}</h4>
+                <p className="text-gray-700">{t('newsInsights.marketStats.annualGrowth')}</p>
+              </div>
+              <div>
+                <h4 className="text-2xl font-bold text-purple-600">{t('newsInsights.marketStats.projection')}</h4>
+                <p className="text-gray-700">{t('newsInsights.marketStats.futureMarket')}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Industry News Highlights */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('newsInsights.newsHighlights.title')}</h2>
+          <div className="space-y-6">
+            <div className="border-l-4 border-blue-500 pl-4">
+              <h3 className="font-semibold text-lg">{t('newsInsights.news.regulatory.title')}</h3>
+              <p className="text-gray-700">{t('newsInsights.news.regulatory.desc')}</p>
+            </div>
+            <div className="border-l-4 border-green-500 pl-4">
+              <h3 className="font-semibold text-lg">{t('newsInsights.news.innovation.title')}</h3>
+              <p className="text-gray-700">{t('newsInsights.news.innovation.desc')}</p>
+            </div>
+            <div className="border-l-4 border-purple-500 pl-4">
+              <h3 className="font-semibold text-lg">{t('newsInsights.news.partnerships.title')}</h3>
+              <p className="text-gray-700">{t('newsInsights.news.partnerships.desc')}</p>
+            </div>
+            <div className="border-l-4 border-orange-500 pl-4">
+              <h3 className="font-semibold text-lg">{t('newsInsights.news.consumer.title')}</h3>
+              <p className="text-gray-700">{t('newsInsights.news.consumer.desc')}</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Future Predictions */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('newsInsights.predictions.title')}</h2>
+          <p className="text-lg text-gray-700 mb-6">{t('newsInsights.predictions.content')}</p>
+          
+          <div className="bg-yellow-50 p-6 rounded-lg">
+            <h3 className="font-semibold mb-3 text-yellow-900">{t('newsInsights.predictions.forecast.title')}</h3>
+            <ul className="list-disc pl-6 space-y-2">
+              <li className="text-yellow-800">{t('newsInsights.predictions.forecast.technology')}</li>
+              <li className="text-yellow-800">{t('newsInsights.predictions.forecast.market')}</li>
+              <li className="text-yellow-800">{t('newsInsights.predictions.forecast.consumer')}</li>
+              <li className="text-yellow-800">{t('newsInsights.predictions.forecast.regulation')}</li>
+            </ul>
+          </div>
+        </section>
+
+        {/* Expert Opinions */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('newsInsights.expertOpinions.title')}</h2>
+          <div className="space-y-6">
+            <blockquote className="border-l-4 border-blue-500 pl-4 italic text-gray-700">
+              {t('newsInsights.quotes.expert1.quote')}
+              <br />
+              <span className="block mt-2 text-sm text-gray-500">
+                {t('newsInsights.quotes.expert1.attribution')}
+              </span>
+            </blockquote>
+            <blockquote className="border-l-4 border-green-500 pl-4 italic text-gray-700">
+              {t('newsInsights.quotes.expert2.quote')}
+              <br />
+              <span className="block mt-2 text-sm text-gray-500">
+                {t('newsInsights.quotes.expert2.attribution')}
+              </span>
+            </blockquote>
+          </div>
+        </section>
+
+        {/* Industry Events */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('newsInsights.events.title')}</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <h3 className="font-semibold mb-3 text-blue-900">{t('newsInsights.events.conferences.title')}</h3>
+              <p className="text-blue-800">{t('newsInsights.events.conferences.desc')}</p>
+            </div>
+            <div className="bg-green-50 p-6 rounded-lg">
+              <h3 className="font-semibold mb-3 text-green-900">{t('newsInsights.events.exhibitions.title')}</h3>
+              <p className="text-green-800">{t('newsInsights.events.exhibitions.desc')}</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Conclusion */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('blog.posts.newsInsights.sections.conclusion')}</h2>
+          <p className="text-lg text-gray-700 mb-6">{t('newsInsights.conclusion.content')}</p>
+        </section>
+
+        {/* Related Articles */}
+        <section className="py-10 bg-gray-50">
+          <div className="max-w-4xl mx-auto px-4">
+            <h2 className="text-xl font-bold mb-4 text-gray-900">{t('common.relatedArticles')}</h2>
+            <ul className="list-inside list-disc space-y-2">
+              <li><Link to="/blog/global-market-shifts" className="text-blue-600 underline">{t('blog.posts.globalMarketShifts.title')}</Link></li>
+              <li><Link to="/blog/ai-powered-skin-sensing" className="text-blue-600 underline">{t('blog.posts.aiPoweredSkinSensing.title')}</Link></li>
+              <li><Link to="/blog/future-home-hair-removal" className="text-blue-600 underline">{t('blog.posts.futureHomeHairRemoval.title')}</Link></li>
+            </ul>
+          </div>
+        </section>
+      </article>
     </div>
   );
 };
