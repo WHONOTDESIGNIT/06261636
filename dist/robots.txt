@@ -42,34 +42,6 @@ Disallow: /private/
 Disallow: /.git/
 Disallow: /node_modules/
 
-# Block spam crawlers and malicious bots
-User-agent: MJ12bot
-Disallow: /
-
-User-agent: AhrefsBot
-Disallow: /
-
-User-agent: SemrushBot
-Disallow: /
-
-User-agent: MegaIndex
-Disallow: /
-
-User-agent: BLEXBot
-Disallow: /
-
-User-agent: DotBot
-Disallow: /
-
-# Block spam referrer parameters
-Disallow: /*?utm_source=dmnsrc.net
-Disallow: /*?utm_source=hotbox.ru
-Disallow: /*?ref=dmnsrc.net
-Disallow: /*?ref=hotbox.ru
-Disallow: /*?referrer=dmnsrc.net
-Disallow: /*?referrer=hotbox.ru
-Disallow: /*?source=hair-loss-cure-solution.com
-
 # Sitemap location
 Sitemap: https://iplmanufacturer.com/sitemap.xml
 Sitemap: https://iplmanufacturer.com/sitemap-yandex.xml
