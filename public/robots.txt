@@ -37,8 +37,5 @@ Disallow: /private/
 Disallow: /.git/
 Disallow: /node_modules/
 
-# Crawl delay to be respectful
-Crawl-delay: 1
-
-# Sitemap
+# Sitemap location
 Sitemap: https://ishine-ipl.com/sitemap.xml
