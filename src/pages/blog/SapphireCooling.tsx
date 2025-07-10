@@ -288,6 +288,7 @@ const SapphireCooling: React.FC = () => {
           <p>This article is authored by <strong>SHENZHEN ISHINE TECHNOLOGY COMPANY LIMITED</strong>, a leading innovator in the home-use hair removal device industry. The company is owned by <strong>Chaohui An</strong>, who brings over ten years of experience specializing in project planning and the functional customization of hair removal devices. With a deep understanding of both product development and user needs, Chaohui An and the iShine team are dedicated to advancing safe, effective, and user-friendly solutions for at-home beauty care.</p>
         </div>
       </section>
+      </article>
     </div>
   );
 };
