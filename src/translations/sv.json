@@ -1,38 +1,38 @@
 {
   "meta": {
-    "title": "iShine - IPL-enheter tillverkningslösningar | Från idé till marknad",
-    "description": "Ledande IPL-enhetstillverkare som erbjuder OEM/ODM-lösningar från idé till marknad. Anpassade IPL-hårborttagningsenheter för globala skönhetsmärken.",
-    "keywords": "IPL-enheter, OEM-tillverkning, ODM-lösningar, hårborttagning, skönhetsenheter, anpassad tillverkning"
+    "title": "iShine - IPL-enhet produktionslösningar | Från idé till marknad",
+    "description": "Ledande IPL-enhet tillverkare som levererar omfattande OEM/ODM-lösningar från idé till marknad. Anpassade IPL-hårborttagning enheter för globala skönhetsmärken.",
+    "keywords": "IPL-enheter, OEM-produktion, ODM-lösningar, hårborttagning, skönhetsenheter, anpassad produktion"
   },
   "header": {
     "navigation": {
       "solutions": "Lösningar",
       "iplHairRemoval": "IPL-hårborttagning",
       "howToUse": "Hur man använder",
-      "serviceSupport": "Service & Support",
+      "serviceSupport": "Service och support",
       "about": "Om oss",
       "contact": "Kontakt"
     },
     "solutions": {
-      "logoPrinting": "Logotyputskrift",
+      "logoPrinting": "Logotyp utskrift",
       "packaging": "Förpackningslösningar",
-      "dropShipping": "Direktfrakt",
+      "dropShipping": "Dropshipping",
       "globalShipping": "Global frakt",
-      "brandCustomization": "Varumärkesanpassning",
-      "compliance": "Efterlevnad & Certifieringar",
-      "designPrototyping": "Design & Prototyper",
-      "multiHeadIPL": "Flerhuvud IPL-anpassning",
-      "dualLampIPL": "Dubbellampa IPL-anpassning"
+      "brandCustomization": "Märkesanpassning",
+      "compliance": "Efterlevnad och certifieringar",
+      "designPrototyping": "Design och prototypframställning",
+      "multiHeadIPL": "Multi-huvud IPL anpassad",
+      "dualLampIPL": "Dubbel lampa IPL anpassad"
     },
     "iplDevices": {
-      "smartApp": "Smart app-styrd IPL-enhet",
+      "smartApp": "Smart app-kontrollerad IPL-enhet",
       "iceFeeling": "Iskänsla IPL-enhet",
-      "emerald": "Emerald IPL-enhet",
-      "skinSensor": "Hudsensor IPL-enhet",
-      "batteryPowered": "Batteridrivet IPL-enhet",
+      "emerald": "Smaragd IPL-enhet",
+      "skinSensor": "IPL-enhet med hudsensor",
+      "batteryPowered": "Batteridriven IPL-enhet",
       "handheld": "Handhållen IPL-enhet",
       "iceCooling": "Iskylning IPL-enhet",
-      "dualLamp": "Dubbellampa IPL-enhet",
+      "dualLamp": "Dubbel lampa IPL-enhet",
       "aiPowered": "AI-driven IPL-enhet"
     },
     "accessories": {
@@ -98,7 +98,7 @@
     },
     "contact": {
       "title": "Kontakt",
-      "tel": "Telefon",
+      "tel": "Tel",
       "whatsapp": "WhatsApp",
       "email": "E-post",
       "address": "ADRESS",
@@ -111,8 +111,8 @@
   "home": {
     "hero": {
       "title1": "Anpassade IPL-enheter",
-      "title2": "& Märkta IPL-enheter",
-      "subtitle": "Global ledande IPL-enhetstillverkare, hjälper dig att designa, bygga och paketera.",
+      "title2": "och märkes IPL-enheter",
+      "subtitle": "Globalt ledande IPL-enhet tillverkare, vi hjälper dig att designa, bygga och förpacka.",
       "cta": "Få offert"
     },
     "partners": {
@@ -165,10 +165,10 @@
     },
     "form": {
       "title": "Vad har du i tankarna? Låt oss prata!",
-      "subtitle": "Fyll i detta formulär för att komma igång. Vi kommer att kontakta dig inom 24 timmar.",
+      "subtitle": "Fyll i detta formulär för att starta processen. Vi kontaktar dig inom 24 timmar.",
       "name": "Namn*",
       "email": "E-postadress*",
-      "phone": "Telefonnummer* t.ex.(+46-70-1234567)",
+      "phone": "Telefonnummer* t.ex. (+46-8-123-456-78)",
       "country": "Land",
       "message": "Beskriv dina behov här*",
       "submit": "Skicka",
@@ -385,8 +385,8 @@
       }
     },
     "iceCooling": {
-      "title": "Ice Cooling IPL Hair Removal Device",
-      "desc": "Experience professional-grade luxurious ice cooling hair removal technology, featuring an aerospace-grade cooling metal plate that instantly cools the skin to 5°C ultra-low temperature. Combined with 2.0~5.0 J/cm² high-energy IPL pulses and 999,000+ flashes, it delivers a goddess-like silky skin experience. The luxurious design is crafted for perfection-seeking modern women.",
+      "title": "IPL-hårborttagning enhet iskylning",
+      "desc": "Upplev lyxig professionell iskylning hårborttagning teknologi, utrustad med en rymdklass kylning metallplatta som omedelbart kyler huden till en ultra-låg temperatur på 5°C.",
       "features": {
         "luxuryDesign": "Luxurious goddess design — Aerospace-grade metal texture, showcasing noble taste.",
         "coolingPlate": "Ice cooling plate technology — Instantly cools skin to 5°C for truly painless experience.",
@@ -396,8 +396,8 @@
       }
     },
     "iceFeeling": {
-      "title": "Sapphire Ice Feeling IPL Device",
-      "desc": "Enjoy painless hair removal with a clinical-grade Sapphire cooling plate that chills skin to 5°C, enabling higher energy pulses for quicker results. The integrated Intense Pulsed Light (IPL) engine delivers 2.0~5.0 J/cm² of energy with 999,999 flashes for a lifetime of use.",
+      "title": "Safir iskänsla IPL-enhet",
+      "desc": "Njut av smärtfri hårborttagning med en klinisk safir kylplatta som kyler huden till 5°C, vilket möjliggör högre energipulser för snabbare resultat.",
       "features": {
         "longSmooth": "Long-lasting smoothness — visible reduction after 3-4 weeks.",
         "cooling": "Cooling plate keeps epidermis at 5°C for true painless treatments.",
@@ -407,8 +407,8 @@
       }
     },
     "skinSensor": {
-      "title": "Skin Sensor IPL Device",
-      "desc": "Experience the safest and most intelligent home hair removal with our Skin Sensor IPL Device. This revolutionary device features advanced optical skin sensors that automatically detect your skin tone and hair color – delivering personalized treatment intensity for maximum effectiveness and complete safety. With real-time skin analysis and automatic energy adjustment, this device is perfect for all suitable skin types and ensures optimal results every time.",
+      "title": "IPL-enhet med hudsensor",
+      "desc": "Upplev den säkraste och smartaste hemma hårborttagning med vår hudsensor IPL-enhet. Denna revolutionära enhet har avancerade optiska hudsensorer som automatiskt känner igen din hudton och hårfärg.",
       "features": {
         "intelligentDetection": "Intelligent Skin Detection – Advanced sensors automatically identify skin tone and adjust energy levels",
         "maxSafety": "Maximum Safety – Prevents over-treatment and reduces risk of skin irritation or burns",
@@ -418,8 +418,8 @@
       }
     },
     "smartApp": {
-      "title": "Smart App IPL Hair Removal Device",
-      "desc": "Seamlessly connect your IPL device via Bluetooth to our SmartApp. Enjoy guided treatments, real-time session tracking, personalized routines, and AI-powered insights. Control intensity levels, monitor progress, and receive reminders—all from your smartphone.",
+      "title": "Smart app IPL-hårborttagning enhet",
+      "desc": "Anslut din IPL-enhet sömlöst via Bluetooth till vår SmartApp. Njut av guidade behandlingar, realtids sessionsuppföljning, personliga rutiner och AI-drivna insikter.",
       "features": {
         "bluetooth": "Bluetooth 5.0 connectivity for stable pairing",
         "aiPlans": "Personalized treatment plans via AI analysis",
@@ -430,26 +430,26 @@
     }
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "Vanliga frågor",
     "shipping": {
-      "q": "Can you ship globally?",
-      "a": "Absolutely. We offer reliable worldwide shipping to support your business wherever you are."
+      "q": "Kan ni skicka över hela världen?",
+      "a": "Absolut. Vi erbjuder pålitlig global frakt för att stödja ditt företag var du än är."
     },
     "customization": {
-      "q": "Can I customize the device functions?",
-      "a": "Yes, we offer full customization of features, colors, packaging, and more to fit your brand needs."
+      "q": "Kan jag anpassa enhetens funktioner?",
+      "a": "Ja, vi erbjuder full anpassning av funktioner, färger, förpackning och mer för att möta ditt märkes behov."
     },
     "certifications": {
-      "q": "What certifications do you support?",
-      "a": "We support FDA, CE, RoHS, and other global certifications to ensure compliance in your target markets."
+      "q": "Vilka certifieringar stödjer ni?",
+      "a": "Vi stödjer FDA, CE, RoHS och andra globala certifieringar för att säkerställa efterlevnad på dina målmarknader."
     },
     "leadTime": {
-      "q": "How long is the production lead time?",
-      "a": "Typical lead time is 25-35 days after sample approval, depending on order size and customization."
+      "q": "Vad är produktionens ledtid?",
+      "a": "Typisk ledtid är 25-35 dagar efter provgodkännande, beroende på beställningsstorlek och anpassning."
     },
     "afterSales": {
-      "q": "Do you provide after-sales support?",
-      "a": "Yes, we offer comprehensive after-sales service including technical support and warranty."
+      "q": "Tillhandahåller ni support efter försäljning?",
+      "a": "Ja, vi erbjuder omfattande support efter försäljning inklusive teknisk support och garanti."
     }
   },
   "cta": {
@@ -473,7 +473,7 @@
   "blog": {
     "posts": {
       "sustainableManufacturing": {
-        "title": "Sustainable Manufacturing: Green IPL Production Methods",
+        "title": "Hållbar tillverkning: Gröna IPL-produktionsmetoder",
         "intro": "As the demand for at-home IPL (Intense Pulsed Light) hair removal devices surges, so does the responsibility to produce these electronics with minimal environmental impact. Sustainable manufacturing is no longer a trend but a necessity—encompassing every stage from raw material sourcing to end-of-life recycling. This article assesses the environmental footprint of IPL device production and explores innovative, practical strategies for achieving a truly green supply chain, with a focus on electronics, optics, eco-friendly ABS housings, sustainable packaging, and waste reutilization.",
         "sections": {
           "environmentalImpact": "Environmental Impact Assessment of IPL Device Manufacturing",
@@ -489,7 +489,7 @@
         }
       },
       "globalMarketShifts": {
-        "title": "Global Market Shifts: IPL Device Trends and Opportunities",
+        "title": "Globala marknadsförändringar: IPL-enhet trender och möjligheter",
         "intro": "Explore the latest global trends in IPL device adoption, regulatory changes, and market opportunities for brands and manufacturers.",
         "sections": {
           "marketOverview": "Market Overview",
@@ -502,7 +502,7 @@
         }
       },
       "aiPoweredSkinSensing": {
-        "title": "AI-Powered Skin Sensing: The Next Frontier in IPL Safety",
+        "title": "AI-driven hudavkänning: Nästa gräns inom IPL-säkerhet",
         "intro": "How artificial intelligence is revolutionizing IPL device safety and personalization through real-time skin analysis.",
         "sections": {
           "introduction": "Introduction",
@@ -515,7 +515,7 @@
         }
       },
       "multiHeadIPLSystems": {
-        "title": "Multi-Head IPL Systems: Precision Meets Full-Body Efficiency",
+        "title": "Multi-huvud IPL-system: Precision möter helkropps effektivitet",
         "intro": "The evolution of at-home hair removal has been profoundly shaped by the introduction of multi-head Intense Pulsed Light (IPL) systems. Philips pioneered this trend with its interchangeable head technology, setting a new standard for versatility and user-centric design in home-use IPL devices.",
         "sections": {
           "philipsLegacy": "The Philips Legacy: Setting the Standard for Multi-Head IPL",
@@ -529,7 +529,7 @@
         }
       },
       "sapphireCooling": {
-        "title": "Sapphire Cooling: Enhancing Comfort in IPL Treatments",
+        "title": "Safir kylning: Förbättring av komfort i IPL-behandlingar",
         "intro": "Discover how sapphire cooling technology is transforming the comfort and safety of IPL hair removal treatments.",
         "sections": {
           "technologyOverview": "Technology Overview",
@@ -542,7 +542,7 @@
         }
       },
       "industries": {
-        "title": "Industries We Serve: IPL Applications Across Sectors",
+        "title": "Industrier vi betjänar: IPL-tillämpningar över sektorer",
         "intro": "IPL technology is not just for beauty—explore its applications in medical, veterinary, and industrial sectors.",
         "sections": {
           "beauty": "Beauty Industry",
@@ -554,7 +554,7 @@
         }
       },
       "iplBestChoice": {
-        "title": "Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools",
+        "title": "Varför hemma IPL-hårborttagning enheter är det bästa valet bland alla hårborttagning verktyg",
         "intro": "Discover why IPL is the most effective, comfortable, and convenient solution for long-term hair removal at home—backed by science and real user experience.",
         "sections": {
           "comparison": "Hair Removal Methods Comparison",
@@ -566,7 +566,7 @@
         }
       },
       "futureHomeHairRemoval": {
-        "title": "The Future of Home Hair Removal Devices: Trends, Innovations, and What's Next",
+        "title": "Framtiden för hemma hårborttagning enheter: Trender, innovationer och vad som kommer",
         "intro": "Explore the evolution, current breakthroughs, and the next generation of home hair removal devices—AI, multifunctionality, and sustainable design for 2025 and beyond.",
         "sections": {
           "evolution": "Evolution of Home Hair Removal Technology",
@@ -580,7 +580,7 @@
         }
       },
       "fda510kPathway": {
-        "title": "FDA 510(k) Pathway: Navigating Medical Device Classification for IPL",
+        "title": "FDA 510(k) väg: Navigering av medicinsk utrustning klassificering för IPL",
         "intro": "A comprehensive guide to the FDA 510(k) pathway for home-use IPL hair removal devices. Learn about regulatory requirements, marketing claims, and how iShine helps brands achieve compliance.",
         "sections": {
           "introduction": "Introduction",
@@ -596,5 +596,9 @@
         }
       }
     }
+  },
+  "floating": {
+    "contact": "Kontakta oss",
+    "backToTop": "Tillbaka till toppen"
   }
 }
