@@ -3,35 +3,36 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { useTranslation } from '../../hooks/useTranslation';
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "The Future of Home Hair Removal Devices: Trends, Innovations, and What's Next",
-  "description": "Discover the latest trends and future innovations in home hair removal devices. Explore AI, multifunctionality, and sustainable design for 2025 and beyond.",
-  "author": {
-    "@type": "Organization",
-    "name": "SHENZHEN ISHINE TECHNOLOGY COMPANY LIMITED"
-  },
-  "datePublished": "2024-07-04",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "/future-home-hair-removal-devices"
-  }
-};
-
 const FutureHomeHairRemoval: React.FC = () => {
   const { t } = useTranslation();
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": t('blog.posts.futureHomeHairRemoval.title'),
+    "description": t('blog.posts.futureHomeHairRemoval.intro'),
+    "author": {
+      "@type": "Organization",
+      "name": "SHENZHEN ISHINE TECHNOLOGY COMPANY LIMITED"
+    },
+    "datePublished": "2024-07-03",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "/blog/future-home-hair-removal"
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white" style={{ wordSpacing: '0.1em' }}>
       <Helmet>
-        <title>Next-Gen Home Hair Removal Devices: Trends & Innovations 2025</title>
-        <meta name="description" content="Discover the latest trends and future innovations in home hair removal devices. Explore AI, multifunctionality, and sustainable design for 2025 and beyond." />
-        <meta name="keywords" content="home hair removal device, IPL hair removal, next-generation hair removal, AI beauty tech, at-home laser hair removal, hair removal trends 2025, painless hair removal, sustainable beauty devices" />
-        <link rel="canonical" href="/future-home-hair-removal-devices" />
+        <title>{t('blog.posts.futureHomeHairRemoval.title')}</title>
+        <meta name="description" content={t('blog.posts.futureHomeHairRemoval.intro')} />
+        <meta name="keywords" content="future hair removal, home IPL devices, AI technology, sustainability, personalization, at-home beauty trends" />
+        <link rel="canonical" href="/blog/future-home-hair-removal" />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
       
-      {/* Hero 横幅区域 - 统一YBS Packaging样式 */}
+      {/* Hero 横幅区域 */}
       <div 
         className="w-full py-16 px-4"
         style={{
@@ -72,7 +73,7 @@ const FutureHomeHairRemoval: React.FC = () => {
               textOverflow: 'ellipsis'
             }}
           >
-            The Future of Home Hair Removal Devices: Trends, Innovations, and What's Next
+            {t('blog.posts.futureHomeHairRemoval.title')}
           </h1>
           
           {/* 发布日期 */}
@@ -85,11 +86,11 @@ const FutureHomeHairRemoval: React.FC = () => {
               textAlign: 'left'
             }}
           >
-            July 4, 2024
+            {t('futureHomeHairRemoval.publishDate')}
           </p>
         </div>
       </div>
-
+      
       <article 
         className="max-w-4xl mx-auto px-5 py-16" 
         style={{ 
@@ -98,124 +99,263 @@ const FutureHomeHairRemoval: React.FC = () => {
           wordSpacing: '0.1em'
         }}
       >
-      {/* Evolution Section */}
-      <section className="py-10 bg-white">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('futureHomeHairRemoval.evolutionTitle')}</h2>
-          <p>{t('futureHomeHairRemoval.evolutionDescription')}</p>
-          <ul className="list-disc pl-6 space-y-2 mt-2">
-            <li>{t('futureHomeHairRemoval.evolutionItem1')}</li>
-            <li>{t('futureHomeHairRemoval.evolutionItem2')}</li>
-            <li>{t('futureHomeHairRemoval.evolutionItem3')}</li>
-            <li>{t('futureHomeHairRemoval.evolutionItem4')}</li>
-            <li>{t('futureHomeHairRemoval.evolutionItem5')}</li>
+        {/* Introduction */}
+        <section className="mb-12">
+          <h2 
+            style={{
+              fontSize: '1.75rem',
+              fontWeight: '600',
+              marginTop: '48px',
+              marginBottom: '24px',
+              color: '#212529',
+              letterSpacing: '-0.02em'
+            }}
+          >
+            {t('blog.posts.futureHomeHairRemoval.sections.introduction')}
+          </h2>
+          <p 
+            style={{
+              fontSize: '18px',
+              lineHeight: '1.7',
+              color: '#495057',
+              marginBottom: '24px',
+              textAlign: 'justify',
+              wordSpacing: '0.1em'
+            }}
+          >
+            {t('futureHomeHairRemoval.introduction.content')}
+          </p>
+        </section>
+
+        {/* AI-Powered Precision */}
+        <section className="mb-12">
+          <h2 
+            style={{
+              fontSize: '1.75rem',
+              fontWeight: '600',
+              marginTop: '48px',
+              marginBottom: '24px',
+              color: '#212529',
+              letterSpacing: '-0.02em'
+            }}
+          >
+            {t('futureHomeHairRemoval.aiPowered.title')}
+          </h2>
+          <p 
+            style={{
+              fontSize: '18px',
+              lineHeight: '1.7',
+              color: '#495057',
+              marginBottom: '24px',
+              textAlign: 'justify',
+              wordSpacing: '0.1em'
+            }}
+          >
+            {t('futureHomeHairRemoval.aiPowered.content')}
+          </p>
+          <h3 
+            style={{
+              fontSize: '1.5rem',
+              fontWeight: '600',
+              marginBottom: '16px',
+              color: '#212529',
+              letterSpacing: '-0.02em'
+            }}
+          >
+            {t('futureHomeHairRemoval.aiFeatures.title')}
+          </h3>
+          <ul className="list-disc pl-6 space-y-3">
+            <li style={{ fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
+              <strong>{t('futureHomeHairRemoval.aiFeatures.smartSkinDetection.title')}:</strong> {t('futureHomeHairRemoval.aiFeatures.smartSkinDetection.desc')}
+            </li>
+            <li style={{ fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
+              <strong>{t('futureHomeHairRemoval.aiFeatures.adaptiveIntensity.title')}:</strong> {t('futureHomeHairRemoval.aiFeatures.adaptiveIntensity.desc')}
+            </li>
+            <li style={{ fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
+              <strong>{t('futureHomeHairRemoval.aiFeatures.predictiveAnalysis.title')}:</strong> {t('futureHomeHairRemoval.aiFeatures.predictiveAnalysis.desc')}
+            </li>
           </ul>
-          <p className="mt-4">{t('futureHomeHairRemoval.evolutionLearnMore')}</p>
-        </div>
-      </section>
-      {/* State of the Art Section */}
-      <section className="py-10 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('futureHomeHairRemoval.stateOfTheArtTitle')}</h2>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>{t('futureHomeHairRemoval.stateOfTheArtItem1')}</li>
-            <li>{t('futureHomeHairRemoval.stateOfTheArtItem2')}</li>
-            <li>{t('futureHomeHairRemoval.stateOfTheArtItem3')}</li>
-            <li>{t('futureHomeHairRemoval.stateOfTheArtItem4')}</li>
-            <li>{t('futureHomeHairRemoval.stateOfTheArtItem5')}</li>
-          </ul>
-        </div>
-      </section>
-      {/* Imagining the Future Section */}
-      <section className="py-10 bg-white">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('futureHomeHairRemoval.imaginingFutureTitle')}</h2>
-          <h3 className="text-xl font-semibold mb-2">{t('futureHomeHairRemoval.endToEndAI')}</h3>
-          <ul className="list-disc pl-6 mb-4">
-            <li>{t('futureHomeHairRemoval.endToEndAIItem1')}</li>
-            <li>{t('futureHomeHairRemoval.endToEndAIItem2')}</li>
-            <li>{t('futureHomeHairRemoval.endToEndAIItem3')}</li>
-          </ul>
-          <h3 className="text-xl font-semibold mb-2">{t('futureHomeHairRemoval.multifunctionalBeauty')}</h3>
-          <ul className="list-disc pl-6 mb-4">
-            <li>{t('futureHomeHairRemoval.multifunctionalBeautyItem1')}</li>
-            <li>{t('futureHomeHairRemoval.multifunctionalBeautyItem2')}</li>
-          </ul>
-          <h3 className="text-xl font-semibold mb-2">{t('futureHomeHairRemoval.ultimateComfort')}</h3>
-          <ul className="list-disc pl-6 mb-4">
-            <li>{t('futureHomeHairRemoval.ultimateComfortItem1')}</li>
-            <li>{t('futureHomeHairRemoval.ultimateComfortItem2')}</li>
-            <li>{t('futureHomeHairRemoval.ultimateComfortItem3')}</li>
-          </ul>
-          <h3 className="text-xl font-semibold mb-2">{t('futureHomeHairRemoval.sustainability')}</h3>
-          <ul className="list-disc pl-6">
-            <li>{t('futureHomeHairRemoval.sustainabilityItem1')}</li>
-            <li>{t('futureHomeHairRemoval.sustainabilityItem2')}</li>
-            <li>{t('futureHomeHairRemoval.sustainabilityItem3')}</li>
-          </ul>
-        </div>
-      </section>
-      {/* Vision Section */}
-      <section className="py-10 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('futureHomeHairRemoval.visionTitle')}</h2>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>{t('futureHomeHairRemoval.visionItem1')}</li>
-            <li>{t('futureHomeHairRemoval.visionItem2')}</li>
-            <li>{t('futureHomeHairRemoval.visionItem3')}</li>
-          </ul>
-        </div>
-      </section>
-      {/* Challenges Section */}
-      <section className="py-10 bg-white">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('futureHomeHairRemoval.challengesTitle')}</h2>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>{t('futureHomeHairRemoval.challengesItem1')}</li>
-            <li>{t('futureHomeHairRemoval.challengesItem2')}</li>
-            <li>{t('futureHomeHairRemoval.challengesItem3')}</li>
-          </ul>
-        </div>
-      </section>
-      {/* FAQ Section */}
-      <section className="py-10 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-xl font-bold mb-4 text-gray-900">{t('futureHomeHairRemoval.faqTitle')}</h2>
-          <div className="space-y-4">
-            <div>
-              <h3 className="font-semibold">{t('futureHomeHairRemoval.faqQuestion1')}</h3>
-              <p>{t('futureHomeHairRemoval.faqAnswer1')}</p>
+        </section>
+
+        {/* Next-Generation Cooling Technology */}
+        <section className="mb-12">
+          <h2 
+            style={{
+              fontSize: '1.75rem',
+              fontWeight: '600',
+              marginTop: '48px',
+              marginBottom: '24px',
+              color: '#212529',
+              letterSpacing: '-0.02em'
+            }}
+          >
+            {t('futureHomeHairRemoval.coolingTech.title')}
+          </h2>
+          <p 
+            style={{
+              fontSize: '18px',
+              lineHeight: '1.7',
+              color: '#495057',
+              marginBottom: '24px',
+              textAlign: 'justify',
+              wordSpacing: '0.1em'
+            }}
+          >
+            {t('futureHomeHairRemoval.coolingTech.content')}
+          </p>
+          <div className="bg-blue-50 p-6 rounded-lg mb-6">
+            <h3 className="text-lg font-semibold mb-3 text-blue-900">{t('futureHomeHairRemoval.coolingInnovations.title')}</h3>
+            <ul className="list-disc pl-6 space-y-2">
+              <li className="text-blue-800">{t('futureHomeHairRemoval.coolingInnovations.cryogenicCooling')}</li>
+              <li className="text-blue-800">{t('futureHomeHairRemoval.coolingInnovations.liquidNitrogen')}</li>
+              <li className="text-blue-800">{t('futureHomeHairRemoval.coolingInnovations.thermoelectric')}</li>
+            </ul>
+          </div>
+        </section>
+
+        {/* Sustainability Focus */}
+        <section className="mb-12">
+          <h2 
+            style={{
+              fontSize: '1.75rem',
+              fontWeight: '600',
+              marginTop: '48px',
+              marginBottom: '24px',
+              color: '#212529',
+              letterSpacing: '-0.02em'
+            }}
+          >
+            {t('futureHomeHairRemoval.sustainability.title')}
+          </h2>
+          <p 
+            style={{
+              fontSize: '18px',
+              lineHeight: '1.7',
+              color: '#495057',
+              marginBottom: '24px',
+              textAlign: 'justify',
+              wordSpacing: '0.1em'
+            }}
+          >
+            {t('futureHomeHairRemoval.sustainability.content')}
+          </p>
+          <div className="bg-green-50 p-6 rounded-lg mb-6">
+            <h3 className="text-lg font-semibold mb-3 text-green-900">{t('futureHomeHairRemoval.ecoFeatures.title')}</h3>
+            <ul className="list-disc pl-6 space-y-2">
+              <li className="text-green-800">{t('futureHomeHairRemoval.ecoFeatures.solarPowered')}</li>
+              <li className="text-green-800">{t('futureHomeHairRemoval.ecoFeatures.recyclableComponents')}</li>
+              <li className="text-green-800">{t('futureHomeHairRemoval.ecoFeatures.energyEfficient')}</li>
+              <li className="text-green-800">{t('futureHomeHairRemoval.ecoFeatures.biodegradablePackaging')}</li>
+            </ul>
+          </div>
+        </section>
+
+        {/* Personalization and Connectivity */}
+        <section className="mb-12">
+          <h2 
+            style={{
+              fontSize: '1.75rem',
+              fontWeight: '600',
+              marginTop: '48px',
+              marginBottom: '24px',
+              color: '#212529',
+              letterSpacing: '-0.02em'
+            }}
+          >
+            {t('futureHomeHairRemoval.personalization.title')}
+          </h2>
+          <p 
+            style={{
+              fontSize: '18px',
+              lineHeight: '1.7',
+              color: '#495057',
+              marginBottom: '24px',
+              textAlign: 'justify',
+              wordSpacing: '0.1em'
+            }}
+          >
+            {t('futureHomeHairRemoval.personalization.content')}
+          </p>
+          <div className="grid md:grid-cols-2 gap-6 mb-6">
+            <div className="bg-purple-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold mb-3 text-purple-900">{t('futureHomeHairRemoval.smartFeatures.title')}</h3>
+              <ul className="list-disc pl-6 space-y-2">
+                <li className="text-purple-800">{t('futureHomeHairRemoval.smartFeatures.mobileApp')}</li>
+                <li className="text-purple-800">{t('futureHomeHairRemoval.smartFeatures.cloudSync')}</li>
+                <li className="text-purple-800">{t('futureHomeHairRemoval.smartFeatures.remoteMonitoring')}</li>
+              </ul>
             </div>
-            <div>
-              <h3 className="font-semibold">{t('futureHomeHairRemoval.faqQuestion2')}</h3>
-              <p>{t('futureHomeHairRemoval.faqAnswer2')}</p>
-            </div>
-            <div>
-              <h3 className="font-semibold">{t('futureHomeHairRemoval.faqQuestion3')}</h3>
-              <p>{t('futureHomeHairRemoval.faqAnswer3')}</p>
+            <div className="bg-orange-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold mb-3 text-orange-900">{t('futureHomeHairRemoval.userExperience.title')}</h3>
+              <ul className="list-disc pl-6 space-y-2">
+                <li className="text-orange-800">{t('futureHomeHairRemoval.userExperience.voiceControl')}</li>
+                <li className="text-orange-800">{t('futureHomeHairRemoval.userExperience.gestureRecognition')}</li>
+                <li className="text-orange-800">{t('futureHomeHairRemoval.userExperience.hapticFeedback')}</li>
+              </ul>
             </div>
           </div>
-        </div>
-      </section>
-      {/* Internal & External Links */}
-      <section className="py-10 bg-white">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-xl font-bold mb-4 text-gray-900">{t('futureHomeHairRemoval.exploreMoreTitle')}</h2>
-          <ul className="list-inside list-disc space-y-2">
-            <li><Link to="/ipl-hair-removal" className="text-blue-600 underline">{t('futureHomeHairRemoval.iplProductRange')}</Link></li>
-            <li><Link to="/how-to-use" className="text-blue-600 underline">{t('futureHomeHairRemoval.howToUse')}</Link></li>
-            <li><a href="https://www.healthline.com/health/beauty-skin-care/hair-removal-methods" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">{t('futureHomeHairRemoval.hairRemovalMethods')}</a></li>
-            <li><Link to="/blog/news-insights" className="text-blue-600 underline">{t('futureHomeHairRemoval.latestTechnologyInsights')}</Link></li>
-          </ul>
-        </div>
-      </section>
-      {/* Author & Company Info */}
-      <section className="py-10 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-xl font-bold mb-4 text-gray-900">{t('futureHomeHairRemoval.aboutAuthorTitle')}</h2>
-          <p>{t('futureHomeHairRemoval.aboutAuthorDescription')}</p>
-        </div>
-      </section>
+        </section>
+
+        {/* Industry Timeline */}
+        <section className="py-10 bg-gray-50">
+          <div className="max-w-4xl mx-auto px-4">
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('futureHomeHairRemoval.timeline.title')}</h2>
+            <div className="space-y-6">
+              <div className="border-l-4 border-blue-500 pl-4">
+                <h3 className="font-semibold text-lg">{t('futureHomeHairRemoval.timeline.current.title')}</h3>
+                <p className="text-gray-700">{t('futureHomeHairRemoval.timeline.current.desc')}</p>
+              </div>
+              <div className="border-l-4 border-green-500 pl-4">
+                <h3 className="font-semibold text-lg">{t('futureHomeHairRemoval.timeline.nextFiveYears.title')}</h3>
+                <p className="text-gray-700">{t('futureHomeHairRemoval.timeline.nextFiveYears.desc')}</p>
+              </div>
+              <div className="border-l-4 border-purple-500 pl-4">
+                <h3 className="font-semibold text-lg">{t('futureHomeHairRemoval.timeline.nextDecade.title')}</h3>
+                <p className="text-gray-700">{t('futureHomeHairRemoval.timeline.nextDecade.desc')}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Conclusion */}
+        <section className="mb-12">
+          <h2 
+            style={{
+              fontSize: '1.75rem',
+              fontWeight: '600',
+              marginTop: '48px',
+              marginBottom: '24px',
+              color: '#212529',
+              letterSpacing: '-0.02em'
+            }}
+          >
+            {t('blog.posts.futureHomeHairRemoval.sections.conclusion')}
+          </h2>
+          <p 
+            style={{
+              fontSize: '18px',
+              lineHeight: '1.7',
+              color: '#495057',
+              marginBottom: '24px',
+              textAlign: 'justify',
+              wordSpacing: '0.1em'
+            }}
+          >
+            {t('futureHomeHairRemoval.conclusion.content')}
+          </p>
+        </section>
+
+        {/* Related Articles */}
+        <section className="py-10 bg-gray-50">
+          <div className="max-w-4xl mx-auto px-4">
+            <h2 className="text-xl font-bold mb-4 text-gray-900">{t('common.relatedArticles')}</h2>
+            <ul className="list-inside list-disc space-y-2">
+              <li><Link to="/blog/ai-powered-skin-sensing" className="text-blue-600 underline">{t('blog.posts.aiPoweredSkinSensing.title')}</Link></li>
+              <li><Link to="/blog/sustainable-manufacturing" className="text-blue-600 underline">{t('blog.posts.sustainableManufacturing.title')}</Link></li>
+              <li><Link to="/blog/global-market-shifts" className="text-blue-600 underline">{t('blog.posts.globalMarketShifts.title')}</Link></li>
+            </ul>
+          </div>
+        </section>
       </article>
     </div>
   );
