@@ -14,87 +14,87 @@
       "contact": "যোগাযোগ"
     },
     "solutions": {
-      "logoPrinting": "Logo Printing",
-      "packaging": "Packaging Solutions",
-      "dropShipping": "Drop Shipping",
-      "globalShipping": "Global Shipping",
-      "brandCustomization": "Brand Customization",
-      "compliance": "Compliance & Certifications",
-      "designPrototyping": "Design & Prototyping",
-      "multiHeadIPL": "Multi-head IPL Custom",
-      "dualLampIPL": "Dual-lamp IPL Custom"
+      "logoPrinting": "লোগো প্রিন্টিং",
+      "packaging": "প্যাকেজিং সমাধান",
+      "dropShipping": "ড্রপ শিপিং",
+      "globalShipping": "বিশ্বব্যাপী শিপিং",
+      "brandCustomization": "ব্র্যান্ড কাস্টমাইজেশন",
+      "compliance": "সম্মতি ও সার্টিফিকেশন",
+      "designPrototyping": "ডিজাইন ও প্রোটোটাইপিং",
+      "multiHeadIPL": "মাল্টি-হেড IPL কাস্টম",
+      "dualLampIPL": "ডুয়েল-ল্যাম্প IPL কাস্টম"
     },
     "iplDevices": {
-      "smartApp": "Smart App-Controlled IPL Device",
-      "iceFeeling": "Ice Feeling IPL Device",
-      "emerald": "Emerald IPL Device",
-      "skinSensor": "Skin Sensor IPL Device",
-      "batteryPowered": "Battery Powered IPL Device",
-      "handheld": "Handheld IPL Device",
-      "iceCooling": "Ice Cooling IPL Device",
-      "dualLamp": "Dual-Lamp IPL Device",
-      "aiPowered": "AI-POWERED IPL Device"
+      "smartApp": "স্মার্ট অ্যাপ-নিয়ন্ত্রিত IPL ডিভাইস",
+      "iceFeeling": "আইস ফিলিং IPL ডিভাইস",
+      "emerald": "এমেরাল্ড IPL ডিভাইস",
+      "skinSensor": "স্কিন সেন্সর IPL ডিভাইস",
+      "batteryPowered": "ব্যাটারি চালিত IPL ডিভাইস",
+      "handheld": "হ্যান্ডহেল্ড IPL ডিভাইস",
+      "iceCooling": "আইস কুলিং IPL ডিভাইস",
+      "dualLamp": "ডুয়েল-ল্যাম্প IPL ডিভাইস",
+      "aiPowered": "AI-চালিত IPL ডিভাইস"
     },
     "accessories": {
-      "sapphireLens": "Sapphire Lens",
-      "adapter": "Adapter",
-      "goggles": "Protective Goggles",
-      "filter": "Filter"
+      "sapphireLens": "স্যাফায়ার লেন্স",
+      "adapter": "অ্যাডাপ্টার",
+      "goggles": "প্রতিরক্ষামূলক গগলস",
+      "filter": "ফিল্টার"
     },
     "serviceSupport": {
-      "service": "Service",
-      "afterSales": "After-Sales Service",
-      "fdaGmp": "FDA GMP Clean Room Design",
-      "manufacturing": "IPL Devices Manufacturing",
-      "knowledgeBase": "Knowledge Base",
-      "support": "Support > Buying Guide",
-      "beautySourcing": "Beauty Niche Sourcing & Accessories",
-      "pricingGuide": "Pricing Guide",
-      "helpCenter": "Help Center",
-      "gallery": "Gallery",
-      "videos": "Videos",
-      "blog": "Blog",
-      "newsInsights": "News & Insights",
-      "industries": "Industries We Serve"
+      "service": "সেবা",
+      "afterSales": "বিক্রয়োত্তর সেবা",
+      "fdaGmp": "FDA GMP ক্লিন রুম ডিজাইন",
+      "manufacturing": "IPL ডিভাইস ম্যানুফ্যাকচারিং",
+      "knowledgeBase": "জ্ঞান ভান্ডার",
+      "support": "সহায়তা > ক্রয় গাইড",
+      "beautySourcing": "বিউটি নিশ সোর্সিং ও আনুষাঙ্গিক",
+      "pricingGuide": "মূল্য নির্ধারণ গাইড",
+      "helpCenter": "সাহায্য কেন্দ্র",
+      "gallery": "গ্যালারি",
+      "videos": "ভিডিও",
+      "blog": "ব্লগ",
+      "newsInsights": "সংবাদ ও অন্তর্দৃষ্টি",
+      "industries": "আমরা যে শিল্পগুলি পরিবেশন করি"
     },
     "about": {
-      "founderMessage": "Founder Message",
-      "technology": "Our Technology",
-      "globalWitness": "Global Witness",
-      "corePrinciples": "Core Principles",
-      "company": "About iShine",
-      "brandStory": "Brand Story",
-      "quality": "Quality"
+      "founderMessage": "প্রতিষ্ঠাতার বার্তা",
+      "technology": "আমাদের প্রযুক্তি",
+      "globalWitness": "বিশ্বব্যাপী সাক্ষী",
+      "corePrinciples": "মূল নীতিমালা",
+      "company": "iShine সম্পর্কে",
+      "brandStory": "ব্র্যান্ডের গল্প",
+      "quality": "গুণমান"
     }
   },
   "footer": {
     "company": {
-      "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market.",
-      "products": "Products",
-      "services": "Services",
-      "company": "Company"
+      "description": "প্রধান IPL ডিভাইস প্রস্তুতকারক যা ধারণা থেকে বাজার পর্যন্ত OEM/ODM সমাধান প্রদান করে।",
+      "products": "পণ্যসমূহ",
+      "services": "সেবাসমূহ",
+      "company": "কোম্পানি"
     },
     "products": {
-      "iplHairRemoval": "IPL Hair Removal",
-      "accessories": "Accessories",
-      "gallery": "Gallery"
+      "iplHairRemoval": "IPL চুল অপসারণ",
+      "accessories": "আনুষাঙ্গিক",
+      "gallery": "গ্যালারি"
     },
     "services": {
-      "afterSales": "After-Sales Service",
-      "manufacturing": "IPL Manufacturing",
-      "buyingGuide": "Buying Guide",
-      "helpCenter": "Help Center"
+      "afterSales": "বিক্রয়োত্তর সেবা",
+      "manufacturing": "IPL ম্যানুফ্যাকচারিং",
+      "buyingGuide": "ক্রয় গাইড",
+      "helpCenter": "সাহায্য কেন্দ্র"
     },
     "companyLinks": {
-      "about": "About iShine",
-      "brandStory": "Brand Story",
-      "quality": "Quality",
-      "blog": "Blog"
+      "about": "iShine সম্পর্কে",
+      "brandStory": "ব্র্যান্ডের গল্প",
+      "quality": "গুণমান",
+      "blog": "ব্লগ"
     },
     "legal": {
-      "copyright": "© 2025 iShine. All rights reserved.",
-      "privacyPolicy": "Privacy Policy",
-      "termsOfService": "Terms of Service"
+      "copyright": "© ২০২৫ iShine। সমস্ত অধিকার সংরক্ষিত।",
+      "privacyPolicy": "গোপনীয়তা নীতি",
+      "termsOfService": "সেবার শর্তাবলী"
     },
     "contact": {
       "title": "যোগাযোগ",
@@ -102,102 +102,102 @@
       "whatsapp": "WhatsApp",
       "email": "ইমেইল",
       "address": "ঠিকানা",
-      "telValue": "+86-15900283962",
-      "whatsappValue": "+86-15012891148",
+      "telValue": "+৮৬-১৫৯০০২৮৩৯৬২",
+      "whatsappValue": "+৮৬-১৫০১২৮৯১১৪৮",
       "emailValue": "service@ishineco.com",
-      "addressValue": "208 Room, 4 Building, No.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, China, 518071"
+      "addressValue": "২০৮ রুম, ৪ বিল্ডিং, নং ৪৫, মাকান রোড, জি'লি স্ট্রিট, শেনঝেন, গুয়াংডং, চীন, ৫১৮০৭১"
     }
   },
   "home": {
     "hero": {
-      "title1": "Custom IPL Devices",
-      "title2": "& Branding IPL Devices",
-      "subtitle": "Global Leading IPL device manufacturer, help you design it, build it, and box it.",
-      "cta": "Get Quote"
+      "title1": "কাস্টম IPL ডিভাইস",
+      "title2": "ও ব্র্যান্ডিং IPL ডিভাইস",
+      "subtitle": "বিশ্বব্যাপী নেতৃস্থানীয় IPL ডিভাইস প্রস্তুতকারক, আমরা আপনাকে এটি ডিজাইন, তৈরি এবং প্যাকেজ করতে সাহায্য করি।",
+      "cta": "উদ্ধৃতি পান"
     },
     "partners": {
-      "title": "Trusted by Global Brands",
-      "subtitle": "Working with industry leaders worldwide"
+      "title": "বিশ্বব্যাপী ব্র্যান্ডের বিশ্বস্ত",
+      "subtitle": "বিশ্বব্যাপী শিল্প নেতাদের সাথে কাজ করা"
     },
     "features": {
-      "title": "Why Choose iShine?",
-      "subtitle": "Complete IPL manufacturing solutions tailored to your needs"
+      "title": "কেন iShine বেছে নেবেন?",
+      "subtitle": "আপনার প্রয়োজন অনুযায়ী সম্পূর্ণ IPL ম্যানুফ্যাকচারিং সমাধান"
     },
     "products": {
-      "title": "Our IPL Device Range",
-      "subtitle": "Wide Range IPL devices for every needs",
-      "cta": "View All IPL Devices"
+      "title": "আমাদের IPL ডিভাইস রেঞ্জ",
+      "subtitle": "প্রতিটি প্রয়োজনের জন্য বিস্তৃত IPL ডিভাইস",
+      "cta": "সমস্ত IPL ডিভাইস দেখুন"
     },
     "cta": {
-      "title": "Need help?",
-      "subtitle": "Let's discuss your requirements and create the IPL solution that best fit for your brand.",
-      "button": "Fill out the form to enjoy Free Consultation"
+      "title": "সাহায্য প্রয়োজন?",
+      "subtitle": "আসুন আপনার প্রয়োজনীয়তা নিয়ে আলোচনা করি এবং আপনার ব্র্যান্ডের জন্য সবচেয়ে উপযুক্ত IPL সমাধান তৈরি করি।",
+      "button": "বিনামূল্যে পরামর্শ উপভোগ করতে ফর্মটি পূরণ করুন"
     }
   },
   "contact": {
     "hero": {
       "title": "আমাদের সাথে যোগাযোগ করুন",
-      "description": "Ready to discuss your IPL project? Get in touch with our expert team today. We're here to help bring your vision to life."
+      "description": "আপনার IPL প্রকল্প নিয়ে আলোচনা করতে প্রস্তুত? আজই আমাদের বিশেষজ্ঞ দলের সাথে যোগাযোগ করুন। আমরা আপনার দৃষ্টিভঙ্গিকে জীবন্ত করতে সাহায্য করতে এখানে আছি।"
     },
     "info": {
-      "title": "Get in Touch",
-      "subtitle": "Multiple ways to reach us - choose what works best for you",
+      "title": "যোগাযোগ করুন",
+      "subtitle": "আমাদের সাথে যোগাযোগের একাধিক উপায় - আপনার জন্য সবচেয়ে ভাল কাজ করে এমনটি বেছে নিন",
       "address": {
-        "title": "Address",
-        "company": "iShine Manufacturing Co., Ltd.",
-        "location": "Shenzhen, Guangdong, China"
+        "title": "ঠিকানা",
+        "company": "iShine ম্যানুফ্যাকচারিং কোং, লিমিটেড।",
+        "location": "শেনঝেন, গুয়াংডং, চীন"
       },
       "phone": {
-        "title": "Phone"
+        "title": "ফোন"
       },
       "email": {
-        "title": "Email"
+        "title": "ইমেইল"
       },
       "hours": {
-        "title": "Business Hours",
-        "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
-        "saturday": "Saturday: 9:00 AM - 12:00 PM"
+        "title": "ব্যবসায়িক সময়",
+        "weekdays": "সোমবার - শুক্রবার: সকাল ৯:০০ - সন্ধ্যা ৬:০০",
+        "saturday": "শনিবার: সকাল ৯:০০ - দুপুর ১২:০০"
       }
     },
     "map": {
-      "title": "Visit Our Facility",
-      "subtitle": "Located in the heart of Shenzhen's manufacturing district"
+      "title": "আমাদের সুবিধা দেখুন",
+      "subtitle": "শেনঝেনের ম্যানুফ্যাকচারিং জেলার হৃদয়ে অবস্থিত"
     },
     "form": {
-      "title": "What's in your mind? Let's talk!",
-      "subtitle": "Fill out this form to get the process started. We'll be in touch within 24hrs.",
-      "name": "Name*",
-      "email": "Email Address*",
-      "phone": "Phone number* e.g.(+1-541-3456-3001)",
-      "country": "Country",
-      "message": "Describe your needs here*",
-      "submit": "Submit",
-      "sending": "Sending..."
+      "title": "আপনার মনে কী আছে? আসুন কথা বলি!",
+      "subtitle": "প্রক্রিয়া শুরু করতে এই ফর্মটি পূরণ করুন। আমরা ২৪ ঘন্টার মধ্যে যোগাযোগ করব।",
+      "name": "নাম*",
+      "email": "ইমেইল ঠিকানা*",
+      "phone": "ফোন নম্বর* যেমন (+১-৫৪১-৩৪৫৬-৩০০১)",
+      "country": "দেশ",
+      "message": "এখানে আপনার প্রয়োজনীয়তা বর্ণনা করুন*",
+      "submit": "জমা দিন",
+      "sending": "পাঠানো হচ্ছে..."
     },
     "title": "আমাদের সাথে যোগাযোগ করুন",
-    "subtitle": "Get in touch with our team for business inquiries, support, or partnership opportunities.",
-    "companyPhotoAlt": "iShine Manufacturing Facility"
+    "subtitle": "ব্যবসায়িক অনুসন্ধান, সহায়তা বা অংশীদারিত্বের সুযোগের জন্য আমাদের দলের সাথে যোগাযোগ করুন।",
+    "companyPhotoAlt": "iShine ম্যানুফ্যাকচারিং সুবিধা"
   },
   "buttons": {
-    "getQuote": "Get Quote",
-    "viewSolutions": "View Our Solutions",
-    "scheduleConsultation": "Schedule Consultation",
-    "submit": "Submit",
-    "sending": "Sending...",
-    "viewAll": "View All"
+    "getQuote": "উদ্ধৃতি পান",
+    "viewSolutions": "আমাদের সমাধান দেখুন",
+    "scheduleConsultation": "পরামর্শের সময় নির্ধারণ করুন",
+    "submit": "জমা দিন",
+    "sending": "পাঠানো হচ্ছে...",
+    "viewAll": "সব দেখুন"
   },
   "common": {
     "loading": "লোড হচ্ছে...",
     "error": "একটি ত্রুটি ঘটেছে",
     "success": "সফলতা",
-    "readMore": "Read More",
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
+    "readMore": "আরও পড়ুন",
+    "learnMore": "আরও জানুন",
+    "getStarted": "শুরু করুন",
     "contactUs": "আমাদের সাথে যোগাযোগ করুন"
   },
   "solutions": {
-    "productDesignDevelopment": "Product Design & Development",
-    "productDesignDevelopmentDescription": "From initial concept to final design, our expert team brings your IPL vision to life with cutting-edge technology and market insights.",
+    "productDesignDevelopment": "পণ্য ডিজাইন ও উন্নয়ন",
+    "productDesignDevelopmentDescription": "প্রাথমিক ধারণা থেকে চূড়ান্ত ডিজাইন পর্যন্ত, আমাদের বিশেষজ্ঞ দল অত্যাধুনিক প্রযুক্তি এবং বাজার অন্তর্দৃষ্টি দিয়ে আপনার IPL দৃষ্টিভঙ্গিকে জীবন্ত করে তোলে।",
     "oemManufacturing": "OEM Manufacturing",
     "oemManufacturingDescription": "Complete manufacturing solutions with your specifications. We handle production while you focus on your brand and market.",
     "odmSolutions": "ODM Solutions",
@@ -210,7 +210,7 @@
     "designDescription": "Create custom designs or adapt existing solutions",
     "prototype": "Prototype",
     "prototypeDescription": "Build and test prototypes to ensure quality",
-    "manufacturing": "Manufacturing",
+    "manufacturing": "ম্যানুফ্যাকচারিং",
     "manufacturingDescription": "Full-scale production with quality assurance",
     "launch": "Launch",
     "launchDescription": "Support your market entry and ongoing success",
@@ -288,8 +288,8 @@
     }
   },
   "countryPage": {
-    "title": "iShine - IPL ডিভাইস ম্যানুফ্যাকচারিং সমাধান | ধারণা থেকে বাজার পর্যন্ত",
-    "description": "প্রধান IPL ডিভাইস প্রস্তুতকারক যা ধারণা থেকে বাজার পর্যন্ত OEM/ODM সমাধান প্রদান করে। বিশ্বব্যাপী সৌন্দর্য ব্র্যান্ডের জন্য কাস্টমাইজড IPL চুল অপসারণ ডিভাইস।"
+    "title": "iShine - IPL Device Manufacturing Solutions | Global",
+    "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide."
   },
   "howToUse": {
     "heroTitle": "How to Use IPL Devices",
@@ -430,7 +430,7 @@
     }
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "প্রায়শই জিজ্ঞাসিত প্রশ্ন",
     "shipping": {
       "q": "Can you ship globally?",
       "a": "Absolutely. We offer reliable worldwide shipping to support your business wherever you are."
