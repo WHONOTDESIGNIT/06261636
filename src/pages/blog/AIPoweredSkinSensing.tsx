@@ -1,9 +1,38 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const AIPoweredSkinSensing: React.FC = () => {
+  const { t } = useTranslation();
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": t('blog.posts.aiPoweredSkinSensing.title'),
+    "description": t('blog.posts.aiPoweredSkinSensing.intro'),
+    "author": {
+      "@type": "Organization",
+      "name": "SHENZHEN ISHINE TECHNOLOGY COMPANY LIMITED"
+    },
+    "datePublished": "2024-06-28",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "/blog/ai-powered-skin-sensing"
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white" style={{ wordSpacing: '0.1em' }}>
-      {/* Hero 横幅区域 - 调整高度和布局 */}
+      <Helmet>
+        <title>{t('blog.posts.aiPoweredSkinSensing.title')}</title>
+        <meta name="description" content={t('blog.posts.aiPoweredSkinSensing.intro')} />
+        <meta name="keywords" content="AI skin sensing, smart IPL devices, skin tone detection, personalized beauty treatment, artificial intelligence" />
+        <link rel="canonical" href="/blog/ai-powered-skin-sensing" />
+        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+      </Helmet>
+      
+      {/* Hero Banner */}
       <div 
         className="w-full py-16 px-4"
         style={{
@@ -15,20 +44,12 @@ const AIPoweredSkinSensing: React.FC = () => {
         }}
       >
         <div className="max-w-6xl mx-auto px-4">
-          {/* 面包屑导航 */}
           <div className="mb-6 text-center">
-            <span 
-              style={{
-                color: '#a0aec0',
-                fontSize: '14px',
-                fontWeight: '400'
-              }}
-            >
+            <span style={{ color: '#a0aec0', fontSize: '14px', fontWeight: '400' }}>
               🏠 Blog
             </span>
           </div>
           
-          {/* 主标题 */}
           <h1 
             style={{
               fontSize: '3rem',
@@ -37,17 +58,12 @@ const AIPoweredSkinSensing: React.FC = () => {
               lineHeight: '1.1',
               marginBottom: '16px',
               letterSpacing: '-0.02em',
-              textAlign: 'center',
-              margin: '0 auto',
-              whiteSpace: 'nowrap',
-              overflow: 'hidden',
-              textOverflow: 'ellipsis'
+              textAlign: 'center'
             }}
           >
-            AI-Powered Skin Sensing: The Future of Personalized IPL
+            {t('blog.posts.aiPoweredSkinSensing.title')}
           </h1>
           
-          {/* 发布日期 */}
           <p 
             style={{
               color: '#a0aec0',
@@ -57,297 +73,131 @@ const AIPoweredSkinSensing: React.FC = () => {
               textAlign: 'left'
             }}
           >
-            January 27, 2025
+            {t('aiPoweredSkinSensing.publishDate')}
           </p>
         </div>
       </div>
-
-      <article 
-        className="max-w-4xl mx-auto px-5 py-16" 
-        style={{ 
-          maxWidth: '1400px',
-          lineHeight: '1.7',
-          wordSpacing: '0.1em'
-        }}
-      >
-        {/* 介绍部分 */}
+      
+      <article className="max-w-4xl mx-auto px-5 py-16" style={{ lineHeight: '1.7', wordSpacing: '0.1em' }}>
+        {/* Introduction */}
         <section className="mb-12">
-          <h2 
-            className="font-semibold mb-6 text-gray-900"
-            style={{
-              fontSize: '1.75rem',
-              fontWeight: '600',
-              marginTop: '48px',
-              marginBottom: '24px',
-              color: '#212529',
-              letterSpacing: '-0.02em'
-            }}
-          >
-            Introduction
-          </h2>
-          <p 
-            style={{
-              fontSize: '18px',
-              lineHeight: '1.7',
-              color: '#495057',
-              marginBottom: '24px',
-              textAlign: 'justify',
-              wordSpacing: '0.1em'
-            }}
-          >
-            Artificial intelligence (AI) is everywhere—its hype is as inflated as any bubble, yet its transformative power is undeniable. In the world of at-home beauty tech, AI is no longer just a buzzword; it's redefining what's possible with Intense Pulsed Light (IPL) hair removal. Today, even the most skeptical observers recognize that AI's ability to sense, adapt, and personalize is a leap beyond anything seen in the past decades. But what does AI truly deliver, and how does it cut through the noise to create real value for users?
-          </p>
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('blog.posts.aiPoweredSkinSensing.sections.introduction')}</h2>
+          <p className="text-lg text-gray-700 mb-6">{t('aiPoweredSkinSensing.introduction.content')}</p>
         </section>
 
-        {/* 主要内容部分 */}
+        {/* How AI Skin Sensing Works */}
         <section className="mb-12">
-          <h2 
-            style={{
-              fontSize: '1.75rem',
-              fontWeight: '600',
-              marginTop: '48px',
-              marginBottom: '24px',
-              color: '#212529',
-              letterSpacing: '-0.02em'
-            }}
-          >
-            The Current State: AI and the IPL Revolution
-          </h2>
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('aiPoweredSkinSensing.howItWorks.title')}</h2>
+          <p className="text-lg text-gray-700 mb-6">{t('aiPoweredSkinSensing.howItWorks.content')}</p>
           
-          <h3 
-            style={{
-              fontSize: '1.5rem',
-              fontWeight: '600',
-              marginBottom: '16px',
-              color: '#212529',
-              letterSpacing: '-0.02em'
-            }}
-          >
-            From Hype to Hands-On Benefits
-          </h3>
-          <ul 
-            className="list-disc pl-6"
-            style={{ marginBottom: '24px' }}
-          >
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057', wordSpacing: '0.1em' }}>
-              <b>Objective Skin Assessment:</b> Modern AI-powered IPLs use sensors to randomly sample and analyze skin across different body areas, building a nuanced, unbiased profile of your skin's current state.
-            </li>
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
-              <b>Dynamic Energy Adjustment:</b> Based on real-time data, AI algorithms automatically calibrate light intensity for each flash, ensuring safe, effective, and comfortable treatments tailored to your unique skin and hair characteristics.
-            </li>
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
-              <b>Data-Driven Progress Tracking:</b> Each session's skin data is logged and analyzed, creating a traceable, evolving record of your skin's response and hair reduction progress.
-            </li>
-          </ul>
-          
-          <h3 
-            style={{
-              fontSize: '1.5rem',
-              fontWeight: '600',
-              marginBottom: '16px',
-              color: '#212529',
-              letterSpacing: '-0.02em'
-            }}
-          >
-            Personalized Reminders and Guidance
-          </h3>
-          <ul 
-            className="list-disc pl-6"
-            style={{ marginBottom: '24px' }}
-          >
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
-              <b>App Integration:</b> IPL devices now connect to apps that analyze your skin data, remind you when it's time for another session, and adapt your treatment schedule based on your progress and regrowth cycles.
-            </li>
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
-              <b>Smart Head Recognition:</b> Devices like Braun's Skin i·expert use AI to recognize which attachment is in use and whether it's appropriate for the body part, reducing user error and maximizing safety.
-            </li>
-          </ul>
-          
-          <h3 
-            style={{
-              fontSize: '1.5rem',
-              fontWeight: '600',
-              marginBottom: '16px',
-              color: '#212529',
-              letterSpacing: '-0.02em'
-            }}
-          >
-            Dual Benefits: Hair Removal and Skin Rejuvenation
-          </h3>
-          <ul 
-            className="list-disc pl-6"
-            style={{ marginBottom: '24px' }}
-          >
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
-              <b>Targeted Wavelengths:</b> AI-powered IPLs can selectively emit light at wavelengths that not only disable hair follicles but also stimulate collagen production and skin renewal, addressing pigmentation, fine lines, and texture in the same session.
-            </li>
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
-              <b>Real-Time Adjustment:</b> As the device senses skin condition, it can switch modes or adjust the spectrum to prioritize either hair removal or rejuvenation, based on your needs and the area being treated.
-            </li>
-          </ul>
+          <div className="space-y-6">
+            <div className="border-l-4 border-blue-500 pl-4">
+              <h3 className="font-semibold text-lg">{t('aiPoweredSkinSensing.steps.detection.title')}</h3>
+              <p className="text-gray-700">{t('aiPoweredSkinSensing.steps.detection.desc')}</p>
+            </div>
+            <div className="border-l-4 border-green-500 pl-4">
+              <h3 className="font-semibold text-lg">{t('aiPoweredSkinSensing.steps.analysis.title')}</h3>
+              <p className="text-gray-700">{t('aiPoweredSkinSensing.steps.analysis.desc')}</p>
+            </div>
+            <div className="border-l-4 border-purple-500 pl-4">
+              <h3 className="font-semibold text-lg">{t('aiPoweredSkinSensing.steps.adaptation.title')}</h3>
+              <p className="text-gray-700">{t('aiPoweredSkinSensing.steps.adaptation.desc')}</p>
+            </div>
+          </div>
         </section>
 
+        {/* Benefits of AI Skin Sensing */}
         <section className="mb-12">
-          <h2 
-            style={{
-              fontSize: '1.75rem',
-              fontWeight: '600',
-              marginTop: '48px',
-              marginBottom: '24px',
-              color: '#212529',
-              letterSpacing: '-0.02em'
-            }}
-          >
-            How AI Is Transforming the At-Home IPL Experience
-          </h2>
-          
-          <h3 
-            style={{
-              fontSize: '1.5rem',
-              fontWeight: '600',
-              marginBottom: '16px',
-              color: '#212529',
-              letterSpacing: '-0.02em'
-            }}
-          >
-            1. Unprecedented Personalization
-          </h3>
-          <ul 
-            className="list-disc pl-6"
-            style={{ marginBottom: '24px' }}
-          >
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
-              <b>Skin Tone and Hair Density Sensing:</b> Devices like Ulike's Pro10 and Braun's Skin i·expert scan and analyze skin tone and hair density up to 80 times per second, instantly customizing energy output for each flash.
-            </li>
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
-              <b>Adaptive Protocols:</b> AI learns from each session, refining recommendations and settings as your skin changes over time, minimizing risks for sensitive or darker skin types.
-            </li>
-          </ul>
-          
-          <h3 
-            style={{
-              fontSize: '1.5rem',
-              fontWeight: '600',
-              marginBottom: '16px',
-              color: '#212529',
-              letterSpacing: '-0.02em'
-            }}
-          >
-            2. Seamless User Experience
-          </h3>
-          <ul 
-            className="list-disc pl-6"
-            style={{ marginBottom: '24px' }}
-          >
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
-              <b>App-Based Coaching:</b> Step-by-step guidance, real-time coverage tracking, and personalized tips are delivered via companion apps, making professional-level results accessible at home.
-            </li>
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
-              <b>Progress Reminders:</b> Automated notifications ensure you never miss a session, optimizing long-term results and preventing regrowth.
-            </li>
-          </ul>
-          
-          <h3 
-            style={{
-              fontSize: '1.5rem',
-              fontWeight: '600',
-              marginBottom: '16px',
-              color: '#212529',
-              letterSpacing: '-0.02em'
-            }}
-          >
-            3. Enhanced Safety and Comfort
-          </h3>
-          <ul 
-            className="list-disc pl-6"
-            style={{ marginBottom: '24px' }}
-          >
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
-              <b>Risk Reduction:</b> AI instantly detects and compensates for changes in skin tone or sensitivity, reducing the likelihood of burns, irritation, or ineffective treatments.
-            </li>
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
-              <b>Pain Minimization:</b> By analyzing user feedback and skin response, AI can recommend gentler modes or cooling intervals, making treatments more comfortable.
-            </li>
-          </ul>
-          
-          <h3 
-            style={{
-              fontSize: '1.5rem',
-              fontWeight: '600',
-              marginBottom: '16px',
-              color: '#212529',
-              letterSpacing: '-0.02em'
-            }}
-          >
-            4. Data-Driven Results
-          </h3>
-          <ul 
-            className="list-disc pl-6"
-            style={{ marginBottom: '24px' }}
-          >
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
-              <b>Traceable Improvement:</b> Every flash, adjustment, and session is logged, creating a transparent record that users can review and share with professionals if needed.
-            </li>
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
-              <b>Personalized Rejuvenation:</b> AI's ability to detect subtle skin changes means it can recommend targeted rejuvenation protocols, maximizing the dual benefits of IPL.
-            </li>
-          </ul>
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('aiPoweredSkinSensing.benefits.title')}</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <h3 className="font-semibold mb-3 text-blue-900">{t('aiPoweredSkinSensing.benefits.safety.title')}</h3>
+              <p className="text-blue-800">{t('aiPoweredSkinSensing.benefits.safety.desc')}</p>
+            </div>
+            <div className="bg-green-50 p-6 rounded-lg">
+              <h3 className="font-semibold mb-3 text-green-900">{t('aiPoweredSkinSensing.benefits.effectiveness.title')}</h3>
+              <p className="text-green-800">{t('aiPoweredSkinSensing.benefits.effectiveness.desc')}</p>
+            </div>
+            <div className="bg-purple-50 p-6 rounded-lg">
+              <h3 className="font-semibold mb-3 text-purple-900">{t('aiPoweredSkinSensing.benefits.personalization.title')}</h3>
+              <p className="text-purple-800">{t('aiPoweredSkinSensing.benefits.personalization.desc')}</p>
+            </div>
+            <div className="bg-orange-50 p-6 rounded-lg">
+              <h3 className="font-semibold mb-3 text-orange-900">{t('aiPoweredSkinSensing.benefits.convenience.title')}</h3>
+              <p className="text-orange-800">{t('aiPoweredSkinSensing.benefits.convenience.desc')}</p>
+            </div>
+          </div>
         </section>
 
+        {/* Technical Implementation */}
         <section className="mb-12">
-          <h2 
-            style={{
-              fontSize: '1.75rem',
-              fontWeight: '600',
-              marginTop: '48px',
-              marginBottom: '24px',
-              color: '#212529',
-              letterSpacing: '-0.02em'
-            }}
-          >
-            What's Next? The Future of AI in Home IPL
-          </h2>
-          <ul 
-            className="list-disc pl-6"
-            style={{ marginBottom: '24px' }}
-          >
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
-              <b>Continuous Learning:</b> As more users engage with AI-powered IPLs, the devices' algorithms will become even smarter, drawing on vast datasets to refine protocols for every skin type and concern.
-            </li>
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
-              <b>Holistic Skincare Integration:</b> Expect future devices to sync with broader health and beauty platforms, integrating IPL data with other wellness metrics for a truly personalized care ecosystem.
-            </li>
-            <li style={{ marginBottom: '8px', fontSize: '18px', lineHeight: '1.7', color: '#495057' }}>
-              <b>Sustainability:</b> AI-driven efficiency will help reduce overexposure and unnecessary energy use, supporting eco-friendly device design and longer product lifespans.
-            </li>
-          </ul>
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('aiPoweredSkinSensing.technical.title')}</h2>
+          <p className="text-lg text-gray-700 mb-6">{t('aiPoweredSkinSensing.technical.content')}</p>
+          
+          <div className="bg-gray-50 p-6 rounded-lg">
+            <h3 className="font-semibold mb-3 text-gray-900">{t('aiPoweredSkinSensing.technical.components.title')}</h3>
+            <ul className="list-disc pl-6 space-y-2">
+              <li className="text-gray-700">{t('aiPoweredSkinSensing.technical.components.sensors')}</li>
+              <li className="text-gray-700">{t('aiPoweredSkinSensing.technical.components.algorithms')}</li>
+              <li className="text-gray-700">{t('aiPoweredSkinSensing.technical.components.processing')}</li>
+              <li className="text-gray-700">{t('aiPoweredSkinSensing.technical.components.feedback')}</li>
+            </ul>
+          </div>
         </section>
 
+        {/* Future Applications */}
         <section className="mb-12">
-          <h2 
-            style={{
-              fontSize: '1.75rem',
-              fontWeight: '600',
-              marginTop: '48px',
-              marginBottom: '24px',
-              color: '#212529',
-              letterSpacing: '-0.02em'
-            }}
-          >
-            Conclusion
-          </h2>
-          <p 
-            style={{
-              fontSize: '18px',
-              lineHeight: '1.7',
-              color: '#495057',
-              marginBottom: '24px',
-              textAlign: 'justify',
-              wordSpacing: '0.1em'
-            }}
-          >
-            AI-powered skin sensing is not just a technological upgrade—it's a paradigm shift for at-home IPL. By combining objective analysis, real-time adaptation, and seamless user support, AI makes hair removal and skin rejuvenation safer, more effective, and more personalized than ever before. In a world awash with hype, this is the kind of progress that even the most jaded observer can't ignore.
-          </p>
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('aiPoweredSkinSensing.future.title')}</h2>
+          <p className="text-lg text-gray-700 mb-6">{t('aiPoweredSkinSensing.future.content')}</p>
+          
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="bg-blue-50 p-6 rounded-lg text-center">
+              <h3 className="font-semibold mb-3 text-blue-900">{t('aiPoweredSkinSensing.future.applications.skincare.title')}</h3>
+              <p className="text-blue-800">{t('aiPoweredSkinSensing.future.applications.skincare.desc')}</p>
+            </div>
+            <div className="bg-green-50 p-6 rounded-lg text-center">
+              <h3 className="font-semibold mb-3 text-green-900">{t('aiPoweredSkinSensing.future.applications.medical.title')}</h3>
+              <p className="text-green-800">{t('aiPoweredSkinSensing.future.applications.medical.desc')}</p>
+            </div>
+            <div className="bg-purple-50 p-6 rounded-lg text-center">
+              <h3 className="font-semibold mb-3 text-purple-900">{t('aiPoweredSkinSensing.future.applications.wellness.title')}</h3>
+              <p className="text-purple-800">{t('aiPoweredSkinSensing.future.applications.wellness.desc')}</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Market Impact */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('aiPoweredSkinSensing.market.title')}</h2>
+          <p className="text-lg text-gray-700 mb-6">{t('aiPoweredSkinSensing.market.content')}</p>
+          
+          <div className="bg-yellow-50 p-6 rounded-lg">
+            <h3 className="font-semibold mb-3 text-yellow-900">{t('aiPoweredSkinSensing.market.trends.title')}</h3>
+            <ul className="list-disc pl-6 space-y-2">
+              <li className="text-yellow-800">{t('aiPoweredSkinSensing.market.trends.growth')}</li>
+              <li className="text-yellow-800">{t('aiPoweredSkinSensing.market.trends.adoption')}</li>
+              <li className="text-yellow-800">{t('aiPoweredSkinSensing.market.trends.innovation')}</li>
+              <li className="text-yellow-800">{t('aiPoweredSkinSensing.market.trends.investment')}</li>
+            </ul>
+          </div>
+        </section>
+
+        {/* Conclusion */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('blog.posts.aiPoweredSkinSensing.sections.conclusion')}</h2>
+          <p className="text-lg text-gray-700 mb-6">{t('aiPoweredSkinSensing.conclusion.content')}</p>
+        </section>
+
+        {/* Related Articles */}
+        <section className="py-10 bg-gray-50">
+          <div className="max-w-4xl mx-auto px-4">
+            <h2 className="text-xl font-bold mb-4 text-gray-900">{t('common.relatedArticles')}</h2>
+            <ul className="list-inside list-disc space-y-2">
+              <li><Link to="/blog/future-home-hair-removal" className="text-blue-600 underline">{t('blog.posts.futureHomeHairRemoval.title')}</Link></li>
+              <li><Link to="/blog/sapphire-cooling" className="text-blue-600 underline">{t('blog.posts.sapphireCooling.title')}</Link></li>
+              <li><Link to="/blog/multi-head-ipl-systems" className="text-blue-600 underline">{t('blog.posts.multiHeadIPLSystems.title')}</Link></li>
+            </ul>
+          </div>
         </section>
       </article>
     </div>
