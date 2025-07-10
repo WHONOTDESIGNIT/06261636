@@ -110,18 +110,17 @@ const MainLayout: React.FC = () => (
   </>
 );
 
-// Language validation and context sync wrapper
+// Language validation and context sync wrapper - 移除重定向，只验证
 const LanguageGuard: React.FC = () => {
   const { lang } = useParams<{ lang: string }>();
-  const location = useLocation();
   const { setLanguage, currentLanguage } = useLanguage();
 
-  // Validate language param
+  // Validate language param - 移除自动重定向
   if (!lang || !supportedLangs.includes(lang)) {
-    return <Navigate to={`/${defaultLang}${location.pathname.replace(/^\/[a-z]{2}/, '')}${location.search}`} replace />;
+    return <NotFound />; // 显示404而不是重定向
   }
 
-  // Sync context with URL
+  // Sync context with URL - 保持语言同步但不触发重定向
   useEffect(() => {
     if (lang && lang !== currentLanguage) {
       setLanguage(lang);
@@ -131,39 +130,26 @@ const LanguageGuard: React.FC = () => {
   return <Outlet />;
 };
 
-// 自动检测浏览器语言并初始跳转
-const AutoRedirect: React.FC = () => {
-  const { currentLanguage, setLanguage } = useLanguage();
+// 移除自动重定向组件，直接渲染Home页面
+const HomeWithLanguageSetup: React.FC = () => {
+  const { setLanguage } = useLanguage();
+  
+  // 静态设置英文语言，不触发重定向
   useEffect(() => {
-    // 检查URL是否已带语言前缀
-    const path = window.location.pathname;
-    const match = path.match(/^\/([a-z]{2})(\/|$)/);
-    if (match) return; // 已有前缀
-    // 检测浏览器语言
-    const browserLang = (navigator.language || 'en').split('-')[0];
-    const lang = supportedLangs.includes(browserLang) ? browserLang : 'en';
-    setLanguage(lang);
-    if (lang === 'en') return; // 英文留在/
-    window.location.replace(`/${lang}${window.location.pathname}${window.location.search}`);
-  }, [currentLanguage, setLanguage]);
-  return null;
-};
+    setLanguage('en');
+  }, [setLanguage]);
 
-const HomeWithRedirect: React.FC = () => (
-  <>
-    <AutoRedirect />
-    <Home />
-  </>
-);
+  return <Home />;
+};
 
 const App: React.FC = () => (
   <HelmetProvider>
     <BrowserRouter>
       <LanguageProvider>
         <Routes>
-          {/* 自动检测语言并初始跳转 */}
+          {/* 英文主页 - 无重定向 */}
           <Route path="/" element={<MainLayout />}>
-            <Route index element={<HomeWithRedirect />} />
+            <Route index element={<HomeWithLanguageSetup />} />
           </Route>
 
           {/* 英文无前缀路由 */}
@@ -289,8 +275,11 @@ const App: React.FC = () => (
             </Route>
           </Route>
 
-          {/* /en/* 自动重定向到无前缀 */}
-          <Route path="en/*" element={<Navigate to={window.location.pathname.replace(/^\/en/, '') || '/'} replace />} />
+          {/* 移除 /en/* 重定向，改为静态路由 */}
+          <Route path="en" element={<MainLayout />}>
+            <Route index element={<Home />} />
+            <Route path="*" element={<NotFound />} />
+          </Route>
 
           {/* 404 */}
           <Route path="*" element={<NotFound />} />
