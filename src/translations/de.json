@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "iShine - IPL-Geräte-Herstellungslösungen | Von der Idee zum Markt",
-    "description": "Führender IPL-Gerätehersteller bietet komplette OEM/ODM-Lösungen von der Idee zum Markt. Maßgeschneiderte IPL-Haarentfernungsgeräte für globale Beauty-Marken.",
+    "title": "iShine - IPL-Geräte-Herstellungslösungen | Von der Idee bis zur Markteinführung",
+    "description": "Führender IPL-Gerätehersteller bietet umfassende OEM/ODM-Lösungen von der Idee bis zur Markteinführung. Kundenspezifische IPL-Haarentfernungsgeräte für internationale Beauty-Marken.",
     "keywords": "IPL-Geräte, OEM-Herstellung, ODM-Lösungen, Haarentfernung, Beauty-Geräte, kundenspezifische Herstellung"
   },
   "header": {
@@ -19,21 +19,21 @@
       "dropShipping": "Dropshipping",
       "globalShipping": "Weltweiter Versand",
       "brandCustomization": "Markenanpassung",
-      "compliance": "Compliance & Zertifizierungen",
-      "designPrototyping": "Design & Prototyping",
+      "compliance": "Konformität & Zertifizierungen",
+      "designPrototyping": "Design & Prototypenerstellung",
       "multiHeadIPL": "Multi-Head IPL angepasst",
       "dualLampIPL": "Dual-Lamp IPL angepasst"
     },
     "iplDevices": {
-      "smartApp": "Smart App-gesteuertes IPL-Gerät",
+      "smartApp": "Intelligentes App-gesteuertes IPL-Gerät",
       "iceFeeling": "Ice Feeling IPL-Gerät",
       "emerald": "Emerald IPL-Gerät",
-      "skinSensor": "Hautsensor IPL-Gerät",
+      "skinSensor": "IPL-Gerät mit Hautsensor",
       "batteryPowered": "Akkubetriebenes IPL-Gerät",
       "handheld": "Handgehaltenes IPL-Gerät",
       "iceCooling": "Ice Cooling IPL-Gerät",
       "dualLamp": "Dual-Lamp IPL-Gerät",
-      "aiPowered": "KI-betriebenes IPL-Gerät"
+      "aiPowered": "KI-gestütztes IPL-Gerät"
     },
     "accessories": {
       "sapphireLens": "Saphir-Linse",
@@ -42,12 +42,12 @@
       "filter": "Filter"
     },
     "serviceSupport": {
-      "service": "Service",
+      "service": "Dienstleistung",
       "afterSales": "Kundendienst",
       "fdaGmp": "FDA GMP Reinraum Design",
       "manufacturing": "IPL-Geräte Herstellung",
       "knowledgeBase": "Wissensdatenbank",
-      "support": "Support > Kaufleitfaden",
+      "support": "Unterstützung > Kaufleitfaden",
       "beautySourcing": "Beauty-Nische Beschaffung & Zubehör",
       "pricingGuide": "Preisleitfaden",
       "helpCenter": "Hilfezentrum",
@@ -60,7 +60,7 @@
     "about": {
       "founderMessage": "Gründernachricht",
       "technology": "Unsere Technologie",
-      "globalWitness": "Globaler Zeuge",
+      "globalWitness": "Weltweiter Zeuge",
       "corePrinciples": "Kernprinzipien",
       "company": "Über iShine",
       "brandStory": "Markengeschichte",
@@ -69,7 +69,7 @@
   },
   "footer": {
     "company": {
-      "description": "Führender IPL-Gerätehersteller bietet komplette OEM/ODM-Lösungen von der Idee zum Markt.",
+      "description": "Führender IPL-Gerätehersteller bietet umfassende OEM/ODM-Lösungen von der Idee bis zur Markteinführung.",
       "products": "Produkte",
       "services": "Dienstleistungen",
       "company": "Unternehmen"
@@ -112,16 +112,16 @@
     "hero": {
       "title1": "Maßgeschneiderte IPL-Geräte",
       "title2": "& Branding IPL-Geräte",
-      "subtitle": "Global führender IPL-Gerätehersteller, wir helfen Ihnen dabei, es zu entwerfen, zu bauen und zu verpacken.",
+      "subtitle": "Weltweit führender IPL-Gerätehersteller, wir helfen Ihnen dabei, es zu entwerfen, zu bauen und zu verpacken.",
       "cta": "Angebot erhalten"
     },
     "partners": {
-      "title": "Vertraut von globalen Marken",
+      "title": "Vertraut von internationalen Marken",
       "subtitle": "Zusammenarbeit mit Branchenführern weltweit"
     },
     "features": {
       "title": "Warum iShine wählen?",
-      "subtitle": "Komplette IPL-Herstellungslösungen maßgeschneidert für Ihre Bedürfnisse"
+      "subtitle": "Umfassende IPL-Herstellungslösungen maßgeschneidert für Ihre Bedürfnisse"
     },
     "products": {
       "title": "Unser IPL-Gerätesortiment",
@@ -202,7 +202,7 @@
     "oemManufacturingDescription": "Komplette Herstellungslösungen nach Ihren Spezifikationen. Wir übernehmen die Produktion, während Sie sich auf Ihre Marke und den Markt konzentrieren.",
     "odmSolutions": "ODM-Lösungen",
     "odmSolutionsDescription": "Wählen Sie aus unseren bewährten IPL-Designs und passen Sie sie mit Ihrem Branding, Verpackung und einzigartigen Features an.",
-    "endToEndSupport": "End-to-End Support",
+    "endToEndSupport": "Umfassende Unterstützung",
     "endToEndSupportDescription": "Komplettes Projektmanagement von der ersten Beratung bis zur Produkteinführung und darüber hinaus, um Ihren Erfolg bei jedem Schritt zu gewährleisten.",
     "consultation": "Beratung",
     "consultationDescription": "Verstehen Sie Ihre Vision, Markt und Anforderungen",
@@ -324,7 +324,7 @@
   },
   "ipl": {
     "aiPowered": {
-      "title": "KI-betriebenes IPL-Gerät",
+      "title": "KI-gestütztes IPL-Gerät",
       "desc": "Die Zukunft der Haarentfernung ist da. Künstliche Intelligenz optimiert jede Behandlung für personalisierte, effektive Ergebnisse.",
       "features": {
         "aiTech": "KI-Technologie",
@@ -407,7 +407,7 @@
       }
     },
     "skinSensor": {
-      "title": "Hautsensor IPL-Gerät",
+      "title": "IPL-Gerät mit Hautsensor",
       "desc": "Erleben Sie die sicherste und intelligenteste Haarentfernung zu Hause mit unserem Hautsensor IPL-Gerät. Dieses revolutionäre Gerät verfügt über fortschrittliche optische Hautsensoren, die automatisch Ihren Hautton und Ihre Haarfarbe erkennen - liefert personalisierte Behandlungsintensität für maximale Wirksamkeit und komplette Sicherheit. Mit Echtzeit-Hautanalyse und automatischer Energieanpassung ist dieses Gerät perfekt für alle geeigneten Hauttypen und gewährleistet jedes Mal optimale Ergebnisse.",
       "features": {
         "intelligentDetection": "Intelligente Hauterkennung — Fortschrittliche Sensoren identifizieren automatisch Hautton und passen Energiestufen an",
