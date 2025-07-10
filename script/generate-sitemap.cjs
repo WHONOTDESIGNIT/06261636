@@ -43,6 +43,20 @@ const scannedRoutes = scanPageRoutes();
 const englishRoutes = [];
 const otherLangRoutes = [];
 
+// 定义高优先级页面（对搜索引擎更重要）
+const highPriorityPages = [
+  '',
+  '/about',
+  '/ipl-hair-removal',
+  '/solutions',
+  '/contact',
+  '/how-to-use',
+  '/blog/sapphire-cooling',
+  '/blog/ai-powered-skin-sensing',
+  '/blog/future-home-hair-removal',
+  '/blog/global-market-shifts'
+];
+
 // 分类路由：英文页面和其他语言页面
 scannedRoutes.forEach(route => {
   const cleanRoute = route.startsWith('/') ? route : '/' + route;
@@ -67,16 +81,40 @@ function generateHreflangLinks(route) {
   return links.join('\n');
 }
 
+// 获取页面优先级
+function getPagePriority(route) {
+  if (route === '' || route === '/') return '1.0';
+  if (highPriorityPages.includes(route)) return '0.9';
+  if (route.includes('/blog/')) return '0.8';
+  if (route.includes('/solutions') || route.includes('/ipl-hair-removal')) return '0.9';
+  if (route.includes('/about/') || route.includes('/service/')) return '0.7';
+  return '0.6';
+}
+
+// 获取更新频率
+function getChangeFreq(route) {
+  if (route === '' || route === '/') return 'daily';
+  if (route.includes('/blog/')) return 'weekly';
+  if (highPriorityPages.includes(route)) return 'weekly';
+  return 'monthly';
+}
+
 // 生成sitemap XML
 let sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!-- English pages (with hreflang) -->`;
+  <!-- High Priority English Pages (for better Yandex crawling) -->`;
 
-// 英文页面（带hreflang）
-englishRoutes.forEach(route => {
+// 首先添加高优先级英文页面
+const sortedEnglishRoutes = [...englishRoutes].sort((a, b) => {
+  const aPriority = parseFloat(getPagePriority(a));
+  const bPriority = parseFloat(getPagePriority(b));
+  return bPriority - aPriority; // 降序排列
+});
+
+sortedEnglishRoutes.forEach(route => {
   const url = route === '' ? '/' : route;
-  const priority = url === '/' ? '1.0' : (url.includes('/solutions') || url.includes('/ipl-hair-removal') ? '0.9' : '0.8');
-  const changefreq = url === '/' ? 'weekly' : 'monthly';
+  const priority = getPagePriority(route);
+  const changefreq = getChangeFreq(route);
   
   sitemapContent += `
   <url>
@@ -92,15 +130,26 @@ sitemapContent += `
 
   <!-- Other Language Pages -->`;
 
-// 其他语言页面
-otherLangRoutes.forEach(route => {
-  const priority = route.includes('/contact') ? '0.8' : '0.7';
+// 其他语言页面 - 按优先级排序
+const sortedOtherRoutes = [...otherLangRoutes].sort((a, b) => {
+  const aRoute = a.replace(/^\/[a-z]{2}/, ''); // 移除语言前缀
+  const bRoute = b.replace(/^\/[a-z]{2}/, '');
+  const aPriority = parseFloat(getPagePriority(aRoute));
+  const bPriority = parseFloat(getPagePriority(bRoute));
+  return bPriority - aPriority;
+});
+
+sortedOtherRoutes.forEach(route => {
+  const routeWithoutLang = route.replace(/^\/[a-z]{2}/, '');
+  const priority = Math.max(0.5, parseFloat(getPagePriority(routeWithoutLang)) - 0.2);
+  const changefreq = getChangeFreq(routeWithoutLang);
+  
   sitemapContent += `
   <url>
     <loc>${baseUrl}${route}</loc>
     <lastmod>${currentDate}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>${priority}</priority>
+    <changefreq>${changefreq}</changefreq>
+    <priority>${priority.toFixed(1)}</priority>
   </url>`;
 });
 
@@ -111,8 +160,28 @@ sitemapContent += `
 const sitemapPath = path.join(__dirname, '../public/sitemap.xml');
 fs.writeFileSync(sitemapPath, sitemapContent);
 
+// 创建Yandex专用的简化sitemap（仅包含高优先级页面）
+const yandexSitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Yandex Optimized Sitemap - High Priority Pages Only -->
+${highPriorityPages.map(route => {
+  const url = route === '' ? '/' : route;
+  return `  <url>
+    <loc>${baseUrl}${url}</loc>
+    <lastmod>${currentDate}</lastmod>
+    <changefreq>${getChangeFreq(route)}</changefreq>
+    <priority>${getPagePriority(route)}</priority>
+  </url>`;
+}).join('')}
+</urlset>`;
+
+const yandexSitemapPath = path.join(__dirname, '../public/sitemap-yandex.xml');
+fs.writeFileSync(yandexSitemapPath, yandexSitemapContent);
+
 const totalUrls = englishRoutes.length + otherLangRoutes.length;
-console.log(`✅ Sitemap generated successfully at ${sitemapPath}`);
+console.log(`✅ Main Sitemap generated: ${sitemapPath}`);
+console.log(`🇷🇺 Yandex Sitemap generated: ${yandexSitemapPath}`);
 console.log(`📊 Total URLs: ${totalUrls}`);
 console.log(`🌍 Languages: en + ${langs.length - 1} others`);
-console.log(`📄 Pages per language: ${scannedRoutes.length}`); 
+console.log(`📄 Pages per language: ${scannedRoutes.length}`);
+console.log(`⭐ High priority pages: ${highPriorityPages.length}`); 
