@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter, Routes, Route, Navigate, Outlet, useParams, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Outlet, useParams } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import Header from './components/Layout/Header';
@@ -96,7 +96,6 @@ const NotFound: React.FC = () => (
 
 // Supported language codes
 const supportedLangs = languages.map((l: { code: string }) => l.code.split('-')[0]);
-const defaultLang = 'en';
 
 // Layout with header/footer/widgets
 const MainLayout: React.FC = () => (
