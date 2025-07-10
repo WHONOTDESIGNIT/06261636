@@ -1,4 +1,44 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://iplmanufacturer.com/sitemap.xml
+# Allow all language versions
+Allow: /de/
+Allow: /fr/
+Allow: /es/
+Allow: /it/
+Allow: /pt/
+Allow: /nl/
+Allow: /ja/
+Allow: /ko/
+Allow: /zh/
+Allow: /th/
+Allow: /vi/
+Allow: /id/
+Allow: /ms/
+Allow: /ar/
+Allow: /he/
+Allow: /tr/
+Allow: /hi/
+Allow: /ru/
+Allow: /cs/
+Allow: /da/
+Allow: /et/
+Allow: /hr/
+Allow: /fi/
+Allow: /sv/
+Allow: /no/
+Allow: /tl/
+Allow: /bn/
+Allow: /uk/
+
+# Prevent crawling of admin or private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Crawl delay to be respectful
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://ishine-ipl.com/sitemap.xml
