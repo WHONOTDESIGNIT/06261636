@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "ISHINE - حلول تصنيع جهاز IPL | ",
-    "description": "الشركة الرائدة في مجال تصنيع أجهزة IPL توفر حلول OEM/ODM من فكرة إلى أخرى. ",
-    "keywords": "أجهزة IPL ، تصنيع OEM ، حلول ODM ، إزالة الشعر ، أجهزة التجميل ، التصنيع المخصص"
+    "title": "ISHINE - حلول تصنيع جهاز IPL |",
+    "description": "الشركة الرائدة في مجال تصنيع أجهزة IPL توفر حلول OEM/ODM من الفكرة إلى السوق. ",
+    "keywords": "أجهزة IPL، تصنيع OEM، حلول ODM، إزالة الشعر، أجهزة التجميل، التصنيع المخصص"
   },
   "header": {
     "navigation": {
@@ -26,14 +26,14 @@
     },
     "iplDevices": {
       "smartApp": "جهاز IPL الذي يسيطر عليه التطبيق الذكي",
-      "iceFeeling": "الجليد شعور IPL جهاز IPL",
-      "emerald": "الجهاز IPLD IPL",
-      "skinSensor": "جهاز مستشعر الجلد IPL",
+      "iceFeeling": "جهاز IPL بالإحساس الجليدي",
+      "emerald": "جهاز IPL الزمردي",
+      "skinSensor": "جهاز جهاز IPL بمستشعر الجلد",
       "batteryPowered": "جهاز IPL الذي يعمل بالبطارية",
       "handheld": "جهاز IPL باليد",
-      "iceCooling": "جهاز ICE ICE IPL IPL",
+      "iceCooling": "جهاز IPL بالتبريد الجليدي",
       "dualLamp": "جهاز IPL مزدوج المصباح",
-      "aiPowered": "جهاز IPL الذي يدافع عن الذكاء الاصطناعي"
+      "aiPowered": "جهاز IPL مدعوم بالذكاء الاصطناعي"
     },
     "accessories": {
       "sapphireLens": "عدسة الياقوت",
@@ -47,8 +47,8 @@
       "fdaGmp": "FDA GMP تصميم غرفة نظيفة",
       "manufacturing": "تصنيع أجهزة IPL",
       "knowledgeBase": "قاعدة المعرفة",
-      "support": "دعم> دليل الشراء",
-      "beautySourcing": "جمال مكان المصادر والإكسسوارات",
+      "support": "الدعم ودليل الشراء",
+      "beautySourcing": "مكان الحصول على منتجات التجميل والإكسسوارات",
       "pricingGuide": "دليل التسعير",
       "helpCenter": "مركز المساعدة",
       "gallery": "معرض",
@@ -69,7 +69,7 @@
   },
   "footer": {
     "company": {
-      "description": "الشركة الرائدة في مجال تصنيع أجهزة IPL توفر حلول OEM/ODM من فكرة إلى أخرى.",
+      "description": "الشركة الرائدة في مجال تصنيع أجهزة IPL توفر حلول OEM/ODM من الفكرة إلى السوق. ",
       "products": "منتجات",
       "services": "خدمات",
       "company": "شركة"
@@ -81,7 +81,7 @@
     },
     "services": {
       "afterSales": "خدمة بعد البيع",
-      "manufacturing": "IPL تصنيع",
+      "manufacturing": "تصنيع IPL",
       "buyingGuide": "دليل الشراء",
       "helpCenter": "مركز المساعدة"
     },
@@ -92,7 +92,7 @@
       "blog": "مدونة"
     },
     "legal": {
-      "copyright": "© 2025 iShine. جميع الحقوق محفوظة.",
+      "copyright": "© 2025 iShine. جميع الحقوق محفوظة. ",
       "privacyPolicy": "سياسة الخصوصية",
       "termsOfService": "شروط الخدمة"
     },
@@ -104,16 +104,16 @@
       "address": "العنوان",
       "telValue": "+86-15900283962",
       "whatsappValue": "+86-15012891148",
-      "emailValue": "service@ishineco.com",
-      "addressValue": "208 Room, 4 Building, No.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, China, 518071"
+      "emailValue": "service@ishineco. com",
+      "addressValue": "208 Room, 4 Building, No. 45, Makan Road, Xi'li Street, Shenzhen, Guangdong, China, 518071"
     }
   },
   "home": {
     "hero": {
       "title1": "أجهزة IPL مخصصة",
       "title2": "& علامة تجارية أجهزة IPL",
-      "subtitle": "تساعدك شركة Global Leading IPL Device Mactions ، وتساعدك على تصميمها ، وبناءها ، وربطها.",
-      "cta": "احصل على اقتباس"
+      "subtitle": "تساعدك شركة الشركة الرائدة عالمياً في تصنيع أجهزة IPL، وتساعدك على تصميمها، وبناءها، وربطها. ",
+      "cta": "احصل على عرض أسعار"
     },
     "partners": {
       "title": "موثوق بها من قبل العلامات التجارية العالمية",
@@ -121,7 +121,7 @@
     },
     "features": {
       "title": "لماذا تختار إسهين؟",
-      "subtitle": "أكمل حلول تصنيع IPL مصممة لتلبية احتياجاتك"
+      "subtitle": "حلول تصنيع IPL شاملة مصممة لتلبية احتياجاتك"
     },
     "products": {
       "title": "نطاق جهاز IPL الخاص بنا",
@@ -130,22 +130,22 @@
     },
     "cta": {
       "title": "هل تحتاج إلى مساعدة؟",
-      "subtitle": "دعنا نناقش متطلباتك وننشئ حل IPL الذي يناسب علامتك التجارية.",
+      "subtitle": "دعنا نناقش متطلباتك وننشئ حل IPL الذي يناسب علامتك التجارية. ",
       "button": "املأ النموذج للاستمتاع بالتشاور المجاني"
     }
   },
   "contact": {
     "hero": {
       "title": "اتصل بنا",
-      "description": "هل أنت مستعد لمناقشة مشروع IPL الخاص بك؟ "
+      "description": "هل أنت مستعد لمناقشة مشروع IPL الخاص بك؟"
     },
     "info": {
-      "title": "تواصل على اتصال",
+      "title": "ابق على تواصل",
       "subtitle": "طرق متعددة للوصول إلينا - اختر ما هو أفضل بالنسبة لك",
       "address": {
         "title": "عنوان",
-        "company": "شركة Ishine Manufacturing Co. ، Ltd.",
-        "location": "شنتشن ، قوانغدونغ ، الصين"
+        "company": "شركة Ishine Manufacturing Co. ، Ltd. ",
+        "location": "شنتشن، قوانغدونغ، الصين"
       },
       "phone": {
         "title": "هاتف"
@@ -164,46 +164,46 @@
       "subtitle": "تقع في قلب منطقة شنتشن للتصنيع"
     },
     "form": {
-      "title": "ماذا في ذهنك؟ ",
-      "subtitle": "املأ هذا النموذج لبدء العملية. ",
+      "title": "ما الذي تفكر فيه؟",
+      "subtitle": "ااملأ هذا النموذج لبدء العملية. ",
       "name": "اسم*",
       "email": "عنوان البريد الإلكتروني*",
       "phone": "رقم الهاتف* على سبيل المثال (+1-541-3456-3001)",
       "country": "دولة",
-      "message": "صف احتياجاتك هنا*",
+      "message": "اوصف احتياجاتك هنا*",
       "submit": "يُقدِّم",
-      "sending": "إرسال..."
+      "sending": "إرسال. . . "
     },
     "title": "اتصل بنا",
-    "subtitle": "تواصل مع فريقنا للاستفسارات التجارية أو الدعم أو فرص الشراكة.",
+    "subtitle": "تواصل مع فريقنا للاستفسارات التجارية أو الدعم أو فرص الشراكة. ",
     "companyPhotoAlt": "مرفق التصنيع Ishine"
   },
   "buttons": {
-    "getQuote": "احصل على اقتباس",
+    "getQuote": "احصل على عرض أسعار",
     "viewSolutions": "عرض حلولنا",
-    "scheduleConsultation": "جدولة الاستشارة",
+    "scheduleConsultation": "حجز استشارة",
     "submit": "يُقدِّم",
-    "sending": "إرسال...",
+    "sending": "إرسال. . . ",
     "viewAll": "عرض الكل"
   },
   "common": {
-    "loading": "تحميل...",
+    "loading": "تحميل. . . ",
     "error": "حدث خطأ",
     "success": "نجاح",
     "readMore": "اقرأ المزيد",
-    "learnMore": "يتعلم أكثر",
+    "learnMore": "تعلم المزيد",
     "getStarted": "ابدأ",
     "contactUs": "اتصل بنا"
   },
   "solutions": {
     "productDesignDevelopment": "تصميم وتطوير المنتج",
-    "productDesignDevelopmentDescription": "من المفهوم الأولي إلى التصميم النهائي ، يجلب فريق الخبراء لدينا رؤية IPL الخاصة بك إلى الحياة من خلال التكنولوجيا المتطورة ورؤى السوق.",
+    "productDesignDevelopmentDescription": "من المفهوم الأولي إلى التصميم النهائي، يجلب فريق الخبراء لدينا رؤية IPL الخاصة بك إلى الحياة من خلال التكنولوجيا المتطورة ورؤى السوق. ",
     "oemManufacturing": "تصنيع OEM",
-    "oemManufacturingDescription": "أكمل حلول التصنيع مع مواصفاتك. ",
+    "oemManufacturingDescription": "حلول التصنيع الشاملة وفقاً لمواصفاتك. ",
     "odmSolutions": "حلول ODM",
-    "odmSolutionsDescription": "اختر من بين تصميمات IPL الخاصة بنا وتخصيصها من خلال علامتك التجارية والتعبئة والميزات الفريدة.",
+    "odmSolutionsDescription": "اختر من بين تصميمات IPL الخاصة بنا وتخصيصها من خلال علامتك التجارية والتعبئة والميزات الفريدة. ",
     "endToEndSupport": "الدعم الشامل",
-    "endToEndSupportDescription": "أكمل إدارة المشروع من الاستشارة الأولية إلى إطلاق المنتج وما بعده ، مما يضمن نجاحك في كل خطوة على الطريق.",
+    "endToEndSupportDescription": "إدارة شاملة للمشروع من الاستشارة الأولية إلى إطلاق المنتج وما بعده، مما يضمن نجاحك في كل خطوة على الطريق. ",
     "consultation": "التشاور",
     "consultationDescription": "فهم رؤيتك وسوقك ومتطلباتك",
     "design": "تصميم",
@@ -212,10 +212,10 @@
     "prototypeDescription": "بناء واختبار النماذج الأولية لضمان الجودة",
     "manufacturing": "تصنيع",
     "manufacturingDescription": "إنتاج كامل مع ضمان الجودة",
-    "launch": "يطلق",
+    "launch": "الإطلاق",
     "launchDescription": "دعم دخول السوق والنجاح المستمر",
-    "completeIPLSolutions": "أكمل حلول IPL",
-    "completeIPLSolutionsDescription": "!!!>>> Unexpected token '<', \"<html lang\"... is not valid JSON <<<!!!",
+    "completeIPLSolutions": "حلول IPL الشاملة",
+    "completeIPLSolutionsDescription": "!!!>>> Unexpected token '<', \"<html lang\". . . is not valid JSON <<<!!!",
     "ourSolutionPortfolio": "محفظة الحلول لدينا",
     "comprehensiveServices": "خدمات شاملة لتقديم منتجات IPL الخاصة بك إلى السوق بنجاح",
     "ourProcess": "عمليتنا",
@@ -231,11 +231,11 @@
   },
   "about": {
     "heroTitle": "عن آي شاين",
-    "heroDesc": "شريكك الموثوق في تصنيع أجهزة IPL، نقدم تكنولوجيا التجميل المبتكرة من المفهوم إلى السوق منذ عام 2018.",
+    "heroDesc": "شريكك الموثوق في تصنيع أجهزة IPL، نقدم تكنولوجيا التجميل المبتكرة من المفهوم إلى السوق منذ عام 2018. ",
     "storyTitle": "قصتنا",
-    "storyP1": "تأسست آي شاين في عام 2018، نشأت من رؤية لجعل تكنولوجيا IPL المتقدمة في متناول الجميع. أدركنا أن العلامات التجارية للجمال تحتاج إلى شريك موثوق يمكنه تحويل أفكارهم إلى منتجات جاهزة للسوق بدقة وتميز.",
-    "storyP2": "اليوم، نحن فخورون بخدمة العملاء في ثلاث قارات، من الشركات الناشئة المبتكرة إلى كونسورتيوم الجمال الراسخة. التزامنا بالجودة والابتكار ونجاح العملاء يحرك كل ما نقوم به.",
-    "storyP3": "في آي شاين، لا نقوم فقط بتصنيع الأجهزة - نحن نصنع حلولاً تمكن العلامات التجارية من النجاح في سوق الجمال التنافسي.",
+    "storyP1": "تأسست آي شاين في عام 2018، نشأت من رؤية لجعل تكنولوجيا IPL المتقدمة في متناول الجميع. أدركنا أن العلامات التجارية للجمال تحتاج إلى شريك موثوق يمكنه تحويل أفكارهم إلى منتجات جاهزة للسوق بدقة وتميز. ",
+    "storyP2": "اليوم، نحن فخورون بخدمة العملاء في ثلاث قارات، من الشركات الناشئة المبتكرة إلى كونسورتيوم الجمال الراسخة. التزامنا بالجودة والابتكار ونجاح العملاء يحرك كل ما نقوم به. ",
+    "storyP3": "في آي شاين، لا نقوم فقط بتصنيع الأجهزة - نحن نصنع حلولاً تمكن العلامات التجارية من النجاح في سوق الجمال التنافسي. ",
     "valuesTitle": "قيمنا الأساسية",
     "valuesDesc": "المبادئ التي توجه عملنا وعلاقاتنا مع العملاء",
     "values": {
@@ -252,27 +252,27 @@
     "journeyDesc": "المعالم الرئيسية في نمونا وابتكارنا",
     "milestones": {
       "2018": {
-        "title": "Company Founded",
+        "title": "تأسيس الشركة",
         "desc": "تأسيس الشركة - تأسست آي شاين كشركة مصنعة لأجهزة IPL"
       },
       "2019": {
-        "title": "First International Client",
+        "title": "أول عميل دولي",
         "desc": "أول عميل دولي - شراكة مع KU-2 Cosmetic في ألمانيا"
       },
       "2020": {
-        "title": "FDA GMP Certification",
+        "title": "شهادة FDA GMP",
         "desc": "شهادة FDA GMP - حصلت على شهادة غرفة نظيفة FDA GMP"
       },
       "2021": {
-        "title": "Smart IPL Launch",
+        "title": "إطلاق IPL الذكي",
         "desc": "إطلاق IPL الذكي - قدمت أول أجهزة IPL يتحكم فيها التطبيق"
       },
       "2022": {
-        "title": "Global Expansion",
+        "title": "التوسع العالمي",
         "desc": "التوسع العالمي - شراكات مع Costco و ROSESKINCO"
       },
       "2023": {
-        "title": "AI Integration",
+        "title": "دمج الذكاء الاصطناعي",
         "desc": "تكامل الذكاء الاصطناعي - أطلقت تكنولوجيا IPL مدعومة بالذكاء الاصطناعي"
       }
     },
@@ -288,12 +288,12 @@
     }
   },
   "countryPage": {
-    "title": "ISHINE - حلول تصنيع جهاز IPL | ",
-    "description": "الشركة الرائدة في مجال تصنيع أجهزة IPL توفر حلول OEM/ODM من فكرة إلى السوق في جميع أنحاء العالم."
+    "title": "ISHINE - حلول تصنيع جهاز IPL |",
+    "description": "الشركة الرائدة في مجال تصنيع أجهزة IPL توفر حلول OEM/ODM من فكرة إلى السوق في جميع أنحاء العالم. "
   },
   "howToUse": {
     "heroTitle": "كيفية استخدام أجهزة IPL",
-    "heroDescription": "دليل شامل لإزالة الشعر الآمنة والفعالة بواسطة IPL. تعلم التقنيات الصحيحة وإرشادات السلامة واحصل على أفضل النتائج من جهاز IPL الخاص بك.",
+    "heroDescription": "دليل شامل لإزالة الشعر الآمنة والفعالة بواسطة IPL. تعلم التقنيات الصحيحة وإرشادات السلامة واحصل على أفضل النتائج من جهاز IPL الخاص بك. ",
     "stepByStepTitle": "تعليمات خطوة بخطوة",
     "stepByStepDescription": "اتبع هذه الخطوات للعلاج الآمن والفعال بواسطة IPL",
     "safetyGuidelinesTitle": "إرشادات السلامة",
@@ -309,23 +309,23 @@
   },
   "iplHairRemoval": {
     "heroTitle": "حلول إزالة الشعر المهنية بواسطة IPL",
-    "heroDescription": "اكتشف الجيل القادم من أجهزة إزالة الشعر بواسطة IPL - آمنة وفعالة ومصممة لجميع أنواع البشرة. اختبر نتائج بجودة الصالون في المنزل أو في عملك.",
+    "heroDescription": "اكتشف الجيل القادم من أجهزة إزالة الشعر بواسطة IPL - آمنة وفعالة ومصممة لجميع أنواع البشرة. اختبر نتائج بجودة الصالون في المنزل أو في عملك. ",
     "iplDevicesTitle": "مجموعة أجهزة IPL لدينا",
-    "iplDevicesDescription": "استكشف تشكيلتنا الكاملة من أجهزة إزالة الشعر المتقدمة بواسطة IPL، كل منها مهندس لأقصى راحة ونتائج.",
+    "iplDevicesDescription": "استكشف تشكيلتنا الكاملة من أجهزة إزالة الشعر المتقدمة بواسطة IPL، كل منها مهندس لأقصى راحة ونتائج. ",
     "accessoriesTitle": "إكسسوارات IPL الأساسية",
-    "accessoriesDescription": "عزز تجربة IPL الخاصة بك مع مجموعتنا من الإكسسوارات المعتمدة للسلامة والراحة.",
+    "accessoriesDescription": "عزز تجربة IPL الخاصة بك مع مجموعتنا من الإكسسوارات المعتمدة للسلامة والراحة. ",
     "advancedIplTitle": "تكنولوجيا IPL المتقدمة",
     "smartTechnologyIntegration": "تكامل التكنولوجيا الذكية",
-    "smartTechnologyIntegrationDescription": "تتميز أجهزة IPL الخاصة بنا بأجهزة استشعار ذكية واتصال بالتطبيق للعلاجات الشخصية والآمنة والفعالة.",
+    "smartTechnologyIntegrationDescription": "تتميز أجهزة IPL الخاصة بنا بأجهزة استشعار ذكية واتصال بالتطبيق للعلاجات الشخصية والآمنة والفعالة. ",
     "coolingComfortSystems": "أنظمة الراحة بالتبريد",
-    "coolingComfortSystemsDescription": "تبريد الياقوت واللوحة المعدنية يحافظان على راحة وحماية بشرتك أثناء كل جلسة.",
+    "coolingComfortSystemsDescription": "تبريد الياقوت واللوحة المعدنية يحافظان على راحة وحماية بشرتك أثناء كل جلسة. ",
     "intelligentSkinSensors": "أجهزة استشعار الجلد الذكية",
-    "intelligentSkinSensorsDescription": "الكشف التلقائي عن لون البشرة والشعر يضمن توصيل الطاقة المثلى والسلامة لكل مستخدم."
+    "intelligentSkinSensorsDescription": "الكشف التلقائي عن لون البشرة والشعر يضمن توصيل الطاقة المثلى والسلامة لكل مستخدم. "
   },
   "ipl": {
     "aiPowered": {
-      "title": "AI-Powered IPL Device",
-      "desc": "مستقبل إزالة الشعر هنا. الذكاء الاصطناعي يحسن كل علاج للحصول على نتائج شخصية وفعالة.",
+      "title": "جهاز IPL مدعوم بالذكاء الاصطناعي",
+      "desc": "مستقبل إزالة الشعر هنا. الذكاء الاصطناعي يحسن كل علاج للحصول على نتائج شخصية وفعالة. ",
       "features": {
         "aiTech": "تكنولوجيا الذكاء الاصطناعي",
         "aiTechDesc": "خوارزميات التعلم الذكية",
@@ -338,19 +338,19 @@
       }
     },
     "batteryPowered": {
-      "title": "Battery-Powered IPL Hair Removal Device",
-      "desc": "اختبر الراحة اللاسلكية المطلقة مع جهاز IPL الذي يعمل بالبطارية. مجهز ببطارية قابلة للشحن عالية السعة، يوفر حركة سلسة دون الحاجة لمحولات الطاقة. استمتع بإزالة الشعر بمستوى محترف في أي مكان وأي وقت، مع ما يصل إلى 9 مستويات طاقة قابلة للتعديل للعلاجات الشخصية.",
+      "title": "جهاز IPL لإزالة الشعر يعمل بالبطارية",
+      "desc": "اختبر الراحة اللاسلكية المطلقة مع جهاز IPL الذي يعمل بالبطارية. مجهز ببطارية قابلة للشحن عالية السعة، يوفر حركة سلسة دون الحاجة لمحولات الطاقة. استمتع بإزالة الشعر بمستوى محترف في أي مكان وأي وقت، مع ما يصل إلى 9 مستويات طاقة قابلة للتعديل للعلاجات الشخصية. ",
       "features": {
-        "cordless": "تصميم لاسلكي للحرية والراحة المطلقة.",
-        "energyLevels": "9 مستويات طاقة قابلة للتعديل للعلاجات المخصصة.",
-        "longBattery": "بطارية قابلة للشحن طويلة الأمد مع أكثر من 600 دورة شحن.",
-        "noAdapter": "لا حاجة لمحولات الطاقة أثناء الاستخدام، مثالي للسفر.",
-        "allSkin": "مناسب لجميع أنواع البشرة، معتمد من FDA و CE."
+        "cordless": "تصميم لاسلكي للحرية والراحة المطلقة. ",
+        "energyLevels": "9 مستويات طاقة قابلة للتعديل للعلاجات المخصصة. ",
+        "longBattery": "بطارية قابلة للشحن طويلة الأمد مع أكثر من 600 دورة شحن. ",
+        "noAdapter": "لا حاجة لمحولات الطاقة أثناء الاستخدام، مثالي للسفر. ",
+        "allSkin": "مناسب لجميع أنواع البشرة، معتمد من FDA و CE. "
       }
     },
     "dualLamp": {
-      "title": "Dual-Lamp IPL Device",
-      "desc": "قوة مضاعفة، كفاءة مضاعفة. تكنولوجيا المصباح المزدوج الثورية للعلاجات الأسرع والنتائج الفائقة.",
+      "title": "جهاز IPL ثنائي المصباح",
+      "desc": "قوة مضاعفة، كفاءة مضاعفة. تكنولوجيا المصباح المزدوج الثورية للعلاجات الأكثر سرعة والنتائج الفائقة. ",
       "features": {
         "dualLamps": "مصابيح مزدوجة",
         "dualLampsDesc": "قوة وتغطية محسنة",
@@ -363,52 +363,52 @@
       }
     },
     "emerald": {
-      "title": "Emerald IPL Hair Removal Device",
-      "desc": "اختبر إزالة الشعر بمستوى محترف في المنزل مع جهاز Emerald IPL الذي يتميز بتكنولوجيا الضوء النبضي المكثف المتقدمة مع 15 جول/سم² من الطاقة وأكثر من 600,000 وميض للحصول على بشرة ناعمة طويلة الأمد. النظام المهندس بدقة يوفر نتائج متسقة في جميع مناطق العلاج.",
+      "title": "جهاز إزالة الشعر IPL الزمردي",
+      "desc": "اختبر إزالة الشعر بمستوى محترف في المنزل مع جهاز Emerald IPL الذي يتميز بتكنولوجيا الضوء النبضي المكثف المتقدمة مع 15 جول/سم² من الطاقة وأكثر من 600,000 وميض للحصول على بشرة ناعمة طويلة الأمد. النظام المهندس بدقة يوفر نتائج متسقة في جميع مناطق العلاج. ",
       "features": {
-        "proResults": "نتائج احترافية - تخفيض الشعر بنسبة تصل إلى 94% بعد 12 أسبوعاً.",
-        "manualIntensity": "تحكم يدوي بالكثافة من 5 مستويات للعلاجات الشخصية.",
-        "safeAllSkin": "آمن لجميع أنواع البشرة ضمن نطاق Fitzpatrick I-V.",
-        "largeWindow": "نافذة علاج كبيرة 4.2 سم² لتغطية أسرع.",
-        "ergonomic": "تصميم مريح مع أجهزة استشعار أمان مدمجة."
+        "proResults": "نتائج احترافية - تخفيض الشعر بنسبة تصل إلى 94% بعد 12 أسبوعاً. ",
+        "manualIntensity": "تحكم يدوي بالكثافة من 5 مستويات للعلاجات الشخصية. ",
+        "safeAllSkin": "آمن لجميع أنواع البشرة ضمن نطاق Fitzpatrick I-V. ",
+        "largeWindow": "نافذة علاج كبيرة 4. 2 سم² لتغطية أسرع. ",
+        "ergonomic": "تصميم مريح مع أجهزة استشعار أمان مدمجة. "
       }
     },
     "handheld": {
-      "title": "Handheld IPL Hair Removal Device",
-      "desc": "اكتشف المزيج المثالي من الراحة والأداء مع جهاز IPL المحمول. مصمم لقبضة سهلة وتحكم دقيق، يتميز بـ 5 مستويات طاقة قابلة للتعديل لتناسب جميع أنواع البشرة والحساسيات. احصل على نتائج إزالة الشعر بجودة الصالون في المنزل مع جهاز خفيف ومحمول.",
+      "title": "جهاز IPL المحمول لإزالة الشعر",
+      "desc": "اكتشف المزيج المثالي من الراحة والأداء مع جهاز IPL المحمول. مصمم لقبضة سهلة وتحكم دقيق، يتميز بـ 5 مستويات طاقة قابلة للتعديل لتناسب جميع أنواع البشرة والحساسيات. احصل على نتائج إزالة الشعر بجودة الصالون في المنزل مع جهاز خفيف ومحمول. ",
       "features": {
-        "ergonomic": "تصميم محمول مريح للاستخدام المريح.",
-        "energyLevels": "5 مستويات طاقة قابلة للتعديل للعلاجات الشخصية.",
-        "portable": "خفيف ومحمول - مثالي للسفر والاستخدام المنزلي.",
-        "allSkin": "مناسب لجميع أنواع البشرة، لطيف وفعال.",
-        "certified": "معتمد من FDA و CE للسلامة والجودة."
+        "ergonomic": "تصميم محمول مريح للاستخدام المريح. ",
+        "energyLevels": "5 مستويات طاقة قابلة للتعديل للعلاجات الشخصية. ",
+        "portable": "خفيف ومحمول - مثالي للسفر والاستخدام المنزلي. ",
+        "allSkin": "مناسب لجميع أنواع البشرة، لطيف وفعال. ",
+        "certified": "معتمد من FDA و CE للسلامة والجودة. "
       }
     },
     "iceCooling": {
-      "title": "Ice Cooling IPL Hair Removal Device",
-      "desc": "اختبر تكنولوجيا إزالة الشعر الفاخرة بالتبريد الجليدي بمستوى محترف، تتميز بلوحة تبريد معدنية بمستوى الطيران تبرد البشرة فوراً إلى 5°م درجة حرارة منخفضة للغاية. مدمجة مع نبضات IPL عالية الطاقة 2.0~5.0 جول/سم² وأكثر من 999,000 وميض، توفر تجربة بشرة حريرية مثل الآلهة. التصميم الفاخر مصنوع للنساء العصريات الساعيات للكمال.",
+      "title": "جهاز IPL لإزالة الشعر بالتبريد الجليدي",
+      "desc": "اختبر تكنولوجيا إزالة الشعر الفاخرة بالتبريد الجليدي بمستوى محترف، تتميز بلوحة تبريد معدنية بمستوى الطيران تبرد البشرة فوراً إلى 5°م درجة حرارة منخفضة للغاية. مدمجة مع نبضات IPL عالية الطاقة 2. 0~5. 0 جول/سم² وأكثر من 999,000 وميض، توفر تجربة بشرة حريرية مثل الآلهة. التصميم الفاخر مصنوع للنساء العصريات الساعيات للكمال. ",
       "features": {
-        "luxuryDesign": "تصميم آلهة فاخر - ملمس معدني بمستوى الطيران، يظهر الذوق النبيل.",
-        "coolingPlate": "تكنولوجيا لوحة التبريد الجليدي - تبرد البشرة فوراً إلى 5°م لتجربة خالية من الألم حقاً.",
-        "preciseControl": "تحكم دقيق بالطاقة من 9 مستويات - قابل للتخصيص للمناطق الحساسة والشعر الخشن.",
-        "allSkin": "مناسب لجميع أنواع البشرة - معتمد Fitzpatrick I-V.",
-        "largeWindow": "نافذة علاج كبيرة جداً 3.3 سم² - تغطية سريعة، كفاءة أعلى بنسبة 50%."
+        "luxuryDesign": "تصميم آلهة فاخر - ملمس معدني بمستوى الطيران، يظهر الذوق النبيل. ",
+        "coolingPlate": "تكنولوجيا لوحة التبريد الجليدي - تبرد البشرة فوراً إلى 5°م لتجربة خالية من الألم حقاً. ",
+        "preciseControl": "تحكم دقيق بالطاقة من 9 مستويات - قابل للتخصيص للمناطق الحساسة والشعر الخشن. ",
+        "allSkin": "مناسب لجميع أنواع البشرة - معتمد Fitzpatrick I-V. ",
+        "largeWindow": "نافذة علاج كبيرة جداً 3. 3 سم² - تغطية سريعة، كفاءة أعلى بنسبة 50%. "
       }
     },
     "iceFeeling": {
-      "title": "Sapphire Ice Feeling IPL Device",
-      "desc": "استمتع بإزالة الشعر الخالية من الألم مع لوحة تبريد الياقوت بمستوى إكلينيكي تبرد البشرة إلى 5°م، مما يتيح نبضات طاقة أعلى لنتائج أسرع. محرك الضوء النبضي المكثف (IPL) المدمج يوفر 2.0~5.0 جول/سم² من الطاقة مع 999,999 وميض لاستخدام مدى الحياة.",
+      "title": "جهاز IPL بتبريد الياقوت الجليدي",
+      "desc": "استمتع بإزالة الشعر الخالية من الألم مع لوحة تبريد الياقوت بمستوى إكلينيكي تبرد البشرة إلى 5°م، مما يتيح نبضات طاقة أعلى لنتائج أسرع. محرك الضوء النبضي المكثف (IPL) المدمج يوفر 2. 0~5. 0 جول/سم² من الطاقة مع 999,999 وميض لاستخدام مدى الحياة. ",
       "features": {
-        "longSmooth": "نعومة طويلة الأمد - تخفيض مرئي بعد 3-4 أسابيع.",
-        "cooling": "لوحة التبريد تحافظ على البشرة عند 5°م للعلاجات الخالية من الألم حقاً.",
-        "energyLevels": "خمسة مستويات طاقة تتكيف مع تقريباً جميع أنواع البشرة ضمن Fitzpatrick I-V.",
-        "flashModes": "أنماط وميض تلقائية/يدوية للجسم والمناطق الدقيقة.",
-        "multiUse": "4 في 1: الجسم الكامل، البيكيني، الوجه، وتجديد البشرة."
+        "longSmooth": "نعومة طويلة الأمد - تخفيض مرئي بعد 3-4 أسابيع. ",
+        "cooling": "لوحة التبريد تحافظ على البشرة عند 5°م للعلاجات الخالية من الألم حقاً. ",
+        "energyLevels": "خمسة مستويات طاقة تتكيف مع تقريباً جميع أنواع البشرة ضمن Fitzpatrick I-V. ",
+        "flashModes": "أنماط وميض تلقائية/يدوية للجسم والمناطق الدقيقة. ",
+        "multiUse": "4 في 1: الجسم الكامل، البيكيني، الوجه، وتجديد البشرة. "
       }
     },
     "skinSensor": {
-      "title": "Skin Sensor IPL Device",
-      "desc": "اختبر أأمن وأذكى إزالة شعر منزلية مع جهاز Skin Sensor IPL. هذا الجهاز الثوري يتميز بأجهزة استشعار بصرية متقدمة تكتشف تلقائياً لون بشرتك ولون شعرك - توفر كثافة علاج شخصية لأقصى فعالية وأمان كامل. مع تحليل البشرة في الوقت الفعلي وتعديل الطاقة التلقائي، هذا الجهاز مثالي لجميع أنواع البشرة المناسبة ويضمن نتائج مثلى في كل مرة.",
+      "title": "جهاز IPL بمستشعر الجلد",
+      "desc": "اختبر أأمن وأذكى إزالة شعر منزلية مع جهاز Skin Sensor IPL. هذا الجهاز الثوري يتميز بأجهزة استشعار بصرية متقدمة تكتشف تلقائياً لون بشرتك ولون شعرك - توفر كثافة علاج شخصية لأقصى فعالية وأمان كامل. مع تحليل البشرة في الوقت الفعلي وتعديل الطاقة التلقائي، هذا الجهاز مثالي لجميع أنواع البشرة المناسبة ويضمن نتائج مثلى في كل مرة. ",
       "features": {
         "intelligentDetection": "الكشف الذكي للبشرة - أجهزة استشعار متقدمة تحدد تلقائياً لون البشرة وتعدل مستويات الطاقة",
         "maxSafety": "أقصى أمان - يمنع الإفراط في العلاج ويقلل خطر تهيج البشرة أو الحروق",
@@ -418,10 +418,10 @@
       }
     },
     "smartApp": {
-      "title": "Smart App IPL Hair Removal Device",
-      "desc": "اتصل بسلاسة بجهاز IPL الخاص بك عبر البلوتوث بتطبيقنا الذكي. استمتع بعلاجات موجهة وتتبع الجلسات في الوقت الفعلي وروتين شخصي ورؤى مدعومة بالذكاء الاصطناعي. تحكم في مستويات الكثافة وراقب التقدم واستقبل التذكيرات - كل ذلك من هاتفك الذكي.",
+      "title": "جهاز IPL لإزالة الشعر بالتطبيق الذكي",
+      "desc": "اتصل بسلاسة بجهاز IPL الخاص بك عبر البلوتوث بتطبيقنا الذكي. استمتع بعلاجات موجهة وتتبع الجلسات في الوقت الفعلي وروتين شخصي ورؤى مدعومة بالذكاء الاصطناعي. تحكم في مستويات الكثافة وراقب التقدم واستقبل التذكيرات - كل ذلك من هاتفك الذكي. ",
       "features": {
-        "bluetooth": "اتصال بلوتوث 5.0 للاقتران المستقر",
+        "bluetooth": "اتصال بلوتوث 5. 0 للاقتران المستقر",
         "aiPlans": "خطط علاج شخصية عبر تحليل الذكاء الاصطناعي",
         "realTimeControl": "تحكم في الكثافة في الوقت الفعلي وردود فعل على الشاشة",
         "scheduling": "جدولة الجلسات وتذكيرات الاستخدام",
@@ -430,51 +430,51 @@
     }
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "الأسئلة الشائعة",
     "shipping": {
       "q": "هل يمكنكم الشحن عالمياً؟",
-      "a": "بالطبع. نحن نقدم شحناً موثوقاً في جميع أنحاء العالم لدعم عملك أينما كنت."
+      "a": "بالطبع. نحن نقدم شحناً موثوقاً في جميع أنحاء العالم لدعم عملك أينما كنت. "
     },
     "customization": {
       "q": "هل يمكنني تخصيص وظائف الجهاز؟",
-      "a": "نعم، نحن نقدم تخصيصاً كاملاً للميزات والألوان والتعبئة والمزيد لتناسب احتياجات علامتك التجارية."
+      "a": "نعم، نحن نقدم تخصيصاً كاملاً للميزات والألوان والتعبئة والمزيد لتناسب احتياجات علامتك التجارية. "
     },
     "certifications": {
       "q": "ما هي الشهادات التي تدعمونها؟",
-      "a": "نحن ندعم FDA وCE وRoHS وشهادات عالمية أخرى لضمان الامتثال في أسواقك المستهدفة."
+      "a": "نحن ندعم FDA وCE وRoHS وشهادات عالمية أخرى لضمان الامتثال في أسواقك المستهدفة. "
     },
     "leadTime": {
       "q": "كم هو وقت التنفيذ للإنتاج؟",
-      "a": "وقت التنفيذ النموذجي هو 25-35 يوماً بعد موافقة العينة، حسب حجم الطلب والتخصيص."
+      "a": "وقت التنفيذ النموذجي هو 25-35 يوماً بعد موافقة العينة، حسب حجم الطلب والتخصيص. "
     },
     "afterSales": {
       "q": "هل تقدمون دعماً لما بعد البيع؟",
-      "a": "نعم، نحن نقدم خدمة شاملة لما بعد البيع بما في ذلك الدعم التقني والضمان."
+      "a": "نعم، نحن نقدم خدمة شاملة لما بعد البيع بما في ذلك الدعم التقني والضمان. "
     }
   },
   "cta": {
     "getSupport": "احصل على الدعم الآن",
     "readyToStart": "هل أنت مستعد للبدء؟",
-    "contactUs": "Contact Us",
+    "contactUs": "اتصل بنا",
     "freeQuote": "احصل على عرض سعر مجاني",
     "readMore": "اقرأ المزيد"
   },
   "form": {
-    "name": "Name",
-    "email": "Email",
-    "phone": "Phone",
-    "country": "Country",
-    "message": "Message",
-    "submit": "Submit",
-    "sending": "Sending...",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "country": "البلد",
+    "message": "الرسالة",
+    "submit": "إرسال",
+    "sending": "جاري الإرسال. . . ",
     "success": "تم إرسال رسالتك بنجاح!",
-    "error": "حدث خطأ في إرسال رسالتك. يرجى المحاولة مرة أخرى."
+    "error": "حدث خطأ في إرسال رسالتك. يرجى المحاولة مرة أخرى. "
   },
   "blog": {
     "posts": {
       "sustainableManufacturing": {
-        "title": "Sustainable Manufacturing: Green IPL Production Methods",
-        "intro": "As the demand for at-home IPL (Intense Pulsed Light) hair removal devices surges, so does the responsibility to produce these electronics with minimal environmental impact. Sustainable manufacturing is no longer a trend but a necessity—encompassing every stage from raw material sourcing to end-of-life recycling. This article assesses the environmental footprint of IPL device production and explores innovative, practical strategies for achieving a truly green supply chain, with a focus on electronics, optics, eco-friendly ABS housings, sustainable packaging, and waste reutilization.",
+        "title": "التصنيع المستدام: طرق إنتاج IPL الصديقة للبيئة",
+        "intro": "As the demand for at-home IPL (Intense Pulsed Light) hair removal devices surges, so does the responsibility to produce these electronics with minimal environmental impact. Sustainable manufacturing is no longer a trend but a necessity—encompassing every stage from raw material sourcing to end-of-life recycling. This article assesses the environmental footprint of IPL device production and explores innovative, practical strategies for achieving a truly green supply chain, with a focus on electronics, optics, eco-friendly ABS housings, sustainable packaging, and waste reutilization. ",
         "sections": {
           "environmentalImpact": "Environmental Impact Assessment of IPL Device Manufacturing",
           "electronics": "1. Electronic Components",
@@ -489,8 +489,8 @@
         }
       },
       "globalMarketShifts": {
-        "title": "Global Market Shifts: IPL Device Trends and Opportunities",
-        "intro": "Explore the latest global trends in IPL device adoption, regulatory changes, and market opportunities for brands and manufacturers.",
+        "title": "التحولات في السوق العالمية: اتجاهات وفرص أجهزة IPL",
+        "intro": "Explore the latest global trends in IPL device adoption, regulatory changes, and market opportunities for brands and manufacturers. ",
         "sections": {
           "marketOverview": "Market Overview",
           "regionalTrends": "Regional Trends",
@@ -502,8 +502,8 @@
         }
       },
       "aiPoweredSkinSensing": {
-        "title": "AI-Powered Skin Sensing: The Next Frontier in IPL Safety",
-        "intro": "How artificial intelligence is revolutionizing IPL device safety and personalization through real-time skin analysis.",
+        "title": "استشعار الجلد بالذكاء الاصطناعي: الحدود الجديدة في أمان IPL",
+        "intro": "How artificial intelligence is revolutionizing IPL device safety and personalization through real-time skin analysis. ",
         "sections": {
           "introduction": "Introduction",
           "aiTechnology": "AI Technology in IPL",
@@ -515,8 +515,8 @@
         }
       },
       "multiHeadIPLSystems": {
-        "title": "Multi-Head IPL Systems: Precision Meets Full-Body Efficiency",
-        "intro": "The evolution of at-home hair removal has been profoundly shaped by the introduction of multi-head Intense Pulsed Light (IPL) systems. Philips pioneered this trend with its interchangeable head technology, setting a new standard for versatility and user-centric design in home-use IPL devices.",
+        "title": "أنظمة IPL متعددة الرؤوس: الدقة تلتقي بكفاءة الجسم الكامل",
+        "intro": "The evolution of at-home hair removal has been profoundly shaped by the introduction of multi-head Intense Pulsed Light (IPL) systems. Philips pioneered this trend with its interchangeable head technology, setting a new standard for versatility and user-centric design in home-use IPL devices. ",
         "sections": {
           "philipsLegacy": "The Philips Legacy: Setting the Standard for Multi-Head IPL",
           "keyFeatures": "Key Features of Multi-Head IPL Devices",
@@ -529,8 +529,8 @@
         }
       },
       "sapphireCooling": {
-        "title": "Sapphire Cooling: Enhancing Comfort in IPL Treatments",
-        "intro": "Discover how sapphire cooling technology is transforming the comfort and safety of IPL hair removal treatments.",
+        "title": "تبريد الياقوت: تعزيز الراحة في علاجات IPL",
+        "intro": "Discover how sapphire cooling technology is transforming the comfort and safety of IPL hair removal treatments. ",
         "sections": {
           "technologyOverview": "Technology Overview",
           "coolingMechanism": "How Sapphire Cooling Works",
@@ -542,8 +542,8 @@
         }
       },
       "industries": {
-        "title": "Industries We Serve: IPL Applications Across Sectors",
-        "intro": "IPL technology is not just for beauty—explore its applications in medical, veterinary, and industrial sectors.",
+        "title": "القطاعات التي نخدمها: تطبيقات IPL عبر المجالات",
+        "intro": "IPL technology is not just for beauty—explore its applications in medical, veterinary, and industrial sectors. ",
         "sections": {
           "beauty": "Beauty Industry",
           "medical": "Medical Applications",
@@ -554,34 +554,34 @@
         }
       },
       "iplBestChoice": {
-        "title": "Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools",
-        "intro": "Discover why IPL is the most effective, comfortable, and convenient solution for long-term hair removal at home—backed by science and real user experience.",
+        "title": "لماذا تعتبر أجهزة IPL المنزلية لإزالة الشعر الخيار الأفضل بين جميع أدوات إزالة الشعر",
+        "intro": "Discover why IPL is the most effective, comfortable, and convenient solution for long-term hair removal at home—backed by science and real user experience. ",
         "sections": {
           "comparison": "Hair Removal Methods Comparison",
           "whyChooseIPL": "Why Choose IPL Home Hair Removal?",
           "userStories": "Real User Stories",
-          "faq": "Frequently Asked Questions",
+          "faq": "الأسئلة الشائعة",
           "recommendedBlog": "Recommended Blog",
           "exploreMore": "Explore More"
         }
       },
       "futureHomeHairRemoval": {
-        "title": "The Future of Home Hair Removal Devices: Trends, Innovations, and What's Next",
-        "intro": "Explore the evolution, current breakthroughs, and the next generation of home hair removal devices—AI, multifunctionality, and sustainable design for 2025 and beyond.",
+        "title": "مستقبل أجهزة إزالة الشعر المنزلية: الاتجاهات والابتكارات وما هو قادم",
+        "intro": "Explore the evolution, current breakthroughs, and the next generation of home hair removal devices—AI, multifunctionality, and sustainable design for 2025 and beyond. ",
         "sections": {
           "evolution": "Evolution of Home Hair Removal Technology",
           "stateOfTheArt": "Key Features of Next-Gen Devices (2025)",
           "aiPersonalization": "AI and Personalization in Hair Removal",
           "vision": "The 'Ultimate' Home Hair Removal Device: A Vision",
           "challenges": "Challenges and Considerations",
-          "faq": "Frequently Asked Questions",
+          "faq": "الأسئلة الشائعة",
           "exploreMore": "Explore More",
           "aboutAuthor": "About the Author"
         }
       },
       "fda510kPathway": {
-        "title": "FDA 510(k) Pathway: Navigating Medical Device Classification for IPL",
-        "intro": "A comprehensive guide to the FDA 510(k) pathway for home-use IPL hair removal devices. Learn about regulatory requirements, marketing claims, and how iShine helps brands achieve compliance.",
+        "title": "مسار FDA 510(k): التنقل في تصنيف الأجهزة الطبية لـ IPL",
+        "intro": "A comprehensive guide to the FDA 510(k) pathway for home-use IPL hair removal devices. Learn about regulatory requirements, marketing claims, and how iShine helps brands achieve compliance. ",
         "sections": {
           "introduction": "Introduction",
           "pathway": "1. FDA 510(k) Pathway for Home IPL Devices",
@@ -590,7 +590,7 @@
           "benefits": "4. Benefits of Obtaining a Brand-Specific FDA 510(k) Listing",
           "guidance": "5. Practical Guidance for Brands",
           "conclusion": "Conclusion",
-          "faq": "Frequently Asked Questions",
+          "faq": "الأسئلة الشائعة",
           "exploreMore": "Explore More",
           "author": "About the Author"
         }
@@ -598,7 +598,7 @@
     }
   },
   "floating": {
-    "contact": "Contact Us",
-    "backToTop": "Back to top"
+    "contact": "اتصل بنا",
+    "backToTop": "العودة إلى الأعلى"
   }
 }
