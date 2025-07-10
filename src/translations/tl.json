@@ -14,13 +14,13 @@
       "contact": "Makipag-ugnayan"
     },
     "solutions": {
-      "logoPrinting": "Logo Printing",
-      "packaging": "Packaging Solutions",
+      "logoPrinting": "Pag-print ng Logo",
+      "packaging": "Mga Solusyon sa Packaging",
       "dropShipping": "Drop Shipping",
-      "globalShipping": "Global Shipping",
-      "brandCustomization": "Brand Customization",
-      "compliance": "Compliance & Certifications",
-      "designPrototyping": "Design & Prototyping",
+      "globalShipping": "Pandaigdigang Pagpapadala",
+      "brandCustomization": "Pag-customize ng Brand",
+      "compliance": "Pagsunod at mga Sertipikasyon",
+      "designPrototyping": "Disenyo at Prototyping",
       "multiHeadIPL": "Multi-head IPL Custom",
       "dualLampIPL": "Dual-lamp IPL Custom"
     },
@@ -38,63 +38,63 @@
     "accessories": {
       "sapphireLens": "Sapphire Lens",
       "adapter": "Adapter",
-      "goggles": "Protective Goggles",
+      "goggles": "Mga Protektibong Salamin",
       "filter": "Filter"
     },
     "serviceSupport": {
-      "service": "Service",
+      "service": "Serbisyo",
       "afterSales": "After-Sales Service",
       "fdaGmp": "FDA GMP Clean Room Design",
-      "manufacturing": "IPL Devices Manufacturing",
+      "manufacturing": "Pagmamanufacture ng IPL Devices",
       "knowledgeBase": "Knowledge Base",
-      "support": "Support > Buying Guide",
+      "support": "Suporta > Buying Guide",
       "beautySourcing": "Beauty Niche Sourcing & Accessories",
-      "pricingGuide": "Pricing Guide",
+      "pricingGuide": "Gabay sa Presyo",
       "helpCenter": "Help Center",
       "gallery": "Gallery",
-      "videos": "Videos",
+      "videos": "Mga Video",
       "blog": "Blog",
-      "newsInsights": "News & Insights",
-      "industries": "Industries We Serve"
+      "newsInsights": "Mga Balita at Insights",
+      "industries": "Mga Industriyang Aming Pinaglilingkuran"
     },
     "about": {
-      "founderMessage": "Founder Message",
-      "technology": "Our Technology",
+      "founderMessage": "Mensahe ng Founder",
+      "technology": "Aming Teknolohiya",
       "globalWitness": "Global Witness",
-      "corePrinciples": "Core Principles",
-      "company": "About iShine",
-      "brandStory": "Brand Story",
-      "quality": "Quality"
+      "corePrinciples": "Mga Pangunahing Prinsipyo",
+      "company": "Tungkol sa iShine",
+      "brandStory": "Kwento ng Brand",
+      "quality": "Kalidad"
     }
   },
   "footer": {
     "company": {
-      "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market.",
-      "products": "Products",
-      "services": "Services",
-      "company": "Company"
+      "description": "Nangungunang tagagawa ng IPL device na nag-aalok ng OEM/ODM solutions mula sa ideya hanggang sa merkado.",
+      "products": "Mga Produkto",
+      "services": "Mga Serbisyo",
+      "company": "Kumpanya"
     },
     "products": {
       "iplHairRemoval": "IPL Hair Removal",
-      "accessories": "Accessories",
+      "accessories": "Mga Accessory",
       "gallery": "Gallery"
     },
     "services": {
       "afterSales": "After-Sales Service",
-      "manufacturing": "IPL Manufacturing",
-      "buyingGuide": "Buying Guide",
+      "manufacturing": "Pagmamanufacture ng IPL",
+      "buyingGuide": "Gabay sa Pagbili",
       "helpCenter": "Help Center"
     },
     "companyLinks": {
-      "about": "About iShine",
-      "brandStory": "Brand Story",
-      "quality": "Quality",
+      "about": "Tungkol sa iShine",
+      "brandStory": "Kwento ng Brand",
+      "quality": "Kalidad",
       "blog": "Blog"
     },
     "legal": {
-      "copyright": "© 2025 iShine. All rights reserved.",
-      "privacyPolicy": "Privacy Policy",
-      "termsOfService": "Terms of Service"
+      "copyright": "© 2025 iShine. Lahat ng karapatan ay nakalaan.",
+      "privacyPolicy": "Patakaran sa Privacy",
+      "termsOfService": "Mga Tuntunin ng Serbisyo"
     },
     "contact": {
       "title": "Makipag-ugnayan",
@@ -112,179 +112,179 @@
     "hero": {
       "title1": "Custom IPL Devices",
       "title2": "& Branding IPL Devices",
-      "subtitle": "Global Leading IPL device manufacturer, help you design it, build it, and box it.",
-      "cta": "Get Quote"
+      "subtitle": "Nangungunang pandaigdigang tagagawa ng IPL device, tumutulong sa iyo na idisenyo, gawin, at i-package ito.",
+      "cta": "Kumuha ng Quote"
     },
     "partners": {
-      "title": "Trusted by Global Brands",
-      "subtitle": "Working with industry leaders worldwide"
+      "title": "Pinagkakatiwalaan ng mga Pandaigdigang Brand",
+      "subtitle": "Nakikipagtulungan sa mga nangungunang industriya sa buong mundo"
     },
     "features": {
-      "title": "Why Choose iShine?",
-      "subtitle": "Complete IPL manufacturing solutions tailored to your needs"
+      "title": "Bakit Piliin ang iShine?",
+      "subtitle": "Kumpletong mga solusyon sa pagmamanufacture ng IPL na naaayon sa inyong pangangailangan"
     },
     "products": {
-      "title": "Our IPL Device Range",
-      "subtitle": "Wide Range IPL devices for every needs",
-      "cta": "View All IPL Devices"
+      "title": "Aming Range ng IPL Device",
+      "subtitle": "Malawakang range ng IPL devices para sa lahat ng pangangailangan",
+      "cta": "Tingnan Lahat ng IPL Devices"
     },
     "cta": {
-      "title": "Need help?",
-      "subtitle": "Let's discuss your requirements and create the IPL solution that best fit for your brand.",
-      "button": "Fill out the form to enjoy Free Consultation"
+      "title": "Kailangan ng tulong?",
+      "subtitle": "Pag-usapan natin ang inyong mga requirements at gumawa ng IPL solution na pinakabagay sa inyong brand.",
+      "button": "I-fill ang form para mag-enjoy ng Free Consultation"
     }
   },
   "contact": {
     "hero": {
       "title": "Makipag-ugnayan sa Amin",
-      "description": "Ready to discuss your IPL project? Get in touch with our expert team today. We're here to help bring your vision to life."
+      "description": "Handa na bang pag-usapan ang inyong IPL project? Makipag-ugnayan sa aming expert team ngayon. Nandito kami para tumulong na maging totoo ang inyong vision."
     },
     "info": {
-      "title": "Get in Touch",
-      "subtitle": "Multiple ways to reach us - choose what works best for you",
+      "title": "Makipag-ugnayan",
+      "subtitle": "Maraming paraan para maabot kami - piliin ang pinakamabuti para sa inyo",
       "address": {
         "title": "Address",
         "company": "iShine Manufacturing Co., Ltd.",
         "location": "Shenzhen, Guangdong, China"
       },
       "phone": {
-        "title": "Phone"
+        "title": "Telepono"
       },
       "email": {
         "title": "Email"
       },
       "hours": {
-        "title": "Business Hours",
-        "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
-        "saturday": "Saturday: 9:00 AM - 12:00 PM"
+        "title": "Oras ng Negosyo",
+        "weekdays": "Lunes - Biyernes: 9:00 AM - 6:00 PM",
+        "saturday": "Sabado: 9:00 AM - 12:00 PM"
       }
     },
     "map": {
-      "title": "Visit Our Facility",
-      "subtitle": "Located in the heart of Shenzhen's manufacturing district"
+      "title": "Bisitahin ang Aming Facility",
+      "subtitle": "Matatagpuan sa puso ng manufacturing district ng Shenzhen"
     },
     "form": {
-      "title": "What's in your mind? Let's talk!",
-      "subtitle": "Fill out this form to get the process started. We'll be in touch within 24hrs.",
-      "name": "Name*",
+      "title": "Ano ang nasa isip mo? Mag-usap tayo!",
+      "subtitle": "I-fill ang form na ito para magsimula ang proseso. Makikipag-ugnayan kami sa loob ng 24 oras.",
+      "name": "Pangalan*",
       "email": "Email Address*",
-      "phone": "Phone number* e.g.(+1-541-3456-3001)",
-      "country": "Country",
-      "message": "Describe your needs here*",
-      "submit": "Submit",
-      "sending": "Sending..."
+      "phone": "Numero ng telepono* hal.(+1-541-3456-3001)",
+      "country": "Bansa",
+      "message": "Ilarawan ang inyong pangangailangan dito*",
+      "submit": "I-submit",
+      "sending": "Nagipadala..."
     },
     "title": "Makipag-ugnayan sa Amin",
-    "subtitle": "Get in touch with our team for business inquiries, support, or partnership opportunities.",
-    "companyPhotoAlt": "iShine Manufacturing Facility"
+    "subtitle": "Makipag-ugnayan sa aming team para sa business inquiries, support, o partnership opportunities.",
+    "companyPhotoAlt": "Facility ng iShine Manufacturing"
   },
   "buttons": {
-    "getQuote": "Get Quote",
-    "viewSolutions": "View Our Solutions",
-    "scheduleConsultation": "Schedule Consultation",
-    "submit": "Submit",
-    "sending": "Sending...",
-    "viewAll": "View All"
+    "getQuote": "Kumuha ng Quote",
+    "viewSolutions": "Tingnan ang Aming Mga Solusyon",
+    "scheduleConsultation": "Mag-schedule ng Consultation",
+    "submit": "I-submit",
+    "sending": "Nagipadala...",
+    "viewAll": "Tingnan Lahat"
   },
   "common": {
     "loading": "Naglo-load...",
     "error": "Nagkaroon ng error",
     "success": "Tagumpay",
-    "readMore": "Read More",
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
+    "readMore": "Basahin pa",
+    "learnMore": "Matuto pa",
+    "getStarted": "Magsimula",
     "contactUs": "Makipag-ugnayan sa Amin"
   },
   "solutions": {
     "productDesignDevelopment": "Product Design & Development",
-    "productDesignDevelopmentDescription": "From initial concept to final design, our expert team brings your IPL vision to life with cutting-edge technology and market insights.",
-    "oemManufacturing": "OEM Manufacturing",
-    "oemManufacturingDescription": "Complete manufacturing solutions with your specifications. We handle production while you focus on your brand and market.",
-    "odmSolutions": "ODM Solutions",
-    "odmSolutionsDescription": "Choose from our proven IPL designs and customize them with your branding, packaging, and unique features.",
+    "productDesignDevelopmentDescription": "Mula sa initial concept hanggang final design, ang aming expert team ay nagbibigay-buhay sa inyong IPL vision gamit ang cutting-edge technology at market insights.",
+    "oemManufacturing": "Pagmamanufacture ng OEM",
+    "oemManufacturingDescription": "Kumpletong mga solusyon sa pagmamanufacture ayon sa inyong specifications. Ginagampanan namin ang produksyon habang nakatuon kayo sa inyong brand at merkado.",
+    "odmSolutions": "Mga Solusyon ng ODM",
+    "odmSolutionsDescription": "Pumili mula sa aming napatunayang mga disenyo ng IPL at i-customize ang mga ito gamit ang inyong branding, packaging, at natatanging mga feature.",
     "endToEndSupport": "End-to-End Support",
-    "endToEndSupportDescription": "Complete project management from initial consultation to product launch and beyond, ensuring your success every step of the way.",
-    "consultation": "Consultation",
-    "consultationDescription": "Understand your vision, market, and requirements",
-    "design": "Design",
-    "designDescription": "Create custom designs or adapt existing solutions",
+    "endToEndSupportDescription": "Kumpletong project management mula sa initial consultation hanggang product launch at higit pa, tinitiyak ang inyong tagumpay sa bawat hakbang.",
+    "consultation": "Konsultasyon",
+    "consultationDescription": "Nauunawaan ang inyong vision, merkado, at mga requirements",
+    "design": "Disenyo",
+    "designDescription": "Lumikha ng mga custom na disenyo o mag-adapt ng mga kasalukuyang solusyon",
     "prototype": "Prototype",
-    "prototypeDescription": "Build and test prototypes to ensure quality",
-    "manufacturing": "Manufacturing",
-    "manufacturingDescription": "Full-scale production with quality assurance",
+    "prototypeDescription": "Gumawa at mag-test ng mga prototype para matiyak ang kalidad",
+    "manufacturing": "Pagmamanufacture",
+    "manufacturingDescription": "Full-scale na produksyon na may quality assurance",
     "launch": "Launch",
-    "launchDescription": "Support your market entry and ongoing success",
-    "completeIPLSolutions": "Complete IPL Solutions",
-    "completeIPLSolutionsDescription": "From initial concept to market launch, we provide comprehensive OEM/ODM solutions that transform your IPL vision into successful products.",
-    "ourSolutionPortfolio": "Our Solution Portfolio",
-    "comprehensiveServices": "Comprehensive services to bring your IPL products to market successfully",
-    "ourProcess": "Our Process",
-    "streamlinedWorkflow": "Streamlined workflow to ensure your project success",
-    "industriesWeServe": "Industries We Serve",
-    "tailoredSolutions": "Tailored solutions for diverse market segments",
-    "provenSuccess": "Proven Success",
-    "numbersSpeak": "Numbers that speak to our expertise and commitment",
-    "globalClients": "Global Clients",
-    "productsLaunched": "Products Launched",
-    "qualityRate": "Quality Rate",
-    "yearsExperience": "Years Experience"
+    "launchDescription": "Suportahan ang inyong market entry at patuloy na tagumpay",
+    "completeIPLSolutions": "Kumpletong mga Solusyon ng IPL",
+    "completeIPLSolutionsDescription": "Mula sa initial concept hanggang market launch, nagbibigay kami ng comprehensive na OEM/ODM solutions na nagbabago ng inyong IPL vision sa mga matagumpay na produkto.",
+    "ourSolutionPortfolio": "Aming Portfolio ng Solusyon",
+    "comprehensiveServices": "Mga comprehensive na serbisyo para matagumpay na maipasok ang inyong mga produktong IPL sa merkado",
+    "ourProcess": "Aming Proseso",
+    "streamlinedWorkflow": "Pinasimpleng workflow para matiyak ang tagumpay ng inyong proyekto",
+    "industriesWeServe": "Mga Industriyang Aming Pinaglilingkuran",
+    "tailoredSolutions": "Mga solusyon na naaayon sa iba't ibang segment ng merkado",
+    "provenSuccess": "Napatunayang Tagumpay",
+    "numbersSpeak": "Mga numero na nagsasalita sa aming expertise at commitment",
+    "globalClients": "Mga Pandaigdigang Kliyente",
+    "productsLaunched": "Mga Produktong Na-launch",
+    "qualityRate": "Rate ng Kalidad",
+    "yearsExperience": "Taong Karanasan"
   },
   "about": {
-    "heroTitle": "About iShine",
-    "heroDesc": "Your trusted partner in IPL device manufacturing, bringing innovative beauty technology from concept to market since 2018.",
-    "storyTitle": "Our Story",
-    "storyP1": "Founded in 2018, iShine emerged from a vision to democratize advanced IPL technology. We recognized that beauty brands needed a reliable partner who could transform their ideas into market-ready products with precision and excellence.",
-    "storyP2": "Today, we're proud to serve clients across three continents, from innovative startups to established beauty conglomerates. Our commitment to quality, innovation, and customer success drives everything we do.",
-    "storyP3": "At iShine, we don't just manufacture devices – we craft solutions that empower brands to succeed in the competitive beauty market.",
-    "valuesTitle": "Our Core Values",
-    "valuesDesc": "The principles that guide our work and relationships with clients",
+    "heroTitle": "Tungkol sa iShine",
+    "heroDesc": "Ang inyong pinagkakatiwalaang kasosyo sa pagmamanufacture ng IPL device, nagdadala ng innovative na beauty technology mula sa concept hanggang merkado simula 2018.",
+    "storyTitle": "Aming Kuwento",
+    "storyP1": "Naitatag noong 2018, ang iShine ay lumitaw mula sa isang vision na gawing demokratiko ang advanced na IPL technology. Nakilala namin na ang mga beauty brand ay nangangailangan ng isang maaasahang kasosyo na makakapagbago sa kanilang mga ideya sa mga produktong handang-merkado na may precision at excellence.",
+    "storyP2": "Ngayon, ipinagmamalaki naming pagsilbihan ang mga kliyente sa tatlong kontinente, mula sa mga innovative na startup hanggang sa mga etablisadong beauty conglomerate. Ang aming commitment sa kalidad, innovation, at customer success ang nagpapatakbo sa lahat ng ginagawa namin.",
+    "storyP3": "Sa iShine, hindi lang kami gumagawa ng mga device - gumagawa kami ng mga solusyon na nagbibigay-kapangyarihan sa mga brand na magtagumpay sa competitive na beauty market.",
+    "valuesTitle": "Aming mga Core Value",
+    "valuesDesc": "Ang mga prinsipyong gumagabay sa aming trabaho at relasyon sa mga kliyente",
     "values": {
-      "qualityTitle": "Quality Excellence",
-      "qualityDesc": "FDA GMP certified manufacturing with rigorous quality control",
+      "qualityTitle": "Kalidad na Kahusayan",
+      "qualityDesc": "FDA GMP certified na pagmamanufacture na may mahigpit na quality control",
       "customerTitle": "Customer Focus",
-      "customerDesc": "Dedicated to understanding and exceeding customer expectations",
-      "globalTitle": "Global Impact",
-      "globalDesc": "Serving beauty brands worldwide with innovative IPL solutions",
+      "customerDesc": "Nakatuon sa pag-unawa at paglampas sa mga inaasahan ng customer",
+      "globalTitle": "Pandaigdigang Epekto",
+      "globalDesc": "Nagsisilbi sa mga beauty brand sa buong mundo gamit ang mga innovative na IPL solution",
       "innovationTitle": "Innovation Drive",
-      "innovationDesc": "Continuous R&D investment in next-generation IPL technology"
+      "innovationDesc": "Tuloy-tuloy na investment sa R&D para sa next-generation na IPL technology"
     },
-    "journeyTitle": "Our Journey",
-    "journeyDesc": "Key milestones in our growth and innovation",
+    "journeyTitle": "Aming Paglalakbay",
+    "journeyDesc": "Mga pangunahing milestone sa aming paglaki at innovation",
     "milestones": {
       "2018": {
-        "title": "Company Founded",
-        "desc": "iShine established as IPL device manufacturer"
+        "title": "Naitatag ang Kumpanya",
+        "desc": "Naitatag ang iShine bilang manufacturer ng IPL device"
       },
       "2019": {
-        "title": "First International Client",
-        "desc": "Partnership with KU-2 Cosmetic in Germany"
+        "title": "Unang International na Kliyente",
+        "desc": "Partnership sa KU-2 Cosmetic sa Germany"
       },
       "2020": {
         "title": "FDA GMP Certification",
-        "desc": "Achieved FDA GMP clean room certification"
+        "desc": "Nakamit ang FDA GMP clean room certification"
       },
       "2021": {
         "title": "Smart IPL Launch",
-        "desc": "Introduced first app-controlled IPL devices"
+        "desc": "Inilunsad ang unang app-controlled na IPL devices"
       },
       "2022": {
-        "title": "Global Expansion",
-        "desc": "Partnerships with Costco and ROSESKINCO"
+        "title": "Pandaigdigang Pagpapalawak",
+        "desc": "Mga partnership sa Costco at ROSESKINCO"
       },
       "2023": {
         "title": "AI Integration",
-        "desc": "Launched AI-powered IPL technology"
+        "desc": "Inilunsad ang AI-powered na IPL technology"
       }
     },
-    "teamTitle": "Our Expert Team",
-    "teamDesc": "Dedicated professionals committed to your success",
+    "teamTitle": "Aming Expert na Team",
+    "teamDesc": "Mga dedicated na propesyonal na nakatuon sa inyong tagumpay",
     "team": {
-      "rnd": "R&D Engineers",
-      "rndDesc": "Expert engineers developing cutting-edge IPL technology",
-      "quality": "Quality Specialists",
-      "qualityDesc": "Ensuring every device meets the highest standards",
+      "rnd": "Mga R&D Engineer",
+      "rndDesc": "Mga expert na engineer na gumagawa ng cutting-edge na IPL technology",
+      "quality": "Mga Quality Specialist",
+      "qualityDesc": "Tinitiyak na bawat device ay nakakaabot sa pinakamataas na pamantayan",
       "customer": "Customer Success",
-      "customerDesc": "Dedicated support from concept to market launch"
+      "customerDesc": "Dedicated na suporta mula sa concept hanggang market launch"
     }
   },
   "countryPage": {
@@ -292,183 +292,183 @@
     "description": "Nangungunang tagagawa ng IPL device na nag-aalok ng OEM/ODM solutions mula sa ideya hanggang sa merkado. Mga customized na IPL hair removal device para sa mga pandaigdigang beauty brand."
   },
   "howToUse": {
-    "heroTitle": "How to Use IPL Devices",
-    "heroDescription": "Complete guide to safe and effective IPL hair removal. Learn proper techniques, safety guidelines, and get the best results from your IPL device.",
-    "stepByStepTitle": "Step-by-Step Instructions",
-    "stepByStepDescription": "Follow these steps for safe and effective IPL treatment",
-    "safetyGuidelinesTitle": "Safety Guidelines",
-    "safetyGuidelinesDescription": "Essential safety information for IPL treatment",
-    "treatmentScheduleTitle": "Recommended Treatment Schedule",
-    "treatmentScheduleDescription": "Follow this schedule for optimal hair removal results",
+    "heroTitle": "Paano Gamitin ang mga IPL Device",
+    "heroDescription": "Kumpletong gabay sa ligtas at epektibong IPL hair removal. Matuto ng mga tamang technique, safety guideline, at makakuha ng pinakamahusay na resulta mula sa inyong IPL device.",
+    "stepByStepTitle": "Hakbang-hakbang na mga Tagubilin",
+    "stepByStepDescription": "Sundin ang mga hakbang na ito para sa ligtas at epektibong IPL treatment",
+    "safetyGuidelinesTitle": "Mga Safety Guideline",
+    "safetyGuidelinesDescription": "Mahalagang safety information para sa IPL treatment",
+    "treatmentScheduleTitle": "Inirerekomendang Treatment Schedule",
+    "treatmentScheduleDescription": "Sundin ang schedule na ito para sa optimal na hair removal results",
     "troubleshootingTitle": "Troubleshooting Guide",
-    "troubleshootingDescription": "Common issues and their solutions",
-    "faqTitle": "Frequently Asked Questions",
-    "faqDescription": "Get answers to common IPL treatment questions",
-    "videoTutorialsTitle": "Video Tutorials",
-    "videoTutorialsDescription": "Watch step-by-step video guides for proper IPL usage"
+    "troubleshootingDescription": "Mga karaniwang isyu at ang kanilang mga solusyon",
+    "faqTitle": "Mga Madalas na Tanong",
+    "faqDescription": "Makakuha ng mga sagot sa mga karaniwang tanong tungkol sa IPL treatment",
+    "videoTutorialsTitle": "Mga Video Tutorial",
+    "videoTutorialsDescription": "Manood ng mga hakbang-hakbang na video guide para sa tamang paggamit ng IPL"
   },
   "iplHairRemoval": {
-    "heroTitle": "Professional IPL Hair Removal Solutions",
-    "heroDescription": "Discover the next generation of IPL hair removal devices—safe, effective, and designed for all skin types. Experience salon-quality results at home or in your business.",
-    "iplDevicesTitle": "Our IPL Device Range",
-    "iplDevicesDescription": "Explore our full lineup of advanced IPL hair removal devices, each engineered for maximum comfort and results.",
-    "accessoriesTitle": "Essential IPL Accessories",
-    "accessoriesDescription": "Enhance your IPL experience with our range of certified accessories for safety and convenience.",
-    "advancedIplTitle": "Advanced IPL Technology",
+    "heroTitle": "Propesyonal na mga Solusyon sa IPL Hair Removal",
+    "heroDescription": "Tuklasin ang susunod na henerasyon ng mga IPL hair removal device—ligtas, epektibo, at dinisenyo para sa lahat ng uri ng balat. Makaranas ng salon-quality na resulta sa bahay o sa inyong negosyo.",
+    "iplDevicesTitle": "Aming Range ng IPL Device",
+    "iplDevicesDescription": "Galugarin ang aming kumpletong lineup ng mga advanced na IPL hair removal device, bawat isa ay engineered para sa maximum na comfort at mga resulta.",
+    "accessoriesTitle": "Mahalagang mga IPL Accessory",
+    "accessoriesDescription": "Pahusayin ang inyong IPL experience gamit ang aming range ng mga certified na accessory para sa safety at convenience.",
+    "advancedIplTitle": "Advanced na IPL Technology",
     "smartTechnologyIntegration": "Smart Technology Integration",
-    "smartTechnologyIntegrationDescription": "Our IPL devices feature intelligent sensors and app connectivity for personalized, safe, and effective treatments.",
-    "coolingComfortSystems": "Cooling Comfort Systems",
-    "coolingComfortSystemsDescription": "Sapphire and metal plate cooling keep your skin comfortable and protected during every session.",
-    "intelligentSkinSensors": "Intelligent Skin Sensors",
-    "intelligentSkinSensorsDescription": "Automatic skin tone and hair detection ensures optimal energy delivery and safety for every user."
+    "smartTechnologyIntegrationDescription": "Ang aming mga IPL device ay may mga intelligent sensor at app connectivity para sa personalized, ligtas, at epektibong mga treatment.",
+    "coolingComfortSystems": "Mga Cooling Comfort System",
+    "coolingComfortSystemsDescription": "Ang sapphire at metal plate cooling ay pinapanatiling komportable at protektado ang inyong balat sa bawat session.",
+    "intelligentSkinSensors": "Mga Intelligent Skin Sensor",
+    "intelligentSkinSensorsDescription": "Ang automatic na skin tone at hair detection ay nagsisiguro ng optimal na energy delivery at safety para sa bawat user."
   },
   "ipl": {
     "aiPowered": {
       "title": "AI-Powered IPL Device",
-      "desc": "The future of hair removal is here. Artificial intelligence optimizes every treatment for personalized, effective results.",
+      "desc": "Narito na ang kinabukasan ng hair removal. Ang artificial intelligence ay nag-o-optimize ng bawat treatment para sa personalized at epektibong mga resulta.",
       "features": {
         "aiTech": "AI Technology",
-        "aiTechDesc": "Smart learning algorithms",
+        "aiTechDesc": "Mga smart learning algorithm",
         "smartProcessing": "Smart Processing",
         "smartProcessingDesc": "Real-time optimization",
         "analytics": "Advanced Analytics",
-        "analyticsDesc": "Detailed progress tracking",
+        "analyticsDesc": "Detalyadong progress tracking",
         "personalized": "Personalized",
-        "personalizedDesc": "Customized for your needs"
+        "personalizedDesc": "Customized para sa inyong mga pangangailangan"
       }
     },
     "batteryPowered": {
       "title": "Battery-Powered IPL Hair Removal Device",
-      "desc": "Experience the ultimate cordless convenience with our battery-powered IPL device. Equipped with a high-capacity rechargeable battery, it offers seamless mobility without the need for power adapters. Enjoy professional-grade hair removal anywhere, anytime, with up to 9 adjustable energy levels for personalized treatments.",
+      "desc": "Maranasan ang ultimate na cordless convenience gamit ang aming battery-powered na IPL device. Equipped ng high-capacity rechargeable battery, nag-aalok ito ng seamless mobility na walang pangangailangan ng power adapter. Mag-enjoy ng professional-grade na hair removal kahit saan, kahit kailan, na may hanggang 9 adjustable energy level para sa personalized na mga treatment.",
       "features": {
-        "cordless": "Cordless design for ultimate freedom and convenience.",
-        "energyLevels": "9 adjustable energy levels for customized treatments.",
-        "longBattery": "Long-lasting rechargeable battery with 600+ recharge cycles.",
-        "noAdapter": "No need for power adapters during use, ideal for travel.",
-        "allSkin": "Suitable for all skin tones, FDA & CE approved."
+        "cordless": "Cordless na disenyo para sa ultimate na kalayaan at convenience.",
+        "energyLevels": "9 adjustable energy level para sa mga customized na treatment.",
+        "longBattery": "Long-lasting rechargeable battery na may 600+ recharge cycle.",
+        "noAdapter": "Walang pangangailangan ng power adapter habang ginagamit, ideal para sa travel.",
+        "allSkin": "Angkop para sa lahat ng skin tone, FDA & CE approved."
       }
     },
     "dualLamp": {
       "title": "Dual-Lamp IPL Device",
-      "desc": "Double the power, double the efficiency. Revolutionary dual-lamp technology for faster treatments and superior results.",
+      "desc": "Doble ang power, doble ang efficiency. Revolutionary dual-lamp technology para sa mas mabilis na treatment at superior na mga resulta.",
       "features": {
         "dualLamps": "Dual Lamps",
-        "dualLampsDesc": "Enhanced power and coverage",
+        "dualLampsDesc": "Enhanced na power at coverage",
         "faster": "Faster Treatment",
-        "fasterDesc": "Reduced session time",
+        "fasterDesc": "Nabawasang session time",
         "proPower": "Professional Power",
-        "proPowerDesc": "Salon-grade performance",
+        "proPowerDesc": "Salon-grade na performance",
         "evenCoverage": "Even Coverage",
-        "evenCoverageDesc": "Uniform light distribution"
+        "evenCoverageDesc": "Uniform na light distribution"
       }
     },
     "emerald": {
       "title": "Emerald IPL Hair Removal Device",
-      "desc": "Experience professional-grade hair removal at home with our Emerald IPL Device featuring advanced Intense Pulsed Light technology with 15 J/cm² of energy and 600,000+ flashes for long-lasting smooth skin. The precision-engineered system delivers consistent results across all treatment areas.",
+      "desc": "Maranasan ang professional-grade na hair removal sa bahay gamit ang aming Emerald IPL Device na may advanced Intense Pulsed Light technology na may 15 J/cm² ng energy at 600,000+ flash para sa long-lasting smooth skin. Ang precision-engineered system ay nagbibigay ng consistent na mga resulta sa lahat ng treatment area.",
       "features": {
-        "proResults": "Professional results — up to 94% hair reduction after 12 weeks.",
-        "manualIntensity": "5-level manual intensity control for personalized treatments.",
-        "safeAllSkin": "Safe for all skin tones within Fitzpatrick I-V range.",
-        "largeWindow": "Large 4.2 cm² treatment window for faster coverage.",
-        "ergonomic": "Ergonomic design with built-in safety sensors."
+        "proResults": "Professional na mga resulta — hanggang 94% hair reduction pagkatapos ng 12 linggo.",
+        "manualIntensity": "5-level manual intensity control para sa mga personalized na treatment.",
+        "safeAllSkin": "Ligtas para sa lahat ng skin tone na nasa Fitzpatrick I-V range.",
+        "largeWindow": "Malaking 4.2 cm² treatment window para sa mas mabilis na coverage.",
+        "ergonomic": "Ergonomic na disenyo na may built-in safety sensor."
       }
     },
     "handheld": {
       "title": "Handheld IPL Hair Removal Device",
-      "desc": "Discover the perfect blend of comfort and performance with our handheld IPL device. Designed for easy grip and precise control, it features 5 adjustable energy levels to suit all skin types and sensitivities. Achieve salon-quality hair removal results at home with a lightweight, portable device.",
+      "desc": "Tuklasin ang perfect na blend ng comfort at performance gamit ang aming handheld IPL device. Dinisenyo para sa easy grip at precise control, may 5 adjustable energy level para sa lahat ng skin type at sensitivity. Makamit ang salon-quality na hair removal result sa bahay gamit ang lightweight, portable na device.",
       "features": {
-        "ergonomic": "Ergonomic handheld design for comfortable use.",
-        "energyLevels": "5 adjustable energy levels for personalized treatments.",
-        "portable": "Lightweight and portable—ideal for travel and home use.",
-        "allSkin": "Suitable for all skin tones, gentle and effective.",
-        "certified": "FDA & CE approved for safety and quality."
+        "ergonomic": "Ergonomic handheld na disenyo para sa comfortable na paggamit.",
+        "energyLevels": "5 adjustable energy level para sa mga personalized na treatment.",
+        "portable": "Lightweight at portable—ideal para sa travel at home use.",
+        "allSkin": "Angkop para sa lahat ng skin tone, gentle at epektibo.",
+        "certified": "FDA & CE approved para sa safety at quality."
       }
     },
     "iceCooling": {
       "title": "Ice Cooling IPL Hair Removal Device",
-      "desc": "Experience professional-grade luxurious ice cooling hair removal technology, featuring an aerospace-grade cooling metal plate that instantly cools the skin to 5°C ultra-low temperature. Combined with 2.0~5.0 J/cm² high-energy IPL pulses and 999,000+ flashes, it delivers a goddess-like silky skin experience. The luxurious design is crafted for perfection-seeking modern women.",
+      "desc": "Maranasan ang professional-grade luxurious ice cooling hair removal technology, na may aerospace-grade cooling metal plate na instant na pinapalamig ang balat hanggang 5°C ultra-low temperature. Combined sa 2.0~5.0 J/cm² high-energy IPL pulse at 999,000+ flash, nagbibigay ito ng goddess-like silky skin experience. Ang luxurious na disenyo ay ginawa para sa mga modern women na naghahanap ng perfection.",
       "features": {
-        "luxuryDesign": "Luxurious goddess design — Aerospace-grade metal texture, showcasing noble taste.",
-        "coolingPlate": "Ice cooling plate technology — Instantly cools skin to 5°C for truly painless experience.",
-        "preciseControl": "9-level precise energy control — Customizable for sensitive areas and coarse hair.",
-        "allSkin": "Suitable for all skin tones — Fitzpatrick I-V certified.",
-        "largeWindow": "3.3 cm² extra-large treatment window — Fast coverage, 50% higher efficiency."
+        "luxuryDesign": "Luxurious goddess design — Aerospace-grade metal texture, nagpapakita ng noble taste.",
+        "coolingPlate": "Ice cooling plate technology — Instant na pinapalamig ang balat hanggang 5°C para sa tunay na painless experience.",
+        "preciseControl": "9-level precise energy control — Customizable para sa mga sensitive area at coarse hair.",
+        "allSkin": "Angkop para sa lahat ng skin tone — Fitzpatrick I-V certified.",
+        "largeWindow": "3.3 cm² extra-large treatment window — Mabilis na coverage, 50% mas mataas na efficiency."
       }
     },
     "iceFeeling": {
       "title": "Sapphire Ice Feeling IPL Device",
-      "desc": "Enjoy painless hair removal with a clinical-grade Sapphire cooling plate that chills skin to 5°C, enabling higher energy pulses for quicker results. The integrated Intense Pulsed Light (IPL) engine delivers 2.0~5.0 J/cm² of energy with 999,999 flashes for a lifetime of use.",
+      "desc": "Mag-enjoy ng painless hair removal na may clinical-grade Sapphire cooling plate na nagpapalamig ng balat hanggang 5°C, na nagbibigay-daan sa mas mataas na energy pulse para sa mas mabilis na resulta. Ang integrated Intense Pulsed Light (IPL) engine ay nagbibigay ng 2.0~5.0 J/cm² ng energy na may 999,999 flash para sa lifetime use.",
       "features": {
-        "longSmooth": "Long-lasting smoothness — visible reduction after 3-4 weeks.",
-        "cooling": "Cooling plate keeps epidermis at 5°C for true painless treatments.",
-        "energyLevels": "Five energy levels adapt to almost all skin tones within Fitzpatrick I-V.",
-        "flashModes": "Auto/Manual flash modes for body and precision areas.",
-        "multiUse": "4-in-1: Full body, Bikini, Face, and skin rejuvenation."
+        "longSmooth": "Long-lasting smoothness — nakikitang reduction pagkatapos ng 3-4 linggo.",
+        "cooling": "Ang cooling plate ay pinapanatiling epidermis sa 5°C para sa tunay na painless na mga treatment.",
+        "energyLevels": "Lima energy level na umaaangkop sa halos lahat ng skin tone na nasa Fitzpatrick I-V.",
+        "flashModes": "Auto/Manual flash mode para sa body at precision area.",
+        "multiUse": "4-in-1: Full body, Bikini, Face, at skin rejuvenation."
       }
     },
     "skinSensor": {
       "title": "Skin Sensor IPL Device",
-      "desc": "Experience the safest and most intelligent home hair removal with our Skin Sensor IPL Device. This revolutionary device features advanced optical skin sensors that automatically detect your skin tone and hair color – delivering personalized treatment intensity for maximum effectiveness and complete safety. With real-time skin analysis and automatic energy adjustment, this device is perfect for all suitable skin types and ensures optimal results every time.",
+      "desc": "Maranasan ang pinaka-ligtas at pinaka-intelligent na home hair removal gamit ang aming Skin Sensor IPL Device. Ang revolutionary device na ito ay may advanced optical skin sensor na automatic na nag-de-detect ng inyong skin tone at hair color – nagbibigay ng personalized treatment intensity para sa maximum effectiveness at complete safety. Na may real-time skin analysis at automatic energy adjustment, ang device na ito ay perfect para sa lahat ng suitable skin type at nagsisiguro ng optimal na resulta sa bawat oras.",
       "features": {
-        "intelligentDetection": "Intelligent Skin Detection – Advanced sensors automatically identify skin tone and adjust energy levels",
-        "maxSafety": "Maximum Safety – Prevents over-treatment and reduces risk of skin irritation or burns",
-        "personalized": "Personalized Treatment – Automatically optimizes intensity for your unique skin characteristics",
-        "realTime": "Real-time Analysis – Continuous monitoring ensures consistent, safe treatment sessions",
-        "proResults": "Professional Results – Salon-quality hair removal in the comfort of your home"
+        "intelligentDetection": "Intelligent Skin Detection – Ang advanced sensor ay automatic na nag-i-identify ng skin tone at nag-a-adjust ng energy level",
+        "maxSafety": "Maximum Safety – Pinipigilan ang over-treatment at binabawasan ang risk ng skin irritation o burns",
+        "personalized": "Personalized Treatment – Automatic na nag-o-optimize ng intensity para sa inyong unique skin characteristic",
+        "realTime": "Real-time Analysis – Ang continuous monitoring ay nagsisiguro ng consistent, ligtas na treatment session",
+        "proResults": "Professional na mga Resulta – Salon-quality na hair removal sa comfort ng inyong tahanan"
       }
     },
     "smartApp": {
       "title": "Smart App IPL Hair Removal Device",
-      "desc": "Seamlessly connect your IPL device via Bluetooth to our SmartApp. Enjoy guided treatments, real-time session tracking, personalized routines, and AI-powered insights. Control intensity levels, monitor progress, and receive reminders—all from your smartphone.",
+      "desc": "Seamlessly na ikonekta ang inyong IPL device via Bluetooth sa aming SmartApp. Mag-enjoy ng guided treatment, real-time session tracking, personalized routine, at AI-powered insight. I-control ang intensity level, i-monitor ang progress, at makatanggap ng mga reminder—lahat mula sa inyong smartphone.",
       "features": {
-        "bluetooth": "Bluetooth 5.0 connectivity for stable pairing",
-        "aiPlans": "Personalized treatment plans via AI analysis",
-        "realTimeControl": "Real-time intensity control and on-screen feedback",
-        "scheduling": "Session scheduling and usage reminders",
-        "compatibility": "Compatible with iOS & Android"
+        "bluetooth": "Bluetooth 5.0 connectivity para sa stable pairing",
+        "aiPlans": "Mga personalized treatment plan via AI analysis",
+        "realTimeControl": "Real-time intensity control at on-screen feedback",
+        "scheduling": "Session scheduling at usage reminder",
+        "compatibility": "Compatible sa iOS & Android"
       }
     }
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "Mga Madalas na Tanong",
     "shipping": {
-      "q": "Can you ship globally?",
-      "a": "Absolutely. We offer reliable worldwide shipping to support your business wherever you are."
+      "q": "Makapagpadala ba kayo sa buong mundo?",
+      "a": "Tiyak naman. Nag-aalok kami ng maaasahang worldwide shipping para suportahan ang inyong negosyo kahit saan kayo naroroon."
     },
     "customization": {
-      "q": "Can I customize the device functions?",
-      "a": "Yes, we offer full customization of features, colors, packaging, and more to fit your brand needs."
+      "q": "Maaari ko bang i-customize ang mga function ng device?",
+      "a": "Oo, nag-aalok kami ng kumpletong customization ng mga feature, kulay, packaging, at marami pa para umangkop sa pangangailangan ng inyong brand."
     },
     "certifications": {
-      "q": "What certifications do you support?",
-      "a": "We support FDA, CE, RoHS, and other global certifications to ensure compliance in your target markets."
+      "q": "Anong mga certification ang sinusuportahan ninyo?",
+      "a": "Sinusuportahan namin ang FDA, CE, RoHS, at iba pang global certification para matiyak ang compliance sa inyong target market."
     },
     "leadTime": {
-      "q": "How long is the production lead time?",
-      "a": "Typical lead time is 25-35 days after sample approval, depending on order size and customization."
+      "q": "Gaano katagal ang production lead time?",
+      "a": "Ang typical na lead time ay 25-35 araw pagkatapos ng sample approval, depende sa laki ng order at customization."
     },
     "afterSales": {
-      "q": "Do you provide after-sales support?",
-      "a": "Yes, we offer comprehensive after-sales service including technical support and warranty."
+      "q": "Nagbibigay ba kayo ng after-sales support?",
+      "a": "Oo, nag-aalok kami ng comprehensive na after-sales service kasama na ang technical support at warranty."
     }
   },
   "cta": {
-    "getSupport": "Get Support Now",
-    "readyToStart": "Ready to Get Started?",
-    "contactUs": "Contact Us",
-    "freeQuote": "Get a Free Quote",
-    "readMore": "Read More"
+    "getSupport": "Kumuha ng Suporta Ngayon",
+    "readyToStart": "Handa na Bang Magsimula?",
+    "contactUs": "Makipag-ugnayan sa Amin",
+    "freeQuote": "Kumuha ng Libreng Quote",
+    "readMore": "Basahin pa"
   },
   "form": {
-    "name": "Name",
+    "name": "Pangalan",
     "email": "Email",
-    "phone": "Phone",
-    "country": "Country",
-    "message": "Message",
-    "submit": "Submit",
-    "sending": "Sending...",
-    "success": "Your message has been sent successfully!",
-    "error": "There was an error sending your message. Please try again."
+    "phone": "Telepono",
+    "country": "Bansa",
+    "message": "Mensahe",
+    "submit": "I-submit",
+    "sending": "Nagipadala...",
+    "success": "Matagumpay na naipadala ang inyong mensahe!",
+    "error": "May error sa pagpapadala ng inyong mensahe. Subukan ulit."
   },
   "blog": {
     "posts": {
@@ -560,7 +560,7 @@
           "comparison": "Hair Removal Methods Comparison",
           "whyChooseIPL": "Why Choose IPL Home Hair Removal?",
           "userStories": "Real User Stories",
-          "faq": "Frequently Asked Questions",
+          "faq": "Mga Madalas na Tanong",
           "recommendedBlog": "Recommended Blog",
           "exploreMore": "Explore More"
         }
@@ -574,7 +574,7 @@
           "aiPersonalization": "AI and Personalization in Hair Removal",
           "vision": "The 'Ultimate' Home Hair Removal Device: A Vision",
           "challenges": "Challenges and Considerations",
-          "faq": "Frequently Asked Questions",
+          "faq": "Mga Madalas na Tanong",
           "exploreMore": "Explore More",
           "aboutAuthor": "About the Author"
         }
@@ -590,7 +590,7 @@
           "benefits": "4. Benefits of Obtaining a Brand-Specific FDA 510(k) Listing",
           "guidance": "5. Practical Guidance for Brands",
           "conclusion": "Conclusion",
-          "faq": "Frequently Asked Questions",
+          "faq": "Mga Madalas na Tanong",
           "exploreMore": "Explore More",
           "author": "About the Author"
         }
