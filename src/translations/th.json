@@ -125,7 +125,7 @@
     "products": {
       "title": "ผลิตภัณฑ์อุปกรณ์ IPL ของเรา",
       "subtitle": "อุปกรณ์ IPL ที่ปรับแต่งได้สำหรับทุกความต้องการของตลาด",
-      "cta": "View All IPL Devices"
+      "cta": "ดูอุปกรณ์ IPL ทั้งหมด"
     },
     "cta": {
       "title": "พร้อมเริ่มโครงการ IPL ของคุณแล้วหรือยัง?",
@@ -291,74 +291,74 @@
     "description": "ผู้ผลิตอุปกรณ์ IPL ชั้นนำที่ให้บริการโซลูชัน OEM/ODM จากไอเดียสู่ตลาดทั่วโลก"
   },
   "howToUse": {
-    "heroTitle": "How to Use IPL Devices",
-    "heroDescription": "Complete guide to safe and effective IPL hair removal. Learn proper techniques, safety guidelines, and get the best results from your IPL device.",
-    "stepByStepTitle": "Step-by-Step Instructions",
-    "stepByStepDescription": "Follow these steps for safe and effective IPL treatment",
-    "safetyGuidelinesTitle": "Safety Guidelines",
-    "safetyGuidelinesDescription": "Essential safety information for IPL treatment",
-    "treatmentScheduleTitle": "Recommended Treatment Schedule",
-    "treatmentScheduleDescription": "Follow this schedule for optimal hair removal results",
-    "troubleshootingTitle": "Troubleshooting Guide",
-    "troubleshootingDescription": "Common issues and their solutions",
-    "faqTitle": "Frequently Asked Questions",
-    "faqDescription": "Get answers to common IPL treatment questions",
-    "videoTutorialsTitle": "Video Tutorials",
-    "videoTutorialsDescription": "Watch step-by-step video guides for proper IPL usage"
+    "heroTitle": "วิธีใช้อุปกรณ์ IPL",
+    "heroDescription": "คู่มือครบถ้วนสำหรับการกำจัดขน IPL ที่ปลอดภัยและมีประสิทธิภาพ เรียนรู้เทคนิคที่ถูกต้อง แนวทางความปลอดภัย และได้ผลลัพธ์ที่ดีที่สุดจากอุปกรณ์ IPL ของคุณ",
+    "stepByStepTitle": "คำแนะนำทีละขั้นตอน",
+    "stepByStepDescription": "ทำตามขั้นตอนเหล่านี้เพื่อการรักษา IPL ที่ปลอดภัยและมีประสิทธิภาพ",
+    "safetyGuidelinesTitle": "แนวทางความปลอดภัย",
+    "safetyGuidelinesDescription": "ข้อมูลความปลอดภัยที่จำเป็นสำหรับการรักษา IPL",
+    "treatmentScheduleTitle": "ตารางการรักษาที่แนะนำ",
+    "treatmentScheduleDescription": "ปฏิบัติตามตารางนี้เพื่อผลลัพธ์การกำจัดขนที่เหมาะสม",
+    "troubleshootingTitle": "คู่มือการแก้ไขปัญหา",
+    "troubleshootingDescription": "ปัญหาทั่วไปและวิธีแก้ไข",
+    "faqTitle": "คำถามที่พบบ่อย",
+    "faqDescription": "รับคำตอบสำหรับคำถามทั่วไปเกี่ยวกับการรักษา IPL",
+    "videoTutorialsTitle": "บทแนะนำวิดีโอ",
+    "videoTutorialsDescription": "ดูคู่มือวิดีโอทีละขั้นตอนสำหรับการใช้ IPL ที่ถูกต้อง"
   },
   "iplHairRemoval": {
-    "heroTitle": "Professional IPL Hair Removal Solutions",
-    "heroDescription": "Discover the next generation of IPL hair removal devices—safe, effective, and designed for all skin types. Experience salon-quality results at home or in your business.",
-    "iplDevicesTitle": "Our IPL Device Range",
-    "iplDevicesDescription": "Explore our full lineup of advanced IPL hair removal devices, each engineered for maximum comfort and results.",
-    "accessoriesTitle": "Essential IPL Accessories",
-    "accessoriesDescription": "Enhance your IPL experience with our range of certified accessories for safety and convenience.",
-    "advancedIplTitle": "Advanced IPL Technology",
-    "smartTechnologyIntegration": "Smart Technology Integration",
-    "smartTechnologyIntegrationDescription": "Our IPL devices feature intelligent sensors and app connectivity for personalized, safe, and effective treatments.",
-    "coolingComfortSystems": "Cooling Comfort Systems",
-    "coolingComfortSystemsDescription": "Sapphire and metal plate cooling keep your skin comfortable and protected during every session.",
-    "intelligentSkinSensors": "Intelligent Skin Sensors",
-    "intelligentSkinSensorsDescription": "Automatic skin tone and hair detection ensures optimal energy delivery and safety for every user."
+    "heroTitle": "โซลูชันกำจัดขน IPL แบบมืออาชีพ",
+    "heroDescription": "ค้นพบอุปกรณ์กำจัดขน IPL รุ่นต่อไป—ปลอดภัย มีประสิทธิภาพ และออกแบบมาสำหรับผิวทุกประเภท สัมผัสผลลัพธ์คุณภาพซาลอนที่บ้านหรือในธุรกิจของคุณ",
+    "iplDevicesTitle": "ผลิตภัณฑ์อุปกรณ์ IPL ของเรา",
+    "iplDevicesDescription": "สำรวจไลน์อัพอุปกรณ์กำจัดขน IPL ขั้นสูงที่สมบูรณ์ของเรา แต่ละชิ้นได้รับการออกแบบมาเพื่อความสะดวกสบายและผลลัพธ์สูงสุด",
+    "accessoriesTitle": "อุปกรณ์เสริม IPL ที่จำเป็น",
+    "accessoriesDescription": "เพิ่มประสบการณ์ IPL ของคุณด้วยอุปกรณ์เสริมที่ได้รับการรับรองของเราเพื่อความปลอดภัยและความสะดวกสบาย",
+    "advancedIplTitle": "เทคโนโลยี IPL ขั้นสูง",
+    "smartTechnologyIntegration": "การผสานรวมเทคโนโลยีอัจฉริยะ",
+    "smartTechnologyIntegrationDescription": "อุปกรณ์ IPL ของเรามีเซ็นเซอร์อัจฉริยะและการเชื่อมต่อแอปสำหรับการรักษาที่ปรับแต่งเฉพาะบุคคล ปลอดภัย และมีประสิทธิภาพ",
+    "coolingComfortSystems": "ระบบระบายความร้อนเพื่อความสะดวกสบาย",
+    "coolingComfortSystemsDescription": "การระบายความร้อนด้วยไพลินและแผ่นโลหะช่วยให้ผิวของคุณสะดวกสบายและได้รับการปกป้องในทุกเซสชัน",
+    "intelligentSkinSensors": "เซ็นเซอร์ผิวอัจฉริยะ",
+    "intelligentSkinSensorsDescription": "การตรวจจับโทนผิวและขนอัตโนมัติรับประกันการส่งพลังงานที่เหมาะสมและความปลอดภัยสำหรับผู้ใช้ทุกคน"
   },
   "ipl": {
     "aiPowered": {
       "title": "อุปกรณ์ IPL ขับเคลื่อนด้วย AI",
-      "desc": "The future of hair removal is here. Artificial intelligence optimizes every treatment for personalized, effective results.",
+      "desc": "อนาคตของการกำจัดขนมาถึงแล้ว ปัญญาประดิษฐ์ปรับปรุงการรักษาทุกครั้งเพื่อผลลัพธ์ที่ปรับแต่งเฉพาะบุคคลและมีประสิทธิภาพ",
       "features": {
-        "aiTech": "AI Technology",
-        "aiTechDesc": "Smart learning algorithms",
-        "smartProcessing": "Smart Processing",
-        "smartProcessingDesc": "Real-time optimization",
-        "analytics": "Advanced Analytics",
-        "analyticsDesc": "Detailed progress tracking",
-        "personalized": "Personalized",
-        "personalizedDesc": "Customized for your needs"
+        "aiTech": "เทคโนโลยี AI",
+        "aiTechDesc": "อัลกอริทึมการเรียนรู้อัจฉริยะ",
+        "smartProcessing": "การประมวลผลอัจฉริยะ",
+        "smartProcessingDesc": "การปรับปรุงแบบเรียลไทม์",
+        "analytics": "การวิเคราะห์ขั้นสูง",
+        "analyticsDesc": "การติดตามความคืบหน้าอย่างละเอียด",
+        "personalized": "เป็นส่วนตัว",
+        "personalizedDesc": "ปรับแต่งตามความต้องการของคุณ"
       }
     },
     "batteryPowered": {
       "title": "อุปกรณ์กำจัดขน IPL ใช้แบตเตอรี่",
-      "desc": "Experience the ultimate cordless convenience with our battery-powered IPL device. Equipped with a high-capacity rechargeable battery, it offers seamless mobility without the need for power adapters. Enjoy professional-grade hair removal anywhere, anytime, with up to 9 adjustable energy levels for personalized treatments.",
+      "desc": "สัมผัสความสะดวกสบายแบบไร้สายขั้นสุดด้วยอุปกรณ์ IPL ใช้แบตเตอรี่ของเรา พร้อมแบตเตอรี่ชาร์จซ้ำความจุสูง มอบความคล่องตัวแบบไร้รอยต่อโดยไม่ต้องใช้อะแดปเตอร์ พลังงาน เพลิดเพลินกับการกำจัดขนระดับมืออาชีพทุกที่ ทุกเวลา ด้วยระดับพลังงานที่ปรับได้สูงสุด 9 ระดับสำหรับการรักษาที่ปรับแต่งเฉพาะบุคคล",
       "features": {
-        "cordless": "Cordless design for ultimate freedom and convenience.",
-        "energyLevels": "9 adjustable energy levels for customized treatments.",
-        "longBattery": "Long-lasting rechargeable battery with 600+ recharge cycles.",
-        "noAdapter": "No need for power adapters during use, ideal for travel.",
-        "allSkin": "Suitable for all skin tones, FDA & CE approved."
+        "cordless": "การออกแบบไร้สายเพื่อความเป็นอิสระและความสะดวกสบายขั้นสุด",
+        "energyLevels": "ระดับพลังงานปรับได้ 9 ระดับสำหรับการรักษาที่ปรับแต่งได้",
+        "longBattery": "แบตเตอรี่ชาร์จซ้ำที่ทนนานด้วยรอบการชาร์จมากกว่า 600 ครั้ง",
+        "noAdapter": "ไม่ต้องการอะแดปเตอร์พลังงานขณะใช้งาน เหมาะสำหรับการเดินทาง",
+        "allSkin": "เหมาะสำหรับทุกสีผิว ได้รับการอนุมัติจาก FDA และ CE"
       }
     },
     "dualLamp": {
       "title": "อุปกรณ์ IPL หลอดคู่",
-      "desc": "Double the power, double the efficiency. Revolutionary dual-lamp technology for faster treatments and superior results.",
+      "desc": "พลังเพิ่มเป็นสองเท่า ประสิทธิภาพเพิ่มเป็นสองเท่า เทคโนโลยีหลอดคู่ปฏิวัติวงการสำหรับการรักษาที่เร็วขึ้นและผลลัพธ์ที่เหนือกว่า",
       "features": {
-        "dualLamps": "Dual Lamps",
-        "dualLampsDesc": "Enhanced power and coverage",
-        "faster": "Faster Treatment",
-        "fasterDesc": "Reduced session time",
-        "proPower": "Professional Power",
-        "proPowerDesc": "Salon-grade performance",
-        "evenCoverage": "Even Coverage",
-        "evenCoverageDesc": "Uniform light distribution"
+        "dualLamps": "หลอดคู่",
+        "dualLampsDesc": "พลังงานและการครอบคลุมที่เพิ่มขึ้น",
+        "faster": "การรักษาที่เร็วขึ้น",
+        "fasterDesc": "ลดเวลาในการรักษา",
+        "proPower": "พลังงานระดับมืออาชีพ",
+        "proPowerDesc": "ประสิทธิภาพระดับซาลอน",
+        "evenCoverage": "การครอบคลุมที่สม่ำเสมอ",
+        "evenCoverageDesc": "การกระจายแสงที่สม่ำเสมอ"
       }
     },
     "emerald": {
