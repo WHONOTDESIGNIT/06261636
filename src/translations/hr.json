@@ -386,13 +386,13 @@
     },
     "iceCooling": {
       "title": "IPL uklanjanje dlačica uređaj led hlađenje",
-      "desc": "Doživite luksuznu profesionalnu led hlađenje uklanjanje dlačica tehnologiju, opremljenu zrakoplovnom klasom hlađenja metalnom pločom koja odmah hladi kožu na ultra-nisku temperaturu od 5°C.",
+      "desc": "Doživite luksuznu profesionalnu led hlađenje uklanjanje dlačica tehnologiju, opremljenu zrakoplovnom klasom hlađenja metalnom pločom koja odmah hladi kožu na ultra-nisku temperaturu od 5°C. U kombinaciji s 2.0~5.0 J/cm² visokoenergetskim IPL pulsovima i 999.000+ bljesaka, pruža iskustvo glatke kože poput božice. Luksuzni dizajn je izrađen za moderne žene koje traže savršenstvo.",
       "features": {
-        "luxuryDesign": "Luxurious goddess design �?Aerospace-grade metal texture, showcasing noble taste.",
-        "coolingPlate": "Ice cooling plate technology �?Instantly cools skin to 5°C for truly painless experience.",
-        "preciseControl": "9-level precise energy control �?Customizable for sensitive areas and coarse hair.",
-        "allSkin": "Suitable for all skin tones �?Fitzpatrick I-V certified.",
-        "largeWindow": "3.3 cm² extra-large treatment window �?Fast coverage, 50% higher efficiency."
+        "luxuryDesign": "Luksuzni božanski dizajn — Zrakoplovna klasa metalne teksture, prikazuje plemeniti ukus.",
+        "coolingPlate": "Tehnologija led hlađenja ploče — Odmah hladi kožu na 5°C za istinski bezbolno iskustvo.",
+        "preciseControl": "9-razinska precizna kontrola energije — Prilagodljiva za osjetljiva područja i grubu dlaku.",
+        "allSkin": "Prikladno za sve tonove kože — Fitzpatrick I-V certificirano.",
+        "largeWindow": "3.3 cm² extra-veliki prozor tretmana — Brza pokrivenost, 50% veća efikasnost."
       }
     },
     "iceFeeling": {
@@ -474,125 +474,125 @@
     "posts": {
       "sustainableManufacturing": {
         "title": "Održiva proizvodnja: Zelene IPL produkcijske metode",
-        "intro": "As the demand for at-home IPL (Intense Pulsed Light) hair removal devices surges, so does the responsibility to produce these electronics with minimal environmental impact. Sustainable manufacturing is no longer a trend but a necessity—encompassing every stage from raw material sourcing to end-of-life recycling. This article assesses the environmental footprint of IPL device production and explores innovative, practical strategies for achieving a truly green supply chain, with a focus on electronics, optics, eco-friendly ABS housings, sustainable packaging, and waste reutilization.",
+        "intro": "Kako raste potražnja za kućnim IPL (Intense Pulsed Light) uređajima za uklanjanje dlačica, tako raste i odgovornost da se ta elektronika proizvodi s minimalnim utjecajem na okoliš. Održiva proizvodnja više nije trend već nužnost—obuhvaćajući svaku fazu od nabave sirovina do recikliranja na kraju životnog ciklusa. Ovaj članak procjenjuje utjecaj na okoliš proizvodnje IPL uređaja i istražuje inovativne, praktične strategije za postizanje uistinu zelenog lanca opskrbe, s fokusom na elektroniku, optiku, ekološka ABS kućišta, održivo pakiranje i ponovnu upotrebu otpada.",
         "sections": {
-          "environmentalImpact": "Environmental Impact Assessment of IPL Device Manufacturing",
-          "electronics": "1. Electronic Components",
-          "optics": "2. Optical Components (Lenses and Filters)",
-          "absHousing": "3. ABS Eco-Friendly Housings",
-          "packaging": "4. Sustainable Paper Packaging",
-          "wasteReduction": "5. Waste Reduction and Reuse",
-          "supplyChain": "Sustainable Supply Chain Innovations",
-          "feasibility": "The Feasibility of a Green IPL Supply Chain",
-          "commitment": "iShine's Commitment to Sustainability",
-          "references": "References"
+          "environmentalImpact": "Procjena utjecaja na okoliš proizvodnje IPL uređaja",
+          "electronics": "1. Elektroničke komponente",
+          "optics": "2. Optičke komponente (leće i filteri)",
+          "absHousing": "3. ABS ekološka kućišta",
+          "packaging": "4. Održivo papirno pakiranje",
+          "wasteReduction": "5. Smanjenje otpada i ponovna upotreba",
+          "supplyChain": "Inovacije održivog lanca opskrbe",
+          "feasibility": "Izvodljivost zelenog IPL lanca opskrbe",
+          "commitment": "iShine-ova predanost održivosti",
+          "references": "Reference"
         }
       },
       "globalMarketShifts": {
         "title": "Globalne promjene tržišta: IPL uređaj trendovi i mogućnosti",
-        "intro": "Explore the latest global trends in IPL device adoption, regulatory changes, and market opportunities for brands and manufacturers.",
+        "intro": "Istražite najnovije globalne trendove u usvajanju IPL uređaja, regulatorne promjene i tržišne mogućnosti za brendove i proizvođače.",
         "sections": {
-          "marketOverview": "Market Overview",
-          "regionalTrends": "Regional Trends",
-          "regulatoryChanges": "Regulatory Changes",
-          "consumerPreferences": "Consumer Preferences",
-          "opportunities": "Opportunities for Brands",
-          "challenges": "Challenges and Risks",
-          "futureOutlook": "Future Outlook"
+          "marketOverview": "Pregled tržišta",
+          "regionalTrends": "Regionalni trendovi",
+          "regulatoryChanges": "Regulatorne promjene",
+          "consumerPreferences": "Preferencije potrošača",
+          "opportunities": "Mogućnosti za brendove",
+          "challenges": "Izazovi i rizici",
+          "futureOutlook": "Budući izgled"
         }
       },
       "aiPoweredSkinSensing": {
         "title": "AI pokretano prepoznavanje kože: Sljedeća granica u IPL sigurnosti",
-        "intro": "How artificial intelligence is revolutionizing IPL device safety and personalization through real-time skin analysis.",
+        "intro": "Kako umjetna inteligencija revolucionira sigurnost IPL uređaja i personalizaciju kroz analizu kože u stvarnom vremenu.",
         "sections": {
-          "introduction": "Introduction",
-          "aiTechnology": "AI Technology in IPL",
-          "skinSensing": "Skin Sensing Mechanisms",
-          "safetyBenefits": "Safety Benefits",
-          "userExperience": "User Experience",
-          "caseStudies": "Case Studies",
-          "conclusion": "Conclusion"
+          "introduction": "Uvod",
+          "aiTechnology": "AI tehnologija u IPL-u",
+          "skinSensing": "Mehanizmi prepoznavanja kože",
+          "safetyBenefits": "Sigurnosne prednosti",
+          "userExperience": "Korisničko iskustvo",
+          "caseStudies": "Studije slučaja",
+          "conclusion": "Zaključak"
         }
       },
       "multiHeadIPLSystems": {
         "title": "Višeglavi IPL sustavi: Preciznost susreće efikasnost cijelog tijela",
-        "intro": "The evolution of at-home hair removal has been profoundly shaped by the introduction of multi-head Intense Pulsed Light (IPL) systems. Philips pioneered this trend with its interchangeable head technology, setting a new standard for versatility and user-centric design in home-use IPL devices.",
+        "intro": "Evolucija kućnog uklanjanja dlačica duboko je oblikovana uvođenjem višeglavih Intense Pulsed Light (IPL) sustava. Philips je bio pionir ovog trenda svojom tehnologijom izmjenjivih glava, postavivši novi standard za svestranost i korisnički usmjeren dizajn u IPL uređajima za kućnu upotrebu.",
         "sections": {
-          "philipsLegacy": "The Philips Legacy: Setting the Standard for Multi-Head IPL",
-          "keyFeatures": "Key Features of Multi-Head IPL Devices",
-          "respondingToVIO": "Responding to VIO Hair Removal Needs",
-          "whyMultiHeadMatters": "Why Multi-Head Design Matters",
-          "painReduction": "Pain Reduction: The Role of Advanced Filters",
-          "realUserFeedback": "Real User Feedback",
-          "conclusion": "Conclusion",
-          "references": "References"
+          "philipsLegacy": "Philips nasljeđe: Postavljanje standarda za višeglavi IPL",
+          "keyFeatures": "Ključne značajke višeglavih IPL uređaja",
+          "respondingToVIO": "Odgovaranje na potrebe VIO uklanjanja dlačica",
+          "whyMultiHeadMatters": "Zašto je važan višeglavi dizajn",
+          "painReduction": "Smanjenje boli: Uloga naprednih filtera",
+          "realUserFeedback": "Stvarne povratne informacije korisnika",
+          "conclusion": "Zaključak",
+          "references": "Reference"
         }
       },
       "sapphireCooling": {
         "title": "Sapphire hlađenje: Poboljšanje udobnosti u IPL tretmanima",
-        "intro": "Discover how sapphire cooling technology is transforming the comfort and safety of IPL hair removal treatments.",
+        "intro": "Otkrijte kako sapphire tehnologija hlađenja transformira udobnost i sigurnost IPL tretmana uklanjanja dlačica.",
         "sections": {
-          "technologyOverview": "Technology Overview",
-          "coolingMechanism": "How Sapphire Cooling Works",
-          "benefits": "Benefits for Users",
-          "clinicalEvidence": "Clinical Evidence",
-          "deviceComparison": "Device Comparison",
-          "userTestimonials": "User Testimonials",
-          "conclusion": "Conclusion"
+          "technologyOverview": "Pregled tehnologije",
+          "coolingMechanism": "Kako funkcionira sapphire hlađenje",
+          "benefits": "Prednosti za korisnike",
+          "clinicalEvidence": "Klinički dokazi",
+          "deviceComparison": "Usporedba uređaja",
+          "userTestimonials": "Svjedočanstva korisnika",
+          "conclusion": "Zaključak"
         }
       },
       "industries": {
         "title": "Industrije koje služimo: IPL aplikacije kroz sektore",
-        "intro": "IPL technology is not just for beauty—explore its applications in medical, veterinary, and industrial sectors.",
+        "intro": "IPL tehnologija nije samo za ljepotu—istražite njezine primjene u medicinskim, veterinarskim i industrijskim sektorima.",
         "sections": {
-          "beauty": "Beauty Industry",
-          "medical": "Medical Applications",
-          "veterinary": "Veterinary Uses",
-          "industrial": "Industrial Applications",
-          "caseStudies": "Case Studies",
-          "futureTrends": "Future Trends"
+          "beauty": "Industrija ljepote",
+          "medical": "Medicinske primjene",
+          "veterinary": "Veterinarske upotrebe",
+          "industrial": "Industrijske primjene",
+          "caseStudies": "Studije slučaja",
+          "futureTrends": "Budući trendovi"
         }
       },
       "iplBestChoice": {
         "title": "Zašto kućni IPL uklanjanje dlačica uređaji su najbolji izbor među svim alatima za uklanjanje dlačica",
-        "intro": "Discover why IPL is the most effective, comfortable, and convenient solution for long-term hair removal at home—backed by science and real user experience.",
+        "intro": "Otkrijte zašto je IPL najefikasniji, najudobniji i najzgodniji rješenje za dugoročno uklanjanje dlačica kod kuće—podržano znanošću i stvarnim korisničkim iskustvom.",
         "sections": {
-          "comparison": "Hair Removal Methods Comparison",
-          "whyChooseIPL": "Why Choose IPL Home Hair Removal?",
-          "userStories": "Real User Stories",
-          "faq": "Frequently Asked Questions",
-          "recommendedBlog": "Recommended Blog",
-          "exploreMore": "Explore More"
+          "comparison": "Usporedba metoda uklanjanja dlačica",
+          "whyChooseIPL": "Zašto odabrati kućno IPL uklanjanje dlačica?",
+          "userStories": "Stvarne korisničke priče",
+          "faq": "Često postavljana pitanja",
+          "recommendedBlog": "Preporučeni blog",
+          "exploreMore": "Istražite više"
         }
       },
       "futureHomeHairRemoval": {
         "title": "Budućnost kućnih uređaja za uklanjanje dlačica: Trendovi, inovacije i što dolazi",
-        "intro": "Explore the evolution, current breakthroughs, and the next generation of home hair removal devices—AI, multifunctionality, and sustainable design for 2025 and beyond.",
+        "intro": "Istražite evoluciju, trenutne proboje i sljedeću generaciju kućnih uređaja za uklanjanje dlačica—AI, multifunkcionalnost i održivi dizajn za 2025. i dalje.",
         "sections": {
-          "evolution": "Evolution of Home Hair Removal Technology",
-          "stateOfTheArt": "Key Features of Next-Gen Devices (2025)",
-          "aiPersonalization": "AI and Personalization in Hair Removal",
-          "vision": "The 'Ultimate' Home Hair Removal Device: A Vision",
-          "challenges": "Challenges and Considerations",
-          "faq": "Frequently Asked Questions",
-          "exploreMore": "Explore More",
-          "aboutAuthor": "About the Author"
+          "evolution": "Evolucija tehnologije kućnog uklanjanja dlačica",
+          "stateOfTheArt": "Ključne značajke uređaja sljedeće generacije (2025)",
+          "aiPersonalization": "AI i personalizacija u uklanjanju dlačica",
+          "vision": "'Ultimativni' kućni uređaj za uklanjanje dlačica: Vizija",
+          "challenges": "Izazovi i razmatranja",
+          "faq": "Često postavljana pitanja",
+          "exploreMore": "Istražite više",
+          "aboutAuthor": "O autoru"
         }
       },
       "fda510kPathway": {
         "title": "FDA 510(k) put: Navigacija klasifikacije medicinskih uređaja za IPL",
-        "intro": "A comprehensive guide to the FDA 510(k) pathway for home-use IPL hair removal devices. Learn about regulatory requirements, marketing claims, and how iShine helps brands achieve compliance.",
+        "intro": "Sveobuhvatan vodič za FDA 510(k) put za kućne IPL uređaje za uklanjanje dlačica. Naučite o regulatornim zahtjevima, marketinškim tvrdnjama i kako iShine pomaže brendovima postići usklađenost.",
         "sections": {
-          "introduction": "Introduction",
-          "pathway": "1. FDA 510(k) Pathway for Home IPL Devices",
-          "marketingClaims": "2. How Marketing Claims Affect Regulatory Classification",
-          "ishineExpertise": "3. iShine's Expertise in Securing Your Brand's FDA 510(k) Listing",
-          "benefits": "4. Benefits of Obtaining a Brand-Specific FDA 510(k) Listing",
-          "guidance": "5. Practical Guidance for Brands",
-          "conclusion": "Conclusion",
-          "faq": "Frequently Asked Questions",
-          "exploreMore": "Explore More",
-          "author": "About the Author"
+          "introduction": "Uvod",
+          "pathway": "1. FDA 510(k) put za kućne IPL uređaje",
+          "marketingClaims": "2. Kako marketinške tvrdnje utječu na regulatornu klasifikaciju",
+          "ishineExpertise": "3. iShine-ova stručnost u osiguravanju FDA 510(k) popisa specifičnog za vaš brend",
+          "benefits": "4. Prednosti dobivanja FDA 510(k) popisa specifičnog za brend",
+          "guidance": "5. Praktični vodič za brendove",
+          "conclusion": "Zaključak",
+          "faq": "Često postavljana pitanja",
+          "exploreMore": "Istražite više",
+          "author": "O autoru"
         }
       }
     }
