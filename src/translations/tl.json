@@ -25,15 +25,15 @@
       "dualLampIPL": "Dual-lamp IPL Custom"
     },
     "iplDevices": {
-      "smartApp": "Smart App-Controlled IPL Device",
-      "iceFeeling": "Ice Feeling IPL Device",
-      "emerald": "Emerald IPL Device",
-      "skinSensor": "Skin Sensor IPL Device",
-      "batteryPowered": "Battery-Powered IPL Device",
-      "handheld": "Handheld IPL Device",
-      "iceCooling": "Ice Cooling IPL Device",
-      "dualLamp": "Dual-Lamp IPL Device",
-      "aiPowered": "AI-POWERED IPL Device"
+      "smartApp": "Smart App-Controlled na IPL Device",
+      "iceFeeling": "Ice Feeling na IPL Device",
+      "emerald": "Emerald na IPL Device",
+      "skinSensor": "Skin Sensor na IPL Device",
+      "batteryPowered": "Battery-Powered na IPL Device",
+      "handheld": "Handheld na IPL Device",
+      "iceCooling": "Ice Cooling na IPL Device",
+      "dualLamp": "Dual-Lamp na IPL Device",
+      "aiPowered": "AI-POWERED na IPL Device"
     },
     "accessories": {
       "sapphireLens": "Sapphire Lens",
@@ -43,12 +43,12 @@
     },
     "serviceSupport": {
       "service": "Serbisyo",
-      "afterSales": "After-Sales Service",
+      "afterSales": "After-Sales na Serbisyo",
       "fdaGmp": "FDA GMP Clean Room Design",
       "manufacturing": "Pagmamanufacture ng IPL Devices",
       "knowledgeBase": "Knowledge Base",
-      "support": "Suporta > Buying Guide",
-      "beautySourcing": "Beauty Niche Sourcing & Accessories",
+      "support": "Suporta > Gabay sa Pagbili",
+      "beautySourcing": "Beauty Niche Sourcing at Accessories",
       "pricingGuide": "Gabay sa Presyo",
       "helpCenter": "Help Center",
       "gallery": "Gallery",
@@ -80,7 +80,7 @@
       "gallery": "Gallery"
     },
     "services": {
-      "afterSales": "After-Sales Service",
+      "afterSales": "After-Sales na Serbisyo",
       "manufacturing": "Pagmamanufacture ng IPL",
       "buyingGuide": "Gabay sa Pagbili",
       "helpCenter": "Help Center"
@@ -110,7 +110,7 @@
   },
   "home": {
     "hero": {
-      "title1": "Custom IPL Devices",
+      "title1": "Mga Custom na IPL Device",
       "title2": "& Branding IPL Devices",
       "subtitle": "Nangungunang pandaigdigang tagagawa ng IPL device, tumutulong sa iyo na idisenyo, gawin, at i-package ito.",
       "cta": "Kumuha ng Quote"
@@ -196,7 +196,7 @@
     "contactUs": "Makipag-ugnayan sa Amin"
   },
   "solutions": {
-    "productDesignDevelopment": "Product Design & Development",
+    "productDesignDevelopment": "Product Design at Development",
     "productDesignDevelopmentDescription": "Mula sa initial concept hanggang final design, ang aming expert team ay nagbibigay-buhay sa inyong IPL vision gamit ang cutting-edge technology at market insights.",
     "oemManufacturing": "Pagmamanufacture ng OEM",
     "oemManufacturingDescription": "Kumpletong mga solusyon sa pagmamanufacture ayon sa inyong specifications. Ginagampanan namin ang produksyon habang nakatuon kayo sa inyong brand at merkado.",
