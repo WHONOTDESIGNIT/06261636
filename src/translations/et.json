@@ -104,7 +104,7 @@
       "address": "AADRESS",
       "telValue": "+86-15900283962",
       "whatsappValue": "+86-15012891148",
-      "emailValue": "service@ishineco.com",
+      "emailValue": "service@iplmanufacturer.com",
       "addressValue": "Ruum 208, Hoone 4, Nr.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, Hiina, 518071"
     }
   },
@@ -235,7 +235,7 @@
     "storyTitle": "Meie lugu",
     "storyP1": "2018. aastal asutatud iShine sai alguse visioonist demokratiseerida kõrgetasemelist IPL tehnoloogiat. Mõistsime, et ilubrändi vajavad usaldusväärset partnerit, kes suudaks muuta nende ideed turuks valmis toodeteks täpsuse ja tipptasemega.",
     "storyP2": "Täna oleme uhked teenindada kliente kolmes kontinendis, alates innovatiivsetest idufirmadest kuni kinnistunud ilukontsernideni. Meie pühendumus kvaliteedile, innovatsioonile ja klientide edule juhib kõike, mida teeme.",
-    "storyP3": "iShine'is me ei tooda lihtsalt seadmeid – me loome lahendusi, mis annavad brändidele võimaluse konkurentsivõimelises iluturus edukalt olla.",
+    "storyP3": "iShine'is me ei tooda lihtsalt seadmeid — me loome lahendusi, mis annavad brändidele võimaluse konkurentsivõimelises iluturus edukalt olla.",
     "valuesTitle": "Meie põhiväärtused",
     "valuesDesc": "Põhimõtted, mis juhivad meie tööd ja suhteid klientidega",
     "values": {
@@ -367,9 +367,9 @@
       "desc": "Kogege professionaalse taseme karvaeemaldust kodus meie Smaragd IPL seadmega, mis sisaldab kõrgtasemel intensiivse valgusimpulsi tehnoloogiat 15 J/cm² energiaga ja üle 600 000 välgu pikaajalise sileda naha jaoks. Täpselt konstrueeritud süsteem tagab järjepidevad tulemused kõigis ravipiirkondades.",
       "features": {
         "proResults": "Professionaalsed tulemused — kuni 94% karvade vähenemine pärast 12 nädalat.",
-        "manualIntensity": "5-tasemeline käsitsi intensiivsuse kontroll personaliseeritud ravide jaoks.",
+        "manualIntensity": "5-tasemeline manuaalne intensiivsuse kontroll personaliseeritud ravide jaoks.",
         "safeAllSkin": "Ohutu kõigile nahatoonidele Fitzpatrick I-V vahemikus.",
-        "largeWindow": "Suur 4,2 cm² ravi aken kiirema katvuse jaoks.",
+        "largeWindow": "Suur 4.2 cm² ravi aken kiirema katvuse jaoks.",
         "ergonomic": "Ergonoomne disain sisseehitatud ohutusanduritega."
       }
     },
@@ -385,8 +385,8 @@
       }
     },
     "iceCooling": {
-      "title": "IPL-karvaeemaldamise seade jääjahutusega",
-      "desc": "Koge luksuslikku professionaalset jääjahutusega karvaeemaldamise tehnoloogiat, mis on varustatud kosmoseklassi jahutava metallplaadiga, mis jahutab nahka koheselt ülimadalale temperatuurile 5°C.",
+      "title": "IPL jääjahutusseade",
+      "desc": "Koge luksuslikku professionaalset jääjahutuse karvaeemaldus tehnoloogiat kosmosekvaliteedi jahutava metallist plaadiga. Jahutab nahka koheselt ultra-madalale 5°C temperatuurile.",
       "features": {
         "luxuryDesign": "Luksuslik jumalanna disain — Kosmosekvaliteedi metalli tekstuur, näitades väärikat maitset.",
         "coolingPlate": "Jääjahutuse plaadi tehnoloogia — Jahutab naha koheselt 5°C-ni tõeliselt valutule kogemusele.",
@@ -396,25 +396,25 @@
       }
     },
     "iceFeeling": {
-      "title": "Safiirist jäätunne IPL-seade",
-      "desc": "Naudi valuvabu karvaeemaldamist kliinilise safiirist jahutusplaadiga, mis jahutab nahka 5°C-ni, võimaldades kõrgemaid energiaimpulsse kiiremate tulemuste saamiseks.",
+      "title": "Safiir jäätunne IPL seade",
+      "desc": "Naudi valutu karvaeemaldust kliinilise kvaliteediga safiiri jahutusplaadiga, mis jahutab nahka 5°C-ni, võimaldades kõrgemaid energia impulsse kiiremate tulemuste saamiseks.",
       "features": {
         "longSmooth": "Pikakestev siledus — nähtav vähenemine pärast 3-4 nädalat.",
-        "cooling": "Jahutusplaat hoiab nahaülas 5°C juures tõeliselt valutute ravide jaoks.",
-        "energyLevels": "Viis energiataset kohanduvad peaaegu kõigile nahatoonidele Fitzpatrick I-V vahemikus.",
-        "flashModes": "Automaatne/käsitsi välgu režiimid keha ja täpsete piirkondade jaoks.",
-        "multiUse": "4-ühes: Terve keha, bikiniiala, nägu ja naha uuendamine."
+        "cooling": "Jahutusplaat hoiab epidermist 5°C juures tõeliselt valututeks raviseansideks.",
+        "energyLevels": "Viis energiataset sobivad peaaegu kõigile nahatoonidele Fitzpatrick I-V piires.",
+        "flashModes": "Automaatne/manuaalne välgu režiim kehale ja täpsustele aladele.",
+        "multiUse": "4-ühes: Kogu keha, Bikiniliin, Nägu ja naha noorendamine."
       }
     },
     "skinSensor": {
-      "title": "IPL-seade nahkanduriga",
-      "desc": "Koge kõige turvalisemat ja nutikaimat kodust karvaeemaldamist meie nahkanduriga IPL-seadmega. See revolutsiooniline seade on varustatud arenenud optiliste nahkanduritega, mis tuvastab automaatselt teie nahatoon ja karva värvi.",
+      "title": "IPL seade nahaanduriga",
+      "desc": "Koge kõige ohutut ja targemat kodust karvaeemaldust meie IPL seadmega nahaanduriga. See revolutsiooniline seade omab kõrgtasemel optilisi nahaandureid, mis tuvastavad automaatselt teie nahatooni ja karva värvi.",
       "features": {
-        "intelligentDetection": "Intelligentne naha tuvastamine – Kõrgtasemel andurid tuvastavad automaatselt nahatooni ja reguleerivad energiatasemeid",
-        "maxSafety": "Maksimaalne ohutus – Takistab üleravi ja vähendab nahaarrituse või põletuste riski",
-        "personalized": "Personaliseeritud ravi – Optimeerib automaatselt intensiivsuse teie ainulaadsetele naha omadustele",
-        "realTime": "Reaalajas analüüs – Pidev jälgimine tagab järjepidevad, ohutud raviseansid",
-        "proResults": "Professionaalsed tulemused – Salongi-kvaliteedi karvaeemaldus teie kodu mugavuses"
+        "intelligentDetection": "Intelligentne naha tuvastamine — Kõrgtasemel andurid tuvastavad automaatselt nahatooni ja reguleerivad energiatasemeid",
+        "maxSafety": "Maksimaalne ohutus — Takistab üleravi ja vähendab nahaarrituse või põletuste riski",
+        "personalized": "Personaliseeritud ravi — Optimeerib automaatselt intensiivsuse teie ainulaadsetele naha omadustele",
+        "realTime": "Reaalajas analüüs — Pidev jälgimine tagab järjepidevad, ohutud raviseansid",
+        "proResults": "Professionaalsed tulemused — Salongi-kvaliteedi karvaeemaldus teie kodu mugavuses"
       }
     },
     "smartApp": {
