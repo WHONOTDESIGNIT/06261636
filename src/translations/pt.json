@@ -104,7 +104,7 @@
       "address": "ENDEREÇO",
       "telValue": "+86-15900283962",
       "whatsappValue": "+86-15012891148",
-      "emailValue": "service@ishineco.com",
+      "emailValue": "service@iplmanufacturer.com",
       "addressValue": "Sala 208, Edifício 4, No.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, China, 518071"
     }
   },
@@ -126,7 +126,7 @@
     "products": {
       "title": "Nossa Linha de Dispositivos IPL",
       "subtitle": "Dispositivos IPL personalizáveis para cada necessidade do mercado",
-      "cta": "View All IPL Devices"
+      "cta": "Ver Todos os Dispositivos IPL"
     },
     "cta": {
       "title": "Pronto para Iniciar seu Projeto IPL?",
@@ -174,9 +174,9 @@
       "submit": "Enviar",
       "sending": "Enviando..."
     },
-    "title": "Contact Us",
-    "subtitle": "Get in touch with our team for business inquiries, support, or partnership opportunities.",
-    "companyPhotoAlt": "iShine Manufacturing Facility"
+    "title": "Entre em Contato",
+    "subtitle": "Entre em contato com nossa equipe para consultas comerciais, suporte ou oportunidades de parceria.",
+    "companyPhotoAlt": "Instalação de Fabricação iShine"
   },
   "buttons": {
     "getQuote": "Obter Orçamento",
@@ -196,57 +196,57 @@
     "contactUs": "Entre em Contato"
   },
   "solutions": {
-    "productDesignDevelopment": "Product Design & Development",
-    "productDesignDevelopmentDescription": "From initial concept to final design, our expert team brings your IPL vision to life with cutting-edge technology and market insights.",
-    "oemManufacturing": "OEM Manufacturing",
-    "oemManufacturingDescription": "Complete manufacturing solutions with your specifications. We handle production while you focus on your brand and market.",
-    "odmSolutions": "ODM Solutions",
-    "odmSolutionsDescription": "Choose from our proven IPL designs and customize them with your branding, packaging, and unique features.",
-    "endToEndSupport": "End-to-End Support",
-    "endToEndSupportDescription": "Complete project management from initial consultation to product launch and beyond, ensuring your success every step of the way.",
-    "consultation": "Consultation",
-    "consultationDescription": "Understand your vision, market, and requirements",
+    "productDesignDevelopment": "Design e Desenvolvimento de Produtos",
+    "productDesignDevelopmentDescription": "Do conceito inicial ao design final, nossa equipe especializada dá vida à sua visão IPL com tecnologia de ponta e insights de mercado.",
+    "oemManufacturing": "Fabricação OEM",
+    "oemManufacturingDescription": "Soluções de fabricação completas com suas especificações. Cuidamos da produção enquanto você foca em sua marca e mercado.",
+    "odmSolutions": "Soluções ODM",
+    "odmSolutionsDescription": "Escolha entre nossos designs IPL comprovados e personalize-os com sua marca, embalagem e recursos exclusivos.",
+    "endToEndSupport": "Suporte Completo",
+    "endToEndSupportDescription": "Gerenciamento completo de projeto desde a consulta inicial até o lançamento do produto e além, garantindo seu sucesso a cada passo.",
+    "consultation": "Consulta",
+    "consultationDescription": "Entender sua visão, mercado e requisitos",
     "design": "Design",
-    "designDescription": "Create custom designs or adapt existing solutions",
-    "prototype": "Prototype",
-    "prototypeDescription": "Build and test prototypes to ensure quality",
-    "manufacturing": "Manufacturing",
-    "manufacturingDescription": "Full-scale production with quality assurance",
-    "launch": "Launch",
-    "launchDescription": "Support your market entry and ongoing success",
-    "completeIPLSolutions": "Complete IPL Solutions",
-    "completeIPLSolutionsDescription": "From initial concept to market launch, we provide comprehensive OEM/ODM solutions that transform your IPL vision into successful products.",
-    "ourSolutionPortfolio": "Our Solution Portfolio",
-    "comprehensiveServices": "Comprehensive services to bring your IPL products to market successfully",
-    "ourProcess": "Our Process",
-    "streamlinedWorkflow": "Streamlined workflow to ensure your project success",
-    "industriesWeServe": "Industries We Serve",
-    "tailoredSolutions": "Tailored solutions for diverse market segments",
-    "provenSuccess": "Proven Success",
-    "numbersSpeak": "Numbers that speak to our expertise and commitment",
-    "globalClients": "Global Clients",
-    "productsLaunched": "Products Launched",
-    "qualityRate": "Quality Rate",
-    "yearsExperience": "Years Experience"
+    "designDescription": "Criar designs personalizados ou adaptar soluções existentes",
+    "prototype": "Protótipo",
+    "prototypeDescription": "Construir e testar protótipos para garantir qualidade",
+    "manufacturing": "Fabricação",
+    "manufacturingDescription": "Produção em larga escala com garantia de qualidade",
+    "launch": "Lançamento",
+    "launchDescription": "Apoiar sua entrada no mercado e sucesso contínuo",
+    "completeIPLSolutions": "Soluções IPL Completas",
+    "completeIPLSolutionsDescription": "Do conceito inicial ao lançamento no mercado, fornecemos soluções OEM/ODM abrangentes que transformam sua visão IPL em produtos bem-sucedidos.",
+    "ourSolutionPortfolio": "Nosso Portfólio de Soluções",
+    "comprehensiveServices": "Serviços abrangentes para levar seus produtos IPL ao mercado com sucesso",
+    "ourProcess": "Nosso Processo",
+    "streamlinedWorkflow": "Fluxo de trabalho otimizado para garantir o sucesso do seu projeto",
+    "industriesWeServe": "Indústrias que Atendemos",
+    "tailoredSolutions": "Soluções personalizadas para diversos segmentos de mercado",
+    "provenSuccess": "Sucesso Comprovado",
+    "numbersSpeak": "Números que falam sobre nossa experiência e compromisso",
+    "globalClients": "Clientes Globais",
+    "productsLaunched": "Produtos Lançados",
+    "qualityRate": "Taxa de Qualidade",
+    "yearsExperience": "Anos de Experiência"
   },
   "about": {
-    "heroTitle": "About iShine",
-    "heroDesc": "Your trusted partner in IPL device manufacturing, bringing innovative beauty technology from concept to market since 2018.",
-    "storyTitle": "Our Story",
-    "storyP1": "Founded in 2018, iShine emerged from a vision to democratize advanced IPL technology. We recognized that beauty brands needed a reliable partner who could transform their ideas into market-ready products with precision and excellence.",
-    "storyP2": "Today, we're proud to serve clients across three continents, from innovative startups to established beauty conglomerates. Our commitment to quality, innovation, and customer success drives everything we do.",
-    "storyP3": "At iShine, we don't just manufacture devices – we craft solutions that empower brands to succeed in the competitive beauty market.",
-    "valuesTitle": "Our Core Values",
-    "valuesDesc": "The principles that guide our work and relationships with clients",
+    "heroTitle": "Sobre a iShine",
+    "heroDesc": "Seu parceiro confiável na fabricação de dispositivos IPL, trazendo tecnologia de beleza inovadora do conceito ao mercado desde 2018.",
+    "storyTitle": "Nossa História",
+    "storyP1": "Fundada em 2018, a iShine surgiu de uma visão de democratizar a tecnologia IPL avançada. Reconhecemos que as marcas de beleza precisavam de um parceiro confiável que pudesse transformar suas ideias em produtos prontos para o mercado com precisão e excelência.",
+    "storyP2": "Hoje, temos orgulho de atender clientes em três continentes, desde startups inovadoras até conglomerados de beleza estabelecidos. Nosso compromisso com qualidade, inovação e sucesso do cliente impulsiona tudo o que fazemos.",
+    "storyP3": "Na iShine, não fabricamos apenas dispositivos - criamos soluções que capacitam marcas a ter sucesso no competitivo mercado de beleza.",
+    "valuesTitle": "Nossos Valores Fundamentais",
+    "valuesDesc": "Os princípios que orientam nosso trabalho e relacionamentos com clientes",
     "values": {
-      "qualityTitle": "Quality Excellence",
-      "qualityDesc": "FDA GMP certified manufacturing with rigorous quality control",
-      "customerTitle": "Customer Focus",
-      "customerDesc": "Dedicated to understanding and exceeding customer expectations",
-      "globalTitle": "Global Impact",
-      "globalDesc": "Serving beauty brands worldwide with innovative IPL solutions",
-      "innovationTitle": "Innovation Drive",
-      "innovationDesc": "Continuous R&D investment in next-generation IPL technology"
+      "qualityTitle": "Excelência em Qualidade",
+      "qualityDesc": "Fabricação certificada FDA GMP com controle rigoroso de qualidade",
+      "customerTitle": "Foco no Cliente",
+      "customerDesc": "Dedicados a entender e superar as expectativas dos clientes",
+      "globalTitle": "Impacto Global",
+      "globalDesc": "Servindo marcas de beleza em todo o mundo com soluções IPL inovadoras",
+      "innovationTitle": "Impulso da Inovação",
+      "innovationDesc": "Investimento contínuo em P&D em tecnologia IPL de próxima geração"
     },
     "journeyTitle": "Our Journey",
     "journeyDesc": "Key milestones in our growth and innovation",
@@ -366,7 +366,7 @@
       "title": "Emerald IPL Hair Removal Device",
       "desc": "Experience professional-grade hair removal at home with our Emerald IPL Device featuring advanced Intense Pulsed Light technology with 15 J/cm² of energy and 600,000+ flashes for long-lasting smooth skin. The precision-engineered system delivers consistent results across all treatment areas.",
       "features": {
-        "proResults": "Professional results — up to 94% hair reduction after 12 weeks.",
+        "proResults": "Professional results �?up to 94% hair reduction after 12 weeks.",
         "manualIntensity": "5-level manual intensity control for personalized treatments.",
         "safeAllSkin": "Safe for all skin tones within Fitzpatrick I-V range.",
         "largeWindow": "Large 4.2 cm² treatment window for faster coverage.",
@@ -388,18 +388,18 @@
       "title": "Dispositivo de depilação IPL resfriamento gelo",
       "desc": "Experimente a tecnologia de depilação com resfriamento de gelo luxuosa de nível profissional, equipada com uma placa de resfriamento metálica de nível aeroespacial que resfria instantaneamente a pele a uma temperatura ultra-baixa de 5°C.",
       "features": {
-        "luxuryDesign": "Luxurious goddess design — Aerospace-grade metal texture, showcasing noble taste.",
-        "coolingPlate": "Ice cooling plate technology — Instantly cools skin to 5°C for truly painless experience.",
-        "preciseControl": "9-level precise energy control — Customizable for sensitive areas and coarse hair.",
-        "allSkin": "Suitable for all skin tones — Fitzpatrick I-V certified.",
-        "largeWindow": "3.3 cm² extra-large treatment window — Fast coverage, 50% higher efficiency."
+        "luxuryDesign": "Luxurious goddess design �?Aerospace-grade metal texture, showcasing noble taste.",
+        "coolingPlate": "Ice cooling plate technology �?Instantly cools skin to 5°C for truly painless experience.",
+        "preciseControl": "9-level precise energy control �?Customizable for sensitive areas and coarse hair.",
+        "allSkin": "Suitable for all skin tones �?Fitzpatrick I-V certified.",
+        "largeWindow": "3.3 cm² extra-large treatment window �?Fast coverage, 50% higher efficiency."
       }
     },
     "iceFeeling": {
       "title": "Dispositivo IPL safira sensação gelo",
       "desc": "Aproveite a depilação sem dor com uma placa de resfriamento de safira de nível clínico que resfria a pele a 5°C, permitindo pulsos de energia mais altos para resultados mais rápidos.",
       "features": {
-        "longSmooth": "Long-lasting smoothness — visible reduction after 3-4 weeks.",
+        "longSmooth": "Long-lasting smoothness �?visible reduction after 3-4 weeks.",
         "cooling": "Cooling plate keeps epidermis at 5°C for true painless treatments.",
         "energyLevels": "Five energy levels adapt to almost all skin tones within Fitzpatrick I-V.",
         "flashModes": "Auto/Manual flash modes for body and precision areas.",
@@ -410,11 +410,11 @@
       "title": "Dispositivo IPL com sensor de pele",
       "desc": "Experimente a depilação doméstica mais segura e inteligente com nosso dispositivo IPL com sensor de pele. Este dispositivo revolucionário possui sensores ópticos de pele avançados que detectam automaticamente seu tom de pele e cor do cabelo.",
       "features": {
-        "intelligentDetection": "Intelligent Skin Detection – Advanced sensors automatically identify skin tone and adjust energy levels",
-        "maxSafety": "Maximum Safety – Prevents over-treatment and reduces risk of skin irritation or burns",
-        "personalized": "Personalized Treatment – Automatically optimizes intensity for your unique skin characteristics",
-        "realTime": "Real-time Analysis – Continuous monitoring ensures consistent, safe treatment sessions",
-        "proResults": "Professional Results – Salon-quality hair removal in the comfort of your home"
+        "intelligentDetection": "Intelligent Skin Detection �?Advanced sensors automatically identify skin tone and adjust energy levels",
+        "maxSafety": "Maximum Safety �?Prevents over-treatment and reduces risk of skin irritation or burns",
+        "personalized": "Personalized Treatment �?Automatically optimizes intensity for your unique skin characteristics",
+        "realTime": "Real-time Analysis �?Continuous monitoring ensures consistent, safe treatment sessions",
+        "proResults": "Professional Results �?Salon-quality hair removal in the comfort of your home"
       }
     },
     "smartApp": {
