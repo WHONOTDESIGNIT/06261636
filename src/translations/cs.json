@@ -104,7 +104,7 @@
       "address": "ADRESA",
       "telValue": "+86-15900283962",
       "whatsappValue": "+86-15012891148",
-      "emailValue": "service@ishineco.com",
+      "emailValue": "service@iplmanufacturer.com",
       "addressValue": "Místnost 208, Budova 4, č. 45, Makan Road, ulice Xi'li, Shenzhen, Guangdong, Čína, 518071"
     }
   },
@@ -235,7 +235,7 @@
     "storyTitle": "Náš příběh",
     "storyP1": "Založená v roce 2018, společnost iShine vznikla z vize demokratizovat pokročilou IPL technologii. Rozpoznali jsme, že kosmetické značky potřebují spolehlivého partnera, který dokáže transformovat jejich nápady na tržně připravené produkty s přesností a dokonalostí.",
     "storyP2": "Dnes jsme hrdí na to, že sloužíme klientům na třech kontinentech, od inovativních startupů po zavedené kosmetické konglomeráty. Náš závazek ke kvalitě, inovacím a úspěchu zákazníků pohání vše, co děláme.",
-    "storyP3": "V iShine nevyrábíme jen zařízení – vytváříme řešení, která umožňují značkám uspět na konkurenčním kosmetickém trhu.",
+    "storyP3": "V iShine nevyrábíme jen zařízení—vytváříme řešení, která umožňují značkám uspět na konkurenčním kosmetickém trhu.",
     "valuesTitle": "Naše hlavní hodnoty",
     "valuesDesc": "Principy, které vedou naši práci a vztahy s klienty",
     "values": {
@@ -366,7 +366,7 @@
       "title": "Smaragdové IPL zařízení pro odstranění chloupků",
       "desc": "Zažijte profesionální odstranění chloupků doma s naším Smaragdovým IPL zařízením s pokročilou technologií intenzivního pulzního světla s energií 15 J/cm² a 600 000+ záblesky pro dlouhotrvající hladkou pokožku. Přesně navržený systém poskytuje konzistentní výsledky ve všech léčených oblastech.",
       "features": {
-        "proResults": "Profesionální výsledky — až 94% snížení chloupků po 12 týdnech.",
+        "proResults": "Profesionální výsledky—až 94% snížení chloupků po 12 týdnech.",
         "manualIntensity": "5-úrovňová manuální kontrola intenzity pro personalizované léčby.",
         "safeAllSkin": "Bezpečné pro všechny odstíny pleti v rozsahu Fitzpatrick I-V.",
         "largeWindow": "Velké léčebné okno 4,2 cm² pro rychlejší pokrytí.",
@@ -388,18 +388,18 @@
       "title": "IPL zařízení s ledovým chlazením",
       "desc": "Zažijte luxusní technologii odstranění chloupků s ledovým chlazením na profesionální úrovni, vybavenou chladicí kovovou deskou leteckého standardu, která okamžitě ochladí pokožku na ultra nízkou teplotu 5°C. V kombinaci s vysokoenergetickými IPL pulzy 2,0-5,0 J/cm² a 999 000+ záblesky poskytuje pocit hedvábně hladké pokožky bohyně. Luxusní design je vytvořen pro moderní ženy hledající dokonalost.",
       "features": {
-        "luxuryDesign": "Luxusní design bohyně — Kovová textura leteckého standardu, představující vznešený vkus.",
-        "coolingPlate": "Technologie ledové chladicí desky — Okamžitě ochladí pokožku na 5°C pro skutečně bezbolestný zážitek.",
-        "preciseControl": "9úrovňová přesná kontrola energie — Přizpůsobitelná pro citlivé oblasti a hrubé chloupky.",
-        "allSkin": "Vhodné pro všechny odstíny pleti — Certifikováno Fitzpatrick I-V.",
-        "largeWindow": "3,3 cm² extra velké léčebné okno — Rychlé pokrytí, o 50% vyšší účinnost."
+        "luxuryDesign": "Luxusní design bohyně—Kovová textura leteckého standardu, představující vznešený vkus.",
+        "coolingPlate": "Technologie ledové chladicí desky—Okamžitě ochladí pokožku na 5°C pro skutečně bezbolestný zážitek.",
+        "preciseControl": "9úrovňová přesná kontrola energie—Přizpůsobitelná pro citlivé oblasti a hrubé chloupky.",
+        "allSkin": "Vhodné pro všechny odstíny pleti—Certifikováno Fitzpatrick I-V.",
+        "largeWindow": "3,3 cm² extra velké léčebné okno—Rychlé pokrytí, o 50% vyšší účinnost."
       }
     },
     "iceFeeling": {
       "title": "Safírové IPL zařízení s ledovým pocitem",
       "desc": "Užívejte si bezbolestné odstranění chloupků s klinickou safírovou chladicí deskou, která ochladí pokožku na 5°C a umožní vyšší energetické pulzy pro rychlejší výsledky. Integrovaný engine intenzivního pulzního světla (IPL) dodává 2,0-5,0 J/cm² energie s 999 999 záblesky pro celoživotní použití.",
       "features": {
-        "longSmooth": "Dlouhotrvající hladkost — viditelné snížení po 3-4 týdnech.",
+        "longSmooth": "Dlouhotrvající hladkost—viditelné snížení po 3-4 týdnech.",
         "cooling": "Chladicí deska udržuje pokožku na 5°C pro skutečně bezbolestné ošetření.",
         "energyLevels": "Pět úrovní energie se přizpůsobí téměř všem odstínům pleti v rámci Fitzpatrick I-V.",
         "flashModes": "Automatické/manuální režimy záblesku pro tělo a přesné oblasti.",
@@ -408,13 +408,13 @@
     },
     "skinSensor": {
       "title": "IPL zařízení se senzorem pokožky",
-      "desc": "Zažijte nejbezpečnější a nejinteligentnější domácí odstranění chloupků s naším IPL zařízením se senzorem pokožky. Toto revoluční zařízení obsahuje pokročilé optické senzory pokožky, které automaticky detekují váš odstín pleti a barvu vlasů – poskytují personalizovanou intenzitu ošetření pro maximální účinnost a úplnou bezpečnost. S analýzou pokožky v reálném čase a automatickým přizpůsobením energie je toto zařízení perfektní pro všechny vhodné typy pokožky a zajišťuje optimální výsledky pokaždé.",
+      "desc": "Zažijte nejbezpečnější a nejinteligentnější domácí odstranění chloupků s naším IPL zařízením se senzorem pokožky. Toto revoluční zařízení obsahuje pokročilé optické senzory pokožky, které automaticky detekují váš odstín pleti a barvu vlasů—poskytují personalizovanou intenzitu ošetření pro maximální účinnost a úplnou bezpečnost. S analýzou pokožky v reálném čase a automatickým přizpůsobením energie je toto zařízení perfektní pro všechny vhodné typy pokožky a zajišťuje optimální výsledky pokaždé.",
       "features": {
-        "intelligentDetection": "Inteligentní detekce pokožky — Pokročilé senzory automaticky identifikují odstín pleti a upravují úrovně energie",
-        "maxSafety": "Maximální bezpečnost — Zabraňuje nadměrnému ošetření a snižuje riziko podráždění nebo popálení pokožky",
-        "personalized": "Personalizované ošetření — Automaticky optimalizuje intenzitu pro vaše jedinečné charakteristiky pokožky",
-        "realTime": "Analýza v reálném čase — Nepřetržité monitorování zajišťuje konzistentní, bezpečné relace ošetření",
-        "proResults": "Profesionální výsledky — Odstranění chloupků na úrovni salonu v pohodlí vašeho domova"
+        "intelligentDetection": "Inteligentní detekce pokožky—Pokročilé senzory automaticky identifikují odstín pleti a upravují úrovně energie",
+        "maxSafety": "Maximální bezpečnost—Zabraňuje nadměrnému ošetření a snižuje riziko podráždění nebo popálení pokožky",
+        "personalized": "Personalizované ošetření—Automaticky optimalizuje intenzitu pro vaše jedinečné charakteristiky pokožky",
+        "realTime": "Analýza v reálném čase—Nepřetržité monitorování zajišťuje konzistentní, bezpečné relace ošetření",
+        "proResults": "Profesionální výsledky—Odstranění chloupků na úrovni salonu v pohodlí vašeho domova"
       }
     },
     "smartApp": {
@@ -476,123 +476,123 @@
         "title": "Udržitelná výroba: Ekologické metody výroby IPL",
         "intro": "Jak se zvyšuje poptávka po domácích IPL (Intense Pulsed Light) zařízeních na odstranění chloupků, roste i odpovědnost vyrábět tyto elektronické přístroje s minimálním dopadem na životní prostředí. Udržitelná výroba již není trendem, ale nezbytností—zahrnuje každou fázi od získávání surovin až po recyklaci na konci životnosti. Tento článek hodnotí environmentální stopu výroby IPL zařízení a zkoumá inovativní, praktické strategie pro dosažení skutečně zeleného dodavatelského řetězce, se zaměřením na elektroniku, optiku, ekologické ABS kryty, udržitelné balení a reutilizaci odpadu.",
         "sections": {
-          "environmentalImpact": "Environmental Impact Assessment of IPL Device Manufacturing",
-          "electronics": "1. Electronic Components",
-          "optics": "2. Optical Components (Lenses and Filters)",
-          "absHousing": "3. ABS Eco-Friendly Housings",
-          "packaging": "4. Sustainable Paper Packaging",
-          "wasteReduction": "5. Waste Reduction and Reuse",
-          "supplyChain": "Sustainable Supply Chain Innovations",
-          "feasibility": "The Feasibility of a Green IPL Supply Chain",
-          "commitment": "iShine's Commitment to Sustainability",
-          "references": "References"
+          "environmentalImpact": "Hodnocení environmentálního dopadu výroby IPL zařízení",
+          "electronics": "1. Elektronické komponenty",
+          "optics": "2. Optické komponenty (čočky a filtry)",
+          "absHousing": "3. Ekologické ABS kryty",
+          "packaging": "4. Udržitelné papírové balení",
+          "wasteReduction": "5. Snížení a znovuvyužití odpadu",
+          "supplyChain": "Inovace udržitelného dodavatelského řetězce",
+          "feasibility": "Uskutečnitelnost zeleného IPL dodavatelského řetězce",
+          "commitment": "Závazek iShine k udržitelnosti",
+          "references": "Reference"
         }
       },
       "globalMarketShifts": {
         "title": "Globální tržní změny: Trendy a příležitosti IPL zařízení",
         "intro": "Prozkoumejte nejnovější globální trendy v přijímání IPL zařízení, regulační změny a tržní příležitosti pro značky a výrobce.",
         "sections": {
-          "marketOverview": "Market Overview",
-          "regionalTrends": "Regional Trends",
-          "regulatoryChanges": "Regulatory Changes",
-          "consumerPreferences": "Consumer Preferences",
-          "opportunities": "Opportunities for Brands",
-          "challenges": "Challenges and Risks",
-          "futureOutlook": "Future Outlook"
+          "marketOverview": "Přehled trhu",
+          "regionalTrends": "Regionální trendy",
+          "regulatoryChanges": "Regulační změny",
+          "consumerPreferences": "Preference spotřebitelů",
+          "opportunities": "Příležitosti pro značky",
+          "challenges": "Výzvy a rizika",
+          "futureOutlook": "Výhled do budoucna"
         }
       },
       "aiPoweredSkinSensing": {
         "title": "Snímání pokožky poháněné umělou inteligencí: Nová hranice v bezpečnosti IPL",
         "intro": "Jak umělá inteligence revolucionizuje bezpečnost a personalizaci IPL zařízení prostřednictvím analýzy pokožky v reálném čase.",
         "sections": {
-          "introduction": "Introduction",
-          "aiTechnology": "AI Technology in IPL",
-          "skinSensing": "Skin Sensing Mechanisms",
-          "safetyBenefits": "Safety Benefits",
-          "userExperience": "User Experience",
-          "caseStudies": "Case Studies",
-          "conclusion": "Conclusion"
+          "introduction": "Úvod",
+          "aiTechnology": "AI technologie v IPL",
+          "skinSensing": "Mechanismy snímání pokožky",
+          "safetyBenefits": "Bezpečnostní výhody",
+          "userExperience": "Uživatelská zkušenost",
+          "caseStudies": "Případové studie",
+          "conclusion": "Závěr"
         }
       },
       "multiHeadIPLSystems": {
         "title": "Vícehlávkové IPL systémy: Přesnost se setkává s celotelovou účinností",
         "intro": "Evoluce domácího odstranění chloupků byla hluboce ovlivněna zavedením vícehlávkových systémů intenzivního pulzního světla (IPL). Philips byl průkopníkem tohoto trendu se svou technologií vyměnitelných hlav, stanovující nový standard pro všestrannost a uživatelsky orientovaný design v domácích IPL zařízeních.",
         "sections": {
-          "philipsLegacy": "The Philips Legacy: Setting the Standard for Multi-Head IPL",
-          "keyFeatures": "Key Features of Multi-Head IPL Devices",
-          "respondingToVIO": "Responding to VIO Hair Removal Needs",
-          "whyMultiHeadMatters": "Why Multi-Head Design Matters",
-          "painReduction": "Pain Reduction: The Role of Advanced Filters",
-          "realUserFeedback": "Real User Feedback",
-          "conclusion": "Conclusion",
-          "references": "References"
+          "philipsLegacy": "Dědictví Philips: Stanovení standardu pro vícehlávkové IPL",
+          "keyFeatures": "Klíčové vlastnosti vícehlávkových IPL zařízení",
+          "respondingToVIO": "Reakce na potřeby VIO odstranění chloupků",
+          "whyMultiHeadMatters": "Proč záleží na vícehlávkovém designu",
+          "painReduction": "Snížení bolesti: Role pokročilých filtrů",
+          "realUserFeedback": "Zpětná vazba skutečných uživatelů",
+          "conclusion": "Závěr",
+          "references": "Reference"
         }
       },
       "sapphireCooling": {
         "title": "Safírové chlazení: Zvýšení pohodlí při IPL ošetření",
         "intro": "Objevte, jak technologie safírového chlazení transformuje pohodlí a bezpečnost IPL ošetření odstranění chloupků.",
         "sections": {
-          "technologyOverview": "Technology Overview",
-          "coolingMechanism": "How Sapphire Cooling Works",
-          "benefits": "Benefits for Users",
-          "clinicalEvidence": "Clinical Evidence",
-          "deviceComparison": "Device Comparison",
-          "userTestimonials": "User Testimonials",
-          "conclusion": "Conclusion"
+          "technologyOverview": "Přehled technologie",
+          "coolingMechanism": "Jak safírové chlazení funguje",
+          "benefits": "Výhody pro uživatele",
+          "clinicalEvidence": "Klinické důkazy",
+          "deviceComparison": "Porovnání zařízení",
+          "userTestimonials": "Testimonials uživatelů",
+          "conclusion": "Závěr"
         }
       },
       "industries": {
         "title": "Odvětví, která obsluhujeme: Aplikace IPL napříč sektory",
         "intro": "Technologie IPL není jen pro krásu—prozkoumejte její aplikace v lékařském, veterinárním a průmyslovém sektoru.",
         "sections": {
-          "beauty": "Beauty Industry",
-          "medical": "Medical Applications",
-          "veterinary": "Veterinary Uses",
-          "industrial": "Industrial Applications",
-          "caseStudies": "Case Studies",
-          "futureTrends": "Future Trends"
+          "beauty": "Kosmetické odvětví",
+          "medical": "Lékařské aplikace",
+          "veterinary": "Veterinární použití",
+          "industrial": "Průmyslové aplikace",
+          "caseStudies": "Případové studie",
+          "futureTrends": "Budoucí trendy"
         }
       },
       "iplBestChoice": {
         "title": "Proč jsou domácí IPL zařízení na odstranění chloupků nejlepší volbou mezi všemi nástroji na odstranění chloupků",
         "intro": "Objevte, proč je IPL nejúčinnějším, nejpohodlnějším a nejpraktičtějším řešením pro dlouhodobé odstranění chloupků doma—podpořeno vědou a skutečnými uživatelskými zkušenostmi.",
         "sections": {
-          "comparison": "Hair Removal Methods Comparison",
-          "whyChooseIPL": "Why Choose IPL Home Hair Removal?",
-          "userStories": "Real User Stories",
+          "comparison": "Porovnání metod odstranění chloupků",
+          "whyChooseIPL": "Proč zvolit domácí IPL odstranění chloupků?",
+          "userStories": "Příběhy skutečných uživatelů",
           "faq": "Často kladené otázky",
-          "recommendedBlog": "Recommended Blog",
-          "exploreMore": "Explore More"
+          "recommendedBlog": "Doporučený blog",
+          "exploreMore": "Prozkoumejte více"
         }
       },
       "futureHomeHairRemoval": {
         "title": "Budoucnost domácích zařízení na odstranění chloupků: Trendy, inovace a co nás čeká",
         "intro": "Prozkoumejte vývoj, současné průlomy a novou generaci domácích zařízení na odstranění chloupků—umělá inteligence, multifunkčnost a udržitelný design pro rok 2025 a dále.",
         "sections": {
-          "evolution": "Evolution of Home Hair Removal Technology",
-          "stateOfTheArt": "Key Features of Next-Gen Devices (2025)",
-          "aiPersonalization": "AI and Personalization in Hair Removal",
-          "vision": "The 'Ultimate' Home Hair Removal Device: A Vision",
-          "challenges": "Challenges and Considerations",
+          "evolution": "Vývoj technologie domácího odstranění chloupků",
+          "stateOfTheArt": "Klíčové funkce zařízení nové generace (2025)",
+          "aiPersonalization": "AI a personalizace v odstranění chloupků",
+          "vision": "„Ultimátní" domácí zařízení na odstranění chloupků: Vize",
+          "challenges": "Výzvy a úvahy",
           "faq": "Často kladené otázky",
-          "exploreMore": "Explore More",
-          "aboutAuthor": "About the Author"
+          "exploreMore": "Prozkoumejte více",
+          "aboutAuthor": "O autorovi"
         }
       },
       "fda510kPathway": {
         "title": "FDA 510(k) cesta: Navigace klasifikací zdravotnických prostředků pro IPL",
         "intro": "Komplexní průvodce FDA 510(k) cestou pro domácí IPL zařízení na odstranění chloupků. Naučte se o regulačních požadavcích, marketingových tvrzeních a jak iShine pomáhá značkám dosáhnout shody.",
         "sections": {
-          "introduction": "Introduction",
-          "pathway": "1. FDA 510(k) Pathway for Home IPL Devices",
-          "marketingClaims": "2. How Marketing Claims Affect Regulatory Classification",
-          "ishineExpertise": "3. iShine's Expertise in Securing Your Brand's FDA 510(k) Listing",
-          "benefits": "4. Benefits of Obtaining a Brand-Specific FDA 510(k) Listing",
-          "guidance": "5. Practical Guidance for Brands",
-          "conclusion": "Conclusion",
+          "introduction": "Úvod",
+          "pathway": "1. FDA 510(k) cesta pro domácí IPL zařízení",
+          "marketingClaims": "2. Jak marketingová tvrzení ovlivňují regulační klasifikaci",
+          "ishineExpertise": "3. Odbornost iShine při zajišťování FDA 510(k) listingu vaší značky",
+          "benefits": "4. Výhody získání specifického FDA 510(k) listingu značky",
+          "guidance": "5. Praktické vedení pro značky",
+          "conclusion": "Závěr",
           "faq": "Často kladené otázky",
-          "exploreMore": "Explore More",
-          "author": "About the Author"
+          "exploreMore": "Prozkoumejte více",
+          "author": "O autorovi"
         }
       }
     }
