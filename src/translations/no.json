@@ -324,64 +324,64 @@
   },
   "ipl": {
     "aiPowered": {
-      "title": "AI-Powered IPL Device",
-      "desc": "The future of hair removal is here. Artificial intelligence optimizes every treatment for personalized, effective results.",
+      "title": "AI-drevet IPL-enhet",
+      "desc": "Fremtiden for hårfjerning er her. Kunstig intelligens optimaliserer hver behandling for personlige, effektive resultater.",
       "features": {
-        "aiTech": "AI Technology",
-        "aiTechDesc": "Smart learning algorithms",
-        "smartProcessing": "Smart Processing",
-        "smartProcessingDesc": "Real-time optimization",
-        "analytics": "Advanced Analytics",
-        "analyticsDesc": "Detailed progress tracking",
-        "personalized": "Personalized",
-        "personalizedDesc": "Customized for your needs"
+        "aiTech": "AI-teknologi",
+        "aiTechDesc": "Smarte læringsalgoritmer",
+        "smartProcessing": "Smart prosessering",
+        "smartProcessingDesc": "Sanntidsoptimalisering",
+        "analytics": "Avanserte analyser",
+        "analyticsDesc": "Detaljert fremgangssporing",
+        "personalized": "Personalisert",
+        "personalizedDesc": "Tilpasset dine behov"
       }
     },
     "batteryPowered": {
-      "title": "Battery-Powered IPL Hair Removal Device",
-      "desc": "Experience the ultimate cordless convenience with our battery-powered IPL device. Equipped with a high-capacity rechargeable battery, it offers seamless mobility without the need for power adapters. Enjoy professional-grade hair removal anywhere, anytime, with up to 9 adjustable energy levels for personalized treatments.",
+      "title": "Batteridrevet IPL-hårfjerning enhet",
+      "desc": "Opplev den ultimate trådløse bekvemmeligheten med vår batteridrevne IPL-enhet. Utstyrt med et oppladbart batteri med høy kapasitet, tilbyr det sømløs mobilitet uten behov for strømadaptere. Nyt profesjonell hårfjerning hvor som helst, når som helst, med opptil 9 justerbare energinivåer for personlige behandlinger.",
       "features": {
-        "cordless": "Cordless design for ultimate freedom and convenience.",
-        "energyLevels": "9 adjustable energy levels for customized treatments.",
-        "longBattery": "Long-lasting rechargeable battery with 600+ recharge cycles.",
-        "noAdapter": "No need for power adapters during use, ideal for travel.",
-        "allSkin": "Suitable for all skin tones, FDA & CE approved."
+        "cordless": "Trådløst design for maksimal frihet og bekvemmelighet.",
+        "energyLevels": "9 justerbare energinivåer for tilpassede behandlinger.",
+        "longBattery": "Langvarig oppladbart batteri med 600+ ladessykler.",
+        "noAdapter": "Ikke behov for strømadaptere under bruk, ideelt for reise.",
+        "allSkin": "Egnet for alle hudtoner, FDA & CE godkjent."
       }
     },
     "dualLamp": {
-      "title": "Dual-Lamp IPL Device",
-      "desc": "Double the power, double the efficiency. Revolutionary dual-lamp technology for faster treatments and superior results.",
+      "title": "Dobbel lampe IPL-enhet",
+      "desc": "Dobbel kraft, dobbel effektivitet. Revolusjonerende dobbel lampe teknologi for raskere behandlinger og overlegne resultater.",
       "features": {
-        "dualLamps": "Dual Lamps",
-        "dualLampsDesc": "Enhanced power and coverage",
-        "faster": "Faster Treatment",
-        "fasterDesc": "Reduced session time",
-        "proPower": "Professional Power",
-        "proPowerDesc": "Salon-grade performance",
-        "evenCoverage": "Even Coverage",
-        "evenCoverageDesc": "Uniform light distribution"
+        "dualLamps": "Doble lamper",
+        "dualLampsDesc": "Forbedret kraft og dekning",
+        "faster": "Raskere behandling",
+        "fasterDesc": "Redusert sesjonstid",
+        "proPower": "Profesjonell kraft",
+        "proPowerDesc": "Salonkvalitets ytelse",
+        "evenCoverage": "Jevn dekning",
+        "evenCoverageDesc": "Uniform lysfordeling"
       }
     },
     "emerald": {
-      "title": "Emerald IPL Hair Removal Device",
-      "desc": "Experience professional-grade hair removal at home with our Emerald IPL Device featuring advanced Intense Pulsed Light technology with 15 J/cm² of energy and 600,000+ flashes for long-lasting smooth skin. The precision-engineered system delivers consistent results across all treatment areas.",
+      "title": "Smaragd IPL-hårfjerning enhet",
+      "desc": "Opplev profesjonell hårfjerning hjemme med vår Smaragd IPL-enhet som har avansert Intense Pulsed Light teknologi med 15 J/cm² energi og 600 000+ blits for langvarig glatt hud. Det presisjonstekniske systemet leverer konsistente resultater på alle behandlingsområder.",
       "features": {
         "proResults": "Profesjonelle resultater — opptil 94% hårreduksjon etter 12 uker.",
-        "manualIntensity": "5-level manual intensity control for personalized treatments.",
-        "safeAllSkin": "Safe for all skin tones within Fitzpatrick I-V range.",
-        "largeWindow": "Large 4.2 cm² treatment window for faster coverage.",
-        "ergonomic": "Ergonomic design with built-in safety sensors."
+        "manualIntensity": "5-nivå manuell intensitetskontroll for personlige behandlinger.",
+        "safeAllSkin": "Sikker for alle hudtoner innenfor Fitzpatrick I-V-området.",
+        "largeWindow": "Stort 4,2 cm² behandlingsvindu for raskere dekning.",
+        "ergonomic": "Ergonomisk design med innebygde sikkerhetssensorer."
       }
     },
     "handheld": {
-      "title": "Handheld IPL Hair Removal Device",
-      "desc": "Discover the perfect blend of comfort and performance with our handheld IPL device. Designed for easy grip and precise control, it features 5 adjustable energy levels to suit all skin types and sensitivities. Achieve salon-quality hair removal results at home with a lightweight, portable device.",
+      "title": "Håndholdt IPL-hårfjerning enhet",
+      "desc": "Oppdag den perfekte blandingen av komfort og ytelse med vår håndholdte IPL-enhet. Designet for enkelt grep og presis kontroll, har den 5 justerbare energinivåer for å passe alle hudtyper og følsomheter. Oppnå salonkvalitets hårfjerningsresultater hjemme med en lett, bærbar enhet.",
       "features": {
-        "ergonomic": "Ergonomic handheld design for comfortable use.",
-        "energyLevels": "5 adjustable energy levels for personalized treatments.",
-        "portable": "Lightweight and portable—ideal for travel and home use.",
-        "allSkin": "Suitable for all skin tones, gentle and effective.",
-        "certified": "FDA & CE approved for safety and quality."
+        "ergonomic": "Ergonomisk håndholdt design for komfortabel bruk.",
+        "energyLevels": "5 justerbare energinivåer for personlige behandlinger.",
+        "portable": "Lett og bærbar—ideell for reise og hjemmebruk.",
+        "allSkin": "Egnet for alle hudtoner, mild og effektiv.",
+        "certified": "FDA & CE godkjent for sikkerhet og kvalitet."
       }
     },
     "iceCooling": {
@@ -400,10 +400,10 @@
       "desc": "Nyt smertefri hårfjerning med en klinisk safir kjøleplate som kjøler huden til 5°C, som tillater høyere energi pulser for raskere resultater.",
       "features": {
         "longSmooth": "Langvarig glathet — synlig reduksjon etter 3-4 uker.",
-        "cooling": "Cooling plate keeps epidermis at 5°C for true painless treatments.",
-        "energyLevels": "Five energy levels adapt to almost all skin tones within Fitzpatrick I-V.",
-        "flashModes": "Auto/Manual flash modes for body and precision areas.",
-        "multiUse": "4-in-1: Full body, Bikini, Face, and skin rejuvenation."
+        "cooling": "Kjøleplaten holder epidermis på 5°C for virkelig smertefrie behandlinger.",
+        "energyLevels": "Fem energinivåer tilpasser seg nesten alle hudtoner innenfor Fitzpatrick I-V.",
+        "flashModes": "Auto/manuell blits-modus for kropp og presisionsområder.",
+        "multiUse": "4-i-1: Hele kroppen, bikini, ansikt og hudfornyelse."
       }
     },
     "skinSensor": {
@@ -412,8 +412,8 @@
       "features": {
         "intelligentDetection": "Intelligent hudgjenkjenning — Avanserte sensorer identifiserer automatisk hudtone og justerer energinivåer",
         "maxSafety": "Maksimal sikkerhet — Forhindrer overbehandling og reduserer risiko for hudirritasjon eller brannskader",
-        "personalized": "Personalized Treatment — Automatically optimizes intensity for your unique skin characteristics",
-        "realTime": "Real-time Analysis — Continuous monitoring ensures consistent, safe treatment sessions",
+        "personalized": "Personlig behandling — Optimaliserer automatisk intensiteten for dine unike hudegenskaper",
+        "realTime": "Sanntidsanalyse — Kontinuerlig overvåking sikrer konsistente, sikre behandlingssesjoner",
         "proResults": "Profesjonelle resultater — Salonkvalitets hårfjerning i komforten av ditt eget hjem"
       }
     },
@@ -421,11 +421,11 @@
       "title": "Smart app IPL-hårfjerning enhet",
       "desc": "Koble din IPL-enhet sømløst via Bluetooth til vår SmartApp. Nyt guidede behandlinger, sanntids sesjonsoppfølging, personaliserte rutiner og AI-drevne innsikter.",
       "features": {
-        "bluetooth": "Bluetooth 5.0 connectivity for stable pairing",
-        "aiPlans": "Personalized treatment plans via AI analysis",
-        "realTimeControl": "Real-time intensity control and on-screen feedback",
-        "scheduling": "Session scheduling and usage reminders",
-        "compatibility": "Compatible with iOS & Android"
+        "bluetooth": "Bluetooth 5.0-tilkobling for stabil parkobling",
+        "aiPlans": "Personlige behandlingsplaner via AI-analyse",
+        "realTimeControl": "Sanntids intensitetskontroll og tilbakemelding på skjermen",
+        "scheduling": "Sesjonsplanlegging og brukspåminnelser",
+        "compatibility": "Kompatibel med iOS & Android"
       }
     }
   },
