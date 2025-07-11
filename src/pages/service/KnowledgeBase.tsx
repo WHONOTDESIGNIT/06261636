@@ -191,7 +191,7 @@ const faqData: Category[] = [
       {
         question: 'What is the lifespan of an IPL device?',
         answer:
-          'Most units feature 300,000–900,000 flashes (10–30 years of normal use) with no consumables or lamp replacements required.'
+          'Most units feature 300,000�?00,000 flashes (10�?0 years of normal use) with no consumables or lamp replacements required.'
       },
       {
         question: 'What is the IPL lamp made of?',
@@ -230,7 +230,7 @@ const faqData: Category[] = [
     qas: [
       {
         question: 'Will my IPL device work in my country?',
-        answer: 'Most devices are dual-voltage 110–240 V and ship with region-specific plugs.'
+        answer: 'Most devices are dual-voltage 110�?40 V and ship with region-specific plugs.'
       }
     ]
   },
@@ -250,7 +250,7 @@ const faqData: Category[] = [
     icon: HelpCircle,
     qas: [
       {
-        question: "My device isn't working – what should I do?",
+        question: "My device isn't working �?what should I do?",
         answer:
           'Verify power, cleanliness, and full skin contact. Consult support or your warranty if problems persist.'
       },
@@ -260,7 +260,7 @@ const faqData: Category[] = [
       },
       {
         question: 'Why is my device not flashing?',
-        answer: `- Make sure your power supply is plugged in all the way.\n- Do you have full skin contact? IPL devices will not activate unless all 4-points are in contact with your skin.\n- Check your skin-tone suitability. IPL is not suitable for use on deep skin tones that are rich in melanin.\n- For more information on how to look after your IPL device, see above.\n- If your IPL is not working, please reach out to us at help@iplmanufacturer.com.`
+        answer: `- Make sure your power supply is plugged in all the way.\n- Do you have full skin contact? IPL devices will not activate unless all 4-points are in contact with your skin.\n- Check your skin-tone suitability. IPL is not suitable for use on deep skin tones that are rich in melanin.\n- For more information on how to look after your IPL device, see above.\n- If your IPL is not working, please reach out to us at service@iplmanufacturer.com.`
       },
       {
         question: 'What should I do if I get a red light when using my device?',
@@ -380,7 +380,7 @@ const KnowledgeBase: React.FC = () => {
                           onClick={() => setOpen(isOpen ? null : { catIdx, qaIdx })}
                           tabIndex={0}
                         >
-                          {isOpen ? <span className="text-2xl">−</span> : <span className="text-2xl">+</span>}
+                          {isOpen ? <span className="text-2xl">�?/span> : <span className="text-2xl">+</span>}
                         </button>
                       </div>
                       {isOpen && (
