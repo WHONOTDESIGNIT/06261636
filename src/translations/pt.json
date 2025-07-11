@@ -248,184 +248,184 @@
       "innovationTitle": "Impulso da Inovação",
       "innovationDesc": "Investimento contínuo em P&D em tecnologia IPL de próxima geração"
     },
-    "journeyTitle": "Our Journey",
-    "journeyDesc": "Key milestones in our growth and innovation",
+    "journeyTitle": "Nossa Jornada",
+    "journeyDesc": "Marcos importantes em nosso crescimento e inovação",
     "milestones": {
       "2018": {
-        "title": "Company Founded",
-        "desc": "iShine established as IPL device manufacturer"
+        "title": "Empresa Fundada",
+        "desc": "iShine estabelecida como fabricante de dispositivos IPL"
       },
       "2019": {
-        "title": "First International Client",
-        "desc": "Partnership with KU-2 Cosmetic in Germany"
+        "title": "Primeiro Cliente Internacional",
+        "desc": "Parceria com KU-2 Cosmetic na Alemanha"
       },
       "2020": {
-        "title": "FDA GMP Certification",
-        "desc": "Achieved FDA GMP clean room certification"
+        "title": "Certificação FDA GMP",
+        "desc": "Obteve certificação FDA GMP de sala limpa"
       },
       "2021": {
-        "title": "Smart IPL Launch",
-        "desc": "Introduced first app-controlled IPL devices"
+        "title": "Lançamento IPL Inteligente",
+        "desc": "Introduziu os primeiros dispositivos IPL controlados por aplicativo"
       },
       "2022": {
-        "title": "Global Expansion",
-        "desc": "Partnerships with Costco and ROSESKINCO"
+        "title": "Expansão Global",
+        "desc": "Parcerias com Costco e ROSESKINCO"
       },
       "2023": {
-        "title": "AI Integration",
-        "desc": "Launched AI-powered IPL technology"
+        "title": "Integração de IA",
+        "desc": "Lançou tecnologia IPL alimentada por IA"
       }
     },
-    "teamTitle": "Our Expert Team",
-    "teamDesc": "Dedicated professionals committed to your success",
+    "teamTitle": "Nossa Equipe Especializada",
+    "teamDesc": "Profissionais dedicados comprometidos com seu sucesso",
     "team": {
-      "rnd": "R&D Engineers",
-      "rndDesc": "Expert engineers developing cutting-edge IPL technology",
-      "quality": "Quality Specialists",
-      "qualityDesc": "Ensuring every device meets the highest standards",
-      "customer": "Customer Success",
-      "customerDesc": "Dedicated support from concept to market launch"
+      "rnd": "Engenheiros de P&D",
+      "rndDesc": "Engenheiros especialistas desenvolvendo tecnologia IPL de ponta",
+      "quality": "Especialistas em Qualidade",
+      "qualityDesc": "Garantindo que cada dispositivo atenda aos mais altos padrões",
+      "customer": "Sucesso do Cliente",
+      "customerDesc": "Suporte dedicado do conceito ao lançamento no mercado"
     }
   },
   "countryPage": {
-    "title": "iShine - IPL Device Manufacturing Solutions | Global",
-    "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide."
+    "title": "iShine - Soluções de Fabricação de Dispositivos IPL | Global",
+    "description": "Fabricante líder de dispositivos IPL fornecendo soluções OEM/ODM da ideia ao mercado em todo o mundo."
   },
   "howToUse": {
-    "heroTitle": "How to Use IPL Devices",
-    "heroDescription": "Complete guide to safe and effective IPL hair removal. Learn proper techniques, safety guidelines, and get the best results from your IPL device.",
-    "stepByStepTitle": "Step-by-Step Instructions",
-    "stepByStepDescription": "Follow these steps for safe and effective IPL treatment",
-    "safetyGuidelinesTitle": "Safety Guidelines",
-    "safetyGuidelinesDescription": "Essential safety information for IPL treatment",
-    "treatmentScheduleTitle": "Recommended Treatment Schedule",
-    "treatmentScheduleDescription": "Follow this schedule for optimal hair removal results",
-    "troubleshootingTitle": "Troubleshooting Guide",
-    "troubleshootingDescription": "Common issues and solutions for IPL devices",
-    "faqTitle": "Frequently Asked Questions",
-    "faqDescription": "Answers to common questions about IPL hair removal",
-    "videoTutorialsTitle": "Video Tutorials",
-    "videoTutorialsDescription": "Watch step-by-step video guides for IPL device use"
+    "heroTitle": "Como Usar Dispositivos IPL",
+    "heroDescription": "Guia completo para depilação IPL segura e eficaz. Aprenda técnicas adequadas, diretrizes de segurança e obtenha os melhores resultados do seu dispositivo IPL.",
+    "stepByStepTitle": "Instruções Passo a Passo",
+    "stepByStepDescription": "Siga estes passos para tratamento IPL seguro e eficaz",
+    "safetyGuidelinesTitle": "Diretrizes de Segurança",
+    "safetyGuidelinesDescription": "Informações essenciais de segurança para tratamento IPL",
+    "treatmentScheduleTitle": "Cronograma de Tratamento Recomendado",
+    "treatmentScheduleDescription": "Siga este cronograma para resultados ótimos de depilação",
+    "troubleshootingTitle": "Guia de Solução de Problemas",
+    "troubleshootingDescription": "Problemas comuns e soluções para dispositivos IPL",
+    "faqTitle": "Perguntas Frequentes",
+    "faqDescription": "Respostas para perguntas comuns sobre depilação IPL",
+    "videoTutorialsTitle": "Tutoriais em Vídeo",
+    "videoTutorialsDescription": "Assista guias em vídeo passo a passo para uso de dispositivos IPL"
   },
   "iplHairRemoval": {
-    "heroTitle": "Professional IPL Hair Removal Solutions",
-    "heroDescription": "Discover the next generation of IPL hair removal devices—safe, effective, and designed for all skin types. Experience salon-quality results at home or in your business.",
-    "iplDevicesTitle": "Our IPL Device Range",
-    "iplDevicesDescription": "Explore our full lineup of advanced IPL hair removal devices, each engineered for maximum comfort and results.",
-    "accessoriesTitle": "Essential IPL Accessories",
-    "accessoriesDescription": "Enhance your IPL experience with our range of certified accessories for safety and convenience.",
-    "advancedIplTitle": "Advanced IPL Technology",
-    "smartTechnologyIntegration": "Smart Technology Integration",
-    "smartTechnologyIntegrationDescription": "Our IPL devices feature intelligent sensors and app connectivity for personalized, safe, and effective treatments.",
-    "coolingComfortSystems": "Cooling Comfort Systems",
-    "coolingComfortSystemsDescription": "Sapphire and metal plate cooling keep your skin comfortable and protected during every session.",
-    "intelligentSkinSensors": "Intelligent Skin Sensors",
-    "intelligentSkinSensorsDescription": "Automatic skin tone and hair detection ensures optimal energy delivery and safety for every user."
+    "heroTitle": "Soluções Profissionais de Depilação IPL",
+    "heroDescription": "Descubra a nova geração de dispositivos de depilação IPL—seguros, eficazes e projetados para todos os tipos de pele. Experimente resultados de qualidade de salão em casa ou no seu negócio.",
+    "iplDevicesTitle": "Nossa Linha de Dispositivos IPL",
+    "iplDevicesDescription": "Explore nossa linha completa de dispositivos avançados de depilação IPL, cada um projetado para máximo conforto e resultados.",
+    "accessoriesTitle": "Acessórios IPL Essenciais",
+    "accessoriesDescription": "Melhore sua experiência IPL com nossa gama de acessórios certificados para segurança e conveniência.",
+    "advancedIplTitle": "Tecnologia IPL Avançada",
+    "smartTechnologyIntegration": "Integração de Tecnologia Inteligente",
+    "smartTechnologyIntegrationDescription": "Nossos dispositivos IPL apresentam sensores inteligentes e conectividade de aplicativo para tratamentos personalizados, seguros e eficazes.",
+    "coolingComfortSystems": "Sistemas de Conforto de Resfriamento",
+    "coolingComfortSystemsDescription": "Resfriamento de safira e placa metálica mantêm sua pele confortável e protegida durante cada sessão.",
+    "intelligentSkinSensors": "Sensores de Pele Inteligentes",
+    "intelligentSkinSensorsDescription": "Detecção automática de tom de pele e cabelo garante entrega de energia ótima e segurança para cada usuário."
   },
   "ipl": {
     "aiPowered": {
-      "title": "AI-Powered IPL Device",
-      "desc": "The future of hair removal is here. Artificial intelligence optimizes every treatment for personalized, effective results.",
+      "title": "Dispositivo IPL Alimentado por IA",
+      "desc": "O futuro da depilação chegou. A inteligência artificial otimiza cada tratamento para resultados personalizados e eficazes.",
       "features": {
-        "aiTech": "AI Technology",
-        "aiTechDesc": "Smart learning algorithms",
-        "smartProcessing": "Smart Processing",
-        "smartProcessingDesc": "Real-time optimization",
-        "analytics": "Advanced Analytics",
-        "analyticsDesc": "Detailed progress tracking",
-        "personalized": "Personalized",
-        "personalizedDesc": "Customized for your needs"
+        "aiTech": "Tecnologia IA",
+        "aiTechDesc": "Algoritmos inteligentes de aprendizado",
+        "smartProcessing": "Processamento Inteligente",
+        "smartProcessingDesc": "Otimização em tempo real",
+        "analytics": "Análises Avançadas",
+        "analyticsDesc": "Rastreamento detalhado do progresso",
+        "personalized": "Personalizado",
+        "personalizedDesc": "Customizado para suas necessidades"
       }
     },
     "batteryPowered": {
-      "title": "Battery-Powered IPL Hair Removal Device",
-      "desc": "Experience the ultimate cordless convenience with our battery-powered IPL device. Equipped with a high-capacity rechargeable battery, it offers seamless mobility without the need for power adapters. Enjoy professional-grade hair removal anywhere, anytime, with up to 9 adjustable energy levels for personalized treatments.",
+      "title": "Dispositivo de Depilação IPL a Bateria",
+      "desc": "Experimente a máxima conveniência sem fio com nosso dispositivo IPL a bateria. Equipado com uma bateria recarregável de alta capacidade, oferece mobilidade perfeita sem necessidade de adaptadores de energia. Aproveite depilação de nível profissional em qualquer lugar, a qualquer hora, com até 9 níveis de energia ajustáveis para tratamentos personalizados.",
       "features": {
-        "cordless": "Cordless design for ultimate freedom and convenience.",
-        "energyLevels": "9 adjustable energy levels for customized treatments.",
-        "longBattery": "Long-lasting rechargeable battery with 600+ recharge cycles.",
-        "noAdapter": "No need for power adapters during use, ideal for travel.",
-        "allSkin": "Suitable for all skin tones, FDA & CE approved."
+        "cordless": "Design sem fio para máxima liberdade e conveniência.",
+        "energyLevels": "9 níveis de energia ajustáveis para tratamentos customizados.",
+        "longBattery": "Bateria recarregável de longa duração com 600+ ciclos de recarga.",
+        "noAdapter": "Não precisa de adaptadores de energia durante o uso, ideal para viagem.",
+        "allSkin": "Adequado para todos os tons de pele, aprovado FDA & CE."
       }
     },
     "dualLamp": {
-      "title": "Dual-Lamp IPL Device",
-      "desc": "Double the power, double the efficiency. Revolutionary dual-lamp technology for faster treatments and superior results.",
+      "title": "Dispositivo IPL de Dupla Lâmpada",
+      "desc": "Dupla potência, dupla eficiência. Tecnologia revolucionária de dupla lâmpada para tratamentos mais rápidos e resultados superiores.",
       "features": {
-        "dualLamps": "Dual Lamps",
-        "dualLampsDesc": "Enhanced power and coverage",
-        "faster": "Faster Treatment",
-        "fasterDesc": "Reduced session time",
-        "proPower": "Professional Power",
-        "proPowerDesc": "Salon-grade performance",
-        "evenCoverage": "Even Coverage",
-        "evenCoverageDesc": "Uniform light distribution"
+        "dualLamps": "Duplas Lâmpadas",
+        "dualLampsDesc": "Potência e cobertura aprimoradas",
+        "faster": "Tratamento Mais Rápido",
+        "fasterDesc": "Tempo de sessão reduzido",
+        "proPower": "Potência Profissional",
+        "proPowerDesc": "Performance de nível de salão",
+        "evenCoverage": "Cobertura Uniforme",
+        "evenCoverageDesc": "Distribuição uniforme de luz"
       }
     },
     "emerald": {
-      "title": "Emerald IPL Hair Removal Device",
-      "desc": "Experience professional-grade hair removal at home with our Emerald IPL Device featuring advanced Intense Pulsed Light technology with 15 J/cm² of energy and 600,000+ flashes for long-lasting smooth skin. The precision-engineered system delivers consistent results across all treatment areas.",
+      "title": "Dispositivo de Depilação IPL Esmeralda",
+      "desc": "Experimente depilação de nível profissional em casa com nosso Dispositivo IPL Esmeralda apresentando tecnologia avançada de Luz Pulsada Intensa com 15 J/cm² de energia e 600.000+ flashes para pele lisa duradoura. O sistema de engenharia de precisão oferece resultados consistentes em todas as áreas de tratamento.",
       "features": {
-        "proResults": "Professional results �?up to 94% hair reduction after 12 weeks.",
-        "manualIntensity": "5-level manual intensity control for personalized treatments.",
-        "safeAllSkin": "Safe for all skin tones within Fitzpatrick I-V range.",
-        "largeWindow": "Large 4.2 cm² treatment window for faster coverage.",
-        "ergonomic": "Ergonomic design with built-in safety sensors."
+        "proResults": "Resultados profissionais — até 94% de redução de pelos após 12 semanas.",
+        "manualIntensity": "Controle de intensidade manual de 5 níveis para tratamentos personalizados.",
+        "safeAllSkin": "Seguro para todos os tons de pele dentro da faixa Fitzpatrick I-V.",
+        "largeWindow": "Grande janela de tratamento de 4,2 cm² para cobertura mais rápida.",
+        "ergonomic": "Design ergonômico com sensores de segurança integrados."
       }
     },
     "handheld": {
-      "title": "Handheld IPL Hair Removal Device",
-      "desc": "Discover the perfect blend of comfort and performance with our handheld IPL device. Designed for easy grip and precise control, it features 5 adjustable energy levels to suit all skin types and sensitivities. Achieve salon-quality hair removal results at home with a lightweight, portable device.",
+      "title": "Dispositivo de Depilação IPL Portátil",
+      "desc": "Descubra a mistura perfeita de conforto e performance com nosso dispositivo IPL portátil. Projetado para grip fácil e controle preciso, apresenta 5 níveis de energia ajustáveis para adequar todos os tipos de pele e sensibilidades. Alcance resultados de depilação de qualidade de salão em casa com um dispositivo leve e portátil.",
       "features": {
-        "ergonomic": "Ergonomic handheld design for comfortable use.",
-        "energyLevels": "5 adjustable energy levels for personalized treatments.",
-        "portable": "Lightweight and portable—ideal for travel and home use.",
-        "allSkin": "Suitable for all skin tones, gentle and effective.",
-        "certified": "FDA & CE approved for safety and quality."
+        "ergonomic": "Design portátil ergonômico para uso confortável.",
+        "energyLevels": "5 níveis de energia ajustáveis para tratamentos personalizados.",
+        "portable": "Leve e portátil—ideal para viagem e uso doméstico.",
+        "allSkin": "Adequado para todos os tons de pele, suave e eficaz.",
+        "certified": "Aprovado FDA & CE para segurança e qualidade."
       }
     },
     "iceCooling": {
       "title": "Dispositivo de depilação IPL resfriamento gelo",
       "desc": "Experimente a tecnologia de depilação com resfriamento de gelo luxuosa de nível profissional, equipada com uma placa de resfriamento metálica de nível aeroespacial que resfria instantaneamente a pele a uma temperatura ultra-baixa de 5°C.",
       "features": {
-        "luxuryDesign": "Luxurious goddess design �?Aerospace-grade metal texture, showcasing noble taste.",
-        "coolingPlate": "Ice cooling plate technology �?Instantly cools skin to 5°C for truly painless experience.",
-        "preciseControl": "9-level precise energy control �?Customizable for sensitive areas and coarse hair.",
-        "allSkin": "Suitable for all skin tones �?Fitzpatrick I-V certified.",
-        "largeWindow": "3.3 cm² extra-large treatment window �?Fast coverage, 50% higher efficiency."
+        "luxuryDesign": "Design luxuoso de deusa — Textura metálica de nível aeroespacial, mostrando gosto nobre.",
+        "coolingPlate": "Tecnologia de placa de resfriamento de gelo — Resfria instantaneamente a pele a 5°C para experiência verdadeiramente indolor.",
+        "preciseControl": "Controle de energia preciso de 9 níveis — Personalizável para áreas sensíveis e pelos grossos.",
+        "allSkin": "Adequado para todos os tons de pele — Certificado Fitzpatrick I-V.",
+        "largeWindow": "Janela de tratamento extra-grande de 3,3 cm² — Cobertura rápida, 50% maior eficiência."
       }
     },
     "iceFeeling": {
       "title": "Dispositivo IPL safira sensação gelo",
       "desc": "Aproveite a depilação sem dor com uma placa de resfriamento de safira de nível clínico que resfria a pele a 5°C, permitindo pulsos de energia mais altos para resultados mais rápidos.",
       "features": {
-        "longSmooth": "Long-lasting smoothness �?visible reduction after 3-4 weeks.",
-        "cooling": "Cooling plate keeps epidermis at 5°C for true painless treatments.",
-        "energyLevels": "Five energy levels adapt to almost all skin tones within Fitzpatrick I-V.",
-        "flashModes": "Auto/Manual flash modes for body and precision areas.",
-        "multiUse": "4-in-1: Full body, Bikini, Face, and skin rejuvenation."
+        "longSmooth": "Suavidade duradoura — redução visível após 3-4 semanas.",
+        "cooling": "A placa de resfriamento mantém a epiderme a 5°C para tratamentos verdadeiramente indolores.",
+        "energyLevels": "Cinco níveis de energia se adaptam a quase todos os tons de pele dentro do Fitzpatrick I-V.",
+        "flashModes": "Modos de flash automático/manual para corpo e áreas de precisão.",
+        "multiUse": "4-em-1: Corpo inteiro, biquíni, rosto e rejuvenescimento da pele."
       }
     },
     "skinSensor": {
       "title": "Dispositivo IPL com sensor de pele",
       "desc": "Experimente a depilação doméstica mais segura e inteligente com nosso dispositivo IPL com sensor de pele. Este dispositivo revolucionário possui sensores ópticos de pele avançados que detectam automaticamente seu tom de pele e cor do cabelo.",
       "features": {
-        "intelligentDetection": "Intelligent Skin Detection �?Advanced sensors automatically identify skin tone and adjust energy levels",
-        "maxSafety": "Maximum Safety �?Prevents over-treatment and reduces risk of skin irritation or burns",
-        "personalized": "Personalized Treatment �?Automatically optimizes intensity for your unique skin characteristics",
-        "realTime": "Real-time Analysis �?Continuous monitoring ensures consistent, safe treatment sessions",
-        "proResults": "Professional Results �?Salon-quality hair removal in the comfort of your home"
+        "intelligentDetection": "Detecção Inteligente de Pele — Sensores avançados identificam automaticamente o tom de pele e ajustam os níveis de energia",
+        "maxSafety": "Segurança Máxima — Previne excesso de tratamento e reduz o risco de irritação da pele ou queimaduras",
+        "personalized": "Tratamento Personalizado — Otimiza automaticamente a intensidade para suas características únicas de pele",
+        "realTime": "Análise em Tempo Real — Monitoramento contínuo garante sessões de tratamento consistentes e seguras",
+        "proResults": "Resultados Profissionais — Depilação de qualidade de salão no conforto de sua casa"
       }
     },
     "smartApp": {
       "title": "Dispositivo de depilação IPL aplicativo inteligente",
       "desc": "Conecte facilmente seu dispositivo IPL via Bluetooth ao nosso SmartApp. Aproveite tratamentos guiados, rastreamento de sessões em tempo real, rotinas personalizadas e insights alimentados por IA.",
       "features": {
-        "bluetooth": "Bluetooth 5.0 connectivity for stable pairing",
-        "aiPlans": "Personalized treatment plans via AI analysis",
-        "realTimeControl": "Real-time intensity control and on-screen feedback",
-        "scheduling": "Session scheduling and usage reminders",
-        "compatibility": "Compatible with iOS & Android"
+        "bluetooth": "Conectividade Bluetooth 5.0 para emparelhamento estável",
+        "aiPlans": "Planos de tratamento personalizados via análise de IA",
+        "realTimeControl": "Controle de intensidade em tempo real e feedback na tela",
+        "scheduling": "Agendamento de sessões e lembretes de uso",
+        "compatibility": "Compatível com iOS e Android"
       }
     }
   },
@@ -453,22 +453,22 @@
     }
   },
   "cta": {
-    "getSupport": "Get Support Now",
-    "readyToStart": "Ready to Get Started?",
-    "contactUs": "Contact Us",
-    "freeQuote": "Get a Free Quote",
-    "readMore": "Read More"
+    "getSupport": "Obter Suporte Agora",
+    "readyToStart": "Pronto para Começar?",
+    "contactUs": "Entre em Contato",
+    "freeQuote": "Obter Orçamento Gratuito",
+    "readMore": "Ler Mais"
   },
   "form": {
-    "name": "Name",
+    "name": "Nome",
     "email": "Email",
-    "phone": "Phone",
-    "country": "Country",
-    "message": "Message",
-    "submit": "Submit",
-    "sending": "Sending...",
-    "success": "Your message has been sent successfully!",
-    "error": "There was an error sending your message. Please try again."
+    "phone": "Telefone",
+    "country": "País",
+    "message": "Mensagem",
+    "submit": "Enviar",
+    "sending": "Enviando...",
+    "success": "Sua mensagem foi enviada com sucesso!",
+    "error": "Houve um erro ao enviar sua mensagem. Tente novamente."
   },
   "blog": {
     "posts": {
