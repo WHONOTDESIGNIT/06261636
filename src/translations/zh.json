@@ -2,12 +2,12 @@
   "meta": {
     "title": "iShine - IPL脱毛仪制造商 | 提供一条龙服务",
     "description": "领先的IPL脱毛仪制造商，提供从手板制作到市场的完整OEM/ODM解决方案。为全球美容品牌定制IPL脱毛仪。",
-    "keywords": "IPL设备, OEM制造, ODM解决方案, 脱毛, 美容设备, 定制制造"
+    "keywords": "IPL脱毛仪, 家用脱毛仪，家用脱毛仪厂家，家用脱毛仪生产厂家，脱毛仪制造商，脱毛仪工厂，脱毛仪定制, 美容仪定制制造"
   },
   "header": {
     "navigation": {
       "solutions": "解决方案",
-      "iplHairRemoval": "IPL脱毛",
+      "iplHairRemoval": "IPL家用脱毛仪",
       "howToUse": "使用方法",
       "serviceSupport": "服务与支持",
       "about": "关于我们",
@@ -25,37 +25,37 @@
       "dualLampIPL": "双灯管IPL定制"
     },
     "iplDevices": {
-      "smartApp": "智能应用控制IPL设备",
-      "iceFeeling": "冰感IPL设备",
-      "emerald": "翡翠IPL设备",
-      "skinSensor": "肌肤传感器IPL设备",
-      "batteryPowered": "电池供电IPL设备",
-      "handheld": "手持式IPL设备",
-      "iceCooling": "冰冷却IPL设备",
-      "dualLamp": "双灯IPL设备",
-      "aiPowered": "AI驱动IPL设备"
+      "smartApp": "智能app控制IPL",
+      "iceFeeling": "冰感IPL脱毛仪",
+      "emerald": "祖母绿IPL脱毛仪",
+      "skinSensor": "肌肤传感器IPL脱毛仪",
+      "batteryPowered": "电池供电IPL脱毛仪",
+      "handheld": "手持式IPL脱毛仪",
+      "iceCooling": "冰冷却IPL脱毛仪",
+      "dualLamp": "双灯IPL脱毛仪",
+      "aiPowered": "AI驱动IPL脱毛仪"
     },
     "accessories": {
       "sapphireLens": "蓝宝石镜片",
-      "adapter": "适配器",
+      "adapter": "电源适配器",
       "goggles": "防护眼镜",
-      "filter": "滤镜"
+      "filter": "滤光片"
     },
     "serviceSupport": {
       "service": "服务",
       "afterSales": "售后服务",
       "fdaGmp": "FDA GMP洁净室设计",
-      "manufacturing": "IPL设备制造",
+      "manufacturing": "IPL脱毛仪制造",
       "knowledgeBase": "知识库",
       "support": "支持 > 购买指南",
       "beautySourcing": "美容细分采购与配件",
       "pricingGuide": "价格指南",
       "helpCenter": "帮助中心",
-      "gallery": "画廊",
+      "gallery": "画册",
       "videos": "视频",
       "blog": "博客",
       "newsInsights": "新闻与洞察",
-      "industries": "服务行业"
+      "industries": "服务的行业"
     },
     "about": {
       "founderMessage": "创始人致辞",
@@ -64,7 +64,7 @@
       "corePrinciples": "核心原则",
       "company": "关于iShine",
       "brandStory": "品牌故事",
-      "quality": "质量"
+      "quality": "质量把控"
     }
   },
   "footer": {
@@ -75,13 +75,13 @@
       "company": "公司"
     },
     "products": {
-      "iplHairRemoval": "IPL脱毛",
-      "accessories": "配件",
+      "iplHairRemoval": "IPL脱毛仪",
+      "accessories": "脱毛仪配件",
       "gallery": "画廊"
     },
     "services": {
       "afterSales": "售后服务",
-      "manufacturing": "IPL制造",
+      "manufacturing": "IPL脱毛仪制造",
       "buyingGuide": "购买指南",
       "helpCenter": "帮助中心"
     },
@@ -110,8 +110,8 @@
   },
   "home": {
     "hero": {
-      "title1": "定制IPL设备",
-      "title2": "与品牌IPL设备",
+      "title1": "定制IPL脱毛仪",
+      "title2": "与IPL脱毛仪生产制造",
       "subtitle": "全球领先的IPL设备制造商，我们帮助您设计、制造和包装。",
       "cta": "获取报价"
     },
@@ -121,23 +121,23 @@
     },
     "features": {
       "title": "为什么选择iShine？",
-      "subtitle": "为您的需求量身定制的完整IPL制造解决方案"
+      "subtitle": "为您的需求量身定制的完整IPL脱毛仪制造解决方案"
     },
     "products": {
-      "title": "我们的IPL设备系列",
-      "subtitle": "满足各种市场需求的可定制IPL设备",
+      "title": "我们的IPL脱毛仪系列",
+      "subtitle": "满足各种市场需求的可定制IPL脱毛仪",
       "cta": "查看所有IPL设备"
     },
     "cta": {
       "title": "准备开始您的IPL项目了吗？",
-      "subtitle": "让我们讨论您的需求，为您的品牌创造完美的IPL解决方案",
+      "subtitle": "让我们讨论您的需求，为您的品牌创造完美的IPL脱毛仪解决方案",
       "button": "预约咨询"
     }
   },
   "contact": {
     "hero": {
       "title": "联系我们",
-      "description": "准备讨论您的IPL项目了吗？今天就联系我们的专家团队。我们在这里帮助实现您的愿景。"
+      "description": "准备讨论您的IPL项目了吗？今天就联系我们的专家团队。我们在这里为您提供解决方案。"
     },
     "info": {
       "title": "联系方式",
@@ -227,7 +227,7 @@
     "globalClients": "全球客户",
     "productsLaunched": "已发布产品",
     "qualityRate": "质量率",
-    "yearsExperience": "年经验"
+    "yearsExperience": "多年经验"
   },
   "about": {
     "heroTitle": "关于iShine",
