@@ -95,14 +95,25 @@
       "copyright": "© 2025 iShine. Semua hak terpelihara.",
       "privacyPolicy": "Dasar Privasi",
       "termsOfService": "Syarat Perkhidmatan"
+    },
+    "contact": {
+      "title": "Hubungi",
+      "tel": "Tel",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "address": "ALAMAT",
+      "telValue": "+86-15900283962",
+      "whatsappValue": "+86-15012891148",
+      "emailValue": "service@iplmanufacturer.com",
+      "addressValue": "Bilik 208, Bangunan 4, No.45, Jalan Makan, Jalan Xi'li, Shenzhen, Guangdong, China, 518071"
     }
   },
   "home": {
     "hero": {
-      "title": "Peranti IPL Tersuai",
-      "subtitle": "& Peranti IPL Jenama",
-      "description": "Pengilang peranti IPL terkemuka global,\nkami membantu anda mereka bentuk, membina, dan membungkus.",
-      "getQuote": "Dapatkan Sebut Harga"
+      "title1": "Peranti IPL Tersuai",
+      "title2": "& Peranti IPL Jenama",
+      "subtitle": "Pengilang peranti IPL terkemuka global, kami membantu anda mereka bentuk, membina dan membungkus.",
+      "cta": "Dapatkan Sebut Harga"
     },
     "partners": {
       "title": "Dipercayai oleh Jenama Global",
@@ -110,28 +121,12 @@
     },
     "features": {
       "title": "Mengapa Pilih iShine?",
-      "subtitle": "Penyelesaian pembuatan IPL lengkap yang disesuaikan dengan keperluan anda",
-      "oemSolutions": {
-        "title": "Penyelesaian OEM/ODM",
-        "description": "Penyesuaian lengkap dari reka bentuk hingga pembungkusan"
-      },
-      "experiencedTeam": {
-        "title": "Pasukan Berpengalaman",
-        "description": "Jurutera pakar dan pereka bentuk melayani anda"
-      },
-      "qualityAssurance": {
-        "title": "Jaminan Kualiti",
-        "description": "Pembuatan bilik bersih bertauliah FDA GMP"
-      },
-      "globalReach": {
-        "title": "Jangkauan Global",
-        "description": "Melayani pelanggan di Eropah, Amerika Utara, dan Asia"
-      }
+      "subtitle": "Penyelesaian pembuatan IPL lengkap yang disesuaikan dengan keperluan anda"
     },
     "products": {
       "title": "Rangkaian Peranti IPL Kami",
       "subtitle": "Peranti IPL yang boleh disesuaikan untuk setiap keperluan pasaran",
-      "viewAll": "Lihat Semua Peranti IPL"
+      "cta": "Lihat Semua Peranti IPL"
     },
     "cta": {
       "title": "Bersedia Memulakan Projek IPL Anda?",
@@ -178,7 +173,10 @@
       "message": "Terangkan keperluan anda di sini*",
       "submit": "Hantar",
       "sending": "Menghantar..."
-    }
+    },
+    "title": "Hubungi Kami",
+    "subtitle": "Berhubung dengan pasukan kami untuk pertanyaan perniagaan, sokongan, atau peluang perkongsian.",
+    "companyPhotoAlt": "Kemudahan Pembuatan iShine"
   },
   "buttons": {
     "getQuote": "Dapatkan Sebut Harga",
@@ -197,8 +195,410 @@
     "getStarted": "Mula",
     "contactUs": "Hubungi Kami"
   },
+  "solutions": {
+    "productDesignDevelopment": "Reka Bentuk & Pembangunan Produk",
+    "productDesignDevelopmentDescription": "Dari konsep awal hingga reka bentuk akhir, pasukan pakar kami menghidupkan visi IPL anda dengan teknologi canggih dan wawasan pasaran.",
+    "oemManufacturing": "Pembuatan OEM",
+    "oemManufacturingDescription": "Penyelesaian pembuatan lengkap dengan spesifikasi anda. Kami mengendalikan pengeluaran sementara anda fokus pada jenama dan pasaran anda.",
+    "odmSolutions": "Penyelesaian ODM",
+    "odmSolutionsDescription": "Pilih daripada reka bentuk IPL terbukti kami dan sesuaikan dengan penjenamaan, pembungkusan dan ciri unik anda.",
+    "endToEndSupport": "Sokongan Menyeluruh",
+    "endToEndSupportDescription": "Pengurusan projek lengkap dari perundingan awal hingga pelancaran produk dan seterusnya, memastikan kejayaan anda di setiap langkah.",
+    "consultation": "Perundingan",
+    "consultationDescription": "Memahami visi, pasaran dan keperluan anda",
+    "design": "Reka Bentuk",
+    "designDescription": "Cipta reka bentuk tersuai atau sesuaikan penyelesaian sedia ada",
+    "prototype": "Prototaip",
+    "prototypeDescription": "Bina dan uji prototaip untuk memastikan kualiti",
+    "manufacturing": "Pembuatan",
+    "manufacturingDescription": "Pengeluaran skala penuh dengan jaminan kualiti",
+    "launch": "Pelancaran",
+    "launchDescription": "Sokong kemasukan pasaran dan kejayaan berterusan anda",
+    "completeIPLSolutions": "Penyelesaian IPL Lengkap",
+    "completeIPLSolutionsDescription": "Dari konsep awal hingga pelancaran pasaran, kami menyediakan penyelesaian OEM/ODM komprehensif yang mengubah visi IPL anda menjadi produk berjaya.",
+    "ourSolutionPortfolio": "Portfolio Penyelesaian Kami",
+    "comprehensiveServices": "Perkhidmatan komprehensif untuk membawa produk IPL anda ke pasaran dengan jayanya",
+    "ourProcess": "Proses Kami",
+    "streamlinedWorkflow": "Aliran kerja yang diperkemas untuk memastikan kejayaan projek anda",
+    "industriesWeServe": "Industri yang Kami Layani",
+    "tailoredSolutions": "Penyelesaian yang disesuaikan untuk segmen pasaran yang pelbagai",
+    "provenSuccess": "Kejayaan Terbukti",
+    "numbersSpeak": "Angka yang menunjukkan kepakaran dan komitmen kami",
+    "globalClients": "Pelanggan Global",
+    "productsLaunched": "Produk Dilancarkan",
+    "qualityRate": "Kadar Kualiti",
+    "yearsExperience": "Tahun Pengalaman"
+  },
+  "about": {
+    "heroTitle": "Tentang iShine",
+    "heroDesc": "Rakan kongsi dipercayai anda dalam pembuatan peranti IPL, membawa teknologi kecantikan inovatif dari konsep ke pasaran sejak 2018.",
+    "storyTitle": "Cerita Kami",
+    "storyP1": "Diasaskan pada 2018, iShine muncul daripada visi untuk mendemokratikkan teknologi IPL canggih. Kami mengiktiraf bahawa jenama kecantikan memerlukan rakan kongsi yang boleh dipercayai yang boleh mengubah idea mereka menjadi produk siap pasaran dengan ketepatan dan kecemerlangan.",
+    "storyP2": "Hari ini, kami berbangga berkhidmat kepada pelanggan di tiga benua, dari startup inovatif hingga konglomerat kecantikan yang mantap. Komitmen kami terhadap kualiti, inovasi dan kejayaan pelanggan mendorong semua yang kami lakukan.",
+    "storyP3": "Di iShine, kami bukan sekadar mengeluarkan peranti — kami mencipta penyelesaian yang memberdayakan jenama untuk berjaya dalam pasaran kecantikan yang kompetitif.",
+    "valuesTitle": "Nilai Teras Kami",
+    "valuesDesc": "Prinsip yang membimbing kerja dan hubungan kami dengan pelanggan",
+    "values": {
+      "qualityTitle": "Kecemerlangan Kualiti",
+      "qualityDesc": "Pembuatan bersijil FDA GMP dengan kawalan kualiti yang ketat",
+      "customerTitle": "Fokus Pelanggan",
+      "customerDesc": "Dedikasi untuk memahami dan melebihi jangkaan pelanggan",
+      "globalTitle": "Impak Global",
+      "globalDesc": "Melayani jenama kecantikan di seluruh dunia dengan penyelesaian IPL inovatif",
+      "innovationTitle": "Daya Inovasi",
+      "innovationDesc": "Pelaburan R&D berterusan dalam teknologi IPL generasi seterusnya"
+    },
+    "journeyTitle": "Perjalanan Kami",
+    "journeyDesc": "Pencapaian utama dalam pertumbuhan dan inovasi kami",
+    "milestones": {
+      "2018": {
+        "title": "Syarikat Diasaskan",
+        "desc": "iShine ditubuhkan sebagai pengilang peranti IPL"
+      },
+      "2019": {
+        "title": "Pelanggan Antarabangsa Pertama",
+        "desc": "Perkongsian dengan KU-2 Cosmetic di Jerman"
+      },
+      "2020": {
+        "title": "Pensijilan FDA GMP",
+        "desc": "Mencapai pensijilan bilik bersih FDA GMP"
+      },
+      "2021": {
+        "title": "Pelancaran IPL Pintar",
+        "desc": "Memperkenalkan peranti IPL terkawal aplikasi pertama"
+      },
+      "2022": {
+        "title": "Pengembangan Global",
+        "desc": "Perkongsian dengan Costco dan ROSESKINCO"
+      },
+      "2023": {
+        "title": "Integrasi AI",
+        "desc": "Melancarkan teknologi IPL berkuasa AI"
+      }
+    },
+    "teamTitle": "Pasukan Pakar Kami",
+    "teamDesc": "Profesional berdedikasi yang komited untuk kejayaan anda",
+    "team": {
+      "rnd": "Jurutera R&D",
+      "rndDesc": "Jurutera pakar membangunkan teknologi IPL canggih",
+      "quality": "Pakar Kualiti",
+      "qualityDesc": "Memastikan setiap peranti memenuhi standard tertinggi",
+      "customer": "Kejayaan Pelanggan",
+      "customerDesc": "Sokongan khusus dari konsep hingga pelancaran pasaran"
+    }
+  },
   "countryPage": {
-    "title": "iShine - IPL Device Manufacturing Solutions | Global",
-    "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide."
+    "title": "iShine - Penyelesaian Pembuatan Peranti IPL | Global",
+    "description": "Pengilang peranti IPL terkemuka yang menyediakan penyelesaian OEM/ODM dari idea ke pasaran di seluruh dunia."
+  },
+  "howToUse": {
+    "heroTitle": "Cara Menggunakan Peranti IPL",
+    "heroDescription": "Panduan lengkap untuk penyingkiran rambut IPL yang selamat dan berkesan. Pelajari teknik yang betul, garis panduan keselamatan, dan dapatkan hasil terbaik dari peranti IPL anda.",
+    "stepByStepTitle": "Arahan Langkah demi Langkah",
+    "stepByStepDescription": "Ikuti langkah ini untuk rawatan IPL yang selamat dan berkesan",
+    "safetyGuidelinesTitle": "Garis Panduan Keselamatan",
+    "safetyGuidelinesDescription": "Maklumat keselamatan penting untuk rawatan IPL",
+    "treatmentScheduleTitle": "Jadual Rawatan yang Disyorkan",
+    "treatmentScheduleDescription": "Ikuti jadual ini untuk hasil penyingkiran rambut yang optimum",
+    "troubleshootingTitle": "Panduan Penyelesaian Masalah",
+    "troubleshootingDescription": "Isu biasa dan penyelesaiannya",
+    "faqTitle": "Soalan Lazim",
+    "faqDescription": "Dapatkan jawapan kepada soalan biasa tentang rawatan IPL",
+    "videoTutorialsTitle": "Tutorial Video",
+    "videoTutorialsDescription": "Tonton panduan video langkah demi langkah untuk penggunaan IPL yang betul"
+  },
+  "iplHairRemoval": {
+    "heroTitle": "Penyelesaian Penyingkiran Rambut IPL Profesional",
+    "heroDescription": "Temui generasi seterusnya peranti penyingkiran rambut IPL—selamat, berkesan, dan direka untuk semua jenis kulit. Alami hasil kualiti salon di rumah atau dalam perniagaan anda.",
+    "iplDevicesTitle": "Rangkaian Peranti IPL Kami",
+    "iplDevicesDescription": "Terokai barisan lengkap peranti penyingkiran rambut IPL canggih kami, setiap satu direka untuk keselesaan dan hasil maksimum.",
+    "accessoriesTitle": "Aksesori IPL Penting",
+    "accessoriesDescription": "Tingkatkan pengalaman IPL anda dengan rangkaian aksesori bersijil kami untuk keselamatan dan kemudahan.",
+    "advancedIplTitle": "Teknologi IPL Canggih",
+    "smartTechnologyIntegration": "Integrasi Teknologi Pintar",
+    "smartTechnologyIntegrationDescription": "Peranti IPL kami menampilkan sensor pintar dan sambungan aplikasi untuk rawatan yang dipersonalisasi, selamat dan berkesan.",
+    "coolingComfortSystems": "Sistem Keselesaan Penyejukan",
+    "coolingComfortSystemsDescription": "Penyejukan nilam dan plat logam memastikan kulit anda selesa dan terlindung sepanjang setiap sesi.",
+    "intelligentSkinSensors": "Sensor Kulit Pintar",
+    "intelligentSkinSensorsDescription": "Pengesanan automatik ton kulit dan rambut memastikan penghantaran tenaga optimum dan keselamatan untuk setiap pengguna."
+  },
+  "ipl": {
+    "aiPowered": {
+      "title": "Peranti IPL Berkuasa AI",
+      "desc": "Masa depan penyingkiran rambut telah tiba. Kecerdasan buatan mengoptimumkan setiap rawatan untuk hasil yang dipersonalisasi dan berkesan.",
+      "features": {
+        "aiTech": "Teknologi AI",
+        "aiTechDesc": "Algoritma pembelajaran pintar",
+        "smartProcessing": "Pemprosesan Pintar",
+        "smartProcessingDesc": "Pengoptimuman masa nyata",
+        "analytics": "Analitik Canggih",
+        "analyticsDesc": "Penjejakan kemajuan terperinci",
+        "personalized": "Dipersonalisasi",
+        "personalizedDesc": "Disesuaikan dengan keperluan anda"
+      }
+    },
+    "batteryPowered": {
+      "title": "Peranti Penyingkiran Rambut IPL Berkuasa Bateri",
+      "desc": "Alami kemudahan tanpa wayar terbaik dengan peranti IPL berkuasa bateri kami. Dilengkapi dengan bateri boleh cas berkapasiti tinggi, ia menawarkan mobiliti lancar tanpa memerlukan penyesuai kuasa. Nikmati penyingkiran rambut gred profesional di mana sahaja, bila-bila masa, dengan sehingga 9 tahap tenaga boleh laras untuk rawatan dipersonalisasi.",
+      "features": {
+        "cordless": "Reka bentuk tanpa wayar untuk kebebasan dan kemudahan terbaik.",
+        "energyLevels": "9 tahap tenaga boleh laras untuk rawatan disesuaikan.",
+        "longBattery": "Bateri boleh cas tahan lama dengan 600+ kitaran cas.",
+        "noAdapter": "Tidak perlu penyesuai kuasa semasa digunakan, sesuai untuk perjalanan.",
+        "allSkin": "Sesuai untuk semua ton kulit, diluluskan FDA & CE."
+      }
+    },
+    "dualLamp": {
+      "title": "Peranti IPL Lampu Berkembar",
+      "desc": "Kuasa berganda, kecekapan berganda. Teknologi lampu berkembar revolusioner untuk rawatan lebih cepat dan hasil unggul.",
+      "features": {
+        "dualLamps": "Lampu Berkembar",
+        "dualLampsDesc": "Kuasa dan liputan yang dipertingkat",
+        "faster": "Rawatan Lebih Cepat",
+        "fasterDesc": "Masa sesi dikurangkan",
+        "proPower": "Kuasa Profesional",
+        "proPowerDesc": "Prestasi gred salon",
+        "evenCoverage": "Liputan Sekata",
+        "evenCoverageDesc": "Pengedaran cahaya seragam"
+      }
+    },
+    "emerald": {
+      "title": "Peranti Penyingkiran Rambut IPL Zamrud",
+      "desc": "Alami penyingkiran rambut gred profesional di rumah dengan Peranti IPL Zamrud kami yang menampilkan teknologi Intense Pulsed Light canggih dengan 15 J/cm² tenaga dan 600,000+ denyutan untuk kulit licin tahan lama. Sistem kejuruteraan ketepatan memberikan hasil konsisten di semua kawasan rawatan.",
+      "features": {
+        "proResults": "Hasil profesional — sehingga 94% pengurangan rambut selepas 12 minggu.",
+        "manualIntensity": "Kawalan intensiti manual 5 tahap untuk rawatan dipersonalisasi.",
+        "safeAllSkin": "Selamat untuk semua ton kulit dalam julat Fitzpatrick I-V.",
+        "largeWindow": "Tetingkap rawatan 4.2 cm² besar untuk liputan lebih cepat.",
+        "ergonomic": "Reka bentuk ergonomik dengan sensor keselamatan terbina dalam."
+      }
+    },
+    "handheld": {
+      "title": "Peranti Penyingkiran Rambut IPL Pegang Tangan",
+      "desc": "Temui gabungan sempurna keselesaan dan prestasi dengan peranti IPL pegang tangan kami. Direka untuk genggaman mudah dan kawalan tepat, ia menampilkan 5 tahap tenaga boleh laras untuk sesuai dengan semua jenis kulit dan kepekaan. Capai hasil penyingkiran rambut kualiti salon di rumah dengan peranti ringan dan mudah alih.",
+      "features": {
+        "ergonomic": "Reka bentuk pegang tangan ergonomik untuk penggunaan selesa.",
+        "energyLevels": "5 tahap tenaga boleh laras untuk rawatan dipersonalisasi.",
+        "portable": "Ringan dan mudah alih—sesuai untuk perjalanan dan kegunaan rumah.",
+        "allSkin": "Sesuai untuk semua ton kulit, lembut dan berkesan.",
+        "certified": "Diluluskan FDA & CE untuk keselamatan dan kualiti."
+      }
+    },
+    "iceCooling": {
+      "title": "Peranti Penyingkiran Rambut IPL Penyejukan Ais",
+      "desc": "Alami teknologi penyingkiran rambut penyejukan ais mewah gred profesional, menampilkan plat logam penyejuk gred aeroangkasa yang serta-merta menyejukkan kulit ke suhu ultra rendah 5°C. Digabungkan dengan denyutan IPL bertenaga tinggi 2.0~5.0 J/cm² dan 999,000+ denyutan, ia memberikan pengalaman kulit sutera seperti dewi. Reka bentuk mewah dicipta untuk wanita moden yang mencari kesempurnaan.",
+      "features": {
+        "luxuryDesign": "Reka bentuk dewi mewah — Tekstur logam gred aeroangkasa, mempamerkan cita rasa mulia.",
+        "coolingPlate": "Teknologi plat penyejuk ais — Serta-merta menyejukkan kulit ke 5°C untuk pengalaman benar-benar tanpa sakit.",
+        "preciseControl": "Kawalan tenaga tepat 9 tahap — Boleh disesuaikan untuk kawasan sensitif dan rambut kasar.",
+        "allSkin": "Sesuai untuk semua ton kulit — Disijilkan Fitzpatrick I-V.",
+        "largeWindow": "Tetingkap rawatan ekstra besar 3.3 cm² — Liputan pantas, kecekapan 50% lebih tinggi."
+      }
+    },
+    "iceFeeling": {
+      "title": "Peranti IPL Sensasi Ais Nilam",
+      "desc": "Nikmati penyingkiran rambut tanpa sakit dengan plat penyejuk Nilam gred klinikal yang menyejukkan kulit ke 5°C, membolehkan denyutan tenaga tinggi untuk hasil lebih cepat.",
+      "features": {
+        "longSmooth": "Kelicinan tahan lama — pengurangan kelihatan selepas 3-4 minggu.",
+        "cooling": "Plat penyejuk mengekalkan epidermis pada 5°C untuk rawatan benar-benar tanpa sakit.",
+        "energyLevels": "Lima tahap tenaga menyesuaikan dengan hampir semua ton kulit dalam Fitzpatrick I-V.",
+        "flashModes": "Mod denyutan Auto/Manual untuk kawasan badan dan ketepatan.",
+        "multiUse": "4-dalam-1: Seluruh badan, Bikini, Muka, dan peremajaan kulit."
+      }
+    },
+    "skinSensor": {
+      "title": "Peranti IPL Sensor Kulit",
+      "desc": "Alami penyingkiran rambut rumah paling selamat dan pintar dengan Peranti IPL Sensor Kulit kami. Peranti revolusioner ini menampilkan sensor kulit optik canggih yang secara automatik mengesan ton kulit dan warna rambut anda — memberikan intensiti rawatan dipersonalisasi untuk keberkesanan maksimum dan keselamatan lengkap. Dengan analisis kulit masa nyata dan pelarasan tenaga automatik, peranti ini sempurna untuk semua jenis kulit yang sesuai dan memastikan hasil optimum setiap kali.",
+      "features": {
+        "intelligentDetection": "Pengesanan Kulit Pintar — Sensor canggih secara automatik mengenal pasti ton kulit dan melaraskan tahap tenaga",
+        "maxSafety": "Keselamatan Maksimum — Mencegah rawatan berlebihan dan mengurangkan risiko kerengsaan kulit atau melecur",
+        "personalized": "Rawatan Dipersonalisasi — Secara automatik mengoptimumkan intensiti untuk ciri kulit unik anda",
+        "realTime": "Analisis Masa Nyata — Pemantauan berterusan memastikan sesi rawatan yang konsisten dan selamat",
+        "proResults": "Hasil Profesional — Penyingkiran rambut kualiti salon dalam keselesaan rumah anda"
+      }
+    },
+    "smartApp": {
+      "title": "Peranti Penyingkiran Rambut IPL Aplikasi Pintar",
+      "desc": "Sambungkan peranti IPL anda dengan lancar melalui Bluetooth dengan SmartApp kami. Nikmati rawatan berpandukan, penjejakan sesi masa nyata, rutin dipersonalisasi dan wawasan dikuasakan AI.",
+      "features": {
+        "bluetooth": "Sambungan Bluetooth 5.0 untuk gandingan stabil",
+        "aiPlans": "Pelan rawatan dipersonalisasi melalui analisis AI",
+        "realTimeControl": "Kawalan intensiti masa nyata dan maklum balas pada skrin",
+        "scheduling": "Penjadualan sesi dan peringatan penggunaan",
+        "compatibility": "Serasi dengan iOS & Android"
+      }
+    }
+  },
+  "faq": {
+    "title": "Soalan Lazim",
+    "shipping": {
+      "q": "Bolehkah anda menghantar ke seluruh dunia?",
+      "a": "Sudah tentu. Kami menawarkan penghantaran global yang boleh dipercayai untuk menyokong perniagaan anda di mana sahaja anda berada."
+    },
+    "customization": {
+      "q": "Bolehkah saya menyesuaikan fungsi peranti?",
+      "a": "Ya, kami menawarkan penyesuaian penuh ciri, warna, pembungkusan, dan lagi untuk memenuhi keperluan jenama anda."
+    },
+    "certifications": {
+      "q": "Pensijilan apa yang anda sokong?",
+      "a": "Kami menyokong FDA, CE, RoHS, dan pensijilan global lain untuk memastikan pematuhan di pasaran sasaran anda."
+    },
+    "leadTime": {
+      "q": "Berapa lama masa utama pengeluaran?",
+      "a": "Masa utama biasa adalah 25-35 hari selepas kelulusan sampel, bergantung pada saiz pesanan dan penyesuaian."
+    },
+    "afterSales": {
+      "q": "Adakah anda menyediakan sokongan selepas jualan?",
+      "a": "Ya, kami menawarkan perkhidmatan selepas jualan komprehensif termasuk sokongan teknikal dan waranti."
+    }
+  },
+  "cta": {
+    "getSupport": "Dapatkan Sokongan Sekarang",
+    "readyToStart": "Bersedia Untuk Memulakan?",
+    "contactUs": "Hubungi Kami",
+    "freeQuote": "Dapatkan Sebut Harga Percuma",
+    "readMore": "Baca Lagi"
+  },
+  "form": {
+    "name": "Nama",
+    "email": "E-mel",
+    "phone": "Telefon",
+    "country": "Negara",
+    "message": "Mesej",
+    "submit": "Hantar",
+    "sending": "Menghantar...",
+    "success": "Mesej anda telah berjaya dihantar!",
+    "error": "Terdapat ralat menghantar mesej anda. Sila cuba lagi."
+  },
+  "blog": {
+    "posts": {
+      "sustainableManufacturing": {
+        "title": "Pembuatan Mampan: Kaedah Pengeluaran IPL Hijau",
+        "intro": "Seiring dengan peningkatan permintaan untuk peranti penyingkiran rambut IPL (Intense Pulsed Light) di rumah, begitu juga dengan tanggungjawab untuk menghasilkan elektronik ini dengan impak alam sekitar yang minimum. Pembuatan mampan bukan lagi trend tetapi keperluan—merangkumi setiap peringkat dari penyumberan bahan mentah hingga kitar semula akhir hayat. Artikel ini menilai jejak alam sekitar pengeluaran peranti IPL dan meneroka strategi inovatif dan praktikal untuk mencapai rantaian bekalan benar-benar hijau, dengan fokus pada elektronik, optik, perumah ABS mesra alam, pembungkusan mampan, dan penggunaan semula sisa.",
+        "sections": {
+          "environmentalImpact": "Penilaian Impak Alam Sekitar Pembuatan Peranti IPL",
+          "electronics": "1. Komponen Elektronik",
+          "optics": "2. Komponen Optik (Kanta dan Penapis)",
+          "absHousing": "3. Perumah ABS Mesra Alam",
+          "packaging": "4. Pembungkusan Kertas Mampan",
+          "wasteReduction": "5. Pengurangan dan Penggunaan Semula Sisa",
+          "supplyChain": "Inovasi Rantaian Bekalan Mampan",
+          "feasibility": "Kemungkinan Rantaian Bekalan IPL Hijau",
+          "commitment": "Komitmen iShine Terhadap Kemampanan",
+          "references": "Rujukan"
+        }
+      },
+      "globalMarketShifts": {
+        "title": "Peralihan Pasaran Global: Trend dan Peluang Peranti IPL",
+        "intro": "Terokai trend global terkini dalam penggunaan peranti IPL, perubahan peraturan, dan peluang pasaran untuk jenama dan pengilang.",
+        "sections": {
+          "marketOverview": "Gambaran Keseluruhan Pasaran",
+          "regionalTrends": "Trend Serantau",
+          "regulatoryChanges": "Perubahan Peraturan",
+          "consumerPreferences": "Keutamaan Pengguna",
+          "opportunities": "Peluang untuk Jenama",
+          "challenges": "Cabaran dan Risiko",
+          "futureOutlook": "Pandangan Masa Depan"
+        }
+      },
+      "aiPoweredSkinSensing": {
+        "title": "Pengesanan Kulit Berkuasa AI: Sempadan Seterusnya dalam Keselamatan IPL",
+        "intro": "Bagaimana kecerdasan buatan merevolusikan keselamatan peranti IPL dan personalisasi melalui analisis kulit masa nyata.",
+        "sections": {
+          "introduction": "Pengenalan",
+          "aiTechnology": "Teknologi AI dalam IPL",
+          "skinSensing": "Mekanisme Pengesanan Kulit",
+          "safetyBenefits": "Manfaat Keselamatan",
+          "userExperience": "Pengalaman Pengguna",
+          "caseStudies": "Kajian Kes",
+          "conclusion": "Kesimpulan"
+        }
+      },
+      "multiHeadIPLSystems": {
+        "title": "Sistem IPL Multi-Kepala: Ketepatan Bertemu Kecekapan Seluruh Badan",
+        "intro": "Evolusi penyingkiran rambut di rumah telah dibentuk secara mendalam oleh pengenalan sistem Intense Pulsed Light (IPL) multi-kepala. Philips mempelopori trend ini dengan teknologi kepala boleh tukar, menetapkan standard baru untuk serba boleh dan reka bentuk berpusatkan pengguna dalam peranti IPL kegunaan rumah.",
+        "sections": {
+          "philipsLegacy": "Warisan Philips: Menetapkan Standard untuk IPL Multi-Kepala",
+          "keyFeatures": "Ciri Utama Peranti IPL Multi-Kepala",
+          "respondingToVIO": "Merespons Keperluan Penyingkiran Rambut VIO",
+          "whyMultiHeadMatters": "Mengapa Reka Bentuk Multi-Kepala Penting",
+          "painReduction": "Pengurangan Sakit: Peranan Penapis Canggih",
+          "realUserFeedback": "Maklum Balas Pengguna Sebenar",
+          "conclusion": "Kesimpulan",
+          "references": "Rujukan"
+        }
+      },
+      "sapphireCooling": {
+        "title": "Penyejukan Nilam: Meningkatkan Keselesaan dalam Rawatan IPL",
+        "intro": "Temui bagaimana teknologi penyejukan nilam mengubah keselesaan dan keselamatan rawatan penyingkiran rambut IPL.",
+        "sections": {
+          "technologyOverview": "Gambaran Keseluruhan Teknologi",
+          "coolingMechanism": "Bagaimana Penyejukan Nilam Berfungsi",
+          "benefits": "Manfaat untuk Pengguna",
+          "clinicalEvidence": "Bukti Klinikal",
+          "deviceComparison": "Perbandingan Peranti",
+          "userTestimonials": "Testimoni Pengguna",
+          "conclusion": "Kesimpulan"
+        }
+      },
+      "industries": {
+        "title": "Industri yang Kami Layani: Aplikasi IPL Merentasi Sektor",
+        "intro": "Teknologi IPL bukan hanya untuk kecantikan—terokai aplikasinya dalam sektor perubatan, veterinar, dan industri.",
+        "sections": {
+          "beauty": "Industri Kecantikan",
+          "medical": "Aplikasi Perubatan",
+          "veterinary": "Kegunaan Veterinar",
+          "industrial": "Aplikasi Industri",
+          "caseStudies": "Kajian Kes",
+          "futureTrends": "Trend Masa Depan"
+        }
+      },
+      "iplBestChoice": {
+        "title": "Mengapa Peranti Penyingkiran Rambut IPL Rumah Adalah Pilihan Terbaik Antara Semua Alat Penyingkiran Rambut",
+        "intro": "Temui mengapa IPL adalah penyelesaian paling berkesan, selesa, dan mudah untuk penyingkiran rambut jangka panjang di rumah—disokong oleh sains dan pengalaman pengguna sebenar.",
+        "sections": {
+          "comparison": "Perbandingan Kaedah Penyingkiran Rambut",
+          "whyChooseIPL": "Mengapa Pilih Penyingkiran Rambut IPL Rumah?",
+          "userStories": "Cerita Pengguna Sebenar",
+          "faq": "Soalan Lazim",
+          "recommendedBlog": "Blog yang Disyorkan",
+          "exploreMore": "Terokai Lebih Lanjut"
+        }
+      },
+      "futureHomeHairRemoval": {
+        "title": "Masa Depan Peranti Penyingkiran Rambut Rumah: Trend, Inovasi, dan Apa yang Seterusnya",
+        "intro": "Terokai evolusi, terobosan semasa, dan generasi seterusnya peranti penyingkiran rambut rumah—AI, multifungsi, dan reka bentuk mampan untuk 2025 dan seterusnya.",
+        "sections": {
+          "evolution": "Evolusi Teknologi Penyingkiran Rambut Rumah",
+          "stateOfTheArt": "Ciri Utama Peranti Generasi Seterusnya (2025)",
+          "aiPersonalization": "AI dan Personalisasi dalam Penyingkiran Rambut",
+          "vision": "Peranti Penyingkiran Rambut Rumah 'Muktamad': Satu Visi",
+          "challenges": "Cabaran dan Pertimbangan",
+          "faq": "Soalan Lazim",
+          "exploreMore": "Terokai Lebih Lanjut",
+          "aboutAuthor": "Tentang Pengarang"
+        }
+      },
+      "fda510kPathway": {
+        "title": "Laluan FDA 510(k): Menavigasi Klasifikasi Peranti Perubatan untuk IPL",
+        "intro": "Panduan komprehensif untuk laluan FDA 510(k) bagi peranti penyingkiran rambut IPL kegunaan rumah. Pelajari tentang keperluan peraturan, dakwaan pemasaran, dan bagaimana iShine membantu jenama mencapai pematuhan.",
+        "sections": {
+          "introduction": "Pengenalan",
+          "pathway": "1. Laluan FDA 510(k) untuk Peranti IPL Rumah",
+          "marketingClaims": "2. Bagaimana Dakwaan Pemasaran Mempengaruhi Klasifikasi Peraturan",
+          "ishineExpertise": "3. Kepakaran iShine dalam Memastikan Penyenaraian FDA 510(k) Jenama Anda",
+          "benefits": "4. Manfaat Memperoleh Penyenaraian FDA 510(k) Khusus Jenama",
+          "guidance": "5. Panduan Praktikal untuk Jenama",
+          "conclusion": "Kesimpulan",
+          "faq": "Soalan Lazim",
+          "exploreMore": "Terokai Lebih Lanjut",
+          "author": "Tentang Pengarang"
+        }
+      }
+    }
+  },
+  "floating": {
+    "contact": "Hubungi Kami",
+    "backToTop": "Kembali ke atas"
   }
 }
