@@ -104,7 +104,7 @@
       "address": "ADRES",
       "telValue": "+86-15900283962",
       "whatsappValue": "+86-15012891148",
-      "emailValue": "service@ishineco.com",
+      "emailValue": "service@iplmanufacturer.com",
       "addressValue": "Kamer 208, Gebouw 4, No.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, China, 518071"
     }
   },
@@ -117,7 +117,7 @@
     },
     "partners": {
       "title": "Vertrouwd door Wereldwijde Merken",
-      "subtitle": "Samenwerken met industrieleiders wereldwijd"
+      "subtitle": "Samenwerken met industrieleaders wereldwijd"
     },
     "features": {
       "title": "Waarom Kiezen voor iShine?",
@@ -126,7 +126,7 @@
     "products": {
       "title": "Ons IPL Apparaten Assortiment",
       "subtitle": "Aanpasbare IPL apparaten voor elke marktbehoefte",
-      "cta": "View All IPL Devices"
+      "cta": "Bekijk Alle IPL-Apparaten"
     },
     "cta": {
       "title": "Klaar om Uw IPL Project te Starten?",
@@ -174,9 +174,9 @@
       "submit": "Verzenden",
       "sending": "Verzenden..."
     },
-    "title": "Contact Us",
-    "subtitle": "Get in touch with our team for business inquiries, support, or partnership opportunities.",
-    "companyPhotoAlt": "iShine Manufacturing Facility"
+    "title": "Neem Contact Op",
+    "subtitle": "Neem contact op met ons team voor zakelijke vragen, ondersteuning of partnerschapsmogelijkheden.",
+    "companyPhotoAlt": "iShine Productiefaciliteit"
   },
   "buttons": {
     "getQuote": "Offerte Krijgen",
@@ -196,210 +196,210 @@
     "contactUs": "Neem Contact Op"
   },
   "solutions": {
-    "productDesignDevelopment": "Product Design & Development",
-    "productDesignDevelopmentDescription": "From initial concept to final design, our expert team brings your IPL vision to life with cutting-edge technology and market insights.",
-    "oemManufacturing": "OEM Manufacturing",
-    "oemManufacturingDescription": "Complete manufacturing solutions with your specifications. We handle production while you focus on your brand and market.",
-    "odmSolutions": "ODM Solutions",
-    "odmSolutionsDescription": "Choose from our proven IPL designs and customize them with your branding, packaging, and unique features.",
-    "endToEndSupport": "End-to-End Support",
-    "endToEndSupportDescription": "Complete project management from initial consultation to product launch and beyond, ensuring your success every step of the way.",
-    "consultation": "Consultation",
-    "consultationDescription": "Understand your vision, market, and requirements",
-    "design": "Design",
-    "designDescription": "Create custom designs or adapt existing solutions",
+    "productDesignDevelopment": "Productontwerp en -ontwikkeling",
+    "productDesignDevelopmentDescription": "Van eerste concept tot eindontwerp brengt ons expertteam uw IPL-visie tot leven met geavanceerde technologie en marktinzichten.",
+    "oemManufacturing": "OEM-productie",
+    "oemManufacturingDescription": "Complete productieoplossingen volgens uw specificaties. Wij regelen de productie terwijl u zich richt op uw merk en markt.",
+    "odmSolutions": "ODM-oplossingen",
+    "odmSolutionsDescription": "Kies uit onze bewezen IPL-ontwerpen en pas ze aan met uw branding, verpakking en unieke functies.",
+    "endToEndSupport": "End-to-end ondersteuning",
+    "endToEndSupportDescription": "Complete projectmanagement van eerste consultatie tot productlancering en verder, voor uw succes in elke stap.",
+    "consultation": "Consultatie",
+    "consultationDescription": "Begrijp uw visie, markt en vereisten",
+    "design": "Ontwerp",
+    "designDescription": "Creëer aangepaste ontwerpen of pas bestaande oplossingen aan",
     "prototype": "Prototype",
-    "prototypeDescription": "Build and test prototypes to ensure quality",
-    "manufacturing": "Manufacturing",
-    "manufacturingDescription": "Full-scale production with quality assurance",
-    "launch": "Launch",
-    "launchDescription": "Support your market entry and ongoing success",
-    "completeIPLSolutions": "Complete IPL Solutions",
-    "completeIPLSolutionsDescription": "From initial concept to market launch, we provide comprehensive OEM/ODM solutions that transform your IPL vision into successful products.",
-    "ourSolutionPortfolio": "Our Solution Portfolio",
-    "comprehensiveServices": "Comprehensive services to bring your IPL products to market successfully",
-    "ourProcess": "Our Process",
-    "streamlinedWorkflow": "Streamlined workflow to ensure your project success",
-    "industriesWeServe": "Industries We Serve",
-    "tailoredSolutions": "Tailored solutions for diverse market segments",
-    "provenSuccess": "Proven Success",
-    "numbersSpeak": "Numbers that speak to our expertise and commitment",
-    "globalClients": "Global Clients",
-    "productsLaunched": "Products Launched",
-    "qualityRate": "Quality Rate",
-    "yearsExperience": "Years Experience"
+    "prototypeDescription": "Bouw en test prototypes om kwaliteit te garanderen",
+    "manufacturing": "Productie",
+    "manufacturingDescription": "Grootschalige productie met kwaliteitsborging",
+    "launch": "Lancering",
+    "launchDescription": "Ondersteun uw markttoetreding en voortdurend succes",
+    "completeIPLSolutions": "Complete IPL-oplossingen",
+    "completeIPLSolutionsDescription": "Van eerste concept tot marktlancering bieden wij uitgebreide OEM/ODM-oplossingen die uw IPL-visie transformeren in succesvolle producten.",
+    "ourSolutionPortfolio": "Ons oplossingenportfolio",
+    "comprehensiveServices": "Uitgebreide diensten om uw IPL-producten succesvol op de markt te brengen",
+    "ourProcess": "Ons proces",
+    "streamlinedWorkflow": "Gestroomlijnde workflow om uw projectsucces te garanderen",
+    "industriesWeServe": "Industrieën die wij bedienen",
+    "tailoredSolutions": "Op maat gemaakte oplossingen voor diverse marktsegmenten",
+    "provenSuccess": "Bewezen succes",
+    "numbersSpeak": "Cijfers die spreken van onze expertise en toewijding",
+    "globalClients": "Wereldwijde klanten",
+    "productsLaunched": "Gelanceerde producten",
+    "qualityRate": "Kwaliteitspercentage",
+    "yearsExperience": "Jaar ervaring"
   },
   "about": {
-    "heroTitle": "About iShine",
-    "heroDesc": "Your trusted partner in IPL device manufacturing, bringing innovative beauty technology from concept to market since 2018.",
-    "storyTitle": "Our Story",
-    "storyP1": "Founded in 2018, iShine emerged from a vision to democratize advanced IPL technology. We recognized that beauty brands needed a reliable partner who could transform their ideas into market-ready products with precision and excellence.",
-    "storyP2": "Today, we're proud to serve clients across three continents, from innovative startups to established beauty conglomerates. Our commitment to quality, innovation, and customer success drives everything we do.",
-    "storyP3": "At iShine, we don't just manufacture devices – we craft solutions that empower brands to succeed in the competitive beauty market.",
-    "valuesTitle": "Our Core Values",
-    "valuesDesc": "The principles that guide our work and relationships with clients",
+    "heroTitle": "Over iShine",
+    "heroDesc": "Uw vertrouwde partner in IPL-apparaatproductie, die innovatieve beautytechnologie van concept tot markt brengt sinds 2018.",
+    "storyTitle": "Ons verhaal",
+    "storyP1": "Opgericht in 2018, ontstond iShine uit een visie om geavanceerde IPL-technologie te democratiseren. We erkenden dat beautymerken een betrouwbare partner nodig hadden die hun ideeën kon transformeren in marktklare producten met precisie en excellentie.",
+    "storyP2": "Vandaag zijn we trots om klanten op drie continenten te bedienen, van innovatieve startups tot gevestigde beautyconglomeraten. Onze toewijding aan kwaliteit, innovatie en klantsucces drijft alles wat we doen.",
+    "storyP3": "Bij iShine produceren we niet alleen apparaten — we creëren oplossingen die merken in staat stellen te slagen in de competitieve beautymarkt.",
+    "valuesTitle": "Onze kernwaarden",
+    "valuesDesc": "De principes die ons werk en relaties met klanten sturen",
     "values": {
-      "qualityTitle": "Quality Excellence",
-      "qualityDesc": "FDA GMP certified manufacturing with rigorous quality control",
-      "customerTitle": "Customer Focus",
-      "customerDesc": "Dedicated to understanding and exceeding customer expectations",
-      "globalTitle": "Global Impact",
-      "globalDesc": "Serving beauty brands worldwide with innovative IPL solutions",
-      "innovationTitle": "Innovation Drive",
-      "innovationDesc": "Continuous R&D investment in next-generation IPL technology"
+      "qualityTitle": "Kwaliteitsexcellentie",
+      "qualityDesc": "FDA GMP-gecertificeerde productie met strikte kwaliteitscontrole",
+      "customerTitle": "Klantfocus",
+      "customerDesc": "Toegewijd aan het begrijpen en overtreffen van klantverwachtingen",
+      "globalTitle": "Wereldwijde impact",
+      "globalDesc": "Beautymerken wereldwijd bedienen met innovatieve IPL-oplossingen",
+      "innovationTitle": "Innovatiedrang",
+      "innovationDesc": "Continue R&D-investering in next-generation IPL-technologie"
     },
-    "journeyTitle": "Our Journey",
-    "journeyDesc": "Key milestones in our growth and innovation",
+    "journeyTitle": "Onze reis",
+    "journeyDesc": "Belangrijke mijlpalen in onze groei en innovatie",
     "milestones": {
       "2018": {
-        "title": "Company Founded",
-        "desc": "iShine established as IPL device manufacturer"
+        "title": "Bedrijf opgericht",
+        "desc": "iShine opgericht als IPL-apparaatfabrikant"
       },
       "2019": {
-        "title": "First International Client",
-        "desc": "Partnership with KU-2 Cosmetic in Germany"
+        "title": "Eerste internationale klant",
+        "desc": "Partnerschap met KU-2 Cosmetic in Duitsland"
       },
       "2020": {
-        "title": "FDA GMP Certification",
-        "desc": "Achieved FDA GMP clean room certification"
+        "title": "FDA GMP-certificering",
+        "desc": "FDA GMP cleanroom-certificering behaald"
       },
       "2021": {
-        "title": "Smart IPL Launch",
-        "desc": "Introduced first app-controlled IPL devices"
+        "title": "Smart IPL-lancering",
+        "desc": "Eerste app-gestuurde IPL-apparaten geïntroduceerd"
       },
       "2022": {
-        "title": "Global Expansion",
-        "desc": "Partnerships with Costco and ROSESKINCO"
+        "title": "Wereldwijde expansie",
+        "desc": "Partnerschappen met Costco en ROSESKINCO"
       },
       "2023": {
-        "title": "AI Integration",
-        "desc": "Launched AI-powered IPL technology"
+        "title": "AI-integratie",
+        "desc": "AI-aangedreven IPL-technologie gelanceerd"
       }
     },
-    "teamTitle": "Our Expert Team",
-    "teamDesc": "Dedicated professionals committed to your success",
+    "teamTitle": "Ons expertteam",
+    "teamDesc": "Toegewijde professionals die zich inzetten voor uw succes",
     "team": {
-      "rnd": "R&D Engineers",
-      "rndDesc": "Expert engineers developing cutting-edge IPL technology",
-      "quality": "Quality Specialists",
-      "qualityDesc": "Ensuring every device meets the highest standards",
-      "customer": "Customer Success",
-      "customerDesc": "Dedicated support from concept to market launch"
+      "rnd": "R&D-ingenieurs",
+      "rndDesc": "Expertingenieurs die geavanceerde IPL-technologie ontwikkelen",
+      "quality": "Kwaliteitsspecialisten",
+      "qualityDesc": "Ervoor zorgen dat elk apparaat voldoet aan de hoogste normen",
+      "customer": "Klantsucces",
+      "customerDesc": "Toegewijde ondersteuning van concept tot marktlancering"
     }
   },
   "countryPage": {
-    "title": "iShine - IPL Device Manufacturing Solutions | Global",
-    "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide."
+    "title": "iShine - IPL-apparaat productieoplossingen | Wereldwijd",
+    "description": "Toonaangevende IPL-apparaat fabrikant die OEM/ODM-oplossingen biedt van idee tot markt wereldwijd."
   },
   "howToUse": {
-    "heroTitle": "How to Use IPL Devices",
-    "heroDescription": "Complete guide to safe and effective IPL hair removal. Learn proper techniques, safety guidelines, and get the best results from your IPL device.",
-    "stepByStepTitle": "Step-by-Step Instructions",
-    "stepByStepDescription": "Follow these steps for safe and effective IPL treatment",
-    "safetyGuidelinesTitle": "Safety Guidelines",
-    "safetyGuidelinesDescription": "Essential safety information for IPL treatment",
-    "treatmentScheduleTitle": "Recommended Treatment Schedule",
-    "treatmentScheduleDescription": "Follow this schedule for optimal hair removal results",
-    "troubleshootingTitle": "Troubleshooting Guide",
-    "troubleshootingDescription": "Common issues and their solutions",
-    "faqTitle": "Frequently Asked Questions",
-    "faqDescription": "Get answers to common IPL treatment questions",
-    "videoTutorialsTitle": "Video Tutorials",
-    "videoTutorialsDescription": "Watch step-by-step video guides for proper IPL usage"
+    "heroTitle": "Hoe IPL-apparaten te gebruiken",
+    "heroDescription": "Complete gids voor veilige en effectieve IPL-ontharing. Leer de juiste technieken, veiligheidsrichtlijnen en haal de beste resultaten uit uw IPL-apparaat.",
+    "stepByStepTitle": "Stap-voor-stap instructies",
+    "stepByStepDescription": "Volg deze stappen voor een veilige en effectieve IPL-behandeling",
+    "safetyGuidelinesTitle": "Veiligheidsrichtlijnen",
+    "safetyGuidelinesDescription": "Essentiële veiligheidsinformatie voor IPL-behandeling",
+    "treatmentScheduleTitle": "Aanbevolen behandelschema",
+    "treatmentScheduleDescription": "Volg dit schema voor optimale ontharingsresultaten",
+    "troubleshootingTitle": "Probleemoplossing gids",
+    "troubleshootingDescription": "Veelvoorkomende problemen en hun oplossingen",
+    "faqTitle": "Veelgestelde vragen",
+    "faqDescription": "Krijg antwoorden op veelgestelde vragen over IPL-behandeling",
+    "videoTutorialsTitle": "Video tutorials",
+    "videoTutorialsDescription": "Bekijk stap-voor-stap videogidsen voor correct IPL-gebruik"
   },
   "iplHairRemoval": {
-    "heroTitle": "Professional IPL Hair Removal Solutions",
-    "heroDescription": "Discover the next generation of IPL hair removal devices—safe, effective, and designed for all skin types. Experience salon-quality results at home or in your business.",
-    "iplDevicesTitle": "Our IPL Device Range",
-    "iplDevicesDescription": "Explore our full lineup of advanced IPL hair removal devices, each engineered for maximum comfort and results.",
-    "accessoriesTitle": "Essential IPL Accessories",
-    "accessoriesDescription": "Enhance your IPL experience with our range of certified accessories for safety and convenience.",
-    "advancedIplTitle": "Advanced IPL Technology",
-    "smartTechnologyIntegration": "Smart Technology Integration",
-    "smartTechnologyIntegrationDescription": "Our IPL devices feature intelligent sensors and app connectivity for personalized, safe, and effective treatments.",
-    "coolingComfortSystems": "Cooling Comfort Systems",
-    "coolingComfortSystemsDescription": "Sapphire and metal plate cooling keep your skin comfortable and protected during every session.",
-    "intelligentSkinSensors": "Intelligent Skin Sensors",
-    "intelligentSkinSensorsDescription": "Automatic skin tone and hair detection ensures optimal energy delivery and safety for every user."
+    "heroTitle": "Professionele IPL-ontharing oplossingen",
+    "heroDescription": "Ontdek de volgende generatie IPL-ontharing apparaten—veilig, effectief en ontworpen voor alle huidtypes. Ervaar salon-kwaliteit resultaten thuis of in uw bedrijf.",
+    "iplDevicesTitle": "Ons IPL-apparaten assortiment",
+    "iplDevicesDescription": "Verken ons complete aanbod van geavanceerde IPL-ontharing apparaten, elk ontworpen voor maximaal comfort en resultaten.",
+    "accessoriesTitle": "Essentiële IPL-accessoires",
+    "accessoriesDescription": "Verbeter uw IPL-ervaring met ons assortiment gecertificeerde accessoires voor veiligheid en gemak.",
+    "advancedIplTitle": "Geavanceerde IPL-technologie",
+    "smartTechnologyIntegration": "Slimme technologie-integratie",
+    "smartTechnologyIntegrationDescription": "Onze IPL-apparaten beschikken over intelligente sensoren en app-connectiviteit voor gepersonaliseerde, veilige en effectieve behandelingen.",
+    "coolingComfortSystems": "Koeling en comfort systemen",
+    "coolingComfortSystemsDescription": "Saffier en metalen plaat koeling houden uw huid comfortabel en beschermd tijdens elke sessie.",
+    "intelligentSkinSensors": "Intelligente huidsensoren",
+    "intelligentSkinSensorsDescription": "Automatische huidtoon en haardetectie zorgt voor optimale energieafgifte en veiligheid voor elke gebruiker."
   },
   "ipl": {
     "aiPowered": {
-      "title": "AI-Powered IPL Device",
-      "desc": "The future of hair removal is here. Artificial intelligence optimizes every treatment for personalized, effective results.",
+      "title": "AI-aangedreven IPL-apparaat",
+      "desc": "De toekomst van ontharing is hier. Kunstmatige intelligentie optimaliseert elke behandeling voor gepersonaliseerde, effectieve resultaten.",
       "features": {
-        "aiTech": "AI Technology",
-        "aiTechDesc": "Smart learning algorithms",
-        "smartProcessing": "Smart Processing",
-        "smartProcessingDesc": "Real-time optimization",
-        "analytics": "Advanced Analytics",
-        "analyticsDesc": "Detailed progress tracking",
-        "personalized": "Personalized",
-        "personalizedDesc": "Customized for your needs"
+        "aiTech": "AI Technologie",
+        "aiTechDesc": "Slimme leeralgoritmen",
+        "smartProcessing": "Slimme verwerking",
+        "smartProcessingDesc": "Real-time optimalisatie",
+        "analytics": "Geavanceerde analyses",
+        "analyticsDesc": "Gedetailleerde voortgangsregistratie",
+        "personalized": "Gepersonaliseerd",
+        "personalizedDesc": "Aangepast aan uw behoeften"
       }
     },
     "batteryPowered": {
-      "title": "Battery-Powered IPL Hair Removal Device",
-      "desc": "Experience the ultimate cordless convenience with our battery-powered IPL device. Equipped with a high-capacity rechargeable battery, it offers seamless mobility without the need for power adapters. Enjoy professional-grade hair removal anywhere, anytime, with up to 9 adjustable energy levels for personalized treatments.",
+      "title": "Batterij-aangedreven IPL-ontharing apparaat",
+      "desc": "Ervaar de ultieme draadloze gemak met ons batterij-aangedreven IPL-apparaat. Uitgerust met een high-capacity oplaadbare batterij, biedt het naadloze mobiliteit zonder stroomadapters. Geniet van professionele ontharing overal, altijd, met tot 9 instelbare energieniveaus voor gepersonaliseerde behandelingen.",
       "features": {
-        "cordless": "Cordless design for ultimate freedom and convenience.",
-        "energyLevels": "9 adjustable energy levels for customized treatments.",
-        "longBattery": "Long-lasting rechargeable battery with 600+ recharge cycles.",
-        "noAdapter": "No need for power adapters during use, ideal for travel.",
-        "allSkin": "Suitable for all skin tones, FDA & CE approved."
+        "cordless": "Draadloos ontwerp voor ultieme vrijheid en gemak.",
+        "energyLevels": "9 instelbare energieniveaus voor aangepaste behandelingen.",
+        "longBattery": "Langdurige oplaadbare batterij met 600+ oplaadcycli.",
+        "noAdapter": "Geen stroomadapters nodig tijdens gebruik, ideaal voor reizen.",
+        "allSkin": "Geschikt voor alle huidtinten, FDA & CE goedgekeurd."
       }
     },
     "dualLamp": {
-      "title": "Dual-Lamp IPL Device",
-      "desc": "Double the power, double the efficiency. Revolutionary dual-lamp technology for faster treatments and superior results.",
+      "title": "Dubbele lamp IPL-apparaat",
+      "desc": "Dubbele kracht, dubbele efficiëntie. Revolutionaire dubbele lamp technologie voor snellere behandelingen en superieure resultaten.",
       "features": {
-        "dualLamps": "Dual Lamps",
-        "dualLampsDesc": "Enhanced power and coverage",
-        "faster": "Faster Treatment",
-        "fasterDesc": "Reduced session time",
-        "proPower": "Professional Power",
-        "proPowerDesc": "Salon-grade performance",
-        "evenCoverage": "Even Coverage",
-        "evenCoverageDesc": "Uniform light distribution"
+        "dualLamps": "Dubbele lampen",
+        "dualLampsDesc": "Verbeterde kracht en dekking",
+        "faster": "Snellere behandeling",
+        "fasterDesc": "Gereduceerde sessietijd",
+        "proPower": "Professionele kracht",
+        "proPowerDesc": "Salon-grade prestaties",
+        "evenCoverage": "Gelijkmatige dekking",
+        "evenCoverageDesc": "Uniforme lichtverdeling"
       }
     },
     "emerald": {
-      "title": "Emerald IPL Hair Removal Device",
-      "desc": "Experience professional-grade hair removal at home with our Emerald IPL Device featuring advanced Intense Pulsed Light technology with 15 J/cm² of energy and 600,000+ flashes for long-lasting smooth skin. The precision-engineered system delivers consistent results across all treatment areas.",
+      "title": "Smaragd IPL-ontharing apparaat",
+      "desc": "Ervaar professionele ontharing thuis met ons Smaragd IPL-apparaat met geavanceerde Intense Pulsed Light technologie met 15 J/cm² energie en 600.000+ flitsen voor langdurige gladde huid. Het precisie-ontworpen systeem levert consistente resultaten in alle behandelgebieden.",
       "features": {
-        "proResults": "Professional results — up to 94% hair reduction after 12 weeks.",
-        "manualIntensity": "5-level manual intensity control for personalized treatments.",
-        "safeAllSkin": "Safe for all skin tones within Fitzpatrick I-V range.",
-        "largeWindow": "Large 4.2 cm² treatment window for faster coverage.",
-        "ergonomic": "Ergonomic design with built-in safety sensors."
+        "proResults": "Professionele resultaten — tot 94% haarvermindering na 12 weken.",
+        "manualIntensity": "5-niveau handmatige intensiteitscontrole voor gepersonaliseerde behandelingen.",
+        "safeAllSkin": "Veilig voor alle huidtinten binnen Fitzpatrick I-V bereik.",
+        "largeWindow": "Groot 4.2 cm² behandelvenster voor snellere dekking.",
+        "ergonomic": "Ergonomisch ontwerp met ingebouwde veiligheidssensoren."
       }
     },
     "handheld": {
-      "title": "Handheld IPL Hair Removal Device",
-      "desc": "Discover the perfect blend of comfort and performance with our handheld IPL device. Designed for easy grip and precise control, it features 5 adjustable energy levels to suit all skin types and sensitivities. Achieve salon-quality hair removal results at home with a lightweight, portable device.",
+      "title": "Draagbaar IPL-ontharing apparaat",
+      "desc": "Ontdek de perfecte mix van comfort en prestaties met ons draagbare IPL-apparaat. Ontworpen voor eenvoudige grip en precieze controle, het beschikt over 5 instelbare energieniveaus voor alle huidtypen en gevoeligheden. Bereik salon-kwaliteit ontharing resultaten thuis met een lichtgewicht, draagbaar apparaat.",
       "features": {
-        "ergonomic": "Ergonomic handheld design for comfortable use.",
-        "energyLevels": "5 adjustable energy levels for personalized treatments.",
-        "portable": "Lightweight and portable—ideal for travel and home use.",
-        "allSkin": "Suitable for all skin tones, gentle and effective.",
-        "certified": "FDA & CE approved for safety and quality."
+        "ergonomic": "Ergonomisch draagbaar ontwerp voor comfortabel gebruik.",
+        "energyLevels": "5 instelbare energieniveaus voor gepersonaliseerde behandelingen.",
+        "portable": "Lichtgewicht en draagbaar—ideaal voor reizen en thuisgebruik.",
+        "allSkin": "Geschikt voor alle huidtinten, zacht en effectief.",
+        "certified": "FDA & CE goedgekeurd voor veiligheid en kwaliteit."
       }
     },
     "iceCooling": {
       "title": "IPL-ontharing apparaat ijskoeling",
       "desc": "Ervaar luxueuze professionele ijskoeling ontharing technologie, uitgerust met een luchtvaart-grade koeling metalen plaat die de huid onmiddellijk afkoelt tot een ultra-lage temperatuur van 5°C.",
       "features": {
-        "luxuryDesign": "Luxurious goddess design — Aerospace-grade metal texture, showcasing noble taste.",
-        "coolingPlate": "Ice cooling plate technology — Instantly cools skin to 5°C for truly painless experience.",
-        "preciseControl": "9-level precise energy control — Customizable for sensitive areas and coarse hair.",
-        "allSkin": "Suitable for all skin tones — Fitzpatrick I-V certified.",
-        "largeWindow": "3.3 cm² extra-large treatment window — Fast coverage, 50% higher efficiency."
+        "luxuryDesign": "Luxurious goddess design �?Aerospace-grade metal texture, showcasing noble taste.",
+        "coolingPlate": "Ice cooling plate technology �?Instantly cools skin to 5°C for truly painless experience.",
+        "preciseControl": "9-level precise energy control �?Customizable for sensitive areas and coarse hair.",
+        "allSkin": "Suitable for all skin tones �?Fitzpatrick I-V certified.",
+        "largeWindow": "3.3 cm² extra-large treatment window �?Fast coverage, 50% higher efficiency."
       }
     },
     "iceFeeling": {
       "title": "Saffier ijsgevoel IPL-apparaat",
       "desc": "Geniet van pijnloze ontharing met een klinische saffier koelplaat die de huid afkoelt tot 5°C, waardoor hogere energie pulsen mogelijk zijn voor snellere resultaten.",
       "features": {
-        "longSmooth": "Long-lasting smoothness — visible reduction after 3-4 weeks.",
+        "longSmooth": "Long-lasting smoothness �?visible reduction after 3-4 weeks.",
         "cooling": "Cooling plate keeps epidermis at 5°C for true painless treatments.",
         "energyLevels": "Five energy levels adapt to almost all skin tones within Fitzpatrick I-V.",
         "flashModes": "Auto/Manual flash modes for body and precision areas.",
@@ -410,22 +410,22 @@
       "title": "IPL-apparaat met huidsensor",
       "desc": "Ervaar de veiligste en slimste thuisontharing met ons huidsensor IPL-apparaat. Dit revolutionaire apparaat beschikt over geavanceerde optische huidsensoren die automatisch uw huidskleur en haarkleur detecteren.",
       "features": {
-        "intelligentDetection": "Intelligent Skin Detection – Advanced sensors automatically identify skin tone and adjust energy levels",
-        "maxSafety": "Maximum Safety – Prevents over-treatment and reduces risk of skin irritation or burns",
-        "personalized": "Personalized Treatment – Automatically optimizes intensity for your unique skin characteristics",
-        "realTime": "Real-time Analysis – Continuous monitoring ensures consistent, safe treatment sessions",
-        "proResults": "Professional Results – Salon-quality hair removal in the comfort of your home"
+        "intelligentDetection": "Intelligente huiddetectie — Geavanceerde sensoren identificeren automatisch huidtint en passen energieniveaus aan",
+        "maxSafety": "Maximale veiligheid — Voorkomt overbehandeling en vermindert risico op huidirritatie of brandwonden",
+        "personalized": "Gepersonaliseerde behandeling — Optimaliseert automatisch intensiteit voor uw unieke huidkenmerken",
+        "realTime": "Real-time analyse — Continue monitoring zorgt voor consistente, veilige behandelsessies",
+        "proResults": "Professionele resultaten — Salon-kwaliteit ontharing in het comfort van uw huis"
       }
     },
     "smartApp": {
       "title": "Slimme app IPL-ontharing apparaat",
       "desc": "Verbind uw IPL-apparaat naadloos via Bluetooth met onze SmartApp. Geniet van begeleide behandelingen, real-time sessie tracking, gepersonaliseerde routines en AI-aangedreven inzichten.",
       "features": {
-        "bluetooth": "Bluetooth 5.0 connectivity for stable pairing",
-        "aiPlans": "Personalized treatment plans via AI analysis",
-        "realTimeControl": "Real-time intensity control and on-screen feedback",
-        "scheduling": "Session scheduling and usage reminders",
-        "compatibility": "Compatible with iOS & Android"
+        "bluetooth": "Bluetooth 5.0-connectiviteit voor stabiele koppeling",
+        "aiPlans": "Gepersonaliseerde behandelplannen via AI-analyse",
+        "realTimeControl": "Real-time intensiteitscontrole en on-screen feedback",
+        "scheduling": "Sessie planning en gebruiksherinneringen",
+        "compatibility": "Compatibel met iOS & Android"
       }
     }
   },
@@ -453,146 +453,146 @@
     }
   },
   "cta": {
-    "getSupport": "Get Support Now",
-    "readyToStart": "Ready to Get Started?",
-    "contactUs": "Contact Us",
-    "freeQuote": "Get a Free Quote",
-    "readMore": "Read More"
+    "getSupport": "Krijg Nu Ondersteuning",
+    "readyToStart": "Klaar om te Beginnen?",
+    "contactUs": "Neem Contact Op",
+    "freeQuote": "Krijg Een Gratis Offerte",
+    "readMore": "Lees Meer"
   },
   "form": {
-    "name": "Name",
-    "email": "Email",
-    "phone": "Phone",
-    "country": "Country",
-    "message": "Message",
-    "submit": "Submit",
-    "sending": "Sending...",
-    "success": "Your message has been sent successfully!",
-    "error": "There was an error sending your message. Please try again."
+    "name": "Naam",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "country": "Land",
+    "message": "Bericht",
+    "submit": "Verzenden",
+    "sending": "Verzenden...",
+    "success": "Uw bericht is succesvol verzonden!",
+    "error": "Er was een fout bij het verzenden van uw bericht. Probeer opnieuw."
   },
   "blog": {
     "posts": {
       "sustainableManufacturing": {
         "title": "Duurzame productie: Groene IPL-productiemethoden",
-        "intro": "As the demand for at-home IPL (Intense Pulsed Light) hair removal devices surges, so does the responsibility to produce these electronics with minimal environmental impact. Sustainable manufacturing is no longer a trend but a necessity—encompassing every stage from raw material sourcing to end-of-life recycling. This article assesses the environmental footprint of IPL device production and explores innovative, practical strategies for achieving a truly green supply chain, with a focus on electronics, optics, eco-friendly ABS housings, sustainable packaging, and waste reutilization.",
+        "intro": "Naarmate de vraag naar thuis-IPL (Intense Pulsed Light) ontharing apparaten toeneemt, groeit ook de verantwoordelijkheid om deze elektronica te produceren met minimale milieu-impact. Duurzame productie is niet langer een trend maar een noodzaak—omvat elke fase van grondstofwinning tot einde-levensduur recycling. Dit artikel beoordeelt de milieu-voetafdruk van IPL-apparaat productie en verkent innovatieve, praktische strategieën voor het bereiken van een echt groene toeleveringsketen, met focus op elektronica, optica, milieuvriendelijke ABS-behuizingen, duurzame verpakking en afvalhergebruik.",
         "sections": {
-          "environmentalImpact": "Environmental Impact Assessment of IPL Device Manufacturing",
-          "electronics": "1. Electronic Components",
-          "optics": "2. Optical Components (Lenses and Filters)",
-          "absHousing": "3. ABS Eco-Friendly Housings",
-          "packaging": "4. Sustainable Paper Packaging",
-          "wasteReduction": "5. Waste Reduction and Reuse",
-          "supplyChain": "Sustainable Supply Chain Innovations",
-          "feasibility": "The Feasibility of a Green IPL Supply Chain",
-          "commitment": "iShine's Commitment to Sustainability",
-          "references": "References"
+          "environmentalImpact": "Milieu-impact beoordeling van IPL-apparaat productie",
+          "electronics": "1. Elektronische Componenten",
+          "optics": "2. Optische Componenten (Lenzen en Filters)",
+          "absHousing": "3. ABS Milieuvriendelijke Behuizingen",
+          "packaging": "4. Duurzame Papieren Verpakking",
+          "wasteReduction": "5. Afvalvermindering en Hergebruik",
+          "supplyChain": "Duurzame Toeleveringsketen Innovaties",
+          "feasibility": "De Haalbaarheid van een Groene IPL Toeleveringsketen",
+          "commitment": "iShine's Toewijding aan Duurzaamheid",
+          "references": "Referenties"
         }
       },
       "globalMarketShifts": {
         "title": "Wereldwijde marktveranderingen: IPL-apparaat trends en kansen",
-        "intro": "Explore the latest global trends in IPL device adoption, regulatory changes, and market opportunities for brands and manufacturers.",
+        "intro": "Verken de nieuwste wereldwijde trends in IPL-apparaat adoptie, regelgevingswijzigingen en marktkansen voor merken en fabrikanten.",
         "sections": {
-          "marketOverview": "Market Overview",
-          "regionalTrends": "Regional Trends",
-          "regulatoryChanges": "Regulatory Changes",
-          "consumerPreferences": "Consumer Preferences",
-          "opportunities": "Opportunities for Brands",
-          "challenges": "Challenges and Risks",
-          "futureOutlook": "Future Outlook"
+          "marketOverview": "Marktoverzicht",
+          "regionalTrends": "Regionale Trends",
+          "regulatoryChanges": "Regelgevingswijzigingen",
+          "consumerPreferences": "Consumentenvoorkeuren",
+          "opportunities": "Kansen voor Merken",
+          "challenges": "Uitdagingen en Risico's",
+          "futureOutlook": "Toekomstperspectieven"
         }
       },
       "aiPoweredSkinSensing": {
         "title": "AI-aangedreven huiddetectie: De volgende grens in IPL-veiligheid",
-        "intro": "How artificial intelligence is revolutionizing IPL device safety and personalization through real-time skin analysis.",
+        "intro": "Hoe kunstmatige intelligentie IPL-apparaat veiligheid en personalisatie revolutioneert door real-time huidanalyse.",
         "sections": {
-          "introduction": "Introduction",
-          "aiTechnology": "AI Technology in IPL",
-          "skinSensing": "Skin Sensing Mechanisms",
-          "safetyBenefits": "Safety Benefits",
-          "userExperience": "User Experience",
-          "caseStudies": "Case Studies",
-          "conclusion": "Conclusion"
+          "introduction": "Inleiding",
+          "aiTechnology": "AI-technologie in IPL",
+          "skinSensing": "Huiddetectie Mechanismen",
+          "safetyBenefits": "Veiligheidsvoordelen",
+          "userExperience": "Gebruikerservaring",
+          "caseStudies": "Casestudies",
+          "conclusion": "Conclusie"
         }
       },
       "multiHeadIPLSystems": {
         "title": "Multi-hoofd IPL-systemen: Precisie ontmoet volledige lichaam efficiëntie",
-        "intro": "The evolution of at-home hair removal has been profoundly shaped by the introduction of multi-head Intense Pulsed Light (IPL) systems. Philips pioneered this trend with its interchangeable head technology, setting a new standard for versatility and user-centric design in home-use IPL devices.",
+        "intro": "De evolutie van thuis ontharing is diepgaand gevormd door de introductie van multi-hoofd Intense Pulsed Light (IPL) systemen. Philips was pionier van deze trend met zijn uitwisselbare hoofd technologie, en stelde een nieuwe standaard voor veelzijdigheid en gebruikersgerichte ontwerp in thuis-IPL apparaten.",
         "sections": {
-          "philipsLegacy": "The Philips Legacy: Setting the Standard for Multi-Head IPL",
-          "keyFeatures": "Key Features of Multi-Head IPL Devices",
-          "respondingToVIO": "Responding to VIO Hair Removal Needs",
-          "whyMultiHeadMatters": "Why Multi-Head Design Matters",
-          "painReduction": "Pain Reduction: The Role of Advanced Filters",
-          "realUserFeedback": "Real User Feedback",
-          "conclusion": "Conclusion",
-          "references": "References"
+          "philipsLegacy": "De Philips Legacy: De Standaard Zetten voor Multi-Hoofd IPL",
+          "keyFeatures": "Belangrijke Kenmerken van Multi-Hoofd IPL-Apparaten",
+          "respondingToVIO": "Reageren op VIO Ontharing Behoeften",
+          "whyMultiHeadMatters": "Waarom Multi-Hoofd Ontwerp Belangrijk Is",
+          "painReduction": "Pijnvermindering: De Rol van Geavanceerde Filters",
+          "realUserFeedback": "Echte Gebruikersfeedback",
+          "conclusion": "Conclusie",
+          "references": "Referenties"
         }
       },
       "sapphireCooling": {
         "title": "Saffier koeling: Comfort verbeteren in IPL-behandelingen",
-        "intro": "Discover how sapphire cooling technology is transforming the comfort and safety of IPL hair removal treatments.",
+        "intro": "Ontdek hoe saffier koeling technologie het comfort en de veiligheid van IPL-ontharing behandelingen transformeert.",
         "sections": {
-          "technologyOverview": "Technology Overview",
-          "coolingMechanism": "How Sapphire Cooling Works",
-          "benefits": "Benefits for Users",
-          "clinicalEvidence": "Clinical Evidence",
-          "deviceComparison": "Device Comparison",
-          "userTestimonials": "User Testimonials",
-          "conclusion": "Conclusion"
+          "technologyOverview": "Technologie Overzicht",
+          "coolingMechanism": "Hoe Saffier Koeling Werkt",
+          "benefits": "Voordelen voor Gebruikers",
+          "clinicalEvidence": "Klinisch Bewijs",
+          "deviceComparison": "Apparaat Vergelijking",
+          "userTestimonials": "Gebruikersgetuigenissen",
+          "conclusion": "Conclusie"
         }
       },
       "industries": {
         "title": "Industrieën die we bedienen: IPL-toepassingen over sectoren",
-        "intro": "IPL technology is not just for beauty—explore its applications in medical, veterinary, and industrial sectors.",
+        "intro": "IPL-technologie is niet alleen voor schoonheid—verken de toepassingen in medische, veterinaire en industriële sectoren.",
         "sections": {
-          "beauty": "Beauty Industry",
-          "medical": "Medical Applications",
-          "veterinary": "Veterinary Uses",
-          "industrial": "Industrial Applications",
-          "caseStudies": "Case Studies",
-          "futureTrends": "Future Trends"
+          "beauty": "Schoonheidsindustrie",
+          "medical": "Medische Toepassingen",
+          "veterinary": "Veterinair Gebruik",
+          "industrial": "Industriële Toepassingen",
+          "caseStudies": "Casestudies",
+          "futureTrends": "Toekomstige Trends"
         }
       },
       "iplBestChoice": {
         "title": "Waarom thuis IPL-ontharing apparaten de beste keuze zijn onder alle ontharing tools",
-        "intro": "Discover why IPL is the most effective, comfortable, and convenient solution for long-term hair removal at home—backed by science and real user experience.",
+        "intro": "Ontdek waarom IPL de meest effectieve, comfortabele en handige oplossing is voor langdurige ontharing thuis—ondersteund door wetenschap en echte gebruikerservaring.",
         "sections": {
-          "comparison": "Hair Removal Methods Comparison",
-          "whyChooseIPL": "Why Choose IPL Home Hair Removal?",
-          "userStories": "Real User Stories",
-          "faq": "Frequently Asked Questions",
-          "recommendedBlog": "Recommended Blog",
-          "exploreMore": "Explore More"
+          "comparison": "Ontharing Methoden Vergelijking",
+          "whyChooseIPL": "Waarom Kiezen voor IPL Thuis Ontharing?",
+          "userStories": "Echte Gebruikersverhalen",
+          "faq": "Veelgestelde Vragen",
+          "recommendedBlog": "Aanbevolen Blog",
+          "exploreMore": "Verken Meer"
         }
       },
       "futureHomeHairRemoval": {
         "title": "De toekomst van thuis ontharing apparaten: Trends, innovaties en wat er komt",
-        "intro": "Explore the evolution, current breakthroughs, and the next generation of home hair removal devices—AI, multifunctionality, and sustainable design for 2025 and beyond.",
+        "intro": "Verken de evolutie, huidige doorbraken en de volgende generatie thuis ontharing apparaten—AI, multifunctionaliteit en duurzaam ontwerp voor 2025 en verder.",
         "sections": {
-          "evolution": "Evolution of Home Hair Removal Technology",
-          "stateOfTheArt": "Key Features of Next-Gen Devices (2025)",
-          "aiPersonalization": "AI and Personalization in Hair Removal",
-          "vision": "The 'Ultimate' Home Hair Removal Device: A Vision",
-          "challenges": "Challenges and Considerations",
-          "faq": "Frequently Asked Questions",
-          "exploreMore": "Explore More",
-          "aboutAuthor": "About the Author"
+          "evolution": "Evolutie van Thuis Ontharing Technologie",
+          "stateOfTheArt": "Belangrijke Kenmerken van Next-Gen Apparaten (2025)",
+          "aiPersonalization": "AI en Personalisatie in Ontharing",
+          "vision": "Het 'Ultieme' Thuis Ontharing Apparaat: Een Visie",
+          "challenges": "Uitdagingen en Overwegingen",
+          "faq": "Veelgestelde Vragen",
+          "exploreMore": "Verken Meer",
+          "aboutAuthor": "Over de Auteur"
         }
       },
       "fda510kPathway": {
         "title": "FDA 510(k) pad: Navigatie van medische apparaat classificatie voor IPL",
-        "intro": "A comprehensive guide to the FDA 510(k) pathway for home-use IPL hair removal devices. Learn about regulatory requirements, marketing claims, and how iShine helps brands achieve compliance.",
+        "intro": "Een uitgebreide gids voor het FDA 510(k) pad voor thuis-IPL ontharing apparaten. Leer over regelgevingsvereisten, marketingclaims en hoe iShine merken helpt naleving te bereiken.",
         "sections": {
-          "introduction": "Introduction",
-          "pathway": "1. FDA 510(k) Pathway for Home IPL Devices",
-          "marketingClaims": "2. How Marketing Claims Affect Regulatory Classification",
-          "ishineExpertise": "3. iShine's Expertise in Securing Your Brand's FDA 510(k) Listing",
-          "benefits": "4. Benefits of Obtaining a Brand-Specific FDA 510(k) Listing",
-          "guidance": "5. Practical Guidance for Brands",
-          "conclusion": "Conclusion",
-          "faq": "Frequently Asked Questions",
-          "exploreMore": "Explore More",
-          "author": "About the Author"
+          "introduction": "Inleiding",
+          "pathway": "1. FDA 510(k) Pad voor Thuis IPL-Apparaten",
+          "marketingClaims": "2. Hoe Marketing Claims Regelgevingsclassificatie Beïnvloeden",
+          "ishineExpertise": "3. iShine's Expertise in het Beveiligen van Uw Merk's FDA 510(k) Listing",
+          "benefits": "4. Voordelen van het Verkrijgen van een Merkspecifieke FDA 510(k) Listing",
+          "guidance": "5. Praktische Begeleiding voor Merken",
+          "conclusion": "Conclusie",
+          "faq": "Veelgestelde Vragen",
+          "exploreMore": "Verken Meer",
+          "author": "Over de Auteur"
         }
       }
     }
