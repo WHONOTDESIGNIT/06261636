@@ -104,7 +104,7 @@
       "address": "ADDRESS",
       "telValue": "+86-15900283962",
       "whatsappValue": "+86-15012891148",
-      "emailValue": "service@ishineco.com",
+      "emailValue": "service@iplmanufacturer.com",
       "addressValue": "208 Room, 4 Building, No.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, China, 518071"
     }
   },
@@ -235,7 +235,7 @@
     "storyTitle": "Our Story",
     "storyP1": "Founded in 2018, iShine emerged from a vision to democratize advanced IPL technology. We recognized that beauty brands needed a reliable partner who could transform their ideas into market-ready products with precision and excellence.",
     "storyP2": "Today, we're proud to serve clients across three continents, from innovative startups to established beauty conglomerates. Our commitment to quality, innovation, and customer success drives everything we do.",
-    "storyP3": "At iShine, we don't just manufacture devices – we craft solutions that empower brands to succeed in the competitive beauty market.",
+    "storyP3": "At iShine, we don't just manufacture devices — we craft solutions that empower brands to succeed in the competitive beauty market.",
     "valuesTitle": "Our Core Values",
     "valuesDesc": "The principles that guide our work and relationships with clients",
     "values": {
@@ -390,13 +390,13 @@
     },
     "skinSensor": {
       "title": "Skin Sensor IPL Device",
-      "desc": "Experience the safest and most intelligent home hair removal with our Skin Sensor IPL Device. This revolutionary device features advanced optical skin sensors that automatically detect your skin tone and hair color – delivering personalized treatment intensity for maximum effectiveness and complete safety. With real-time skin analysis and automatic energy adjustment, this device is perfect for all suitable skin types and ensures optimal results every time.",
+      "desc": "Experience the safest and most intelligent home hair removal with our Skin Sensor IPL Device. This revolutionary device features advanced optical skin sensors that automatically detect your skin tone and hair color — delivering personalized treatment intensity for maximum effectiveness and complete safety. With real-time skin analysis and automatic energy adjustment, this device is perfect for all suitable skin types and ensures optimal results every time.",
       "features": {
-        "intelligentDetection": "Intelligent Skin Detection – Advanced sensors automatically identify skin tone and adjust energy levels",
-        "maxSafety": "Maximum Safety – Prevents over-treatment and reduces risk of skin irritation or burns",
-        "personalized": "Personalized Treatment – Automatically optimizes intensity for your unique skin characteristics",
-        "realTime": "Real-time Analysis – Continuous monitoring ensures consistent, safe treatment sessions",
-        "proResults": "Professional Results – Salon-quality hair removal in the comfort of your home"
+        "intelligentDetection": "Intelligent Skin Detection — Advanced sensors automatically identify skin tone and adjust energy levels",
+        "maxSafety": "Maximum Safety — Prevents over-treatment and reduces risk of skin irritation or burns",
+        "personalized": "Personalized Treatment — Automatically optimizes intensity for your unique skin characteristics",
+        "realTime": "Real-time Analysis — Continuous monitoring ensures consistent, safe treatment sessions",
+        "proResults": "Professional Results — Salon-quality hair removal in the comfort of your home"
       }
     },
     "smartApp": {
