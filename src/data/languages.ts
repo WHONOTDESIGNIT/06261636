@@ -25,7 +25,6 @@ export const languages = [
   { code: 'ja-jp', name: 'Japan', nativeName: '日本語', flag: '🇯🇵', region: 'Asia Pacific' },
   { code: 'ko-kr', name: 'South Korea', nativeName: '한국어', flag: '🇰🇷', region: 'Asia Pacific' },
   { code: 'hi-in', name: 'India', nativeName: 'हिन्दी', flag: '🇮🇳', region: 'Asia Pacific' },
-  { code: 'bn-bd', name: 'Bangladesh', nativeName: 'বাংলা', flag: '🇧🇩', region: 'Asia Pacific' },
   { code: 'th-th', name: 'Thailand', nativeName: 'ไทย', flag: '🇹🇭', region: 'Asia Pacific' },
   { code: 'vi-vn', name: 'Vietnam', nativeName: 'Tiếng Việt', flag: '🇻🇳', region: 'Asia Pacific' },
   { code: 'id-id', name: 'Indonesia', nativeName: 'Bahasa Indonesia', flag: '🇮🇩', region: 'Asia Pacific' },
