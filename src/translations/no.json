@@ -36,65 +36,65 @@
       "aiPowered": "AI-drevet IPL-enhet"
     },
     "accessories": {
-      "sapphireLens": "Sapphire Lens",
+      "sapphireLens": "Safir linse",
       "adapter": "Adapter",
-      "goggles": "Protective Goggles",
+      "goggles": "Vernebriller",
       "filter": "Filter"
     },
     "serviceSupport": {
       "service": "Service",
-      "afterSales": "After-Sales Service",
-      "fdaGmp": "FDA GMP Clean Room Design",
-      "manufacturing": "IPL Devices Manufacturing",
-      "knowledgeBase": "Knowledge Base",
-      "support": "Support > Buying Guide",
-      "beautySourcing": "Beauty Niche Sourcing & Accessories",
-      "pricingGuide": "Pricing Guide",
-      "helpCenter": "Help Center",
-      "gallery": "Gallery",
-      "videos": "Videos",
-      "blog": "Blog",
-      "newsInsights": "News & Insights",
-      "industries": "Industries We Serve"
+      "afterSales": "Ettersalgsservice",
+      "fdaGmp": "FDA GMP Renrom Design",
+      "manufacturing": "IPL-enheter Produksjon",
+      "knowledgeBase": "Kunnskapsbase",
+      "support": "Støtte > Kjøpsguide",
+      "beautySourcing": "Skjønnhet Nisjebeskaffelse og Tilbehør",
+      "pricingGuide": "Prisguide",
+      "helpCenter": "Hjelpesenter",
+      "gallery": "Galleri",
+      "videos": "Videoer",
+      "blog": "Blogg",
+      "newsInsights": "Nyheter og Innsikt",
+      "industries": "Bransjer vi betjener"
     },
     "about": {
-      "founderMessage": "Founder Message",
-      "technology": "Our Technology",
-      "globalWitness": "Global Witness",
-      "corePrinciples": "Core Principles",
-      "company": "About iShine",
-      "brandStory": "Brand Story",
-      "quality": "Quality"
+      "founderMessage": "Grunnleggerens budskap",
+      "technology": "Vår teknologi",
+      "globalWitness": "Globalt vitne",
+      "corePrinciples": "Kjerneprinsippene",
+      "company": "Om iShine",
+      "brandStory": "Merkehistorie",
+      "quality": "Kvalitet"
     }
   },
   "footer": {
     "company": {
-      "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market.",
-      "products": "Products",
-      "services": "Services",
-      "company": "Company"
+      "description": "Ledende IPL-enhet produsent som leverer OEM/ODM-løsninger fra idé til marked.",
+      "products": "Produkter",
+      "services": "Tjenester",
+      "company": "Selskap"
     },
     "products": {
-      "iplHairRemoval": "IPL Hair Removal",
-      "accessories": "Accessories",
-      "gallery": "Gallery"
+      "iplHairRemoval": "IPL-hårfjerning",
+      "accessories": "Tilbehør",
+      "gallery": "Galleri"
     },
     "services": {
-      "afterSales": "After-Sales Service",
-      "manufacturing": "IPL Manufacturing",
-      "buyingGuide": "Buying Guide",
-      "helpCenter": "Help Center"
+      "afterSales": "Ettersalgsservice",
+      "manufacturing": "IPL-produksjon",
+      "buyingGuide": "Kjøpsguide",
+      "helpCenter": "Hjelpesenter"
     },
     "companyLinks": {
-      "about": "About iShine",
-      "brandStory": "Brand Story",
-      "quality": "Quality",
-      "blog": "Blog"
+      "about": "Om iShine",
+      "brandStory": "Merkehistorie",
+      "quality": "Kvalitet",
+      "blog": "Blogg"
     },
     "legal": {
-      "copyright": "© 2025 iShine. All rights reserved.",
-      "privacyPolicy": "Privacy Policy",
-      "termsOfService": "Terms of Service"
+      "copyright": "© 2025 iShine. Alle rettigheter forbeholdt.",
+      "privacyPolicy": "Personvernerklæring",
+      "termsOfService": "Tjenestevilkår"
     },
     "contact": {
       "title": "Kontakt",
@@ -104,7 +104,7 @@
       "address": "ADRESSE",
       "telValue": "+86-15900283962",
       "whatsappValue": "+86-15012891148",
-      "emailValue": "service@ishineco.com",
+      "emailValue": "service@iplmanufacturer.com",
       "addressValue": "Rom 208, Bygning 4, Nr.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, Kina, 518071"
     }
   },
@@ -116,52 +116,52 @@
       "cta": "Få tilbud"
     },
     "partners": {
-      "title": "Trusted by Global Brands",
-      "subtitle": "Working with industry leaders worldwide"
+      "title": "Stolt av globale merker",
+      "subtitle": "Arbeider med bransjeledere over hele verden"
     },
     "features": {
-      "title": "Why Choose iShine?",
-      "subtitle": "Complete IPL manufacturing solutions tailored to your needs"
+      "title": "Hvorfor velge iShine?",
+      "subtitle": "Komplette IPL-produksjonsløsninger skreddersydd til dine behov"
     },
     "products": {
-      "title": "Our IPL Device Range",
-      "subtitle": "Wide Range IPL devices for every needs",
-      "cta": "View All IPL Devices"
+      "title": "Vårt IPL-enhetsortiment",
+      "subtitle": "Bred rekke IPL-enheter for alle behov",
+      "cta": "Se alle IPL-enheter"
     },
     "cta": {
-      "title": "Need help?",
-      "subtitle": "Let's discuss your requirements and create the IPL solution that best fit for your brand.",
-      "button": "Fill out the form to enjoy Free Consultation"
+      "title": "Trenger du hjelp?",
+      "subtitle": "La oss diskutere dine krav og lage IPL-løsningen som passer best for merket ditt.",
+      "button": "Fyll ut skjemaet for å nyte gratis konsultasjon"
     }
   },
   "contact": {
     "hero": {
       "title": "Kontakt oss",
-      "description": "Ready to discuss your IPL project? Get in touch with our expert team today. We're here to help bring your vision to life."
+      "description": "Klar til å diskutere IPL-prosjektet ditt? Kom i kontakt med vårt ekspertteam i dag. Vi er her for å hjelpe deg med å realisere visjonen din."
     },
     "info": {
-      "title": "Get in Touch",
-      "subtitle": "Multiple ways to reach us - choose what works best for you",
+      "title": "Kom i kontakt",
+      "subtitle": "Flere måter å nå oss på - velg det som fungerer best for deg",
       "address": {
-        "title": "Address",
+        "title": "Adresse",
         "company": "iShine Manufacturing Co., Ltd.",
-        "location": "Shenzhen, Guangdong, China"
+        "location": "Shenzhen, Guangdong, Kina"
       },
       "phone": {
-        "title": "Phone"
+        "title": "Telefon"
       },
       "email": {
-        "title": "Email"
+        "title": "E-post"
       },
       "hours": {
-        "title": "Business Hours",
-        "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
-        "saturday": "Saturday: 9:00 AM - 12:00 PM"
+        "title": "Åpningstider",
+        "weekdays": "Mandag - Fredag: 09:00 - 18:00",
+        "saturday": "Lørdag: 09:00 - 12:00"
       }
     },
     "map": {
-      "title": "Visit Our Facility",
-      "subtitle": "Located in the heart of Shenzhen's manufacturing district"
+      "title": "Besøk vårt anlegg",
+      "subtitle": "Lokalisert i hjertet av Shenzhens produksjonsdistrikt"
     },
     "form": {
       "title": "Hva har du i tankene? La oss snakke!",
@@ -171,156 +171,156 @@
       "phone": "Telefonnummer* f.eks. (+47-123-45-678)",
       "country": "Land",
       "message": "Beskriv dine behov her*",
-      "submit": "Submit",
-      "sending": "Sending..."
+      "submit": "Send inn",
+      "sending": "Sender..."
     },
     "title": "Kontakt oss",
-    "subtitle": "Get in touch with our team for business inquiries, support, or partnership opportunities.",
-    "companyPhotoAlt": "iShine Manufacturing Facility"
+    "subtitle": "Kom i kontakt med teamet vårt for forretningsmessige forespørsler, støtte eller partnerskapsmuligheter.",
+    "companyPhotoAlt": "iShine produksjonsanlegg"
   },
   "buttons": {
-    "getQuote": "Get Quote",
-    "viewSolutions": "View Our Solutions",
-    "scheduleConsultation": "Schedule Consultation",
-    "submit": "Submit",
-    "sending": "Sending...",
-    "viewAll": "View All"
+    "getQuote": "Få tilbud",
+    "viewSolutions": "Se våre løsninger",
+    "scheduleConsultation": "Planlegg konsultasjon",
+    "submit": "Send inn",
+    "sending": "Sender...",
+    "viewAll": "Se alle"
   },
   "common": {
     "loading": "Laster...",
     "error": "En feil oppstod",
     "success": "Suksess",
-    "readMore": "Read More",
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
+    "readMore": "Les mer",
+    "learnMore": "Lær mer",
+    "getStarted": "Kom i gang",
     "contactUs": "Kontakt oss"
   },
   "solutions": {
-    "productDesignDevelopment": "Product Design & Development",
-    "productDesignDevelopmentDescription": "From initial concept to final design, our expert team brings your IPL vision to life with cutting-edge technology and market insights.",
-    "oemManufacturing": "OEM Manufacturing",
-    "oemManufacturingDescription": "Complete manufacturing solutions with your specifications. We handle production while you focus on your brand and market.",
-    "odmSolutions": "ODM Solutions",
-    "odmSolutionsDescription": "Choose from our proven IPL designs and customize them with your branding, packaging, and unique features.",
-    "endToEndSupport": "End-to-End Support",
-    "endToEndSupportDescription": "Complete project management from initial consultation to product launch and beyond, ensuring your success every step of the way.",
-    "consultation": "Consultation",
-    "consultationDescription": "Understand your vision, market, and requirements",
+    "productDesignDevelopment": "Produktdesign og utvikling",
+    "productDesignDevelopmentDescription": "Fra første konsept til endelig design bringer vårt ekspertteam din IPL-visjon til liv med banebrytende teknologi og markedsinnsikt.",
+    "oemManufacturing": "OEM-produksjon",
+    "oemManufacturingDescription": "Komplette produksjonsløsninger med dine spesifikasjoner. Vi håndterer produksjon mens du fokuserer på merkevaren og markedet ditt.",
+    "odmSolutions": "ODM-løsninger",
+    "odmSolutionsDescription": "Velg fra våre velprøvde IPL-design og tilpass dem med din merkevarebygging, emballasje og unike funksjoner.",
+    "endToEndSupport": "End-to-End-støtte",
+    "endToEndSupportDescription": "Komplett prosjektledelse fra første konsultasjon til produktlansering og videre, for å sikre din suksess i hvert trinn av veien.",
+    "consultation": "Konsultasjon",
+    "consultationDescription": "Forstå din visjon, marked og krav",
     "design": "Design",
-    "designDescription": "Create custom designs or adapt existing solutions",
+    "designDescription": "Lag tilpassede design eller tilpass eksisterende løsninger",
     "prototype": "Prototype",
-    "prototypeDescription": "Build and test prototypes to ensure quality",
-    "manufacturing": "Manufacturing",
-    "manufacturingDescription": "Full-scale production with quality assurance",
-    "launch": "Launch",
-    "launchDescription": "Support your market entry and ongoing success",
-    "completeIPLSolutions": "Complete IPL Solutions",
-    "completeIPLSolutionsDescription": "From initial concept to market launch, we provide comprehensive OEM/ODM solutions that transform your IPL vision into successful products.",
-    "ourSolutionPortfolio": "Our Solution Portfolio",
-    "comprehensiveServices": "Comprehensive services to bring your IPL products to market successfully",
-    "ourProcess": "Our Process",
-    "streamlinedWorkflow": "Streamlined workflow to ensure your project success",
-    "industriesWeServe": "Industries We Serve",
-    "tailoredSolutions": "Tailored solutions for diverse market segments",
-    "provenSuccess": "Proven Success",
-    "numbersSpeak": "Numbers that speak to our expertise and commitment",
-    "globalClients": "Global Clients",
-    "productsLaunched": "Products Launched",
-    "qualityRate": "Quality Rate",
-    "yearsExperience": "Years Experience"
+    "prototypeDescription": "Bygg og test prototyper for å sikre kvalitet",
+    "manufacturing": "Produksjon",
+    "manufacturingDescription": "Fullskala produksjon med kvalitetssikring",
+    "launch": "Lansering",
+    "launchDescription": "Støtt din markedsinntreden og pågående suksess",
+    "completeIPLSolutions": "Komplette IPL-løsninger",
+    "completeIPLSolutionsDescription": "Fra første konsept til markedslansering tilbyr vi omfattende OEM/ODM-løsninger som forvandler din IPL-visjon til vellykkede produkter.",
+    "ourSolutionPortfolio": "Vårt løsningsportefølje",
+    "comprehensiveServices": "Omfattende tjenester for å bringe dine IPL-produkter til markedet med suksess",
+    "ourProcess": "Vår prosess",
+    "streamlinedWorkflow": "Strømlinjeformet arbeidsflyt for å sikre prosjektsuksess",
+    "industriesWeServe": "Bransjer vi betjener",
+    "tailoredSolutions": "Skreddersydde løsninger for ulike markedssegmenter",
+    "provenSuccess": "Bevist suksess",
+    "numbersSpeak": "Tall som snakker om vår ekspertise og forpliktelse",
+    "globalClients": "Globale kunder",
+    "productsLaunched": "Lanserte produkter",
+    "qualityRate": "Kvalitetsrate",
+    "yearsExperience": "År med erfaring"
   },
   "about": {
-    "heroTitle": "About iShine",
-    "heroDesc": "Your trusted partner in IPL device manufacturing, bringing innovative beauty technology from concept to market since 2018.",
-    "storyTitle": "Our Story",
-    "storyP1": "Founded in 2018, iShine emerged from a vision to democratize advanced IPL technology. We recognized that beauty brands needed a reliable partner who could transform their ideas into market-ready products with precision and excellence.",
-    "storyP2": "Today, we're proud to serve clients across three continents, from innovative startups to established beauty conglomerates. Our commitment to quality, innovation, and customer success drives everything we do.",
-    "storyP3": "At iShine, we don't just manufacture devices – we craft solutions that empower brands to succeed in the competitive beauty market.",
-    "valuesTitle": "Our Core Values",
-    "valuesDesc": "The principles that guide our work and relationships with clients",
+    "heroTitle": "Om iShine",
+    "heroDesc": "Din pålitelige partner innen IPL-enhetsproduksjon, som bringer innovativ skjønnhetsteknologi fra konsept til marked siden 2018.",
+    "storyTitle": "Vår historie",
+    "storyP1": "Grunnlagt i 2018, oppstod iShine fra en visjon om å demokratisere avansert IPL-teknologi. Vi erkjente at skjønnhetsmerker trengte en pålitelig partner som kunne transformere ideene deres til markedsklare produkter med presisjon og fortreffelighet.",
+    "storyP2": "I dag er vi stolte av å betjene kunder på tre kontinenter, fra innovative startups til etablerte skjønnhetskonglomerater. Vår forpliktelse til kvalitet, innovasjon og kundesuksess driver alt vi gjør.",
+    "storyP3": "Hos iShine produserer vi ikke bare enheter - vi lager løsninger som gir merker mulighet til å lykkes i det konkurranseutsatte skjønnhetsmarkedet.",
+    "valuesTitle": "Våre kjerneverdier",
+    "valuesDesc": "Prinsippene som styrer vårt arbeid og relasjoner med kunder",
     "values": {
-      "qualityTitle": "Quality Excellence",
-      "qualityDesc": "FDA GMP certified manufacturing with rigorous quality control",
-      "customerTitle": "Customer Focus",
-      "customerDesc": "Dedicated to understanding and exceeding customer expectations",
-      "globalTitle": "Global Impact",
-      "globalDesc": "Serving beauty brands worldwide with innovative IPL solutions",
-      "innovationTitle": "Innovation Drive",
-      "innovationDesc": "Continuous R&D investment in next-generation IPL technology"
+      "qualityTitle": "Kvalitetsfremragenhet",
+      "qualityDesc": "FDA GMP-sertifisert produksjon med streng kvalitetskontroll",
+      "customerTitle": "Kundefokus",
+      "customerDesc": "Dedikert til å forstå og overgå kundeforventninger",
+      "globalTitle": "Global påvirkning",
+      "globalDesc": "Betjener skjønnhetsmerker over hele verden med innovative IPL-løsninger",
+      "innovationTitle": "Innovasjonsdrift",
+      "innovationDesc": "Kontinuerlig F&U-investering i neste generasjons IPL-teknologi"
     },
-    "journeyTitle": "Our Journey",
-    "journeyDesc": "Key milestones in our growth and innovation",
+    "journeyTitle": "Vår reise",
+    "journeyDesc": "Viktige milepæler i vår vekst og innovasjon",
     "milestones": {
       "2018": {
-        "title": "Company Founded",
-        "desc": "iShine established as IPL device manufacturer"
+        "title": "Selskap grunnlagt",
+        "desc": "iShine etablert som IPL-enhetsprodusent"
       },
       "2019": {
-        "title": "First International Client",
-        "desc": "Partnership with KU-2 Cosmetic in Germany"
+        "title": "Første internasjonale kunde",
+        "desc": "Partnerskap med KU-2 Cosmetic i Tyskland"
       },
       "2020": {
-        "title": "FDA GMP Certification",
-        "desc": "Achieved FDA GMP clean room certification"
+        "title": "FDA GMP-sertifisering",
+        "desc": "Oppnådde FDA GMP renrom-sertifisering"
       },
       "2021": {
-        "title": "Smart IPL Launch",
-        "desc": "Introduced first app-controlled IPL devices"
+        "title": "Smart IPL-lansering",
+        "desc": "Introduserte første app-kontrollerte IPL-enheter"
       },
       "2022": {
-        "title": "Global Expansion",
-        "desc": "Partnerships with Costco and ROSESKINCO"
+        "title": "Global ekspansjon",
+        "desc": "Partnerskap med Costco og ROSESKINCO"
       },
       "2023": {
-        "title": "AI Integration",
-        "desc": "Launched AI-powered IPL technology"
+        "title": "AI-integrasjon",
+        "desc": "Lanserte AI-drevet IPL-teknologi"
       }
     },
-    "teamTitle": "Our Expert Team",
-    "teamDesc": "Dedicated professionals committed to your success",
+    "teamTitle": "Vårt ekspertteam",
+    "teamDesc": "Dedikerte fagfolk forpliktet til din suksess",
     "team": {
-      "rnd": "R&D Engineers",
-      "rndDesc": "Expert engineers developing cutting-edge IPL technology",
-      "quality": "Quality Specialists",
-      "qualityDesc": "Ensuring every device meets the highest standards",
-      "customer": "Customer Success",
-      "customerDesc": "Dedicated support from concept to market launch"
+      "rnd": "F&U-ingeniører",
+      "rndDesc": "Ekspertingeniører som utvikler banebrytende IPL-teknologi",
+      "quality": "Kvalitetsspesialister",
+      "qualityDesc": "Sikrer at hver enhet oppfyller de høyeste standardene",
+      "customer": "Kundesuksess",
+      "customerDesc": "Dedikert støtte fra konsept til markedslansering"
     }
   },
   "countryPage": {
-    "title": "iShine - IPL-enheter produksjonsløsninger | Fra idé til marked",
-    "description": "Ledende IPL-enhetsprodusent som tilbyr OEM/ODM-løsninger fra idé til marked. Tilpassede IPL-hårfjerningsenheter for globale skjønnhetsmerker."
+    "title": "iShine - IPL-enhet produksjonsløsninger | Globalt",
+    "description": "Ledende IPL-enhet produsent som leverer OEM/ODM-løsninger fra idé til marked over hele verden."
   },
   "howToUse": {
-    "heroTitle": "How to Use IPL Devices",
-    "heroDescription": "Complete guide to safe and effective IPL hair removal. Learn proper techniques, safety guidelines, and get the best results from your IPL device.",
-    "stepByStepTitle": "Step-by-Step Instructions",
-    "stepByStepDescription": "Follow these steps for safe and effective IPL treatment",
-    "safetyGuidelinesTitle": "Safety Guidelines",
-    "safetyGuidelinesDescription": "Essential safety information for IPL treatment",
-    "treatmentScheduleTitle": "Recommended Treatment Schedule",
-    "treatmentScheduleDescription": "Follow this schedule for optimal hair removal results",
-    "troubleshootingTitle": "Troubleshooting Guide",
-    "troubleshootingDescription": "Common issues and their solutions",
-    "faqTitle": "Frequently Asked Questions",
-    "faqDescription": "Get answers to common IPL treatment questions",
-    "videoTutorialsTitle": "Video Tutorials",
-    "videoTutorialsDescription": "Watch step-by-step video guides for proper IPL usage"
+    "heroTitle": "Hvordan bruke IPL-enheter",
+    "heroDescription": "Komplett guide til sikker og effektiv IPL-hårfjerning. Lær riktige teknikker, sikkerhetsretningslinjer og få de beste resultatene fra IPL-enheten din.",
+    "stepByStepTitle": "Trinn-for-trinn instruksjoner",
+    "stepByStepDescription": "Følg disse trinnene for sikker og effektiv IPL-behandling",
+    "safetyGuidelinesTitle": "Sikkerhetsretningslinjer",
+    "safetyGuidelinesDescription": "Viktig sikkerhetsinformasjon for IPL-behandling",
+    "treatmentScheduleTitle": "Anbefalt behandlingsplan",
+    "treatmentScheduleDescription": "Følg denne planen for optimale hårfjerningsresultater",
+    "troubleshootingTitle": "Feilsøkingsguide",
+    "troubleshootingDescription": "Vanlige problemer og deres løsninger",
+    "faqTitle": "Ofte stilte spørsmål",
+    "faqDescription": "Få svar på vanlige spørsmål om IPL-behandling",
+    "videoTutorialsTitle": "Videoveiledninger",
+    "videoTutorialsDescription": "Se trinn-for-trinn videoguider for riktig IPL-bruk"
   },
   "iplHairRemoval": {
-    "heroTitle": "Professional IPL Hair Removal Solutions",
-    "heroDescription": "Discover the next generation of IPL hair removal devices—safe, effective, and designed for all skin types. Experience salon-quality results at home or in your business.",
-    "iplDevicesTitle": "Our IPL Device Range",
-    "iplDevicesDescription": "Explore our full lineup of advanced IPL hair removal devices, each engineered for maximum comfort and results.",
-    "accessoriesTitle": "Essential IPL Accessories",
-    "accessoriesDescription": "Enhance your IPL experience with our range of certified accessories for safety and convenience.",
-    "advancedIplTitle": "Advanced IPL Technology",
-    "smartTechnologyIntegration": "Smart Technology Integration",
-    "smartTechnologyIntegrationDescription": "Our IPL devices feature intelligent sensors and app connectivity for personalized, safe, and effective treatments.",
-    "coolingComfortSystems": "Cooling Comfort Systems",
-    "coolingComfortSystemsDescription": "Sapphire and metal plate cooling keep your skin comfortable and protected during every session.",
-    "intelligentSkinSensors": "Intelligent Skin Sensors",
-    "intelligentSkinSensorsDescription": "Automatic skin tone and hair detection ensures optimal energy delivery and safety for every user."
+    "heroTitle": "Profesjonelle IPL-hårfjerningsløsninger",
+    "heroDescription": "Oppdag neste generasjon IPL-hårfjerningsenheter—sikre, effektive og designet for alle hudtyper. Opplev salonkvalitetsresultater hjemme eller i din virksomhet.",
+    "iplDevicesTitle": "Vårt IPL-enhetsutvalg",
+    "iplDevicesDescription": "Utforsk vårt komplette utvalg av avanserte IPL-hårfjerningsenheter, hver konstruert for maksimal komfort og resultater.",
+    "accessoriesTitle": "Essensielt IPL-tilbehør",
+    "accessoriesDescription": "Forbedre din IPL-opplevelse med vårt utvalg av sertifisert tilbehør for sikkerhet og bekvemmelighet.",
+    "advancedIplTitle": "Avansert IPL-teknologi",
+    "smartTechnologyIntegration": "Smart teknologiintegrasjon",
+    "smartTechnologyIntegrationDescription": "Våre IPL-enheter har intelligente sensorer og app-tilkobling for personlige, sikre og effektive behandlinger.",
+    "coolingComfortSystems": "Kjøling og komfortsystemer",
+    "coolingComfortSystemsDescription": "Safir- og metallplatkjøling holder huden komfortabel og beskyttet under hver økt.",
+    "intelligentSkinSensors": "Intelligente hudsensorer",
+    "intelligentSkinSensorsDescription": "Automatisk hudtone- og hårgjenkjenning sikrer optimal energilevering og sikkerhet for hver bruker."
   },
   "ipl": {
     "aiPowered": {
@@ -366,7 +366,7 @@
       "title": "Emerald IPL Hair Removal Device",
       "desc": "Experience professional-grade hair removal at home with our Emerald IPL Device featuring advanced Intense Pulsed Light technology with 15 J/cm² of energy and 600,000+ flashes for long-lasting smooth skin. The precision-engineered system delivers consistent results across all treatment areas.",
       "features": {
-        "proResults": "Professional results — up to 94% hair reduction after 12 weeks.",
+        "proResults": "Professional results �?up to 94% hair reduction after 12 weeks.",
         "manualIntensity": "5-level manual intensity control for personalized treatments.",
         "safeAllSkin": "Safe for all skin tones within Fitzpatrick I-V range.",
         "largeWindow": "Large 4.2 cm² treatment window for faster coverage.",
@@ -388,18 +388,18 @@
       "title": "IPL-hårfjerning enhet iskjøling",
       "desc": "Opplev luksuriøs profesjonell iskjøling hårfjerning teknologi, utstyrt med en romfart-klasse kjøling metallplate som umiddelbart kjøler huden til en ultra-lav temperatur på 5°C.",
       "features": {
-        "luxuryDesign": "Luxurious goddess design — Aerospace-grade metal texture, showcasing noble taste.",
-        "coolingPlate": "Ice cooling plate technology — Instantly cools skin to 5°C for truly painless experience.",
-        "preciseControl": "9-level precise energy control — Customizable for sensitive areas and coarse hair.",
-        "allSkin": "Suitable for all skin tones — Fitzpatrick I-V certified.",
-        "largeWindow": "3.3 cm² extra-large treatment window — Fast coverage, 50% higher efficiency."
+        "luxuryDesign": "Luxurious goddess design �?Aerospace-grade metal texture, showcasing noble taste.",
+        "coolingPlate": "Ice cooling plate technology �?Instantly cools skin to 5°C for truly painless experience.",
+        "preciseControl": "9-level precise energy control �?Customizable for sensitive areas and coarse hair.",
+        "allSkin": "Suitable for all skin tones �?Fitzpatrick I-V certified.",
+        "largeWindow": "3.3 cm² extra-large treatment window �?Fast coverage, 50% higher efficiency."
       }
     },
     "iceFeeling": {
       "title": "Safir isfølelse IPL-enhet",
       "desc": "Nyt smertefri hårfjerning med en klinisk safir kjøleplate som kjøler huden til 5°C, som tillater høyere energi pulser for raskere resultater.",
       "features": {
-        "longSmooth": "Long-lasting smoothness — visible reduction after 3-4 weeks.",
+        "longSmooth": "Long-lasting smoothness �?visible reduction after 3-4 weeks.",
         "cooling": "Cooling plate keeps epidermis at 5°C for true painless treatments.",
         "energyLevels": "Five energy levels adapt to almost all skin tones within Fitzpatrick I-V.",
         "flashModes": "Auto/Manual flash modes for body and precision areas.",
@@ -410,11 +410,11 @@
       "title": "IPL-enhet med hudsensor",
       "desc": "Opplev den sikreste og smarteste hjemme hårfjerning med vår hudsensor IPL-enhet. Denne revolusjonære enheten har avanserte optiske hudsensorer som automatisk registrerer din hudtone og hårfarge.",
       "features": {
-        "intelligentDetection": "Intelligent Skin Detection – Advanced sensors automatically identify skin tone and adjust energy levels",
-        "maxSafety": "Maximum Safety – Prevents over-treatment and reduces risk of skin irritation or burns",
-        "personalized": "Personalized Treatment – Automatically optimizes intensity for your unique skin characteristics",
-        "realTime": "Real-time Analysis – Continuous monitoring ensures consistent, safe treatment sessions",
-        "proResults": "Professional Results – Salon-quality hair removal in the comfort of your home"
+        "intelligentDetection": "Intelligent Skin Detection �?Advanced sensors automatically identify skin tone and adjust energy levels",
+        "maxSafety": "Maximum Safety �?Prevents over-treatment and reduces risk of skin irritation or burns",
+        "personalized": "Personalized Treatment �?Automatically optimizes intensity for your unique skin characteristics",
+        "realTime": "Real-time Analysis �?Continuous monitoring ensures consistent, safe treatment sessions",
+        "proResults": "Professional Results �?Salon-quality hair removal in the comfort of your home"
       }
     },
     "smartApp": {
