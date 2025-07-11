@@ -365,7 +365,7 @@
       "title": "อุปกรณ์กำจัดขน IPL มรกต",
       "desc": "Experience professional-grade hair removal at home with our Emerald IPL Device featuring advanced Intense Pulsed Light technology with 15 J/cm² of energy and 600,000+ flashes for long-lasting smooth skin. The precision-engineered system delivers consistent results across all treatment areas.",
       "features": {
-        "proResults": "Professional results �?up to 94% hair reduction after 12 weeks.",
+        "proResults": "ผลลัพธ์ระดับมืออาชีพ — ลดขนได้สูงสุด 94% หลังจาก 12 สัปดาห์",
         "manualIntensity": "5-level manual intensity control for personalized treatments.",
         "safeAllSkin": "Safe for all skin tones within Fitzpatrick I-V range.",
         "largeWindow": "Large 4.2 cm² treatment window for faster coverage.",
@@ -388,10 +388,10 @@
       "desc": "Experience professional-grade luxurious ice cooling hair removal technology, featuring an aerospace-grade cooling metal plate that instantly cools the skin to 5°C ultra-low temperature. Combined with 2.0~5.0 J/cm² high-energy IPL pulses and 999,000+ flashes, it delivers a goddess-like silky skin experience. The luxurious design is crafted for perfection-seeking modern women.",
       "features": {
         "luxuryDesign": "Luxurious goddess design?Aerospace-grade metal texture, showcasing noble taste.",
-        "coolingPlate": "Ice cooling plate technology �?Instantly cools skin to 5°C for truly painless experience.",
-        "preciseControl": "9-level precise energy control �?Customizable for sensitive areas and coarse hair.",
-        "allSkin": "Suitable for all skin tones �?Fitzpatrick I-V certified.",
-        "largeWindow": "3.3 cm² extra-large treatment window �?Fast coverage, 50% higher efficiency."
+        "coolingPlate": "เทคโนโลยีแผ่นเย็นแบบน้ำแข็ง — ทำให้ผิวเย็นทันทีถึง 5°C เพื่อประสบการณ์ที่ไม่เจ็บปวดอย่างแท้จริง",
+        "preciseControl": "การควบคุมพลังงานแม่นยำ 9 ระดับ — ปรับแต่งได้สำหรับบริเวณที่ละเอียดอ่อนและขนหยาบ",
+        "allSkin": "เหมาะสำหรับทุกสีผิว — ได้รับการรับรอง Fitzpatrick I-V",
+        "largeWindow": "หน้าต่างการรักษาขนาดใหญ่พิเศษ 3.3 cm² — ครอบคลุมเร็ว มีประสิทธิภาพสูงขึ้น 50%"
       }
     },
     "iceFeeling": {
