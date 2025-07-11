@@ -104,7 +104,7 @@
       "address": "ADRESA",
       "telValue": "+86-15900283962",
       "whatsappValue": "+86-15012891148",
-      "emailValue": "service@ishineco.com",
+      "emailValue": "service@iplmanufacturer.com",
       "addressValue": "Soba 208, Zgrada 4, br.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, Kina, 518071"
     }
   },
@@ -174,9 +174,9 @@
       "submit": "Pošaljite",
       "sending": "Šalje se..."
     },
-    "title": "Contact Us",
-    "subtitle": "Get in touch with our team for business inquiries, support, or partnership opportunities.",
-    "companyPhotoAlt": "iShine Manufacturing Facility"
+    "title": "Kontaktirajte nas",
+    "subtitle": "Kontaktirajte naš tim za poslovne upite, podršku ili mogućnosti partnerstva.",
+    "companyPhotoAlt": "iShine proizvodni objekt"
   },
   "buttons": {
     "getQuote": "Zatražite ponudu",
@@ -196,236 +196,236 @@
     "contactUs": "Kontaktirajte nas"
   },
   "solutions": {
-    "productDesignDevelopment": "Product Design & Development",
-    "productDesignDevelopmentDescription": "From initial concept to final design, our expert team brings your IPL vision to life with cutting-edge technology and market insights.",
-    "oemManufacturing": "OEM Manufacturing",
-    "oemManufacturingDescription": "Complete manufacturing solutions with your specifications. We handle production while you focus on your brand and market.",
-    "odmSolutions": "ODM Solutions",
-    "odmSolutionsDescription": "Choose from our proven IPL designs and customize them with your branding, packaging, and unique features.",
-    "endToEndSupport": "End-to-End Support",
-    "endToEndSupportDescription": "Complete project management from initial consultation to product launch and beyond, ensuring your success every step of the way.",
-    "consultation": "Consultation",
-    "consultationDescription": "Understand your vision, market, and requirements",
-    "design": "Design",
-    "designDescription": "Create custom designs or adapt existing solutions",
-    "prototype": "Prototype",
-    "prototypeDescription": "Build and test prototypes to ensure quality",
-    "manufacturing": "Manufacturing",
-    "manufacturingDescription": "Full-scale production with quality assurance",
-    "launch": "Launch",
-    "launchDescription": "Support your market entry and ongoing success",
-    "completeIPLSolutions": "Complete IPL Solutions",
-    "completeIPLSolutionsDescription": "From initial concept to market launch, we provide comprehensive OEM/ODM solutions that transform your IPL vision into successful products.",
-    "ourSolutionPortfolio": "Our Solution Portfolio",
-    "comprehensiveServices": "Comprehensive services to bring your IPL products to market successfully",
-    "ourProcess": "Our Process",
-    "streamlinedWorkflow": "Streamlined workflow to ensure your project success",
-    "industriesWeServe": "Industries We Serve",
-    "tailoredSolutions": "Tailored solutions for diverse market segments",
-    "provenSuccess": "Proven Success",
-    "numbersSpeak": "Numbers that speak to our expertise and commitment",
-    "globalClients": "Global Clients",
-    "productsLaunched": "Products Launched",
-    "qualityRate": "Quality Rate",
-    "yearsExperience": "Years Experience"
+    "productDesignDevelopment": "Dizajn i razvoj proizvoda",
+    "productDesignDevelopmentDescription": "Od početnog koncepta do konačnog dizajna, naš stručni tim oživljava vašu IPL viziju s najsuvremenijom tehnologijom i tržišnim uvjetima.",
+    "oemManufacturing": "OEM proizvodnja",
+    "oemManufacturingDescription": "Kompletna proizvodnja rješenja prema vašim specifikacijama. Mi se bavimo proizvodnjom dok se vi fokusirate na svoj brend i tržište.",
+    "odmSolutions": "ODM rješenja",
+    "odmSolutionsDescription": "Odaberite iz naših dokazanih IPL dizajna i prilagodite ih svojom trgovinskom markom, pakiranjem i jedinstvenim značajkama.",
+    "endToEndSupport": "Potpuna podrška",
+    "endToEndSupportDescription": "Potpuno upravljanje projektom od početne konzultacije do lansiranja proizvoda i dalje, osiguravajući vaš uspjeh u svakom koraku.",
+    "consultation": "Konzultacija",
+    "consultationDescription": "Razumijevanje vaše vizije, tržišta i zahtjeva",
+    "design": "Dizajn",
+    "designDescription": "Izrađivanje prilagođenih dizajna ili prilagođavanje postojećih rješenja",
+    "prototype": "Prototip",
+    "prototypeDescription": "Izgradnja i testiranje prototipova za osiguravanje kvalitete",
+    "manufacturing": "Proizvodnja",
+    "manufacturingDescription": "Puna proizvodnja s osiguravanjem kvalitete",
+    "launch": "Lansiranje",
+    "launchDescription": "Podrška vašem ulasku na tržište i kontinuiranom uspjehu",
+    "completeIPLSolutions": "Kompletna IPL rješenja",
+    "completeIPLSolutionsDescription": "Od početnog koncepta do lansiranja na tržište, pružamo opsežna OEM/ODM rješenja koja transformiraju vašu IPL viziju u uspješne proizvode.",
+    "ourSolutionPortfolio": "Naš portfelj rješenja",
+    "comprehensiveServices": "Sveobuhvatne usluge za uspješno dovođenje vaših IPL proizvoda na tržište",
+    "ourProcess": "Naš proces",
+    "streamlinedWorkflow": "Pojednostavljeni tijek rada za osiguravanje uspjeha vašeg projekta",
+    "industriesWeServe": "Industrije koje opslužujemo",
+    "tailoredSolutions": "Prilagođena rješenja za različite tržišne segmente",
+    "provenSuccess": "Dokazani uspjeh",
+    "numbersSpeak": "Brojevi koji govore o našoj stručnosti i predanosti",
+    "globalClients": "Globalni klijenti",
+    "productsLaunched": "Lansirani proizvodi",
+    "qualityRate": "Stopa kvalitete",
+    "yearsExperience": "Godina iskustva"
   },
   "about": {
-    "heroTitle": "About iShine",
-    "heroDesc": "Your trusted partner in IPL device manufacturing, bringing innovative beauty technology from concept to market since 2018.",
-    "storyTitle": "Our Story",
-    "storyP1": "Founded in 2018, iShine emerged from a vision to democratize advanced IPL technology. We recognized that beauty brands needed a reliable partner who could transform their ideas into market-ready products with precision and excellence.",
-    "storyP2": "Today, we're proud to serve clients across three continents, from innovative startups to established beauty conglomerates. Our commitment to quality, innovation, and customer success drives everything we do.",
-    "storyP3": "At iShine, we don't just manufacture devices – we craft solutions that empower brands to succeed in the competitive beauty market.",
-    "valuesTitle": "Our Core Values",
-    "valuesDesc": "The principles that guide our work and relationships with clients",
+    "heroTitle": "O iShine",
+    "heroDesc": "Vaš pouzdani partner u proizvodnji IPL uređaja, donoseći inovativnu beauty tehnologiju od koncepta do tržišta od 2018.",
+    "storyTitle": "Naša priča",
+    "storyP1": "Osnovana 2018., iShine je nastala iz vizije demokratizacije napredne IPL tehnologije. Prepoznali smo da beauty brendovima treba pouzdan partner koji može transformirati njihove ideje u tržišno spremne proizvode s preciznošću i izvrsnosti.",
+    "storyP2": "Danas smo ponosni što služimo klijentima na tri kontinenta, od inovativnih startupova do etabliranih beauty konglomerata. Naša predanost kvaliteti, inovaciji i uspjehu klijenata pokreće sve što radimo.",
+    "storyP3": "U iShine, mi ne samo proizvodimo uređaje — mi stvaramo rješenja koja osnažuju brendove da uspiju na konkurentnom beauty tržištu.",
+    "valuesTitle": "Naše osnovne vrijednosti",
+    "valuesDesc": "Principi koji usmjeravaju naš rad i odnose s klijentima",
     "values": {
-      "qualityTitle": "Quality Excellence",
-      "qualityDesc": "FDA GMP certified manufacturing with rigorous quality control",
-      "customerTitle": "Customer Focus",
-      "customerDesc": "Dedicated to understanding and exceeding customer expectations",
-      "globalTitle": "Global Impact",
-      "globalDesc": "Serving beauty brands worldwide with innovative IPL solutions",
-      "innovationTitle": "Innovation Drive",
-      "innovationDesc": "Continuous R&D investment in next-generation IPL technology"
+      "qualityTitle": "Izvrsnost kvalitete",
+      "qualityDesc": "FDA GMP certificirana proizvodnja s rigoroznom kontrolom kvalitete",
+      "customerTitle": "Fokus na klijenta",
+      "customerDesc": "Posvećeni razumijevanju i nadmašivanju očekivanja klijenata",
+      "globalTitle": "Globalni utjecaj",
+      "globalDesc": "Služenje beauty brendovima diljem svijeta s inovativnim IPL rješenjima",
+      "innovationTitle": "Pokretač inovacije",
+      "innovationDesc": "Kontinuirana R&D investicija u IPL tehnologiju sljedeće generacije"
     },
-    "journeyTitle": "Our Journey",
-    "journeyDesc": "Key milestones in our growth and innovation",
+    "journeyTitle": "Naše putovanje",
+    "journeyDesc": "Ključni milestoni u našem rastu i inovaciji",
     "milestones": {
       "2018": {
-        "title": "Company Founded",
-        "desc": "iShine established as IPL device manufacturer"
+        "title": "Tvrtka osnovana",
+        "desc": "iShine ustanovljena kao IPL uređaj proizvođač"
       },
       "2019": {
-        "title": "First International Client",
-        "desc": "Partnership with KU-2 Cosmetic in Germany"
+        "title": "Prvi međunarodni klijent",
+        "desc": "Partnerstvo s KU-2 Cosmetic u Njemačkoj"
       },
       "2020": {
-        "title": "FDA GMP Certification",
-        "desc": "Achieved FDA GMP clean room certification"
+        "title": "FDA GMP certifikacija",
+        "desc": "Postignuta FDA GMP čista soba certifikacija"
       },
       "2021": {
-        "title": "Smart IPL Launch",
-        "desc": "Introduced first app-controlled IPL devices"
+        "title": "Smart IPL lansiranje",
+        "desc": "Predstavljeni prvi IPL uređaji kontrolirani aplikacijom"
       },
       "2022": {
-        "title": "Global Expansion",
-        "desc": "Partnerships with Costco and ROSESKINCO"
+        "title": "Globalna ekspanzija",
+        "desc": "Partnerstva s Costco i ROSESKINCO"
       },
       "2023": {
-        "title": "AI Integration",
-        "desc": "Launched AI-powered IPL technology"
+        "title": "AI integracija",
+        "desc": "Lansirana AI-pokretana IPL tehnologija"
       }
     },
-    "teamTitle": "Our Expert Team",
-    "teamDesc": "Dedicated professionals committed to your success",
+    "teamTitle": "Naš stručni tim",
+    "teamDesc": "Posvećeni profesionalci predani vašem uspjehu",
     "team": {
-      "rnd": "R&D Engineers",
-      "rndDesc": "Expert engineers developing cutting-edge IPL technology",
-      "quality": "Quality Specialists",
-      "qualityDesc": "Ensuring every device meets the highest standards",
-      "customer": "Customer Success",
-      "customerDesc": "Dedicated support from concept to market launch"
+      "rnd": "R&D inženjeri",
+      "rndDesc": "Stručni inženjeri koji razvijaju najsuvremeniju IPL tehnologiju",
+      "quality": "Specijalist za kvalitetu",
+      "qualityDesc": "Osiguravaju da svaki uređaj ispunjava najviše standarde",
+      "customer": "Uspjeh klijenata",
+      "customerDesc": "Posvećena podrška od koncepta do lansiranja na tržište"
     }
   },
   "countryPage": {
-    "title": "iShine - IPL Device Manufacturing Solutions | Global",
-    "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide."
+    "title": "iShine - IPL uređaj proizvodnja rješenja | Globalno",
+    "description": "Vodeći IPL uređaj proizvođač koji pruža OEM/ODM rješenja od ideje do tržišta diljem svijeta."
   },
   "howToUse": {
-    "heroTitle": "How to Use IPL Devices",
-    "heroDescription": "Complete guide to safe and effective IPL hair removal. Learn proper techniques, safety guidelines, and get the best results from your IPL device.",
-    "stepByStepTitle": "Step-by-Step Instructions",
-    "stepByStepDescription": "Follow these steps for safe and effective IPL treatment",
-    "safetyGuidelinesTitle": "Safety Guidelines",
-    "safetyGuidelinesDescription": "Essential safety information for IPL treatment",
-    "treatmentScheduleTitle": "Recommended Treatment Schedule",
-    "treatmentScheduleDescription": "Follow this schedule for optimal hair removal results",
-    "troubleshootingTitle": "Troubleshooting Guide",
-    "troubleshootingDescription": "Common issues and their solutions",
-    "faqTitle": "Frequently Asked Questions",
-    "faqDescription": "Get answers to common IPL treatment questions",
-    "videoTutorialsTitle": "Video Tutorials",
-    "videoTutorialsDescription": "Watch step-by-step video guides for proper IPL usage"
+    "heroTitle": "Kako koristiti IPL uređaje",
+    "heroDescription": "Potpuni vodič za sigurno i efikasno IPL uklanjanje dlačica. Naučite prave tehnike, sigurnosne smjernice i dobijte najbolje rezultate iz vašeg IPL uređaja.",
+    "stepByStepTitle": "Upute korak po korak",
+    "stepByStepDescription": "Pratite ove korake za sigurno i efikasno IPL tretiranje",
+    "safetyGuidelinesTitle": "Sigurnosne smjernice",
+    "safetyGuidelinesDescription": "Ključne sigurnosne informacije za IPL tretman",
+    "treatmentScheduleTitle": "Preporučeni raspored tretmana",
+    "treatmentScheduleDescription": "Pratite ovaj raspored za optimalne rezultate uklanjanja dlačica",
+    "troubleshootingTitle": "Vodič za rješavanje problema",
+    "troubleshootingDescription": "Uobičajeni problemi i njihova rješenja",
+    "faqTitle": "Često postavljana pitanja",
+    "faqDescription": "Dobijte odgovore na uobičajena pitanja o IPL tretmanu",
+    "videoTutorialsTitle": "Video tutoriali",
+    "videoTutorialsDescription": "Gledajte video vodiče korak po korak za pravilnu upotrebu IPL-a"
   },
   "iplHairRemoval": {
-    "heroTitle": "Professional IPL Hair Removal Solutions",
-    "heroDescription": "Discover the next generation of IPL hair removal devices—safe, effective, and designed for all skin types. Experience salon-quality results at home or in your business.",
-    "iplDevicesTitle": "Our IPL Device Range",
-    "iplDevicesDescription": "Explore our full lineup of advanced IPL hair removal devices, each engineered for maximum comfort and results.",
-    "accessoriesTitle": "Essential IPL Accessories",
-    "accessoriesDescription": "Enhance your IPL experience with our range of certified accessories for safety and convenience.",
-    "advancedIplTitle": "Advanced IPL Technology",
-    "smartTechnologyIntegration": "Smart Technology Integration",
-    "smartTechnologyIntegrationDescription": "Our IPL devices feature intelligent sensors and app connectivity for personalized, safe, and effective treatments.",
-    "coolingComfortSystems": "Cooling Comfort Systems",
-    "coolingComfortSystemsDescription": "Sapphire and metal plate cooling keep your skin comfortable and protected during every session.",
-    "intelligentSkinSensors": "Intelligent Skin Sensors",
-    "intelligentSkinSensorsDescription": "Automatic skin tone and hair detection ensures optimal energy delivery and safety for every user."
+    "heroTitle": "Profesionalna IPL rješenja za uklanjanje dlačica",
+    "heroDescription": "Otkrijte sljedeću generaciju IPL uređaja za uklanjanje dlačica—sigurne, efikasne i dizajnirane za sve tipove kože. Doživite salon-kvalitetne rezultate kod kuće ili u vašem poslovanju.",
+    "iplDevicesTitle": "Naš asortiman IPL uređaja",
+    "iplDevicesDescription": "Istražite naš kompletan asortiman naprednih IPL uređaja za uklanjanje dlačica, svaki razvijen za maksimalnu udobnost i rezultate.",
+    "accessoriesTitle": "Osnovni IPL dodaci",
+    "accessoriesDescription": "Poboljšajte vaše IPL iskustvo s našim asortijanom certificiranih dodataka za sigurnost i udobnost.",
+    "advancedIplTitle": "Napredna IPL tehnologija",
+    "smartTechnologyIntegration": "Integracija pametne tehnologije",
+    "smartTechnologyIntegrationDescription": "Naši IPL uređaji sadrže inteligentne senzore i app konekciju za personalizirane, sigurne i efikasne tretmane.",
+    "coolingComfortSystems": "Sustavi za udobnost hlađenja",
+    "coolingComfortSystemsDescription": "Sapphire i metalni pločni sistemi hlađenja drže vašu kožu udobnom i zaštićenom tijekom svake sesije.",
+    "intelligentSkinSensors": "Inteligentni senzori kože",
+    "intelligentSkinSensorsDescription": "Automatska detekcija tona kože i dlačica osigurava optimalnu dostavu energije i sigurnost za svakog korisnika."
   },
   "ipl": {
     "aiPowered": {
-      "title": "AI-Powered IPL Device",
-      "desc": "The future of hair removal is here. Artificial intelligence optimizes every treatment for personalized, effective results.",
+      "title": "AI-pokretani IPL uređaj",
+      "desc": "Budućnost uklanjanja dlačica je ovdje. Umjetna inteligencija optimizira svaki tretman za personalizirane, efikasne rezultate.",
       "features": {
-        "aiTech": "AI Technology",
-        "aiTechDesc": "Smart learning algorithms",
-        "smartProcessing": "Smart Processing",
-        "smartProcessingDesc": "Real-time optimization",
-        "analytics": "Advanced Analytics",
-        "analyticsDesc": "Detailed progress tracking",
-        "personalized": "Personalized",
-        "personalizedDesc": "Customized for your needs"
+        "aiTech": "AI tehnologija",
+        "aiTechDesc": "Pametni algoritmi učenja",
+        "smartProcessing": "Pametno procesiranje",
+        "smartProcessingDesc": "Optimizacija u stvarnom vremenu",
+        "analytics": "Napredna analitika",
+        "analyticsDesc": "Detaljno praćenje napretka",
+        "personalized": "Personalizirano",
+        "personalizedDesc": "Prilagođeno vašim potrebama"
       }
     },
     "batteryPowered": {
-      "title": "Battery-Powered IPL Hair Removal Device",
-      "desc": "Experience the ultimate cordless convenience with our battery-powered IPL device. Equipped with a high-capacity rechargeable battery, it offers seamless mobility without the need for power adapters. Enjoy professional-grade hair removal anywhere, anytime, with up to 9 adjustable energy levels for personalized treatments.",
+      "title": "Baterijski pokretani IPL uređaj za uklanjanje dlačica",
+      "desc": "Doživite ultimativnu bežičnu udobnost s našim baterijskim IPL uređajem. Opremljen visokokapacitetnom punjivom baterijom, pruža besprijekornu mobilnost bez potrebe za napajačima. Uživajte u profesionalnom uklanjanju dlačica bilo gdje, bilo kada, s do 9 podesivnih razina energije za personalizirane tretmane.",
       "features": {
-        "cordless": "Cordless design for ultimate freedom and convenience.",
-        "energyLevels": "9 adjustable energy levels for customized treatments.",
-        "longBattery": "Long-lasting rechargeable battery with 600+ recharge cycles.",
-        "noAdapter": "No need for power adapters during use, ideal for travel.",
-        "allSkin": "Suitable for all skin tones, FDA & CE approved."
+        "cordless": "Bežični dizajn za ultimativnu slobodu i udobnost.",
+        "energyLevels": "9 podesivnih razina energije za prilagođene tretmane.",
+        "longBattery": "Dugotrajan punjiva baterija s 600+ ciklusa punjenja.",
+        "noAdapter": "Nema potrebe za napajačima tijekom upotrebe, idealno za putovanja.",
+        "allSkin": "Prikladno za sve tonove kože, FDA i CE odobreno."
       }
     },
     "dualLamp": {
-      "title": "Dual-Lamp IPL Device",
-      "desc": "Double the power, double the efficiency. Revolutionary dual-lamp technology for faster treatments and superior results.",
+      "title": "Dvostruka lampa IPL uređaj",
+      "desc": "Dupla snaga, dupla efikasnost. Revolucionarna dvostruka lampa tehnologija za brže tretmane i superiorne rezultate.",
       "features": {
-        "dualLamps": "Dual Lamps",
-        "dualLampsDesc": "Enhanced power and coverage",
-        "faster": "Faster Treatment",
-        "fasterDesc": "Reduced session time",
-        "proPower": "Professional Power",
-        "proPowerDesc": "Salon-grade performance",
-        "evenCoverage": "Even Coverage",
-        "evenCoverageDesc": "Uniform light distribution"
+        "dualLamps": "Dvostruke lampe",
+        "dualLampsDesc": "Poboljšana snaga i pokrivenost",
+        "faster": "Brži tretman",
+        "fasterDesc": "Skraćeno vrijeme sesije",
+        "proPower": "Profesionalna snaga",
+        "proPowerDesc": "Salon-razina performansi",
+        "evenCoverage": "Jednaka pokrivenost",
+        "evenCoverageDesc": "Ujednačena distribucija svjetla"
       }
     },
     "emerald": {
-      "title": "Emerald IPL Hair Removal Device",
-      "desc": "Experience professional-grade hair removal at home with our Emerald IPL Device featuring advanced Intense Pulsed Light technology with 15 J/cm² of energy and 600,000+ flashes for long-lasting smooth skin. The precision-engineered system delivers consistent results across all treatment areas.",
+      "title": "Smaragd IPL uređaj za uklanjanje dlačica",
+      "desc": "Doživite profesionalno uklanjanje dlačica kod kuće s našim Smaragd IPL uređajem koji sadrži naprednu Intense Pulsed Light tehnologiju s 15 J/cm² energije i 600.000+ bljesaka za dugotrajnu glatku kožu. Precizno razvijen sustav pruža dosljedne rezultate u svim područjima tretmana.",
       "features": {
-        "proResults": "Professional results — up to 94% hair reduction after 12 weeks.",
-        "manualIntensity": "5-level manual intensity control for personalized treatments.",
-        "safeAllSkin": "Safe for all skin tones within Fitzpatrick I-V range.",
-        "largeWindow": "Large 4.2 cm² treatment window for faster coverage.",
-        "ergonomic": "Ergonomic design with built-in safety sensors."
+        "proResults": "Profesionalni rezultati — do 94% smanjenja dlačica nakon 12 tjedana.",
+        "manualIntensity": "5-razinska ručna kontrola intenziteta za personalizirane tretmane.",
+        "safeAllSkin": "Sigurno za sve tonove kože u Fitzpatrick I-V rasponu.",
+        "largeWindow": "Veliki 4.2 cm² prozor tretmana za bržu pokrivenost.",
+        "ergonomic": "Ergonomski dizajn s ugrađenim sigurnosnim senzorima."
       }
     },
     "handheld": {
-      "title": "Handheld IPL Hair Removal Device",
-      "desc": "Discover the perfect blend of comfort and performance with our handheld IPL device. Designed for easy grip and precise control, it features 5 adjustable energy levels to suit all skin types and sensitivities. Achieve salon-quality hair removal results at home with a lightweight, portable device.",
+      "title": "Ručni IPL uređaj za uklanjanje dlačica",
+      "desc": "Otkrijte savršenu kombinaciju udobnosti i performansi s našim ručnim IPL uređajem. Dizajniran za lak hvataj i preciznu kontrolu, sadrži 5 podesivnih razina energije za sve tipove kože i osjetljivosti. Postignite salon-kvalitetne rezultate uklanjanja dlačica kod kuće s laganim, prijenosnim uređajem.",
       "features": {
-        "ergonomic": "Ergonomic handheld design for comfortable use.",
-        "energyLevels": "5 adjustable energy levels for personalized treatments.",
-        "portable": "Lightweight and portable—ideal for travel and home use.",
-        "allSkin": "Suitable for all skin tones, gentle and effective.",
-        "certified": "FDA & CE approved for safety and quality."
+        "ergonomic": "Ergonomski ručni dizajn za udobnu upotrebu.",
+        "energyLevels": "5 podesivnih razina energije za personalizirane tretmane.",
+        "portable": "Lagan i prijenosan—idealan za putovanja i kućnu upotrebu.",
+        "allSkin": "Prikladan za sve tonove kože, nježan i efikasan.",
+        "certified": "FDA i CE odobreno za sigurnost i kvalitetu."
       }
     },
     "iceCooling": {
       "title": "IPL uklanjanje dlačica uređaj led hlađenje",
       "desc": "Doživite luksuznu profesionalnu led hlađenje uklanjanje dlačica tehnologiju, opremljenu zrakoplovnom klasom hlađenja metalnom pločom koja odmah hladi kožu na ultra-nisku temperaturu od 5°C.",
       "features": {
-        "luxuryDesign": "Luxurious goddess design — Aerospace-grade metal texture, showcasing noble taste.",
-        "coolingPlate": "Ice cooling plate technology — Instantly cools skin to 5°C for truly painless experience.",
-        "preciseControl": "9-level precise energy control — Customizable for sensitive areas and coarse hair.",
-        "allSkin": "Suitable for all skin tones — Fitzpatrick I-V certified.",
-        "largeWindow": "3.3 cm² extra-large treatment window — Fast coverage, 50% higher efficiency."
+        "luxuryDesign": "Luxurious goddess design �?Aerospace-grade metal texture, showcasing noble taste.",
+        "coolingPlate": "Ice cooling plate technology �?Instantly cools skin to 5°C for truly painless experience.",
+        "preciseControl": "9-level precise energy control �?Customizable for sensitive areas and coarse hair.",
+        "allSkin": "Suitable for all skin tones �?Fitzpatrick I-V certified.",
+        "largeWindow": "3.3 cm² extra-large treatment window �?Fast coverage, 50% higher efficiency."
       }
     },
     "iceFeeling": {
       "title": "Sapphire osjećaj leda IPL uređaj",
       "desc": "Uživajte u bezbolnom uklanjanju dlačica sa kliničkom sapphire hlađenjem pločom koja hladi kožu na 5°C, omogućavajući veće energetske pulsove za brže rezultate.",
       "features": {
-        "longSmooth": "Long-lasting smoothness — visible reduction after 3-4 weeks.",
-        "cooling": "Cooling plate keeps epidermis at 5°C for true painless treatments.",
-        "energyLevels": "Five energy levels adapt to almost all skin tones within Fitzpatrick I-V.",
-        "flashModes": "Auto/Manual flash modes for body and precision areas.",
-        "multiUse": "4-in-1: Full body, Bikini, Face, and skin rejuvenation."
+        "longSmooth": "Dugotrajan glatkoća — vidljivo smanjenje nakon 3-4 tjedna.",
+        "cooling": "Pločica za hlađenje drži epidermis na 5°C za istinski bezbolne tretmane.",
+        "energyLevels": "Pet razina energije prilagođava se gotovo svim tonovima kože u Fitzpatrick I-V.",
+        "flashModes": "Auto/Ručni modi bljeska za tijelo i precizna područja.",
+        "multiUse": "4-u-1: Cijelo tijelo, Bikini, Lice i obnova kože."
       }
     },
     "skinSensor": {
       "title": "IPL uređaj sa senzorom kože",
-      "desc": "Doživite najsigurnije i najpametnije kućno uklanjanje dlačica s našim senzorom kože IPL uređajem. Ovaj revolucionarni uređaj ima napredne optičke senzore kože koji automatski prepoznaju ton vaše kože i boju dlačica.",
+      "desc": "Doživite najsigurnije i najpametnije kućno uklanjanje dlačica s našim senzorom kože IPL uređajem. Ovaj revolucionarni uređaj ima napredne optičke senzore kože koji automatski prepoznaju ton vaše kože i boju dlačica — pružajući personalizirani intenzitet tretmana za maksimalnu efikasnost i potpunu sigurnost. S analizom kože u stvarnom vremenu i automatskim prilagođavanjem energije, ovaj uređaj je savršen za sve odgovarajuće tipove kože i osigurava optimalne rezultate svaki put.",
       "features": {
-        "intelligentDetection": "Intelligent Skin Detection – Advanced sensors automatically identify skin tone and adjust energy levels",
-        "maxSafety": "Maximum Safety – Prevents over-treatment and reduces risk of skin irritation or burns",
-        "personalized": "Personalized Treatment – Automatically optimizes intensity for your unique skin characteristics",
-        "realTime": "Real-time Analysis – Continuous monitoring ensures consistent, safe treatment sessions",
-        "proResults": "Professional Results – Salon-quality hair removal in the comfort of your home"
+        "intelligentDetection": "Inteligentna detekcija kože — Napredni senzori automatski prepoznaju ton kože i prilagođavaju razine energije",
+        "maxSafety": "Maksimalna sigurnost — Sprječava prekomjerni tretman i smanjuje rizik od iritacije kože ili opeklina",
+        "personalized": "Personalizirani tretman — Automatski optimizira intenzitet za vaše jedinstvene karakteristike kože",
+        "realTime": "Analiza u stvarnom vremenu — Kontinuirano praćenje osigurava dosljedne, sigurne sesije tretmana",
+        "proResults": "Profesionalni rezultati — Salon-kvalitetno uklanjanje dlačica u udobnosti vašeg doma"
       }
     },
     "smartApp": {
       "title": "Pametna aplikacija IPL uklanjanje dlačica uređaj",
-      "desc": "Povežite svoj IPL uređaj bez problema putem Bluetooth-a s našom pametnom aplikacijom. Uživajte u vođenim tretmanima, praćenju sesija u stvarnom vremenu, personaliziranim rutinama i AI pokretan uvide.",
+      "desc": "Povežite svoj IPL uređaj bez problema putem Bluetooth-a s našom pametnom aplikacijom. Uživajte u vođenim tretmanima, praćenju sesija u stvarnom vremenu, personaliziranim rutinama i AI pokretan uvide. Kontrolirajte razine intenziteta, pratite napredak i primajte podsjetnike—sve iz vašeg pametnog telefona.",
       "features": {
-        "bluetooth": "Bluetooth 5.0 connectivity for stable pairing",
-        "aiPlans": "Personalized treatment plans via AI analysis",
-        "realTimeControl": "Real-time intensity control and on-screen feedback",
-        "scheduling": "Session scheduling and usage reminders",
-        "compatibility": "Compatible with iOS & Android"
+        "bluetooth": "Bluetooth 5.0 konekcija za stabilno uparivanje",
+        "aiPlans": "Personalizirani planovi tretmana putem AI analize",
+        "realTimeControl": "Kontrola intenziteta u stvarnom vremenu i povratne informacije na ekranu",
+        "scheduling": "Zakazivanje sesija i podsjeci za upotrebu",
+        "compatibility": "Kompatibilno s iOS i Android"
       }
     }
   },
@@ -453,22 +453,22 @@
     }
   },
   "cta": {
-    "getSupport": "Get Support Now",
-    "readyToStart": "Ready to Get Started?",
-    "contactUs": "Contact Us",
-    "freeQuote": "Get a Free Quote",
-    "readMore": "Read More"
+    "getSupport": "Dobijte podršku sada",
+    "readyToStart": "Spremni za početak?",
+    "contactUs": "Kontaktirajte nas",
+    "freeQuote": "Dobijte besplatnu ponudu",
+    "readMore": "Pročitajte više"
   },
   "form": {
-    "name": "Name",
-    "email": "Email",
-    "phone": "Phone",
-    "country": "Country",
-    "message": "Message",
-    "submit": "Submit",
-    "sending": "Sending...",
-    "success": "Your message has been sent successfully!",
-    "error": "There was an error sending your message. Please try again."
+    "name": "Ime",
+    "email": "E-pošta",
+    "phone": "Telefon",
+    "country": "Zemlja",
+    "message": "Poruka",
+    "submit": "Pošaljite",
+    "sending": "Šalje se...",
+    "success": "Vaša poruka je uspješno poslana!",
+    "error": "Dogodila se greška pri slanju vaše poruke. Molimo pokušajte ponovo."
   },
   "blog": {
     "posts": {
