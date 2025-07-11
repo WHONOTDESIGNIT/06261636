@@ -95,6 +95,17 @@
       "copyright": "© 2025 iShine. Tüm hakları saklıdır.",
       "privacyPolicy": "Gizlilik Politikası",
       "termsOfService": "Hizmet Şartları"
+    },
+    "contact": {
+      "title": "Contact",
+      "tel": "Tel",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "address": "ADDRESS",
+      "telValue": "+86-15900283962",
+      "whatsappValue": "+86-15012891148",
+      "emailValue": "service@iplmanufacturer.com",
+      "addressValue": "208 Room, 4 Building, No.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, China, 518071"
     }
   },
   "home": {
@@ -186,111 +197,407 @@
   },
   "solutions": {
     "productDesignDevelopment": "Product Design & Development",
-    "productDesignDevelopmentDescription": "From initial concept to final design, our expert team brings your IPL vision to life with cutting-edge technology and market insights.",
-    "oemManufacturing": "OEM Manufacturing",
-    "oemManufacturingDescription": "Complete manufacturing solutions with your specifications. We handle production while you focus on your brand and market.",
-    "odmSolutions": "ODM Solutions",
-    "odmSolutionsDescription": "Choose from our proven IPL designs and customize them with your branding, packaging, and unique features.",
-    "endToEndSupport": "End-to-End Support",
-    "endToEndSupportDescription": "Complete project management from initial consultation to product launch and beyond, ensuring your success every step of the way.",
-    "consultation": "Consultation",
-    "consultationDescription": "Understand your vision, market, and requirements",
-    "design": "Design",
-    "designDescription": "Create custom designs or adapt existing solutions",
-    "prototype": "Prototype",
-    "prototypeDescription": "Build and test prototypes to ensure quality",
-    "manufacturing": "Manufacturing",
-    "manufacturingDescription": "Full-scale production with quality assurance",
-    "launch": "Launch",
-    "launchDescription": "Support your market entry and ongoing success",
-    "completeIPLSolutions": "Complete IPL Solutions",
-    "completeIPLSolutionsDescription": "From initial concept to market launch, we provide comprehensive OEM/ODM solutions that transform your IPL vision into successful products.",
-    "ourSolutionPortfolio": "Our Solution Portfolio",
-    "comprehensiveServices": "Comprehensive services to bring your IPL products to market successfully",
-    "ourProcess": "Our Process",
-    "streamlinedWorkflow": "Streamlined workflow to ensure your project success",
-    "industriesWeServe": "Industries We Serve",
-    "tailoredSolutions": "Tailored solutions for diverse market segments",
-    "provenSuccess": "Proven Success",
-    "numbersSpeak": "Numbers that speak to our expertise and commitment",
-    "globalClients": "Global Clients",
-    "productsLaunched": "Products Launched",
-    "qualityRate": "Quality Rate",
-    "yearsExperience": "Years Experience"
+    "productDesignDevelopmentDescription": "İlk konseptten son tasarıma kadar uzman ekibimiz, en son teknoloji ve pazar öngörüleri ile IPL vizyonunuzu hayata geçirir.",
+    "oemManufacturing": "OEM Üretimi",
+    "oemManufacturingDescription": "Özelliklerinizle tam üretim çözümleri. Üretimi biz hallederken siz markanıza ve pazarınıza odaklanın.",
+    "odmSolutions": "ODM Çözümleri",
+    "odmSolutionsDescription": "Kanıtlanmış IPL tasarımlarımızdan seçin ve markanız, ambalajınız ve benzersiz özelliklerinizle özelleştirin.",
+    "endToEndSupport": "Uçtan Uca Destek",
+    "endToEndSupportDescription": "İlk danışmanlıktan ürün lansmanı ve sonrasına kadar tam proje yönetimi, her adımda başarınızı güvence altına alır.",
+    "consultation": "Danışmanlık",
+    "consultationDescription": "Vizyonunuzu, pazarınızı ve gereksinimlerinizi anlama",
+    "design": "Tasarım",
+    "designDescription": "Özel tasarımlar oluşturma veya mevcut çözümleri uyarlama",
+    "prototype": "Prototip",
+    "prototypeDescription": "Kaliteyi sağlamak için prototip oluşturma ve test etme",
+    "manufacturing": "Üretim",
+    "manufacturingDescription": "Kalite güvencesi ile tam ölçekli üretim",
+    "launch": "Lansman",
+    "launchDescription": "Pazar girişinizi ve devam eden başarınızı destekleme",
+    "completeIPLSolutions": "Tam IPL Çözümleri",
+    "completeIPLSolutionsDescription": "İlk konseptten pazar lansmanına kadar, IPL vizyonunuzu başarılı ürünlere dönüştüren kapsamlı OEM/ODM çözümleri sağlıyoruz.",
+    "ourSolutionPortfolio": "Çözüm Portföyümüz",
+    "comprehensiveServices": "IPL ürünlerinizi pazara başarıyla getirmek için kapsamlı hizmetler",
+    "ourProcess": "Sürecimiz",
+    "streamlinedWorkflow": "Proje başarınızı sağlamak için akıcı iş akışı",
+    "industriesWeServe": "Hizmet Verdiğimiz Sektörler",
+    "tailoredSolutions": "Çeşitli pazar segmentleri için özel çözümler",
+    "provenSuccess": "Kanıtlanmış Başarı",
+    "numbersSpeak": "Uzmanlığımızı ve bağlılığımızı gösteren rakamlar",
+    "globalClients": "Küresel Müşteriler",
+    "productsLaunched": "Lansmanı Yapılan Ürünler",
+    "qualityRate": "Kalite Oranı",
+    "yearsExperience": "Yıl Tecrübe"
   },
   "about": {
-    "heroTitle": "About iShine",
-    "heroDesc": "Your trusted partner in IPL device manufacturing, bringing innovative beauty technology from concept to market since 2018.",
-    "storyTitle": "Our Story",
-    "storyP1": "Founded in 2018, iShine emerged from a vision to democratize advanced IPL technology. We recognized that beauty brands needed a reliable partner who could transform their ideas into market-ready products with precision and excellence.",
-    "storyP2": "Today, we're proud to serve clients across three continents, from innovative startups to established beauty conglomerates. Our commitment to quality, innovation, and customer success drives everything we do.",
-    "storyP3": "At iShine, we don't just manufacture devices – we craft solutions that empower brands to succeed in the competitive beauty market.",
-    "valuesTitle": "Our Core Values",
-    "valuesDesc": "The principles that guide our work and relationships with clients",
+    "heroTitle": "iShine Hakkında",
+    "heroDesc": "2018'den beri yenilikçi güzellik teknolojisini konseptten pazara getiren, IPL cihaz üretiminde güvenilir ortağınız.",
+    "storyTitle": "Hikayemiz",
+    "storyP1": "2018'de kurulan iShine, gelişmiş IPL teknolojisini demokratikleştirme vizyonundan doğdu. Güzellik markalarının fikirlerini hassasiyet ve mükemmellikle pazara hazır ürünlere dönüştürebilecek güvenilir bir ortağa ihtiyaç duyduğunu fark ettik.",
+    "storyP2": "Bugün, yenilikçi girişimlerden yerleşik güzellik holdinlerine kadar üç kıtada müşterilere hizmet vermekten gurur duyuyoruz. Kalite, inovasyon ve müşteri başarısına olan bağlılığımız yaptığımız her şeyi yönlendirir.",
+    "storyP3": "iShine'da sadece cihaz üretmiyoruz - markaların rekabetçi güzellik pazarında başarılı olmalarını güçlendiren çözümler üretiyoruz.",
+    "valuesTitle": "Temel Değerlerimiz",
+    "valuesDesc": "Çalışmalarımızı ve müşteri ilişkilerimizi yönlendiren ilkeler",
     "values": {
-      "qualityTitle": "Quality Excellence",
-      "qualityDesc": "FDA GMP certified manufacturing with rigorous quality control",
-      "customerTitle": "Customer Focus",
-      "customerDesc": "Dedicated to understanding and exceeding customer expectations",
-      "globalTitle": "Global Impact",
-      "globalDesc": "Serving beauty brands worldwide with innovative IPL solutions",
-      "innovationTitle": "Innovation Drive",
-      "innovationDesc": "Continuous R&D investment in next-generation IPL technology"
+      "qualityTitle": "Kalite Mükemmelliği",
+      "qualityDesc": "Sıkı kalite kontrolü ile FDA GMP sertifikalı üretim",
+      "customerTitle": "Müşteri Odaklılık",
+      "customerDesc": "Müşteri beklentilerini anlamaya ve aşmaya adanmış",
+      "globalTitle": "Küresel Etki",
+      "globalDesc": "Yenilikçi IPL çözümleri ile dünya çapında güzellik markalarına hizmet",
+      "innovationTitle": "İnovasyon Güdüsü",
+      "innovationDesc": "Yeni nesil IPL teknolojisinde sürekli Ar-Ge yatırımı"
     },
-    "journeyTitle": "Our Journey",
-    "journeyDesc": "Key milestones in our growth and innovation",
+    "journeyTitle": "Yolculuğumuz",
+    "journeyDesc": "Büyüme ve inovasyonumuzdaki önemli kilometre taşları",
     "milestones": {
-      "2018": { "title": "Company Founded", "desc": "iShine established as IPL device manufacturer" },
-      "2019": { "title": "First International Client", "desc": "Partnership with KU-2 Cosmetic in Germany" },
-      "2020": { "title": "FDA GMP Certification", "desc": "Achieved FDA GMP clean room certification" },
-      "2021": { "title": "Smart IPL Launch", "desc": "Introduced first app-controlled IPL devices" },
-      "2022": { "title": "Global Expansion", "desc": "Partnerships with Costco and ROSESKINCO" },
-      "2023": { "title": "AI Integration", "desc": "Launched AI-powered IPL technology" }
+      "2018": {
+        "title": "Şirket Kuruldu",
+        "desc": "iShine IPL cihaz üreticisi olarak kuruldu"
+      },
+      "2019": {
+        "title": "İlk Uluslararası Müşteri",
+        "desc": "Almanya'da KU-2 Cosmetic ile ortaklık"
+      },
+      "2020": {
+        "title": "FDA GMP Sertifikasyonu",
+        "desc": "FDA GMP temiz oda sertifikasyonu elde edildi"
+      },
+      "2021": {
+        "title": "Akıllı IPL Lansmanı",
+        "desc": "İlk uygulama kontrollü IPL cihazları tanıtıldı"
+      },
+      "2022": {
+        "title": "Küresel Genişleme",
+        "desc": "Costco ve ROSESKINCO ile ortaklıklar"
+      },
+      "2023": {
+        "title": "AI Entegrasyonu",
+        "desc": "AI destekli IPL teknolojisi lansmanı"
+      }
     },
-    "teamTitle": "Our Expert Team",
-    "teamDesc": "Dedicated professionals committed to your success",
+    "teamTitle": "Uzman Ekibimiz",
+    "teamDesc": "Başarınıza adanmış profesyoneller",
     "team": {
-      "rnd": "R&D Engineers",
-      "rndDesc": "Expert engineers developing cutting-edge IPL technology",
-      "quality": "Quality Specialists",
-      "qualityDesc": "Ensuring every device meets the highest standards",
-      "customer": "Customer Success",
-      "customerDesc": "Dedicated support from concept to market launch"
+      "rnd": "Ar-Ge Mühendisleri",
+      "rndDesc": "En son IPL teknolojisini geliştiren uzman mühendisler",
+      "quality": "Kalite Uzmanları",
+      "qualityDesc": "Her cihazın en yüksek standartları karşılamasını sağlama",
+      "customer": "Müşteri Başarısı",
+      "customerDesc": "Konseptten pazar lansmanına kadar özel destek"
     }
   },
   "countryPage": {
-    "title": "iShine - IPL Device Manufacturing Solutions | Global",
-    "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide."
+    "title": "iShine - IPL Cihaz Üretim Çözümleri | Küresel",
+    "description": "Dünya çapında fikirden pazara OEM/ODM çözümleri sağlayan önde gelen IPL cihaz üreticisi."
   },
   "howToUse": {
-    "heroTitle": "How to Use IPL Devices",
-    "heroDescription": "Complete guide to safe and effective IPL hair removal. Learn proper techniques, safety guidelines, and get the best results from your IPL device.",
-    "stepByStepTitle": "Step-by-Step Instructions",
-    "stepByStepDescription": "Follow these steps for safe and effective IPL treatment",
-    "safetyGuidelinesTitle": "Safety Guidelines",
-    "safetyGuidelinesDescription": "Essential safety information for IPL treatment",
-    "treatmentScheduleTitle": "Recommended Treatment Schedule",
-    "treatmentScheduleDescription": "Follow this schedule for optimal hair removal results",
-    "troubleshootingTitle": "Troubleshooting Guide",
-    "troubleshootingDescription": "Common issues and their solutions",
-    "faqTitle": "Frequently Asked Questions",
-    "faqDescription": "Get answers to common IPL treatment questions",
-    "videoTutorialsTitle": "Video Tutorials",
-    "videoTutorialsDescription": "Watch step-by-step video guides for proper IPL usage"
+    "heroTitle": "IPL Cihazları Nasıl Kullanılır",
+    "heroDescription": "Güvenli ve etkili IPL epilasyon için tam rehber. Doğru teknikleri, güvenlik yönergelerini öğrenin ve IPL cihazınızdan en iyi sonuçları alın.",
+    "stepByStepTitle": "Adım Adım Talimatlar",
+    "stepByStepDescription": "Güvenli ve etkili IPL tedavisi için bu adımları izleyin",
+    "safetyGuidelinesTitle": "Güvenlik Yönergeleri",
+    "safetyGuidelinesDescription": "IPL tedavisi için temel güvenlik bilgileri",
+    "treatmentScheduleTitle": "Önerilen Tedavi Programı",
+    "treatmentScheduleDescription": "Optimal epilasyon sonuçları için bu programı izleyin",
+    "troubleshootingTitle": "Sorun Giderme Rehberi",
+    "troubleshootingDescription": "Yaygın sorunlar ve çözümleri",
+    "faqTitle": "Sık Sorulan Sorular",
+    "faqDescription": "Yaygın IPL tedavisi sorularına yanıtlar alın",
+    "videoTutorialsTitle": "Video Eğitimleri",
+    "videoTutorialsDescription": "Doğru IPL kullanımı için adım adım video rehberleri izleyin"
   },
   "iplHairRemoval": {
-    "heroTitle": "Professional IPL Hair Removal Solutions",
-    "heroDescription": "Discover the next generation of IPL hair removal devices—safe, effective, and designed for all skin types. Experience salon-quality results at home or in your business.",
-    "iplDevicesTitle": "Our IPL Device Range",
-    "iplDevicesDescription": "Explore our full lineup of advanced IPL hair removal devices, each engineered for maximum comfort and results.",
-    "accessoriesTitle": "Essential IPL Accessories",
-    "accessoriesDescription": "Enhance your IPL experience with our range of certified accessories for safety and convenience.",
-    "advancedIplTitle": "Advanced IPL Technology",
-    "smartTechnologyIntegration": "Smart Technology Integration",
-    "smartTechnologyIntegrationDescription": "Our IPL devices feature intelligent sensors and app connectivity for personalized, safe, and effective treatments.",
-    "coolingComfortSystems": "Cooling Comfort Systems",
-    "coolingComfortSystemsDescription": "Sapphire and metal plate cooling keep your skin comfortable and protected during every session.",
-    "intelligentSkinSensors": "Intelligent Skin Sensors",
-    "intelligentSkinSensorsDescription": "Automatic skin tone and hair detection ensures optimal energy delivery and safety for every user."
+    "heroTitle": "Profesyonel IPL Epilasyon Çözümleri",
+    "heroDescription": "Yeni nesil IPL epilasyon cihazlarını keşfedin - güvenli, etkili ve tüm cilt tipleri için tasarlanmış. Evinizde veya işinizde salon kalitesinde sonuçlar deneyimleyin.",
+    "iplDevicesTitle": "IPL Cihaz Yelpazemiz",
+    "iplDevicesDescription": "Her biri maksimum konfor ve sonuçlar için mühendislik yapılmış gelişmiş IPL epilasyon cihazlarımızın tam koleksiyonunu keşfedin.",
+    "accessoriesTitle": "Temel IPL Aksesuarları",
+    "accessoriesDescription": "Güvenlik ve rahatlık için sertifikalı aksesuar yelpazemiz ile IPL deneyiminizi geliştirin.",
+    "advancedIplTitle": "Gelişmiş IPL Teknolojisi",
+    "smartTechnologyIntegration": "Akıllı Teknoloji Entegrasyonu",
+    "smartTechnologyIntegrationDescription": "IPL cihazlarımız kişiselleştirilmiş, güvenli ve etkili tedaviler için akıllı sensörler ve uygulama bağlantısı özelliklerine sahiptir.",
+    "coolingComfortSystems": "Soğutma Konfor Sistemleri",
+    "coolingComfortSystemsDescription": "Safir ve metal plaka soğutma, her seans boyunca cildinizi rahat ve korumalı tutar.",
+    "intelligentSkinSensors": "Akıllı Cilt Sensörleri",
+    "intelligentSkinSensorsDescription": "Otomatik cilt tonu ve saç algılama, her kullanıcı için optimal enerji iletimi ve güvenlik sağlar."
+  },
+  "ipl": {
+    "aiPowered": {
+      "title": "AI Destekli IPL Cihazı",
+      "desc": "Epilasyonun geleceği burada. Yapay zeka kişiselleştirilmiş, etkili sonuçlar için her tedaviyi optimize eder.",
+      "features": {
+        "aiTech": "AI Teknolojisi",
+        "aiTechDesc": "Akıllı öğrenme algoritmaları",
+        "smartProcessing": "Akıllı İşleme",
+        "smartProcessingDesc": "Gerçek zamanlı optimizasyon",
+        "analytics": "Gelişmiş Analitik",
+        "analyticsDesc": "Detaylı ilerleme takibi",
+        "personalized": "Kişiselleştirilmiş",
+        "personalizedDesc": "İhtiyaçlarınıza göre özelleştirilmiş"
+      }
+    },
+    "battery": {
+      "title": "Bataryalı IPL Cihazı",
+      "desc": "Bataryalı IPL cihazımız ile en üst düzey kablosuz rahatlığı deneyimleyin. Yüksek kapasiteli şarj edilebilir batarya ile donatılmış, güç adaptörlerine ihtiyaç duymadan kesintisiz mobilite sunar. Kişiselleştirilmiş tedaviler için 9 ayarlanabilir enerji seviyesi ile profesyonel seviyede epilasyonun keyfini her yerde, her zaman çıkarın.",
+      "features": {
+        "energyLevels": "Özelleştirilmiş tedaviler için 9 ayarlanabilir enerji seviyesi.",
+        "longBattery": "600+ şarj döngüsü ile uzun ömürlü şarj edilebilir batarya.",
+        "noAdapter": "Kullanım sırasında güç adaptörüne gerek yok, seyahat için ideal.",
+        "allSkin": "Tüm cilt tonları için uygun, FDA ve CE onaylı."
+      }
+    },
+    "dualLamp": {
+      "title": "Çift Lamba IPL Cihazı",
+      "desc": "Çifte güç, çifte verimlilik. Daha hızlı tedaviler ve üstün sonuçlar için devrimci çift lamba teknolojisi.",
+      "features": {
+        "dualLamps": "Çift Lambalar",
+        "dualLampsDesc": "Gelişmiş güç ve kapsama",
+        "faster": "Daha Hızlı Tedavi",
+        "fasterDesc": "Azaltılmış seans süresi",
+        "proPower": "Profesyonel Güç",
+        "proPowerDesc": "Salon seviyesi performans",
+        "evenCoverage": "Eşit Kapsama",
+        "evenCoverageDesc": "Uniform ışık dağılımı"
+      }
+    },
+    "emerald": {
+      "title": "Emerald IPL Epilasyon Cihazı",
+      "desc": "15 J/cm² enerji ve 600,000+ flash ile gelişmiş Yoğun Darbeli Işık teknolojisi özellikli Emerald IPL Cihazımız ile evde profesyonel seviyede epilasyon deneyimi yaşayın. Hassasiyet mühendisliği sistemi tüm tedavi alanlarında tutarlı sonuçlar sunar.",
+      "features": {
+        "proResults": "Profesyonel sonuçlar - 12 hafta sonra %94'e kadar saç azalması.",
+        "manualIntensity": "Kişiselleştirilmiş tedaviler için 5 seviye manuel yoğunluk kontrolü.",
+        "safeAllSkin": "Fitzpatrick I-V aralığındaki tüm cilt tonları için güvenli.",
+        "largeWindow": "Daha hızlı kapsama için büyük 4.2 cm² tedavi penceresi.",
+        "ergonomic": "Yerleşik güvenlik sensörleri ile ergonomik tasarım."
+      }
+    },
+    "handheld": {
+      "title": "El Tipi IPL Epilasyon Cihazı",
+      "desc": "El tipi IPL cihazımız ile konfor ve performansın mükemmel karışımını keşfedin. Kolay kavrama ve hassas kontrol için tasarlanmış, tüm cilt tiplerine ve hassasiyetlerine uyacak şekilde 5 ayarlanabilir enerji seviyesi sunar. Hafif, taşınabilir bir cihazla evde salon kalitesinde epilasyon sonuçları elde edin.",
+      "features": {
+        "ergonomic": "Rahat kullanım için ergonomik el tipi tasarım.",
+        "energyLevels": "Kişiselleştirilmiş tedaviler için 5 ayarlanabilir enerji seviyesi.",
+        "portable": "Hafif ve taşınabilir - seyahat ve evde kullanım için ideal.",
+        "allSkin": "Tüm cilt tonları için uygun, nazik ve etkili.",
+        "certified": "Güvenlik ve kalite için FDA ve CE onaylı."
+      }
+    },
+    "iceCooling": {
+      "title": "Buz Soğutma IPL Epilasyon Cihazı",
+      "desc": "Profesyonel seviyede lüks buz soğutma epilasyon teknolojisi deneyimi yaşayın, deriyi anında 5°C ultra düşük sıcaklığa soğutan havacılık sınıfı soğutma metal plakası özellikli. 2.0~5.0 J/cm² yüksek enerjili IPL darbeleri ve 999,000+ flash ile birleşerek tanrıça gibi ipeksi cilt deneyimi sunar. Lüks tasarım mükemmellik arayan modern kadınlar için hazırlanmıştır.",
+      "features": {
+        "luxuryDesign": "Lüks tanrıça tasarımı - Havacılık sınıfı metal doku, asil zevki sergiler.",
+        "coolingPlate": "Buz soğutma plakası teknolojisi - Deriyi anında 5°C'ye soğutarak gerçekten ağrısız deneyim.",
+        "preciseControl": "9 seviye hassas enerji kontrolü - Hassas bölgeler ve kalın saçlar için özelleştirilebilir.",
+        "allSkin": "Tüm cilt tonları için uygun - Fitzpatrick I-V sertifikalı.",
+        "largeWindow": "3.3 cm² ekstra büyük tedavi penceresi - Hızlı kapsama, %50 daha yüksek verimlilik."
+      }
+    },
+    "iceFeeling": {
+      "title": "Buz Hissi IPL Cihazı",
+      "desc": "Deriyi 5°C'ye kadar soğutan klinik kalitedeki Safir soğutma plakası ile ağrısız epilasyon deneyimi yaşayın, daha hızlı sonuçlar için daha yüksek enerji darbeleri sağlar. Entegre Yoğun Darbeli Işık (IPL) motoru, ömür boyu kullanım için 999,999 flash ile 2.0~5.0 J/cm² enerji sunar.",
+      "features": {
+        "longSmooth": "Uzun süreli pürüzsüzlük - 3-4 hafta sonra görünür azalma.",
+        "cooling": "Soğutma plakası epidermisi 5°C'de tutarak gerçekten ağrısız tedaviler sağlar.",
+        "energyLevels": "Beş enerji seviyesi Fitzpatrick I-V dahilindeki neredeyse tüm cilt tonlarına uyum sağlar.",
+        "flashModes": "Vücut ve hassas bölgeler için Otomatik/Manuel flash modları.",
+        "multiUse": "4'ü 1 arada: Tüm vücut, Bikini, Yüz ve cilt yenilenmesi."
+      }
+    },
+    "skinSensor": {
+      "title": "Cilt Sensörü IPL Cihazı",
+      "desc": "Cilt Sensörü IPL Cihazımız ile evde en güvenli ve en akıllı epilasyon deneyimi yaşayın. Bu devrimci cihaz, cilt tonunuzu ve saç renginizi otomatik olarak algılayan gelişmiş optik cilt sensörlerine sahiptir - maksimum etkinlik ve tam güvenlik için kişiselleştirilmiş tedavi yoğunluğu sunar. Gerçek zamanlı cilt analizi ve otomatik enerji ayarı ile bu cihaz tüm uygun cilt tipleri için mükemmeldir ve her seferinde optimal sonuçlar garanti eder.",
+      "features": {
+        "intelligentDetection": "Akıllı Cilt Algılama - Gelişmiş sensörler otomatik olarak cilt tonunu tanıyıp enerji seviyelerini ayarlar",
+        "maxSafety": "Maksimum Güvenlik - Aşırı tedaviyi önler ve cilt tahrişi veya yanık riskini azaltır",
+        "personalized": "Kişiselleştirilmiş Tedavi - Benzersiz cilt özellikleriniz için yoğunluğu otomatik olarak optimize eder",
+        "realTime": "Gerçek Zamanlı Analiz - Sürekli izleme tutarlı, güvenli tedavi seansları sağlar",
+        "proResults": "Profesyonel Sonuçlar - Evinizin konforunda salon kalitesinde epilasyon"
+      }
+    },
+    "smartApp": {
+      "title": "Akıllı Uygulama IPL Epilasyon Cihazı",
+      "desc": "IPL cihazınızı SmartApp uygulamamıza Bluetooth üzerinden sorunsuzca bağlayın. Rehberli tedaviler, gerçek zamanlı seans takibi, kişiselleştirilmiş rutinler ve AI destekli öngörülerin keyfini çıkarın. Yoğunluk seviyelerini kontrol edin, ilerlemeyi izleyin ve hatırlatıcılar alın - hepsi akıllı telefonunuzdan.",
+      "features": {
+        "bluetooth": "Kararlı eşleştirme için Bluetooth 5.0 bağlantısı",
+        "aiPlans": "AI analizi ile kişiselleştirilmiş tedavi planları",
+        "realTimeControl": "Gerçek zamanlı yoğunluk kontrolü ve ekran geri bildirimi",
+        "scheduling": "Seans programlama ve kullanım hatırlatıcıları",
+        "compatibility": "iOS ve Android ile uyumlu"
+      }
+    }
+  },
+  "faq": {
+    "title": "Sık Sorulan Sorular",
+    "shipping": {
+      "q": "Dünya çapında kargo yapabiliyor musunuz?",
+      "a": "Kesinlikle. Nerede olursanız olun işinizi desteklemek için güvenilir dünya çapında kargo hizmeti sunuyoruz."
+    },
+    "customization": {
+      "q": "Cihaz fonksiyonlarını özelleştirebilir miyim?",
+      "a": "Evet, marka ihtiyaçlarınıza uyacak şekilde özelliklerin, renklerin, ambalajın ve daha fazlasının tam özelleştirmesini sunuyoruz."
+    },
+    "certifications": {
+      "q": "Hangi sertifikaları destekliyorsunuz?",
+      "a": "Hedef pazarlarınızda uyumluluğu sağlamak için FDA, CE, RoHS ve diğer küresel sertifikaları destekliyoruz."
+    },
+    "leadTime": {
+      "q": "Üretim teslim süresi ne kadar?",
+      "a": "Tipik teslim süresi, sipariş boyutu ve özelleştirmeye bağlı olarak numune onayından sonra 25-35 gündür."
+    },
+    "afterSales": {
+      "q": "Satış sonrası destek sağlıyor musunuz?",
+      "a": "Evet, teknik destek ve garanti dahil kapsamlı satış sonrası hizmet sunuyoruz."
+    }
+  },
+  "cta": {
+    "getSupport": "Şimdi Destek Alın",
+    "readyToStart": "Başlamaya Hazır mısınız?",
+    "contactUs": "Bize Ulaşın",
+    "freeQuote": "Ücretsiz Teklif Alın",
+    "readMore": "Daha Fazla Oku"
+  },
+  "form": {
+    "name": "İsim",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "country": "Ülke",
+    "message": "Mesaj",
+    "submit": "Gönder",
+    "sending": "Gönderiliyor...",
+    "success": "Mesajınız başarıyla gönderildi!",
+    "error": "Mesajınızı gönderirken bir hata oluştu. Lütfen tekrar deneyin."
+  },
+  "blog": {
+    "posts": {
+      "sustainableManufacturing": {
+        "title": "Sürdürülebilir Üretim: Yeşil IPL Üretim Yöntemleri",
+        "intro": "Evde kullanım için IPL (Yoğun Darbeli Işık) epilasyon cihazlarına olan talep arttıkça, bu elektronik cihazları minimum çevresel etki ile üretme sorumluluğu da artmaktadır. Sürdürülebilir üretim artık bir trend değil, bir zorunluluktur - ham madde tedarikinden ömür sonu geri dönüşümüne kadar her aşamayı kapsar. Bu makale IPL cihaz üretiminin çevresel ayak izini değerlendirir ve elektronik, optik, çevre dostu ABS kasalar, sürdürülebilir ambalaj ve atık yeniden kullanımına odaklanarak gerçekten yeşil bir tedarik zinciri elde etmek için yenilikçi, pratik stratejileri keşfeder.",
+        "sections": {
+          "environmentalImpact": "IPL Cihaz Üretiminin Çevresel Etki Değerlendirmesi",
+          "electronics": "1. Elektronik Bileşenler",
+          "optics": "2. Optik Bileşenler (Lensler ve Filtreler)",
+          "absHousing": "3. ABS Çevre Dostu Kasalar",
+          "packaging": "4. Sürdürülebilir Kağıt Ambalaj",
+          "wasteReduction": "5. Atık Azaltma ve Yeniden Kullanım",
+          "supplyChain": "Sürdürülebilir Tedarik Zinciri İnovasyonları",
+          "feasibility": "Yeşil IPL Tedarik Zincirinin Uygulanabilirliği",
+          "commitment": "iShine'ın Sürdürülebilirlik Taahhüdü",
+          "references": "Kaynaklar"
+        }
+      },
+      "globalMarketShifts": {
+        "title": "Küresel Pazar Değişimleri: IPL Cihaz Trendleri ve Fırsatları",
+        "intro": "IPL cihaz benimsenmesindeki en son küresel trendleri, düzenleyici değişiklikleri ve markalar ile üreticiler için pazar fırsatlarını keşfedin.",
+        "sections": {
+          "marketOverview": "Pazar Genel Bakış",
+          "regionalTrends": "Bölgesel Trendler",
+          "regulatoryChanges": "Düzenleyici Değişiklikler",
+          "consumerPreferences": "Tüketici Tercihleri",
+          "opportunities": "Markalar için Fırsatlar",
+          "challenges": "Zorluklar ve Riskler",
+          "futureOutlook": "Gelecek Görünümü"
+        }
+      },
+      "aiPoweredSkinSensing": {
+        "title": "AI Destekli Cilt Algılama: IPL Güvenliğinde Yeni Sınır",
+        "intro": "Yapay zekanın gerçek zamanlı cilt analizi ile IPL cihaz güvenliği ve kişiselleştirmesinde nasıl devrim yarattığı.",
+        "sections": {
+          "introduction": "Giriş",
+          "aiTechnology": "IPL'de AI Teknolojisi",
+          "skinSensing": "Cilt Algılama Mekanizmaları",
+          "safetyBenefits": "Güvenlik Faydaları",
+          "userExperience": "Kullanıcı Deneyimi",
+          "caseStudies": "Vaka Çalışmaları",
+          "conclusion": "Sonuç"
+        }
+      },
+      "multiHeadIPLSystems": {
+        "title": "Çok Başlıklı IPL Sistemleri: Hassasiyet Tam Vücut Verimliliği ile Buluşuyor",
+        "intro": "Evde epilasyonun evrimi, çok başlıklı Yoğun Darbeli Işık (IPL) sistemlerinin tanıtılmasıyla derinlemesine şekillenmiştir. Philips, değiştirilebilir başlık teknolojisi ile bu trendi öncülüğü yapmış, evde kullanım IPL cihazlarında çok yönlülük ve kullanıcı merkezli tasarım için yeni bir standart belirlemiştir.",
+        "sections": {
+          "philipsLegacy": "Philips Mirası: Çok Başlıklı IPL için Standart Belirleme",
+          "keyFeatures": "Çok Başlıklı IPL Cihazlarının Temel Özellikleri",
+          "respondingToVIO": "VIO Epilasyon İhtiyaçlarına Yanıt",
+          "whyMultiHeadMatters": "Çok Başlıklı Tasarım Neden Önemli",
+          "painReduction": "Ağrı Azaltma: Gelişmiş Filtrelerin Rolü",
+          "realUserFeedback": "Gerçek Kullanıcı Geri Bildirimleri",
+          "conclusion": "Sonuç",
+          "references": "Kaynaklar"
+        }
+      },
+      "sapphireCooling": {
+        "title": "Safir Soğutma: IPL Tedavilerinde Konforu Artırma",
+        "intro": "Safir soğutma teknolojisinin IPL epilasyon tedavilerinin konfor ve güvenliğini nasıl dönüştürdüğünü keşfedin.",
+        "sections": {
+          "technologyOverview": "Teknoloji Genel Bakış",
+          "coolingMechanism": "Safir Soğutma Nasıl Çalışır",
+          "benefits": "Kullanıcılar için Faydalar",
+          "clinicalEvidence": "Klinik Kanıtlar",
+          "deviceComparison": "Cihaz Karşılaştırması",
+          "userTestimonials": "Kullanıcı Referansları",
+          "conclusion": "Sonuç"
+        }
+      },
+      "industries": {
+        "title": "Hizmet Verdiğimiz Endüstriler: Sektörler Arası IPL Uygulamaları",
+        "intro": "IPL teknolojisi sadece güzellik için değil - tıp, veterinerlik ve endüstriyel sektörlerdeki uygulamalarını keşfedin.",
+        "sections": {
+          "beauty": "Güzellik Endüstrisi",
+          "medical": "Tıbbi Uygulamalar",
+          "veterinary": "Veterinerlik Kullanımları",
+          "industrial": "Endüstriyel Uygulamalar",
+          "caseStudies": "Vaka Çalışmaları",
+          "futureTrends": "Gelecek Trendleri"
+        }
+      },
+      "iplBestChoice": {
+        "title": "IPL Evde Epilasyon Cihazları Neden Tüm Epilasyon Araçları Arasında En İyi Seçim",
+        "intro": "IPL'nin neden evde uzun vadeli epilasyon için en etkili, konforlu ve uygun çözüm olduğunu keşfedin - bilim ve gerçek kullanıcı deneyimi ile desteklenen.",
+        "sections": {
+          "comparison": "Epilasyon Yöntemleri Karşılaştırması",
+          "whyChooseIPL": "Neden IPL Evde Epilasyon Seçilmeli?",
+          "userStories": "Gerçek Kullanıcı Hikayeleri",
+          "faq": "Sık Sorulan Sorular",
+          "recommendedBlog": "Önerilen Blog",
+          "exploreMore": "Daha Fazla Keşfet"
+        }
+      },
+      "futureHomeHairRemoval": {
+        "title": "Evde Epilasyon Cihazlarının Geleceği: Trendler, İnovasyonlar ve Gelecekte Neler Var",
+        "intro": "Evde epilasyon cihazlarının evrimini, mevcut atılımları ve yeni nesil teknolojilerini keşfedin - 2025 ve sonrası için AI, çok fonksiyonluluk ve sürdürülebilir tasarım.",
+        "sections": {
+          "evolution": "Evde Epilasyon Teknolojisinin Evrimi",
+          "stateOfTheArt": "Yeni Nesil Cihazların Temel Özellikleri (2025)",
+          "aiPersonalization": "Epilasyonda AI ve Kişiselleştirme",
+          "vision": "'Nihai' Evde Epilasyon Cihazı: Bir Vizyon",
+          "challenges": "Zorluklar ve Değerlendirmeler",
+          "faq": "Sık Sorulan Sorular",
+          "exploreMore": "Daha Fazla Keşfet",
+          "aboutAuthor": "Yazar Hakkında"
+        }
+      },
+      "fda510kPathway": {
+        "title": "FDA 510(k) Yolu: IPL için Tıbbi Cihaz Sınıflandırmasında Gezinme",
+        "intro": "Evde kullanım IPL epilasyon cihazları için FDA 510(k) yoluna kapsamlı bir rehber. Düzenleyici gereksinimler, pazarlama iddiaları ve iShine'ın markaların uyumluluğa ulaşmasına nasıl yardımcı olduğunu öğrenin.",
+        "sections": {
+          "introduction": "Giriş",
+          "pathway": "1. Evde IPL Cihazları için FDA 510(k) Yolu",
+          "marketingClaims": "2. Pazarlama İddialarının Düzenleyici Sınıflandırmayı Nasıl Etkilediği",
+          "ishineExpertise": "3. iShine'ın Markanızın FDA 510(k) Listesini Güvence Altına Alma Uzmanlığı",
+          "benefits": "4. Markaya Özel FDA 510(k) Listesi Almanın Faydaları",
+          "guidance": "5. Markalar için Pratik Rehberlik",
+          "conclusion": "Sonuç",
+          "faq": "Sık Sorulan Sorular",
+          "exploreMore": "Daha Fazla Keşfet",
+          "author": "Yazar Hakkında"
+        }
+      }
+    }
+  },
+  "floating": {
+    "contact": "Bize Ulaşın",
+    "backToTop": "Başa Dön"
   }
 }
