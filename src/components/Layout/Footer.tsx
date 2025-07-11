@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-300 text-sm">
-              <li>Tel: <a href="tel:+8615900283962" className="hover:text-white transition-colors">+86-15900283962</a></li>
+              <li>Tel: <a href="tel:+8613823508753" className="hover:text-white transition-colors">+86-13823508753</a></li>
               <li>WhatsApp: <a href="https://wa.me/8615012891148" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">+86-15012891148</a></li>
               <li>Email: <a href="mailto:service@iplmanufacturer.com" className="hover:text-white transition-colors">service@iplmanufacturer.com</a></li>
               <li>ADDRESS: 208 Room, 4 Building, No.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, China, 518071</li>
