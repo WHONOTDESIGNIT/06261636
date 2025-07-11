@@ -116,84 +116,84 @@
       "cta": "Get Quote"
     },
     "partners": {
-      "title": "Trusted by Global Brands",
-      "subtitle": "Working with industry leaders worldwide"
+      "title": "İşbirliği Yaptığımız Markalar",
+      "subtitle": "Dünya çapında endüstri liderleri ile çalışma"
     },
     "features": {
-      "title": "Why Choose iShine?",
-      "subtitle": "Complete IPL manufacturing solutions tailored to your needs"
+      "title": "Neden iShine'ı Seçmelisiniz?",
+      "subtitle": "İhtiyaçlarınıza göre özelleştirilmiş tam IPL üretim çözümleri"
     },
     "products": {
-      "title": "Our IPL Device Range",
-      "subtitle": "Wide Range IPL devices for every needs",
-      "cta": "View All IPL Devices"
+      "title": "IPL Cihaz Yelpazemiz",
+      "subtitle": "Her ihtiyaç için geniş IPL cihaz yelpazesi",
+      "cta": "Tüm IPL Cihazlarını Görüntüle"
     },
     "cta": {
-      "title": "Need help?",
-      "subtitle": "Let's discuss your requirements and create the IPL solution that best fit for your brand.",
-      "button": "Fill out the form to enjoy Free Consultation"
+      "title": "Yardıma mı ihtiyacınız var?",
+      "subtitle": "Gereksinimlerinizi tartışalım ve markanıza en uygun IPL çözümünü oluşturalım.",
+      "button": "Ücretsiz Danışmanlık için formu doldurun"
     }
   },
   "contact": {
     "hero": {
-      "title": "Contact Us",
-      "description": "Ready to discuss your IPL project? Get in touch with our expert team today. We're here to help bring your vision to life."
+      "title": "Bize Ulaşın",
+      "description": "IPL projenizi tartışmaya hazır mısınız? Bugün uzman ekibimizle iletişime geçin. Vizyonunuzu hayata geçirmenize yardımcı olmak için buradayız."
     },
     "info": {
-      "title": "Get in Touch",
-      "subtitle": "Multiple ways to reach us - choose what works best for you",
+      "title": "İletişim Kurun",
+      "subtitle": "Bize ulaşmanın birden fazla yolu - sizin için en uygun olanı seçin",
       "address": {
-        "title": "Address",
+        "title": "Adres",
         "company": "iShine Manufacturing Co., Ltd.",
-        "location": "Shenzhen, Guangdong, China"
+        "location": "Shenzhen, Guangdong, Çin"
       },
       "phone": {
-        "title": "Phone"
+        "title": "Telefon"
       },
       "email": {
-        "title": "Email"
+        "title": "E-posta"
       },
       "hours": {
-        "title": "Business Hours",
-        "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
-        "saturday": "Saturday: 9:00 AM - 12:00 PM"
+        "title": "İş Saatleri",
+        "weekdays": "Pazartesi - Cuma: 09:00 - 18:00",
+        "saturday": "Cumartesi: 09:00 - 12:00"
       }
     },
     "map": {
-      "title": "Visit Our Facility",
-      "subtitle": "Located in the heart of Shenzhen's manufacturing district"
+      "title": "Tesisimizi Ziyaret Edin",
+      "subtitle": "Shenzhen üretim bölgesinin kalbinde yer alıyor"
     },
     "form": {
-      "title": "What's in your mind? Let's talk!",
-      "subtitle": "Fill out this form to get the process started. We'll be in touch within 24hrs.",
-      "name": "Name*",
-      "email": "Email Address*",
-      "phone": "Phone number* e.g.(+1-541-3456-3001)",
-      "country": "Country",
-      "message": "Describe your needs here*",
-      "submit": "Submit",
-      "sending": "Sending..."
+      "title": "Aklınızda ne var? Konuşalım!",
+      "subtitle": "Süreci başlatmak için bu formu doldurun. 24 saat içinde sizinle iletişime geçeceğiz.",
+      "name": "İsim*",
+      "email": "E-posta Adresi*",
+      "phone": "Telefon numarası* ör.(+1-541-3456-3001)",
+      "country": "Ülke",
+      "message": "İhtiyaçlarınızı burada açıklayın*",
+      "submit": "Gönder",
+      "sending": "Gönderiliyor..."
     },
-    "title": "Contact Us",
-    "subtitle": "Get in touch with our team for business inquiries, support, or partnership opportunities.",
-    "companyPhotoAlt": "iShine Manufacturing Facility"
+    "title": "Bize Ulaşın",
+    "subtitle": "İş sorguları, destek veya ortaklık fırsatları için ekibimizle iletişime geçin.",
+    "companyPhotoAlt": "iShine Üretim Tesisi"
   },
   "buttons": {
-    "getQuote": "Get Quote",
-    "viewSolutions": "View Our Solutions",
-    "scheduleConsultation": "Schedule Consultation",
-    "submit": "Submit",
-    "sending": "Sending...",
-    "viewAll": "View All"
+    "getQuote": "Teklif Al",
+    "viewSolutions": "Çözümlerimizi Görüntüle",
+    "scheduleConsultation": "Danışmanlık Planla",
+    "submit": "Gönder",
+    "sending": "Gönderiliyor...",
+    "viewAll": "Tümünü Görüntüle"
   },
   "common": {
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "success": "Success",
-    "readMore": "Read More",
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
-    "contactUs": "Contact Us"
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "success": "Başarılı",
+    "readMore": "Daha Fazla Oku",
+    "learnMore": "Daha Fazla Öğren",
+    "getStarted": "Başlayın",
+    "contactUs": "Bize Ulaşın"
   },
   "solutions": {
     "productDesignDevelopment": "Product Design & Development",
