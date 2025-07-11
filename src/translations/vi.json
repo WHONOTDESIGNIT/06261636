@@ -129,15 +129,15 @@
       "cta": "Xem Tất Cả Thiết Bị IPL"
     },
     "cta": {
-      "title": "Bạn Cần Hỗ Trợ?",
+      "title": "Sẵn Sàng Bắt Đầu Dự Án IPL Của Bạn?",
       "subtitle": "Hãy thảo luận về yêu cầu của bạn và tạo ra giải pháp IPL hoàn hảo cho thương hiệu của bạn.",
-      "button": "Điền vào biểu mẫu để tận hưởng tư vấn miễn phí"
+      "button": "Đặt Lịch Tư Vấn"
     }
   },
   "contact": {
     "hero": {
       "title": "Liên Hệ Với Chúng Tôi",
-      "description": "Sẵn sàng thảo luận về dự án IPL của bạn?"
+      "description": "Sẵn sàng thảo luận về dự án IPL của bạn? Hãy liên hệ với đội ngũ chuyên gia của chúng tôi ngay hôm nay. Chúng tôi sẵn sàng giúp bạn hiện thực hóa tầm nhìn của mình."
     },
     "info": {
       "title": "Giữ Liên Lạc",
@@ -164,11 +164,11 @@
       "subtitle": "Tọa lạc tại trung tâm khu sản xuất của Thâm Quyến"
     },
     "form": {
-      "title": "Bạn đang nghĩ gì?",
-      "subtitle": "Điền vào biểu mẫu này để bắt đầu quá trình.",
+      "title": "Bạn có điều gì trong đầu? Hãy trò chuyện.",
+      "subtitle": "Điền vào biểu mẫu này để bắt đầu quá trình. Chúng tôi sẽ liên hệ lại trong vòng 4 giờ.",
       "name": "Tên*",
       "email": "Địa chỉ email*",
-      "phone": "Số điện thoại* ví dụ (+1-541-3456-3001)",
+      "phone": "Số điện thoại* ví dụ (+84-123-456-789)",
       "country": "Quốc gia",
       "message": "Mô tả nhu cầu của bạn tại đây*",
       "submit": "Gửi",
@@ -197,39 +197,234 @@
   },
   "solutions": {
     "productDesignDevelopment": "Thiết Kế & Phát Triển Sản Phẩm",
-    "productDesignDevelopmentDescription": "Từ ý tưởng ban đầu đến thiết kế cuối cùng, đội ngũ chuyên gia của chúng tôi hiện thực hóa tầm nhìn IPL của bạn với công nghệ tiên tiến và thông tin thị trường."
+    "productDesignDevelopmentDescription": "Từ ý tưởng ban đầu đến thiết kế cuối cùng, đội ngũ chuyên gia của chúng tôi hiện thực hóa tầm nhìn IPL của bạn với công nghệ tiên tiến và thông tin thị trường.",
+    "oemManufacturing": "Sản Xuất OEM",
+    "oemManufacturingDescription": "Giải pháp sản xuất hoàn chỉnh theo thông số kỹ thuật của bạn. Chúng tôi xử lý sản xuất để bạn có thể tập trung vào thương hiệu và thị trường.",
+    "odmSolutions": "Giải Pháp ODM",
+    "odmSolutionsDescription": "Chọn từ các thiết kế IPL đã được chứng minh và tùy chỉnh với thương hiệu, bao bì và tính năng độc đáo của bạn.",
+    "endToEndSupport": "Hỗ Trợ Toàn Diện",
+    "endToEndSupportDescription": "Từ tư vấn ban đầu đến ra mắt sản phẩm và hơn thế nữa, chúng tôi cung cấp quản lý dự án hoàn chỉnh và đảm bảo thành công của bạn ở mọi giai đoạn.",
+    "consultation": "Tư Vấn",
+    "consultationDescription": "Hiểu tầm nhìn, thị trường và yêu cầu của bạn",
+    "design": "Thiết Kế",
+    "designDescription": "Tạo thiết kế tùy chỉnh hoặc điều chỉnh giải pháp hiện có",
+    "prototype": "Tạo Mẫu",
+    "prototypeDescription": "Xây dựng và thử nghiệm nguyên mẫu để đảm bảo chất lượng",
+    "manufacturing": "Sản Xuất",
+    "manufacturingDescription": "Sản xuất quy mô lớn với đảm bảo chất lượng",
+    "launch": "Ra Mắt",
+    "launchDescription": "Hỗ trợ ra mắt thị trường và thành công liên tục của bạn",
+    "completeIPLSolutions": "Giải Pháp IPL Hoàn Chỉnh",
+    "completeIPLSolutionsDescription": "Từ ý tưởng ban đầu đến ra mắt thị trường, chúng tôi cung cấp giải pháp OEM/ODM toàn diện để biến tầm nhìn IPL của bạn thành sản phẩm thành công.",
+    "ourSolutionPortfolio": "Danh Mục Giải Pháp Của Chúng Tôi",
+    "comprehensiveServices": "Dịch vụ toàn diện để đưa sản phẩm IPL của bạn ra thị trường",
+    "ourProcess": "Quy Trình Của Chúng Tôi",
+    "streamlinedWorkflow": "Quy trình làm việc hợp lý để đảm bảo thành công dự án",
+    "industriesWeServe": "Các Ngành Chúng Tôi Phục Vụ",
+    "tailoredSolutions": "Giải pháp được thiết kế riêng cho các phân khúc thị trường đa dạng",
+    "provenSuccess": "Thành Công Đã Được Chứng Minh",
+    "numbersSpeak": "Con số nói lên chuyên môn và cam kết của chúng tôi",
+    "globalClients": "Khách Hàng Toàn Cầu",
+    "productsLaunched": "Sản Phẩm Đã Ra Mắt",
+    "qualityRate": "Chất Lượng",
+    "yearsExperience": "Năm Kinh Nghiệm"
   },
-  "iplDevices": {
-    "iceFeeling": {
-      "title": "Thiết bị IPL cảm giác băng",
-      "desc": "Trải nghiệm việc triệt lông không đau với tấm làm mát sapphire cấp lâm sàng làm mát da xuống 5°C, cho phép xung năng lượng cao hơn để có kết quả nhanh hơn. Động cơ Intense Pulsed Light (IPL) tích hợp cung cấp 2.0~5.0 J/cm² năng lượng với 999,999 flash cho việc sử dụng suốt đời.",
+  "about": {
+    "heroTitle": "Về iShine",
+    "heroDesc": "Kể từ năm 2018, chúng tôi là đối tác đáng tin cậy trong sản xuất thiết bị IPL, đưa công nghệ làm đẹp sáng tạo từ ý tưởng đến thị trường.",
+    "storyTitle": "Câu Chuyện Của Chúng Tôi",
+    "storyP1": "Được thành lập vào năm 2018, iShine ra đời từ tầm nhìn dân chủ hóa công nghệ IPL tiên tiến. Chúng tôi nhận ra rằng các thương hiệu làm đẹp cần một đối tác đáng tin cậy có thể biến ý tưởng thành sản phẩm sẵn sàng cho thị trường với độ chính xác và xuất sắc.",
+    "storyP2": "Ngày nay, chúng tôi tự hào phục vụ khách hàng trên 4 châu lục, từ các startup sáng tạo đến các tập đoàn làm đẹp đã thành danh. Cam kết của chúng tôi đối với chất lượng, sự đổi mới và thành công của khách hàng thúc đẩy mọi điều chúng tôi làm.",
+    "storyP3": "Tại iShine, chúng tôi không chỉ sản xuất thiết bị - chúng tôi tạo ra những giải pháp giúp thương hiệu thành công trong thị trường làm đẹp cạnh tranh.",
+    "valuesTitle": "Giá Trị Cốt Lõi",
+    "valuesDesc": "Những nguyên tắc hướng dẫn hoạt động của chúng tôi và mối quan hệ với khách hàng",
+    "values": {
+      "qualityTitle": "Chất Lượng Xuất Sắc",
+      "qualityDesc": "Sản xuất đạt chứng nhận FDA GMP với kiểm soát chất lượng nghiêm ngặt",
+      "customerTitle": "Tập Trung Vào Khách Hàng",
+      "customerDesc": "Cam kết hiểu và vượt quá kỳ vọng của khách hàng",
+      "globalTitle": "Tác Động Toàn Cầu",
+      "globalDesc": "Trao quyền cho các thương hiệu làm đẹp trên toàn thế giới với giải pháp IPL sáng tạo",
+      "innovationTitle": "Thúc Đẩy Đổi Mới",
+      "innovationDesc": "Đầu tư liên tục vào R&D cho công nghệ IPL thế hệ tiếp theo"
+    },
+    "journeyTitle": "Hành Trình Của Chúng Tôi",
+    "journeyDesc": "Những cột mốc quan trọng trong sự phát triển và đổi mới của chúng tôi",
+    "milestones": {
+      "2018": {
+        "title": "Thành Lập Công Ty",
+        "desc": "iShine được thành lập với tư cách là nhà sản xuất thiết bị IPL"
+      },
+      "2019": {
+        "title": "Khách Hàng Quốc Tế Đầu Tiên",
+        "desc": "Hợp tác với KU-2 Cosmetic tại Đức"
+      },
+      "2020": {
+        "title": "Chứng Nhận FDA GMP",
+        "desc": "Đạt được chứng nhận phòng sạch FDA GMP"
+      },
+      "2021": {
+        "title": "Ra Mắt Smart IPL",
+        "desc": "Giới thiệu thiết bị IPL điều khiển bằng ứng dụng đầu tiên"
+      },
+      "2022": {
+        "title": "Mở Rộng Toàn Cầu",
+        "desc": "Hợp tác với Costco và ROSESKINCO"
+      },
+      "2023": {
+        "title": "Tích Hợp AI",
+        "desc": "Công bố công nghệ IPL được hỗ trợ bởi AI"
+      }
+    },
+    "teamTitle": "Đội Ngũ Chuyên Gia",
+    "teamDesc": "Các chuyên gia tận tâm với thành công của bạn",
+    "team": {
+      "rnd": "Kỹ Sư R&D",
+      "rndDesc": "Kỹ sư chuyên gia phát triển công nghệ IPL tiên tiến",
+      "quality": "Chuyên Gia Chất Lượng",
+      "qualityDesc": "Đảm bảo mọi thiết bị đạt tiêu chuẩn cao nhất",
+      "customer": "Thành Công Khách Hàng",
+      "customerDesc": "Hỗ trợ tận tâm từ ý tưởng đến ra mắt thị trường"
+    }
+  },
+  "countryPage": {
+    "title": "iShine - Giải Pháp Sản Xuất Thiết Bị IPL | Toàn Cầu",
+    "description": "Nhà sản xuất thiết bị IPL hàng đầu cung cấp giải pháp OEM/ODM từ ý tưởng đến thị trường trên toàn thế giới."
+  },
+  "howToUse": {
+    "heroTitle": "Cách Sử Dụng Thiết Bị IPL",
+    "heroDescription": "Hướng dẫn hoàn chỉnh để triệt lông IPL an toàn và hiệu quả. Học các kỹ thuật đúng, hướng dẫn an toàn và nhận kết quả tốt nhất từ thiết bị IPL của bạn.",
+    "stepByStepTitle": "Hướng Dẫn Từng Bước",
+    "stepByStepDescription": "Làm theo các bước này để điều trị IPL an toàn và hiệu quả",
+    "safetyGuidelinesTitle": "Hướng Dẫn An Toàn",
+    "safetyGuidelinesDescription": "Thông tin an toàn quan trọng cho điều trị IPL",
+    "treatmentScheduleTitle": "Lịch Trình Điều Trị Được Khuyến Nghị",
+    "treatmentScheduleDescription": "Làm theo lịch trình này để có kết quả triệt lông tối ưu",
+    "troubleshootingTitle": "Hướng Dẫn Khắc Phục Sự Cố",
+    "troubleshootingDescription": "Các vấn đề thường gặp và cách giải quyết",
+    "faqTitle": "Câu Hỏi Thường Gặp",
+    "faqDescription": "Nhận câu trả lời cho các câu hỏi phổ biến về điều trị IPL",
+    "videoTutorialsTitle": "Video Hướng Dẫn",
+    "videoTutorialsDescription": "Xem hướng dẫn video từng bước để sử dụng IPL đúng cách"
+  },
+  "iplHairRemoval": {
+    "heroTitle": "Giải Pháp Triệt Lông IPL Chuyên Nghiệp",
+    "heroDescription": "Khám phá thiết bị triệt lông IPL thế hệ tiếp theo được thiết kế an toàn, hiệu quả và phù hợp với mọi loại da. Trải nghiệm kết quả chất lượng salon tại nhà hoặc doanh nghiệp của bạn.",
+    "iplDevicesTitle": "Dòng Thiết Bị IPL Của Chúng Tôi",
+    "iplDevicesDescription": "Khám phá bộ sưu tập đầy đủ các thiết bị triệt lông IPL tiên tiến được thiết kế để mang lại sự thoải mái và kết quả tối đa.",
+    "accessoriesTitle": "Phụ Kiện IPL Thiết Yếu",
+    "accessoriesDescription": "Nâng cao trải nghiệm IPL của bạn với dòng phụ kiện được chứng nhận về an toàn và tiện lợi.",
+    "advancedIplTitle": "Công Nghệ IPL Tiên Tiến",
+    "smartTechnologyIntegration": "Tích Hợp Công Nghệ Thông Minh",
+    "smartTechnologyIntegrationDescription": "Thiết bị IPL của chúng tôi có cảm biến thông minh và kết nối ứng dụng để điều trị cá nhân hóa, an toàn và hiệu quả.",
+    "coolingComfortSystems": "Hệ Thống Làm Lạnh Thoải Mái",
+    "coolingComfortSystemsDescription": "Làm lạnh bằng sapphire và tấm kim loại giữ cho da của bạn thoải mái và được bảo vệ trong mọi phiên điều trị.",
+    "intelligentSkinSensors": "Cảm Biến Da Thông Minh",
+    "intelligentSkinSensorsDescription": "Phát hiện tự động màu da và lông để đảm bảo cung cấp năng lượng tối ưu và an toàn cho mọi người dùng."
+  },
+  "ipl": {
+    "aiPowered": {
+      "title": "Thiết Bị IPL Hỗ Trợ AI",
+      "desc": "Tương lai của triệt lông đã đến. Trí tuệ nhân tạo tối ưu hóa mọi liệu pháp để có kết quả cá nhân hóa và hiệu quả.",
       "features": {
-        "longSmooth": "Mịn màng lâu dài - giảm có thể nhìn thấy sau 3-4 tuần.",
-        "cooling": "Tấm làm mát giữ da ở 5°C cho các liệu pháp thực sự không đau.",
-        "energyLevels": "Năm mức năng lượng thích ứng với hầu hết tất cả các loại da trong Fitzpatrick I-V.",
-        "flashModes": "Chế độ flash tự động/thủ công cho cơ thể và các khu vực tinh tế.",
-        "multiUse": "4-trong-1: Toàn thân, Bikini, Mặt và trẻ hóa da."
+        "aiTech": "Công Nghệ AI",
+        "aiTechDesc": "Thuật toán học thông minh",
+        "smartProcessing": "Xử Lý Thông Minh",
+        "smartProcessingDesc": "Tối ưu hóa thời gian thực",
+        "analytics": "Phân Tích Tiên Tiến",
+        "analyticsDesc": "Theo dõi tiến độ chi tiết",
+        "personalized": "Cá Nhân Hóa",
+        "personalizedDesc": "Tùy chỉnh theo nhu cầu của bạn"
+      }
+    },
+    "batteryPowered": {
+      "title": "Thiết Bị Triệt Lông IPL Chạy Pin",
+      "desc": "Trải nghiệm sự tiện lợi không dây tối đa với thiết bị IPL chạy pin của chúng tôi. Được trang bị pin sạc dung lượng cao, nó mang lại khả năng di động liền mạch mà không cần bộ chuyển đổi nguồn. Tận hưởng triệt lông chất lượng chuyên nghiệp mọi lúc, mọi nơi với tối đa 9 mức năng lượng có thể điều chỉnh cho điều trị cá nhân hóa.",
+      "features": {
+        "cordless": "Thiết kế không dây để tự do và tiện lợi tối đa",
+        "energyLevels": "9 mức năng lượng có thể điều chỉnh cho điều trị tùy chỉnh",
+        "longBattery": "Pin sạc lâu dài với hơn 600 chu kỳ sạc",
+        "noAdapter": "Không cần bộ chuyển đổi nguồn khi sử dụng, lý tưởng cho du lịch",
+        "allSkin": "Phù hợp với mọi tông màu da, được phê duyệt FDA & CE"
+      }
+    },
+    "dualLamp": {
+      "title": "Thiết Bị IPL Đèn Kép",
+      "desc": "Gấp đôi sức mạnh, gấp đôi hiệu quả. Công nghệ đèn kép cách mạng để điều trị nhanh hơn và kết quả vượt trội.",
+      "features": {
+        "dualLamps": "Đèn Kép",
+        "dualLampsDesc": "Tăng cường sức mạnh và phạm vi bao phủ",
+        "faster": "Điều Trị Nhanh Hơn",
+        "fasterDesc": "Giảm thời gian phiên",
+        "proPower": "Sức Mạnh Chuyên Nghiệp",
+        "proPowerDesc": "Hiệu suất cấp salon",
+        "evenCoverage": "Phạm Vi Bao Phủ Đều",
+        "evenCoverageDesc": "Phân bố ánh sáng đồng đều"
+      }
+    },
+    "emerald": {
+      "title": "Thiết Bị Triệt Lông IPL Ngọc Lục Bảo",
+      "desc": "Trải nghiệm triệt lông chất lượng chuyên nghiệp tại nhà với Thiết bị IPL Ngọc Lục Bảo của chúng tôi có công nghệ Intense Pulsed Light tiên tiến với 15 J/cm² năng lượng và hơn 600.000 đèn flash cho làn da mịn màng lâu dài. Hệ thống được thiết kế chính xác mang lại kết quả nhất quán trên tất cả các vùng điều trị.",
+      "features": {
+        "proResults": "Kết quả chuyên nghiệp — Triệt lông hiệu quả lên đến 94% sau 12 tuần",
+        "manualIntensity": "Kiểm soát cường độ thủ công 5 cấp cho điều trị cá nhân hóa",
+        "safeAllSkin": "An toàn cho mọi tông màu da trong phạm vi Fitzpatrick I-V",
+        "largeWindow": "Cửa sổ điều trị lớn 4.2 cm² để bao phủ nhanh hơn",
+        "ergonomic": "Thiết kế ergonomic với cảm biến an toàn tích hợp"
+      }
+    },
+    "handheld": {
+      "title": "Thiết Bị Triệt Lông IPL Cầm Tay",
+      "desc": "Khám phá sự kết hợp hoàn hảo giữa sự thoải mái và hiệu suất với thiết bị IPL cầm tay của chúng tôi. Được thiết kế để dễ cầm và kiểm soát chính xác, nó có 5 mức năng lượng có thể điều chỉnh phù hợp với mọi loại da và độ nhạy cảm. Đạt được kết quả triệt lông chất lượng salon tại nhà với thiết bị nhẹ, di động.",
+      "features": {
+        "ergonomic": "Thiết kế cầm tay ergonomic để sử dụng thoải mái",
+        "energyLevels": "5 mức năng lượng có thể điều chỉnh cho điều trị cá nhân hóa",
+        "portable": "Nhẹ và di động — lý tưởng cho du lịch và sử dụng tại nhà",
+        "allSkin": "Phù hợp với mọi tông màu da, nhẹ nhàng và hiệu quả",
+        "certified": "Được phê duyệt FDA & CE về an toàn và chất lượng"
+      }
+    },
+    "iceCooling": {
+      "title": "Thiết Bị IPL Làm Lạnh Băng",
+      "desc": "Trải nghiệm công nghệ triệt lông làm lạnh băng chuyên nghiệp sang trọng với tấm kim loại làm lạnh cấp hàng không vũ trụ. Làm lạnh da ngay lập tức xuống nhiệt độ siêu thấp 5°C.",
+      "features": {
+        "luxuryDesign": "Thiết kế nữ thần sang trọng — Kết cấu kim loại cấp hàng không vũ trụ, thể hiện gu thẩm mỹ cao quý",
+        "coolingPlate": "Công nghệ tấm làm lạnh băng — Làm lạnh da ngay lập tức xuống 5°C để có trải nghiệm thực sự không đau",
+        "preciseControl": "Kiểm soát năng lượng chính xác 9 cấp — Có thể tùy chỉnh cho vùng nhạy cảm và lông thô",
+        "allSkin": "Phù hợp với mọi tông màu da — Đã được chứng nhận Fitzpatrick I-V",
+        "largeWindow": "Cửa sổ điều trị siêu lớn 3.3 cm² — Bao phủ nhanh, hiệu quả cao hơn 50%"
+      }
+    },
+    "iceFeeling": {
+      "title": "Thiết Bị IPL Cảm Giác Băng Sapphire",
+      "desc": "Tận hưởng triệt lông không đau với tấm làm lạnh sapphire cấp lâm sàng làm lạnh da xuống 5°C, cho phép xung năng lượng cao hơn để có kết quả nhanh hơn.",
+      "features": {
+        "longSmooth": "Mịn màng lâu dài — giảm có thể nhìn thấy sau 3-4 tuần",
+        "cooling": "Tấm làm lạnh giữ biểu bì ở 5°C cho điều trị thực sự không đau",
+        "energyLevels": "Năm mức năng lượng thích ứng với hầu hết mọi tông màu da trong Fitzpatrick I-V",
+        "flashModes": "Chế độ flash tự động/thủ công cho cơ thể và vùng chính xác",
+        "multiUse": "4-trong-1: Toàn thân, Bikini, Mặt và trẻ hóa da"
       }
     },
     "skinSensor": {
-      "title": "Thiết bị IPL cảm biến da",
-      "desc": "Trải nghiệm việc triệt lông tại nhà an toàn và thông minh nhất với Thiết bị IPL Cảm biến Da của chúng tôi. Thiết bị cách mạng này có cảm biến da quang học tiên tiến tự động phát hiện tông màu da và màu tóc của bạn - cung cấp cường độ điều trị cá nhân hóa để có hiệu quả tối đa và an toàn hoàn toàn. Với phân tích da thời gian thực và điều chỉnh năng lượng tự động, thiết bị này hoàn hảo cho tất cả các loại da phù hợp và đảm bảo kết quả tối ưu mỗi lần.",
+      "title": "Thiết Bị IPL Cảm Biến Da",
+      "desc": "Trải nghiệm triệt lông tại nhà an toàn và thông minh nhất với Thiết bị IPL Cảm biến Da của chúng tôi. Thiết bị cách mạng này có cảm biến da quang học tiên tiến tự động phát hiện tông màu da và màu lông của bạn.",
       "features": {
-        "intelligentDetection": "Phát hiện da thông minh - Cảm biến tiên tiến tự động nhận diện tông màu da và điều chỉnh mức năng lượng",
-        "maxSafety": "An toàn tối đa - Ngăn ngừa điều trị quá mức và giảm nguy cơ kích ứng da hoặc bỏng",
-        "personalized": "Điều trị cá nhân hóa - Tự động tối ưu hóa cường độ cho đặc điểm da độc đáo của bạn",
-        "realTime": "Phân tích thời gian thực - Giám sát liên tục đảm bảo các phiên điều trị nhất quán, an toàn",
-        "proResults": "Kết quả chuyên nghiệp - Triệt lông chất lượng salon trong sự thoải mái của ngôi nhà bạn"
+        "intelligentDetection": "Phát hiện da thông minh — Cảm biến tiên tiến tự động nhận diện tông màu da và điều chỉnh mức năng lượng",
+        "maxSafety": "An toàn tối đa — Ngăn ngừa điều trị quá mức và giảm nguy cơ kích ứng da hoặc bỏng",
+        "personalized": "Điều trị cá nhân hóa — Tự động tối ưu hóa cường độ cho đặc điểm da độc đáo của bạn",
+        "realTime": "Phân tích thời gian thực — Giám sát liên tục đảm bảo các phiên điều trị nhất quán, an toàn",
+        "proResults": "Kết quả chuyên nghiệp — Triệt lông chất lượng salon trong sự thoải mái của ngôi nhà bạn"
       }
     },
     "smartApp": {
-      "title": "Thiết bị triệt lông IPL ứng dụng thông minh",
-      "desc": "Kết nối liền mạch thiết bị IPL của bạn qua Bluetooth với SmartApp của chúng tôi. Tận hưởng các liệu pháp được hướng dẫn, theo dõi phiên thời gian thực, thói quen cá nhân hóa và thông tin chi tiết được hỗ trợ bởi AI. Kiểm soát mức cường độ, theo dõi tiến độ và nhận lời nhắc - tất cả từ điện thoại thông minh của bạn.",
+      "title": "Thiết Bị Triệt Lông IPL Ứng Dụng Thông Minh",
+      "desc": "Kết nối liền mạch thiết bị IPL của bạn qua Bluetooth với ứng dụng thông minh của chúng tôi. Tận hưởng điều trị được hướng dẫn, theo dõi phiên thời gian thực, thói quen cá nhân hóa và thông tin chi tiết được hỗ trợ bởi AI.",
       "features": {
         "bluetooth": "Kết nối Bluetooth 5.0 cho ghép nối ổn định",
         "aiPlans": "Kế hoạch điều trị cá nhân hóa qua phân tích AI",
         "realTimeControl": "Kiểm soát cường độ thời gian thực và phản hồi trên màn hình",
-        "scheduling": "Lập lịch phiên và lời nhắc sử dụng",
+        "scheduling": "Lập lịch phiên và nhắc nhở sử dụng",
         "compatibility": "Tương thích với iOS & Android"
       }
     }
@@ -250,7 +445,7 @@
     },
     "leadTime": {
       "q": "Thời gian sản xuất là bao lâu?",
-      "a": "Thời gian sản xuất điển hình là 25-35 ngày sau khi phê duyệt mẫu, tùy thuộc vào kích thước đơn hàng và tùy chỉnh."
+      "a": "Thời gian sản xuất điển hình là 5-35 ngày sau khi phê duyệt mẫu, tùy thuộc vào kích thước đơn hàng và tùy chỉnh."
     },
     "afterSales": {
       "q": "Bạn có cung cấp hỗ trợ sau bán hàng không?",
