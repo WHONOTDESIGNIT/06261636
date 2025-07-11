@@ -104,7 +104,7 @@
       "address": "DIRECCIÓN",
       "telValue": "+86-15900283962",
       "whatsappValue": "+86-15012891148",
-      "emailValue": "service@ishineco.com",
+      "emailValue": "service@iplmanufacturer.com",
       "addressValue": "Habitación 208, Edificio 4, No.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, China, 518071"
     }
   },
@@ -363,8 +363,8 @@
       }
     },
     "emerald": {
-      "title": "Dispositivo IPL de Depilación Esmeralda",
-      "desc": "Experimente depilación de grado profesional en casa con nuestro Dispositivo IPL Esmeralda que cuenta con tecnología avanzada de Luz Pulsada Intensa con 15 J/cm² de energía y más de 600,000 destellos para piel suave duradera. El sistema de ingeniería de precisión entrega resultados consistentes en todas las áreas de tratamiento.",
+      "title": "Dispositivo de Depilación IPL Esmeralda",
+      "desc": "Experimenta la depilación de calidad profesional en casa con nuestro Dispositivo IPL Esmeralda que cuenta con tecnología avanzada de Luz Pulsada Intensa con 15 J/cm² de energía y más de 600,000 flashes para una piel suave duradera. El sistema de ingeniería de precisión ofrece resultados consistentes en todas las áreas de tratamiento.",
       "features": {
         "proResults": "Resultados profesionales — hasta 94% de reducción de vello después de 12 semanas.",
         "manualIntensity": "Control manual de intensidad de 5 niveles para tratamientos personalizados.",
@@ -385,8 +385,8 @@
       }
     },
     "iceCooling": {
-      "title": "Dispositivo de depilación IPL enfriamiento hielo",
-      "desc": "Experimenta la tecnología de depilación con enfriamiento de hielo lujosa de grado profesional, equipada con una placa de enfriamiento metálica de grado aeroespacial que enfría instantáneamente la piel a una temperatura ultra-baja de 5°C.",
+      "title": "Dispositivo IPL de Enfriamiento de Hielo",
+      "desc": "Experimenta la lujosa tecnología de depilación con enfriamiento de hielo profesional con placa metálica de enfriamiento de grado aeroespacial. Enfría la piel instantáneamente a temperatura ultra-baja de 5°C.",
       "features": {
         "luxuryDesign": "Diseño lujoso de diosa — Textura metálica de grado aeroespacial, mostrando gusto noble.",
         "coolingPlate": "Tecnología de placa de enfriamiento de hielo — Enfría instantáneamente la piel a 5°C para experiencia verdaderamente sin dolor.",
@@ -396,19 +396,19 @@
       }
     },
     "iceFeeling": {
-      "title": "Dispositivo IPL zafiro sensación hielo",
-      "desc": "Disfruta de la depilación sin dolor con una placa de enfriamiento de zafiro de grado clínico que enfría la piel a 5°C, permitiendo pulsos de energía más altos para resultados más rápidos.",
+      "title": "Dispositivo IPL Sensación de Hielo Zafiro",
+      "desc": "Disfruta de la depilación sin dolor con la placa de enfriamiento de zafiro de grado clínico que enfría la piel a 5°C, permitiendo pulsos de mayor energía para resultados más rápidos.",
       "features": {
         "longSmooth": "Suavidad duradera — reducción visible después de 3-4 semanas.",
         "cooling": "La placa de enfriamiento mantiene la epidermis a 5°C para tratamientos verdaderamente sin dolor.",
-        "energyLevels": "Cinco niveles de energía se adaptan a casi todos los tonos de piel dentro del rango Fitzpatrick I-V.",
-        "flashModes": "Modos de destello Auto/Manual para cuerpo y áreas de precisión.",
-        "multiUse": "4-en-1: Cuerpo completo, Bikini, Rostro y rejuvenecimiento de piel."
+        "energyLevels": "Cinco niveles de energía se adaptan a casi todos los tonos de piel dentro de Fitzpatrick I-V.",
+        "flashModes": "Modos de flash automático/manual para cuerpo y áreas de precisión.",
+        "multiUse": "4-en-1: Cuerpo completo, Bikini, Cara y rejuvenecimiento de la piel."
       }
     },
     "skinSensor": {
-      "title": "Dispositivo IPL con sensor de piel",
-      "desc": "Experimenta la depilación doméstica más segura e inteligente con nuestro dispositivo IPL con sensor de piel. Este dispositivo revolucionario cuenta con sensores ópticos de piel avanzados que detectan automáticamente tu tono de piel y color de cabello.",
+      "title": "Dispositivo IPL con Sensor de Piel",
+      "desc": "Experimenta la depilación casera más segura e inteligente con nuestro Dispositivo IPL con Sensor de Piel. Este dispositivo revolucionario cuenta con sensores de piel ópticos avanzados que detectan automáticamente tu tono de piel y color de cabello.",
       "features": {
         "intelligentDetection": "Detección Inteligente de Piel — Sensores avanzados identifican automáticamente el tono de piel y ajustan niveles de energía",
         "maxSafety": "Máxima Seguridad — Previene sobretratamiento y reduce riesgo de irritación o quemaduras de piel",
