@@ -1,15 +1,15 @@
 {
   "meta": {
-    "title": "iShine - IPLデバイス製造ソリューション | アイデアから市場へ",
-    "description": "アイデアから市場までOEM/ODMソリューションを提供する大手IPLデバイスメーカー。グローバルな美容ブランド向けのカスタムIPL脱毛デバイス。",
-    "keywords": "IPLデバイス、OEM製造、ODMソリューション、脱毛、美容デバイス、カスタム製造"
+    "title": "iShine - IPL機器製造ソリューション | アイデアから市場まで",
+    "description": "アイデアから市場まで包括的なOEM/ODMソリューションを提供する主要IPL機器メーカー。グローバル美容ブランド向けカスタムIPL脱毛機器。",
+    "keywords": "IPL機器, OEM製造, ODMソリューション, 脱毛, 美容機器, カスタム製造"
   },
   "header": {
     "navigation": {
       "solutions": "ソリューション",
       "iplHairRemoval": "IPL脱毛",
       "howToUse": "使用方法",
-      "serviceSupport": "サービス＆サポート",
+      "serviceSupport": "サービス・サポート",
       "about": "会社概要",
       "contact": "お問い合わせ"
     },
@@ -20,20 +20,20 @@
       "globalShipping": "グローバル配送",
       "brandCustomization": "ブランドカスタマイズ",
       "compliance": "コンプライアンスと認証",
-      "designPrototyping": "設計とプロトタイピング",
+      "designPrototyping": "デザインとプロトタイピング",
       "multiHeadIPL": "マルチヘッドIPLカスタム",
       "dualLampIPL": "デュアルランプIPLカスタム"
     },
     "iplDevices": {
-      "smartApp": "スマートアプリ制御IPLデバイス",
-      "iceFeeling": "アイスフィーリングIPLデバイス",
-      "emerald": "エメラルドIPLデバイス",
-      "skinSensor": "スキンセンサーIPLデバイス",
-      "batteryPowered": "バッテリー駆動IPLデバイス",
-      "handheld": "ハンドヘルドIPLデバイス",
-      "iceCooling": "アイスクーリングIPLデバイス",
-      "dualLamp": "デュアルランプIPLデバイス",
-      "aiPowered": "AI搭載IPLデバイス"
+      "smartApp": "スマートアプリ制御IPL機器",
+      "iceFeeling": "アイスフィーリングIPL機器",
+      "emerald": "エメラルドIPL機器",
+      "skinSensor": "スキンセンサー付きIPL機器",
+      "batteryPowered": "バッテリー駆動IPL機器",
+      "handheld": "ハンドヘルドIPL機器",
+      "iceCooling": "アイスクーリングIPL機器",
+      "dualLamp": "デュアルランプIPL機器",
+      "aiPowered": "AI搭載IPL機器"
     },
     "accessories": {
       "sapphireLens": "サファイアレンズ",
@@ -60,7 +60,7 @@
     "about": {
       "founderMessage": "創業者メッセージ",
       "technology": "当社の技術",
-      "globalWitness": "グローバルな証",
+      "globalWitness": "グローバルな実績",
       "corePrinciples": "コアプリンシプル",
       "company": "iShineについて",
       "brandStory": "ブランドストーリー",
@@ -97,22 +97,22 @@
       "termsOfService": "利用規約"
     },
     "contact": {
-      "title": "Contact",
-      "tel": "Tel",
+      "title": "お問い合わせ",
+      "tel": "電話",
       "whatsapp": "WhatsApp",
-      "email": "Email",
-      "address": "ADDRESS",
+      "email": "メール",
+      "address": "住所",
       "telValue": "+86-15900283962",
       "whatsappValue": "+86-15012891148",
-      "emailValue": "service@ishineco.com",
-      "addressValue": "208 Room, 4 Building, No.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, China, 518071"
+      "emailValue": "service@iplmanufacturer.com",
+      "addressValue": "中国広東省深圳市西丽街道麻勘路45号4棟208室, 518071"
     }
   },
   "home": {
     "hero": {
-      "title1": "カスタムIPLデバイス",
-      "title2": "とブランディングIPLデバイス",
-      "subtitle": "世界をリードするIPLデバイスメーカーが、設計、製造、梱包をお手伝いします。",
+      "title1": "カスタムIPL機器",
+      "title2": "とブランドIPL機器",
+      "subtitle": "世界をリードするIPL機器メーカーとして、設計、製造、パッケージングをサポートします。",
       "cta": "見積もりを取得"
     },
     "partners": {
@@ -129,9 +129,9 @@
       "cta": "すべてのIPLデバイスを見る"
     },
     "cta": {
-      "title": "お困りですか？",
+      "title": "IPLプロジェクトを開始する準備はできましたか？",
       "subtitle": "お客様の要件について話し合い、お客様のブランドに最適なIPLソリューションを作成しましょう。",
-      "button": "無料相談を受けるには、フォームにご記入ください"
+      "button": "相談を予約"
     }
   },
   "contact": {
@@ -145,7 +145,7 @@
       "address": {
         "title": "住所",
         "company": "iShine Manufacturing Co., Ltd.",
-        "location": "中国広東省深セン市"
+        "location": "中国広東省深セン"
       },
       "phone": {
         "title": "電話"
@@ -161,16 +161,16 @@
     },
     "map": {
       "title": "施設見学",
-      "subtitle": "深センの製造地区の中心部に位置しています"
+      "subtitle": "深センの製造地区の中心部に位置しています。"
     },
     "form": {
-      "title": "ご意見をお聞かせください。お気軽にご連絡ください！",
-      "subtitle": "プロセスを開始するには、このフォームにご記入ください。24時間以内にご連絡いたします。",
-      "name": "お名前*",
-      "email": "メールアドレス*",
-      "phone": "電話番号* 例：(+1-541-3456-3001)",
+      "title": "何かお考えのことはありますか？お話ししましょう。",
+      "subtitle": "このフォームにご記入いただき、プロセスを開始してください。4時間以内にご連絡いたします。",
+      "name": "お名前",
+      "email": "メールアドレス",
+      "phone": "電話番号* 例：(+81-3-1234-5678)",
       "country": "国",
-      "message": "ご要望をご記入ください*",
+      "message": "こちらにご要望をご記入ください。",
       "submit": "送信",
       "sending": "送信中..."
     },
@@ -213,7 +213,7 @@
     "manufacturing": "製造",
     "manufacturingDescription": "品質保証付きのフルスケール生産",
     "launch": "発売",
-    "launchDescription": "お客様の市場参入と継続的な成功をサポートします",
+    "launchDescription": "お客様の市場参入と継続的な成功をサポートします。",
     "completeIPLSolutions": "完全なIPLソリューション",
     "completeIPLSolutionsDescription": "初期コンセプトから市場投入まで、お客様のIPLビジョンを成功する製品に変える包括的なOEM/ODMソリューションを提供します。",
     "ourSolutionPortfolio": "当社のソリューションポートフォリオ",
@@ -223,10 +223,10 @@
     "industriesWeServe": "サービスを提供する業界",
     "tailoredSolutions": "多様な市場セグメントに合わせたソリューション",
     "provenSuccess": "実績のある成功",
-    "numbersSpeak": "当社の専門知識とコミットメントを示す数字",
+    "numbersSpeak": "当社の専門知識とコミットメントを示す数値",
     "globalClients": "グローバルクライアント",
     "productsLaunched": "発売された製品",
-    "qualityRate": "品質率",
+    "qualityRate": "品質",
     "yearsExperience": "長年の経験"
   },
   "about": {
@@ -234,7 +234,7 @@
     "heroDesc": "2018年以来、革新的な美容技術をコンセプトから市場に投入してきた、IPLデバイス製造における信頼できるパートナー。",
     "storyTitle": "私たちの物語",
     "storyP1": "2018年に設立されたiShineは、高度なIPL技術を民主化するというビジョンから生まれました。私たちは、美容ブランドが、アイデアを正確かつ優れた市場対応製品に変えることができる信頼できるパートナーを必要としていることを認識しました。",
-    "storyP2": "今日、私たちは革新的なスタートアップから確立された美容複合企業まで、3つの大陸にわたるクライアントにサービスを提供できることを誇りに思っています。品質、革新、および顧客の成功への当社のコミットメントは、私たちが行うすべてのことを推進します。",
+    "storyP2": "今日、私たちは革新的なスタートアップから確立された美容複合企業まで、4つの大陸にわたるクライアントにサービスを提供できることを誇りに思っています。品質、革新、および顧客の成功への当社のコミットメントは、私たちが行うすべてのことを推進します。",
     "storyP3": "iShineでは、単にデバイスを製造するだけでなく、競争の激しい美容市場でブランドが成功するためのソリューションを創造しています。",
     "valuesTitle": "当社のコアバリュー",
     "valuesDesc": "当社の業務とお客様との関係を導く原則",
@@ -265,7 +265,7 @@
       },
       "2021": {
         "title": "スマートIPLの発売",
-        "desc": "初のアプリ制御IPLデバイスを発表"
+        "desc": "初のアプリ制御IPLデバイスを発売"
       },
       "2022": {
         "title": "グローバル展開",
@@ -295,13 +295,13 @@
     "heroTitle": "IPLデバイスの使用方法",
     "heroDescription": "安全で効果的なIPL脱毛のための完全ガイド。適切なテクニック、安全ガイドラインを学び、IPLデバイスから最高の結果を得てください。",
     "stepByStepTitle": "ステップバイステップの説明",
-    "stepByStepDescription": "安全で効果的なIPL治療のために、これらのステップに従ってください",
+    "stepByStepDescription": "安全で効果的なIPL治療のために、これらのステップに従ってください。",
     "safetyGuidelinesTitle": "安全ガイドライン",
     "safetyGuidelinesDescription": "IPL治療のための重要な安全情報",
     "treatmentScheduleTitle": "推奨される治療スケジュール",
-    "treatmentScheduleDescription": "最適な脱毛結果を得るには、このスケジュールに従ってください",
+    "treatmentScheduleDescription": "最適な脱毛結果を得るには、このスケジュールに従ってください。",
     "troubleshootingTitle": "トラブルシューティングガイド",
-    "troubleshootingDescription": "一般的な問題とその解決策",
+    "troubleshootingDescription": "一般的な問題とその解決方法",
     "faqTitle": "よくある質問",
     "faqDescription": "一般的なIPL治療の質問への回答を入手",
     "videoTutorialsTitle": "ビデオチュートリアル",
@@ -366,7 +366,7 @@
       "title": "Emerald IPL Hair Removal Device",
       "desc": "Experience professional-grade hair removal at home with our Emerald IPL Device featuring advanced Intense Pulsed Light technology with 15 J/cm² of energy and 600,000+ flashes for long-lasting smooth skin. The precision-engineered system delivers consistent results across all treatment areas.",
       "features": {
-        "proResults": "Professional results — up to 94% hair reduction after 12 weeks.",
+        "proResults": "Professional results �?up to 94% hair reduction after 12 weeks.",
         "manualIntensity": "5-level manual intensity control for personalized treatments.",
         "safeAllSkin": "Safe for all skin tones within Fitzpatrick I-V range.",
         "largeWindow": "Large 4.2 cm² treatment window for faster coverage.",
@@ -385,21 +385,21 @@
       }
     },
     "iceCooling": {
-      "title": "Ice Cooling IPL Hair Removal Device",
-      "desc": "Experience professional-grade luxurious ice cooling hair removal technology, featuring an aerospace-grade cooling metal plate that instantly cools the skin to 5°C ultra-low temperature. Combined with 2.0~5.0 J/cm² high-energy IPL pulses and 999,000+ flashes, it delivers a goddess-like silky skin experience. The luxurious design is crafted for perfection-seeking modern women.",
+      "title": "IPL脱毛機器アイスクーリング",
+      "desc": "航空宇宙グレードの冷却メタルプレートを搭載した豪華なプロフェッショナルアイスクーリング脱毛技術を体験してください。肌を瞬時に超低�?°Cまで冷却します。",
       "features": {
-        "luxuryDesign": "Luxurious goddess design — Aerospace-grade metal texture, showcasing noble taste.",
-        "coolingPlate": "Ice cooling plate technology — Instantly cools skin to 5°C for truly painless experience.",
-        "preciseControl": "9-level precise energy control — Customizable for sensitive areas and coarse hair.",
-        "allSkin": "Suitable for all skin tones — Fitzpatrick I-V certified.",
-        "largeWindow": "3.3 cm² extra-large treatment window — Fast coverage, 50% higher efficiency."
+        "luxuryDesign": "Luxurious goddess design?Aerospace-grade metal texture, showcasing noble taste.",
+        "coolingPlate": "Ice cooling plate technology?Instantly cools skin to 5°C for truly painless experience.",
+        "preciseControl": "9-level precise energy control?Customizable for sensitive areas and coarse hair.",
+        "allSkin": "Suitable for all skin tones?Fitzpatrick I-V certified.",
+        "largeWindow": "3.3 cm² extra-large treatment window?Fast coverage, 50% higher efficiency."
       }
     },
     "iceFeeling": {
-      "title": "Sapphire Ice Feeling IPL Device",
-      "desc": "Enjoy painless hair removal with a clinical-grade Sapphire cooling plate that chills skin to 5°C, enabling higher energy pulses for quicker results. The integrated Intense Pulsed Light (IPL) engine delivers 2.0~5.0 J/cm² of energy with 999,999 flashes for a lifetime of use.",
+      "title": "サファイアアイスフィーリングIPL機器",
+      "desc": "臨床グレードのサファイア冷却プレートで肌?°Cまで冷却し、より高いエネルギーパルスでより速い結果を可能にする無痛脱毛をお楽しみください。",
       "features": {
-        "longSmooth": "Long-lasting smoothness — visible reduction after 3-4 weeks.",
+        "longSmooth": "Long-lasting smoothness?visible reduction after 3-4 weeks.",
         "cooling": "Cooling plate keeps epidermis at 5°C for true painless treatments.",
         "energyLevels": "Five energy levels adapt to almost all skin tones within Fitzpatrick I-V.",
         "flashModes": "Auto/Manual flash modes for body and precision areas.",
@@ -407,192 +407,192 @@
       }
     },
     "skinSensor": {
-      "title": "Skin Sensor IPL Device",
-      "desc": "Experience the safest and most intelligent home hair removal with our Skin Sensor IPL Device. This revolutionary device features advanced optical skin sensors that automatically detect your skin tone and hair color – delivering personalized treatment intensity for maximum effectiveness and complete safety. With real-time skin analysis and automatic energy adjustment, this device is perfect for all suitable skin types and ensures optimal results every time.",
+      "title": "スキンセンサー付きIPL機器",
+      "desc": "スキンセンサー付きIPL機器で、最も安全でスマートな自宅脱毛を体験してください。この革新的な機器は、肌のトーンと毛の色を自動的に検出する先進的な光学スキンセンサーを搭載しています。",
       "features": {
-        "intelligentDetection": "Intelligent Skin Detection – Advanced sensors automatically identify skin tone and adjust energy levels",
-        "maxSafety": "Maximum Safety – Prevents over-treatment and reduces risk of skin irritation or burns",
-        "personalized": "Personalized Treatment – Automatically optimizes intensity for your unique skin characteristics",
-        "realTime": "Real-time Analysis – Continuous monitoring ensures consistent, safe treatment sessions",
-        "proResults": "Professional Results – Salon-quality hair removal in the comfort of your home"
+        "intelligentDetection": "インテリジェントスキン検出 - 高度なセンサーが自動的に肌色を識別し、エネルギーレベルを調整",
+        "maxSafety": "最大の安全性 - 過度な治療を防ぎ、皮膚刺激や火傷のリスクを軽減",
+        "personalized": "パーソナライズされた治療 - お客様固有の肌特性に合わせて自動的に強度を最適化",
+        "realTime": "リアルタイム分析 - 継続的なモニタリングにより、一貫した安全な治療セッションを保証",
+        "proResults": "プロフェッショナルな結果 - ご自宅で快適にサロン品質の脱毛"
       }
     },
     "smartApp": {
-      "title": "Smart App IPL Hair Removal Device",
-      "desc": "Seamlessly connect your IPL device via Bluetooth to our SmartApp. Enjoy guided treatments, real-time session tracking, personalized routines, and AI-powered insights. Control intensity levels, monitor progress, and receive reminders—all from your smartphone.",
+      "title": "スマートアプリIPL脱毛機器",
+      "desc": "Bluetooth経由でIPL機器をスマートアプリに簡単に接続。ガイド付きトリートメント、リアルタイムセッション追跡、パーソナライズされたルーチン、AI駆動のインサイトをお楽しみください。",
       "features": {
-        "bluetooth": "Bluetooth 5.0 connectivity for stable pairing",
-        "aiPlans": "Personalized treatment plans via AI analysis",
-        "realTimeControl": "Real-time intensity control and on-screen feedback",
-        "scheduling": "Session scheduling and usage reminders",
-        "compatibility": "Compatible with iOS & Android"
+        "bluetooth": "安定したペアリングのためのBluetooth 5.0接続",
+        "aiPlans": "AI分析によるパーソナライズされた治療計画",
+        "realTimeControl": "リアルタイム強度制御と画面フィードバック",
+        "scheduling": "セッションスケジューリングと使用リマインダー",
+        "compatibility": "iOS＆Android対応"
       }
     }
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "よくある質問",
     "shipping": {
-      "q": "Can you ship globally?",
-      "a": "Absolutely. We offer reliable worldwide shipping to support your business wherever you are."
+      "q": "世界中に発送できますか？",
+      "a": "もちろんです。お客様のビジネスをどこでもサポートするため、信頼性の高いグローバル配送を提供しています。"
     },
     "customization": {
-      "q": "Can I customize the device functions?",
-      "a": "Yes, we offer full customization of features, colors, packaging, and more to fit your brand needs."
+      "q": "機器の機能をカスタマイズできますか？",
+      "a": "はい、お客様のブランドニーズに合わせて機能、色、パッケージングなどの完全なカスタマイズを提供しています。"
     },
     "certifications": {
-      "q": "What certifications do you support?",
-      "a": "We support FDA, CE, RoHS, and other global certifications to ensure compliance in your target markets."
+      "q": "どのような認証をサポートしていますか？",
+      "a": "お客様のターゲット市場での準拠を確保するため、FDA、CE、RoHSおよびその他のグローバル認証をサポートしています。"
     },
     "leadTime": {
-      "q": "How long is the production lead time?",
-      "a": "Typical lead time is 25-35 days after sample approval, depending on order size and customization."
+      "q": "生産のリードタイムはどのくらいですか？",
+      "a": "サンプル承認後の標準的なリードタイムは5-35日で、注文サイズとカスタマイズによって異なります。"
     },
     "afterSales": {
-      "q": "Do you provide after-sales support?",
-      "a": "Yes, we offer comprehensive after-sales service including technical support and warranty."
+      "q": "アフターセールスサポートを提供していますか？",
+      "a": "はい、技術サポートと保証を含む包括的なアフターセールスサポートを提供しています。"
     }
   },
   "cta": {
-    "getSupport": "Get Support Now",
-    "readyToStart": "Ready to Get Started?",
-    "contactUs": "Contact Us",
-    "freeQuote": "Get a Free Quote",
-    "readMore": "Read More"
+    "getSupport": "今すぐサポートを受ける",
+    "readyToStart": "開始する準備はできましたか？",
+    "contactUs": "お問い合わせ",
+    "freeQuote": "無料見積もりを取得",
+    "readMore": "続きを読む"
   },
   "form": {
-    "name": "Name",
-    "email": "Email",
-    "phone": "Phone",
-    "country": "Country",
-    "message": "Message",
-    "submit": "Submit",
-    "sending": "Sending...",
-    "success": "Your message has been sent successfully!",
-    "error": "There was an error sending your message. Please try again."
+    "name": "お名前",
+    "email": "メール",
+    "phone": "電話",
+    "country": "国",
+    "message": "メッセージ",
+    "submit": "送信",
+    "sending": "送信中...",
+    "success": "メッセージが正常に送信されました！",
+    "error": "メッセージの送信中にエラーが発生しました。もう一度お試しください。"
   },
   "blog": {
     "posts": {
       "sustainableManufacturing": {
-        "title": "Sustainable Manufacturing: Green IPL Production Methods",
-        "intro": "As the demand for at-home IPL (Intense Pulsed Light) hair removal devices surges, so does the responsibility to produce these electronics with minimal environmental impact. Sustainable manufacturing is no longer a trend but a necessity—encompassing every stage from raw material sourcing to end-of-life recycling. This article assesses the environmental footprint of IPL device production and explores innovative, practical strategies for achieving a truly green supply chain, with a focus on electronics, optics, eco-friendly ABS housings, sustainable packaging, and waste reutilization.",
+        "title": "持続可能な製造：グリーンIPL生産方法",
+        "intro": "家庭用IPL（強脈衝光）脱毛機器の需要が急増するにつれて、環境への影響を最小限に抑えてこれらの電子機器を生産する責任も高まっています。持続可能な製造はもはやトレンドではなく必要性です—原材料の調達から製品寿命終了時のリサイクルまでのすべての段階を包含しています。この記事では、IPL機器生産の環境フットプリントを評価し、電子機器、光学部品、環境に優しいABSハウジング、持続可能なパッケージング、廃棄物の再利用に焦点を当て、真にグリーンなサプライチェーンを実現するための革新的で実用的な戦略を探求します。",
         "sections": {
-          "environmentalImpact": "Environmental Impact Assessment of IPL Device Manufacturing",
-          "electronics": "1. Electronic Components",
-          "optics": "2. Optical Components (Lenses and Filters)",
-          "absHousing": "3. ABS Eco-Friendly Housings",
-          "packaging": "4. Sustainable Paper Packaging",
-          "wasteReduction": "5. Waste Reduction and Reuse",
-          "supplyChain": "Sustainable Supply Chain Innovations",
-          "feasibility": "The Feasibility of a Green IPL Supply Chain",
-          "commitment": "iShine's Commitment to Sustainability",
-          "references": "References"
+          "environmentalImpact": "IPL機器製造の環境影響評価",
+          "electronics": "1. 電子部品",
+          "optics": "2. 光学部品（レンズとフィルター）",
+          "absHousing": "3. ABS環境に優しいハウジング",
+          "packaging": "4. 持続可能な紙パッケージング",
+          "wasteReduction": "5. 廃棄物削減と再利用",
+          "supplyChain": "持続可能なサプライチェーンの革新",
+          "feasibility": "グリーンIPLサプライチェーンの実現可能性",
+          "commitment": "iShineの持続可能性へのコミットメント",
+          "references": "参考文献"
         }
       },
       "globalMarketShifts": {
-        "title": "Global Market Shifts: IPL Device Trends and Opportunities",
-        "intro": "Explore the latest global trends in IPL device adoption, regulatory changes, and market opportunities for brands and manufacturers.",
+        "title": "グローバル市場の変化：IPL機器のトレンドと機会",
+        "intro": "IPL機器の採用、規制の変化、ブランドおよびメーカーの市場機会における最新のグローバルトレンドを探求します。",
         "sections": {
-          "marketOverview": "Market Overview",
-          "regionalTrends": "Regional Trends",
-          "regulatoryChanges": "Regulatory Changes",
-          "consumerPreferences": "Consumer Preferences",
-          "opportunities": "Opportunities for Brands",
-          "challenges": "Challenges and Risks",
-          "futureOutlook": "Future Outlook"
+          "marketOverview": "市場概要",
+          "regionalTrends": "地域トレンド",
+          "regulatoryChanges": "規制の変化",
+          "consumerPreferences": "消費者の好み",
+          "opportunities": "ブランドの機会",
+          "challenges": "課題とリスク",
+          "futureOutlook": "将来の展望"
         }
       },
       "aiPoweredSkinSensing": {
-        "title": "AI-Powered Skin Sensing: The Next Frontier in IPL Safety",
-        "intro": "How artificial intelligence is revolutionizing IPL device safety and personalization through real-time skin analysis.",
+        "title": "AI駆動のスキンセンシング：IPL安全性の次のフロンティア",
+        "intro": "人工知能がリアルタイムスキン分析を通じてIPL機器の安全性とパーソナライゼーションにどのように革命をもたらしているかを探求します。",
         "sections": {
-          "introduction": "Introduction",
-          "aiTechnology": "AI Technology in IPL",
-          "skinSensing": "Skin Sensing Mechanisms",
-          "safetyBenefits": "Safety Benefits",
-          "userExperience": "User Experience",
-          "caseStudies": "Case Studies",
-          "conclusion": "Conclusion"
+          "introduction": "序論",
+          "aiTechnology": "IPLにおけるAI技術",
+          "skinSensing": "スキンセンシングメカニズム",
+          "safetyBenefits": "安全性の利点",
+          "userExperience": "ユーザーエクスペリエンス",
+          "caseStudies": "ケーススタディ",
+          "conclusion": "結論"
         }
       },
       "multiHeadIPLSystems": {
-        "title": "Multi-Head IPL Systems: Precision Meets Full-Body Efficiency",
-        "intro": "The evolution of at-home hair removal has been profoundly shaped by the introduction of multi-head Intense Pulsed Light (IPL) systems. Philips pioneered this trend with its interchangeable head technology, setting a new standard for versatility and user-centric design in home-use IPL devices.",
+        "title": "マルチヘッドIPLシステム：精密さと全身効率の出会い",
+        "intro": "家庭用脱毛の進化は、マルチヘッド強脈衝光（IPL）システムの導入によって大きく形作られました。フィリップスは交換可能なヘッド技術でこのトレンドを先駆け、家庭用IPL機器における多様性とユーザー中心設計の新しい標準を設定しました。",
         "sections": {
-          "philipsLegacy": "The Philips Legacy: Setting the Standard for Multi-Head IPL",
-          "keyFeatures": "Key Features of Multi-Head IPL Devices",
-          "respondingToVIO": "Responding to VIO Hair Removal Needs",
-          "whyMultiHeadMatters": "Why Multi-Head Design Matters",
-          "painReduction": "Pain Reduction: The Role of Advanced Filters",
-          "realUserFeedback": "Real User Feedback",
-          "conclusion": "Conclusion",
-          "references": "References"
+          "philipsLegacy": "フィリップスの遺産：マルチヘッドIPLの標準設定",
+          "keyFeatures": "マルチヘッドIPL機器の主要機能",
+          "respondingToVIO": "VIO脱毛ニーズへの対応",
+          "whyMultiHeadMatters": "マルチヘッド設計が重要な理由",
+          "painReduction": "痛みの軽減：高度なフィルターの役割",
+          "realUserFeedback": "実際のユーザーフィードバック",
+          "conclusion": "結論",
+          "references": "参考文献"
         }
       },
       "sapphireCooling": {
-        "title": "Sapphire Cooling: Enhancing Comfort in IPL Treatments",
-        "intro": "Discover how sapphire cooling technology is transforming the comfort and safety of IPL hair removal treatments.",
+        "title": "サファイアクーリング：IPL治療における快適性の向上",
+        "intro": "サファイアクーリング技術がIPL脱毛治療の快適性と安全性をどのように変革しているかを発見してください。",
         "sections": {
-          "technologyOverview": "Technology Overview",
-          "coolingMechanism": "How Sapphire Cooling Works",
-          "benefits": "Benefits for Users",
-          "clinicalEvidence": "Clinical Evidence",
-          "deviceComparison": "Device Comparison",
-          "userTestimonials": "User Testimonials",
-          "conclusion": "Conclusion"
+          "technologyOverview": "技術概要",
+          "coolingMechanism": "サファイアクーリングの仕組み",
+          "benefits": "ユーザーの利点",
+          "clinicalEvidence": "臨床的証拠",
+          "deviceComparison": "機器比較",
+          "userTestimonials": "ユーザーの体験談",
+          "conclusion": "結論"
         }
       },
       "industries": {
-        "title": "Industries We Serve: IPL Applications Across Sectors",
-        "intro": "IPL technology is not just for beauty—explore its applications in medical, veterinary, and industrial sectors.",
+        "title": "私たちがサービスを提供する業界：セクター間でのIPL応用",
+        "intro": "IPL技術は美容だけでなく—医療、獣医、産業分野での応用を探求します。",
         "sections": {
-          "beauty": "Beauty Industry",
-          "medical": "Medical Applications",
-          "veterinary": "Veterinary Uses",
-          "industrial": "Industrial Applications",
-          "caseStudies": "Case Studies",
-          "futureTrends": "Future Trends"
+          "beauty": "美容業界",
+          "medical": "医療応用",
+          "veterinary": "獣医用途",
+          "industrial": "産業応用",
+          "caseStudies": "ケーススタディ",
+          "futureTrends": "将来のトレンド"
         }
       },
       "iplBestChoice": {
-        "title": "Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools",
-        "intro": "Discover why IPL is the most effective, comfortable, and convenient solution for long-term hair removal at home—backed by science and real user experience.",
+        "title": "なぜ家庭用IPL脱毛機器が全ての脱毛ツールの中で最良の選択なのか？",
+        "intro": "科学と実際のユーザーエクスペリエンスに基づいて、IPLが家庭での長期脱毛に最も効果的で快適で便利なソリューションである理由を発見してください。",
         "sections": {
-          "comparison": "Hair Removal Methods Comparison",
-          "whyChooseIPL": "Why Choose IPL Home Hair Removal?",
-          "userStories": "Real User Stories",
-          "faq": "Frequently Asked Questions",
-          "recommendedBlog": "Recommended Blog",
-          "exploreMore": "Explore More"
+          "comparison": "脱毛方法の比較",
+          "whyChooseIPL": "なぜIPL家庭用脱毛を選ぶのか？",
+          "userStories": "実際のユーザーストーリー",
+          "faq": "よくある質問",
+          "recommendedBlog": "おすすめブログ",
+          "exploreMore": "さらに探求"
         }
       },
       "futureHomeHairRemoval": {
-        "title": "The Future of Home Hair Removal Devices: Trends, Innovations, and What's Next",
-        "intro": "Explore the evolution, current breakthroughs, and the next generation of home hair removal devices—AI, multifunctionality, and sustainable design for 2025 and beyond.",
+        "title": "家庭用脱毛機器の未来：トレンド、イノベーション、そして次に来るもの",
+        "intro": "2025年以降のAI、多機能性、持続可能な設計—家庭用脱毛機器の進化、現在の革新、次世代を探求します。",
         "sections": {
-          "evolution": "Evolution of Home Hair Removal Technology",
-          "stateOfTheArt": "Key Features of Next-Gen Devices (2025)",
-          "aiPersonalization": "AI and Personalization in Hair Removal",
-          "vision": "The 'Ultimate' Home Hair Removal Device: A Vision",
-          "challenges": "Challenges and Considerations",
-          "faq": "Frequently Asked Questions",
-          "exploreMore": "Explore More",
-          "aboutAuthor": "About the Author"
+          "evolution": "家庭用脱毛技術の進化",
+          "stateOfTheArt": "次世代機器の主要機能（2025）",
+          "aiPersonalization": "脱毛におけるAIとパーソナライゼーション",
+          "vision": "「究極の」家庭用脱毛機器：ビジョン",
+          "challenges": "課題と考慮事項",
+          "faq": "よくある質問",
+          "exploreMore": "さらに探求",
+          "aboutAuthor": "著者について"
         }
       },
       "fda510kPathway": {
-        "title": "FDA 510(k) Pathway: Navigating Medical Device Classification for IPL",
-        "intro": "A comprehensive guide to the FDA 510(k) pathway for home-use IPL hair removal devices. Learn about regulatory requirements, marketing claims, and how iShine helps brands achieve compliance.",
+        "title": "FDA 510(k)パスウェイ：IPL用医療機器分類のナビゲーション",
+        "intro": "家庭用IPL脱毛機器のためのFDA 510(k)パスウェイの包括的ガイド。規制要件、マーケティング主張、そしてiShineがブランドのコンプライアンス達成をどのように支援するかを学びます。",
         "sections": {
-          "introduction": "Introduction",
-          "pathway": "1. FDA 510(k) Pathway for Home IPL Devices",
-          "marketingClaims": "2. How Marketing Claims Affect Regulatory Classification",
-          "ishineExpertise": "3. iShine's Expertise in Securing Your Brand's FDA 510(k) Listing",
-          "benefits": "4. Benefits of Obtaining a Brand-Specific FDA 510(k) Listing",
-          "guidance": "5. Practical Guidance for Brands",
-          "conclusion": "Conclusion",
-          "faq": "Frequently Asked Questions",
-          "exploreMore": "Explore More",
-          "author": "About the Author"
+          "introduction": "序論",
+          "pathway": "1. 家庭用IPL機器のためのFDA 510(k)パスウェイ",
+          "marketingClaims": "2. マーケティング主張が規制分類に与える影響",
+          "ishineExpertise": "3. お客様のブランドのFDA 510(k)リスティング確保におけるiShineの専門知識",
+          "benefits": "4. ブランド固有のFDA 510(k)リスティング取得の利点",
+          "guidance": "5. ブランドのための実用的ガイダンス",
+          "conclusion": "結論",
+          "faq": "よくある質問",
+          "exploreMore": "さらに探求",
+          "author": "著者について"
         }
       }
     }
