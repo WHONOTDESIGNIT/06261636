@@ -36,65 +36,65 @@
       "aiPowered": "AI-vezérelt IPL készülék"
     },
     "accessories": {
-      "sapphireLens": "Sapphire Lens",
-      "adapter": "adapter",
-      "goggles": "Protective Goggles",
-      "filter": "szűrő"
+      "sapphireLens": "Zafír lencse",
+      "adapter": "Adapter",
+      "goggles": "Védőszemüveg",
+      "filter": "Szűrő"
     },
     "serviceSupport": {
-      "service": "Service",
-      "afterSales": "After-Sales Service",
-      "fdaGmp": "FDA GMP Clean Room Design",
-      "manufacturing": "IPL Devices Manufacturing",
-      "knowledgeBase": "Knowledge Base",
-      "support": "Support > Buying Guide",
-      "beautySourcing": "Beauty Niche Sourcing & Accessories",
-      "pricingGuide": "Pricing Guide",
-      "helpCenter": "Help Center",
-      "gallery": "galéria",
-      "videos": "videók",
-      "blog": "blog",
-      "newsInsights": "News & Insights",
-      "industries": "Industries We Serve"
+      "service": "Szolgáltatás",
+      "afterSales": "Értékesítés utáni szolgáltatás",
+      "fdaGmp": "FDA GMP tisztaszoba tervezés",
+      "manufacturing": "IPL készülékek gyártása",
+      "knowledgeBase": "Tudásbázis",
+      "support": "Támogatás > Vásárlási útmutató",
+      "beautySourcing": "Szépségápolási niche beszerzés és kiegészítők",
+      "pricingGuide": "Árazási útmutató",
+      "helpCenter": "Segítségközpont",
+      "gallery": "Galéria",
+      "videos": "Videók",
+      "blog": "Blog",
+      "newsInsights": "Hírek és betekintések",
+      "industries": "Általunk kiszolgált iparágak"
     },
     "about": {
-      "founderMessage": "Founder Message",
-      "technology": "Our Technology",
-      "globalWitness": "Global Witness",
-      "corePrinciples": "Core Principles",
-      "company": "About iShine",
-      "brandStory": "Brand Story",
-      "quality": "minőség"
+      "founderMessage": "Alapító üzenete",
+      "technology": "Technológiánk",
+      "globalWitness": "Globális tanú",
+      "corePrinciples": "Alapelvek",
+      "company": "Az iShine-ról",
+      "brandStory": "Márkatörténet",
+      "quality": "Minőség"
     }
   },
   "footer": {
     "company": {
-      "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market.",
-      "products": "termékek",
-      "services": "szolgáltatások",
-      "company": "Company"
+      "description": "Vezető IPL készülék gyártó, OEM/ODM megoldásokat nyújt az ötlettől a piacig.",
+      "products": "Termékek",
+      "services": "Szolgáltatások",
+      "company": "Vállalat"
     },
     "products": {
-      "iplHairRemoval": "IPL Hair Removal",
-      "accessories": "Accessories",
-      "gallery": "galéria"
+      "iplHairRemoval": "IPL szőreltávolítás",
+      "accessories": "Kiegészítők",
+      "gallery": "Galéria"
     },
     "services": {
-      "afterSales": "After-Sales Service",
-      "manufacturing": "IPL Manufacturing",
-      "buyingGuide": "Buying Guide",
-      "helpCenter": "Help Center"
+      "afterSales": "Értékesítés utáni szolgáltatás",
+      "manufacturing": "IPL gyártás",
+      "buyingGuide": "Vásárlási útmutató",
+      "helpCenter": "Segítségközpont"
     },
     "companyLinks": {
-      "about": "About iShine",
-      "brandStory": "Brand Story",
-      "quality": "minőség",
-      "blog": "blog"
+      "about": "Az iShine-ról",
+      "brandStory": "Márkatörténet",
+      "quality": "Minőség",
+      "blog": "Blog"
     },
     "legal": {
-      "copyright": "© 2025 iShine. All rights reserved.",
-      "privacyPolicy": "Privacy Policy",
-      "termsOfService": "Terms of Service"
+      "copyright": "© 2025 iShine. Minden jog fenntartva.",
+      "privacyPolicy": "Adatvédelmi szabályzat",
+      "termsOfService": "Szolgáltatási feltételek"
     },
     "contact": {
       "title": "Kapcsolat",
@@ -104,7 +104,7 @@
       "address": "CÍM",
       "telValue": "+86-15900283962",
       "whatsappValue": "+86-15012891148",
-      "emailValue": "service@ishineco.com",
+      "emailValue": "service@iplmanufacturer.com",
       "addressValue": "208-as szoba, 4-es épület, 45. szám, Makan Road, Xi'li Street, Shenzhen, Guangdong, Kína, 518071"
     }
   },
@@ -116,52 +116,52 @@
       "cta": "Árajánlat kérése"
     },
     "partners": {
-      "title": "Trusted by Global Brands",
-      "subtitle": "Working with industry leaders worldwide"
+      "title": "Globális márkák bizalma",
+      "subtitle": "Együttműködés az iparág vezetőivel világszerte"
     },
     "features": {
-      "title": "Why Choose iShine?",
-      "subtitle": "Complete IPL manufacturing solutions tailored to your needs"
+      "title": "Miért válassza az iShine-t?",
+      "subtitle": "Teljes körű IPL gyártási megoldások az Ön igényeihez szabva"
     },
     "products": {
-      "title": "Our IPL Device Range",
-      "subtitle": "Wide Range IPL devices for every needs",
-      "cta": "View All IPL Devices"
+      "title": "IPL készülék kínálatunk",
+      "subtitle": "Széles választékú IPL készülékek minden igényhez",
+      "cta": "Összes IPL készülék megtekintése"
     },
     "cta": {
-      "title": "Need help?",
-      "subtitle": "Let's discuss your requirements and create the IPL solution that best fit for your brand.",
-      "button": "Fill out the form to enjoy Free Consultation"
+      "title": "Segítségre van szüksége?",
+      "subtitle": "Beszéljük meg igényeit és alkossuk meg a márkájához leginkább illő IPL megoldást.",
+      "button": "Töltse ki az űrlapot az ingyenes konzultációért"
     }
   },
   "contact": {
     "hero": {
-      "title": "Contact Us",
-      "description": "Ready to discuss your IPL project? Get in touch with our expert team today. We're here to help bring your vision to life."
+      "title": "Lépjen kapcsolatba velünk",
+      "description": "Készen áll IPL projektjének megvitatására? Vegye fel a kapcsolatot szakértő csapatunkkal még ma. Itt vagyunk, hogy segítsünk megvalósítani elképzelését."
     },
     "info": {
-      "title": "Get in Touch",
-      "subtitle": "Multiple ways to reach us - choose what works best for you",
+      "title": "Vegye fel velünk a kapcsolatot",
+      "subtitle": "Többféle módon érhet el minket - válassza azt, ami Önnek a legmegfelelőbb",
       "address": {
-        "title": "Address",
+        "title": "Cím",
         "company": "iShine Manufacturing Co., Ltd.",
-        "location": "Shenzhen, Guangdong, China"
+        "location": "Shenzhen, Guangdong, Kína"
       },
       "phone": {
-        "title": "Phone"
+        "title": "Telefon"
       },
       "email": {
         "title": "Email"
       },
       "hours": {
-        "title": "Business Hours",
-        "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
-        "saturday": "Saturday: 9:00 AM - 12:00 PM"
+        "title": "Nyitvatartás",
+        "weekdays": "Hétfő - Péntek: 9:00 - 18:00",
+        "saturday": "Szombat: 9:00 - 12:00"
       }
     },
     "map": {
-      "title": "Visit Our Facility",
-      "subtitle": "Located in the heart of Shenzhen's manufacturing district"
+      "title": "Látogassa meg létesítményünket",
+      "subtitle": "Shenzhen gyártási negyedének szívében található"
     },
     "form": {
       "title": "Mi jár a fejében? Beszéljünk!",
@@ -171,261 +171,261 @@
       "phone": "Telefonszám* pl. (+36-1-234-5678)",
       "country": "Ország",
       "message": "Írja le itt az igényeit*",
-      "submit": "Submit",
-      "sending": "Sending..."
+      "submit": "Küldés",
+      "sending": "Küldés folyamatban..."
     },
-    "title": "Contact Us",
-    "subtitle": "Get in touch with our team for business inquiries, support, or partnership opportunities.",
-    "companyPhotoAlt": "iShine Manufacturing Facility"
+    "title": "Lépjen kapcsolatba velünk",
+    "subtitle": "Vegye fel a kapcsolatot csapatunkkal üzleti megkeresések, támogatás vagy partnerségi lehetőségek miatt.",
+    "companyPhotoAlt": "iShine gyártási létesítmény"
   },
   "buttons": {
-    "getQuote": "Get Quote",
-    "viewSolutions": "View Our Solutions",
-    "scheduleConsultation": "Schedule Consultation",
-    "submit": "Submit",
-    "sending": "Sending...",
-    "viewAll": "View All"
+    "getQuote": "Árajánlat kérése",
+    "viewSolutions": "Megoldásaink megtekintése",
+    "scheduleConsultation": "Konzultáció időpontfoglalása",
+    "submit": "Küldés",
+    "sending": "Küldés folyamatban...",
+    "viewAll": "Összes megtekintése"
   },
   "common": {
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "success": "Success",
-    "readMore": "Read More",
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
-    "contactUs": "Contact Us"
+    "loading": "Betöltés...",
+    "error": "Hiba történt",
+    "success": "Sikeres",
+    "readMore": "Tovább olvasás",
+    "learnMore": "Tudjon meg többet",
+    "getStarted": "Kezdés",
+    "contactUs": "Lépjen kapcsolatba velünk"
   },
   "solutions": {
-    "productDesignDevelopment": "Product Design & Development",
-    "productDesignDevelopmentDescription": "From initial concept to final design, our expert team brings your IPL vision to life with cutting-edge technology and market insights.",
-    "oemManufacturing": "OEM Manufacturing",
-    "oemManufacturingDescription": "Complete manufacturing solutions with your specifications. We handle production while you focus on your brand and market.",
-    "odmSolutions": "ODM Solutions",
-    "odmSolutionsDescription": "Choose from our proven IPL designs and customize them with your branding, packaging, and unique features.",
-    "endToEndSupport": "End-to-End Support",
-    "endToEndSupportDescription": "Complete project management from initial consultation to product launch and beyond, ensuring your success every step of the way.",
-    "consultation": "Consultation",
-    "consultationDescription": "Understand your vision, market, and requirements",
-    "design": "Design",
-    "designDescription": "Create custom designs or adapt existing solutions",
-    "prototype": "Prototype",
-    "prototypeDescription": "Build and test prototypes to ensure quality",
-    "manufacturing": "gyártás",
-    "manufacturingDescription": "Full-scale production with quality assurance",
-    "launch": "Launch",
-    "launchDescription": "Support your market entry and ongoing success",
-    "completeIPLSolutions": "Complete IPL Solutions",
-    "completeIPLSolutionsDescription": "From initial concept to market launch, we provide comprehensive OEM/ODM solutions that transform your IPL vision into successful products.",
-    "ourSolutionPortfolio": "Our Solution Portfolio",
-    "comprehensiveServices": "Comprehensive services to bring your IPL products to market successfully",
-    "ourProcess": "Our Process",
-    "streamlinedWorkflow": "Streamlined workflow to ensure your project success",
-    "industriesWeServe": "Industries We Serve",
-    "tailoredSolutions": "Tailored solutions for diverse market segments",
-    "provenSuccess": "Proven Success",
-    "numbersSpeak": "Numbers that speak to our expertise and commitment",
-    "globalClients": "Global Clients",
-    "productsLaunched": "Products Launched",
-    "qualityRate": "Quality Rate",
-    "yearsExperience": "Years Experience"
+    "productDesignDevelopment": "Termékdesign és fejlesztés",
+    "productDesignDevelopmentDescription": "A kezdeti koncepcióktól a végső tervezésig szakértő csapatunk életre kelti IPL elképzelését a legmodernebb technológiával és piaci betekintésekkel.",
+    "oemManufacturing": "OEM gyártás",
+    "oemManufacturingDescription": "Teljes körű gyártási megoldások az Ön specifikációi szerint. Mi a gyártást kezeljük, míg Ön a márkájára és a piacra összpontosíthat.",
+    "odmSolutions": "ODM megoldások",
+    "odmSolutionsDescription": "Válasszon bevált IPL tervezéseink közül, és testreszabhatja őket márkázásával, csomagolásával és egyedi funkcióival.",
+    "endToEndSupport": "Teljes körű támogatás",
+    "endToEndSupportDescription": "Teljes projektmenedzsment a kezdeti konzultációtól a termék piacra dobásáig és azon túl, biztosítva sikerét minden lépésben.",
+    "consultation": "Konzultáció",
+    "consultationDescription": "Elképzelése, piaca és követelményeinek megértése",
+    "design": "Tervezés",
+    "designDescription": "Egyedi tervezések létrehozása vagy meglévő megoldások adaptálása",
+    "prototype": "Prototípus",
+    "prototypeDescription": "Prototípusok építése és tesztelése a minőség biztosítása érdekében",
+    "manufacturing": "Gyártás",
+    "manufacturingDescription": "Teljes körű termelés minőségbiztosítással",
+    "launch": "Piacra dobás",
+    "launchDescription": "Piaci belépésének és folyamatos sikerének támogatása",
+    "completeIPLSolutions": "Teljes IPL megoldások",
+    "completeIPLSolutionsDescription": "A kezdeti koncepcióktól a piacra dobásig átfogó OEM/ODM megoldásokat nyújtunk, amelyek IPL elképzelését sikeres termékekké alakítják.",
+    "ourSolutionPortfolio": "Megoldási portfóliónk",
+    "comprehensiveServices": "Átfogó szolgáltatások IPL termékeinek sikeres piacra juttatásához",
+    "ourProcess": "Folyamatunk",
+    "streamlinedWorkflow": "Egyszerűsített munkafolyamat projektje sikerének biztosítása érdekében",
+    "industriesWeServe": "Általunk kiszolgált iparágak",
+    "tailoredSolutions": "Testreszabott megoldások változatos piaci szegmensek számára",
+    "provenSuccess": "Bizonyított siker",
+    "numbersSpeak": "Számok, amelyek szakértelmünkről és elkötelezettségünkről beszélnek",
+    "globalClients": "Globális ügyfelek",
+    "productsLaunched": "Piacra dobott termékek",
+    "qualityRate": "Minőségi arány",
+    "yearsExperience": "Év tapasztalat"
   },
   "about": {
-    "heroTitle": "About iShine",
-    "heroDesc": "Your trusted partner in IPL device manufacturing, bringing innovative beauty technology from concept to market since 2018.",
-    "storyTitle": "Our Story",
-    "storyP1": "Founded in 2018, iShine emerged from a vision to democratize advanced IPL technology. We recognized that beauty brands needed a reliable partner who could transform their ideas into market-ready products with precision and excellence.",
-    "storyP2": "Today, we're proud to serve clients across three continents, from innovative startups to established beauty conglomerates. Our commitment to quality, innovation, and customer success drives everything we do.",
-    "storyP3": "At iShine, we don't just manufacture devices – we craft solutions that empower brands to succeed in the competitive beauty market.",
-    "valuesTitle": "Our Core Values",
-    "valuesDesc": "The principles that guide our work and relationships with clients",
+    "heroTitle": "Az iShine-ról",
+    "heroDesc": "Megbízható partnere az IPL készülékek gyártásában, 2018 óta innovatív szépségápolási technológiát juttat el a koncepcióktól a piacig.",
+    "storyTitle": "Történetünk",
+    "storyP1": "2018-ban alapított iShine egy olyan vízióból született, hogy demokratizálja a fejlett IPL technológiát. Felismertük, hogy a szépségápolási márkáknak megbízható partnerre van szükségük, aki pontossággal és kiválósággal tudja ötleteiket piacra kész termékekké alakítani.",
+    "storyP2": "Ma büszkén szolgálunk ki ügyfeleket három kontinensen, az innovatív startupokról az etablírozott szépségápolási konglomerátumokig. A minőség, innováció és ügyfélelégedettség iránti elkötelezettségünk vezérel mindent, amit teszünk.",
+    "storyP3": "Az iShine-nél nem csak készülékeket gyártunk — olyan megoldásokat alkottunk, amelyek lehetővé teszik a márkák számára, hogy sikeresek legyenek a versenyképes szépségápolási piacon.",
+    "valuesTitle": "Alapértékeink",
+    "valuesDesc": "Azok az elvek, amelyek munkánkat és ügyfélkapcsolatainkat irányítják",
     "values": {
-      "qualityTitle": "Quality Excellence",
-      "qualityDesc": "FDA GMP certified manufacturing with rigorous quality control",
-      "customerTitle": "Customer Focus",
-      "customerDesc": "Dedicated to understanding and exceeding customer expectations",
-      "globalTitle": "Global Impact",
-      "globalDesc": "Serving beauty brands worldwide with innovative IPL solutions",
-      "innovationTitle": "Innovation Drive",
-      "innovationDesc": "Continuous R&D investment in next-generation IPL technology"
+      "qualityTitle": "Minőségi kiválóság",
+      "qualityDesc": "FDA GMP tanúsított gyártás szigorú minőségkontrollal",
+      "customerTitle": "Ügyfélfókusz",
+      "customerDesc": "Elkötelezett az ügyfélelvárasok megértése és meghaladása iránt",
+      "globalTitle": "Globális hatás",
+      "globalDesc": "Szépségápolási márkák kiszolgálása világszerte innovatív IPL megoldásokkal",
+      "innovationTitle": "Innovációs hajtóerő",
+      "innovationDesc": "Folyamatos K+F befektetés a következő generációs IPL technológiákba"
     },
-    "journeyTitle": "Our Journey",
-    "journeyDesc": "Key milestones in our growth and innovation",
+    "journeyTitle": "Utazásunk",
+    "journeyDesc": "Kulcsfontos mérföldkövek növekedésünkben és innovációnkban",
     "milestones": {
       "2018": {
-        "title": "Company Founded",
-        "desc": "iShine established as IPL device manufacturer"
+        "title": "Cégalapítás",
+        "desc": "iShine megalapítása IPL készülék gyártóként"
       },
       "2019": {
-        "title": "First International Client",
-        "desc": "Partnership with KU-2 Cosmetic in Germany"
+        "title": "Első nemzetközi ügyfél",
+        "desc": "Partnerség a KU-2 Cosmetic-kel Németországban"
       },
       "2020": {
-        "title": "FDA GMP Certification",
-        "desc": "Achieved FDA GMP clean room certification"
+        "title": "FDA GMP tanúsítás",
+        "desc": "FDA GMP tisztaszoba tanúsítás elérése"
       },
       "2021": {
-        "title": "Smart IPL Launch",
-        "desc": "Introduced first app-controlled IPL devices"
+        "title": "Okos IPL piacra dobása",
+        "desc": "Első alkalmazással vezérelt IPL készülékek bemutatása"
       },
       "2022": {
-        "title": "Global Expansion",
-        "desc": "Partnerships with Costco and ROSESKINCO"
+        "title": "Globális terjeszkedés",
+        "desc": "Partnerségek a Costco-val és ROSESKINCO-val"
       },
       "2023": {
-        "title": "AI Integration",
-        "desc": "Launched AI-powered IPL technology"
+        "title": "AI integráció",
+        "desc": "AI-vezérelt IPL technológia piacra dobása"
       }
     },
-    "teamTitle": "Our Expert Team",
-    "teamDesc": "Dedicated professionals committed to your success",
+    "teamTitle": "Szakértő csapatunk",
+    "teamDesc": "Elkötelezett szakemberek, akik az Ön sikerére összpontosítanak",
     "team": {
-      "rnd": "R&D Engineers",
-      "rndDesc": "Expert engineers developing cutting-edge IPL technology",
-      "quality": "Quality Specialists",
-      "qualityDesc": "Ensuring every device meets the highest standards",
-      "customer": "Customer Success",
-      "customerDesc": "Dedicated support from concept to market launch"
+      "rnd": "K+F mérnökök",
+      "rndDesc": "Szakértő mérnökök, akik élvonalbeli IPL technológiát fejlesztenek",
+      "quality": "Minőségi szakértők",
+      "qualityDesc": "Biztosítják, hogy minden készülék a legmagasabb szabványoknak megfeleljen",
+      "customer": "Ügyfélsiker",
+      "customerDesc": "Elkötelezett támogatás a koncepcióktól a piacra dobásig"
     }
   },
   "countryPage": {
-    "title": "iShine - IPL Device Manufacturing Solutions | Global",
-    "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide."
+    "title": "iShine - IPL készülék gyártási megoldások | Globális",
+    "description": "Vezető IPL készülék gyártó, OEM/ODM megoldásokat nyújt az ötlettől a piacig világszerte."
   },
   "howToUse": {
-    "heroTitle": "How to Use IPL Devices",
-    "heroDescription": "Complete guide to safe and effective IPL hair removal. Learn proper techniques, safety guidelines, and get the best results from your IPL device.",
-    "stepByStepTitle": "Step-by-Step Instructions",
-    "stepByStepDescription": "Follow these steps for safe and effective IPL treatment",
-    "safetyGuidelinesTitle": "Safety Guidelines",
-    "safetyGuidelinesDescription": "Essential safety information for IPL treatment",
-    "treatmentScheduleTitle": "Recommended Treatment Schedule",
-    "treatmentScheduleDescription": "Follow this schedule for optimal hair removal results",
-    "troubleshootingTitle": "Troubleshooting Guide",
-    "troubleshootingDescription": "Common issues and their solutions",
-    "faqTitle": "Frequently Asked Questions",
-    "faqDescription": "Get answers to common IPL treatment questions",
-    "videoTutorialsTitle": "Video Tutorials",
-    "videoTutorialsDescription": "Watch step-by-step video guides for proper IPL usage"
+    "heroTitle": "Hogyan használjuk az IPL készülékeket",
+    "heroDescription": "Teljes útmutató a biztonságos és hatékony IPL szőreltávolításhoz. Tanulja meg a megfelelő technikákat, biztonsági irányelveket, és érje el a legjobb eredményeket IPL készülékével.",
+    "stepByStepTitle": "Lépésről lépésre útmutató",
+    "stepByStepDescription": "Kövesse ezeket a lépéseket a biztonságos és hatékony IPL kezeléshez",
+    "safetyGuidelinesTitle": "Biztonsági irányelvek",
+    "safetyGuidelinesDescription": "Alapvető biztonsági információk az IPL kezeléshez",
+    "treatmentScheduleTitle": "Ajánlott kezelési ütemterv",
+    "treatmentScheduleDescription": "Kövesse ezt az ütemtervet az optimális szőreltávolítási eredményekért",
+    "troubleshootingTitle": "Hibaelhárítási útmutató",
+    "troubleshootingDescription": "Gyakori problémák és megoldásaik",
+    "faqTitle": "Gyakran ismételt kérdések",
+    "faqDescription": "Válaszok a gyakori IPL kezelési kérdésekre",
+    "videoTutorialsTitle": "Videó útmutatók",
+    "videoTutorialsDescription": "Nézzen lépésről lépésre videóútmutatókat a megfelelő IPL használathoz"
   },
   "iplHairRemoval": {
-    "heroTitle": "Professional IPL Hair Removal Solutions",
-    "heroDescription": "Discover the next generation of IPL hair removal devices—safe, effective, and designed for all skin types. Experience salon-quality results at home or in your business.",
-    "iplDevicesTitle": "Our IPL Device Range",
-    "iplDevicesDescription": "Explore our full lineup of advanced IPL hair removal devices, each engineered for maximum comfort and results.",
-    "accessoriesTitle": "Essential IPL Accessories",
-    "accessoriesDescription": "Enhance your IPL experience with our range of certified accessories for safety and convenience.",
-    "advancedIplTitle": "Advanced IPL Technology",
-    "smartTechnologyIntegration": "Smart Technology Integration",
-    "smartTechnologyIntegrationDescription": "Our IPL devices feature intelligent sensors and app connectivity for personalized, safe, and effective treatments.",
-    "coolingComfortSystems": "Cooling Comfort Systems",
-    "coolingComfortSystemsDescription": "Sapphire and metal plate cooling keep your skin comfortable and protected during every session.",
-    "intelligentSkinSensors": "Intelligent Skin Sensors",
-    "intelligentSkinSensorsDescription": "Automatic skin tone and hair detection ensures optimal energy delivery and safety for every user."
+    "heroTitle": "Professzionális IPL szőreltávolítási megoldások",
+    "heroDescription": "Fedezze fel az IPL szőreltávolító készülékek új generációját—biztonságos, hatékony, és minden bőrtípusra tervezett. Tapasztalja meg a szalon minőségű eredményeket otthon vagy vállalkozásában.",
+    "iplDevicesTitle": "IPL készülék kínálatunk",
+    "iplDevicesDescription": "Fedezze fel fejlett IPL szőreltávolító készülékeink teljes kínálatát, mindegyik a maximális kényelemre és eredményekre tervezve.",
+    "accessoriesTitle": "Alapvető IPL kiegészítők",
+    "accessoriesDescription": "Fokozza IPL élményét tanúsított kiegészítőink választékával a biztonság és kényelem érdekében.",
+    "advancedIplTitle": "Fejlett IPL technológia",
+    "smartTechnologyIntegration": "Okos technológiai integráció",
+    "smartTechnologyIntegrationDescription": "IPL készülékeink intelligens érzékelőkkel és alkalmazás kapcsolattal rendelkeznek a személyre szabott, biztonságos és hatékony kezelésekért.",
+    "coolingComfortSystems": "Hűtő komfort rendszerek",
+    "coolingComfortSystemsDescription": "A zafír és fémlapú hűtés kényelmesen és védett állapotban tartja bőrét minden egyes ülés alatt.",
+    "intelligentSkinSensors": "Intelligens bőrérzékelők",
+    "intelligentSkinSensorsDescription": "Az automatikus bőrszín és szőr érzékelés biztosítja az optimális energia leadást és biztonságot minden felhasználó számára."
   },
   "ipl": {
     "aiPowered": {
-      "title": "AI-Powered IPL Device",
-      "desc": "The future of hair removal is here. Artificial intelligence optimizes every treatment for personalized, effective results.",
+      "title": "AI-vezérelt IPL készülék",
+      "desc": "A szőreltávolítás jövője itt van. A mesterséges intelligencia optimalizálja minden kezelést személyre szabott, hatékony eredményekért.",
       "features": {
-        "aiTech": "AI Technology",
-        "aiTechDesc": "Smart learning algorithms",
-        "smartProcessing": "Smart Processing",
-        "smartProcessingDesc": "Real-time optimization",
-        "analytics": "Advanced Analytics",
-        "analyticsDesc": "Detailed progress tracking",
-        "personalized": "Personalized",
-        "personalizedDesc": "Customized for your needs"
+        "aiTech": "AI technológia",
+        "aiTechDesc": "Okos tanulási algoritmusok",
+        "smartProcessing": "Okos feldolgozás",
+        "smartProcessingDesc": "Valós idejű optimalizálás",
+        "analytics": "Fejlett analitika",
+        "analyticsDesc": "Részletes előrehaladás követés",
+        "personalized": "Személyre szabott",
+        "personalizedDesc": "Az Ön igényeihez testre szabott"
       }
     },
     "batteryPowered": {
-      "title": "Battery-Powered IPL Hair Removal Device",
-      "desc": "Experience the ultimate cordless convenience with our battery-powered IPL device. Equipped with a high-capacity rechargeable battery, it offers seamless mobility without the need for power adapters. Enjoy professional-grade hair removal anywhere, anytime, with up to 9 adjustable energy levels for personalized treatments.",
+      "title": "Akkumulátoros IPL szőreltávolító készülék",
+      "desc": "Tapasztalja meg a végső vezeték nélküli kényelmet akkumulátoros IPL készülékünkkel. Nagy kapacitású újratölthető akkumulátorral felszerelve zökkenőmentes mobilitást kínál hálózati adapterek szükségessége nélkül. Élvezze az irányított kezeléseket, valós idejű munkamenet követést, személyre szabott rutinokat és AI-vezérelt betekintéseket.",
       "features": {
-        "cordless": "Cordless design for ultimate freedom and convenience.",
-        "energyLevels": "9 adjustable energy levels for customized treatments.",
-        "longBattery": "Long-lasting rechargeable battery with 600+ recharge cycles.",
-        "noAdapter": "No need for power adapters during use, ideal for travel.",
-        "allSkin": "Suitable for all skin tones, FDA & CE approved."
+        "cordless": "Vezeték nélküli design a végső szabadságért és kényelemért.",
+        "energyLevels": "9 állítható energia szint testreszabott kezelésekért.",
+        "longBattery": "Hosszan tartó újratölthető akkumulátor 600+ töltési ciklussal.",
+        "noAdapter": "Nem szükségesek hálózati adapterek használat közben, ideális utazáshoz.",
+        "allSkin": "Minden bőrtónusra alkalmas, FDA és CE jóváhagyott."
       }
     },
     "dualLamp": {
-      "title": "Dual-Lamp IPL Device",
-      "desc": "Double the power, double the efficiency. Revolutionary dual-lamp technology for faster treatments and superior results.",
+      "title": "Kettős lámpás IPL készülék",
+      "desc": "Dupla erő, dupla hatékonyság. Forradalmi kettős lámpa technológia gyorsabb kezelésekért és kiváló eredményekért.",
       "features": {
-        "dualLamps": "Dual Lamps",
-        "dualLampsDesc": "Enhanced power and coverage",
-        "faster": "Faster Treatment",
-        "fasterDesc": "Reduced session time",
-        "proPower": "Professional Power",
-        "proPowerDesc": "Salon-grade performance",
-        "evenCoverage": "Even Coverage",
-        "evenCoverageDesc": "Uniform light distribution"
+        "dualLamps": "Kettős lámpák",
+        "dualLampsDesc": "Fokozott erő és lefedettség",
+        "faster": "Gyorsabb kezelés",
+        "fasterDesc": "Csökkentett ülésidő",
+        "proPower": "Professzionális erő",
+        "proPowerDesc": "Szalon minőségű teljesítmény",
+        "evenCoverage": "Egyenletes lefedettség",
+        "evenCoverageDesc": "Egyenletes fény eloszlás"
       }
     },
     "emerald": {
-      "title": "Emerald IPL Hair Removal Device",
-      "desc": "Experience professional-grade hair removal at home with our Emerald IPL Device featuring advanced Intense Pulsed Light technology with 15 J/cm² of energy and 600,000+ flashes for long-lasting smooth skin. The precision-engineered system delivers consistent results across all treatment areas.",
+      "title": "Smaragd IPL szőreltávolító készülék",
+      "desc": "Tapasztalja meg a professzionális minőségű szőreltávolítást otthon Smaragd IPL készülékünkkel, amely fejlett intenzív impulzusfény technológiával rendelkezik 15 J/cm² energiával és 600,000+ villanással tartósan sima bőrért. A precíziós mérnöki rendszer konzisztens eredményeket nyújt minden kezelési területen.",
       "features": {
-        "proResults": "Professional results — up to 94% hair reduction after 12 weeks.",
-        "manualIntensity": "5-level manual intensity control for personalized treatments.",
-        "safeAllSkin": "Safe for all skin tones within Fitzpatrick I-V range.",
-        "largeWindow": "Large 4.2 cm² treatment window for faster coverage.",
-        "ergonomic": "Ergonomic design with built-in safety sensors."
+        "proResults": "Professzionális eredmények — akár 94% szőrcsökkenés 12 hét után.",
+        "manualIntensity": "5 szintű kézi intenzitás kontrol személyre szabott kezelésekért.",
+        "safeAllSkin": "Biztonságos minden bőrtónusra a Fitzpatrick I-V tartományban.",
+        "largeWindow": "Nagy 4,2 cm² kezelési ablak gyorsabb lefedettségért.",
+        "ergonomic": "Ergonomikus design beépített biztonsági érzékelőkkel."
       }
     },
     "handheld": {
-      "title": "Handheld IPL Hair Removal Device",
-      "desc": "Discover the perfect blend of comfort and performance with our handheld IPL device. Designed for easy grip and precise control, it features 5 adjustable energy levels to suit all skin types and sensitivities. Achieve salon-quality hair removal results at home with a lightweight, portable device.",
+      "title": "Kézi IPL szőreltávolító készülék",
+      "desc": "Fedezze fel a kényelem és teljesítmény tökéletes ötvözetét kézi IPL készülékünkkel. Könnyű fogásra és precíz kontrollra tervezve, 5 állítható energia szinttel rendelkezik minden bőrtípusra és érzékenységre. Érjen el szalon minőségű szőreltávolítási eredményeket otthon könnyű, hordozható készülékkel.",
       "features": {
-        "ergonomic": "Ergonomic handheld design for comfortable use.",
-        "energyLevels": "5 adjustable energy levels for personalized treatments.",
-        "portable": "Lightweight and portable—ideal for travel and home use.",
-        "allSkin": "Suitable for all skin tones, gentle and effective.",
-        "certified": "FDA & CE approved for safety and quality."
+        "ergonomic": "Ergonomikus kézi design kényelmes használatért.",
+        "energyLevels": "5 állítható energia szint személyre szabott kezelésekért.",
+        "portable": "Könnyű és hordozható—ideális utazáshoz és otthoni használathoz.",
+        "allSkin": "Minden bőrtónusra alkalmas, gyengéd és hatékony.",
+        "certified": "FDA és CE jóváhagyott biztonságért és minőségért."
       }
     },
     "iceCooling": {
       "title": "IPL szőreltávolító készülék jéghűtéssel",
       "desc": "Tapasztalja meg a luxus professzionális jéghűtéses szőreltávolítási technológiát, amely légi minőségű hűtő fémlappal van felszerelve, amely azonnal 5°C ultra-alacsony hőmérsékletre hűti a bőrt.",
       "features": {
-        "luxuryDesign": "Luxurious goddess design — Aerospace-grade metal texture, showcasing noble taste.",
-        "coolingPlate": "Ice cooling plate technology — Instantly cools skin to 5°C for truly painless experience.",
-        "preciseControl": "9-level precise energy control — Customizable for sensitive areas and coarse hair.",
-        "allSkin": "Suitable for all skin tones — Fitzpatrick I-V certified.",
-        "largeWindow": "3.3 cm² extra-large treatment window — Fast coverage, 50% higher efficiency."
+        "luxuryDesign": "Luxus istennő design — Repülőgépipar minőségű fém textúra, amely nemes ízlést mutat.",
+        "coolingPlate": "Jéghűtő lap technológia — Azonnal 5°C-ra hűti a bőrt a valóban fájdalommentes élményért.",
+        "preciseControl": "9 szintű precíz energia kontrol — Testreszabható érzékeny területekhez és durva szőrzethez.",
+        "allSkin": "Minden bőrtónusra alkalmas — Fitzpatrick I-V tanúsított.",
+        "largeWindow": "3,3 cm² extra nagy kezelési ablak — Gyors lefedettség, 50%-kal magasabb hatékonyság."
       }
     },
     "iceFeeling": {
       "title": "Zafír jégérzet IPL készülék",
       "desc": "Élvezze a fájdalommentes szőreltávolítást a klinikai zafír hűtőlappal, amely 5°C-ra hűti a bőrt, lehetővé téve a magasabb energiájú impulzusokat a gyorsabb eredményekért.",
       "features": {
-        "longSmooth": "Long-lasting smoothness — visible reduction after 3-4 weeks.",
-        "cooling": "Cooling plate keeps epidermis at 5°C for true painless treatments.",
-        "energyLevels": "Five energy levels adapt to almost all skin tones within Fitzpatrick I-V.",
-        "flashModes": "Auto/Manual flash modes for body and precision areas.",
-        "multiUse": "4-in-1: Full body, Bikini, Face, and skin rejuvenation."
+        "longSmooth": "Hosszan tartó simaság — látható csökkenés 3-4 hét után.",
+        "cooling": "A hűtőlap 5°C-on tartja a bőrfelszínt a valóban fájdalommentes kezelésekért.",
+        "energyLevels": "Öt energia szint alkalmazkodik szinte minden bőrtónushoz a Fitzpatrick I-V tartományban.",
+        "flashModes": "Automatikus/kézi villanás módok a test és precíziós területekért.",
+        "multiUse": "4-az-1-ben: Teljes test, bikini, arc és bőrmegújítás."
       }
     },
     "skinSensor": {
       "title": "IPL készülék bőrérzékelővel",
       "desc": "Tapasztalja meg a legbiztonságosabb és legokosabb otthoni szőreltávolítást a bőrérzékelős IPL készülékünkkel. Ez a forradalmi készülék fejlett optikai bőrérzékelőkkel rendelkezik, amelyek automatikusan felismerik a bőrárnyalatot és a szőr színét.",
       "features": {
-        "intelligentDetection": "Intelligent Skin Detection – Advanced sensors automatically identify skin tone and adjust energy levels",
-        "maxSafety": "Maximum Safety – Prevents over-treatment and reduces risk of skin irritation or burns",
-        "personalized": "Personalized Treatment – Automatically optimizes intensity for your unique skin characteristics",
-        "realTime": "Real-time Analysis – Continuous monitoring ensures consistent, safe treatment sessions",
-        "proResults": "Professional Results – Salon-quality hair removal in the comfort of your home"
+        "intelligentDetection": "Intelligens bőrfelismerés — Fejlett érzékelők automatikusan azonosítják a bőrtónust és beállítják az energia szinteket",
+        "maxSafety": "Maximális biztonság — Megakadályozza a túlkezelést és csökkenti a bőrirritáció vagy égési sérülések kockázatát",
+        "personalized": "Személyre szabott kezelés — Automatikusan optimalizálja az intenzitást az Ön egyedi bőr jellemzőihez",
+        "realTime": "Valós idejű elemzés — Folyamatos monitorozás biztosítja a konzisztens, biztonságos kezelési üléseket",
+        "proResults": "Professzionális eredmények — Szalon minőségű szőreltávolítás otthona kényelmében"
       }
     },
     "smartApp": {
       "title": "Okos alkalmazás IPL szőreltávolító készülék",
       "desc": "Kösse össze IPL készülékét könnyedén Bluetooth-on keresztül okos alkalmazásunkkal. Élvezze az irányított kezeléseket, valós idejű munkamenet követést, személyre szabott rutinokat és AI-vezérelt betekintéseket.",
       "features": {
-        "bluetooth": "Bluetooth 5.0 connectivity for stable pairing",
-        "aiPlans": "Personalized treatment plans via AI analysis",
-        "realTimeControl": "Real-time intensity control and on-screen feedback",
-        "scheduling": "Session scheduling and usage reminders",
-        "compatibility": "Compatible with iOS & Android"
+        "bluetooth": "Bluetooth 5.0 kapcsolat a stabil párosításért",
+        "aiPlans": "Személyre szabott kezelési tervek AI elemzésen keresztül",
+        "realTimeControl": "Valós idejű intenzitás kontrol és képernyőn megjelenő visszajelzés",
+        "scheduling": "Ülés ütemezés és használati emlékeztetők",
+        "compatibility": "Kompatibilis iOS és Android készülékekkel"
       }
     }
   },
@@ -453,146 +453,146 @@
     }
   },
   "cta": {
-    "getSupport": "Get Support Now",
-    "readyToStart": "Ready to Get Started?",
-    "contactUs": "Contact Us",
-    "freeQuote": "Get a Free Quote",
-    "readMore": "Read More"
+    "getSupport": "Támogatás kérése most",
+    "readyToStart": "Készen áll a kezdésre?",
+    "contactUs": "Lépjen kapcsolatba velünk",
+    "freeQuote": "Ingyenes árajánlat kérése",
+    "readMore": "Olvass tovább"
   },
   "form": {
-    "name": "Name",
+    "name": "Név",
     "email": "Email",
-    "phone": "Phone",
-    "country": "Country",
-    "message": "Message",
-    "submit": "Submit",
-    "sending": "Sending...",
-    "success": "Your message has been sent successfully!",
-    "error": "There was an error sending your message. Please try again."
+    "phone": "Telefon",
+    "country": "Ország",
+    "message": "Üzenet",
+    "submit": "Küldés",
+    "sending": "Küldés folyamatban...",
+    "success": "Az üzenete sikeresen elküldve!",
+    "error": "Hiba történt az üzenet küldésekor. Kérjük, próbálja újra."
   },
   "blog": {
     "posts": {
       "sustainableManufacturing": {
         "title": "Fenntartható gyártás: Zöld IPL termelési módszerek",
-        "intro": "As the demand for at-home IPL (Intense Pulsed Light) hair removal devices surges, so does the responsibility to produce these electronics with minimal environmental impact. Sustainable manufacturing is no longer a trend but a necessity—encompassing every stage from raw material sourcing to end-of-life recycling. This article assesses the environmental footprint of IPL device production and explores innovative, practical strategies for achieving a truly green supply chain, with a focus on electronics, optics, eco-friendly ABS housings, sustainable packaging, and waste reutilization.",
+        "intro": "Az otthoni IPL (intenzív impulzusfény) szőreltávolító készülékek iránti kereslet növekedésével együtt nő a felelősség, hogy ezeket az elektronikai eszközöket minimális környezeti hatással állítsuk elő. A fenntartható gyártás már nem trend, hanem szükségszerűség — minden szakaszt átfog a nyersanyag beszerzéstől az élettartam végén történő újrahasznosításig. Ez a cikk értékeli az IPL készülék gyártás környezeti lábnyomát és feltárja az innovatív, gyakorlati stratégiákat a valóban zöld ellátási lánc eléréséhez, különös tekintettel az elektronikára, optikára, környezetbarát ABS burkolatokra, fenntartható csomagolásra és hulladék újrafelhasználásra.",
         "sections": {
-          "environmentalImpact": "Environmental Impact Assessment of IPL Device Manufacturing",
-          "electronics": "1. Electronic Components",
-          "optics": "2. Optical Components (Lenses and Filters)",
-          "absHousing": "3. ABS Eco-Friendly Housings",
-          "packaging": "4. Sustainable Paper Packaging",
-          "wasteReduction": "5. Waste Reduction and Reuse",
-          "supplyChain": "Sustainable Supply Chain Innovations",
-          "feasibility": "The Feasibility of a Green IPL Supply Chain",
-          "commitment": "iShine's Commitment to Sustainability",
-          "references": "References"
+          "environmentalImpact": "Az IPL készülék gyártás környezeti hatásainak értékelése",
+          "electronics": "1. Elektronikai alkatrészek",
+          "optics": "2. Optikai alkatrészek (lencsék és szűrők)",
+          "absHousing": "3. Környezetbarát ABS burkolatok",
+          "packaging": "4. Fenntartható papír csomagolás",
+          "wasteReduction": "5. Hulladék csökkentés és újrafelhasználás",
+          "supplyChain": "Fenntartható ellátási lánc innovációk",
+          "feasibility": "A zöld IPL ellátási lánc megvalósíthatósága",
+          "commitment": "Az iShine elkötelezettség a fenntarthatóság iránt",
+          "references": "Hivatkozások"
         }
       },
       "globalMarketShifts": {
         "title": "Globális piaci változások: IPL készülék trendek és lehetőségek",
-        "intro": "Explore the latest global trends in IPL device adoption, regulatory changes, and market opportunities for brands and manufacturers.",
+        "intro": "Fedezze fel a legfrissebb globális trendeket az IPL készülék elfogadásban, szabályozási változásokban és piaci lehetőségekben márkák és gyártók számára.",
         "sections": {
-          "marketOverview": "Market Overview",
-          "regionalTrends": "Regional Trends",
-          "regulatoryChanges": "Regulatory Changes",
-          "consumerPreferences": "Consumer Preferences",
-          "opportunities": "Opportunities for Brands",
-          "challenges": "Challenges and Risks",
-          "futureOutlook": "Future Outlook"
+          "marketOverview": "Piaci áttekintés",
+          "regionalTrends": "Regionális trendek",
+          "regulatoryChanges": "Szabályozási változások",
+          "consumerPreferences": "Fogyasztói preferenciák",
+          "opportunities": "Lehetőségek márkák számára",
+          "challenges": "Kihívások és kockázatok",
+          "futureOutlook": "Jövőbeli kilátások"
         }
       },
       "aiPoweredSkinSensing": {
         "title": "AI-vezérelt bőrfelismerés: A következő határ az IPL biztonságban",
-        "intro": "How artificial intelligence is revolutionizing IPL device safety and personalization through real-time skin analysis.",
+        "intro": "Hogyan forradalmasítja a mesterséges intelligencia az IPL készülék biztonságot és személyre szabást a valós idejű bőrelemzésen keresztül.",
         "sections": {
-          "introduction": "Introduction",
-          "aiTechnology": "AI Technology in IPL",
-          "skinSensing": "Skin Sensing Mechanisms",
-          "safetyBenefits": "Safety Benefits",
-          "userExperience": "User Experience",
-          "caseStudies": "Case Studies",
-          "conclusion": "Conclusion"
+          "introduction": "Bevezetés",
+          "aiTechnology": "AI technológia az IPL-ben",
+          "skinSensing": "Bőr érzékelési mechanizmusok",
+          "safetyBenefits": "Biztonsági előnyök",
+          "userExperience": "Felhasználói élmény",
+          "caseStudies": "Esettanulmányok",
+          "conclusion": "Következtetés"
         }
       },
       "multiHeadIPLSystems": {
         "title": "Többfejű IPL rendszerek: A pontosság találkozik a teljes test hatékonysággal",
-        "intro": "The evolution of at-home hair removal has been profoundly shaped by the introduction of multi-head Intense Pulsed Light (IPL) systems. Philips pioneered this trend with its interchangeable head technology, setting a new standard for versatility and user-centric design in home-use IPL devices.",
+        "intro": "Az otthoni szőreltávolítás fejlődését mélyen befolyásolta a többfejű intenzív impulzusfény (IPL) rendszerek bevezetése. A Philips úttörő szerepet játszott ezzel a trenddel a cserélhető fej technológiájával, új szabványt állítva fel a sokoldalúság és felhasználó-központú tervezés terén az otthoni használatú IPL készülékekben.",
         "sections": {
-          "philipsLegacy": "The Philips Legacy: Setting the Standard for Multi-Head IPL",
-          "keyFeatures": "Key Features of Multi-Head IPL Devices",
-          "respondingToVIO": "Responding to VIO Hair Removal Needs",
-          "whyMultiHeadMatters": "Why Multi-Head Design Matters",
-          "painReduction": "Pain Reduction: The Role of Advanced Filters",
-          "realUserFeedback": "Real User Feedback",
-          "conclusion": "Conclusion",
-          "references": "References"
+          "philipsLegacy": "A Philips öröksége: Szabvány megállapítása a többfejű IPL-hez",
+          "keyFeatures": "A többfejű IPL készülékek kulcs jellemzői",
+          "respondingToVIO": "Válasz a VIO szőreltávolítási igényekre",
+          "whyMultiHeadMatters": "Miért számít a többfejű design",
+          "painReduction": "Fájdalom csökkentés: A fejlett szűrők szerepe",
+          "realUserFeedback": "Valódi felhasználói visszajelzések",
+          "conclusion": "Következtetés",
+          "references": "Hivatkozások"
         }
       },
       "sapphireCooling": {
         "title": "Zafír hűtés: A kényelem fokozása IPL kezelésekben",
-        "intro": "Discover how sapphire cooling technology is transforming the comfort and safety of IPL hair removal treatments.",
+        "intro": "Fedezze fel, hogyan alakítja át a zafír hűtési technológia az IPL szőreltávolító kezelések kényelmét és biztonságát.",
         "sections": {
-          "technologyOverview": "Technology Overview",
-          "coolingMechanism": "How Sapphire Cooling Works",
-          "benefits": "Benefits for Users",
-          "clinicalEvidence": "Clinical Evidence",
-          "deviceComparison": "Device Comparison",
-          "userTestimonials": "User Testimonials",
-          "conclusion": "Conclusion"
+          "technologyOverview": "Technológiai áttekintés",
+          "coolingMechanism": "Hogyan működik a zafír hűtés",
+          "benefits": "Előnyök a felhasználók számára",
+          "clinicalEvidence": "Klinikai bizonyítékok",
+          "deviceComparison": "Készülék összehasonlítás",
+          "userTestimonials": "Felhasználói vélemények",
+          "conclusion": "Következtetés"
         }
       },
       "industries": {
         "title": "Iparágak, amelyeket kiszolgálunk: IPL alkalmazások szektorokon keresztül",
-        "intro": "IPL technology is not just for beauty—explore its applications in medical, veterinary, and industrial sectors.",
+        "intro": "Az IPL technológia nem csak a szépségápolásról szól — fedezze fel alkalmazásait az orvosi, állatorvosi és ipari szektorokban.",
         "sections": {
-          "beauty": "Beauty Industry",
-          "medical": "Medical Applications",
-          "veterinary": "Veterinary Uses",
-          "industrial": "Industrial Applications",
-          "caseStudies": "Case Studies",
-          "futureTrends": "Future Trends"
+          "beauty": "Szépségápolási iparág",
+          "medical": "Orvosi alkalmazások",
+          "veterinary": "Állatorvosi felhasználások",
+          "industrial": "Ipari alkalmazások",
+          "caseStudies": "Esettanulmányok",
+          "futureTrends": "Jövőbeli trendek"
         }
       },
       "iplBestChoice": {
         "title": "Miért az otthoni IPL szőreltávolító készülékek a legjobb választás minden szőreltávolító eszköz között",
-        "intro": "Discover why IPL is the most effective, comfortable, and convenient solution for long-term hair removal at home—backed by science and real user experience.",
+        "intro": "Fedezze fel, miért az IPL a leghatékonyabb, kényelmesebb és legkényelmesebb megoldás a hosszú távú otthoni szőreltávolításhoz — tudományos és valódi felhasználói tapasztalatok alapján.",
         "sections": {
-          "comparison": "Hair Removal Methods Comparison",
-          "whyChooseIPL": "Why Choose IPL Home Hair Removal?",
-          "userStories": "Real User Stories",
-          "faq": "Frequently Asked Questions",
-          "recommendedBlog": "Recommended Blog",
-          "exploreMore": "Explore More"
+          "comparison": "Szőreltávolítási módszerek összehasonlítása",
+          "whyChooseIPL": "Miért válassza az otthoni IPL szőreltávolítást?",
+          "userStories": "Valódi felhasználói történetek",
+          "faq": "Gyakran ismételt kérdések",
+          "recommendedBlog": "Ajánlott blog",
+          "exploreMore": "Fedezzen fel többet"
         }
       },
       "futureHomeHairRemoval": {
         "title": "Az otthoni szőreltávolító készülékek jövője: Trendek, innovációk és ami ezután jön",
-        "intro": "Explore the evolution, current breakthroughs, and the next generation of home hair removal devices—AI, multifunctionality, and sustainable design for 2025 and beyond.",
+        "intro": "Fedezze fel a fejlődést, jelenlegi áttöréseket és az otthoni szőreltávolító készülékek következő generációját — AI, multifunkcionalitás és fenntartható design 2025-re és azon túl.",
         "sections": {
-          "evolution": "Evolution of Home Hair Removal Technology",
-          "stateOfTheArt": "Key Features of Next-Gen Devices (2025)",
-          "aiPersonalization": "AI and Personalization in Hair Removal",
-          "vision": "The 'Ultimate' Home Hair Removal Device: A Vision",
-          "challenges": "Challenges and Considerations",
-          "faq": "Frequently Asked Questions",
-          "exploreMore": "Explore More",
-          "aboutAuthor": "About the Author"
+          "evolution": "Az otthoni szőreltávolító technológia fejlődése",
+          "stateOfTheArt": "Az új generációs készülékek kulcs jellemzői (2025)",
+          "aiPersonalization": "AI és személyre szabás a szőreltávolításban",
+          "vision": "A 'végső' otthoni szőreltávolító készülék: Egy vízió",
+          "challenges": "Kihívások és megfontolások",
+          "faq": "Gyakran ismételt kérdések",
+          "exploreMore": "Fedezzen fel többet",
+          "aboutAuthor": "A szerzőről"
         }
       },
       "fda510kPathway": {
         "title": "FDA 510(k) útvonal: Orvosi készülék besorolás navigálása IPL-hez",
-        "intro": "A comprehensive guide to the FDA 510(k) pathway for home-use IPL hair removal devices. Learn about regulatory requirements, marketing claims, and how iShine helps brands achieve compliance.",
+        "intro": "Átfogó útmutató az FDA 510(k) útvonalhoz otthoni használatú IPL szőreltávolító készülékekhez. Tanulja meg a szabályozási követelményeket, marketing állításokat és hogyan segít az iShine a márkáknak a megfelelőség elérésében.",
         "sections": {
-          "introduction": "Introduction",
-          "pathway": "1. FDA 510(k) Pathway for Home IPL Devices",
-          "marketingClaims": "2. How Marketing Claims Affect Regulatory Classification",
-          "ishineExpertise": "3. iShine's Expertise in Securing Your Brand's FDA 510(k) Listing",
-          "benefits": "4. Benefits of Obtaining a Brand-Specific FDA 510(k) Listing",
-          "guidance": "5. Practical Guidance for Brands",
-          "conclusion": "Conclusion",
-          "faq": "Frequently Asked Questions",
-          "exploreMore": "Explore More",
-          "author": "About the Author"
+          "introduction": "Bevezetés",
+          "pathway": "1. FDA 510(k) útvonal otthoni IPL készülékekhez",
+          "marketingClaims": "2. Hogyan befolyásolják a marketing állítások a szabályozási besorolást",
+          "ishineExpertise": "3. Az iShine szakértelme a márka FDA 510(k) listázásának biztosításában",
+          "benefits": "4. A márka-specifikus FDA 510(k) listázás előnyei",
+          "guidance": "5. Gyakorlati útmutatás márkák számára",
+          "conclusion": "Következtetés",
+          "faq": "Gyakran ismételt kérdések",
+          "exploreMore": "Fedezzen fel többet",
+          "author": "A szerzőről"
         }
       }
     }
