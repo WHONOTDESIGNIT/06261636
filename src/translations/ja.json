@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "iShine - IPL機器製造ソリューション | アイデアから市場まで",
-    "description": "アイデアから市場まで包括的なOEM/ODMソリューションを提供する主要IPL機器メーカー。グローバル美容ブランド向けカスタムIPL脱毛機器。",
-    "keywords": "IPL機器, OEM製造, ODMソリューション, 脱毛, 美容機器, カスタム製造"
+    "title": "iShine - 光脱毛器製造ソリューション | アイデアから市場まで",
+    "description": "アイデアから市場まで包括的なOEM/ODMソリューションを提供する主要光脱毛器メーカー。グローバル美容ブランド向けカスタム光脱毛器。",
+    "keywords": "光脱毛器, OEM製造, ODMソリューション, 脱毛, 美容機器, カスタム製造"
   },
   "header": {
     "navigation": {
       "solutions": "ソリューション",
-      "iplHairRemoval": "IPL脱毛",
+      "iplHairRemoval": "光脱毛",
       "howToUse": "使用方法",
       "serviceSupport": "サービス・サポート",
       "about": "会社概要",
@@ -21,19 +21,19 @@
       "brandCustomization": "ブランドカスタマイズ",
       "compliance": "コンプライアンスと認証",
       "designPrototyping": "デザインとプロトタイピング",
-      "multiHeadIPL": "マルチヘッドIPLカスタム",
-      "dualLampIPL": "デュアルランプIPLカスタム"
+      "multiHeadIPL": "マルチヘッド光脱毛器カスタム",
+      "dualLampIPL": "デュアルランプ光脱毛器カスタム"
     },
     "iplDevices": {
-      "smartApp": "スマートアプリ制御IPL機器",
-      "iceFeeling": "アイスフィーリングIPL機器",
-      "emerald": "エメラルドIPL機器",
-      "skinSensor": "スキンセンサー付きIPL機器",
-      "batteryPowered": "バッテリー駆動IPL機器",
-      "handheld": "ハンドヘルドIPL機器",
-      "iceCooling": "アイスクーリングIPL機器",
-      "dualLamp": "デュアルランプIPL機器",
-      "aiPowered": "AI搭載IPL機器"
+      "smartApp": "スマートアプリ制御光脱毛器",
+      "iceFeeling": "アイスフィーリング光脱毛器",
+      "emerald": "エメラルド光脱毛器",
+      "skinSensor": "スキンセンサー付き光脱毛器",
+      "batteryPowered": "バッテリー駆動光脱毛器",
+      "handheld": "ハンドヘルド光脱毛器",
+      "iceCooling": "アイスクーリング光脱毛器",
+      "dualLamp": "デュアルランプ光脱毛器",
+      "aiPowered": "AI搭載光脱毛器"
     },
     "accessories": {
       "sapphireLens": "サファイアレンズ",
@@ -45,7 +45,7 @@
       "service": "サービス",
       "afterSales": "アフターサービス",
       "fdaGmp": "FDA GMPクリーンルーム設計",
-      "manufacturing": "IPLデバイス製造",
+      "manufacturing": "光脱毛器製造",
       "knowledgeBase": "ナレッジベース",
       "support": "サポート > 購入ガイド",
       "beautySourcing": "美容ニッチソーシング＆アクセサリー",
@@ -69,19 +69,19 @@
   },
   "footer": {
     "company": {
-      "description": "アイデアから市場までOEM/ODMソリューションを提供する大手IPLデバイスメーカー。",
+      "description": "アイデアから市場までOEM/ODMソリューションを提供する大手光脱毛器メーカー。",
       "products": "製品",
       "services": "サービス",
       "company": "会社"
     },
     "products": {
-      "iplHairRemoval": "IPL脱毛",
+      "iplHairRemoval": "光脱毛",
       "accessories": "アクセサリー",
       "gallery": "ギャラリー"
     },
     "services": {
       "afterSales": "アフターサービス",
-      "manufacturing": "IPL製造",
+      "manufacturing": "光脱毛器製造",
       "buyingGuide": "購入ガイド",
       "helpCenter": "ヘルプセンター"
     },
@@ -110,9 +110,9 @@
   },
   "home": {
     "hero": {
-      "title1": "カスタムIPL機器",
-      "title2": "とブランドIPL機器",
-      "subtitle": "世界をリードするIPL機器メーカーとして、設計、製造、パッケージングをサポートします。",
+      "title1": "カスタム光脱毛器",
+      "title2": "とブランド光脱毛器",
+      "subtitle": "世界をリードする光脱毛器メーカーとして、設計、製造、パッケージングをサポートします。",
       "cta": "見積もりを取得"
     },
     "partners": {
@@ -121,23 +121,23 @@
     },
     "features": {
       "title": "iShineを選ぶ理由",
-      "subtitle": "お客様のニーズに合わせた完全なIPL製造ソリューション"
+      "subtitle": "お客様のニーズに合わせた完全な光脱毛器製造ソリューション"
     },
     "products": {
-      "title": "当社のIPLデバイスレンジ",
-      "subtitle": "あらゆるニーズに対応する幅広いIPLデバイス",
-      "cta": "すべてのIPLデバイスを見る"
+      "title": "当社の光脱毛器ラインナップ",
+      "subtitle": "あらゆるニーズに対応する幅広い光脱毛器",
+      "cta": "すべての光脱毛器を見る"
     },
     "cta": {
-      "title": "IPLプロジェクトを開始する準備はできましたか？",
-      "subtitle": "お客様の要件について話し合い、お客様のブランドに最適なIPLソリューションを作成しましょう。",
+      "title": "光脱毛器プロジェクトを開始する準備はできましたか？",
+      "subtitle": "お客様の要件について話し合い、お客様のブランドに最適な光脱毛ソリューションを作成しましょう。",
       "button": "相談を予約"
     }
   },
   "contact": {
     "hero": {
       "title": "お問い合わせ",
-      "description": "IPLプロジェクトについて話し合う準備はできましたか？今すぐ当社の専門チームにご連絡ください。お客様のビジョンを実現するためにお手伝いします。"
+      "description": "光脱毛器プロジェクトについて話し合う準備はできましたか？今すぐ当社の専門チームにご連絡ください。お客様のビジョンを実現するためにお手伝いします。"
     },
     "info": {
       "title": "お問い合わせ",
@@ -197,11 +197,11 @@
   },
   "solutions": {
     "productDesignDevelopment": "製品設計と開発",
-    "productDesignDevelopmentDescription": "初期コンセプトから最終設計まで、当社の専門チームが最先端の技術と市場の洞察力で、お客様のIPLビジョンを実現します。",
+    "productDesignDevelopmentDescription": "初期コンセプトから最終設計まで、当社の専門チームが最先端の技術と市場の洞察力で、お客様の光脱毛器ビジョンを実現します。",
     "oemManufacturing": "OEM製造",
     "oemManufacturingDescription": "お客様の仕様に合わせた完全な製造ソリューション。お客様がブランドと市場に集中できるよう、当社が生産を処理します。",
     "odmSolutions": "ODMソリューション",
-    "odmSolutionsDescription": "実績のあるIPL設計から選択し、お客様のブランディング、パッケージング、および独自の機能でカスタマイズします。",
+    "odmSolutionsDescription": "実績のある光脱毛器設計から選択し、お客様のブランディング、パッケージング、および独自の機能でカスタマイズします。",
     "endToEndSupport": "エンドツーエンドのサポート",
     "endToEndSupportDescription": "初期相談から製品の発売、そしてその先まで、完全なプロジェクト管理を行い、お客様の成功をあらゆる段階で保証します。",
     "consultation": "コンサルティング",
@@ -214,10 +214,10 @@
     "manufacturingDescription": "品質保証付きのフルスケール生産",
     "launch": "発売",
     "launchDescription": "お客様の市場参入と継続的な成功をサポートします。",
-    "completeIPLSolutions": "完全なIPLソリューション",
-    "completeIPLSolutionsDescription": "初期コンセプトから市場投入まで、お客様のIPLビジョンを成功する製品に変える包括的なOEM/ODMソリューションを提供します。",
+    "completeIPLSolutions": "完全な光脱毛器ソリューション",
+    "completeIPLSolutionsDescription": "初期コンセプトから市場投入まで、お客様の光脱毛器ビジョンを成功する製品に変える包括的なOEM/ODMソリューションを提供します。",
     "ourSolutionPortfolio": "当社のソリューションポートフォリオ",
-    "comprehensiveServices": "お客様のIPL製品を市場に投入するための包括的なサービス",
+    "comprehensiveServices": "お客様の光脱毛器製品を市場に投入するための包括的なサービス",
     "ourProcess": "当社のプロセス",
     "streamlinedWorkflow": "プロジェクトの成功を保証するための合理化されたワークフロー",
     "industriesWeServe": "サービスを提供する業界",
@@ -231,11 +231,11 @@
   },
   "about": {
     "heroTitle": "iShineについて",
-    "heroDesc": "2018年以来、革新的な美容技術をコンセプトから市場に投入してきた、IPLデバイス製造における信頼できるパートナー。",
+    "heroDesc": "2018年以来、革新的な美容技術をコンセプトから市場に投入してきた、光脱毛器製造における信頼できるパートナー。",
     "storyTitle": "私たちの物語",
-    "storyP1": "2018年に設立されたiShineは、高度なIPL技術を民主化するというビジョンから生まれました。私たちは、美容ブランドが、アイデアを正確かつ優れた市場対応製品に変えることができる信頼できるパートナーを必要としていることを認識しました。",
+    "storyP1": "2018年に設立されたiShineは、高度な光脱毛技術を民主化するというビジョンから生まれました。私たちは、美容ブランドが、アイデアを正確かつ優れた市場対応製品に変えることができる信頼できるパートナーを必要としていることを認識しました。",
     "storyP2": "今日、私たちは革新的なスタートアップから確立された美容複合企業まで、4つの大陸にわたるクライアントにサービスを提供できることを誇りに思っています。品質、革新、および顧客の成功への当社のコミットメントは、私たちが行うすべてのことを推進します。",
-    "storyP3": "iShineでは、単にデバイスを製造するだけでなく、競争の激しい美容市場でブランドが成功するためのソリューションを創造しています。",
+    "storyP3": "iShineでは、単に光脱毛器を製造するだけでなく、競争の激しい美容市場でブランドが成功するためのソリューションを創造しています。",
     "valuesTitle": "当社のコアバリュー",
     "valuesDesc": "当社の業務とお客様との関係を導く原則",
     "values": {
@@ -244,16 +244,16 @@
       "customerTitle": "顧客重視",
       "customerDesc": "お客様の期待を理解し、それを超えることに尽力",
       "globalTitle": "グローバルな影響",
-      "globalDesc": "革新的なIPLソリューションで世界中の美容ブランドに貢献",
+      "globalDesc": "革新的な光脱毛器ソリューションで世界中の美容ブランドに貢献",
       "innovationTitle": "革新への推進",
-      "innovationDesc": "次世代IPL技術への継続的な研究開発投資"
+      "innovationDesc": "次世代光脱毛技術への継続的な研究開発投資"
     },
     "journeyTitle": "私たちの歩み",
     "journeyDesc": "当社の成長と革新における主要なマイルストーン",
     "milestones": {
       "2018": {
         "title": "会社設立",
-        "desc": "iShine、IPLデバイスメーカーとして設立"
+        "desc": "iShine、光脱毛器メーカーとして設立"
       },
       "2019": {
         "title": "初の海外クライアント",
@@ -264,8 +264,8 @@
         "desc": "FDA GMPクリーンルーム認証を取得"
       },
       "2021": {
-        "title": "スマートIPLの発売",
-        "desc": "初のアプリ制御IPLデバイスを発売"
+        "title": "スマート光脱毛器の発売",
+        "desc": "初のアプリ制御光脱毛器を発売"
       },
       "2022": {
         "title": "グローバル展開",
@@ -273,14 +273,14 @@
       },
       "2023": {
         "title": "AI統合",
-        "desc": "AI搭載IPL技術を発表"
+        "desc": "AI搭載光脱毛技術を発表"
       }
     },
     "teamTitle": "当社の専門チーム",
     "teamDesc": "お客様の成功に尽力する専門家",
     "team": {
       "rnd": "研究開発エンジニア",
-      "rndDesc": "最先端のIPL技術を開発する専門エンジニア",
+      "rndDesc": "最先端の光脱毛技術を開発する専門エンジニア",
       "quality": "品質スペシャリスト",
       "qualityDesc": "すべてのデバイスが最高の基準を満たすことを保証",
       "customer": "カスタマーサクセス",
@@ -288,35 +288,35 @@
     }
   },
   "countryPage": {
-    "title": "iShine - IPLデバイス製造ソリューション | グローバル",
-    "description": "アイデアから世界中の市場まで、OEM/ODMソリューションを提供する大手IPLデバイスメーカー。"
+    "title": "iShine - 光脱毛器製造ソリューション | グローバル",
+    "description": "アイデアから世界中の市場まで、OEM/ODMソリューションを提供する大手光脱毛器メーカー。"
   },
   "howToUse": {
-    "heroTitle": "IPLデバイスの使用方法",
-    "heroDescription": "安全で効果的なIPL脱毛のための完全ガイド。適切なテクニック、安全ガイドラインを学び、IPLデバイスから最高の結果を得てください。",
+    "heroTitle": "光脱毛器の使用方法",
+    "heroDescription": "安全で効果的な光脱毛のための完全ガイド。適切なテクニック、安全ガイドラインを学び、光脱毛器から最高の結果を得てください。",
     "stepByStepTitle": "ステップバイステップの説明",
-    "stepByStepDescription": "安全で効果的なIPL治療のために、これらのステップに従ってください。",
+    "stepByStepDescription": "安全で効果的な光脱毛治療のために、これらのステップに従ってください。",
     "safetyGuidelinesTitle": "安全ガイドライン",
-    "safetyGuidelinesDescription": "IPL治療のための重要な安全情報",
+    "safetyGuidelinesDescription": "光脱毛治療のための重要な安全情報",
     "treatmentScheduleTitle": "推奨される治療スケジュール",
     "treatmentScheduleDescription": "最適な脱毛結果を得るには、このスケジュールに従ってください。",
     "troubleshootingTitle": "トラブルシューティングガイド",
     "troubleshootingDescription": "一般的な問題とその解決方法",
     "faqTitle": "よくある質問",
-    "faqDescription": "一般的なIPL治療の質問への回答を入手",
+    "faqDescription": "一般的な光脱毛治療の質問への回答を入手",
     "videoTutorialsTitle": "ビデオチュートリアル",
-    "videoTutorialsDescription": "適切なIPL使用のためのステップバイステップのビデオガイドをご覧ください"
+    "videoTutorialsDescription": "適切な光脱毛使用のためのステップバイステップのビデオガイドをご覧ください"
   },
   "iplHairRemoval": {
-    "heroTitle": "プロフェッショナルIPL脱毛ソリューション",
-    "heroDescription": "安全で効果的、そしてすべての肌タイプ向けに設計された次世代のIPL脱毛デバイスを発見してください。ご自宅やビジネスでサロン品質の結果を体験してください。",
-    "iplDevicesTitle": "当社のIPLデバイスの範囲",
-    "iplDevicesDescription": "最大限の快適さと結果のために設計された、高度なIPL脱毛デバイスのフルラインナップをご覧ください。",
-    "accessoriesTitle": "必須IPLアクセサリー",
-    "accessoriesDescription": "安全性と利便性のために認定されたアクセサリーの範囲で、IPL体験を向上させます。",
-    "advancedIplTitle": "高度なIPL技術",
+    "heroTitle": "プロフェッショナル光脱毛ソリューション",
+    "heroDescription": "安全で効果的、そしてすべての肌タイプ向けに設計された次世代の光脱毛デバイスを発見してください。ご自宅やビジネスでサロン品質の結果を体験してください。",
+    "iplDevicesTitle": "当社の光脱毛器の範囲",
+    "iplDevicesDescription": "最大限の快適さと結果のために設計された、高度な光脱毛デバイスのフルラインナップをご覧ください。",
+    "accessoriesTitle": "必須光脱毛アクセサリー",
+    "accessoriesDescription": "安全性と利便性のために認定されたアクセサリーの範囲で、光脱毛体験を向上させます。",
+    "advancedIplTitle": "高度な光脱毛技術",
     "smartTechnologyIntegration": "スマート技術統合",
-    "smartTechnologyIntegrationDescription": "当社のIPLデバイスは、パーソナライズされた安全で効果的な治療のために、インテリジェントセンサーとアプリ接続を備えています。",
+    "smartTechnologyIntegrationDescription": "当社の光脱毛器は、パーソナライズされた安全で効果的な治療のために、インテリジェントセンサーとアプリ接続を備えています。",
     "coolingComfortSystems": "冷却コンフォートシステム",
     "coolingComfortSystemsDescription": "サファイアと金属プレートの冷却により、すべてのセッションで肌を快適に保護します。",
     "intelligentSkinSensors": "インテリジェントスキンセンサー",
@@ -324,102 +324,102 @@
   },
   "ipl": {
     "aiPowered": {
-      "title": "AI-Powered IPL Device",
-      "desc": "The future of hair removal is here. Artificial intelligence optimizes every treatment for personalized, effective results.",
+      "title": "AI搭載光脱毛器",
+      "desc": "脱毛の未来がここにあります。人工知能により全ての治療を最適化し、パーソナライズされた効果的な結果を提供します。",
       "features": {
-        "aiTech": "AI Technology",
-        "aiTechDesc": "Smart learning algorithms",
-        "smartProcessing": "Smart Processing",
-        "smartProcessingDesc": "Real-time optimization",
-        "analytics": "Advanced Analytics",
-        "analyticsDesc": "Detailed progress tracking",
-        "personalized": "Personalized",
-        "personalizedDesc": "Customized for your needs"
+        "aiTech": "AI技術",
+        "aiTechDesc": "スマート学習アルゴリズム",
+        "smartProcessing": "スマートプロセッシング",
+        "smartProcessingDesc": "リアルタイム最適化",
+        "analytics": "高度な分析",
+        "analyticsDesc": "詳細な進行状況追跡",
+        "personalized": "パーソナライズド",
+        "personalizedDesc": "ニーズに合わせてカスタマイズ"
       }
     },
     "batteryPowered": {
-      "title": "Battery-Powered IPL Hair Removal Device",
-      "desc": "Experience the ultimate cordless convenience with our battery-powered IPL device. Equipped with a high-capacity rechargeable battery, it offers seamless mobility without the need for power adapters. Enjoy professional-grade hair removal anywhere, anytime, with up to 9 adjustable energy levels for personalized treatments.",
+      "title": "バッテリー駆動光脱毛器",
+      "desc": "当社のバッテリー駆動光脱毛器で究極のコードレスの便利さを体験してください。高容量充電式バッテリーを搭載し、電源アダプターなしでシームレスなモビリティを提供します。いつでもどこでも、最大9段階の調整可能なエネルギーレベルでプロ級の脱毛をお楽しみください。",
       "features": {
-        "cordless": "Cordless design for ultimate freedom and convenience.",
-        "energyLevels": "9 adjustable energy levels for customized treatments.",
-        "longBattery": "Long-lasting rechargeable battery with 600+ recharge cycles.",
-        "noAdapter": "No need for power adapters during use, ideal for travel.",
-        "allSkin": "Suitable for all skin tones, FDA & CE approved."
+        "cordless": "究極の自由と便利さのためのコードレス設計",
+        "energyLevels": "カスタマイズされた治療のための9段階の調整可能なエネルギーレベル",
+        "longBattery": "600回以上の充電サイクルを持つ長持ちする充電式バッテリー",
+        "noAdapter": "使用中に電源アダプターが不要で、旅行に最適",
+        "allSkin": "すべての肌色に適しており、FDA&CE認証取得"
       }
     },
     "dualLamp": {
-      "title": "Dual-Lamp IPL Device",
-      "desc": "Double the power, double the efficiency. Revolutionary dual-lamp technology for faster treatments and superior results.",
+      "title": "デュアルランプ光脱毛器",
+      "desc": "パワーは2倍、効率も2倍。より速い治療と優れた結果をもたらす革新的なデュアルランプ技術。",
       "features": {
-        "dualLamps": "Dual Lamps",
-        "dualLampsDesc": "Enhanced power and coverage",
-        "faster": "Faster Treatment",
-        "fasterDesc": "Reduced session time",
-        "proPower": "Professional Power",
-        "proPowerDesc": "Salon-grade performance",
-        "evenCoverage": "Even Coverage",
-        "evenCoverageDesc": "Uniform light distribution"
+        "dualLamps": "デュアルランプ",
+        "dualLampsDesc": "向上したパワーとカバレッジ",
+        "faster": "より速い治療",
+        "fasterDesc": "セッション時間短縮",
+        "proPower": "プロフェッショナルパワー",
+        "proPowerDesc": "サロン級のパフォーマンス",
+        "evenCoverage": "均一なカバレッジ",
+        "evenCoverageDesc": "均一な光分布"
       }
     },
     "emerald": {
-      "title": "Emerald IPL Hair Removal Device",
-      "desc": "Experience professional-grade hair removal at home with our Emerald IPL Device featuring advanced Intense Pulsed Light technology with 15 J/cm² of energy and 600,000+ flashes for long-lasting smooth skin. The precision-engineered system delivers consistent results across all treatment areas.",
+      "title": "エメラルド光脱毛器",
+      "desc": "15 J/cm²のエネルギーと60万回以上のフラッシュを持つ高度な強脈衝光技術を搭載したエメラルド光脱毛器で、ご自宅でプロ級の脱毛を体験してください。精密設計されたシステムが全ての治療エリアで一貫した結果を提供します。",
       "features": {
-        "proResults": "プロフェッショナルな結果 — 12週間後に最大94%の脱毛効果。",
-        "manualIntensity": "5-level manual intensity control for personalized treatments.",
-        "safeAllSkin": "Safe for all skin tones within Fitzpatrick I-V range.",
-        "largeWindow": "Large 4.2 cm² treatment window for faster coverage.",
-        "ergonomic": "Ergonomic design with built-in safety sensors."
+        "proResults": "プロフェッショナルな結果 — 12週間後に最大94%の脱毛効果",
+        "manualIntensity": "パーソナライズされた治療のための5段階マニュアル強度制御",
+        "safeAllSkin": "フィッツパトリックI-V範囲内のすべての肌色に安全",
+        "largeWindow": "より速いカバレッジのための大型4.2 cm²治療ウィンドウ",
+        "ergonomic": "内蔵安全センサー付きエルゴノミクスデザイン"
       }
     },
     "handheld": {
-      "title": "Handheld IPL Hair Removal Device",
-      "desc": "Discover the perfect blend of comfort and performance with our handheld IPL device. Designed for easy grip and precise control, it features 5 adjustable energy levels to suit all skin types and sensitivities. Achieve salon-quality hair removal results at home with a lightweight, portable device.",
+      "title": "ハンドヘルド光脱毛器",
+      "desc": "ハンドヘルド光脱毛器で快適性とパフォーマンスの完璧な組み合わせを発見してください。握りやすく精密な制御のために設計され、すべての肌タイプと感受性に適した5段階の調整可能なエネルギーレベルを搭載しています。軽量でポータブルなデバイスでご自宅でサロン品質の脱毛結果を実現してください。",
       "features": {
-        "ergonomic": "Ergonomic handheld design for comfortable use.",
-        "energyLevels": "5 adjustable energy levels for personalized treatments.",
-        "portable": "Lightweight and portable—ideal for travel and home use.",
-        "allSkin": "Suitable for all skin tones, gentle and effective.",
-        "certified": "FDA & CE approved for safety and quality."
+        "ergonomic": "快適な使用のためのエルゴノミクスハンドヘルドデザイン",
+        "energyLevels": "パーソナライズされた治療のための5段階の調整可能なエネルギーレベル",
+        "portable": "軽量でポータブル—旅行と家庭使用に理想的",
+        "allSkin": "すべての肌色に適しており、穏やかで効果的",
+        "certified": "安全性と品質のためのFDA&CE認証取得"
       }
     },
     "iceCooling": {
-      "title": "IPL脱毛機器アイスクーリング",
+      "title": "アイスクーリング光脱毛器",
       "desc": "航空宇宙グレードの冷却メタルプレートを搭載した豪華なプロフェッショナルアイスクーリング脱毛技術を体験してください。肌を瞬時に超低温5°Cまで冷却します。",
       "features": {
-        "luxuryDesign": "Luxurious goddess design?Aerospace-grade metal texture, showcasing noble taste.",
-        "coolingPlate": "Ice cooling plate technology?Instantly cools skin to 5°C for truly painless experience.",
-        "preciseControl": "9-level precise energy control?Customizable for sensitive areas and coarse hair.",
-        "allSkin": "Suitable for all skin tones?Fitzpatrick I-V certified.",
-        "largeWindow": "3.3 cm² extra-large treatment window?Fast coverage, 50% higher efficiency."
+        "luxuryDesign": "豪華な女神デザイン — 航空宇宙グレードの金属質感で高貴な味わいを演出",
+        "coolingPlate": "アイスクーリングプレート技術 — 肌を瞬時に5°Cまで冷却し、真に無痛な体験を実現",
+        "preciseControl": "9段階の精密エネルギー制御 — 敏感部位と太い毛に対応可能",
+        "allSkin": "すべての肌色に適用 — フィッツパトリックI-V認証取得",
+        "largeWindow": "3.3 cm²特大治療ウィンドウ — 高速カバレッジで50%効率向上"
       }
     },
     "iceFeeling": {
-      "title": "サファイアアイスフィーリングIPL機器",
-      "desc": "臨床グレードのサファイア冷却プレートで肌?°Cまで冷却し、より高いエネルギーパルスでより速い結果を可能にする無痛脱毛をお楽しみください。",
+      "title": "サファイアアイスフィーリング光脱毛器",
+      "desc": "臨床グレードのサファイア冷却プレートで肌を5°Cまで冷却し、より高いエネルギーパルスでより速い結果を可能にする無痛脱毛をお楽しみください。",
       "features": {
-        "longSmooth": "Long-lasting smoothness?visible reduction after 3-4 weeks.",
-        "cooling": "Cooling plate keeps epidermis at 5°C for true painless treatments.",
-        "energyLevels": "Five energy levels adapt to almost all skin tones within Fitzpatrick I-V.",
-        "flashModes": "Auto/Manual flash modes for body and precision areas.",
-        "multiUse": "4-in-1: Full body, Bikini, Face, and skin rejuvenation."
+        "longSmooth": "長期間のなめらかさ — 3-4週間後に目に見える減少効果",
+        "cooling": "冷却プレートが表皮を5°Cに保ち、真に無痛な治療を実現",
+        "energyLevels": "フィッツパトリックI-V内のほとんどすべての肌色に適応する5段階エネルギーレベル",
+        "flashModes": "ボディと精密エリア用の自動/マニュアルフラッシュモード",
+        "multiUse": "4-in-1：全身、ビキニライン、顔、肌の若返り"
       }
     },
     "skinSensor": {
-      "title": "スキンセンサー付きIPL機器",
-      "desc": "スキンセンサー付きIPL機器で、最も安全でスマートな自宅脱毛を体験してください。この革新的な機器は、肌のトーンと毛の色を自動的に検出する先進的な光学スキンセンサーを搭載しています。",
+      "title": "スキンセンサー付き光脱毛器",
+      "desc": "スキンセンサー付き光脱毛器で、最も安全でスマートな自宅脱毛を体験してください。この革新的な機器は、肌のトーンと毛の色を自動的に検出する先進的な光学スキンセンサーを搭載しています。",
       "features": {
-        "intelligentDetection": "インテリジェントスキン検出 - 高度なセンサーが自動的に肌色を識別し、エネルギーレベルを調整",
-        "maxSafety": "最大の安全性 - 過度な治療を防ぎ、皮膚刺激や火傷のリスクを軽減",
-        "personalized": "パーソナライズされた治療 - お客様固有の肌特性に合わせて自動的に強度を最適化",
-        "realTime": "リアルタイム分析 - 継続的なモニタリングにより、一貫した安全な治療セッションを保証",
-        "proResults": "プロフェッショナルな結果 - ご自宅で快適にサロン品質の脱毛"
+        "intelligentDetection": "インテリジェントスキン検出 — 高度なセンサーが自動的に肌色を識別し、エネルギーレベルを調整",
+        "maxSafety": "最大の安全性 — 過度な治療を防ぎ、皮膚刺激や火傷のリスクを軽減",
+        "personalized": "パーソナライズされた治療 — お客様固有の肌特性に合わせて自動的に強度を最適化",
+        "realTime": "リアルタイム分析 — 継続的なモニタリングにより、一貫した安全な治療セッションを保証",
+        "proResults": "プロフェッショナルな結果 — ご自宅で快適にサロン品質の脱毛"
       }
     },
     "smartApp": {
-      "title": "スマートアプリIPL脱毛機器",
-      "desc": "Bluetooth経由でIPL機器をスマートアプリに簡単に接続。ガイド付きトリートメント、リアルタイムセッション追跡、パーソナライズされたルーチン、AI駆動のインサイトをお楽しみください。",
+      "title": "スマートアプリ光脱毛器",
+      "desc": "Bluetooth経由で光脱毛器をスマートアプリに簡単に接続。ガイド付きトリートメント、リアルタイムセッション追跡、パーソナライズされたルーチン、AI駆動のインサイトをお楽しみください。",
       "features": {
         "bluetooth": "安定したペアリングのためのBluetooth 5.0接続",
         "aiPlans": "AI分析によるパーソナライズされた治療計画",
@@ -473,24 +473,24 @@
   "blog": {
     "posts": {
       "sustainableManufacturing": {
-        "title": "持続可能な製造：グリーンIPL生産方法",
-        "intro": "家庭用IPL（強脈衝光）脱毛機器の需要が急増するにつれて、環境への影響を最小限に抑えてこれらの電子機器を生産する責任も高まっています。持続可能な製造はもはやトレンドではなく必要性です—原材料の調達から製品寿命終了時のリサイクルまでのすべての段階を包含しています。この記事では、IPL機器生産の環境フットプリントを評価し、電子機器、光学部品、環境に優しいABSハウジング、持続可能なパッケージング、廃棄物の再利用に焦点を当て、真にグリーンなサプライチェーンを実現するための革新的で実用的な戦略を探求します。",
+        "title": "持続可能な製造：グリーン光脱毛器生産方法",
+        "intro": "家庭用光脱毛器の需要が急増するにつれて、環境への影響を最小限に抑えてこれらの電子機器を生産する責任も高まっています。持続可能な製造はもはやトレンドではなく必要性です—原材料の調達から製品寿命終了時のリサイクルまでのすべての段階を包含しています。この記事では、光脱毛器生産の環境フットプリントを評価し、電子機器、光学部品、環境に優しいABSハウジング、持続可能なパッケージング、廃棄物の再利用に焦点を当て、真にグリーンなサプライチェーンを実現するための革新的で実用的な戦略を探求します。",
         "sections": {
-          "environmentalImpact": "IPL機器製造の環境影響評価",
+          "environmentalImpact": "光脱毛器製造の環境影響評価",
           "electronics": "1. 電子部品",
           "optics": "2. 光学部品（レンズとフィルター）",
           "absHousing": "3. ABS環境に優しいハウジング",
           "packaging": "4. 持続可能な紙パッケージング",
           "wasteReduction": "5. 廃棄物削減と再利用",
           "supplyChain": "持続可能なサプライチェーンの革新",
-          "feasibility": "グリーンIPLサプライチェーンの実現可能性",
+          "feasibility": "グリーン光脱毛器サプライチェーンの実現可能性",
           "commitment": "iShineの持続可能性へのコミットメント",
           "references": "参考文献"
         }
       },
       "globalMarketShifts": {
-        "title": "グローバル市場の変化：IPL機器のトレンドと機会",
-        "intro": "IPL機器の採用、規制の変化、ブランドおよびメーカーの市場機会における最新のグローバルトレンドを探求します。",
+        "title": "グローバル市場の変化：光脱毛器のトレンドと機会",
+        "intro": "光脱毛器の採用、規制の変化、ブランドおよびメーカーの市場機会における最新のグローバルトレンドを探求します。",
         "sections": {
           "marketOverview": "市場概要",
           "regionalTrends": "地域トレンド",
@@ -502,11 +502,11 @@
         }
       },
       "aiPoweredSkinSensing": {
-        "title": "AI駆動のスキンセンシング：IPL安全性の次のフロンティア",
-        "intro": "人工知能がリアルタイムスキン分析を通じてIPL機器の安全性とパーソナライゼーションにどのように革命をもたらしているかを探求します。",
+        "title": "AI駆動のスキンセンシング：光脱毛器安全性の次のフロンティア",
+        "intro": "人工知能がリアルタイムスキン分析を通じて光脱毛器の安全性とパーソナライゼーションにどのように革命をもたらしているかを探求します。",
         "sections": {
           "introduction": "序論",
-          "aiTechnology": "IPLにおけるAI技術",
+          "aiTechnology": "光脱毛器におけるAI技術",
           "skinSensing": "スキンセンシングメカニズム",
           "safetyBenefits": "安全性の利点",
           "userExperience": "ユーザーエクスペリエンス",
@@ -515,11 +515,11 @@
         }
       },
       "multiHeadIPLSystems": {
-        "title": "マルチヘッドIPLシステム：精密さと全身効率の出会い",
-        "intro": "家庭用脱毛の進化は、マルチヘッド強脈衝光（IPL）システムの導入によって大きく形作られました。フィリップスは交換可能なヘッド技術でこのトレンドを先駆け、家庭用IPL機器における多様性とユーザー中心設計の新しい標準を設定しました。",
+        "title": "マルチヘッド光脱毛器システム：精密さと全身効率の出会い",
+        "intro": "家庭用脱毛の進化は、マルチヘッド光脱毛器システムの導入によって大きく形作られました。フィリップスは交換可能なヘッド技術でこのトレンドを先駆け、家庭用光脱毛器における多様性とユーザー中心設計の新しい標準を設定しました。",
         "sections": {
-          "philipsLegacy": "フィリップスの遺産：マルチヘッドIPLの標準設定",
-          "keyFeatures": "マルチヘッドIPL機器の主要機能",
+          "philipsLegacy": "フィリップスの遺産：マルチヘッド光脱毛器の標準設定",
+          "keyFeatures": "マルチヘッド光脱毛器の主要機能",
           "respondingToVIO": "VIO脱毛ニーズへの対応",
           "whyMultiHeadMatters": "マルチヘッド設計が重要な理由",
           "painReduction": "痛みの軽減：高度なフィルターの役割",
@@ -529,8 +529,8 @@
         }
       },
       "sapphireCooling": {
-        "title": "サファイアクーリング：IPL治療における快適性の向上",
-        "intro": "サファイアクーリング技術がIPL脱毛治療の快適性と安全性をどのように変革しているかを発見してください。",
+        "title": "サファイアクーリング：光脱毛治療における快適性の向上",
+        "intro": "サファイアクーリング技術が光脱毛治療の快適性と安全性をどのように変革しているかを発見してください。",
         "sections": {
           "technologyOverview": "技術概要",
           "coolingMechanism": "サファイアクーリングの仕組み",
@@ -542,8 +542,8 @@
         }
       },
       "industries": {
-        "title": "私たちがサービスを提供する業界：セクター間でのIPL応用",
-        "intro": "IPL技術は美容だけでなく—医療、獣医、産業分野での応用を探求します。",
+        "title": "私たちがサービスを提供する業界：セクター間での光脱毛応用",
+        "intro": "光脱毛技術は美容だけでなく—医療、獣医、産業分野での応用を探求します。",
         "sections": {
           "beauty": "美容業界",
           "medical": "医療応用",
@@ -554,11 +554,11 @@
         }
       },
       "iplBestChoice": {
-        "title": "なぜ家庭用IPL脱毛機器が全ての脱毛ツールの中で最良の選択なのか？",
-        "intro": "科学と実際のユーザーエクスペリエンスに基づいて、IPLが家庭での長期脱毛に最も効果的で快適で便利なソリューションである理由を発見してください。",
+        "title": "なぜ家庭用光脱毛器が全ての脱毛ツールの中で最良の選択なのか？",
+        "intro": "科学と実際のユーザーエクスペリエンスに基づいて、光脱毛器が家庭での長期脱毛に最も効果的で快適で便利なソリューションである理由を発見してください。",
         "sections": {
           "comparison": "脱毛方法の比較",
-          "whyChooseIPL": "なぜIPL家庭用脱毛を選ぶのか？",
+          "whyChooseIPL": "なぜ家庭用光脱毛器を選ぶのか？",
           "userStories": "実際のユーザーストーリー",
           "faq": "よくある質問",
           "recommendedBlog": "おすすめブログ",
@@ -566,13 +566,13 @@
         }
       },
       "futureHomeHairRemoval": {
-        "title": "家庭用脱毛機器の未来：トレンド、イノベーション、そして次に来るもの",
-        "intro": "2025年以降のAI、多機能性、持続可能な設計—家庭用脱毛機器の進化、現在の革新、次世代を探求します。",
+        "title": "家庭用脱毛器の未来：トレンド、イノベーション、そして次に来るもの",
+        "intro": "2025年以降のAI、多機能性、持続可能な設計—家庭用脱毛器の進化、現在の革新、次世代を探求します。",
         "sections": {
           "evolution": "家庭用脱毛技術の進化",
           "stateOfTheArt": "次世代機器の主要機能（2025）",
           "aiPersonalization": "脱毛におけるAIとパーソナライゼーション",
-          "vision": "「究極の」家庭用脱毛機器：ビジョン",
+          "vision": "「究極の」家庭用脱毛器：ビジョン",
           "challenges": "課題と考慮事項",
           "faq": "よくある質問",
           "exploreMore": "さらに探求",
@@ -580,11 +580,11 @@
         }
       },
       "fda510kPathway": {
-        "title": "FDA 510(k)パスウェイ：IPL用医療機器分類のナビゲーション",
-        "intro": "家庭用IPL脱毛機器のためのFDA 510(k)パスウェイの包括的ガイド。規制要件、マーケティング主張、そしてiShineがブランドのコンプライアンス達成をどのように支援するかを学びます。",
+        "title": "FDA 510(k)パスウェイ：光脱毛器用医療機器分類のナビゲーション",
+        "intro": "家庭用光脱毛器のためのFDA 510(k)パスウェイの包括的ガイド。規制要件、マーケティング主張、そしてiShineがブランドのコンプライアンス達成をどのように支援するかを学びます。",
         "sections": {
           "introduction": "序論",
-          "pathway": "1. 家庭用IPL機器のためのFDA 510(k)パスウェイ",
+          "pathway": "1. 家庭用光脱毛器のためのFDA 510(k)パスウェイ",
           "marketingClaims": "2. マーケティング主張が規制分類に与える影響",
           "ishineExpertise": "3. お客様のブランドのFDA 510(k)リスティング確保におけるiShineの専門知識",
           "benefits": "4. ブランド固有のFDA 510(k)リスティング取得の利点",
