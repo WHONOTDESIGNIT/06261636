@@ -1,45 +1,45 @@
 {
   "meta": {
-    "title": "iShine - โซลูชันการผลิตอุปกรณ์ IPL | จากไอเดียสู่ตลาด",
-    "description": "ผู้ผลิตอุปกรณ์ IPL ชั้นนำที่ให้บริการโซลูชัน OEM/ODM ครบวงจรจากไอเดียสู่ตลาด อุปกรณ์ IPL กำจัดขนแบบกำหนดเองสำหรับแบรนด์ความงามระดับโลก",
-    "keywords": "อุปกรณ์ IPL, การผลิต OEM, โซลูชัน ODM, กำจัดขน, อุปกรณ์ความงาม, การผลิตแบบกำหนดเอง"
+    "title": "iShine - โซลูชันการผลิตอุปกรณ�?IPL | จากไอเดียสู่ตลาด",
+    "description": "ผู้ผลิตอุปกรณ์ IPL ชั้นนำที่ให้บริการโซลูชั�?OEM/ODM ครบวงจรจากไอเดียสู่ตลาด อุปกรณ�?IPL กำจัดขนแบบกำหนดเองสำหรับแบรนด์ความงามระดับโล�?,
+    "keywords": "อุปกรณ�?IPL, การผลิ�?OEM, โซลูชั�?ODM, กำจัดข�? อุปกรณ์ความงาม, การผลิตแบบกำหนดเอง"
   },
   "header": {
     "navigation": {
-      "solutions": "โซลูชัน",
-      "iplHairRemoval": "กำจัดขน IPL",
-      "howToUse": "วิธีใช้",
-      "serviceSupport": "บริการและสนับสนุน",
+      "solutions": "โซลูชั�?,
+      "iplHairRemoval": "กำจัดข�?IPL",
+      "howToUse": "วิธีใช�?,
+      "serviceSupport": "บริการและสนับสนุ�?,
       "about": "เกี่ยวกับเรา",
       "contact": "ติดต่อ"
     },
     "solutions": {
       "logoPrinting": "พิมพ์โลโก้",
-      "packaging": "โซลูชันบรรจุภัณฑ์",
-      "dropShipping": "ดรอปชิปปิ้ง",
+      "packaging": "โซลูชันบรรจุภัณฑ�?,
+      "dropShipping": "ดรอปชิปปิ้�?,
       "globalShipping": "การจัดส่งทั่วโลก",
-      "brandCustomization": "การปรับแต่งแบรนด์",
+      "brandCustomization": "การปรับแต่งแบรนด�?,
       "compliance": "การปฏิบัติตามกฎระเบียบและการรับรอง",
       "designPrototyping": "การออกแบบและต้นแบบ",
       "multiHeadIPL": "IPL หลายหัวแบบกำหนดเอง",
       "dualLampIPL": "IPL หลอดคู่แบบกำหนดเอง"
     },
     "iplDevices": {
-      "smartApp": "อุปกรณ์ IPL ควบคุมด้วยแอปสมาร์ท",
-      "iceFeeling": "อุปกรณ์ IPL ความรู้สึกเย็น",
-      "emerald": "อุปกรณ์ IPL มรกต",
-      "skinSensor": "อุปกรณ์ IPL เซ็นเซอร์ผิว",
-      "batteryPowered": "อุปกรณ์ IPL ใช้แบตเตอรี่",
-      "handheld": "อุปกรณ์ IPL แบบพกพา",
-      "iceCooling": "อุปกรณ์ IPL ระบายความร้อนแบบน้ำแข็ง",
-      "dualLamp": "อุปกรณ์ IPL หลอดคู่",
-      "aiPowered": "อุปกรณ์ IPL ขับเคลื่อนด้วย AI"
+      "smartApp": "อุปกรณ�?IPL ควบคุมด้วยแอปสมาร์�?,
+      "iceFeeling": "อุปกรณ�?IPL ความรู้สึกเย็�?,
+      "emerald": "อุปกรณ�?IPL มรกต",
+      "skinSensor": "อุปกรณ�?IPL เซ็นเซอร์ผิ�?,
+      "batteryPowered": "อุปกรณ�?IPL ใช้แบตเตอรี�?,
+      "handheld": "อุปกรณ�?IPL แบบพกพ�?,
+      "iceCooling": "อุปกรณ�?IPL ระบายความร้อนแบบน้ำแข็�?,
+      "dualLamp": "อุปกรณ�?IPL หลอดคู�?,
+      "aiPowered": "อุปกรณ�?IPL ขับเคลื่อนด้วย AI"
     },
     "accessories": {
-      "sapphireLens": "เลนส์ไพลิน",
+      "sapphireLens": "เลนส์ไพลิ�?,
       "adapter": "อะแดปเตอร์",
       "goggles": "แว่นตานิรภัย",
-      "filter": "ตัวกรอง"
+      "filter": "ตัวกรอ�?
     },
     "serviceSupport": {
       "service": "บริการ",
@@ -47,15 +47,15 @@
       "fdaGmp": "การออกแบบห้องสะอาด FDA GMP",
       "manufacturing": "การผลิตอุปกรณ์ IPL",
       "knowledgeBase": "ฐานความรู้",
-      "support": "สนับสนุน > คู่มือการซื้อ",
+      "support": "สนับสนุน > คู่มือการซื้�?,
       "beautySourcing": "การจัดหาเฉพาะด้านความงามและอุปกรณ์เสริม",
       "pricingGuide": "คู่มือราคา",
       "helpCenter": "ศูนย์ช่วยเหลือ",
-      "gallery": "แกลเลอรี่",
+      "gallery": "แกลเลอรี�?,
       "videos": "วิดีโอ",
-      "blog": "บล็อก",
+      "blog": "บล็อ�?,
       "newsInsights": "ข่าวสารและข้อมูลเชิงลึก",
-      "industries": "อุตสาหกรรมที่เราให้บริการ"
+      "industries": "อุตสาหกรรมที่เราให้บริกา�?
     },
     "about": {
       "founderMessage": "ข้อความจากผู้ก่อตั้ง",
@@ -69,88 +69,83 @@
   },
   "footer": {
     "company": {
-      "description": "ผู้ผลิตอุปกรณ์ IPL ชั้นนำที่ให้บริการโซลูชัน OEM/ODM ครบวงจรจากไอเดียสู่ตลาด",
-      "products": "ผลิตภัณฑ์",
+      "description": "ผู้ผลิตอุปกรณ์ IPL ชั้นนำที่ให้บริการโซลูชั�?OEM/ODM ครบวงจรจากไอเดียสู่ตลาด",
+      "products": "ผลิตภัณฑ�?,
       "services": "บริการ",
       "company": "บริษัท"
     },
     "products": {
-      "iplHairRemoval": "กำจัดขน IPL",
+      "iplHairRemoval": "กำจัดข�?IPL",
       "accessories": "อุปกรณ์เสริม",
-      "gallery": "แกลเลอรี่"
+      "gallery": "แกลเลอรี�?
     },
     "services": {
       "afterSales": "บริการหลังการขาย",
-      "manufacturing": "การผลิต IPL",
-      "buyingGuide": "คู่มือการซื้อ",
+      "manufacturing": "การผลิ�?IPL",
+      "buyingGuide": "คู่มือการซื้�?,
       "helpCenter": "ศูนย์ช่วยเหลือ"
     },
     "companyLinks": {
       "about": "เกี่ยวกับ iShine",
       "brandStory": "เรื่องราวแบรนด์",
       "quality": "คุณภาพ",
-      "blog": "บล็อก"
+      "blog": "บล็อ�?
     },
     "legal": {
-      "copyright": "© 2025 iShine สงวนลิขสิทธิ์",
+      "copyright": "© 2025 iShine สงวนลิขสิทธิ�?,
       "privacyPolicy": "นโยบายความเป็นส่วนตัว",
       "termsOfService": "เงื่อนไขการบริการ"
+    },
+    "contact": {
+      "title": "Contact",
+      "tel": "Tel",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "address": "ADDRESS",
+      "telValue": "+86-15900283962",
+      "whatsappValue": "+86-15012891148",
+      "emailValue": "service@iplmanufacturer.com",
+      "addressValue": "208 Room, 4 Building, No.45, Makan Road, Xi'li Street, Shenzhen, Guangdong, China, 518071"
     }
   },
   "home": {
     "hero": {
-      "title": "อุปกรณ์ IPL แบบกำหนดเอง",
+      "title1": "Custom IPL Devices",
+      "title2": "& Branding IPL Devices",
       "subtitle": "และอุปกรณ์ IPL แบรนด์",
-      "description": "ผู้ผลิตอุปกรณ์ IPL ชั้นนำระดับโลก\nเราช่วยคุณออกแบบ สร้าง และบรรจุ",
-      "getQuote": "ขอใบเสนอราคา"
+      "cta": "Get Quote"
     },
     "partners": {
-      "title": "ได้รับความไว้วางใจจากแบรนด์ระดับโลก",
+      "title": "ได้รับความไว้วางใจจากแบรนด์ระดับโล�?,
       "subtitle": "ทำงานร่วมกับผู้นำอุตสาหกรรมทั่วโลก"
     },
     "features": {
       "title": "ทำไมต้องเลือก iShine?",
-      "subtitle": "โซลูชันการผลิต IPL ครบวงจรที่ปรับแต่งตามความต้องการของคุณ",
-      "oemSolutions": {
-        "title": "โซลูชัน OEM/ODM",
-        "description": "การปรับแต่งครบวงจรตั้งแต่การออกแบบจนถึงบรรจุภัณฑ์"
-      },
-      "experiencedTeam": {
-        "title": "ทีมที่มีประสบการณ์",
-        "description": "วิศวกรผู้เชี่ยวชาญและนักออกแบบพร้อมให้บริการ"
-      },
-      "qualityAssurance": {
-        "title": "การประกันคุณภาพ",
-        "description": "การผลิตในห้องสะอาดที่ได้รับการรับรอง FDA GMP"
-      },
-      "globalReach": {
-        "title": "การเข้าถึงระดับโลก",
-        "description": "ให้บริการลูกค้าในยุโรป อเมริกาเหนือ และเอเชีย"
-      }
+      "subtitle": "โซลูชันการผลิต IPL ครบวงจรที่ปรับแต่งตามความต้องการของคุณ"
     },
     "products": {
       "title": "ผลิตภัณฑ์อุปกรณ์ IPL ของเรา",
-      "subtitle": "อุปกรณ์ IPL ที่ปรับแต่งได้สำหรับทุกความต้องการของตลาด",
-      "viewAll": "ดูอุปกรณ์ IPL ทั้งหมด"
+      "subtitle": "อุปกรณ�?IPL ที่ปรับแต่งได้สำหรับทุกความต้องการของตลา�?,
+      "cta": "View All IPL Devices"
     },
     "cta": {
-      "title": "พร้อมเริ่มโครงการ IPL ของคุณแล้วหรือยัง?",
-      "subtitle": "มาหารือเกี่ยวกับความต้องการของคุณและสร้างโซลูชัน IPL ที่สมบูรณ์แบบสำหรับแบรนด์ของคุณ",
-      "button": "นัดหมายปรึกษา"
+      "title": "พร้อมเริ่มโครงกา�?IPL ของคุณแล้วหรือยั�?",
+      "subtitle": "มาหารือเกี่ยวกับความต้องการของคุณและสร้างโซลูชัน IPL ที่สมบูรณ์แบบสำหรับแบรนด์ของคุ�?,
+      "button": "นัดหมายปรึกษ�?
     }
   },
   "contact": {
     "hero": {
       "title": "ติดต่อเรา",
-      "description": "พร้อมหารือเกี่ยวกับโครงการ IPL ของคุณแล้วหรือยัง? ติดต่อทีมผู้เชี่ยวชาญของเราวันนี้ เราพร้อมช่วยให้วิสัยทัศน์ของคุณเป็นจริง"
+      "description": "พร้อมหารือเกี่ยวกับโครงกา�?IPL ของคุณแล้วหรือยั�? ติดต่อทีมผู้เชี่ยวชาญของเราวันนี้ เราพร้อมช่วยให้วิสัยทัศน์ของคุณเป็นจริ�?
     },
     "info": {
       "title": "ติดต่อเรา",
       "subtitle": "หลายวิธีในการติดต่อเรา - เลือกวิธีที่เหมาะกับคุณที่สุด",
       "address": {
-        "title": "ที่อยู่",
+        "title": "ที่อยู�?,
         "company": "iShine Manufacturing Co., Ltd.",
-        "location": "เซินเจิ้น กวางตุ้ง จีน"
+        "location": "เซินเจิ้น กวางตุ้ง จี�?
       },
       "phone": {
         "title": "โทรศัพท์"
@@ -160,7 +155,7 @@
       },
       "hours": {
         "title": "เวลาทำการ",
-        "weekdays": "จันทร์ - ศุกร์: 9:00 - 18:00",
+        "weekdays": "จันทร์ - ศุกร�? 9:00 - 18:00",
         "saturday": "เสาร์: 9:00 - 12:00"
       }
     },
@@ -169,36 +164,441 @@
       "subtitle": "ตั้งอยู่ในใจกลางเขตอุตสาหกรรมของเซินเจิ้น"
     },
     "form": {
-      "title": "คุณคิดอะไรอยู่? มาคุยกันเถอะ!",
-      "subtitle": "กรอกแบบฟอร์มนี้เพื่อเริ่มกระบวนการ เราจะติดต่อกลับภายใน 24 ชั่วโมง",
+      "title": "คุณคิดอะไรอยู่? มาคุยกันเถอ�?",
+      "subtitle": "กรอกแบบฟอร์มนี้เพื่อเริ่มกระบวนกา�?เราจะติดต่อกลับภายใ�?24 ชั่วโม�?,
       "name": "ชื่อ*",
       "email": "ที่อยู่อีเมล*",
-      "phone": "หมายเลขโทรศัพท์* เช่น (+1-541-3456-3001)",
+      "phone": "หมายเลขโทรศัพท์* เช่�?(+1-541-3456-3001)",
       "country": "ประเทศ",
-      "message": "อธิบายความต้องการของคุณที่นี่*",
-      "submit": "ส่ง",
+      "message": "อธิบายความต้องการของคุณที่นี�?",
+      "submit": "ส่�?,
       "sending": "กำลังส่ง..."
-    }
+    },
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team for business inquiries, support, or partnership opportunities.",
+    "companyPhotoAlt": "iShine Manufacturing Facility"
   },
   "buttons": {
-    "getQuote": "ขอใบเสนอราคา",
+    "getQuote": "ขอใบเสนอราค�?,
     "viewSolutions": "ดูโซลูชันของเรา",
-    "scheduleConsultation": "นัดหมายปรึกษา",
-    "submit": "ส่ง",
+    "scheduleConsultation": "นัดหมายปรึกษ�?,
+    "submit": "ส่�?,
     "sending": "กำลังส่ง...",
-    "viewAll": "ดูทั้งหมด"
+    "viewAll": "ดูทั้งหม�?
   },
   "common": {
-    "loading": "กำลังโหลด...",
-    "error": "เกิดข้อผิดพลาด",
-    "success": "สำเร็จ",
-    "readMore": "อ่านเพิ่มเติม",
-    "learnMore": "เรียนรู้เพิ่มเติม",
-    "getStarted": "เริ่มต้น",
+    "loading": "กำลังโหล�?..",
+    "error": "เกิดข้อผิดพลา�?,
+    "success": "สำเร็�?,
+    "readMore": "อ่านเพิ่มเติ�?,
+    "learnMore": "เรียนรู้เพิ่มเติ�?,
+    "getStarted": "เริ่มต้�?,
     "contactUs": "ติดต่อเรา"
+  },
+  "solutions": {
+    "productDesignDevelopment": "การออกแบบและพัฒนาผลิตภัณฑ์",
+    "productDesignDevelopmentDescription": "จากแนวคิดเริ่มต้นจนถึงการออกแบบขั้นสุดท้าย ทีมผู้เชี่ยวชาญของเราจะทำให้วิสัยทัศน์ IPL ของคุณเป็นจริงด้วยเทคโนโลยีที่ทันสมัยและข้อมูลเชิงลึกของตลาด",
+    "oemManufacturing": "การผลิต OEM",
+    "oemManufacturingDescription": "โซลูชันการผลิตที่สมบูรณ์แบบตามข้อกำหนดของคุณ เราจัดการการผลิตในขณะที่คุณมุ่งเน้นไปที่แบรนด์และตลาดของคุณ",
+    "odmSolutions": "โซลูชัน ODM",
+    "odmSolutionsDescription": "เลือกจากการออกแบบ IPL ที่ได้รับการพิสูจน์แล้วของเราและปรับแต่งด้วยการสร้างแบรนด์ บรรจุภัณฑ์ และคุณสมบัติเฉพาะของคุณ",
+    "endToEndSupport": "การสนับสนุนแบบครบวงจร",
+    "endToEndSupportDescription": "การจัดการโครงการที่สมบูรณ์ตั้งแต่การปรึกษาเริ่มต้นจนถึงการเปิดตัวผลิตภัณฑ์และต่อไป เพื่อให้มั่นใจในความสำเร็จของคุณในทุกขั้นตอน",
+    "consultation": "การปรึกษา",
+    "consultationDescription": "เข้าใจวิสัยทัศน์ ตลาด และความต้องการของคุณ",
+    "design": "การออกแบบ",
+    "designDescription": "สร้างการออกแบบที่กำหนดเองหรือปรับโซลูชันที่มีอยู่",
+    "prototype": "ต้นแบบ",
+    "prototypeDescription": "สร้างและทดสอบต้นแบบเพื่อให้มั่นใจในคุณภาพ",
+    "manufacturing": "การผลิต",
+    "manufacturingDescription": "การผลิตขนาดใหญ่พร้อมการควบคุมคุณภาพ",
+    "launch": "การเปิดตัว",
+    "launchDescription": "สนับสนุนการเข้าสู่ตลาดและความสำเร็จอย่างต่อเนื่องของคุณ",
+    "completeIPLSolutions": "โซลูชัน IPL ที่สมบูรณ์",
+    "completeIPLSolutionsDescription": "ตั้งแต่แนวคิดเริ่มต้นจนถึงการเปิดตัวในตลาด เราให้บริการโซลูชัน OEM/ODM ที่ครอบคลุมซึ่งเปลี่ยนวิสัยทัศน์ IPL ของคุณให้เป็นผลิตภัณฑ์ที่ประสบความสำเร็จ",
+    "ourSolutionPortfolio": "พอร์ตโฟลิโอโซลูชันของเรา",
+    "comprehensiveServices": "บริการที่ครอบคลุมเพื่อนำผลิตภัณฑ์ IPL ของคุณสู่ตลาดอย่างประสบความสำเร็จ",
+    "ourProcess": "กระบวนการของเรา",
+    "streamlinedWorkflow": "เวิร์กโฟลว์ที่ปรับปรุงแล้วเพื่อให้มั่นใจในความสำเร็จของโครงการของคุณ",
+    "industriesWeServe": "อุตสาหกรรมที่เราให้บริการ",
+    "tailoredSolutions": "โซลูชันที่ปรับแต่งสำหรับกลุ่มตลาดที่หลากหลาย",
+    "provenSuccess": "ความสำเร็จที่พิสูจน์แล้ว",
+    "numbersSpeak": "ตัวเลขที่พูดถึงความเชี่ยวชาญและความมุ่งมั่นของเรา",
+    "globalClients": "ลูกค้าทั่วโลก",
+    "productsLaunched": "ผลิตภัณฑ์ที่เปิดตัว",
+    "qualityRate": "อัตราคุณภาพ",
+    "yearsExperience": "ปีประสบการณ์"
+  },
+  "about": {
+    "heroTitle": "About iShine",
+    "heroDesc": "Your trusted partner in IPL device manufacturing, bringing innovative beauty technology from concept to market since 2018.",
+    "storyTitle": "Our Story",
+    "storyP1": "Founded in 2018, iShine emerged from a vision to democratize advanced IPL technology. We recognized that beauty brands needed a reliable partner who could transform their ideas into market-ready products with precision and excellence.",
+    "storyP2": "Today, we're proud to serve clients across three continents, from innovative startups to established beauty conglomerates. Our commitment to quality, innovation, and customer success drives everything we do.",
+    "storyP3": "At iShine, we don't just manufacture devices �?we craft solutions that empower brands to succeed in the competitive beauty market.",
+    "valuesTitle": "Our Core Values",
+    "valuesDesc": "The principles that guide our work and relationships with clients",
+    "values": {
+      "qualityTitle": "Quality Excellence",
+      "qualityDesc": "FDA GMP certified manufacturing with rigorous quality control",
+      "customerTitle": "Customer Focus",
+      "customerDesc": "Dedicated to understanding and exceeding customer expectations",
+      "globalTitle": "Global Impact",
+      "globalDesc": "Serving beauty brands worldwide with innovative IPL solutions",
+      "innovationTitle": "Innovation Drive",
+      "innovationDesc": "Continuous R&D investment in next-generation IPL technology"
+    },
+    "journeyTitle": "Our Journey",
+    "journeyDesc": "Key milestones in our growth and innovation",
+    "milestones": {
+      "2018": {
+        "title": "Company Founded",
+        "desc": "iShine established as IPL device manufacturer"
+      },
+      "2019": {
+        "title": "First International Client",
+        "desc": "Partnership with KU-2 Cosmetic in Germany"
+      },
+      "2020": {
+        "title": "FDA GMP Certification",
+        "desc": "Achieved FDA GMP clean room certification"
+      },
+      "2021": {
+        "title": "Smart IPL Launch",
+        "desc": "Introduced first app-controlled IPL devices"
+      },
+      "2022": {
+        "title": "Global Expansion",
+        "desc": "Partnerships with Costco and ROSESKINCO"
+      },
+      "2023": {
+        "title": "AI Integration",
+        "desc": "Launched AI-powered IPL technology"
+      }
+    },
+    "teamTitle": "Our Expert Team",
+    "teamDesc": "Dedicated professionals committed to your success",
+    "team": {
+      "rnd": "R&D Engineers",
+      "rndDesc": "Expert engineers developing cutting-edge IPL technology",
+      "quality": "Quality Specialists",
+      "qualityDesc": "Ensuring every device meets the highest standards",
+      "customer": "Customer Success",
+      "customerDesc": "Dedicated support from concept to market launch"
+    }
   },
   "countryPage": {
     "title": "iShine - IPL Device Manufacturing Solutions | Global",
     "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide."
+  },
+  "howToUse": {
+    "heroTitle": "How to Use IPL Devices",
+    "heroDescription": "Complete guide to safe and effective IPL hair removal. Learn proper techniques, safety guidelines, and get the best results from your IPL device.",
+    "stepByStepTitle": "Step-by-Step Instructions",
+    "stepByStepDescription": "Follow these steps for safe and effective IPL treatment",
+    "safetyGuidelinesTitle": "Safety Guidelines",
+    "safetyGuidelinesDescription": "Essential safety information for IPL treatment",
+    "treatmentScheduleTitle": "Recommended Treatment Schedule",
+    "treatmentScheduleDescription": "Follow this schedule for optimal hair removal results",
+    "troubleshootingTitle": "Troubleshooting Guide",
+    "troubleshootingDescription": "Common issues and their solutions",
+    "faqTitle": "Frequently Asked Questions",
+    "faqDescription": "Get answers to common IPL treatment questions",
+    "videoTutorialsTitle": "Video Tutorials",
+    "videoTutorialsDescription": "Watch step-by-step video guides for proper IPL usage"
+  },
+  "iplHairRemoval": {
+    "heroTitle": "Professional IPL Hair Removal Solutions",
+    "heroDescription": "Discover the next generation of IPL hair removal devices—safe, effective, and designed for all skin types. Experience salon-quality results at home or in your business.",
+    "iplDevicesTitle": "Our IPL Device Range",
+    "iplDevicesDescription": "Explore our full lineup of advanced IPL hair removal devices, each engineered for maximum comfort and results.",
+    "accessoriesTitle": "Essential IPL Accessories",
+    "accessoriesDescription": "Enhance your IPL experience with our range of certified accessories for safety and convenience.",
+    "advancedIplTitle": "Advanced IPL Technology",
+    "smartTechnologyIntegration": "Smart Technology Integration",
+    "smartTechnologyIntegrationDescription": "Our IPL devices feature intelligent sensors and app connectivity for personalized, safe, and effective treatments.",
+    "coolingComfortSystems": "Cooling Comfort Systems",
+    "coolingComfortSystemsDescription": "Sapphire and metal plate cooling keep your skin comfortable and protected during every session.",
+    "intelligentSkinSensors": "Intelligent Skin Sensors",
+    "intelligentSkinSensorsDescription": "Automatic skin tone and hair detection ensures optimal energy delivery and safety for every user."
+  },
+  "ipl": {
+    "aiPowered": {
+      "title": "AI-Powered IPL Device",
+      "desc": "The future of hair removal is here. Artificial intelligence optimizes every treatment for personalized, effective results.",
+      "features": {
+        "aiTech": "AI Technology",
+        "aiTechDesc": "Smart learning algorithms",
+        "smartProcessing": "Smart Processing",
+        "smartProcessingDesc": "Real-time optimization",
+        "analytics": "Advanced Analytics",
+        "analyticsDesc": "Detailed progress tracking",
+        "personalized": "Personalized",
+        "personalizedDesc": "Customized for your needs"
+      }
+    },
+    "batteryPowered": {
+      "title": "Battery-Powered IPL Hair Removal Device",
+      "desc": "Experience the ultimate cordless convenience with our battery-powered IPL device. Equipped with a high-capacity rechargeable battery, it offers seamless mobility without the need for power adapters. Enjoy professional-grade hair removal anywhere, anytime, with up to 9 adjustable energy levels for personalized treatments.",
+      "features": {
+        "cordless": "Cordless design for ultimate freedom and convenience.",
+        "energyLevels": "9 adjustable energy levels for customized treatments.",
+        "longBattery": "Long-lasting rechargeable battery with 600+ recharge cycles.",
+        "noAdapter": "No need for power adapters during use, ideal for travel.",
+        "allSkin": "Suitable for all skin tones, FDA & CE approved."
+      }
+    },
+    "dualLamp": {
+      "title": "Dual-Lamp IPL Device",
+      "desc": "Double the power, double the efficiency. Revolutionary dual-lamp technology for faster treatments and superior results.",
+      "features": {
+        "dualLamps": "Dual Lamps",
+        "dualLampsDesc": "Enhanced power and coverage",
+        "faster": "Faster Treatment",
+        "fasterDesc": "Reduced session time",
+        "proPower": "Professional Power",
+        "proPowerDesc": "Salon-grade performance",
+        "evenCoverage": "Even Coverage",
+        "evenCoverageDesc": "Uniform light distribution"
+      }
+    },
+    "emerald": {
+      "title": "Emerald IPL Hair Removal Device",
+      "desc": "Experience professional-grade hair removal at home with our Emerald IPL Device featuring advanced Intense Pulsed Light technology with 15 J/cm² of energy and 600,000+ flashes for long-lasting smooth skin. The precision-engineered system delivers consistent results across all treatment areas.",
+      "features": {
+        "proResults": "Professional results �?up to 94% hair reduction after 12 weeks.",
+        "manualIntensity": "5-level manual intensity control for personalized treatments.",
+        "safeAllSkin": "Safe for all skin tones within Fitzpatrick I-V range.",
+        "largeWindow": "Large 4.2 cm² treatment window for faster coverage.",
+        "ergonomic": "Ergonomic design with built-in safety sensors."
+      }
+    },
+    "handheld": {
+      "title": "Handheld IPL Hair Removal Device",
+      "desc": "Discover the perfect blend of comfort and performance with our handheld IPL device. Designed for easy grip and precise control, it features 5 adjustable energy levels to suit all skin types and sensitivities. Achieve salon-quality hair removal results at home with a lightweight, portable device.",
+      "features": {
+        "ergonomic": "Ergonomic handheld design for comfortable use.",
+        "energyLevels": "5 adjustable energy levels for personalized treatments.",
+        "portable": "Lightweight and portable—ideal for travel and home use.",
+        "allSkin": "Suitable for all skin tones, gentle and effective.",
+        "certified": "FDA & CE approved for safety and quality."
+      }
+    },
+    "iceCooling": {
+      "title": "Ice Cooling IPL Hair Removal Device",
+      "desc": "Experience professional-grade luxurious ice cooling hair removal technology, featuring an aerospace-grade cooling metal plate that instantly cools the skin to 5°C ultra-low temperature. Combined with 2.0~5.0 J/cm² high-energy IPL pulses and 999,000+ flashes, it delivers a goddess-like silky skin experience. The luxurious design is crafted for perfection-seeking modern women.",
+      "features": {
+        "luxuryDesign": "Luxurious goddess design �?Aerospace-grade metal texture, showcasing noble taste.",
+        "coolingPlate": "Ice cooling plate technology �?Instantly cools skin to 5°C for truly painless experience.",
+        "preciseControl": "9-level precise energy control �?Customizable for sensitive areas and coarse hair.",
+        "allSkin": "Suitable for all skin tones �?Fitzpatrick I-V certified.",
+        "largeWindow": "3.3 cm² extra-large treatment window �?Fast coverage, 50% higher efficiency."
+      }
+    },
+    "iceFeeling": {
+      "title": "Sapphire Ice Feeling IPL Device",
+      "desc": "Enjoy painless hair removal with a clinical-grade Sapphire cooling plate that chills skin to 5°C, enabling higher energy pulses for quicker results. The integrated Intense Pulsed Light (IPL) engine delivers 2.0~5.0 J/cm² of energy with 999,999 flashes for a lifetime of use.",
+      "features": {
+        "longSmooth": "Long-lasting smoothness �?visible reduction after 3-4 weeks.",
+        "cooling": "Cooling plate keeps epidermis at 5°C for true painless treatments.",
+        "energyLevels": "Five energy levels adapt to almost all skin tones within Fitzpatrick I-V.",
+        "flashModes": "Auto/Manual flash modes for body and precision areas.",
+        "multiUse": "4-in-1: Full body, Bikini, Face, and skin rejuvenation."
+      }
+    },
+    "skinSensor": {
+      "title": "Skin Sensor IPL Device",
+      "desc": "Experience the safest and most intelligent home hair removal with our Skin Sensor IPL Device. This revolutionary device features advanced optical skin sensors that automatically detect your skin tone and hair color �?delivering personalized treatment intensity for maximum effectiveness and complete safety. With real-time skin analysis and automatic energy adjustment, this device is perfect for all suitable skin types and ensures optimal results every time.",
+      "features": {
+        "intelligentDetection": "Intelligent Skin Detection �?Advanced sensors automatically identify skin tone and adjust energy levels",
+        "maxSafety": "Maximum Safety �?Prevents over-treatment and reduces risk of skin irritation or burns",
+        "personalized": "Personalized Treatment �?Automatically optimizes intensity for your unique skin characteristics",
+        "realTime": "Real-time Analysis �?Continuous monitoring ensures consistent, safe treatment sessions",
+        "proResults": "Professional Results �?Salon-quality hair removal in the comfort of your home"
+      }
+    },
+    "smartApp": {
+      "title": "Smart App IPL Hair Removal Device",
+      "desc": "Seamlessly connect your IPL device via Bluetooth to our SmartApp. Enjoy guided treatments, real-time session tracking, personalized routines, and AI-powered insights. Control intensity levels, monitor progress, and receive reminders—all from your smartphone.",
+      "features": {
+        "bluetooth": "Bluetooth 5.0 connectivity for stable pairing",
+        "aiPlans": "Personalized treatment plans via AI analysis",
+        "realTimeControl": "Real-time intensity control and on-screen feedback",
+        "scheduling": "Session scheduling and usage reminders",
+        "compatibility": "Compatible with iOS & Android"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "shipping": {
+      "q": "Can you ship globally?",
+      "a": "Absolutely. We offer reliable worldwide shipping to support your business wherever you are."
+    },
+    "customization": {
+      "q": "Can I customize the device functions?",
+      "a": "Yes, we offer full customization of features, colors, packaging, and more to fit your brand needs."
+    },
+    "certifications": {
+      "q": "What certifications do you support?",
+      "a": "We support FDA, CE, RoHS, and other global certifications to ensure compliance in your target markets."
+    },
+    "leadTime": {
+      "q": "How long is the production lead time?",
+      "a": "Typical lead time is 25-35 days after sample approval, depending on order size and customization."
+    },
+    "afterSales": {
+      "q": "Do you provide after-sales support?",
+      "a": "Yes, we offer comprehensive after-sales service including technical support and warranty."
+    }
+  },
+  "cta": {
+    "getSupport": "Get Support Now",
+    "readyToStart": "Ready to Get Started?",
+    "contactUs": "Contact Us",
+    "freeQuote": "Get a Free Quote",
+    "readMore": "Read More"
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "country": "Country",
+    "message": "Message",
+    "submit": "Submit",
+    "sending": "Sending...",
+    "success": "Your message has been sent successfully!",
+    "error": "There was an error sending your message. Please try again."
+  },
+  "blog": {
+    "posts": {
+      "sustainableManufacturing": {
+        "title": "Sustainable Manufacturing: Green IPL Production Methods",
+        "intro": "As the demand for at-home IPL (Intense Pulsed Light) hair removal devices surges, so does the responsibility to produce these electronics with minimal environmental impact. Sustainable manufacturing is no longer a trend but a necessity—encompassing every stage from raw material sourcing to end-of-life recycling. This article assesses the environmental footprint of IPL device production and explores innovative, practical strategies for achieving a truly green supply chain, with a focus on electronics, optics, eco-friendly ABS housings, sustainable packaging, and waste reutilization.",
+        "sections": {
+          "environmentalImpact": "Environmental Impact Assessment of IPL Device Manufacturing",
+          "electronics": "1. Electronic Components",
+          "optics": "2. Optical Components (Lenses and Filters)",
+          "absHousing": "3. ABS Eco-Friendly Housings",
+          "packaging": "4. Sustainable Paper Packaging",
+          "wasteReduction": "5. Waste Reduction and Reuse",
+          "supplyChain": "Sustainable Supply Chain Innovations",
+          "feasibility": "The Feasibility of a Green IPL Supply Chain",
+          "commitment": "iShine's Commitment to Sustainability",
+          "references": "References"
+        }
+      },
+      "globalMarketShifts": {
+        "title": "Global Market Shifts: IPL Device Trends and Opportunities",
+        "intro": "Explore the latest global trends in IPL device adoption, regulatory changes, and market opportunities for brands and manufacturers.",
+        "sections": {
+          "marketOverview": "Market Overview",
+          "regionalTrends": "Regional Trends",
+          "regulatoryChanges": "Regulatory Changes",
+          "consumerPreferences": "Consumer Preferences",
+          "opportunities": "Opportunities for Brands",
+          "challenges": "Challenges and Risks",
+          "futureOutlook": "Future Outlook"
+        }
+      },
+      "aiPoweredSkinSensing": {
+        "title": "AI-Powered Skin Sensing: The Next Frontier in IPL Safety",
+        "intro": "How artificial intelligence is revolutionizing IPL device safety and personalization through real-time skin analysis.",
+        "sections": {
+          "introduction": "Introduction",
+          "aiTechnology": "AI Technology in IPL",
+          "skinSensing": "Skin Sensing Mechanisms",
+          "safetyBenefits": "Safety Benefits",
+          "userExperience": "User Experience",
+          "caseStudies": "Case Studies",
+          "conclusion": "Conclusion"
+        }
+      },
+      "multiHeadIPLSystems": {
+        "title": "Multi-Head IPL Systems: Precision Meets Full-Body Efficiency",
+        "intro": "The evolution of at-home hair removal has been profoundly shaped by the introduction of multi-head Intense Pulsed Light (IPL) systems. Philips pioneered this trend with its interchangeable head technology, setting a new standard for versatility and user-centric design in home-use IPL devices.",
+        "sections": {
+          "philipsLegacy": "The Philips Legacy: Setting the Standard for Multi-Head IPL",
+          "keyFeatures": "Key Features of Multi-Head IPL Devices",
+          "respondingToVIO": "Responding to VIO Hair Removal Needs",
+          "whyMultiHeadMatters": "Why Multi-Head Design Matters",
+          "painReduction": "Pain Reduction: The Role of Advanced Filters",
+          "realUserFeedback": "Real User Feedback",
+          "conclusion": "Conclusion",
+          "references": "References"
+        }
+      },
+      "sapphireCooling": {
+        "title": "Sapphire Cooling: Enhancing Comfort in IPL Treatments",
+        "intro": "Discover how sapphire cooling technology is transforming the comfort and safety of IPL hair removal treatments.",
+        "sections": {
+          "technologyOverview": "Technology Overview",
+          "coolingMechanism": "How Sapphire Cooling Works",
+          "benefits": "Benefits for Users",
+          "clinicalEvidence": "Clinical Evidence",
+          "deviceComparison": "Device Comparison",
+          "userTestimonials": "User Testimonials",
+          "conclusion": "Conclusion"
+        }
+      },
+      "industries": {
+        "title": "Industries We Serve: IPL Applications Across Sectors",
+        "intro": "IPL technology is not just for beauty—explore its applications in medical, veterinary, and industrial sectors.",
+        "sections": {
+          "beauty": "Beauty Industry",
+          "medical": "Medical Applications",
+          "veterinary": "Veterinary Uses",
+          "industrial": "Industrial Applications",
+          "caseStudies": "Case Studies",
+          "futureTrends": "Future Trends"
+        }
+      },
+      "iplBestChoice": {
+        "title": "Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools",
+        "intro": "Discover why IPL is the most effective, comfortable, and convenient solution for long-term hair removal at home—backed by science and real user experience.",
+        "sections": {
+          "comparison": "Hair Removal Methods Comparison",
+          "whyChooseIPL": "Why Choose IPL Home Hair Removal?",
+          "userStories": "Real User Stories",
+          "faq": "Frequently Asked Questions",
+          "recommendedBlog": "Recommended Blog",
+          "exploreMore": "Explore More"
+        }
+      },
+      "futureHomeHairRemoval": {
+        "title": "The Future of Home Hair Removal Devices: Trends, Innovations, and What's Next",
+        "intro": "Explore the evolution, current breakthroughs, and the next generation of home hair removal devices—AI, multifunctionality, and sustainable design for 2025 and beyond.",
+        "sections": {
+          "evolution": "Evolution of Home Hair Removal Technology",
+          "stateOfTheArt": "Key Features of Next-Gen Devices (2025)",
+          "aiPersonalization": "AI and Personalization in Hair Removal",
+          "vision": "The 'Ultimate' Home Hair Removal Device: A Vision",
+          "challenges": "Challenges and Considerations",
+          "faq": "Frequently Asked Questions",
+          "exploreMore": "Explore More",
+          "aboutAuthor": "About the Author"
+        }
+      },
+      "fda510kPathway": {
+        "title": "FDA 510(k) Pathway: Navigating Medical Device Classification for IPL",
+        "intro": "A comprehensive guide to the FDA 510(k) pathway for home-use IPL hair removal devices. Learn about regulatory requirements, marketing claims, and how iShine helps brands achieve compliance.",
+        "sections": {
+          "introduction": "Introduction",
+          "pathway": "1. FDA 510(k) Pathway for Home IPL Devices",
+          "marketingClaims": "2. How Marketing Claims Affect Regulatory Classification",
+          "ishineExpertise": "3. iShine's Expertise in Securing Your Brand's FDA 510(k) Listing",
+          "benefits": "4. Benefits of Obtaining a Brand-Specific FDA 510(k) Listing",
+          "guidance": "5. Practical Guidance for Brands",
+          "conclusion": "Conclusion",
+          "faq": "Frequently Asked Questions",
+          "exploreMore": "Explore More",
+          "author": "About the Author"
+        }
+      }
+    }
+  },
+  "floating": {
+    "contact": "ติดต่อเรา",
+    "backToTop": "กลับไปด้านบน"
   }
 }
