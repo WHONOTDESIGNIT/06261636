@@ -36,65 +36,65 @@
       "aiPowered": "IPL-пристрій з ШІ"
     },
     "accessories": {
-      "sapphireLens": "Sapphire Lens",
-      "adapter": "Adapter",
-      "goggles": "Protective Goggles",
-      "filter": "Filter"
+      "sapphireLens": "Сапфірова лінза",
+      "adapter": "Адаптер",
+      "goggles": "Захисні окуляри",
+      "filter": "Фільтр"
     },
     "serviceSupport": {
-      "service": "Service",
-      "afterSales": "After-Sales Service",
-      "fdaGmp": "FDA GMP Clean Room Design",
-      "manufacturing": "IPL Devices Manufacturing",
-      "knowledgeBase": "Knowledge Base",
-      "support": "Support > Buying Guide",
-      "beautySourcing": "Beauty Niche Sourcing & Accessories",
-      "pricingGuide": "Pricing Guide",
-      "helpCenter": "Help Center",
-      "gallery": "Gallery",
-      "videos": "Videos",
-      "blog": "Blog",
-      "newsInsights": "News & Insights",
-      "industries": "Industries We Serve"
+      "service": "Сервіс",
+      "afterSales": "Післяпродажний сервіс",
+      "fdaGmp": "Дизайн чистої кімнати FDA GMP",
+      "manufacturing": "Виробництво IPL-пристроїв",
+      "knowledgeBase": "База знань",
+      "support": "Підтримка > Посібник покупця",
+      "beautySourcing": "Спеціалізовані закупівлі краси та аксесуарів",
+      "pricingGuide": "Посібник з цін",
+      "helpCenter": "Центр допомоги",
+      "gallery": "Галерея",
+      "videos": "Відео",
+      "blog": "Блог",
+      "newsInsights": "Новини та аналітика",
+      "industries": "Галузі, які ми обслуговуємо"
     },
     "about": {
-      "founderMessage": "Founder Message",
-      "technology": "Our Technology",
-      "globalWitness": "Global Witness",
-      "corePrinciples": "Core Principles",
-      "company": "About iShine",
-      "brandStory": "Brand Story",
-      "quality": "Quality"
+      "founderMessage": "Повідомлення засновника",
+      "technology": "Наша технологія",
+      "globalWitness": "Глобальний свідок",
+      "corePrinciples": "Основні принципи",
+      "company": "Про iShine",
+      "brandStory": "Історія бренду",
+      "quality": "Якість"
     }
   },
   "footer": {
     "company": {
-      "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market.",
-      "products": "Products",
-      "services": "Services",
-      "company": "Company"
+      "description": "Провідний виробник IPL-пристроїв, що надає комплексні OEM/ODM рішення від ідеї до ринку.",
+      "products": "Продукти",
+      "services": "Послуги",
+      "company": "Компанія"
     },
     "products": {
-      "iplHairRemoval": "IPL Hair Removal",
-      "accessories": "Accessories",
-      "gallery": "Gallery"
+      "iplHairRemoval": "IPL видалення волосся",
+      "accessories": "Аксесуари",
+      "gallery": "Галерея"
     },
     "services": {
-      "afterSales": "After-Sales Service",
-      "manufacturing": "IPL Manufacturing",
-      "buyingGuide": "Buying Guide",
-      "helpCenter": "Help Center"
+      "afterSales": "Післяпродажний сервіс",
+      "manufacturing": "IPL виробництво",
+      "buyingGuide": "Посібник покупця",
+      "helpCenter": "Центр допомоги"
     },
     "companyLinks": {
-      "about": "About iShine",
-      "brandStory": "Brand Story",
-      "quality": "Quality",
-      "blog": "Blog"
+      "about": "Про iShine",
+      "brandStory": "Історія бренду",
+      "quality": "Якість",
+      "blog": "Блог"
     },
     "legal": {
-      "copyright": "© 2025 iShine. All rights reserved.",
-      "privacyPolicy": "Privacy Policy",
-      "termsOfService": "Terms of Service"
+      "copyright": "© 2025 iShine. Всі права захищені.",
+      "privacyPolicy": "Політика конфіденційності",
+      "termsOfService": "Умови обслуговування"
     },
     "contact": {
       "title": "Контакти",
@@ -104,8 +104,8 @@
       "address": "АДРЕСА",
       "telValue": "+86-15900283962",
       "whatsappValue": "+86-15012891148",
-      "emailValue": "service@ishineco.com",
-      "addressValue": "Кімната 208, Будівля 4, №45, Makan Road, Xi'li Street, Шеньчжень, Гуандун, Китай, 518071"
+      "emailValue": "service@iplmanufacturer.com",
+      "addressValue": "Кімната 208, Будівля 4, �?5, Makan Road, Xi'li Street, Шеньчжень, Гуандун, Китай, 518071"
     }
   },
   "home": {
@@ -116,52 +116,52 @@
       "cta": "Отримати пропозицію"
     },
     "partners": {
-      "title": "Trusted by Global Brands",
-      "subtitle": "Working with industry leaders worldwide"
+      "title": "Довіряють глобальні бренди",
+      "subtitle": "Працюємо з лідерами галузі по всьому світу"
     },
     "features": {
-      "title": "Why Choose iShine?",
-      "subtitle": "Complete IPL manufacturing solutions tailored to your needs"
+      "title": "Чому обрати iShine?",
+      "subtitle": "Комплексні виробничі рішення IPL, адаптовані до ваших потреб"
     },
     "products": {
-      "title": "Our IPL Device Range",
-      "subtitle": "Wide Range IPL devices for every needs",
-      "cta": "View All IPL Devices"
+      "title": "Наша лінійка IPL-пристроїв",
+      "subtitle": "Широкий вибір IPL-пристроїв для будь-яких потреб",
+      "cta": "Переглянути всі IPL-пристрої"
     },
     "cta": {
-      "title": "Need help?",
-      "subtitle": "Let's discuss your requirements and create the IPL solution that best fit for your brand.",
-      "button": "Fill out the form to enjoy Free Consultation"
+      "title": "Потрібна допомога?",
+      "subtitle": "Давайте обговоримо ваші вимоги та створимо IPL-рішення, яке найкраще підходить для вашого бренду.",
+      "button": "Заповніть форму для безкоштовної консультації"
     }
   },
   "contact": {
     "hero": {
       "title": "Зв'яжіться з нами",
-      "description": "Ready to discuss your IPL project? Get in touch with our expert team today. We're here to help bring your vision to life."
+      "description": "Готові обговорити ваш IPL-проект? Зв'яжіться з нашою командою експертів сьогодні. Ми тут, щоб допомогти втілити ваше бачення в життя."
     },
     "info": {
-      "title": "Get in Touch",
-      "subtitle": "Multiple ways to reach us - choose what works best for you",
+      "title": "Зв'яжіться з нами",
+      "subtitle": "Кілька способів зв'язатися з нами - оберіть той, що найкраще підходить для вас",
       "address": {
-        "title": "Address",
+        "title": "Адреса",
         "company": "iShine Manufacturing Co., Ltd.",
-        "location": "Shenzhen, Guangdong, China"
+        "location": "Шеньчжень, Гуандун, Китай"
       },
       "phone": {
-        "title": "Phone"
+        "title": "Телефон"
       },
       "email": {
-        "title": "Email"
+        "title": "Електронна пошта"
       },
       "hours": {
-        "title": "Business Hours",
-        "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
-        "saturday": "Saturday: 9:00 AM - 12:00 PM"
+        "title": "Робочі години",
+        "weekdays": "Понеділок - П'ятниця: 9:00 - 18:00",
+        "saturday": "Субота: 9:00 - 12:00"
       }
     },
     "map": {
-      "title": "Visit Our Facility",
-      "subtitle": "Located in the heart of Shenzhen's manufacturing district"
+      "title": "Відвідайте наш об'єкт",
+      "subtitle": "Розташований у серці виробничого району Шеньчжень"
     },
     "form": {
       "title": "Що у вас на думці? Давайте поговоримо!",
@@ -171,120 +171,120 @@
       "phone": "Номер телефону* напр. (+380-44-123-45-67)",
       "country": "Країна",
       "message": "Опишіть ваші потреби тут*",
-      "submit": "Submit",
-      "sending": "Sending..."
+      "submit": "Відправити",
+      "sending": "Відправляється..."
     },
     "title": "Зв'яжіться з нами",
-    "subtitle": "Get in touch with our team for business inquiries, support, or partnership opportunities.",
-    "companyPhotoAlt": "iShine Manufacturing Facility"
+    "subtitle": "Зв'яжіться з нашою командою для бізнес-запитів, підтримки або можливостей партнерства.",
+    "companyPhotoAlt": "Виробниче підприємство iShine"
   },
   "buttons": {
-    "getQuote": "Get Quote",
-    "viewSolutions": "View Our Solutions",
-    "scheduleConsultation": "Schedule Consultation",
-    "submit": "Submit",
-    "sending": "Sending...",
-    "viewAll": "View All"
+    "getQuote": "Отримати пропозицію",
+    "viewSolutions": "Переглянути наші рішення",
+    "scheduleConsultation": "Запланувати консультацію",
+    "submit": "Відправити",
+    "sending": "Відправляється...",
+    "viewAll": "Переглянути все"
   },
   "common": {
     "loading": "Завантаження...",
     "error": "Сталася помилка",
     "success": "Успіх",
-    "readMore": "Read More",
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
+    "readMore": "Читати далі",
+    "learnMore": "Дізнатися більше",
+    "getStarted": "Почати",
     "contactUs": "Зв'яжіться з нами"
   },
   "solutions": {
-    "productDesignDevelopment": "Product Design & Development",
-    "productDesignDevelopmentDescription": "From initial concept to final design, our expert team brings your IPL vision to life with cutting-edge technology and market insights.",
-    "oemManufacturing": "OEM Manufacturing",
-    "oemManufacturingDescription": "Complete manufacturing solutions with your specifications. We handle production while you focus on your brand and market.",
-    "odmSolutions": "ODM Solutions",
-    "odmSolutionsDescription": "Choose from our proven IPL designs and customize them with your branding, packaging, and unique features.",
-    "endToEndSupport": "End-to-End Support",
-    "endToEndSupportDescription": "Complete project management from initial consultation to product launch and beyond, ensuring your success every step of the way.",
-    "consultation": "Consultation",
-    "consultationDescription": "Understand your vision, market, and requirements",
-    "design": "Design",
-    "designDescription": "Create custom designs or adapt existing solutions",
-    "prototype": "Prototype",
-    "prototypeDescription": "Build and test prototypes to ensure quality",
-    "manufacturing": "Manufacturing",
-    "manufacturingDescription": "Full-scale production with quality assurance",
-    "launch": "Launch",
-    "launchDescription": "Support your market entry and ongoing success",
-    "completeIPLSolutions": "Complete IPL Solutions",
-    "completeIPLSolutionsDescription": "From initial concept to market launch, we provide comprehensive OEM/ODM solutions that transform your IPL vision into successful products.",
-    "ourSolutionPortfolio": "Our Solution Portfolio",
-    "comprehensiveServices": "Comprehensive services to bring your IPL products to market successfully",
-    "ourProcess": "Our Process",
-    "streamlinedWorkflow": "Streamlined workflow to ensure your project success",
-    "industriesWeServe": "Industries We Serve",
-    "tailoredSolutions": "Tailored solutions for diverse market segments",
-    "provenSuccess": "Proven Success",
-    "numbersSpeak": "Numbers that speak to our expertise and commitment",
-    "globalClients": "Global Clients",
-    "productsLaunched": "Products Launched",
-    "qualityRate": "Quality Rate",
-    "yearsExperience": "Years Experience"
+    "productDesignDevelopment": "Дизайн і розробка продукту",
+    "productDesignDevelopmentDescription": "Від початкової концепції до остаточного дизайну наша команда експертів втілює ваше IPL-бачення в життя за допомогою передових технологій та ринкових інсайтів.",
+    "oemManufacturing": "OEM виробництво",
+    "oemManufacturingDescription": "Комплексні виробничі рішення за вашими специфікаціями. Ми займаємось виробництвом, поки ви зосереджуєтесь на своєму бренді та ринку.",
+    "odmSolutions": "ODM рішення",
+    "odmSolutionsDescription": "Оберіть з наших перевірених IPL-дизайнів та налаштуйте їх під ваш брендинг, упаковку та унікальні функції.",
+    "endToEndSupport": "Повна підтримка",
+    "endToEndSupportDescription": "Повне управління проектом від початкової консультації до запуску продукту і далі, забезпечуючи ваш успіх на кожному кроці.",
+    "consultation": "Консультація",
+    "consultationDescription": "Розуміння вашого бачення, ринку та вимог",
+    "design": "Дизайн",
+    "designDescription": "Створення індивідуальних дизайнів або адаптація існуючих рішень",
+    "prototype": "Прототип",
+    "prototypeDescription": "Створення та тестування прототипів для забезпечення якості",
+    "manufacturing": "Виробництво",
+    "manufacturingDescription": "Повномасштабне виробництво з контролем якості",
+    "launch": "Запуск",
+    "launchDescription": "Підтримка вашого виходу на ринок та постійного успіху",
+    "completeIPLSolutions": "Комплексні IPL рішення",
+    "completeIPLSolutionsDescription": "Від початкової концепції до запуску на ринку ми надаємо всеосяжні OEM/ODM рішення, які трансформують ваше IPL-бачення в успішні продукти.",
+    "ourSolutionPortfolio": "Наше портфоліо рішень",
+    "comprehensiveServices": "Комплексні послуги для успішного виведення ваших IPL-продуктів на ринок",
+    "ourProcess": "Наш процес",
+    "streamlinedWorkflow": "Оптимізований робочий процес для забезпечення успіху вашого проекту",
+    "industriesWeServe": "Галузі, які ми обслуговуємо",
+    "tailoredSolutions": "Індивідуальні рішення для різних ринкових сегментів",
+    "provenSuccess": "Підтверджений успіх",
+    "numbersSpeak": "Цифри, що говорять про нашу експертизу та відданість",
+    "globalClients": "Глобальні клієнти",
+    "productsLaunched": "Запущені продукти",
+    "qualityRate": "Рівень якості",
+    "yearsExperience": "Років досвіду"
   },
   "about": {
-    "heroTitle": "About iShine",
-    "heroDesc": "Your trusted partner in IPL device manufacturing, bringing innovative beauty technology from concept to market since 2018.",
-    "storyTitle": "Our Story",
-    "storyP1": "Founded in 2018, iShine emerged from a vision to democratize advanced IPL technology. We recognized that beauty brands needed a reliable partner who could transform their ideas into market-ready products with precision and excellence.",
-    "storyP2": "Today, we're proud to serve clients across three continents, from innovative startups to established beauty conglomerates. Our commitment to quality, innovation, and customer success drives everything we do.",
-    "storyP3": "At iShine, we don't just manufacture devices – we craft solutions that empower brands to succeed in the competitive beauty market.",
-    "valuesTitle": "Our Core Values",
-    "valuesDesc": "The principles that guide our work and relationships with clients",
+    "heroTitle": "Про iShine",
+    "heroDesc": "Ваш надійний партнер у виробництві IPL-пристроїв, що втілює інноваційні beauty технології від концепції до ринку з 2018 року.",
+    "storyTitle": "Наша історія",
+    "storyP1": "Заснована в 2018 році, iShine виникла з бачення демократизації передових IPL-технологій. Ми усвідомили, що beauty брендам потрібен надійний партнер, який може трансформувати їхні ідеї в готові до ринку продукти з точністю та досконалістю.",
+    "storyP2": "Сьогодні ми з гордістю обслуговуємо клієнтів на трьох континентах, від інноваційних стартапів до встановлених beauty конгломератів. Наша відданість якості, інноваціям та успіху клієнтів рушить усе, що ми робимо.",
+    "storyP3": "У iShine ми не просто виробляємо пристрої — ми створюємо рішення, які дають брендам можливість досягти успіху на конкурентному beauty ринку.",
+    "valuesTitle": "Наші основні цінності",
+    "valuesDesc": "Принципи, що керують нашою роботою та відносинами з клієнтами",
     "values": {
-      "qualityTitle": "Quality Excellence",
-      "qualityDesc": "FDA GMP certified manufacturing with rigorous quality control",
-      "customerTitle": "Customer Focus",
-      "customerDesc": "Dedicated to understanding and exceeding customer expectations",
-      "globalTitle": "Global Impact",
-      "globalDesc": "Serving beauty brands worldwide with innovative IPL solutions",
-      "innovationTitle": "Innovation Drive",
-      "innovationDesc": "Continuous R&D investment in next-generation IPL technology"
+      "qualityTitle": "Досконалість якості",
+      "qualityDesc": "FDA GMP сертифіковане виробництво з суворим контролем якості",
+      "customerTitle": "Орієнтація на клієнта",
+      "customerDesc": "Присвячені розумінню та перевищенню очікувань клієнтів",
+      "globalTitle": "Глобальний вплив",
+      "globalDesc": "Обслуговування beauty брендів по всьому світу інноваційними IPL-рішеннями",
+      "innovationTitle": "Інноваційний двигун",
+      "innovationDesc": "Постійні інвестиції в R&D технологій IPL нового покоління"
     },
-    "journeyTitle": "Our Journey",
-    "journeyDesc": "Key milestones in our growth and innovation",
+    "journeyTitle": "Наш шлях",
+    "journeyDesc": "Ключові віхи в нашому зростанні та інноваціях",
     "milestones": {
       "2018": {
-        "title": "Company Founded",
-        "desc": "iShine established as IPL device manufacturer"
+        "title": "Заснування компанії",
+        "desc": "iShine створена як виробник IPL-пристроїв"
       },
       "2019": {
-        "title": "First International Client",
-        "desc": "Partnership with KU-2 Cosmetic in Germany"
+        "title": "Перший міжнародний клієнт",
+        "desc": "Партнерство з KU-2 Cosmetic в Німеччині"
       },
       "2020": {
-        "title": "FDA GMP Certification",
-        "desc": "Achieved FDA GMP clean room certification"
+        "title": "FDA GMP сертифікація",
+        "desc": "Отримана FDA GMP сертифікація чистої кімнати"
       },
       "2021": {
-        "title": "Smart IPL Launch",
-        "desc": "Introduced first app-controlled IPL devices"
+        "title": "Запуск Smart IPL",
+        "desc": "Представлені перші IPL-пристрої з керуванням через додаток"
       },
       "2022": {
-        "title": "Global Expansion",
-        "desc": "Partnerships with Costco and ROSESKINCO"
+        "title": "Глобальна експансія",
+        "desc": "Партнерство з Costco та ROSESKINCO"
       },
       "2023": {
-        "title": "AI Integration",
-        "desc": "Launched AI-powered IPL technology"
+        "title": "Інтеграція ШІ",
+        "desc": "Запущена IPL-технологія на основі штучного інтелекту"
       }
     },
-    "teamTitle": "Our Expert Team",
-    "teamDesc": "Dedicated professionals committed to your success",
+    "teamTitle": "Наша команда експертів",
+    "teamDesc": "Віддані професіонали, зобов'язані вашому успіху",
     "team": {
-      "rnd": "R&D Engineers",
-      "rndDesc": "Expert engineers developing cutting-edge IPL technology",
-      "quality": "Quality Specialists",
-      "qualityDesc": "Ensuring every device meets the highest standards",
-      "customer": "Customer Success",
-      "customerDesc": "Dedicated support from concept to market launch"
+      "rnd": "R&D інженери",
+      "rndDesc": "Експертні інженери, що розробляють передові IPL-технології",
+      "quality": "Спеціалісти з якості",
+      "qualityDesc": "Забезпечення відповідності кожного пристрою найвищим стандартам",
+      "customer": "Успіх клієнта",
+      "customerDesc": "Відданая підтримка від концепції до запуску на ринку"
     }
   },
   "countryPage": {
@@ -292,140 +292,140 @@
     "description": "Провідний виробник IPL пристроїв, що пропонує OEM/ODM рішення від ідеї до ринку. Індивідуальні IPL пристрої для видалення волосся для світових брендів краси."
   },
   "howToUse": {
-    "heroTitle": "How to Use IPL Devices",
-    "heroDescription": "Complete guide to safe and effective IPL hair removal. Learn proper techniques, safety guidelines, and get the best results from your IPL device.",
-    "stepByStepTitle": "Step-by-Step Instructions",
-    "stepByStepDescription": "Follow these steps for safe and effective IPL treatment",
-    "safetyGuidelinesTitle": "Safety Guidelines",
-    "safetyGuidelinesDescription": "Essential safety information for IPL treatment",
-    "treatmentScheduleTitle": "Recommended Treatment Schedule",
-    "treatmentScheduleDescription": "Follow this schedule for optimal hair removal results",
-    "troubleshootingTitle": "Troubleshooting Guide",
-    "troubleshootingDescription": "Common issues and their solutions",
-    "faqTitle": "Frequently Asked Questions",
-    "faqDescription": "Get answers to common IPL treatment questions",
-    "videoTutorialsTitle": "Video Tutorials",
-    "videoTutorialsDescription": "Watch step-by-step video guides for proper IPL usage"
+    "heroTitle": "Як використовувати IPL-пристрої",
+    "heroDescription": "Повний посібник безпечного та ефективного IPL-видалення волосся. Дізнайтесь правильні техніки, інструкції з безпеки та отримайте найкращі результати від вашого IPL-пристрою.",
+    "stepByStepTitle": "Покрокові інструкції",
+    "stepByStepDescription": "Дотримуйтесь цих кроків для безпечного та ефективного IPL-лікування",
+    "safetyGuidelinesTitle": "Інструкції з безпеки",
+    "safetyGuidelinesDescription": "Основна інформація з безпеки для IPL-лікування",
+    "treatmentScheduleTitle": "Рекомендований графік лікування",
+    "treatmentScheduleDescription": "Дотримуйтесь цього графіку для оптимальних результатів видалення волосся",
+    "troubleshootingTitle": "Посібник з усунення неполадок",
+    "troubleshootingDescription": "Поширені проблеми та їх рішення",
+    "faqTitle": "Часті запитання",
+    "faqDescription": "Отримайте відповіді на поширені запитання щодо IPL-лікування",
+    "videoTutorialsTitle": "Відео-уроки",
+    "videoTutorialsDescription": "Дивітьсь покрокові відео-посібники для правильного використання IPL"
   },
   "iplHairRemoval": {
-    "heroTitle": "Professional IPL Hair Removal Solutions",
-    "heroDescription": "Discover the next generation of IPL hair removal devices—safe, effective, and designed for all skin types. Experience salon-quality results at home or in your business.",
-    "iplDevicesTitle": "Our IPL Device Range",
-    "iplDevicesDescription": "Explore our full lineup of advanced IPL hair removal devices, each engineered for maximum comfort and results.",
-    "accessoriesTitle": "Essential IPL Accessories",
-    "accessoriesDescription": "Enhance your IPL experience with our range of certified accessories for safety and convenience.",
-    "advancedIplTitle": "Advanced IPL Technology",
-    "smartTechnologyIntegration": "Smart Technology Integration",
-    "smartTechnologyIntegrationDescription": "Our IPL devices feature intelligent sensors and app connectivity for personalized, safe, and effective treatments.",
-    "coolingComfortSystems": "Cooling Comfort Systems",
-    "coolingComfortSystemsDescription": "Sapphire and metal plate cooling keep your skin comfortable and protected during every session.",
-    "intelligentSkinSensors": "Intelligent Skin Sensors",
-    "intelligentSkinSensorsDescription": "Automatic skin tone and hair detection ensures optimal energy delivery and safety for every user."
+    "heroTitle": "Професійні рішення IPL видалення волосся",
+    "heroDescription": "Відкрийте для себе нове покоління IPL-пристроїв для видалення волосся — безпечні, ефективні та розроблені для всіх типів шкіри. Відчуйте результати салонної якості вдома або у вашому бізнесі.",
+    "iplDevicesTitle": "Наша лінійка IPL-пристроїв",
+    "iplDevicesDescription": "Дослідіть нашу повну лінійку передових IPL-пристроїв для видалення волосся, кожен розроблений для максимального комфорту та результатів.",
+    "accessoriesTitle": "Основні IPL-аксесуари",
+    "accessoriesDescription": "Покращте ваш IPL-досвід з нашою лінійкою сертифікованих аксесуарів для безпеки та зручності.",
+    "advancedIplTitle": "Передова IPL-технологія",
+    "smartTechnologyIntegration": "Інтеграція розумних технологій",
+    "smartTechnologyIntegrationDescription": "Наші IPL-пристрої містять розумні датчики та підключення до додатку для персоналізованих, безпечних та ефективних процедур.",
+    "coolingComfortSystems": "Системи охолоджувального комфорту",
+    "coolingComfortSystemsDescription": "Сапфірове та металеве охолодження пластинами підтримує вашу шкіру комфортною та захищеною під час кожного сеансу.",
+    "intelligentSkinSensors": "Розумні датчики шкіри",
+    "intelligentSkinSensorsDescription": "Автоматичне визначення тону шкіри та волосся забезпечує оптимальне надання енергії та безпеку для кожного користувача."
   },
   "ipl": {
     "aiPowered": {
-      "title": "AI-Powered IPL Device",
-      "desc": "The future of hair removal is here. Artificial intelligence optimizes every treatment for personalized, effective results.",
+      "title": "IPL-пристрій з ШІ",
+      "desc": "Майбутнє видалення волосся вже тут. Штучний інтелект оптимізує кожну процедуру для персоналізованих, ефективних результатів.",
       "features": {
-        "aiTech": "AI Technology",
-        "aiTechDesc": "Smart learning algorithms",
-        "smartProcessing": "Smart Processing",
-        "smartProcessingDesc": "Real-time optimization",
-        "analytics": "Advanced Analytics",
-        "analyticsDesc": "Detailed progress tracking",
-        "personalized": "Personalized",
-        "personalizedDesc": "Customized for your needs"
+        "aiTech": "ШІ технологія",
+        "aiTechDesc": "Розумні алгоритми навчання",
+        "smartProcessing": "Розумна обробка",
+        "smartProcessingDesc": "Оптимізація в реальному часі",
+        "analytics": "Розширена аналітика",
+        "analyticsDesc": "Детальне відстеження прогресу",
+        "personalized": "Персоналізований",
+        "personalizedDesc": "Налаштований під ваші потреби"
       }
     },
     "batteryPowered": {
-      "title": "Battery-Powered IPL Hair Removal Device",
-      "desc": "Experience the ultimate cordless convenience with our battery-powered IPL device. Equipped with a high-capacity rechargeable battery, it offers seamless mobility without the need for power adapters. Enjoy professional-grade hair removal anywhere, anytime, with up to 9 adjustable energy levels for personalized treatments.",
+      "title": "IPL-пристрій для видалення волосся на батарейках",
+      "desc": "Відчуйте максимальну бездротову зручність з нашим IPL-пристроєм на батарейках. Оснащений високоємною акумуляторною батареєю, він забезпечує безшовну мобільність без потреби в адаптерах живлення. Насолоджуйтесь професійним видаленням волосся будь-де, будь-коли, з до 9 регульованими рівнями енергії для персоналізованих процедур.",
       "features": {
-        "cordless": "Cordless design for ultimate freedom and convenience.",
-        "energyLevels": "9 adjustable energy levels for customized treatments.",
-        "longBattery": "Long-lasting rechargeable battery with 600+ recharge cycles.",
-        "noAdapter": "No need for power adapters during use, ideal for travel.",
-        "allSkin": "Suitable for all skin tones, FDA & CE approved."
+        "cordless": "Бездротовий дизайн для максимальної свободи та зручності.",
+        "energyLevels": "9 регульованих рівнів енергії для індивідуальних процедур.",
+        "longBattery": "Довготривала акумуляторна батарея з 600+ циклами зарядки.",
+        "noAdapter": "Не потребує адаптерів живлення під час використання, ідеально для подорожей.",
+        "allSkin": "Підходить для всіх тонів шкіри, схвалений FDA та CE."
       }
     },
     "dualLamp": {
-      "title": "Dual-Lamp IPL Device",
-      "desc": "Double the power, double the efficiency. Revolutionary dual-lamp technology for faster treatments and superior results.",
+      "title": "IPL-пристрій з подвійною лампою",
+      "desc": "Подвійна потужність, подвійна ефективність. Революційна технологія подвійної лампи для швидших процедур та кращих результатів.",
       "features": {
-        "dualLamps": "Dual Lamps",
-        "dualLampsDesc": "Enhanced power and coverage",
-        "faster": "Faster Treatment",
-        "fasterDesc": "Reduced session time",
-        "proPower": "Professional Power",
-        "proPowerDesc": "Salon-grade performance",
-        "evenCoverage": "Even Coverage",
-        "evenCoverageDesc": "Uniform light distribution"
+        "dualLamps": "Подвійні лампи",
+        "dualLampsDesc": "Підвищена потужність та покриття",
+        "faster": "Швидше лікування",
+        "fasterDesc": "Скорочений час сеансу",
+        "proPower": "Професійна потужність",
+        "proPowerDesc": "Продуктивність салонного рівня",
+        "evenCoverage": "Рівномірне покриття",
+        "evenCoverageDesc": "Однорідний розподіл світла"
       }
     },
     "emerald": {
-      "title": "Emerald IPL Hair Removal Device",
-      "desc": "Experience professional-grade hair removal at home with our Emerald IPL Device featuring advanced Intense Pulsed Light technology with 15 J/cm² of energy and 600,000+ flashes for long-lasting smooth skin. The precision-engineered system delivers consistent results across all treatment areas.",
+      "title": "Смарагдовий IPL-пристрій для видалення волосся",
+      "desc": "Відчуйте професійне видалення волосся вдома з нашим Смарагдовим IPL-пристроєм з передовою технологією інтенсивного імпульсного світла з енергією 15 J/cm² та 600,000+ спалахів для довготривалої гладкої шкіри. Система точної інженерії забезпечує стабільні результати в усіх зонах лікування.",
       "features": {
-        "proResults": "Professional results — up to 94% hair reduction after 12 weeks.",
-        "manualIntensity": "5-level manual intensity control for personalized treatments.",
-        "safeAllSkin": "Safe for all skin tones within Fitzpatrick I-V range.",
-        "largeWindow": "Large 4.2 cm² treatment window for faster coverage.",
-        "ergonomic": "Ergonomic design with built-in safety sensors."
+        "proResults": "Професійні результати — до 94% зменшення волосся після 12 тижнів.",
+        "manualIntensity": "5-рівневий ручний контроль інтенсивності для персоналізованих процедур.",
+        "safeAllSkin": "Безпечний для всіх тонів шкіри в діапазоні Fitzpatrick I-V.",
+        "largeWindow": "Велике 4.2 см² вікно лікування для швидшого покриття.",
+        "ergonomic": "Ергономічний дизайн з вбудованими датчиками безпеки."
       }
     },
     "handheld": {
-      "title": "Handheld IPL Hair Removal Device",
-      "desc": "Discover the perfect blend of comfort and performance with our handheld IPL device. Designed for easy grip and precise control, it features 5 adjustable energy levels to suit all skin types and sensitivities. Achieve salon-quality hair removal results at home with a lightweight, portable device.",
+      "title": "Портативний IPL-пристрій для видалення волосся",
+      "desc": "Відкрийте ідеальне поєднання комфорту та продуктивності з нашим портативним IPL-пристроєм. Розроблений для легкого захоплення та точного контролю, він має 5 регульованих рівнів енергії, що підходять для всіх типів шкіри та чутливості. Досягніть результатів видалення волосся салонної якості вдома з легким, портативним пристроєм.",
       "features": {
-        "ergonomic": "Ergonomic handheld design for comfortable use.",
-        "energyLevels": "5 adjustable energy levels for personalized treatments.",
-        "portable": "Lightweight and portable—ideal for travel and home use.",
-        "allSkin": "Suitable for all skin tones, gentle and effective.",
-        "certified": "FDA & CE approved for safety and quality."
+        "ergonomic": "Ергономічний портативний дизайн для комфортного використання.",
+        "energyLevels": "5 регульованих рівнів енергії для персоналізованих процедур.",
+        "portable": "Легкий та портативний — ідеальний для подорожей та домашнього використання.",
+        "allSkin": "Підходить для всіх тонів шкіри, м'який та ефективний.",
+        "certified": "Схвалений FDA та CE для безпеки та якості."
       }
     },
     "iceCooling": {
       "title": "IPL-пристрій для видалення волосся з льодяним охолодженням",
       "desc": "Відчуйте розкішну професійну технологію видалення волосся з льодяним охолодженням, оснащену охолоджувальною металевою пластиною аерокосмічного класу, яка миттєво охолоджує шкіру до ультранизької температури 5°C.",
       "features": {
-        "luxuryDesign": "Luxurious goddess design — Aerospace-grade metal texture, showcasing noble taste.",
-        "coolingPlate": "Ice cooling plate technology — Instantly cools skin to 5°C for truly painless experience.",
-        "preciseControl": "9-level precise energy control — Customizable for sensitive areas and coarse hair.",
-        "allSkin": "Suitable for all skin tones — Fitzpatrick I-V certified.",
-        "largeWindow": "3.3 cm² extra-large treatment window — Fast coverage, 50% higher efficiency."
+        "luxuryDesign": "Розкішний дизайн богині — металева текстура аерокосмічного класу, демонструючи благородний смак.",
+        "coolingPlate": "Технологія льодяної охолоджувальної пластини — миттєво охолоджує шкіру до 5°C для справді безболісного досвіду.",
+        "preciseControl": "9-рівневий точний контроль енергії — настроюється для чутливих зон та грубого волосся.",
+        "allSkin": "Підходить для всіх тонів шкіри — сертифікований Fitzpatrick I-V.",
+        "largeWindow": "3.3 см² надвелике вікно лікування — швидке покриття, на 50% вища ефективність."
       }
     },
     "iceFeeling": {
       "title": "Сапфіровий IPL-пристрій з льодяним відчуттям",
       "desc": "Насолоджуйтесь безболісним видаленням волосся з клінічною сапфіровою охолоджувальною пластиною, яка охолоджує шкіру до 5°C, дозволяючи використовувати вищі енергетичні імпульси для швидших результатів.",
       "features": {
-        "longSmooth": "Long-lasting smoothness — visible reduction after 3-4 weeks.",
-        "cooling": "Cooling plate keeps epidermis at 5°C for true painless treatments.",
-        "energyLevels": "Five energy levels adapt to almost all skin tones within Fitzpatrick I-V.",
-        "flashModes": "Auto/Manual flash modes for body and precision areas.",
-        "multiUse": "4-in-1: Full body, Bikini, Face, and skin rejuvenation."
+        "longSmooth": "Довготривала гладкість — видиме зменшення після 3-4 тижнів.",
+        "cooling": "Охолоджувальна пластина підтримує епідерміс на 5°C для справді безболісних процедур.",
+        "energyLevels": "П'ять рівнів енергії адаптуються майже до всіх тонів шкіри в межах Fitzpatrick I-V.",
+        "flashModes": "Автоматичні/ручні режими спалахів для тіла та точних зон.",
+        "multiUse": "4-в-1: повне тіло, бікіні, обличчя та омолодження шкіри."
       }
     },
     "skinSensor": {
       "title": "IPL-пристрій з датчиком шкіри",
       "desc": "Відчуйте найбезпечніше і найрозумніше домашнє видалення волосся з нашим IPL-пристроєм з датчиком шкіри. Цей революційний пристрій оснащений передовими оптичними датчиками шкіри, які автоматично визначають тон вашої шкіри і колір волосся.",
       "features": {
-        "intelligentDetection": "Intelligent Skin Detection – Advanced sensors automatically identify skin tone and adjust energy levels",
-        "maxSafety": "Maximum Safety – Prevents over-treatment and reduces risk of skin irritation or burns",
-        "personalized": "Personalized Treatment – Automatically optimizes intensity for your unique skin characteristics",
-        "realTime": "Real-time Analysis – Continuous monitoring ensures consistent, safe treatment sessions",
-        "proResults": "Professional Results – Salon-quality hair removal in the comfort of your home"
+        "intelligentDetection": "Розумне визначення шкіри — передові датчики автоматично ідентифікують тон шкіри та регулюють рівні енергії",
+        "maxSafety": "Максимальна безпека — запобігає надмірному лікуванню та зменшує ризик подразнення шкіри або опіків",
+        "personalized": "Персоналізоване лікування — автоматично оптимізує інтенсивність для ваших унікальних характеристик шкіри",
+        "realTime": "Аналіз в реальному часі — постійний моніторинг забезпечує стабільні, безпечні сеанси лікування",
+        "proResults": "Професійні результати — видалення волосся салонної якості в комфорті вашого дому"
       }
     },
     "smartApp": {
       "title": "Розумний додаток IPL-пристрій для видалення волосся",
       "desc": "Легко підключіть ваш IPL-пристрій через Bluetooth до нашого розумного додатку. Насолоджуйтесь керованими процедурами, відстеженням сеансів у реальному часі, персоналізованими процедурами і insights на основі ШІ.",
       "features": {
-        "bluetooth": "Bluetooth 5.0 connectivity for stable pairing",
-        "aiPlans": "Personalized treatment plans via AI analysis",
-        "realTimeControl": "Real-time intensity control and on-screen feedback",
-        "scheduling": "Session scheduling and usage reminders",
-        "compatibility": "Compatible with iOS & Android"
+        "bluetooth": "Bluetooth 5.0 підключення для стабільного з'єднання",
+        "aiPlans": "Персоналізовані плани лікування через ШІ-аналіз",
+        "realTimeControl": "Контроль інтенсивності в реальному часі та зворотний зв'язок на екрані",
+        "scheduling": "Планування сеансів та нагадування про використання",
+        "compatibility": "Сумісний з iOS та Android"
       }
     }
   },
@@ -453,52 +453,52 @@
     }
   },
   "cta": {
-    "getSupport": "Get Support Now",
-    "readyToStart": "Ready to Get Started?",
-    "contactUs": "Contact Us",
-    "freeQuote": "Get a Free Quote",
-    "readMore": "Read More"
+    "getSupport": "Отримати підтримку зараз",
+    "readyToStart": "Готові почати?",
+    "contactUs": "Зв'яжіться з нами",
+    "freeQuote": "Отримати безкоштовну пропозицію",
+    "readMore": "Читати далі"
   },
   "form": {
-    "name": "Name",
-    "email": "Email",
-    "phone": "Phone",
-    "country": "Country",
-    "message": "Message",
-    "submit": "Submit",
-    "sending": "Sending...",
-    "success": "Your message has been sent successfully!",
-    "error": "There was an error sending your message. Please try again."
+    "name": "Ім'я",
+    "email": "Електронна пошта",
+    "phone": "Телефон",
+    "country": "Країна",
+    "message": "Повідомлення",
+    "submit": "Відправити",
+    "sending": "Відправляється...",
+    "success": "Ваше повідомлення успішно відправлено!",
+    "error": "Сталася помилка при відправці вашого повідомлення. Будь ласка, спробуйте ще раз."
   },
   "blog": {
     "posts": {
       "sustainableManufacturing": {
         "title": "Стійке виробництво: Зелені методи виробництва IPL",
-        "intro": "As the demand for at-home IPL (Intense Pulsed Light) hair removal devices surges, so does the responsibility to produce these electronics with minimal environmental impact. Sustainable manufacturing is no longer a trend but a necessity—encompassing every stage from raw material sourcing to end-of-life recycling. This article assesses the environmental footprint of IPL device production and explores innovative, practical strategies for achieving a truly green supply chain, with a focus on electronics, optics, eco-friendly ABS housings, sustainable packaging, and waste reutilization.",
+        "intro": "Оскільки попит на домашні IPL (інтенсивного імпульсного світла) пристрої для видалення волосся зростає, зростає і відповідальність за виробництво цієї електроніки з мінімальним впливом на навколишнє середовище. Стійке виробництво більше не є трендом, а необхідністю — охоплюючи кожен етап від закупівлі сировини до переробки в кінці життєвого циклу. Ця стаття оцінює екологічний слід виробництва IPL-пристроїв та досліджує інноваційні, практичні стратегії для досягнення справді зеленого ланцюга поставок, з акцентом на електроніку, оптику, екологічні ABS корпуси, стійке упакування та повторне використання відходів.",
         "sections": {
-          "environmentalImpact": "Environmental Impact Assessment of IPL Device Manufacturing",
-          "electronics": "1. Electronic Components",
-          "optics": "2. Optical Components (Lenses and Filters)",
-          "absHousing": "3. ABS Eco-Friendly Housings",
-          "packaging": "4. Sustainable Paper Packaging",
-          "wasteReduction": "5. Waste Reduction and Reuse",
-          "supplyChain": "Sustainable Supply Chain Innovations",
-          "feasibility": "The Feasibility of a Green IPL Supply Chain",
-          "commitment": "iShine's Commitment to Sustainability",
-          "references": "References"
+          "environmentalImpact": "Оцінка екологічного впливу виробництва IPL-пристроїв",
+          "electronics": "1. Електронні компоненти",
+          "optics": "2. Оптичні компоненти (лінзи та фільтри)",
+          "absHousing": "3. Екологічні ABS корпуси",
+          "packaging": "4. Стійке паперове упакування",
+          "wasteReduction": "5. Зменшення відходів та повторне використання",
+          "supplyChain": "Інновації стійкого ланцюга поставок",
+          "feasibility": "Можливість зеленого IPL ланцюга поставок",
+          "commitment": "Відданість iShine стійкості",
+          "references": "Посилання"
         }
       },
       "globalMarketShifts": {
         "title": "Глобальні зміни ринку: Тренди і можливості IPL-пристроїв",
-        "intro": "Explore the latest global trends in IPL device adoption, regulatory changes, and market opportunities for brands and manufacturers.",
+        "intro": "Дослідіть найновіші глобальні тренди у впровадженні IPL-пристроїв, регуляторні зміни та ринкові можливості для брендів та виробників.",
         "sections": {
-          "marketOverview": "Market Overview",
-          "regionalTrends": "Regional Trends",
-          "regulatoryChanges": "Regulatory Changes",
-          "consumerPreferences": "Consumer Preferences",
-          "opportunities": "Opportunities for Brands",
-          "challenges": "Challenges and Risks",
-          "futureOutlook": "Future Outlook"
+          "marketOverview": "Огляд ринку",
+          "regionalTrends": "Регіональні тренди",
+          "regulatoryChanges": "Регуляторні зміни",
+          "consumerPreferences": "Переваги споживачів",
+          "opportunities": "Можливості для брендів",
+          "challenges": "Виклики та ризики",
+          "futureOutlook": "Майбутні перспективи"
         }
       },
       "aiPoweredSkinSensing": {
