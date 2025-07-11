@@ -453,11 +453,11 @@
     }
   },
   "cta": {
-    "getSupport": "Get Support Now",
-    "readyToStart": "Ready to Get Started?",
-    "contactUs": "Contact Us",
-    "freeQuote": "Get a Free Quote",
-    "readMore": "Read More"
+    "getSupport": "Få støtte nå",
+    "readyToStart": "Klar til å komme i gang?",
+    "contactUs": "Kontakt oss",
+    "freeQuote": "Få et gratis tilbud",
+    "readMore": "Les mer"
   },
   "form": {
     "name": "Name",
