@@ -474,44 +474,44 @@
     "posts": {
       "sustainableManufacturing": {
         "title": "Bærekraftig produksjon: Grønne IPL-produksjonsmetoder",
-        "intro": "As the demand for at-home IPL (Intense Pulsed Light) hair removal devices surges, so does the responsibility to produce these electronics with minimal environmental impact. Sustainable manufacturing is no longer a trend but a necessity—encompassing every stage from raw material sourcing to end-of-life recycling. This article assesses the environmental footprint of IPL device production and explores innovative, practical strategies for achieving a truly green supply chain, with a focus on electronics, optics, eco-friendly ABS housings, sustainable packaging, and waste reutilization.",
+        "intro": "Ettersom etterspørselen etter hjemme IPL (Intense Pulsed Light) hårfjerningsenheter øker, øker også ansvaret for å produsere denne elektronikken med minimal miljøpåvirkning. Bærekraftig produksjon er ikke lenger en trend, men en nødvendighet—som omfatter hvert stadium fra råmaterialbeskaffelse til slutt-av-livet gjenvinning. Denne artikkelen vurderer miljøavtrykket til IPL-enhetsproduksjon og utforsker innovative, praktiske strategier for å oppnå en virkelig grønn forsyningskjede, med fokus på elektronikk, optikk, miljøvennlige ABS-hus, bærekraftig emballasje og avfallsgjenbruk.",
         "sections": {
-          "environmentalImpact": "Environmental Impact Assessment of IPL Device Manufacturing",
-          "electronics": "1. Electronic Components",
-          "optics": "2. Optical Components (Lenses and Filters)",
-          "absHousing": "3. ABS Eco-Friendly Housings",
-          "packaging": "4. Sustainable Paper Packaging",
-          "wasteReduction": "5. Waste Reduction and Reuse",
-          "supplyChain": "Sustainable Supply Chain Innovations",
-          "feasibility": "The Feasibility of a Green IPL Supply Chain",
-          "commitment": "iShine's Commitment to Sustainability",
-          "references": "References"
+          "environmentalImpact": "Miljøpåvirkningsvurdering av IPL-enhetsproduksjon",
+          "electronics": "1. Elektroniske komponenter",
+          "optics": "2. Optiske komponenter (linser og filtre)",
+          "absHousing": "3. ABS miljøvennlige hus",
+          "packaging": "4. Bærekraftig papir emballasje",
+          "wasteReduction": "5. Avfallsreduksjon og gjenbruk",
+          "supplyChain": "Bærekraftige forsyningskjedeinnovasjoner",
+          "feasibility": "Gjennomførbarheten av en grønn IPL-forsyningskjede",
+          "commitment": "iShines forpliktelse til bærekraft",
+          "references": "Referanser"
         }
       },
       "globalMarketShifts": {
         "title": "Globale markedsendringer: IPL-enhet trender og muligheter",
-        "intro": "Explore the latest global trends in IPL device adoption, regulatory changes, and market opportunities for brands and manufacturers.",
+        "intro": "Utforsk de nyeste globale trendene innen IPL-enhetsadopsjon, regulatoriske endringer og markedsmuligheter for merker og produsenter.",
         "sections": {
-          "marketOverview": "Market Overview",
-          "regionalTrends": "Regional Trends",
-          "regulatoryChanges": "Regulatory Changes",
-          "consumerPreferences": "Consumer Preferences",
-          "opportunities": "Opportunities for Brands",
-          "challenges": "Challenges and Risks",
-          "futureOutlook": "Future Outlook"
+          "marketOverview": "Markedsoversikt",
+          "regionalTrends": "Regionale trender",
+          "regulatoryChanges": "Regulatoriske endringer",
+          "consumerPreferences": "Forbrukerpreferanser",
+          "opportunities": "Muligheter for merker",
+          "challenges": "Utfordringer og risikoer",
+          "futureOutlook": "Fremtidsutsikter"
         }
       },
       "aiPoweredSkinSensing": {
         "title": "AI-drevet hudregistrering: Den neste grensen i IPL-sikkerhet",
-        "intro": "How artificial intelligence is revolutionizing IPL device safety and personalization through real-time skin analysis.",
+        "intro": "Hvordan kunstig intelligens revolusjonerer IPL-enhetssikkerhet og personalisering gjennom sanntids hudanalyse.",
         "sections": {
-          "introduction": "Introduction",
-          "aiTechnology": "AI Technology in IPL",
-          "skinSensing": "Skin Sensing Mechanisms",
-          "safetyBenefits": "Safety Benefits",
-          "userExperience": "User Experience",
-          "caseStudies": "Case Studies",
-          "conclusion": "Conclusion"
+          "introduction": "Introduksjon",
+          "aiTechnology": "AI-teknologi i IPL",
+          "skinSensing": "Hudregistreringsmekanismer",
+          "safetyBenefits": "Sikkerhetsfordeler",
+          "userExperience": "Brukeropplevelse",
+          "caseStudies": "Casestudier",
+          "conclusion": "Konklusjon"
         }
       },
       "multiHeadIPLSystems": {
@@ -530,27 +530,27 @@
       },
       "sapphireCooling": {
         "title": "Safir kjøling: Forbedring av komfort i IPL-behandlinger",
-        "intro": "Discover how sapphire cooling technology is transforming the comfort and safety of IPL hair removal treatments.",
+        "intro": "Oppdag hvordan safirkjølingsteknologi transformerer komforten og sikkerheten til IPL-hårfjerningsbehandlinger.",
         "sections": {
-          "technologyOverview": "Technology Overview",
-          "coolingMechanism": "How Sapphire Cooling Works",
-          "benefits": "Benefits for Users",
-          "clinicalEvidence": "Clinical Evidence",
-          "deviceComparison": "Device Comparison",
-          "userTestimonials": "User Testimonials",
-          "conclusion": "Conclusion"
+          "technologyOverview": "Teknologioversikt",
+          "coolingMechanism": "Hvordan safirkjøling fungerer",
+          "benefits": "Fordeler for brukere",
+          "clinicalEvidence": "Kliniske bevis",
+          "deviceComparison": "Enhetssammenligning",
+          "userTestimonials": "Brukervitnesbyrd",
+          "conclusion": "Konklusjon"
         }
       },
       "industries": {
         "title": "Bransjer vi betjener: IPL-applikasjoner på tvers av sektorer",
-        "intro": "IPL technology is not just for beauty—explore its applications in medical, veterinary, and industrial sectors.",
+        "intro": "IPL-teknologi er ikke bare for skjønnhet—utforsk dens applikasjoner i medisinske, veterinære og industrielle sektorer.",
         "sections": {
-          "beauty": "Beauty Industry",
-          "medical": "Medical Applications",
-          "veterinary": "Veterinary Uses",
-          "industrial": "Industrial Applications",
-          "caseStudies": "Case Studies",
-          "futureTrends": "Future Trends"
+          "beauty": "Skjønnhetsindustrien",
+          "medical": "Medisinske applikasjoner",
+          "veterinary": "Veterinære anvendelser",
+          "industrial": "Industrielle applikasjoner",
+          "caseStudies": "Casestudier",
+          "futureTrends": "Fremtidige trender"
         }
       },
       "iplBestChoice": {
