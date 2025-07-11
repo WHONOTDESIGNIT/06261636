@@ -230,7 +230,7 @@ const faqData: Category[] = [
     qas: [
       {
         question: 'Will my IPL device work in my country?',
-        answer: 'Most devices are dual-voltage 110�?40 V and ship with region-specific plugs.'
+        answer: 'Most devices are dual-voltage 110–240 V and ship with region-specific plugs.'
       }
     ]
   },
@@ -250,7 +250,7 @@ const faqData: Category[] = [
     icon: HelpCircle,
     qas: [
       {
-        question: "My device isn't working �?what should I do?",
+        question: "My device isn't working — what should I do?",
         answer:
           'Verify power, cleanliness, and full skin contact. Consult support or your warranty if problems persist.'
       },
@@ -380,7 +380,7 @@ const KnowledgeBase: React.FC = () => {
                           onClick={() => setOpen(isOpen ? null : { catIdx, qaIdx })}
                           tabIndex={0}
                         >
-                          {isOpen ? <span className="text-2xl">�?/span> : <span className="text-2xl">+</span>}
+                          {isOpen ? <span className="text-2xl">−</span> : <span className="text-2xl">+</span>}
                         </button>
                       </div>
                       {isOpen && (
