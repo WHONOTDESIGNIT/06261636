@@ -366,7 +366,7 @@
       "title": "Emerald IPL Hair Removal Device",
       "desc": "Experience professional-grade hair removal at home with our Emerald IPL Device featuring advanced Intense Pulsed Light technology with 15 J/cm² of energy and 600,000+ flashes for long-lasting smooth skin. The precision-engineered system delivers consistent results across all treatment areas.",
       "features": {
-        "proResults": "Professional results �?up to 94% hair reduction after 12 weeks.",
+        "proResults": "전문적인 결과 — 12주 후 최대 94% 모발 감소.",
         "manualIntensity": "5-level manual intensity control for personalized treatments.",
         "safeAllSkin": "Safe for all skin tones within Fitzpatrick I-V range.",
         "largeWindow": "Large 4.2 cm² treatment window for faster coverage.",
@@ -388,11 +388,11 @@
       "title": "Ice Cooling IPL Hair Removal Device",
       "desc": "Experience professional-grade luxurious ice cooling hair removal technology, featuring an aerospace-grade cooling metal plate that instantly cools the skin to 5°C ultra-low temperature. Combined with 2.0~5.0 J/cm² high-energy IPL pulses and 999,000+ flashes, it delivers a goddess-like silky skin experience. The luxurious design is crafted for perfection-seeking modern women.",
       "features": {
-        "luxuryDesign": "Luxurious goddess design �?Aerospace-grade metal texture, showcasing noble taste.",
-        "coolingPlate": "Ice cooling plate technology �?Instantly cools skin to 5°C for truly painless experience.",
-        "preciseControl": "9-level precise energy control �?Customizable for sensitive areas and coarse hair.",
-        "allSkin": "Suitable for all skin tones �?Fitzpatrick I-V certified.",
-        "largeWindow": "3.3 cm² extra-large treatment window �?Fast coverage, 50% higher efficiency."
+        "luxuryDesign": "럭셔리한 여신 디자인 — 항공우주급 메탈 텍스처로 고급스러운 취향을 보여줍니다.",
+        "coolingPlate": "아이스 쿨링 플레이트 기술 — 피부를 즉시 5°C로 냉각하여 진정한 무통 경험을 제공합니다.",
+        "preciseControl": "9단계 정밀 에너지 제어 — 민감한 부위와 거친 모발에 맞게 사용자 정의 가능.",
+        "allSkin": "모든 피부 톤에 적합 — Fitzpatrick I-V 인증.",
+        "largeWindow": "3.3 cm² 초대형 치료 창 — 빠른 커버리지, 50% 더 높은 효율성."
       }
     },
     "iceFeeling": {
