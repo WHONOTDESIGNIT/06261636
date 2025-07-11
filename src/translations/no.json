@@ -460,15 +460,15 @@
     "readMore": "Les mer"
   },
   "form": {
-    "name": "Name",
-    "email": "Email",
-    "phone": "Phone",
-    "country": "Country",
-    "message": "Message",
-    "submit": "Submit",
-    "sending": "Sending...",
-    "success": "Your message has been sent successfully!",
-    "error": "There was an error sending your message. Please try again."
+    "name": "Navn",
+    "email": "E-post",
+    "phone": "Telefon",
+    "country": "Land",
+    "message": "Melding",
+    "submit": "Send inn",
+    "sending": "Sender...",
+    "success": "Meldingen din er sendt!",
+    "error": "Det oppstod en feil ved sending av meldingen. Prøv igjen."
   },
   "blog": {
     "posts": {
