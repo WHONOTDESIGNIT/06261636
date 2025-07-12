@@ -16,7 +16,7 @@
     "solutions": {
       "logoPrinting": "Logo Baskı",
       "packaging": "Ambalaj Çözümleri",
-      "dropShipping": "Drop Shipping",
+      "dropShipping": "Dropshipping",
       "globalShipping": "Küresel Kargo",
       "brandCustomization": "Marka Özelleştirme",
       "compliance": "Uyumluluk ve Sertifikalar",
@@ -110,28 +110,135 @@
   },
   "home": {
     "hero": {
-      "title1": "Custom IPL Devices",
-      "title2": "& Branding IPL Devices",
-      "subtitle": "Global Leading IPL device manufacturer, help you design it, build it, and box it.",
-      "cta": "Teklif Al"
+      "title1": "Kozmetik Markaları için Özel IPL Epilasyon Cihazları",
+      "subtitle": "Siz tasarlayın, biz üretelim ve paketleyelim.",
+      "cta": "Ücretsiz Teklif Alın"
     },
-    "partners": {
-      "title": "İşbirliği Yaptığımız Markalar",
-      "subtitle": "Dünya çapında endüstri liderleri ile çalışma"
+    "about": {
+      "title": "iShine Hakkında",
+      "subtitle": "Tek durak IPL çözümleri.",
+      "cta": "Daha Fazla Oku",
+      "description1": "iShine Tech Co., Limited, şunlar için tek durak tedarikçisidir:",
+      "manufacturing": "IPL epilasyon cihazları üretimi",
+      "and": "ve",
+      "customization": "özelleştirme",
+      "description2": "Tasarlamanıza, üretmenize ve paketlemenize yardımcı olur. Fikirden pazara.",
+      "description3": "Özel buz soğutmalı IPL, Akıllı Uygulama bağlantılı IPL cihazı, Cilt Sensörlü IPL cihazı için yeteneğimiz var. iShine marka kimliğinize en uygun çözümleri sunar."
     },
-    "features": {
-      "title": "Neden iShine'ı Seçmelisiniz?",
-      "subtitle": "İhtiyaçlarınıza göre özelleştirilmiş tam IPL üretim çözümleri"
+    "whatWeDo": {
+      "title": "NE YAPIYORUZ",
+      "description": "iShine ekibi, farklı sektör marka sahipleri, ürün geliştirme yöneticileri, ürün yöneticileri, kategori tedarik yöneticileri, perakende uyumluluk uzmanları ve ürün tasarımcıları ile birlikte çalışır ve onlara kalıplanmış IPL cihaz tasarımlarından prototiplemeye, IPL sözleşme üretimine, baskıya ve paketlemeye kadar OEM ODM çözümleri sunarak IPL projelerinin başarısını sağlar."
     },
-    "products": {
-      "title": "IPL Cihaz Yelpazemiz",
-      "subtitle": "Her ihtiyaç için geniş IPL cihaz yelpazesi",
-      "cta": "Tüm IPL Cihazlarını Görüntüle"
+    "productShowcase": {
+      "title": "ÖZEL IPL CİHAZLARI",
+      "subtitle": "Siz tasarlayın, biz üretelim, paketleyelim",
+      "description": "iShine, kalıp geliştirme ve prototiplemeden seri üretim ve paketlemeye kadar uçtan uca özelleştirme sunan tam hizmet özel IPL ürünleri üreticisidir. iShine, geçmişte IPL ürün teknik çözümleri ve uyumluluk çözümleri konusunda çok deneyimli olarak ortaklarımız için 1.000'den fazla özel cihaz IPL projesini özelleştirmiştir.",
+      "include": "Özel IPL ürünleri şunları içerir:"
     },
-    "cta": {
-      "title": "Yardıma mı ihtiyacınız var?",
-      "subtitle": "Gereksinimlerinizi tartışalım ve markanıza en uygun IPL çözümünü oluşturalım.",
-      "button": "Ücretsiz Danışmanlık için formu doldurun"
+    "customization": {
+      "title": "Sınırsız Özelleştirme Seçenekleri",
+      "subtitle": "Markanıza uygun tamamen özelleştirilebilir IPL cihazları ile pazarda öne çıkın.",
+      "options": {
+        "0": {
+          "label": "Renk Özelleştirme",
+          "content": "Marka kimliğinize uyacak sınırsız renk seçeneklerinden seçin."
+        },
+        "1": {
+          "label": "Logo Baskı",
+          "content": "Tamamen markalı ürün deneyimi için logonuzu ekleyin."
+        },
+        "2": {
+          "label": "Fonksiyon Özelleştirme",
+          "content": "Pazar ihtiyaçlarınızı karşılamak için özellikleri ve fonksiyonları özelleştirin."
+        },
+        "3": {
+          "label": "Ambalaj Tasarımı",
+          "content": "Perakende, e-ticaret veya hediye için premium ambalaj."
+        },
+        "4": {
+          "label": "Sertifikasyon Desteği",
+          "content": "Küresel sertifikasyonlar için tam destek."
+        }
+      }
+    },
+    "process": {
+      "title": "OEM/ODM Süreci",
+      "subtitle": "Fikirden teslimata kadar, IPL cihaz projenizi sorunsuz ve başarılı hale getiriyoruz.",
+      "steps": {
+        "0": {
+          "title": "Danışmanlık",
+          "desc": "Marka vizyonunuzu ve gereksinimlerinizi tartışın."
+        },
+        "1": {
+          "title": "Tasarım ve Prototipleme",
+          "desc": "Özel tasarımlar ve işlevsel prototipler alın."
+        },
+        "2": {
+          "title": "Numune Onayı",
+          "desc": "Seri üretimden önce numuneleri onaylayın."
+        },
+        "3": {
+          "title": "Seri Üretim",
+          "desc": "Verimli ve yüksek kaliteli üretim."
+        },
+        "4": {
+          "title": "Kalite Kontrolü",
+          "desc": "Her parti için sıkı kalite kontrolü."
+        },
+        "5": {
+          "title": "Sertifikasyon",
+          "desc": "FDA, CE ve daha fazlası için destek."
+        },
+        "6": {
+          "title": "Küresel Kargo",
+          "desc": "Esnek lojistik ile dünya çapında teslimat."
+        },
+        "7": {
+          "title": "Satış Sonrası Servis",
+          "desc": "İşiniz için sürekli destek."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Müşterilerimiz Ne Diyor",
+      "0": "iShine, IPL markamızı rekor sürede piyasaya sürmemize yardımcı oldu. Kalite ve hizmet etkileyici!",
+      "1": "Özelleştirme seçenekleri sonsuz. Müşterilerimiz benzersiz ambalajı ve özellikleri seviyor.",
+      "2": "Profesyonel ekip, hızlı yanıt ve güvenilir teslimat. OEM/ODM için çok önerilir.",
+      "3": "iShine'ın sertifikasyon ve uyumluluk desteği sayesinde yeni pazarlara genişledik.",
+      "4": "Satış sonrası hizmet mükemmel. Tüm sorunlar hızlı ve profesyonelce çözülüyor.",
+      "5": "Marka itibarımız iShine'ın tasarım ve üretim uzmanlığı sayesinde önemli ölçüde iyileşti.",
+      "pageButton": "Müşteri yorumları sayfasına git"
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "0": {
+        "q": "IPL nedir ve nasıl çalışır?",
+        "a": "IPL (Yoğun Darbeli Işık), kıl köklerini hedeflemek için geniş spektrumlu ışık kullanır ve kıl büyümesini güvenli ve etkili bir şekilde azaltır."
+      },
+      "1": {
+        "q": "Cihaz fonksiyonlarını özelleştirebilir miyim?",
+        "a": "Evet, marka ihtiyaçlarınıza uygun özellikler, renkler, ambalaj ve daha fazlasının tam özelleştirmesini sunuyoruz."
+      },
+      "2": {
+        "q": "Hangi sertifikasyonları destekliyorsunuz?",
+        "a": "Hedef pazarlarınızda uyumluluğu sağlamak için FDA, CE, RoHS ve diğer küresel sertifikasyonları destekliyoruz."
+      },
+      "3": {
+        "q": "Üretim süresi ne kadar?",
+        "a": "Tipik teslimat süresi, sipariş büyüklüğüne ve özelleştirmeye bağlı olarak numune onayından sonra 25-35 gündür."
+      },
+      "4": {
+        "q": "Satış sonrası destek sağlıyor musunuz?",
+        "a": "Evet, teknik destek ve garanti dahil kapsamlı satış sonrası hizmet sunuyoruz."
+      },
+      "5": {
+        "q": "Küresel olarak kargo yapabilir misiniz?",
+        "a": "Kesinlikle. İşinizi desteklemek için nerede olursanız olun güvenilir dünya çapında kargo sunuyoruz."
+      }
+    },
+    "contact": {
+      "title": "Bize Ulaşın",
+      "subtitle": "Markanızı güçlendirmeye hazır mısınız? Ücretsiz danışmanlık ve teklif için iletişime geçin."
     }
   },
   "contact": {
@@ -196,7 +303,7 @@
     "contactUs": "Bize Ulaşın"
   },
   "solutions": {
-    "productDesignDevelopment": "Product Design & Development",
+    "productDesignDevelopment": "Ürün Tasarımı ve Geliştirme",
     "productDesignDevelopmentDescription": "İlk konseptten son tasarıma kadar uzman ekibimiz, en son teknoloji ve pazar öngörüleri ile IPL vizyonunuzu hayata geçirir.",
     "oemManufacturing": "OEM Üretimi",
     "oemManufacturingDescription": "Özelliklerinizle tam üretim çözümleri. Üretimi biz hallederken siz markanıza ve pazarınıza odaklanın.",
