@@ -132,6 +132,132 @@
       "title": "Segítségre van szüksége?",
       "subtitle": "Beszéljük meg igényeit és alkossuk meg a márkájához leginkább illő IPL megoldást.",
       "button": "Töltse ki az űrlapot az ingyenes konzultációért"
+    },
+    "about": {
+      "title": "Az iShine-ról",
+      "subtitle": "Egypontú IPL megoldások.",
+      "cta": "További információk",
+      "description1": "Az iShine Tech Co., Limited egypontú beszállító",
+      "manufacturing": "IPL szőreltávolító készülékek gyártásához",
+      "and": "és",
+      "customization": "testreszabáshoz",
+      "description2": "Segítünk tervezni, építeni és csomagolni. Ötlettől a piacig.",
+      "description3": "Képességeink között szerepel a testreszabott jéghűtéses IPL, az okos alkalmazással kapcsolódó IPL készülék, a bőrérzékelős IPL készülék. Az iShine olyan megoldásokat nyújt, amelyek legjobban illeszkednek a márka identitásához."
+    },
+    "whatWeDo": {
+      "title": "MIT CSINÁLUNK",
+      "description": "Az iShine csapat különböző iparágak márka tulajdonosaival, termékfejlesztési menedzserekkel, termék menedzserekkel, kategória beszerzési menedzserekkel, kiskereskedelmi megfelelőségi szakértőkkel, termék tervezőkkel együtt dolgozik és OEM ODM megoldásokat kínál nekik a formázott IPL készülék tervezéstől, prototípus készítéstől az IPL szerződéses gyártásig, nyomtatásig, csomagolásig, biztosítva IPL projektjeik sikerét."
+    },
+    "productShowcase": {
+      "title": "TESTRESZABOTT IPL KÉSZÜLÉKEK",
+      "subtitle": "Ön tervezi, mi építjük, csomagoljuk",
+      "description": "Az iShine teljes szolgáltatású testreszabott IPL termékek gyártó, amely végponttól végpontig testreszabást nyújt a formák fejlesztésétől és prototípus készítéstől a tömeggyártásig és csomagolásig. Az iShine már több mint 1000 testreszabott készülék IPL projektet testreszabott partnereinek a múltban, nagy tapasztalattal az IPL termékek technikai megoldásaiban és megfelelőségi megoldásaiban.",
+      "include": "A testreszabott IPL termékek tartalmazzák:"
+    },
+    "customization": {
+      "title": "Korlátlan testreszabási lehetőségek",
+      "subtitle": "Tűnjön ki a piacon teljesen testreszabható IPL készülékekkel, amelyek illeszkednek a márkájához.",
+      "options": {
+        "0": {
+          "label": "Szín testreszabás",
+          "content": "Válasszon korlátlan színlehetőségek közül, hogy illeszkedjen a márka identitásához."
+        },
+        "1": {
+          "label": "Logó nyomtatás",
+          "content": "Adja hozzá logóját a teljesen márkázott termékélményhez."
+        },
+        "2": {
+          "label": "Funkció testreszabás",
+          "content": "Testreszabhatja a funkciókat és jellemzőket, hogy megfeleljen piaci igényeinek."
+        },
+        "3": {
+          "label": "Csomagolási tervezés",
+          "content": "Prémium csomagolás kiskereskedelmi, e-kereskedelmi vagy ajándék célokra."
+        },
+        "4": {
+          "label": "Tanúsítvány támogatás",
+          "content": "Teljes támogatás globális tanúsítványokhoz."
+        }
+      }
+    },
+    "process": {
+      "title": "OEM/ODM folyamat",
+      "subtitle": "Ötlettől a szállításig, IPL készülék projektjét zökkenőmentessé és sikeresé tesszük.",
+      "steps": {
+        "0": {
+          "title": "Konzultáció",
+          "desc": "Beszélje meg márka vízióját és követelményeit."
+        },
+        "1": {
+          "title": "Tervezés és prototípus",
+          "desc": "Kapjon testreszabott terveket és funkcionális prototípusokat."
+        },
+        "2": {
+          "title": "Minta jóváhagyás",
+          "desc": "Jóváhagyja a mintákat a tömeggyártás előtt."
+        },
+        "3": {
+          "title": "Tömeggyártás",
+          "desc": "Hatékony és minőségi gyártás."
+        },
+        "4": {
+          "title": "Minőségellenőrzés",
+          "desc": "Szigorú QC minden tételhez."
+        },
+        "5": {
+          "title": "Tanúsítvány",
+          "desc": "Támogatás FDA, CE és további tanúsítványokhoz."
+        },
+        "6": {
+          "title": "Globális szállítás",
+          "desc": "Világszerte szállítás rugalmas logisztikai megoldásokkal."
+        },
+        "7": {
+          "title": "Értékesítés utáni szolgáltatás",
+          "desc": "Folyamatos támogatás üzleti tevékenységéhez."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Mit mondanak ügyfeleink",
+      "pageButton": "Ugrás a vélemények oldalra",
+      "0": "\"Az iShine segített rekordidő alatt elindítani IPL márkánkat. A minőség és szolgáltatás lenyűgöző!\"",
+      "1": "\"A testreszabási lehetőségek végtelenek. Ügyfeleink szeretik az egyedi csomagolást és funkciókat.\"",
+      "2": "\"Professzionális csapat, gyors válasz és megbízható szállítás. Nagyon ajánlott OEM/ODM-hez.\"",
+      "3": "\"Új piacokra terjeszkedtünk az iShine tanúsítvány és megfelelőségi támogatásának köszönhetően.\"",
+      "4": "\"Az értékesítés utáni szolgáltatás kiváló. Minden problémát gyorsan és professzionálisan oldanak meg.\"",
+      "5": "\"Márka hírnevünk jelentősen javult az iShine tervezési és gyártási szakértelmének köszönhetően.\""
+    },
+    "faq": {
+      "title": "Gyakran ismételt kérdések",
+      "0": {
+        "q": "Mi az IPL és hogyan működik?",
+        "a": "Az IPL (Intenzív Impulzusfény) széles spektrumú fényt használ a szőrtüszők célzására, biztonságosan és hatékonyan csökkentve a szőrnövekedést."
+      },
+      "1": {
+        "q": "Testreszabhatom a készülék funkcióit?",
+        "a": "Igen, teljes testreszabást kínálunk a funkciók, színek, csomagolás és egyebek terén, hogy megfeleljen márka igényeinek."
+      },
+      "2": {
+        "q": "Milyen tanúsítványokat támogatnak?",
+        "a": "Támogatjuk az FDA, CE, RoHS és egyéb globális tanúsítványokat, hogy biztosítsuk a megfelelőséget a célpiacokon."
+      },
+      "3": {
+        "q": "Mi a gyártási átfutási idő?",
+        "a": "A tipikus átfutási idő 25-35 nap a minta jóváhagyása után, a rendelés méretétől és testreszabástól függően."
+      },
+      "4": {
+        "q": "Nyújtanak értékesítés utáni támogatást?",
+        "a": "Igen, átfogó értékesítés utáni támogatást nyújtunk, beleértve a műszaki támogatást és garanciát."
+      },
+      "5": {
+        "q": "Tudnak világszerte szállítani?",
+        "a": "Természetesen. Megbízható globális szállítást kínálunk, hogy támogassuk vállalkozását bárhol is legyen."
+      }
+    },
+    "contact": {
+      "title": "Lépjen kapcsolatba velünk",
+      "subtitle": "Készen áll a márka erősítésére? Vegye fel velünk a kapcsolatot ingyenes konzultációért és árajánlatért."
     }
   },
   "contact": {
