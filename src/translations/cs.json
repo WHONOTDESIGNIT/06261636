@@ -110,28 +110,135 @@
   },
   "home": {
     "hero": {
-      "title1": "Vlastní IPL zařízení",
-      "title2": "a značkové IPL zařízení",
-      "subtitle": "Globální vedoucí výrobce IPL zařízení, pomůžeme vám je navrhnout, vyrobit a zabalit.",
-      "cta": "Získat nabídku"
+      "title1": "Vlastní IPL zařízení pro odstranění chloupků pro kosmetické značky",
+      "subtitle": "Vy navrhujete, my vyrábíme a balíme.",
+      "cta": "Získat bezplatnou nabídku"
     },
-    "partners": {
-      "title": "Důvěřují nám globální značky",
-      "subtitle": "Spolupracujeme s lídry v oboru po celém světě"
+    "about": {
+      "title": "O iShine",
+      "subtitle": "Kompletní IPL řešení.",
+      "cta": "Číst více",
+      "description1": "iShine Tech Co., Limited je komplexní dodavatel pro",
+      "manufacturing": "výrobu IPL zařízení pro odstranění chloupků",
+      "and": "a",
+      "customization": "přizpůsobení",
+      "description2": "Pomůžeme vám je navrhnout, vyrobit a zabalit. Od nápadu k trhu.",
+      "description3": "Máme kapacitu pro IPL s vlastním ledovým chlazením, IPL zařízení připojené k inteligentní aplikaci, IPL zařízení se senzorem pokožky. iShine poskytuje řešení, která nejlépe vyhovují vaší značkové identitě."
     },
-    "features": {
-      "title": "Proč si vybrat iShine?",
-      "subtitle": "Kompletní řešení pro výrobu IPL přizpůsobená vašim potřebám"
+    "whatWeDo": {
+      "title": "CO DĚLÁME",
+      "description": "Tým iShine spolupracuje s různými majiteli značek v oboru, manažery vývoje produktů, manažery produktů, manažery nákupu kategorií, specialisty na dodržování předpisů v maloobchodě a designéry produktů společně a nabízí jim OEM ODM řešení od návrhů odlitých IPL zařízení, prototypování až po smluvní výrobu IPL, tisk, balení pro zajištění úspěchu jejich IPL projektů."
     },
-    "products": {
-      "title": "Naše řada IPL zařízení",
-      "subtitle": "Široká škála IPL zařízení pro každou potřebu",
-      "cta": "Zobrazit všechna IPL zařízení"
+    "productShowcase": {
+      "title": "VLASTNÍ IPL ZAŘÍZENÍ",
+      "subtitle": "Vy navrhujete, my vyrábíme, balíme",
+      "description": "iShine je komplexní výrobce vlastních IPL produktů, který nabízí komplexní přizpůsobení od vývoje forem a prototypování až po hromadnou výrobu a balení. iShine již přizpůsobil více než 1 000 projektů vlastních IPL zařízení pro naše partnery v minulosti s velkými zkušenostmi v technických řešeních IPL produktů a řešeních dodržování předpisů.",
+      "include": "Vlastní IPL produkty zahrnují:"
     },
-    "cta": {
-      "title": "Potřebujete pomoc?",
-      "subtitle": "Pojďme prodiskutovat vaše požadavky a vytvořit IPL řešení, které nejlépe vyhovuje vaší značce.",
-      "button": "Vyplňte formulář pro bezplatnou konzultaci"
+    "customization": {
+      "title": "Neomezené možnosti přizpůsobení",
+      "subtitle": "Vynikněte na trhu s plně přizpůsobitelnými IPL zařízeními, která vyhovují vaší značce.",
+      "options": {
+        "0": {
+          "label": "Přizpůsobení barvy",
+          "content": "Vyberte si z neomezených možností barvy, které odpovídají vaší značkové identitě."
+        },
+        "1": {
+          "label": "Tisk loga",
+          "content": "Přidejte své logo pro plně značkový produktový zážitek."
+        },
+        "2": {
+          "label": "Přizpůsobení funkcí",
+          "content": "Přizpůsobte funkce a vlastnosti pro splnění potřeb vašeho trhu."
+        },
+        "3": {
+          "label": "Design balení",
+          "content": "Prémiové balení pro maloobchod, e-commerce nebo dárky."
+        },
+        "4": {
+          "label": "Podpora certifikace",
+          "content": "Kompletní podpora pro globální certifikace."
+        }
+      }
+    },
+    "process": {
+      "title": "OEM/ODM proces",
+      "subtitle": "Od nápadu po dodání, děláme váš projekt IPL zařízení plynulým a úspěšným.",
+      "steps": {
+        "0": {
+          "title": "Konzultace",
+          "desc": "Diskutujte o vaší značkové vizi a požadavcích."
+        },
+        "1": {
+          "title": "Design a prototypování",
+          "desc": "Získejte vlastní návrhy a funkční prototypy."
+        },
+        "2": {
+          "title": "Potvrzení vzorku",
+          "desc": "Schvalte vzorky před hromadnou výrobou."
+        },
+        "3": {
+          "title": "Hromadná výroba",
+          "desc": "Efektivní a kvalitní výroba."
+        },
+        "4": {
+          "title": "Kontrola kvality",
+          "desc": "Přísná kontrola kvality pro každou šarži."
+        },
+        "5": {
+          "title": "Certifikace",
+          "desc": "Podpora pro FDA, CE a další."
+        },
+        "6": {
+          "title": "Globální dodání",
+          "desc": "Světová dodávka s flexibilní logistikou."
+        },
+        "7": {
+          "title": "Servis po prodeji",
+          "desc": "Průběžná podpora pro váš byznys."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Co říkají naši klienti",
+      "0": "iShine nám pomohl spustit naši IPL značku v rekordním čase. Kvalita a služby jsou úžasné!",
+      "1": "Možnosti přizpůsobení jsou nekonečné. Naši klienti milují balení a jedinečné funkce.",
+      "2": "Profesionální tým, rychlá reakce a spolehlivé dodání. Velmi doporučeno pro OEM/ODM.",
+      "3": "Rozšířili jsme se na nové trhy díky podpoře certifikace a dodržování předpisů iShine.",
+      "4": "Servis po prodeji je vynikající. Jakýkoliv problém je vyřešen rychle a profesionálně.",
+      "5": "Naše značková pověst se významně zlepšila díky zkušenostem iShine v designu a výrobě.",
+      "pageButton": "Jít na stránku s recenzemi"
+    },
+    "faq": {
+      "title": "Nejčastější dotazy",
+      "0": {
+        "q": "Co je IPL a jak funguje?",
+        "a": "IPL (Intenzivní pulzní světlo) používá širokospektrální světlo k cílení na vlasové folikuly, bezpečně a účinně snižuje růst chloupků."
+      },
+      "1": {
+        "q": "Mohu přizpůsobit funkce zařízení?",
+        "a": "Ano, nabízíme kompletní přizpůsobení funkcí, barev, balení a další pro splnění potřeb vaší značky."
+      },
+      "2": {
+        "q": "Jaké certifikace podporujete?",
+        "a": "Podporujeme FDA, CE, RoHS a další globální certifikace pro zajištění dodržování předpisů ve vašich cílových trzích."
+      },
+      "3": {
+        "q": "Jak dlouho je doba výroby?",
+        "a": "Typická doba dodání je 25-35 dní po schválení vzorku, v závislosti na velikosti objednávky a přizpůsobení."
+      },
+      "4": {
+        "q": "Poskytujete servis po prodeji?",
+        "a": "Ano, nabízíme komplexní servis po prodeji včetně technické podpory a záruky."
+      },
+      "5": {
+        "q": "Můžete dodávat globálně?",
+        "a": "Absolutně. Nabízíme spolehlivé světové dodání pro podporu vašeho byznysu kdekoli jste."
+      }
+    },
+    "contact": {
+      "title": "Kontaktujte nás",
+      "subtitle": "Připraveni posílit vaši značku? Kontaktujte nás pro bezplatnou konzultaci a nabídku."
     }
   },
   "contact": {
