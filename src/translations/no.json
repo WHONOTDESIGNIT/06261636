@@ -115,6 +115,132 @@
       "subtitle": "Globalt ledende IPL-enhet produsent, vi hjelper deg med å designe, bygge og pakke.",
       "cta": "Få tilbud"
     },
+    "about": {
+      "title": "Om iShine",
+      "subtitle": "Komplett IPL-løsninger.",
+      "cta": "Les mer",
+      "description1": "iShine Tech Co., Limited, er en komplett leverandør for",
+      "manufacturing": "IPL-hårfjerningsenheter produksjon",
+      "and": "og",
+      "customization": "tilpasning",
+      "description2": ". Hjelper deg med å designe, bygge og pakke det. Fra idé til marked.",
+      "description3": "Vi har kapasitet for tilpasset iskjøling IPL, Smart APP-tilkoblet IPL-enhet, hudsensor IPL-enhet. iShine tilbyr løsninger som passer best for din merkeidentitet."
+    },
+    "whatWeDo": {
+      "title": "HVA VI GJØR",
+      "description": "iShine-teamet arbeider med ulike bransjers merkeeiere, produktutviklingsledere, produktledere, kategoriinnkjøpsledere, detaljhandel overholdelsesspesialister, produktdesignere sammen og tilbyr dem OEM ODM-løsninger fra formet IPL-enheter design, prototyping til IPL kontraktproduksjon, utskrift, emballasje for å sikre deres IPL-prosjekters suksess."
+    },
+    "productShowcase": {
+      "title": "TILPASSEDE IPL-ENHETER",
+      "subtitle": "Du designer det, vi bygger det, pakker det",
+      "description": "iShine er en fullservice tilpasset IPL-produkter produsent som tilbyr end-to-end tilpasning, fra formutvikling og prototyping til masseproduksjon og emballasje. iShine har allerede tilpasset mer enn 1.000 tilpassede enheter IPL-prosjekter for våre partnere i det siste med mye erfaring i IPL-produkter Teknisk løsning og Overholdelsesløsning.",
+      "include": "De tilpassede IPL-produktene inkluderer:"
+    },
+    "customization": {
+      "title": "Ubegrensede tilpasningsalternativer",
+      "subtitle": "Skil deg ut i markedet med fullt tilpassbare IPL-enheter som passer for merket ditt.",
+      "options": {
+        "0": {
+          "label": "Fargetilpasning",
+          "content": "Velg fra ubegrensede fargealternativer for å matche din merkeidentitet."
+        },
+        "1": {
+          "label": "Logo-utskrift",
+          "content": "Legg til logoen din for en fullt merkevareprodukt opplevelse."
+        },
+        "2": {
+          "label": "Funksjonstilpasning",
+          "content": "Tilpass funksjoner og funksjoner for å møte dine markedsbehov."
+        },
+        "3": {
+          "label": "Emballasjedesign",
+          "content": "Premium emballasje for detaljhandel, e-handel eller gaver."
+        },
+        "4": {
+          "label": "Sertifiseringsstøtte",
+          "content": "Full støtte for globale sertifiseringer."
+        }
+      }
+    },
+    "process": {
+      "title": "OEM/ODM-prosess",
+      "subtitle": "Fra idé til levering, gjør vi IPL-enhetsprosjektet ditt sømløst og vellykket.",
+      "steps": {
+        "0": {
+          "title": "Konsultasjon",
+          "desc": "Diskuter din merkevisjon og krav."
+        },
+        "1": {
+          "title": "Design & Prototyping",
+          "desc": "Få tilpassede design og funksjonelle prototyper."
+        },
+        "2": {
+          "title": "Prøvebekreftelse",
+          "desc": "Godkjenn prøver før masseproduksjon."
+        },
+        "3": {
+          "title": "Masseproduksjon",
+          "desc": "Effektiv og høy kvalitets produksjon."
+        },
+        "4": {
+          "title": "Kvalitetskontroll",
+          "desc": "Streng QC for hver batch."
+        },
+        "5": {
+          "title": "Sertifisering",
+          "desc": "Støtte for FDA, CE og mer."
+        },
+        "6": {
+          "title": "Global frakt",
+          "desc": "Verdensomspennende levering med fleksibel logistikk."
+        },
+        "7": {
+          "title": "Ettersalgsservice",
+          "desc": "Pågående støtte for virksomheten din."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Hva våre kunder sier",
+      "pageButton": "Gå til vitnesbyrd side",
+      "0": "\"iShine hjalp oss med å lansere IPL-merket vårt på rekordtid. Kvaliteten og servicen er imponerende!\"",
+      "1": "\"Tilpasningsalternativene er endeløse. Kundene våre elsker den unike emballasjen og funksjonene.\"",
+      "2": "\"Profesjonelt team, rask respons og pålitelig levering. Anbefales sterkt for OEM/ODM.\"",
+      "3": "\"Vi utvidet til nye markeder takket være iShines sertifiserings- og overholdelsesstøtte.\"",
+      "4": "\"Ettersalgsservicen er utmerket. Eventuelle problemer løses raskt og profesjonelt.\"",
+      "5": "\"Merkeomdømmet vårt forbedret betydelig med iShines design- og produksjonsekspertise.\""
+    },
+    "faq": {
+      "title": "Ofte stilte spørsmål",
+      "0": {
+        "q": "Hva er IPL og hvordan fungerer det?",
+        "a": "IPL (Intense Pulsed Light) bruker bredspektrum lys for å målrette hårfollikler, som reduserer hårvekst sikkert og effektivt."
+      },
+      "1": {
+        "q": "Kan jeg tilpasse enhetens funksjoner?",
+        "a": "Ja, vi tilbyr full tilpasning av funksjoner, farger, emballasje og mer for å passe dine merke behov."
+      },
+      "2": {
+        "q": "Hvilke sertifiseringer støtter dere?",
+        "a": "Vi støtter FDA, CE, RoHS og andre globale sertifiseringer for å sikre overholdelse på dine målmarkeder."
+      },
+      "3": {
+        "q": "Hvor lenge er produksjonens leveringstid?",
+        "a": "Typisk leveringstid er 25-35 dager etter prøve godkjenning, avhengig av bestillingsstørrelse og tilpasning."
+      },
+      "4": {
+        "q": "Gir dere ettersalg støtte?",
+        "a": "Ja, vi tilbyr omfattende ettersalg støtte inkludert teknisk støtte og garanti."
+      },
+      "5": {
+        "q": "Kan dere sende til hele verden?",
+        "a": "Absolutt. Vi tilbyr pålitelig global frakt for å støtte din virksomhet hvor enn du er."
+      }
+    },
+    "contact": {
+      "title": "Kontakt oss",
+      "subtitle": "Klar til å styrke merket ditt? Ta kontakt for gratis konsultasjon og tilbud."
+    },
     "partners": {
       "title": "Stolt av globale merker",
       "subtitle": "Arbeider med bransjeledere over hele verden"
