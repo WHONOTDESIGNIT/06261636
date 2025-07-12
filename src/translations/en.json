@@ -529,73 +529,247 @@
     "globalShipping": {
       "hero": {
         "title": "Global Shipping Solutions",
-        "subtitle": "Reliable worldwide shipping and logistics services for your IPL devices and accessories."
+        "subtitle": "Reliable worldwide shipping for your IPL devices. Fast, secure, and fully tracked delivery to over 200 countries with complete customs support."
       },
-      "features": {
-        "worldwide": {
-          "title": "Worldwide Coverage",
-          "description": "Shipping to over 200 countries and territories"
+      "zones": {
+        "title": "Shipping Zones",
+        "subtitle": "Fast and reliable delivery to major markets worldwide",
+        "northAmerica": {
+          "region": "North America",
+          "countries": {
+            "us": "United States",
+            "canada": "Canada",
+            "mexico": "Mexico"
+          },
+          "deliveryTime": "3-7 business days"
         },
-        "tracking": {
-          "title": "Real-time Tracking",
-          "description": "Complete visibility of your shipments"
+        "europe": {
+          "region": "Europe",
+          "countries": {
+            "germany": "Germany",
+            "france": "France",
+            "uk": "UK",
+            "netherlands": "Netherlands",
+            "italy": "Italy"
+          },
+          "deliveryTime": "5-10 business days"
         },
-        "insurance": {
-          "title": "Full Insurance",
-          "description": "Comprehensive insurance coverage for all shipments"
+        "asiaPacific": {
+          "region": "Asia Pacific",
+          "countries": {
+            "japan": "Japan",
+            "australia": "Australia",
+            "singapore": "Singapore",
+            "southKorea": "South Korea"
+          },
+          "deliveryTime": "3-8 business days"
         },
-        "support": {
-          "title": "24/7 Support",
-          "description": "Round-the-clock customer support for shipping inquiries"
+        "restOfWorld": {
+          "region": "Rest of World",
+          "countries": {
+            "brazil": "Brazil",
+            "india": "India",
+            "southAfrica": "South Africa",
+            "uae": "UAE"
+          },
+          "deliveryTime": "7-15 business days"
+        }
+      },
+      "services": {
+        "title": "Shipping Services",
+        "subtitle": "Comprehensive shipping solutions for your business needs",
+        "express": {
+          "title": "Express Shipping",
+          "description": "Fast delivery for urgent orders with tracking and insurance",
+          "features": {
+            "delivery": "2-5 day delivery",
+            "tracking": "Full tracking",
+            "insurance": "Insurance included",
+            "priority": "Priority handling"
+          }
+        },
+        "secure": {
+          "title": "Secure Packaging",
+          "description": "Professional packaging to ensure safe delivery worldwide",
+          "features": {
+            "protection": "Impact protection",
+            "resistance": "Moisture resistance",
+            "seals": "Tamper-evident seals",
+            "inserts": "Custom inserts"
+          }
+        },
+        "flexible": {
+          "title": "Flexible Options",
+          "description": "Multiple shipping options to meet your timeline and budget",
+          "features": {
+            "standard": "Standard shipping",
+            "express": "Express delivery",
+            "economy": "Economy options",
+            "scheduled": "Scheduled delivery"
+          }
+        },
+        "customs": {
+          "title": "Customs Support",
+          "description": "Complete customs documentation and compliance handling",
+          "features": {
+            "clearance": "Customs clearance",
+            "documentation": "Documentation",
+            "duty": "Duty calculation",
+            "compliance": "Compliance check"
+          }
         }
       }
     },
     "logoPrinting": {
       "hero": {
-        "title": "Logo Printing Services",
-        "subtitle": "High-quality logo printing and branding solutions for your IPL devices and packaging."
+        "title": "Custom Logo Printing",
+        "subtitle": "iShine offers professional logo customization for IPL devices—choose UV printing for speed and value, or screen printing for premium, lasting results."
       },
-      "features": {
-        "quality": {
-          "title": "Premium Quality",
-          "description": "High-resolution printing with durable finishes"
+      "screenPrinting": {
+        "label": "Screen Printing",
+        "description": "Premium finish, crisp lines, and excellent durability—ideal for brands seeking the best tactile and visual effect. Slightly higher cost, but preferred for orders over 20 units. Supports 1-2 color logos on curved surfaces."
+      },
+      "info": {
+        "colors": {
+          "label": "Supported Colors",
+          "value": "1 or 2 colors per logo."
         },
-        "materials": {
-          "title": "Various Materials",
-          "description": "Printing on multiple surfaces and materials"
+        "surface": {
+          "label": "Surface Compatibility",
+          "value": "Both methods work on the slightly curved IPL device body."
         },
-        "customization": {
-          "title": "Custom Designs",
-          "description": "Tailored logo designs and placement options"
+        "leadTime": {
+          "label": "Lead Time",
+          "value": "1–3 business days for most orders."
         },
-        "durability": {
-          "title": "Long-lasting",
-          "description": "Durable prints that withstand wear and tear"
+        "moq": {
+          "label": "MOQ for Screen Printing",
+          "value": "Best value for orders over 20 units."
+        },
+        "premium": {
+          "label": "Premium Choice",
+          "value": "Screen printing delivers the most premium finish and tactile feel for your brand logo."
         }
+      },
+      "cta": {
+        "title": "Ready to Brand Your IPL Device?",
+        "subtitle": "Our team will help you choose the best logo printing method for your project—ensuring your brand stands out.",
+        "button": "Get a Quote"
       }
     },
     "multiHeadIPL": {
       "hero": {
-        "title": "Multi-Head IPL Solutions",
-        "subtitle": "Versatile multi-head IPL systems for comprehensive hair removal treatment across all body areas."
+        "title": "Multi-Head IPL Systems",
+        "subtitle": "iShine engineers custom IPL attachment heads for every treatment scenario—from precision facial work to full-body coverage, with specialized solutions for dark skin comfort and professional efficiency."
+      },
+      "portfolio": {
+        "title": "Custom IPL Head Portfolio"
+      },
+      "heads": {
+        "precisionFace": {
+          "name": "Precision Face Head",
+          "spotSize": "2.0 cm²",
+          "application": "Upper lip, chin, jawline precision treatment",
+          "features": "Extra UV filter, flat design for facial contours"
+        },
+        "underarm": {
+          "name": "Curved Underarm Head",
+          "spotSize": "3.0 cm²",
+          "application": "Optimized for underarm area curvature",
+          "features": "Curved-out design for hard-to-reach areas"
+        },
+        "bikini": {
+          "name": "Bikini Area Head",
+          "spotSize": "3.0 cm²",
+          "application": "Precise bikini line and intimate area treatment",
+          "features": "Extra transparent filter, curved design"
+        },
+        "largeBody": {
+          "name": "Large Body Head",
+          "spotSize": "4.1 cm²",
+          "application": "Fast treatment on legs, arms, stomach",
+          "features": "Curved-in design for maximum skin contact"
+        },
+        "sapphire": {
+          "name": "Sapphire Cooling Head",
+          "spotSize": "2.5-4.0 cm²",
+          "application": "Pain reduction for sensitive/dark skin",
+          "features": "90% pain reduction, continuous cooling"
+        },
+        "professional": {
+          "name": "Extra-Large Professional Head",
+          "spotSize": "12.0 cm²",
+          "application": "Commercial-grade full body treatment",
+          "features": "Maximum coverage, professional clinic efficiency"
+        }
+      },
+      "specs": {
+        "title": "Technical Customization Range",
+        "table": {
+          "parameter": "Parameter",
+          "range": "Range/Options",
+          "notes": "Application Notes"
+        },
+        "spotSize": {
+          "parameter": "Spot Size Range",
+          "value": "2.0 - 12.0 cm²",
+          "note": "Customizable based on application"
+        },
+        "wavelength": {
+          "parameter": "Wavelength Options",
+          "value": "530-1200nm",
+          "note": "Multi-spectrum customization available"
+        },
+        "cooling": {
+          "parameter": "Cooling Technology",
+          "value": "Sapphire Contact Cooling",
+          "note": "Up to 90% pain reduction"
+        },
+        "energy": {
+          "parameter": "Energy Density",
+          "value": "10-35 J/cm²",
+          "note": "Adjustable per head type"
+        },
+        "coverage": {
+          "parameter": "Treatment Coverage",
+          "value": "1×4mm to 15×40mm",
+          "note": "Precision to full-body options"
+        }
       },
       "features": {
-        "versatility": {
-          "title": "Multi-Purpose",
-          "description": "Interchangeable heads for different body areas"
+        "title": "Advanced Attachment Capabilities",
+        "sapphire": {
+          "title": "Sapphire Cooling Technology",
+          "painReduction": "**90% pain reduction** for sensitive and dark skin types",
+          "continuousCooling": "Continuous contact cooling during treatment",
+          "safeSkinTypes": "Safe for Fitzpatrick skin types I-IV",
+          "temperatureControl": "Temperature control: 50°F-104°F vs standard 158°F-212°F"
         },
-        "precision": {
-          "title": "Precision Treatment",
-          "description": "Targeted treatment for optimal results"
-        },
-        "comfort": {
-          "title": "Enhanced Comfort",
-          "description": "Specialized heads for sensitive areas"
-        },
-        "efficiency": {
-          "title": "Treatment Efficiency",
-          "description": "Faster treatment times with larger coverage areas"
+        "recognition": {
+          "title": "Intelligent Attachment Recognition",
+          "adaptation": "Automatic treatment program adaptation per body area",
+          "recognition": "Smart head recognition for optimal energy settings",
+          "feedback": "Real-time coverage feedback and guidance",
+          "safety": "Built-in safety protocols for each attachment type"
         }
+      },
+      "process": {
+        "title": "Custom Head Engineering Process",
+        "step1": "Application Analysis",
+        "step2": "Spot Size Optimization",
+        "step3": "Filter & Lens Integration",
+        "step4": "Ergonomic Validation"
+      },
+      "benefits": {
+        "title": "Proven Multi-Head Advantages",
+        "faster": "Faster full-body treatment with large spot heads",
+        "painReduction": "Pain reduction with sapphire cooling attachments",
+        "satisfaction": "User satisfaction with precision attachments"
+      },
+      "cta": {
+        "title": "Ready to Engineer Your Custom Multi-Head IPL System?",
+        "subtitle": "Our technical team will design attachment heads optimized for your target markets, treatment protocols, and user demographics.",
+        "button": "Get Custom Head Specifications"
       }
     },
     "packagingSolutions": {
