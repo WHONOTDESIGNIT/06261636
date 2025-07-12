@@ -110,28 +110,135 @@
   },
   "home": {
     "hero": {
-      "title1": "Tilpassede IPL-enheder",
-      "title2": "og brand IPL-enheder",
-      "subtitle": "Globalt førende IPL-enhed producent, vi hjælper dig med at designe, bygge og pakke.",
-      "cta": "Få tilbud"
+      "title1": "Tilpassede IPL-enheder til hårfjerning for kosmetikbrands",
+      "subtitle": "Du designer, vi bygger og pakker.",
+      "cta": "Få gratis tilbud"
     },
-    "partners": {
-      "title": "Betroet af globale brands",
-      "subtitle": "Arbejder med brancheledere verden over"
+    "about": {
+      "title": "Om iShine",
+      "subtitle": "Komplette IPL-løsninger.",
+      "cta": "Læs mere",
+      "description1": "iShine Tech Co., Limited er en komplet leverandør til",
+      "manufacturing": "fremstilling af IPL-enheder til hårfjerning",
+      "and": "og",
+      "customization": "tilpasning",
+      "description2": "Vi hjælper dig med at designe, bygge og pakke dem. Fra idé til marked.",
+      "description3": "Vi har kapacitet til IPL med tilpasset iskøling, IPL-enhed tilsluttet smart app, IPL-enhed med hudfølsomhed. iShine leverer løsninger, der passer bedst til din brandidentitet."
     },
-    "features": {
-      "title": "Hvorfor vælge iShine?",
-      "subtitle": "Komplette IPL-produktionsløsninger skræddersyet til dine behov"
+    "whatWeDo": {
+      "title": "HVAD VI GØR",
+      "description": "iShine-teamet arbejder sammen med forskellige brandejere i branchen, produktudviklingschefer, produktchefer, kategorisourcingchefer, retail compliance-specialister og produktdesignere og tilbyder dem OEM ODM-løsninger fra støbte IPL-enhedsdesigns, prototypering til kontrakt IPL-fremstilling, trykning, emballage for at sikre succes for deres IPL-projekter."
     },
-    "products": {
-      "title": "Vores IPL-enhedssortiment",
-      "subtitle": "Bred vifte af IPL-enheder til ethvert behov",
-      "cta": "Se alle IPL-enheder"
+    "productShowcase": {
+      "title": "TILPASSEDE IPL-ENHEDER",
+      "subtitle": "Du designer, vi bygger, pakker",
+      "description": "iShine er en komplet producent af tilpassede IPL-produkter, der tilbyder omfattende tilpasning fra formudvikling og prototypering til masseproduktion og emballage. iShine har allerede tilpasset over 1.000 projekter med tilpassede IPL-enheder for vores partnere i fortiden med stor erfaring i tekniske IPL-produktløsninger og compliance-løsninger.",
+      "include": "Tilpassede IPL-produkter inkluderer:"
     },
-    "cta": {
-      "title": "Brug for hjælp?",
-      "subtitle": "Lad os diskutere dine krav og skabe den IPL-løsning, der passer bedst til dit brand.",
-      "button": "Udfyld formularen for at nyde gratis konsultation"
+    "customization": {
+      "title": "Ubegrænsede tilpasningsmuligheder",
+      "subtitle": "Skil dig ud på markedet med fuldt tilpasselige IPL-enheder, der passer til dit brand.",
+      "options": {
+        "0": {
+          "label": "Farvetilpasning",
+          "content": "Vælg mellem ubegrænsede farvevalg, der matcher din brandidentitet."
+        },
+        "1": {
+          "label": "Logo-trykning",
+          "content": "Tilføj dit logo for en fuldt brandet produktoplevelse."
+        },
+        "2": {
+          "label": "Funktionstilpasning",
+          "content": "Tilpas funktioner og egenskaber for at opfylde dine markedsbehov."
+        },
+        "3": {
+          "label": "Emballagedesign",
+          "content": "Premium emballage til retail, e-handel eller gaver."
+        },
+        "4": {
+          "label": "Certificeringssupport",
+          "content": "Komplet support til globale certificeringer."
+        }
+      }
+    },
+    "process": {
+      "title": "OEM/ODM-proces",
+      "subtitle": "Fra idé til levering gør vi dit IPL-enhedsprojekt flydende og succesfuldt.",
+      "steps": {
+        "0": {
+          "title": "Konsultation",
+          "desc": "Diskuter din brandvision og krav."
+        },
+        "1": {
+          "title": "Design og prototypering",
+          "desc": "Få tilpassede designs og funktionelle prototyper."
+        },
+        "2": {
+          "title": "Prøvebekræftelse",
+          "desc": "Godkend prøver før masseproduktion."
+        },
+        "3": {
+          "title": "Masseproduktion",
+          "desc": "Effektiv og kvalitetsproduktion."
+        },
+        "4": {
+          "title": "Kvalitetskontrol",
+          "desc": "Streng kvalitetskontrol for hver batch."
+        },
+        "5": {
+          "title": "Certificering",
+          "desc": "Support til FDA, CE og mere."
+        },
+        "6": {
+          "title": "Global levering",
+          "desc": "Verdensomspændende levering med fleksibel logistik."
+        },
+        "7": {
+          "title": "Eftersalgsservice",
+          "desc": "Løbende support til din virksomhed."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Hvad vores kunder siger",
+      "0": "iShine hjalp os med at lancere vores IPL-brand i rekordtid. Kvaliteten og servicen er fantastiske!",
+      "1": "Tilpasningsmulighederne er uendelige. Vores kunder elsker emballagen og de unikke funktioner.",
+      "2": "Professionelt team, hurtig reaktion og pålidelig levering. Meget anbefalet til OEM/ODM.",
+      "3": "Vi udvidede til nye markeder takket være iShines certificerings- og compliance-support.",
+      "4": "Eftersalgsservicen er fremragende. Ethvert problem løses hurtigt og professionelt.",
+      "5": "Vores brandomdømme forbedrede sig betydeligt med iShines erfaring i design og fremstilling.",
+      "pageButton": "Gå til anmeldelsesside"
+    },
+    "faq": {
+      "title": "Ofte stillede spørgsmål",
+      "0": {
+        "q": "Hvad er IPL og hvordan virker det?",
+        "a": "IPL (Intens Pulslys) bruger bredspektret lys til at målrette hårfollikler, hvilket sikkert og effektivt reducerer hårvækst."
+      },
+      "1": {
+        "q": "Kan jeg tilpasse enhedens funktioner?",
+        "a": "Ja, vi tilbyder komplet tilpasning af funktioner, farver, emballage og mere for at opfylde dine brands behov."
+      },
+      "2": {
+        "q": "Hvilke certificeringer understøtter I?",
+        "a": "Vi understøtter FDA, CE, RoHS og andre globale certificeringer for at sikre compliance i dine målgruppemarkeder."
+      },
+      "3": {
+        "q": "Hvor lang er produktionstiden?",
+        "a": "Typisk leveringstid er 25-35 dage efter prøvegodkendelse, afhængigt af ordrestørrelse og tilpasning."
+      },
+      "4": {
+        "q": "Yder I eftersalgssupport?",
+        "a": "Ja, vi tilbyder omfattende eftersalgsservice inklusive teknisk support og garanti."
+      },
+      "5": {
+        "q": "Kan I levere globalt?",
+        "a": "Absolut. Vi tilbyder pålidelig verdensomspændende levering for at understøtte din virksomhed uanset hvor du er."
+      }
+    },
+    "contact": {
+      "title": "Kontakt os",
+      "subtitle": "Klar til at styrke dit brand? Kontakt os for gratis konsultation og tilbud."
     }
   },
   "contact": {
