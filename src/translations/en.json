@@ -191,6 +191,130 @@
       "subtitle": "Global Leading IPL device manufacturer, help you design it, build it, and box it.",
       "cta": "Get Quote"
     },
+    "unlimitedOptions": {
+      "colorCustomization": {
+        "label": "Color Customization",
+        "content": "Choose from unlimited color options to match your brand identity."
+      },
+      "logoPrinting": {
+        "label": "Logo Printing",
+        "content": "Add your logo for a fully branded product experience."
+      },
+      "functionCustomization": {
+        "label": "Function Customization",
+        "content": "Customize features and functions to meet your market needs."
+      },
+      "packagingDesign": {
+        "label": "Packaging Design",
+        "content": "Premium packaging for retail, e-commerce, or gifting."
+      },
+      "certificationSupport": {
+        "label": "Certification Support",
+        "content": "Fully support for global certifications."
+      }
+    },
+    "processSteps": {
+      "consultation": {
+        "title": "Consultation",
+        "desc": "Discuss your brand vision and requirements."
+      },
+      "designPrototyping": {
+        "title": "Design & Prototyping",
+        "desc": "Get custom designs and functional prototypes."
+      },
+      "sampleConfirmation": {
+        "title": "Sample Confirmation",
+        "desc": "Approve samples before mass production."
+      },
+      "massProduction": {
+        "title": "Mass Production",
+        "desc": "Efficient and high-quality manufacturing."
+      },
+      "qualityInspection": {
+        "title": "Quality Inspection",
+        "desc": "Strict QC for every batch."
+      },
+      "certification": {
+        "title": "Certification",
+        "desc": "Support for FDA, CE, and more."
+      },
+      "globalShipping": {
+        "title": "Global Shipping",
+        "desc": "Worldwide delivery with flexible logistics."
+      },
+      "afterSalesService": {
+        "title": "After-Sales Service",
+        "desc": "Ongoing support for your business."
+      }
+    },
+    "testimonials": {
+      "testimonial1": "\"iShine helped us launch our IPL brand in record time. The quality and service are impressive!\"",
+      "testimonial2": "\"The customization options are endless. Our clients love the unique packaging and features.\"",
+      "testimonial3": "\"Professional team, fast response, and reliable delivery. Highly recommended for OEM/ODM.\"",
+      "testimonial4": "\"We expanded to new markets thanks to iShine's certification and compliance support.\"",
+      "testimonial5": "\"The after-sales service is excellent. Any issues are resolved quickly and professionally.\"",
+      "testimonial6": "\"Our brand reputation improved significantly with iShine's design and manufacturing expertise.\""
+    },
+    "faq": {
+      "q1": {
+        "question": "What is IPL and how does it work?",
+        "answer": "IPL (Intense Pulsed Light) uses broad-spectrum light to target hair follicles, reducing hair growth safely and effectively."
+      },
+      "q2": {
+        "question": "Can I customize the device functions?",
+        "answer": "Yes, we offer full customization of features, colors, packaging, and more to fit your brand needs."
+      },
+      "q3": {
+        "question": "What certifications do you support?",
+        "answer": "We support FDA, CE, RoHS, and other global certifications to ensure compliance in your target markets."
+      },
+      "q4": {
+        "question": "How long is the production lead time?",
+        "answer": "Typical lead time is 25-35 days after sample approval, depending on order size and customization."
+      },
+      "q5": {
+        "question": "Do you provide after-sales support?",
+        "answer": "Yes, we offer comprehensive after-sales service including technical support and warranty."
+      },
+      "q6": {
+        "question": "Can you ship globally?",
+        "answer": {
+          "intro": "Absolutely. We offer reliable worldwide shipping to support your business wherever you are.",
+          "coverage": {
+            "title": "Global Logistics Coverage:",
+            "text": "Yes, we provide international shipping solutions with tracking codes for every order."
+          },
+          "costs": {
+            "title": "Transparent Shipping Costs:",
+            "text": "Shipping fees are calculated based on your order's weight and quantity."
+          },
+          "clickText": "Click on the",
+          "checkButton": "Check Shipping Cost",
+          "buttonText": "button.",
+          "howTo": {
+            "title": "How to Check Your Shipping Cost:",
+            "step1": "Enter your order details (weight/quantity).",
+            "step2": "Instantly view the corresponding shipping rates and options.",
+            "step3": "Track your shipment anytime with the provided logistics code after dispatch."
+          },
+          "help": "Need help? Our team is here to assist you with any shipping or logistics questions."
+        }
+      }
+    },
+    "gallery": {
+      "image1": {
+        "alt": "Home IPL hair removal device incoming material testing and quality control process"
+      },
+      "image2": {
+        "alt": "Professional packaging process for home IPL hair removal devices"
+      },
+      "image3": {
+        "alt": "Modern warehouse facility for home IPL hair removal device storage and distribution"
+      },
+      "image4": {
+        "alt": "iShine research and development department for IPL technology innovation"
+      }
+    },
     "about": {
       "title": "About iShine",
       "subtitle": "Complete IPL solutions.",
@@ -199,12 +323,12 @@
       "manufacturing": "IPL hair removal device manufacturing",
       "and": "and",
       "customization": "customization",
-      "description2": ". Help you design, manufacture, and package. From idea to market.",
-      "description3": "We have capabilities for custom ice cooling IPL, Smart app-connected IPL device, skin sensor IPL device. iShine provides solutions that best fit your brand identity."
+      "description2": "Help you design it, build it and box it. From idea to market.",
+      "description3": "We have the capability for Custom ice cooling IPL, Smart APP-connected IPL device, Skin Sensor IPL device. iShine provide solutions that best fit for your brand identity."
     },
     "whatWeDo": {
       "title": "WHAT WE DO",
-      "description": "The iShine team works with brand owners from different industries, product development managers, product managers, category sourcing managers, retail compliance specialists, product designers together and provides OEM ODM solutions from molded IPL devices design, prototyping to IPL contract manufacturing, printing, packaging to ensure the success of their IPL projects."
+      "description": "iShine team work with the different industries brands owner, products development managers, products managers, category sourcing manager, retail compliance specialist, products designers together and offer them OEM ODM solution from molded IPL devices design, prototyping to IPL contract manufacturing, printing, package to ensure their IPL projects success."
     },
     "productShowcase": {
       "title": "CUSTOMIZED IPL DEVICES",
@@ -898,18 +1022,160 @@
   "howToUse": {
     "heroTitle": "How to Use IPL Devices",
     "heroDescription": "Complete guide to safe and effective IPL hair removal. Learn proper techniques, safety guidelines, and get the best results from your IPL device.",
-    "stepByStepTitle": "Step-by-Step Instructions",
-    "stepByStepDescription": "Follow these steps for safe and effective IPL treatment",
-    "safetyGuidelinesTitle": "Safety Guidelines",
-    "safetyGuidelinesDescription": "Essential safety information for IPL treatment",
-    "treatmentScheduleTitle": "Recommended Treatment Schedule",
-    "treatmentScheduleDescription": "Follow this schedule for optimal hair removal results",
-    "troubleshootingTitle": "Troubleshooting Guide",
-    "troubleshootingDescription": "Common issues and their solutions",
-    "faqTitle": "Frequently Asked Questions",
-    "faqDescription": "Get answers to common IPL treatment questions",
-    "videoTutorialsTitle": "Video Tutorials",
-    "videoTutorialsDescription": "Watch step-by-step video guides for proper IPL usage"
+    "steps": {
+      "preparation": {
+        "title": "Preparation",
+        "description": "Clean and prepare the treatment area",
+        "details": {
+          "shave": "Shave the treatment area 24-48 hours before use",
+          "clean": "Clean skin thoroughly with mild soap and water",
+          "dry": "Ensure skin is completely dry",
+          "remove": "Remove any makeup, lotions, or deodorants"
+        }
+      },
+      "deviceSetup": {
+        "title": "Device Setup",
+        "description": "Power on and configure your IPL device",
+        "details": {
+          "connect": "Connect the device to power source",
+          "power": "Press the power button to turn on",
+          "intensity": "Select appropriate intensity level (start with lowest)",
+          "attach": "Ensure the treatment head is properly attached"
+        }
+      },
+      "skinToneTest": {
+        "title": "Skin Tone Test",
+        "description": "Perform a patch test for safety",
+        "details": {
+          "test": "Test on a small, inconspicuous area first",
+          "wait": "Wait 24 hours to check for adverse reactions",
+          "adjust": "Adjust intensity if needed based on skin response",
+          "proceed": "Proceed only if no irritation occurs"
+        }
+      },
+      "treatmentProcess": {
+        "title": "Treatment Process",
+        "description": "Apply IPL treatment systematically",
+        "details": {
+          "place": "Place device firmly against skin",
+          "press": "Press flash button for each pulse",
+          "move": "Move to adjacent area without overlapping",
+          "complete": "Complete entire treatment area systematically"
+        }
+      },
+      "postTreatmentCare": {
+        "title": "Post-Treatment Care",
+        "description": "Proper aftercare for optimal results",
+        "details": {
+          "cooling": "Apply cooling gel or aloe vera if needed",
+          "sun": "Avoid sun exposure for 24-48 hours",
+          "sunscreen": "Use SPF 30+ sunscreen when going outside",
+          "moisturize": "Moisturize treated area regularly"
+        }
+      }
+    },
+    "safetyGuidelines": {
+      "warnings": {
+        "title": "Important Safety Warnings",
+        "point1": "Never use on tanned, sunburned, or irritated skin",
+        "point2": "Do not use on moles, tattoos, or dark spots",
+        "point3": "Avoid eye area and mucous membranes",
+        "point4": "Not suitable for pregnant or breastfeeding women",
+        "point5": "Consult doctor if you have skin conditions"
+      },
+      "eyeProtection": {
+        "title": "Eye Protection",
+        "point1": "Always wear protective goggles when provided",
+        "point2": "Never look directly at the light flash",
+        "point3": "Keep device away from eye area",
+        "point4": "Ensure others in room are also protected"
+      },
+      "skinSensitivity": {
+        "title": "Skin Sensitivity",
+        "point1": "Start with lowest intensity setting",
+        "point2": "Gradually increase if well tolerated",
+        "point3": "Stop immediately if pain or discomfort occurs",
+        "point4": "Allow 48-72 hours between treatments on same area"
+      }
+    },
+    "treatmentSchedule": {
+      "weeks1to4": {
+        "week": "Weeks 1-4",
+        "frequency": "Once per week",
+        "description": "Initial treatment phase for hair reduction"
+      },
+      "weeks5to8": {
+        "week": "Weeks 5-8",
+        "frequency": "Every 2 weeks",
+        "description": "Maintenance phase as hair growth slows"
+      },
+      "weeks9to12": {
+        "week": "Weeks 9-12",
+        "frequency": "Every 3-4 weeks",
+        "description": "Final phase for remaining hair follicles"
+      },
+      "after12weeks": {
+        "week": "After 12 weeks",
+        "frequency": "As needed",
+        "description": "Touch-up treatments for new hair growth"
+      }
+    },
+    "troubleshooting": {
+      "deviceNotTurningOn": {
+        "problem": "Device not turning on",
+        "solution1": "Check power connection and ensure device is plugged in",
+        "solution2": "Verify power button is pressed firmly",
+        "solution3": "Check if device needs charging (for battery models)",
+        "solution4": "Contact customer support if issue persists"
+      },
+      "noLightFlash": {
+        "problem": "No light flash when pressing button",
+        "solution1": "Ensure device is in full contact with skin",
+        "solution2": "Check if safety sensors are blocked",
+        "solution3": "Verify treatment head is properly attached",
+        "solution4": "Clean the light window and sensors"
+      },
+      "skinIrritation": {
+        "problem": "Skin irritation after treatment",
+        "solution1": "Apply cooling gel or aloe vera to soothe skin",
+        "solution2": "Reduce intensity level for next treatment",
+        "solution3": "Increase time between treatments",
+        "solution4": "Discontinue use if irritation persists"
+      },
+      "noResults": {
+        "problem": "No visible results after several treatments",
+        "solution1": "Ensure consistent treatment schedule",
+        "solution2": "Verify you are using appropriate intensity level",
+        "solution3": "Check that hair color is suitable for IPL (dark hair works best)",
+        "solution4": "Be patient - results typically visible after 4-6 treatments"
+      }
+    },
+    "faqs": {
+      "q1": {
+        "question": "How long does each treatment session take?",
+        "answer": "Treatment time varies by area size. Face typically takes 5-10 minutes, legs 15-20 minutes, and full body can take 30-45 minutes."
+      },
+      "q2": {
+        "question": "When will I see results?",
+        "answer": "Most users see initial hair reduction after 3-4 treatments. Significant results are typically visible after 6-8 treatments over 2-3 months."
+      },
+      "q3": {
+        "question": "Is IPL treatment painful?",
+        "answer": "Most users describe the sensation as a mild rubber band snap. Modern IPL devices with cooling technology minimize discomfort significantly."
+      },
+      "q4": {
+        "question": "Can I use IPL on all skin tones?",
+        "answer": "IPL works best on light to medium skin tones with dark hair. Always perform a patch test and consult the device manual for skin tone compatibility."
+      },
+      "q5": {
+        "question": "How long do results last?",
+        "answer": "IPL provides long-lasting hair reduction. Most users enjoy smooth skin for 6-12 months, with occasional touch-up treatments as needed."
+      },
+      "q6": {
+        "question": "Can I use IPL during summer?",
+        "answer": "Yes, but extra sun protection is essential. Avoid sun exposure 48 hours before and after treatment, and always use SPF 30+ sunscreen."
+      }
+    }
   },
   "iplHairRemoval": {
     "heroTitle": "Professional IPL Hair Removal Solutions",
@@ -1282,8 +1548,7 @@
         "content": "We've built lasting relationships with leading brands, distributors, and technology partners worldwide, creating a network of innovation and success."
       }
     }
-  }
-},
+  },
   "sitemap": {
     "title": "Sitemap",
     "mainPages": "Main Pages",
@@ -1445,6 +1710,21 @@
           "description": "Medical-grade sapphire for optimal performance"
         }
       }
+    }
+  },
+  "shippingCost": {
+    "title": "Shipping Cost Calculator",
+    "destinationCountry": "Destination Country",
+    "productQuantity": "Product Quantity",
+    "calculate": "Calculate",
+    "result": "Estimated shipping cost to {country}: ${total} USD ({quantity} unit{plural})",
+    "countries": {
+      "US": "United States",
+      "UK": "United Kingdom",
+      "DE": "Germany",
+      "AU": "Australia",
+      "JP": "Japan",
+      "CN": "China"
     }
   }
 }
