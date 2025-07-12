@@ -1,24 +1,27 @@
 import React from 'react';
 import { Brush } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
-
-// 丝网印刷展示
-const screenPrintingInfo = {
-  label: 'Screen Printing',
-  img: '/images/logo-screen-printing.jpg', // 占位图片路径
-  desc: 'Premium finish, crisp lines, and excellent durability—ideal for brands seeking the best tactile and visual effect. Slightly higher cost, but preferred for orders over 20 units. Supports 1-2 color logos on curved surfaces.',
-};
+import { useLanguage } from '../../context/LanguageContext';
 
 const LogoPrinting: React.FC = () => {
+  const { t } = useLanguage();
+
+  // 丝网印刷展示
+  const screenPrintingInfo = {
+    label: t('logoPrinting.screenPrinting.label'),
+    img: '/images/logo-screen-printing.jpg', // 占位图片路径
+    desc: t('logoPrinting.screenPrinting.description'),
+  };
+
   return (
     <div className="min-h-screen bg-white pt-20">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-[rgb(30,157,139)] to-[rgb(36,151,144)] text-white py-16">
         <div className="max-w-2xl mx-auto px-4 text-center">
           <Brush className="w-16 h-16 mx-auto mb-6 text-white" />
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">Custom Logo Printing</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">{t('logoPrinting.hero.title')}</h1>
           <p className="text-xl mb-8 text-gray-100">
-            iShine offers professional logo customization for IPL devices—choose UV printing for speed and value, or screen printing for premium, lasting results.
+            {t('logoPrinting.hero.subtitle')}
           </p>
         </div>
       </section>
@@ -46,19 +49,19 @@ const LogoPrinting: React.FC = () => {
       <section className="py-10 bg-[#f9f9f9]">
         <div className="max-w-3xl mx-auto px-4 space-y-6 text-left">
           <div>
-            <span className="font-bold text-[rgb(0,116,224)]">Supported Colors:</span> 1 or 2 colors per logo.
+            <span className="font-bold text-[rgb(0,116,224)]">{t('logoPrinting.info.colors.label')}:</span> {t('logoPrinting.info.colors.value')}
           </div>
           <div>
-            <span className="font-bold text-[rgb(0,116,224)]">Surface Compatibility:</span> Both methods work on the slightly curved IPL device body.
+            <span className="font-bold text-[rgb(0,116,224)]">{t('logoPrinting.info.surface.label')}:</span> {t('logoPrinting.info.surface.value')}
           </div>
           <div>
-            <span className="font-bold text-[rgb(0,116,224)]">Lead Time:</span> 1–3 business days for most orders.
+            <span className="font-bold text-[rgb(0,116,224)]">{t('logoPrinting.info.leadTime.label')}:</span> {t('logoPrinting.info.leadTime.value')}
           </div>
           <div>
-            <span className="font-bold text-[rgb(0,116,224)]">MOQ for Screen Printing:</span> Best value for orders over 20 units.
+            <span className="font-bold text-[rgb(0,116,224)]">{t('logoPrinting.info.moq.label')}:</span> {t('logoPrinting.info.moq.value')}
           </div>
           <div>
-            <span className="font-bold text-[rgb(0,116,224)]">Premium Choice:</span> Screen printing delivers the most premium finish and tactile feel for your brand logo.
+            <span className="font-bold text-[rgb(0,116,224)]">{t('logoPrinting.info.premium.label')}:</span> {t('logoPrinting.info.premium.value')}
           </div>
         </div>
       </section>
@@ -67,15 +70,15 @@ const LogoPrinting: React.FC = () => {
       <section className="bg-gradient-to-r from-[rgb(236,67,113)] to-[rgb(125,0,99)] py-16">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-white mb-4 tracking-tight">
-            Ready to Brand Your IPL Device?
+            {t('logoPrinting.cta.title')}
           </h2>
           <p className="text-lg text-white mb-8">
-            Our team will help you choose the best logo printing method for your project—ensuring your brand stands out.
+            {t('logoPrinting.cta.subtitle')}
           </p>
           <button
             className="bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold px-8 py-3 rounded-full transition"
           >
-            Get a Quote
+            {t('logoPrinting.cta.button')}
           </button>
         </div>
       </section>
