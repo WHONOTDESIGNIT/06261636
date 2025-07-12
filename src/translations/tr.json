@@ -5,15 +5,14 @@
     "keywords": "IPL cihazları, OEM üretim, ODM çözümleri, epilasyon, güzellik cihazları, özel üretim"
   },
   "header": {
-    "navigation": {
+    "logo": "iShine",
+    "nav": {
       "solutions": "Çözümler",
       "iplHairRemoval": "IPL Epilasyon",
       "howToUse": "Nasıl Kullanılır",
       "serviceSupport": "Servis ve Destek",
       "about": "Hakkımızda",
-      "contact": "İletişim"
-    },
-    "solutions": {
+      "contact": "İletişim",
       "logoPrinting": "Logo Baskı",
       "packaging": "Ambalaj Çözümleri",
       "dropShipping": "Dropshipping",
@@ -22,32 +21,28 @@
       "compliance": "Uyumluluk ve Sertifikalar",
       "designPrototyping": "Tasarım ve Prototipleme",
       "multiHeadIPL": "Çok Başlıklı IPL Özel",
-      "dualLampIPL": "Çift Lambalı IPL Özel"
-    },
-    "iplDevices": {
-      "smartApp": "Akıllı Uygulama Kontrollü IPL Cihazı",
-      "iceFeeling": "Buz Hissi IPL Cihazı",
-      "emerald": "Zümrüt IPL Cihazı",
-      "skinSensor": "Cilt Sensörlü IPL Cihazı",
-      "batteryPowered": "Pil Gücüyle Çalışan IPL Cihazı",
-      "handheld": "El Tipi IPL Cihazı",
-      "iceCooling": "Buz Soğutmalı IPL Cihazı",
-      "dualLamp": "Çift Lambalı IPL Cihazı",
-      "aiPowered": "Yapay Zeka Destekli IPL Cihazı"
-    },
-    "accessories": {
+      "dualLampIPL": "Çift Lambalı IPL Özel",
+      "iplDevices": "IPL Cihazları",
+      "smartAppIPL": "Akıllı Uygulama Kontrollü IPL Cihazı",
+      "iceFeelingIPL": "Buz Hissi IPL Cihazı",
+      "emeraldIPL": "Zümrüt IPL Cihazı",
+      "skinSensorIPL": "Cilt Sensörlü IPL Cihazı",
+      "batteryPoweredIPL": "Pil Gücüyle Çalışan IPL Cihazı",
+      "handheldIPL": "El Tipi IPL Cihazı",
+      "iceCoolingIPL": "Buz Soğutmalı IPL Cihazı",
+      "dualLampIPLDevice": "Çift Lambalı IPL Cihazı",
+      "aiPoweredIPL": "Yapay Zeka Destekli IPL Cihazı",
+      "accessories": "Aksesuarlar",
       "sapphireLens": "Safir Lens",
-      "adapter": "Adaptör",
-      "goggles": "Koruyucu Gözlük",
-      "filter": "Filtre"
-    },
-    "serviceSupport": {
+      "opticalFilter": "Optik Filtre",
+      "powerAdapter": "Güç Adaptörü",
+      "safetyGoggles": "Koruyucu Gözlük",
       "service": "Servis",
       "afterSales": "Satış Sonrası Servis",
-      "fdaGmp": "FDA GMP Temiz Oda Tasarımı",
-      "manufacturing": "IPL Cihaz Üretimi",
+      "winFDAListing": "FDA Listesi Kazanın",
+      "iplManufacturing": "IPL Cihaz Üretimi",
       "knowledgeBase": "Bilgi Bankası",
-      "support": "Destek > Satın Alma Rehberi",
+      "supportGuide": "Destek > Satın Alma Rehberi",
       "beautySourcing": "Güzellik Niş Tedarik ve Aksesuarlar",
       "pricingGuide": "Fiyat Rehberi",
       "helpCenter": "Yardım Merkezi",
@@ -55,9 +50,7 @@
       "videos": "Videolar",
       "blog": "Blog",
       "newsInsights": "Haberler ve İçgörüler",
-      "industries": "Hizmet Verdiğimiz Sektörler"
-    },
-    "about": {
+      "industries": "Hizmet Verdiğimiz Sektörler",
       "founderMessage": "Kurucu Mesajı",
       "technology": "Teknolojimiz",
       "globalWitness": "Küresel Tanık",
@@ -706,5 +699,610 @@
   "floating": {
     "contact": "Bize Ulaşın",
     "backToTop": "Başa Dön"
+  },
+  "afterSalesService": {
+    "hero": {
+      "title": "Satış Sonrası Servis",
+      "subtitle": "IPL cihaz üreticileri, satıcıları ve marka sahipleri için kapsamlı destek ekosistemi. Teknik danışmanlıktan iş çözümlerine kadar, başarınızı garanti etmek için buradayız.",
+      "cta": "Şimdi Destek Alın"
+    },
+    "stats": {
+      "satisfiedClients": "Memnun Müşteri",
+      "technicalSupport": "Teknik Destek",
+      "uptimeGuarantee": "Çalışma Süresi Garantisi",
+      "countriesServed": "Hizmet Verilen Ülke"
+    },
+    "ecosystem": {
+      "title": "Servis Ekosistemimiz",
+      "subtitle": "IPL cihaz pazarında başarı için ihtiyacınız olan her şey, teknik destekten iş büyüme çözümlerine kadar."
+    },
+    "categories": {
+      "technicalSupport": {
+        "title": "Teknik Destek",
+        "description": "Tüm IPL cihaz ihtiyaçlarınız için uzman danışmanlık ve sorun giderme"
+      },
+      "manufacturingServices": {
+        "title": "Üretim Hizmetleri",
+        "description": "Tasarımdan üretime kadar tam OEM/ODM çözümleri"
+      },
+      "businessSupport": {
+        "title": "İş Desteği",
+        "description": "Satıcılar ve marka sahipleri için kapsamlı iş çözümleri"
+      },
+      "resourcesMedia": {
+        "title": "Kaynaklar ve Medya",
+        "description": "Pazarlama ve eğitim için görsel kaynaklar ve eğitim içerikleri"
+      }
+    },
+    "services": {
+      "afterSalesService": {
+        "name": "Satış Sonrası Servis",
+        "description": "1 yıllık garanti ve 365 günlük iade hakkı ile 7/24 teknik destek"
+      },
+      "knowledgeBase": {
+        "name": "Bilgi Bankası",
+        "description": "IPL cihazları için kapsamlı SSS ve teknik dokümantasyon"
+      },
+      "helpCenter": {
+        "name": "Yardım Merkezi",
+        "description": "Canlı sohbet, telefon ve e-posta desteği dahil çok kanallı destek"
+      },
+      "iplManufacturing": {
+        "name": "IPL Üretimi",
+        "description": "FDA uyumluluğu ve kalite güvencesi ile özel IPL cihaz üretimi"
+      },
+      "winFdaListing": {
+        "name": "FDA Listesi Kazanın",
+        "description": "Markanız için FDA 510(k) listesi elde etmek üzere profesyonel danışmanlık"
+      },
+      "beautySourcing": {
+        "name": "Güzellik Tedariki",
+        "description": "Uzman danışmanlık ile güzellik cihazları ve aksesuarlar için özel tedarik"
+      },
+      "pricingGuide": {
+        "name": "Fiyat Rehberi",
+        "description": "Toplu siparişler için şeffaf fiyat bilgileri ve özel teklifler"
+      },
+      "gallery": {
+        "name": "Galeri",
+        "description": "Pazarlama amaçlı yüksek kaliteli ürün görselleri ve yaşam tarzı fotoğrafçılığı"
+      },
+      "videos": {
+        "name": "Videolar",
+        "description": "Ürün demoları, eğitimler ve promosyon video içerikleri"
+      }
+    },
+    "learnMore": "Daha Fazla Bilgi →",
+    "cta": {
+      "title": "Başlamaya Hazır mısınız?",
+      "subtitle": "Uzman ekibimiz tüm sorularınız veya destek ihtiyaçlarınız için yardımcı olmaya hazır. Bugün iletişime geçin ve iShine farkını deneyimleyin."
+    },
+    "warranty": {
+      "title": "Garanti ve İade Politikası",
+      "coverage": {
+        "title": "Garanti Kapsamı",
+        "manufacturingDefects": "Üretim kusurları veya normal kullanım sırasında oluşan arızalar için 1 yıllık garanti",
+        "partsReplacement": "Garanti süresi boyunca ücretsiz parça değişimi",
+        "technicalSupport": "Garanti süresi boyunca ücretsiz teknik destek",
+        "exclusions": "Garanti Dışı: Yanlış kullanım, yetkisiz değişiklikler, kazara hasar veya talimatlara uymama nedeniyle oluşan hasarlar kapsam dışıdır"
+      },
+      "returns": {
+        "title": "İade Politikası",
+        "returnWindow": "90 günlük para iade garantisi - ürün memnuniyetsizliği için",
+        "process": "İade işlemi: Herhangi bir ürünü iade etmeden önce bizimle iletişime geçin",
+        "refunds": "İade ve inceleme sonrası orijinal ödeme yöntemine işlenir",
+        "note": "Not: 90 günlük para iade garantisi ürün memnuniyetsizliği içindir. 1 yıllık garanti normal kullanım sırasında üretim kusurlarını veya arızaları kapsar. 90 günden sonra iade mevcut değildir, ancak garanti kapsamı yılın geri kalanı için devam eder."
+      }
+    },
+    "returnsTerms": {
+      "title": "İade ve Şartlar",
+      "returnWindow": "İade Penceresi: Para iade garantisi için teslimattan itibaren 90 gün.",
+      "process": "Süreç: Herhangi bir ürünü iade etmeden önce bizimle iletişime geçin. Yetkisiz iadeler reddedilebilir.",
+      "exclusions": "Hariç Tutulanlar: Tapjoy veya oyun içi para ile yapılan siparişler kesin satıştır ve iade için uygun değildir.",
+      "refunds": "İadeler: Alındıktan ve incelendikten sonra orijinal ödeme yöntemine işlenir. Kredi işlemi için 30 güne kadar izin verin.",
+      "warrantyExclusions": "Garanti Hariç Tutulanları: Yanlış kullanım, yetkisiz değişiklikler, kazara hasar veya talimatlara uymama nedeniyle oluşan hasarlar kapsam dışıdır. Cihaz uygunluk kılavuzlarını takip etmeme veya yanlış işletme nedeniyle ortaya çıkan sorunlar garanti kapsamı dışındadır.",
+      "fullTerms": "Tam Şartlar ve Koşullar"
+    },
+    "insights": {
+      "title": "Veri Odaklı İçgörüler",
+      "failureRate": "Bildirilen cihaz arızalarının %80'inden fazlası yanlış işletme veya uygunluk kılavuzlarını görmezden gelme ile bağlantılıdır."
+    }
+  },
+  "helpCenter": {
+    "hero": {
+      "title": "Yardım Merkezi",
+      "subtitle": "Kapsamlı yardım merkezimizle ihtiyacınız olan desteği alın. Yaygın soruların cevaplarını, sorun giderme rehberlerini ve uzman yardımını bulun."
+    }
+  },
+  "knowledgeBase": {
+    "hero": {
+      "title": "Bilgi Bankası",
+      "subtitle": "IPL cihazları için kapsamlı SSS ve teknik dokümantasyon. Ürünlerimiz ve hizmetlerimiz hakkındaki tüm sorularınızın cevaplarını bulun."
+    }
+  },
+  "iplManufacturing": {
+    "hero": {
+      "title": "IPL Üretimi",
+      "subtitle": "FDA uyumluluğu ve kalite güvencesi ile özel IPL cihaz üretimi. Tasarımdan üretime kadar, başarınızı garanti ediyoruz."
+    }
+  },
+  "winFdaListing": {
+    "hero": {
+      "title": "FDA Listesi Kazanın",
+      "subtitle": "Markanız için FDA 510(k) listesi elde etmek üzere profesyonel rehberlik. Uzman desteği ile düzenleyici süreçte gezinin."
+    }
+  },
+  "beautySourcing": {
+    "hero": {
+      "title": "Güzellik Tedariki",
+      "subtitle": "Uzman rehberlik ile güzellik cihazları ve aksesuarlar için özel tedarik. İşiniz için mükemmel ürünleri bulun."
+    }
+  },
+  "pricingGuide": {
+    "hero": {
+      "title": "Fiyat Rehberi",
+      "subtitle": "Toplu siparişler için şeffaf fiyat bilgileri ve özel teklifler. IPL cihaz ihtiyaçlarınız için rekabetçi fiyatlandırma alın."
+    }
+  },
+  "gallery": {
+    "hero": {
+      "title": "Galeri",
+      "subtitle": "Pazarlama amaçlı yüksek kaliteli ürün görselleri ve yaşam tarzı fotoğrafçılığı. Ürünlerinizi profesyonel görsellerle sergileyin."
+    }
+  },
+  "videos": {
+    "hero": {
+      "title": "Videolar",
+      "subtitle": "Ürün demoları, eğitimler ve promosyon video içerikleri. Etkileyici video içerikleri aracılığıyla ürünlerimizi öğrenin."
+    }
+  },
+  "about": {
+    "brandStory": {
+      "hero": {
+        "title": "Zorluktan Değişime: iShine Yolculuğu",
+        "subtitle": "IPL endüstrisi yüksek maliyetler, sınırlı özelleştirme ve teknik engellerle mücadele ediyordu. iShine bu kalıbı kırmak için kuruldu - dünya çapındaki işletmelere yeni nesil IPL teknolojisi ve fikirden pazara sorunsuz bir yol sağlayarak güçlendirdi."
+      },
+      "sections": {
+        "origin": {
+          "title": "Kökenimiz",
+          "content": "Gelişmiş IPL teknolojisini demokratikleştirme vizyonuyla kurulan iShine, güzellik cihaz pazarında inovasyonun yüksek maliyetler ve sınırlı erişilebilirlik tarafından engellendiği farkındalığından doğdu."
+        },
+        "mission": {
+          "title": "Misyonumuz",
+          "content": "Gelişmiş IPL çözümlerini her vizyoner marka için erişilebilir, özelleştirilebilir ve ölçeklenebilir hale getirmek, güzellik teknolojisi alanında inovasyon için engelleri kaldırmak."
+        },
+        "vision": {
+          "title": "Vizyonumuz",
+          "content": "Gelişmiş güzellik teknolojisinin demokratikleştirilmesinde küresel lider olmak ve dünya çapındaki markaları güven ve başarı ile yenilikçi IPL çözümlerini pazara getirmek için güçlendirmek."
+        },
+        "values": {
+          "title": "Değerlerimiz",
+          "content": "İnovasyon, işbirliği, kalite ve müşteri odaklılık yaptığımız her şeyi yönlendirir. Kalıcı ortaklıklar kurmaya ve her projede mükemmellik sunmaya inanıyoruz."
+        }
+      }
+    },
+    "corePrinciples": {
+      "hero": {
+        "title": "Temel İlkeler",
+        "subtitle": "İnovasyon, kalite ve müşteri başarısına yaklaşımımızı yönlendiren temel değerler."
+      },
+      "principles": {
+        "innovation": {
+          "title": "İnovasyon Önce",
+          "content": "IPL teknolojisinde mümkün olanın sınırlarını sürekli olarak zorluyoruz, çığır açan çözümler sunmak için Ar-Ge'ye yatırım yapıyoruz."
+        },
+        "quality": {
+          "title": "Kalite Mükemmelliği",
+          "content": "Ürettiğimiz her ürün kalite, güvenlik ve performansın en yüksek standartlarını karşılar."
+        },
+        "partnership": {
+          "title": "Ortaklık Yaklaşımı",
+          "content": "Müşterilerimizle işbirliği içinde çalışırız, başarılarını kendi başarımız olarak görürüz ve kapsamlı destek sağlarız."
+        },
+        "accessibility": {
+          "title": "Erişilebilirlik",
+          "content": "Gelişmiş teknolojinin sadece büyük şirketler için değil, herkes için erişilebilir olması gerektiğine inanıyoruz."
+        }
+      }
+    },
+    "founderMessage": {
+      "hero": {
+        "title": "Kurucu Mesajı",
+        "subtitle": "Yolculuk, vizyon ve mükemmellik taahhüdü hakkında kurucumuzdan kişisel bir mesaj."
+      },
+      "message": {
+        "title": "Sevgili Ortaklar ve Arkadaşlar",
+        "content": "iShine'ı kurduğumuzda, inovasyonun yüksek maliyetler ve karmaşık engeller tarafından sınırlandığı bir endüstri gördük. Misyonumuz açıktı: gelişmiş IPL teknolojisini demokratikleştirmek ve dünya çapındaki vizyoner markalar için erişilebilir hale getirmek. Bugün, bir üretim şirketinden daha fazlasını inşa ettiğimizi söylemekten gurur duyuyorum - başarıyı mümkün kılan bir ortaklık ekosistemi yarattık."
+      },
+      "vision": {
+        "title": "Gelecek için Vizyonumuz",
+        "content": "Her markanın, büyüklüğünden bağımsız olarak, en son güzellik teknolojisi inovasyonlarına erişebileceği bir dünya hayal ediyoruz. Ar-Ge, kalite ve ortaklık taahhüdümüz, IPL teknolojisi gelişiminin ön saflarında kalmamızı sağlar."
+      }
+    },
+    "globalWitness": {
+      "hero": {
+        "title": "Küresel Tanık",
+        "subtitle": "iShine'ın inovasyon, kalite ve ortaklık yoluyla dünya çapında nasıl fark yarattığını keşfedin."
+      },
+      "impact": {
+        "title": "Küresel Etki",
+        "content": "Teknolojimiz ve çözümlerimiz 50'den fazla ülkeye ulaştı, markaları yenilikçi IPL ürünlerini pazara getirmek ve gelişmiş güzellik teknolojisi ile yaşamları iyileştirmek için güçlendirdi."
+      },
+      "partnerships": {
+        "title": "Stratejik Ortaklıklar",
+        "content": "Dünya çapında önde gelen markalar, distribütörler ve teknoloji ortakları ile kalıcı ilişkiler kurduk, inovasyon ve başarı için bir ağ oluşturduk."
+      }
+    }
+  },
+  "sitemap": {
+    "title": "Site Haritası",
+    "mainPages": "Ana Sayfalar",
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "iplHairRemoval": "IPL Epilasyon",
+    "solutions": "Çözümler",
+    "contact": "İletişim",
+    "iplProducts": "IPL Ürünleri",
+    "emeraldIpl": "Zümrüt IPL",
+    "iceCoolingIpl": "Buz Soğutmalı IPL",
+    "iceFeelingIpl": "Buz Hissi IPL",
+    "handheldIpl": "El Tipi IPL",
+    "batteryPoweredIpl": "Pil Gücüyle Çalışan IPL",
+    "skinSensorIpl": "Cilt Sensörlü IPL",
+    "aiPoweredIpl": "Yapay Zeka Destekli IPL",
+    "dualLampIpl": "Çift Lambalı IPL",
+    "aboutPages": "Hakkımızda Sayfaları",
+    "brandStory": "Marka Hikayesi",
+    "companyInfo": "Şirket Bilgisi",
+    "corePrinciples": "Temel İlkeler",
+    "founderMessage": "Kurucu Mesajı",
+    "globalWitness": "Küresel Tanık",
+    "quality": "Kalite",
+    "technology": "Teknoloji",
+    "brandCustomization": "Marka Özelleştirme",
+    "compliance": "Uyumluluk",
+    "designPrototyping": "Tasarım ve Prototipleme",
+    "dropShipping": "Dropshipping",
+    "dualLampIplSolution": "Çift Lambalı IPL",
+    "globalShipping": "Küresel Kargo",
+    "logoPrinting": "Logo Baskı",
+    "multiHeadIpl": "Çok Başlıklı IPL",
+    "packagingSolutions": "Ambalaj Çözümleri",
+    "accessories": "Aksesuarlar",
+    "adapter": "Adaptör",
+    "filter": "Filtre",
+    "protectiveGoggles": "Koruyucu Gözlük",
+    "sapphireLens": "Safir Lens",
+    "serviceSupport": "Servis ve Destek",
+    "afterSalesService": "Satış Sonrası Servis",
+    "helpCenter": "Yardım Merkezi",
+    "knowledgeBase": "Bilgi Bankası",
+    "iplManufacturing": "IPL Üretimi",
+    "winFdaListing": "FDA Listesi Kazanın",
+    "beautySourcing": "Güzellik Tedariki",
+    "pricingGuide": "Fiyat Rehberi",
+    "gallery": "Galeri",
+    "videos": "Videolar",
+    "blog": "Blog",
+    "aiPoweredSkinSensing": "Yapay Zeka Destekli Cilt Algılama",
+    "fda510kPathway": "FDA 510k Yolu",
+    "futureHomeHairRemoval": "Gelecekteki Evde Epilasyon",
+    "globalMarketShifts": "Küresel Pazar Değişimleri",
+    "industries": "Endüstriler",
+    "iplBestChoice": "IPL En İyi Seçim",
+    "multiHeadIplSystems": "Çok Başlıklı IPL Sistemleri",
+    "newsInsights": "Haberler ve İçgörüler",
+    "sapphireCooling": "Safir Soğutma",
+    "sustainableManufacturing": "Sürdürülebilir Üretim",
+    "otherPages": "Diğer Sayfalar",
+    "howToUse": "Nasıl Kullanılır",
+    "shippingCost": "Kargo Maliyeti",
+    "silk": "İpek"
+  },
+  "accessories": {
+    "adapter": {
+      "hero": {
+        "title": "Güç Adaptörü",
+        "subtitle": "Dünya çapında güvenilir ve güvenli çalışma için çoklu voltaj desteği ile evrensel güç adaptörü."
+      },
+      "features": {
+        "voltage": {
+          "title": "Çoklu Voltaj Desteği",
+          "description": "Dünya çapında kullanım için 100-240V AC giriş ile uyumlu"
+        },
+        "safety": {
+          "title": "Güvenlik Sertifikalı",
+          "description": "Güvenli çalışma için CE, FCC ve RoHS sertifikalı"
+        },
+        "compatibility": {
+          "title": "Evrensel Uyumluluk",
+          "description": "Tüm iShine IPL cihazları ve aksesuarları ile çalışır"
+        },
+        "quality": {
+          "title": "Premium Kalite",
+          "description": "Güvenilir performans için yüksek kaliteli bileşenler"
+        }
+      }
+    },
+    "filter": {
+      "hero": {
+        "title": "IPL Filtresi",
+        "subtitle": "Optimal IPL performansı ve güvenliği için yüksek kaliteli optik filtreler."
+      },
+      "features": {
+        "optical": {
+          "title": "Optik Kalite",
+          "description": "Optimal ışık iletimi için hassas mühendislik"
+        },
+        "safety": {
+          "title": "Güvenlik Koruması",
+          "description": "Zararlı dalga boylarını engellerken tedavi ışığına izin verir"
+        },
+        "durability": {
+          "title": "Uzun Ömürlü",
+          "description": "Uzun süreli kullanım için ısı ve aşınmaya dayanıklı"
+        },
+        "compatibility": {
+          "title": "Mükemmel Uyum",
+          "description": "iShine IPL cihazları için özel olarak tasarlanmış"
+        }
+      }
+    },
+    "protectiveGoggles": {
+      "hero": {
+        "title": "Koruyucu Gözlük",
+        "subtitle": "Güvenli IPL tedavileri için profesyonel kalite göz koruması."
+      },
+      "features": {
+        "protection": {
+          "title": "Maksimum Koruma",
+          "description": "IPL ışığından gözleri korumak için özel tasarlanmış"
+        },
+        "comfort": {
+          "title": "Rahat Kullanım",
+          "description": "Uzun süreli kullanım için ergonomik tasarım"
+        },
+        "clarity": {
+          "title": "Net Görüş",
+          "description": "Tedavi sırasında net görüş için optimize edilmiş lens"
+        },
+        "durability": {
+          "title": "Dayanıklı Yapı",
+          "description": "Uzun ömürlü kullanım için yüksek kaliteli malzeme"
+        }
+      }
+    },
+    "sapphireLens": {
+      "hero": {
+        "title": "Safir Lens",
+        "subtitle": "IPL tedavileri için premium soğutma ve güvenlik teknolojisi."
+      },
+      "features": {
+        "cooling": {
+          "title": "Gelişmiş Soğutma",
+          "description": "Tedavi sırasında cilt sıcaklığını kontrol eder"
+        },
+        "safety": {
+          "title": "Güvenlik Koruması",
+          "description": "Cilt yanıklarını önlemek için ısı yönetimi"
+        },
+        "comfort": {
+          "title": "Maksimum Konfor",
+          "description": "Ağrısız ve rahat tedavi deneyimi"
+        },
+        "durability": {
+          "title": "Uzun Ömürlü",
+          "description": "Yüksek kaliteli safir malzeme ile dayanıklı"
+        }
+      }
+    }
+  },
+  "shippingCost": {
+    "hero": {
+      "title": "Kargo Maliyeti",
+      "subtitle": "Dünya çapında güvenilir ve uygun fiyatlı kargo çözümleri. IPL cihazlarınızı zamanında ve güvenli bir şekilde teslim ediyoruz."
+    },
+    "options": {
+      "express": {
+        "title": "Ekspres Kargo",
+        "description": "3-5 iş günü içinde teslimat",
+        "features": [
+          "Tam takip sistemi",
+          "Sigortalı kargo",
+          "Öncelikli işleme",
+          "7/24 müşteri desteği"
+        ]
+      },
+      "standard": {
+        "title": "Standart Kargo",
+        "description": "7-15 iş günü içinde teslimat",
+        "features": [
+          "Ekonomik fiyatlandırma",
+          "Güvenilir teslimat",
+          "Temel takip",
+          "Kalite garantisi"
+        ]
+      },
+      "bulk": {
+        "title": "Toplu Kargo",
+        "description": "Büyük siparişler için özel çözümler",
+        "features": [
+          "Özel fiyatlandırma",
+          "Lojistik optimizasyonu",
+          "Gümrük desteği",
+          "Teslimat koordinasyonu"
+        ]
+      }
+    },
+    "regions": {
+      "title": "Bölgesel Kargo Bilgileri",
+      "europe": {
+        "title": "Avrupa",
+        "delivery": "5-10 iş günü",
+        "cost": "Ücretsiz (500€ üzeri siparişler)"
+      },
+      "northAmerica": {
+        "title": "Kuzey Amerika",
+        "delivery": "7-12 iş günü",
+        "cost": "Ücretsiz (1000$ üzeri siparişler)"
+      },
+      "asia": {
+        "title": "Asya",
+        "delivery": "3-7 iş günü",
+        "cost": "Ücretsiz (300$ üzeri siparişler)"
+      },
+      "other": {
+        "title": "Diğer Bölgeler",
+        "delivery": "10-20 iş günü",
+        "cost": "Sipariş boyutuna göre değişir"
+      }
+    },
+    "tracking": {
+      "title": "Kargo Takibi",
+      "description": "Siparişinizi gerçek zamanlı olarak takip edin",
+      "features": [
+        "Anlık güncellemeler",
+        "E-posta bildirimleri",
+        "Mobil uygulama desteği",
+        "Müşteri hizmetleri desteği"
+      ]
+    }
+  },
+  "navigation": {
+    "solutions": "Çözümler",
+    "iplHairRemoval": "IPL Epilasyon",
+    "howToUse": "Nasıl Kullanılır",
+    "serviceSupport": "Servis ve Destek",
+    "about": "Hakkımızda",
+    "contact": "İletişim"
+  },
+  "solutions": {
+    "logoPrinting": "Logo Baskı",
+    "packaging": "Ambalaj Çözümleri",
+    "dropShipping": "Dropshipping",
+    "globalShipping": "Küresel Kargo",
+    "brandCustomization": "Marka Özelleştirme",
+    "compliance": "Uyumluluk ve Sertifikalar",
+    "designPrototyping": "Tasarım ve Prototipleme",
+    "multiHeadIPL": "Çok Başlıklı IPL Özel",
+    "dualLampIPL": "Çift Lambalı IPL Özel"
+  },
+  "iplDevices": {
+    "smartApp": "Akıllı Uygulama Kontrollü IPL Cihazı",
+    "iceFeeling": "Buz Hissi IPL Cihazı",
+    "emerald": "Zümrüt IPL Cihazı",
+    "skinSensor": "Cilt Sensörlü IPL Cihazı",
+    "batteryPowered": "Pil Gücüyle Çalışan IPL Cihazı",
+    "handheld": "El Tipi IPL Cihazı",
+    "iceCooling": "Buz Soğutmalı IPL Cihazı",
+    "dualLamp": "Çift Lambalı IPL Cihazı",
+    "aiPowered": "Yapay Zeka Destekli IPL Cihazı"
+  },
+  "accessories": {
+    "sapphireLens": "Safir Lens",
+    "adapter": "Adaptör",
+    "goggles": "Koruyucu Gözlük",
+    "filter": "Filtre"
+  },
+  "serviceSupport": {
+    "service": "Servis",
+    "afterSales": "Satış Sonrası Servis",
+    "fdaGmp": "FDA GMP Temiz Oda Tasarımı",
+    "manufacturing": "IPL Cihaz Üretimi",
+    "knowledgeBase": "Bilgi Bankası",
+    "support": "Destek > Satın Alma Rehberi",
+    "beautySourcing": "Güzellik Niş Tedarik ve Aksesuarlar",
+    "pricingGuide": "Fiyat Rehberi",
+    "helpCenter": "Yardım Merkezi",
+    "gallery": "Galeri",
+    "videos": "Videolar",
+    "blog": "Blog",
+    "newsInsights": "Haberler ve İçgörüler",
+    "industries": "Hizmet Verdiğimiz Sektörler",
+    "hero": {
+      "title": "Servis ve Destek",
+      "subtitle": "IPL cihaz üreticileri, satıcıları ve marka sahipleri için kapsamlı destek ekosistemi. Teknik danışmanlıktan iş çözümlerine kadar, başarınızı garanti etmek için buradayız.",
+      "cta": "Şimdi Destek Alın"
+    },
+    "stats": {
+      "satisfiedClients": "Memnun Müşteri",
+      "technicalSupport": "Teknik Destek",
+      "uptimeGuarantee": "Çalışma Süresi Garantisi",
+      "countriesServed": "Hizmet Verilen Ülke"
+    },
+    "ecosystem": {
+      "title": "Servis Ekosistemimiz",
+      "subtitle": "IPL cihaz pazarında başarı için ihtiyacınız olan her şey, teknik destekten iş büyüme çözümlerine kadar."
+    },
+    "categories": {
+      "technicalSupport": {
+        "title": "Teknik Destek",
+        "description": "Tüm IPL cihaz ihtiyaçlarınız için uzman danışmanlık ve sorun giderme"
+      },
+      "manufacturingServices": {
+        "title": "Üretim Hizmetleri",
+        "description": "Tasarımdan üretime kadar tam OEM/ODM çözümleri"
+      },
+      "businessSupport": {
+        "title": "İş Desteği",
+        "description": "Satıcılar ve marka sahipleri için kapsamlı iş çözümleri"
+      },
+      "resourcesMedia": {
+        "title": "Kaynaklar ve Medya",
+        "description": "Pazarlama ve eğitim için görsel kaynaklar ve eğitim içerikleri"
+      }
+    },
+    "services": {
+      "afterSalesService": {
+        "name": "Satış Sonrası Servis",
+        "description": "1 yıllık garanti ve 365 günlük iade hakkı ile 7/24 teknik destek"
+      },
+      "knowledgeBase": {
+        "name": "Bilgi Bankası",
+        "description": "IPL cihazları için kapsamlı SSS ve teknik dokümantasyon"
+      },
+      "helpCenter": {
+        "name": "Yardım Merkezi",
+        "description": "Canlı sohbet, telefon ve e-posta desteği dahil çok kanallı destek"
+      },
+      "iplManufacturing": {
+        "name": "IPL Üretimi",
+        "description": "FDA uyumluluğu ve kalite güvencesi ile özel IPL cihaz üretimi"
+      },
+      "winFdaListing": {
+        "name": "FDA Listesi Kazanın",
+        "description": "Markanız için FDA 510(k) listesi elde etmek üzere profesyonel danışmanlık"
+      },
+      "beautySourcing": {
+        "name": "Güzellik Tedariki",
+        "description": "Uzman danışmanlık ile güzellik cihazları ve aksesuarlar için özel tedarik"
+      },
+      "pricingGuide": {
+        "name": "Fiyat Rehberi",
+        "description": "Toplu siparişler için şeffaf fiyat bilgileri ve özel teklifler"
+      },
+      "gallery": {
+        "name": "Galeri",
+        "description": "Pazarlama amaçlı yüksek kaliteli ürün görselleri ve yaşam tarzı fotoğrafçılığı"
+      },
+      "videos": {
+        "name": "Videolar",
+        "description": "Ürün demoları, eğitimler ve promosyon video içerikleri"
+      }
+    },
+    "learnMore": "Daha Fazla Bilgi →",
+    "cta": {
+      "title": "Başlamaya Hazır mısınız?",
+      "subtitle": "Uzman ekibimiz tüm sorularınız veya destek ihtiyaçlarınız için yardımcı olmaya hazır. Bugün iletişime geçin ve iShine farkını deneyimleyin."
+    }
+  },
+  "about": {
+    "founderMessage": "Kurucu Mesajı",
+    "technology": "Teknolojimiz",
+    "globalWitness": "Küresel Tanık",
+    "corePrinciples": "Temel İlkeler",
+    "company": "iShine Hakkında",
+    "brandStory": "Marka Hikayesi",
+    "quality": "Kalite"
   }
 }
