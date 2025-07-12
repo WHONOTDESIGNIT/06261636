@@ -775,25 +775,79 @@
     "packagingSolutions": {
       "hero": {
         "title": "Custom Packaging Solutions",
-        "subtitle": "Professional packaging design and manufacturing for your IPL devices and accessories."
+        "subtitle": "iShine delivers branded packaging for IPL devices—magnetic boxes, two-piece boxes, and eight+ styles. We tailor packaging for dropshipping, retail, eco, and luxury needs."
       },
-      "features": {
-        "design": {
-          "title": "Custom Design",
-          "description": "Tailored packaging designs for your brand"
+      "boxTypes": {
+        "magnetic": {
+          "label": "Magnetic Box",
+          "desc": "Premium, elegant, fully customizable. Supports hot stamping, embossing, soft touch, eco-paper, and foam/cardboard inserts for secure display."
         },
-        "materials": {
-          "title": "Quality Materials",
-          "description": "Premium materials for durable and attractive packaging"
+        "twoPiece": {
+          "label": "Two-Piece Box",
+          "desc": "Classic rigid box, sturdy and protective, ideal for luxury and retail packaging. Can be branded with inserts."
         },
-        "printing": {
-          "title": "High-Quality Printing",
-          "description": "Professional printing with vibrant colors and crisp details"
+        "drawer": {
+          "label": "Drawer Box",
+          "desc": "Slide-out structure that elevates unboxing and adds protection."
         },
-        "protection": {
-          "title": "Product Protection",
-          "description": "Secure packaging that protects your products during shipping"
+        "folding": {
+          "label": "Folding Carton",
+          "desc": "Lightweight & cost-effective for retail and e-commerce; easy to print & assemble."
+        },
+        "gable": {
+          "label": "Gable Box",
+          "desc": "Unique portable shape—perfect for gifting and limited editions."
+        },
+        "book": {
+          "label": "Book Style Box",
+          "desc": "Opens like a book, delivering premium feel and ample branding space."
+        },
+        "collapsible": {
+          "label": "Collapsible Box",
+          "desc": "Space-saving for shipping, easy to assemble—ideal for dropshipping."
+        },
+        "pillow": {
+          "label": "Pillow Box",
+          "desc": "Compact & stylish—great for accessories, samples, or travel kits."
         }
+      },
+      "scenarios": {
+        "dropshipping": {
+          "title": "Dropshipping & E-commerce",
+          "desc": "Volume-efficient, protective packaging that minimises shipping cost and prevents transit damage. Collapsible & folding boxes ready for global fulfilment."
+        },
+        "retail": {
+          "title": "Retail & Supermarket",
+          "desc": "Eye-catching shelf presence that turns \"on shelf\" into \"off shelf\". Bold colours, unique structures, and premium finishes drive impulse purchase."
+        },
+        "eco": {
+          "title": "Eco-Friendly & Skin-Friendly",
+          "desc": "FSC-certified, recyclable, and skin-safe materials for brands focused on sustainability and consumer safety."
+        },
+        "luxury": {
+          "title": "Luxury & Gift Packaging",
+          "desc": "Hot stamping, embossing, and premium textures deliver a luxury unboxing experience—perfect for high-end brands & gifting campaigns."
+        }
+      },
+      "readMore": "Read More",
+      "info": {
+        "leadTime": {
+          "label": "Lead Time",
+          "value": "3–7 business days for most custom packaging orders."
+        },
+        "design": {
+          "label": "Design Principle",
+          "value": "Packaging is a purchase command—our retail boxes are made to \"sell at first sight.\""
+        },
+        "customization": {
+          "label": "Customization",
+          "value": "All box types support custom logo, color, insert, and finish."
+        }
+      },
+      "cta": {
+        "title": "Ready to Elevate Your Brand Packaging?",
+        "subtitle": "Our team will help you create packaging that protects, impresses, and sells—tailored for your business model.",
+        "button": "Get a Packaging Proposal"
       }
     }
   },
