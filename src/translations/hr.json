@@ -126,12 +126,138 @@
     "products": {
       "title": "Naš asortiman IPL uređaja",
       "subtitle": "Prilagodljivi IPL uređaji za svaku potrebu tržišta",
-      "cta": "View All IPL Devices"
+      "cta": "Pogledajte sve IPL uređaje"
     },
     "cta": {
       "title": "Spremni za pokretanje vašeg IPL projekta?",
       "subtitle": "Razgovarajmo o vašim zahtjevima i stvorite savršeno IPL rješenje za vaš brend",
       "button": "Zakažite konzultacije"
+    },
+    "about": {
+      "title": "O iShine",
+      "subtitle": "Kompletna IPL rješenja.",
+      "cta": "Pročitajte više",
+      "description1": "iShine Tech Co., Limited je kompletni dobavljač za",
+      "manufacturing": "proizvodnju IPL uređaja za uklanjanje dlačica",
+      "and": "i",
+      "customization": "prilagodbu",
+      "description2": "Pomažemo vam dizajnirati, izgraditi i pakirati. Od ideje do tržišta.",
+      "description3": "Imamo kapacitete za prilagođeni ledeno hlađenje IPL, pametni aplikacijski povezani IPL uređaj, IPL uređaj s senzorom kože. iShine pruža rješenja koja najbolje odgovaraju vašem brend identitetu."
+    },
+    "whatWeDo": {
+      "title": "Što radimo",
+      "description": "iShine tim radi s različitim industrijskim vlasnicima brendova, menadžerima razvoja proizvoda, menadžerima proizvoda, menadžerima nabave kategorija, stručnjacima za retail compliance i dizajnerima proizvoda zajedno i nudi im OEM ODM rješenja od oblikovanih IPL uređaj dizajna, prototipiranja do IPL ugovorne proizvodnje, tiskanja, pakiranja kako bi osigurali uspjeh njihovih IPL projekata."
+    },
+    "productShowcase": {
+      "title": "Prilagođeni IPL uređaji",
+      "subtitle": "Vi dizajnirate, mi gradimo, pakirate",
+      "description": "iShine je kompletni proizvođač prilagođenih IPL proizvoda koji nudi opsežnu prilagodbu od razvoja kalupa i prototipiranja do masovne proizvodnje i pakiranja. iShine je već prilagodio više od 1,000 prilagođenih uređajnih IPL projekata za naše partnere u prošlosti s puno iskustva u IPL proizvodnim tehničkim rješenjima i compliance rješenjima.",
+      "include": "Prilagođeni IPL proizvodi uključuju:"
+    },
+    "customization": {
+      "title": "Neograničene opcije prilagodbe",
+      "subtitle": "Izdvojite se na tržištu s potpuno prilagođenim IPL uređajima koji odgovaraju vašem brendu.",
+      "options": {
+        "0": {
+          "label": "Prilagodba boje",
+          "content": "Odaberite iz neograničenih opcija boja koje odgovaraju vašem brend identitetu."
+        },
+        "1": {
+          "label": "Tiskanje logotipa",
+          "content": "Dodajte svoj logotip za potpuno brendirano iskustvo proizvoda."
+        },
+        "2": {
+          "label": "Prilagodba funkcija",
+          "content": "Prilagodite značajke i funkcije vašim tržišnim potrebama."
+        },
+        "3": {
+          "label": "Dizajn pakiranja",
+          "content": "Premium pakiranje za retail, e-commerce ili darove."
+        },
+        "4": {
+          "label": "Podrška za certifikaciju",
+          "content": "Potpuna podrška za globalne certifikacije."
+        }
+      }
+    },
+    "process": {
+      "title": "OEM/ODM proces",
+      "subtitle": "Od ideje do isporuke, činimo vaš IPL uređaj projekt besprijekornim i uspješnim.",
+      "steps": {
+        "0": {
+          "title": "Konzultacija",
+          "desc": "Razgovarajte o vašoj brend viziji i zahtjevima."
+        },
+        "1": {
+          "title": "Dizajn i prototip",
+          "desc": "Dobijte prilagođene dizajne i funkcionalne prototipove."
+        },
+        "2": {
+          "title": "Potvrda uzorka",
+          "desc": "Odobrite uzorke prije masovne proizvodnje."
+        },
+        "3": {
+          "title": "Masovna proizvodnja",
+          "desc": "Efikasna i visokokvalitetna proizvodnja."
+        },
+        "4": {
+          "title": "Kontrola kvalitete",
+          "desc": "Stroga QC za svaku seriju."
+        },
+        "5": {
+          "title": "Certifikacija",
+          "desc": "Podrška za FDA, CE i druge."
+        },
+        "6": {
+          "title": "Globalna isporuka",
+          "desc": "Isporuka diljem svijeta s fleksibilnom logistikom."
+        },
+        "7": {
+          "title": "Naknadna usluga",
+          "desc": "Kontinuirana podrška za vaš posao."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Što kažu naši klijenti",
+      "pageButton": "Idite na stranicu s recenzijama",
+      "0": "\"iShine nam je pomogao lansirati naš IPL brend u rekordnom vremenu. Kvaliteta i usluga su impresivni!\"",
+      "1": "\"Opcije prilagodbe su beskonačne. Naši klijenti vole jedinstveno pakiranje i značajke.\"",
+      "2": "\"Profesionalni tim, brz odgovor i pouzdana isporuka. Toplo preporučeno za OEM/ODM.\"",
+      "3": "\"Proširili smo se na nova tržišta zahvaljujući iShine podršci za certifikaciju i compliance.\"",
+      "4": "\"Naknadna usluga je izvrsna. Svaki problem se rješava brzo i profesionalno.\"",
+      "5": "\"Naš brend ugled se značajno poboljšao zahvaljujući iShine stručnosti u dizajnu i proizvodnji.\""
+    },
+    "faq": {
+      "title": "Često postavljana pitanja",
+      "0": {
+        "q": "Što je IPL i kako funkcionira?",
+        "a": "IPL (Intense Pulsed Light) koristi širokospektralnu svjetlost za ciljanje folikula dlačica, sigurno i efikasno smanjujući rast dlačica."
+      },
+      "1": {
+        "q": "Mogu li prilagoditi funkcije uređaja?",
+        "a": "Da, nudiмо potpunu prilagodbu značajki, boja, pakiranja i više za odgovaranje vašim brend potrebama."
+      },
+      "2": {
+        "q": "Koje certifikacije podržavate?",
+        "a": "Podržavamo FDA, CE, RoHS i druge globalne certifikacije kako bismo osigurali compliance na vašim ciljnim tržištima."
+      },
+      "3": {
+        "q": "Koliko je vrijeme proizvodnje?",
+        "a": "Tipično vrijeme proizvodnje je 25-35 dana nakon odobrenja uzorka, ovisno o veličini narudžbe i prilagodbi."
+      },
+      "4": {
+        "q": "Pružate li naknadnu podršku?",
+        "a": "Da, nudiмо opsežnu naknadnu uslugu uključujući tehničku podršku i jamstvo."
+      },
+      "5": {
+        "q": "Možete li dostaviti globalno?",
+        "a": "Apsolutno. Nudiмо pouzdanu globalnu isporuku za podršku vašem poslu gdje god se nalazite."
+      }
+    },
+    "contact": {
+      "title": "Kontaktirajte nas",
+      "subtitle": "Spremni za osnaživanje vašeg brenda? Kontaktirajte nas za besplatne konzultacije i ponudu."
     }
   },
   "contact": {
