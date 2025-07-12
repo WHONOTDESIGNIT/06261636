@@ -12,6 +12,7 @@ import {
   AlertCircle
 } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
+import { useTranslation } from '../../hooks/useTranslation';
 
 interface QA {
   question: string;
@@ -345,11 +346,32 @@ const faqData: Category[] = [
 ];
 
 const KnowledgeBase: React.FC = () => {
+  const { t } = useTranslation();
   const [open, setOpen] = useState<{ catIdx: number; qaIdx: number } | null>(null);
   // 删除 'iShine: Refunds & 100-day money back guarantee' 板块
   const filteredFaqData = faqData.filter(cat => cat.title !== 'iShine: Troubleshooting' && cat.title !== 'iShine: Refunds & 100-day money back guarantee');
   return (
-    <>
+    <div className="min-h-screen pt-20">
+      {/* Hero Section */}
+      <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="text-center"
+          >
+            <BookOpen className="w-20 h-20 mx-auto mb-6 text-white" />
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">
+              {t('knowledgeBase.hero.title')}
+            </h1>
+            <p className="text-xl md:text-2xl mb-8 text-gray-100 max-w-4xl mx-auto">
+              {t('knowledgeBase.hero.subtitle')}
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
       {/* ---------------- FAQ CATEGORIES ---------------- */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -409,7 +431,7 @@ const KnowledgeBase: React.FC = () => {
 
       {/* ---------------- CONTACT FORM ---------------- */}
       <ContactFormA />
-    </>
+    </div>
   );
 };
 
