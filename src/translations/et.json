@@ -115,6 +115,132 @@
       "subtitle": "Ülemaailmselt juhtiv IPL-seadmete tootja, aitame teil disainida, ehitada ja pakkida.",
       "cta": "Saada hinnapakkumine"
     },
+    "about": {
+      "title": "iShine'ist",
+      "subtitle": "Täielikud IPL lahendused.",
+      "cta": "Loe rohkem",
+      "description1": "iShine Tech Co., Limited on täielik tarnija",
+      "manufacturing": "IPL karvaeemaldamise seadmete tootmiseks",
+      "and": "ja",
+      "customization": "kohandamiseks",
+      "description2": ". Aitame teil disainida, toota ja pakkida. Ideest turuni.",
+      "description3": "Meil on võimalused kohandatud jääjahutusega IPL, nutirakendusega ühendatud IPL seadmete, nahkanduriga IPL seadmete jaoks. iShine pakub lahendusi, mis sobivad kõige paremini teie brändi identiteedile."
+    },
+    "whatWeDo": {
+      "title": "MIDA ME TEEME",
+      "description": "iShine meeskond töötab koos brändi omanikega erinevatest valdkondadest, tootearenduse juhtide, tootejuhtide, kategooriate hankimise juhtide, jaemüügi vastavuse spetsialistide, tootedisaineritega koos ja pakub OEM ODM lahendusi vormitud IPL seadmete disainist, prototüüpimisest IPL lepingu tootmiseni, trükkimiseni, pakendamiseni, et tagada nende IPL projektide edu."
+    },
+    "productShowcase": {
+      "title": "KOHANDATUD IPL SEADMED",
+      "subtitle": "Teie disainite, meie toodame, pakendame",
+      "description": "iShine on täieliku teenusega kohandatud IPL toodete tootja, mis pakub ots-otsani kohandamist vormi arendamisest ja prototüüpimisest massitootmiseni ja pakendamiseni. iShine on kohandatud üle 1,000 kohandatud seadme IPL projekti meie partnerite jaoks minevikus, omades laialdast kogemust IPL toodete tehniliste lahenduste ja vastavuse lahenduste vallas.",
+      "include": "Kohandatud IPL tooted sisaldavad:"
+    },
+    "customization": {
+      "title": "Piiramatud kohandamisvõimalused",
+      "subtitle": "Eristuge turul täielikult kohandatavate IPL seadmetega, mis sobivad teie brändile.",
+      "options": {
+        "0": {
+          "label": "Värvi kohandamine",
+          "content": "Valige piiramatute värvivalikute hulgast, et sobida teie brändi identiteedile."
+        },
+        "1": {
+          "label": "Logo trükkimine",
+          "content": "Lisage oma logo täielikult bränditud toote kogemuse jaoks."
+        },
+        "2": {
+          "label": "Funktsiooni kohandamine",
+          "content": "Kohandage funktsioone ja võimalusi, et vastata teie turu vajadustele."
+        },
+        "3": {
+          "label": "Pakendi disain",
+          "content": "Premium pakend jaemüügi, e-kaubanduse või kingituste jaoks."
+        },
+        "4": {
+          "label": "Sertifikaadi tugi",
+          "content": "Täielik tugi globaalsetele sertifikaatidele."
+        }
+      }
+    },
+    "process": {
+      "title": "OEM/ODM protsess",
+      "subtitle": "Ideest kohaletoimetamiseni teeme teie IPL seadme projekti sujuks ja edukaks.",
+      "steps": {
+        "0": {
+          "title": "Konsultatsioon",
+          "desc": "Arutage oma brändi visiooni ja nõudmisi."
+        },
+        "1": {
+          "title": "Disain ja prototüüpimine",
+          "desc": "Hankige kohandatud disaine ja funktsionaalseid prototüüpe."
+        },
+        "2": {
+          "title": "Proovi kinnitamine",
+          "desc": "Kinnitage proovid enne massitootmist."
+        },
+        "3": {
+          "title": "Massitootmine",
+          "desc": "Tõhus ja kõrgekvaliteetne tootmine."
+        },
+        "4": {
+          "title": "Kvaliteedi kontroll",
+          "desc": "Range kvaliteedikontroll igale partiile."
+        },
+        "5": {
+          "title": "Sertifitseerimine",
+          "desc": "Tugi FDA, CE ja teistele."
+        },
+        "6": {
+          "title": "Globaalne saatmine",
+          "desc": "Ülemaailmne kohaletoimetamine paindliku logistikaga."
+        },
+        "7": {
+          "title": "Müügijärgne teenus",
+          "desc": "Pidev tugi teie ärile."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Mida ütlevad meie kliendid",
+      "pageButton": "Mine soovituste lehele",
+      "0": "\"iShine aitas meil lanseerida oma IPL brändi rekordiliselt kiiresti. Muljetavaldav kvaliteet ja teenus!\"",
+      "1": "\"Piiramatud kohandamisvõimalused. Meie kliendid armastavad ainulaadset pakendit ja funktsioone.\"",
+      "2": "\"Professionaalne meeskond, kiire vastus ja usaldusväärne kohaletoimetamine. Kõrgelt soovitatav OEM/ODM jaoks.\"",
+      "3": "\"Me laiendasime uutele turgudele tänu iShine'i sertifikaadi ja vastavuse toele.\"",
+      "4": "\"Suurepärane müügijärgne teenus. Kõik probleemid lahendatakse kiiresti ja professionaalselt.\"",
+      "5": "\"Meie brändi maine on oluliselt paranenud tänu iShine'i disaini ja tootmise ekspertidele.\""
+    },
+    "faq": {
+      "title": "Korduma kippuvad küsimused",
+      "0": {
+        "q": "Mis on IPL ja kuidas see töötab?",
+        "a": "IPL (Intensiivne impulssvalgus) kasutab laiaspektri valgust juuste näärmete sihtmärgistamiseks, vähendades juuste kasvu ohutult ja tõhusalt."
+      },
+      "1": {
+        "q": "Kas saan kohandada seadme funktsioone?",
+        "a": "Jah, pakume funktsioonide, värvide, pakendi ja muu täielikku kohandamist, et sobida teie brändi vajadustele."
+      },
+      "2": {
+        "q": "Milliseid sertifikaate te toetate?",
+        "a": "Toetame FDA, CE, RoHS ja teisi globaalseid sertifikaate, et tagada vastavus teie sihtturgudele."
+      },
+      "3": {
+        "q": "Kui kaua on tootmise tähtaeg?",
+        "a": "Tüüpiline tähtaeg on 25-35 päeva pärast proovi kinnitamist, sõltuvalt tellimuse suurusest ja kohandamisest."
+      },
+      "4": {
+        "q": "Kas pakute müügijärgset tuge?",
+        "a": "Jah, pakume põhjalikku müügijärgset teenust, sealhulgas tehnilist tuge ja garantii."
+      },
+      "5": {
+        "q": "Kas saate saata üle maailma?",
+        "a": "Kindlasti. Pakume usaldusväärset ülemaailmset saatmist, et toetada teie äri, kus iganes te olete."
+      }
+    },
+    "contact": {
+      "title": "Võtke meiega ühendust",
+      "subtitle": "Valmis oma brändi tugevdama? Võtke meiega ühendust tasuta konsultatsiooni ja hinnapakkumise saamiseks."
+    },
     "partners": {
       "title": "Usaldatud globaalsete brändide poolt",
       "subtitle": "Töötame koos valdkonna liidritega üle maailma"
