@@ -132,6 +132,132 @@
       "title": "Bersedia Memulakan Projek IPL Anda?",
       "subtitle": "Mari bincangkan keperluan anda dan cipta penyelesaian IPL yang sempurna untuk jenama anda",
       "button": "Jadualkan Perundingan"
+    },
+    "about": {
+      "title": "Tentang iShine",
+      "subtitle": "Penyelesaian IPL satu perhentian.",
+      "cta": "Ketahui Lebih Lanjut",
+      "description1": "iShine Tech Co., Limited adalah pembekal satu perhentian untuk",
+      "manufacturing": "pembuatan peranti penyingkiran rambut IPL",
+      "and": "dan",
+      "customization": "penyesuaian",
+      "description2": ". Kami membantu anda mereka bentuk, membina dan membungkus. Dari idea ke pasaran.",
+      "description3": "Kami mempunyai keupayaan untuk IPL penyejukan ais tersuai, peranti IPL bersambung aplikasi pintar, peranti IPL sensor kulit. iShine menyediakan penyelesaian yang paling sesuai untuk identiti jenama anda."
+    },
+    "whatWeDo": {
+      "title": "APA YANG KAMI LAKUKAN",
+      "description": "Pasukan iShine bekerjasama dengan pemilik jenama industri berbeza, pengurus pembangunan produk, pengurus produk, pengurus pembelian kategori, pakar pematuhan runcit, pereka produk bersama dan menawarkan mereka penyelesaian OEM ODM dari reka bentuk peranti IPL acuan, prototaip hingga pembuatan kontrak IPL, percetakan, pembungkusan untuk memastikan kejayaan projek IPL mereka."
+    },
+    "productShowcase": {
+      "title": "PERANTI IPL TERSESUAI",
+      "subtitle": "Anda reka bentuk, kami bina, bungkus",
+      "description": "iShine adalah pengilang produk IPL tersuai perkhidmatan penuh yang menawarkan penyesuaian dari hujung ke hujung dari pembangunan acuan dan prototaip hingga pengeluaran besar-besaran dan pembungkusan. iShine telah menyesuaikan lebih daripada 1,000 projek peranti IPL tersuai untuk rakan kongsi kami pada masa lalu dengan banyak pengalaman dalam penyelesaian teknikal produk IPL dan penyelesaian pematuhan.",
+      "include": "Produk IPL tersuai termasuk:"
+    },
+    "customization": {
+      "title": "Pilihan Penyesuaian Tidak Terhad",
+      "subtitle": "Bezakan diri anda di pasaran dengan peranti IPL yang boleh disesuaikan sepenuhnya sesuai untuk jenama anda.",
+      "options": {
+        "0": {
+          "label": "Penyesuaian Warna",
+          "content": "Pilih daripada pilihan warna tidak terhad untuk menyesuaikan identiti jenama anda."
+        },
+        "1": {
+          "label": "Percetakan Logo",
+          "content": "Tambah logo anda untuk pengalaman produk yang berjenama sepenuhnya."
+        },
+        "2": {
+          "label": "Penyesuaian Fungsi",
+          "content": "Sesuaikan ciri dan fungsi untuk memenuhi keperluan pasaran anda."
+        },
+        "3": {
+          "label": "Reka Bentuk Pembungkusan",
+          "content": "Pembungkusan premium untuk runcit, e-dagang atau hadiah."
+        },
+        "4": {
+          "label": "Sokongan Pensijilan",
+          "content": "Sokongan penuh untuk pensijilan global."
+        }
+      }
+    },
+    "process": {
+      "title": "Proses OEM/ODM",
+      "subtitle": "Dari idea hingga penghantaran, kami menjadikan projek peranti IPL anda lancar dan berjaya.",
+      "steps": {
+        "0": {
+          "title": "Perundingan",
+          "desc": "Bincangkan visi jenama dan keperluan anda."
+        },
+        "1": {
+          "title": "Reka Bentuk & Prototaip",
+          "desc": "Dapatkan reka bentuk tersuai dan prototaip berfungsi."
+        },
+        "2": {
+          "title": "Pengesahan Sampel",
+          "desc": "Sahkan sampel sebelum pengeluaran besar-besaran."
+        },
+        "3": {
+          "title": "Pengeluaran Besar-besaran",
+          "desc": "Pembuatan yang cekap dan berkualiti tinggi."
+        },
+        "4": {
+          "title": "Pemeriksaan Kualiti",
+          "desc": "QC yang ketat untuk setiap lot."
+        },
+        "5": {
+          "title": "Pensijilan",
+          "desc": "Sokongan untuk FDA, CE dan lain-lain."
+        },
+        "6": {
+          "title": "Penghantaran Global",
+          "desc": "Penghantaran di seluruh dunia dengan logistik yang fleksibel."
+        },
+        "7": {
+          "title": "Perkhidmatan Selepas Jualan",
+          "desc": "Sokongan berterusan untuk perniagaan anda."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Apa Kata Pelanggan Kami",
+      "pageButton": "Pergi ke halaman testimoni",
+      "0": "\"iShine membantu kami melancarkan jenama IPL kami dalam masa rekod. Kualiti dan perkhidmatan mengagumkan!\"",
+      "1": "\"Pilihan penyesuaian tidak terhad. Pelanggan kami menyukai pembungkusan dan ciri yang unik.\"",
+      "2": "\"Pasukan profesional, respons pantas dan penghantaran yang boleh dipercayai. Sangat disyorkan untuk OEM/ODM.\"",
+      "3": "\"Kami berkembang ke pasaran baharu berkat sokongan pensijilan dan pematuhan iShine.\"",
+      "4": "\"Perkhidmatan selepas jualan cemerlang. Semua isu diselesaikan dengan pantas dan profesional.\"",
+      "5": "\"Reputasi jenama kami bertambah baik dengan ketara berkat kepakaran reka bentuk dan pembuatan iShine.\""
+    },
+    "faq": {
+      "title": "Soalan Lazim",
+      "0": {
+        "q": "Apakah IPL dan bagaimana ia berfungsi?",
+        "a": "IPL (Cahaya Berdenyut Intensif) menggunakan cahaya spektrum luas untuk mensasarkan folikel rambut, mengurangkan pertumbuhan rambut dengan selamat dan berkesan."
+      },
+      "1": {
+        "q": "Bolehkah saya menyesuaikan fungsi peranti?",
+        "a": "Ya, kami menawarkan penyesuaian penuh ciri, warna, pembungkusan dan lain-lain untuk menyesuaikan keperluan jenama anda."
+      },
+      "2": {
+        "q": "Apakah pensijilan yang anda sokong?",
+        "a": "Kami menyokong FDA, CE, RoHS dan pensijilan global lain untuk memastikan pematuhan di pasaran sasaran anda."
+      },
+      "3": {
+        "q": "Berapakah masa pembuatan?",
+        "a": "Masa tipikal adalah 25-35 hari selepas pengesahan sampel, bergantung pada saiz pesanan dan penyesuaian."
+      },
+      "4": {
+        "q": "Adakah anda menyediakan sokongan selepas jualan?",
+        "a": "Ya, kami menawarkan perkhidmatan selepas jualan komprehensif termasuk sokongan teknikal dan jaminan."
+      },
+      "5": {
+        "q": "Bolehkah anda menghantar ke seluruh dunia?",
+        "a": "Sudah tentu. Kami menawarkan penghantaran di seluruh dunia yang boleh dipercayai untuk menyokong perniagaan anda di mana sahaja anda berada."
+      }
+    },
+    "contact": {
+      "title": "Hubungi Kami",
+      "subtitle": "Bersedia untuk memperkasakan jenama anda? Hubungi kami untuk perundingan percuma dan sebut harga."
     }
   },
   "contact": {
