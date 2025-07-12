@@ -22,6 +22,7 @@ export const languages = [
   { code: 'fi-fi', name: 'Finland', nativeName: 'Suomi', flag: '🇫🇮', region: 'Europe' },
   { code: 'sv-se', name: 'Sweden', nativeName: 'Svenska', flag: '🇸🇪', region: 'Europe' },
   { code: 'no-no', name: 'Norway', nativeName: 'Norsk', flag: '🇳🇴', region: 'Europe' },
+  { code: 'pl-pl', name: 'Poland', nativeName: 'Polski', flag: '🇵🇱', region: 'Europe' },
   { code: 'hr-hr', name: 'Croatia', nativeName: 'Hrvatski', flag: '🇭🇷', region: 'Europe' },
   { code: 'hu-hu', name: 'Hungary', nativeName: 'Magyar', flag: '🇭🇺', region: 'Europe' },
   { code: 'ru-ru', name: 'Russia', nativeName: 'Русский', flag: '🇷🇺', region: 'Europe' },
