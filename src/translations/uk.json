@@ -115,6 +115,132 @@
       "subtitle": "Провідний світовий виробник IPL-пристроїв, ми допомагаємо вам проектувати, будувати і пакувати.",
       "cta": "Отримати пропозицію"
     },
+    "about": {
+      "title": "Про iShine",
+      "subtitle": "Комплексні рішення IPL.",
+      "cta": "Читати далі",
+      "description1": "iShine Tech Co., Limited є комплексним постачальником для",
+      "manufacturing": "виробництва IPL-пристроїв для видалення волосся",
+      "and": "та",
+      "customization": "індивідуалізації",
+      "description2": ". Допомагаємо вам проектувати, виробляти та пакувати. Від ідеї до ринку.",
+      "description3": "Ми маємо можливості для індивідуальних IPL з льодяним охолодженням, IPL-пристроїв з підключенням до смарт-додатків, IPL-пристроїв з датчиком шкіри. iShine надає рішення, які найкраще підходять для вашої ідентичності бренду."
+    },
+    "whatWeDo": {
+      "title": "ЩО МИ РОБИМО",
+      "description": "Команда iShine співпрацює з власниками брендів з різних галузей, менеджерами з розробки продуктів, менеджерами продуктів, менеджерами з закупівель категорій, спеціалістами з ритейл-відповідності, дизайнерами продуктів разом і надає OEM ODM рішення від дизайну литих IPL-пристроїв, прототипування до контрактного виробництва IPL, друку, пакування для забезпечення успіху їхніх IPL-проектів."
+    },
+    "productShowcase": {
+      "title": "ІНДИВІДУАЛЬНІ IPL-ПРИСТРОЇ",
+      "subtitle": "Ви проектуєте, ми виробляємо, пакуємо",
+      "description": "iShine є виробником індивідуальних IPL-продуктів повного циклу, що надає комплексну індивідуалізацію від розробки прес-форм та прототипування до масового виробництва та пакування. iShine вже індивідуалізував понад 1,000 індивідуальних IPL-проектів для наших партнерів у минулому з великим досвідом у технічних рішеннях IPL-продуктів та рішеннях відповідності.",
+      "include": "Індивідуальні IPL-продукти включають:"
+    },
+    "customization": {
+      "title": "Необмежені варіанти індивідуалізації",
+      "subtitle": "Виділяйтесь на ринку з повністю індивідуалізованими IPL-пристроями, які відповідають вашому бренду.",
+      "options": {
+        "0": {
+          "label": "Індивідуалізація кольору",
+          "content": "Оберіть з необмежених варіантів кольорів, щоб відповідати ідентичності вашого бренду."
+        },
+        "1": {
+          "label": "Друк логотипу",
+          "content": "Додайте свій логотип для повністю брендованого досвіду продукту."
+        },
+        "2": {
+          "label": "Індивідуалізація функцій",
+          "content": "Індивідуалізуйте функції та можливості для задоволення потреб вашого ринку."
+        },
+        "3": {
+          "label": "Дизайн упаковки",
+          "content": "Преміум упаковка для ритейлу, електронної комерції або подарунків."
+        },
+        "4": {
+          "label": "Підтримка сертифікації",
+          "content": "Повна підтримка для глобальних сертифікацій."
+        }
+      }
+    },
+    "process": {
+      "title": "OEM/ODM процес",
+      "subtitle": "Від ідеї до доставки, ми робимо ваш IPL-проект безперешкодним та успішним.",
+      "steps": {
+        "0": {
+          "title": "Консультація",
+          "desc": "Обговоріть ваше бачення бренду та вимоги."
+        },
+        "1": {
+          "title": "Дизайн та прототипування",
+          "desc": "Отримайте індивідуальні дизайни та функціональні прототипи."
+        },
+        "2": {
+          "title": "Підтвердження зразка",
+          "desc": "Затвердьте зразки перед масовим виробництвом."
+        },
+        "3": {
+          "title": "Масове виробництво",
+          "desc": "Ефективне та високоякісне виробництво."
+        },
+        "4": {
+          "title": "Контроль якості",
+          "desc": "Суворий контроль якості для кожної партії."
+        },
+        "5": {
+          "title": "Сертифікація",
+          "desc": "Підтримка для FDA, CE та інших."
+        },
+        "6": {
+          "title": "Глобальна доставка",
+          "desc": "Доставка по всьому світу з гнучкою логістикою."
+        },
+        "7": {
+          "title": "Післяпродажний сервіс",
+          "desc": "Постійна підтримка для вашого бізнесу."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Що говорять наші клієнти",
+      "pageButton": "Перейти на сторінку відгуків",
+      "0": "\"iShine допоміг нам запустити наш IPL-бренд у рекордний час. Вражаюча якість та сервіс!\"",
+      "1": "\"Необмежені варіанти індивідуалізації. Нашим клієнтам подобається унікальна упаковка та функції.\"",
+      "2": "\"Професійна команда, швидка відповідь та надійна доставка. Наполегливо рекомендуємо для OEM/ODM.\"",
+      "3": "\"Ми розширились на нові ринки завдяки підтримці сертифікації та відповідності від iShine.\"",
+      "4": "\"Відмінний післяпродажний сервіс. Будь-які проблеми вирішуються швидко та професійно.\"",
+      "5": "\"Репутація нашого бренду значно покращилась завдяки експертизі iShine у дизайні та виробництві.\""
+    },
+    "faq": {
+      "title": "Часті запитання",
+      "0": {
+        "q": "Що таке IPL і як це працює?",
+        "a": "IPL (Інтенсивний імпульсний світло) використовує широкосмугове світло для націлювання на волосяні фолікули, безпечно та ефективно зменшуючи ріст волосся."
+      },
+      "1": {
+        "q": "Чи можу я індивідуалізувати функції пристрою?",
+        "a": "Так, ми надаємо повну індивідуалізацію функцій, кольорів, упаковки та іншого для відповідності потребам вашого бренду."
+      },
+      "2": {
+        "q": "Які сертифікації ви підтримуєте?",
+        "a": "Ми підтримуємо FDA, CE, RoHS та інші глобальні сертифікації для забезпечення відповідності вашим цільовим ринкам."
+      },
+      "3": {
+        "q": "Який термін виробництва?",
+        "a": "Типовий термін становить 25-35 днів після затвердження зразка, залежно від розміру замовлення та індивідуалізації."
+      },
+      "4": {
+        "q": "Чи надаєте ви післяпродажну підтримку?",
+        "a": "Так, ми надаємо комплексний післяпродажний сервіс, включаючи технічну підтримку та гарантію."
+      },
+      "5": {
+        "q": "Чи можете ви доставляти по всьому світу?",
+        "a": "Звичайно. Ми надаємо надійну доставку по всьому світу для підтримки вашого бізнесу, де б ви не знаходились."
+      }
+    },
+    "contact": {
+      "title": "Зв'яжіться з нами",
+      "subtitle": "Готові посилити свій бренд? Зв'яжіться з нами для безкоштовної консультації та пропозиції."
+    },
     "partners": {
       "title": "Довіряють глобальні бренди",
       "subtitle": "Працюємо з лідерами галузі по всьому світу"
@@ -503,96 +629,96 @@
       },
       "aiPoweredSkinSensing": {
         "title": "Визначення шкіри на основі ШІ: Наступна межа у безпеці IPL",
-        "intro": "How artificial intelligence is revolutionizing IPL device safety and personalization through real-time skin analysis.",
+        "intro": "Як штучний інтелект революціонізує безпеку IPL-пристроїв та персоналізацію через аналіз шкіри в реальному часі.",
         "sections": {
-          "introduction": "Introduction",
-          "aiTechnology": "AI Technology in IPL",
-          "skinSensing": "Skin Sensing Mechanisms",
-          "safetyBenefits": "Safety Benefits",
-          "userExperience": "User Experience",
-          "caseStudies": "Case Studies",
-          "conclusion": "Conclusion"
+          "introduction": "Вступ",
+          "aiTechnology": "ШІ-технологія в IPL",
+          "skinSensing": "Механізми визначення шкіри",
+          "safetyBenefits": "Переваги безпеки",
+          "userExperience": "Досвід користувача",
+          "caseStudies": "Тематичні дослідження",
+          "conclusion": "Висновок"
         }
       },
       "multiHeadIPLSystems": {
         "title": "Багатоголовочні IPL-системи: Точність зустрічається з ефективністю для всього тіла",
-        "intro": "The evolution of at-home hair removal has been profoundly shaped by the introduction of multi-head Intense Pulsed Light (IPL) systems. Philips pioneered this trend with its interchangeable head technology, setting a new standard for versatility and user-centric design in home-use IPL devices.",
+        "intro": "Еволюція домашнього видалення волосся була глибоко сформована введенням багатоголовочних систем інтенсивного імпульсного світла (IPL). Philips був піонером цього тренду зі своєю технологією змінних голівок, встановивши новий стандарт універсальності та користувацько-орієнтованого дизайну в IPL-пристроях для домашнього використання.",
         "sections": {
-          "philipsLegacy": "The Philips Legacy: Setting the Standard for Multi-Head IPL",
-          "keyFeatures": "Key Features of Multi-Head IPL Devices",
-          "respondingToVIO": "Responding to VIO Hair Removal Needs",
-          "whyMultiHeadMatters": "Why Multi-Head Design Matters",
-          "painReduction": "Pain Reduction: The Role of Advanced Filters",
-          "realUserFeedback": "Real User Feedback",
-          "conclusion": "Conclusion",
-          "references": "References"
+          "philipsLegacy": "Спадщина Philips: Встановлення стандарту для багатоголовочних IPL",
+          "keyFeatures": "Ключові особливості багатоголовочних IPL-пристроїв",
+          "respondingToVIO": "Відповідь на потреби видалення волосся VIO",
+          "whyMultiHeadMatters": "Чому важливий багатоголовочний дизайн",
+          "painReduction": "Зменшення болю: Роль передових фільтрів",
+          "realUserFeedback": "Реальні відгуки користувачів",
+          "conclusion": "Висновок",
+          "references": "Посилання"
         }
       },
       "sapphireCooling": {
         "title": "Сапфірове охолодження: Підвищення комфорту в IPL-процедурах",
-        "intro": "Discover how sapphire cooling technology is transforming the comfort and safety of IPL hair removal treatments.",
+        "intro": "Дізнайтеся, як технологія сапфірового охолодження трансформує комфорт та безпеку IPL-процедур видалення волосся.",
         "sections": {
-          "technologyOverview": "Technology Overview",
-          "coolingMechanism": "How Sapphire Cooling Works",
-          "benefits": "Benefits for Users",
-          "clinicalEvidence": "Clinical Evidence",
-          "deviceComparison": "Device Comparison",
-          "userTestimonials": "User Testimonials",
-          "conclusion": "Conclusion"
+          "technologyOverview": "Огляд технології",
+          "coolingMechanism": "Як працює сапфірове охолодження",
+          "benefits": "Переваги для користувачів",
+          "clinicalEvidence": "Клінічні докази",
+          "deviceComparison": "Порівняння пристроїв",
+          "userTestimonials": "Відгуки користувачів",
+          "conclusion": "Висновок"
         }
       },
       "industries": {
         "title": "Галузі, які ми обслуговуємо: IPL-застосування в різних секторах",
-        "intro": "IPL technology is not just for beauty—explore its applications in medical, veterinary, and industrial sectors.",
+        "intro": "IPL-технологія — це не лише для краси, дослідіть її застосування в медичних, ветеринарних та промислових секторах.",
         "sections": {
-          "beauty": "Beauty Industry",
-          "medical": "Medical Applications",
-          "veterinary": "Veterinary Uses",
-          "industrial": "Industrial Applications",
-          "caseStudies": "Case Studies",
-          "futureTrends": "Future Trends"
+          "beauty": "Індустрія краси",
+          "medical": "Медичні застосування",
+          "veterinary": "Ветеринарне використання",
+          "industrial": "Промислові застосування",
+          "caseStudies": "Тематичні дослідження",
+          "futureTrends": "Майбутні тенденції"
         }
       },
       "iplBestChoice": {
         "title": "Чому домашні IPL-пристрої для видалення волосся є найкращим вибором серед усіх інструментів для видалення волосся",
-        "intro": "Discover why IPL is the most effective, comfortable, and convenient solution for long-term hair removal at home—backed by science and real user experience.",
+        "intro": "Дізнайтеся, чому IPL є найефективнішим, найкомфортнішим та найзручнішим рішенням для довготривалого видалення волосся вдома — підтверджено наукою та реальним досвідом користувачів.",
         "sections": {
-          "comparison": "Hair Removal Methods Comparison",
-          "whyChooseIPL": "Why Choose IPL Home Hair Removal?",
-          "userStories": "Real User Stories",
-          "faq": "Frequently Asked Questions",
-          "recommendedBlog": "Recommended Blog",
-          "exploreMore": "Explore More"
+          "comparison": "Порівняння методів видалення волосся",
+          "whyChooseIPL": "Чому обрати домашнє IPL-видалення волосся?",
+          "userStories": "Реальні історії користувачів",
+          "faq": "Часті запитання",
+          "recommendedBlog": "Рекомендований блог",
+          "exploreMore": "Дізнатися більше"
         }
       },
       "futureHomeHairRemoval": {
         "title": "Майбутнє домашніх пристроїв для видалення волосся: Тренди, інновації і що далі",
-        "intro": "Explore the evolution, current breakthroughs, and the next generation of home hair removal devices—AI, multifunctionality, and sustainable design for 2025 and beyond.",
+        "intro": "Дослідіть еволюцію, поточні прориви та наступне покоління домашніх пристроїв для видалення волосся — ШІ, багатофункціональність та стійкий дизайн для 2025 року і далі.",
         "sections": {
-          "evolution": "Evolution of Home Hair Removal Technology",
-          "stateOfTheArt": "Key Features of Next-Gen Devices (2025)",
-          "aiPersonalization": "AI and Personalization in Hair Removal",
-          "vision": "The 'Ultimate' Home Hair Removal Device: A Vision",
-          "challenges": "Challenges and Considerations",
-          "faq": "Frequently Asked Questions",
-          "exploreMore": "Explore More",
-          "aboutAuthor": "About the Author"
+          "evolution": "Еволюція технології домашнього видалення волосся",
+          "stateOfTheArt": "Ключові особливості пристроїв нового покоління (2025)",
+          "aiPersonalization": "ШІ та персоналізація у видаленні волосся",
+          "vision": "'Ідеальний' домашній пристрій для видалення волосся: Бачення",
+          "challenges": "Виклики та міркування",
+          "faq": "Часті запитання",
+          "exploreMore": "Дізнатися більше",
+          "aboutAuthor": "Про автора"
         }
       },
       "fda510kPathway": {
         "title": "Шлях FDA 510(k): Навігація по класифікації медичних пристроїв для IPL",
-        "intro": "A comprehensive guide to the FDA 510(k) pathway for home-use IPL hair removal devices. Learn about regulatory requirements, marketing claims, and how iShine helps brands achieve compliance.",
+        "intro": "Комплексний посібник по шляху FDA 510(k) для домашніх IPL-пристроїв видалення волосся. Дізнайтеся про регуляторні вимоги, маркетингові заяви та як iShine допомагає брендам досягти відповідності.",
         "sections": {
-          "introduction": "Introduction",
-          "pathway": "1. FDA 510(k) Pathway for Home IPL Devices",
-          "marketingClaims": "2. How Marketing Claims Affect Regulatory Classification",
-          "ishineExpertise": "3. iShine's Expertise in Securing Your Brand's FDA 510(k) Listing",
-          "benefits": "4. Benefits of Obtaining a Brand-Specific FDA 510(k) Listing",
-          "guidance": "5. Practical Guidance for Brands",
-          "conclusion": "Conclusion",
-          "faq": "Frequently Asked Questions",
-          "exploreMore": "Explore More",
-          "author": "About the Author"
+          "introduction": "Вступ",
+          "pathway": "1. Шлях FDA 510(k) для домашніх IPL-пристроїв",
+          "marketingClaims": "2. Як маркетингові заяви впливають на регуляторну класифікацію",
+          "ishineExpertise": "3. Експертиза iShine у забезпеченні FDA 510(k) лістингу вашого бренду",
+          "benefits": "4. Переваги отримання бренд-специфічного FDA 510(k) лістингу",
+          "guidance": "5. Практичне керівництво для брендів",
+          "conclusion": "Висновок",
+          "faq": "Часті запитання",
+          "exploreMore": "Дізнатися більше",
+          "author": "Про автора"
         }
       }
     }
