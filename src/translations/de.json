@@ -165,8 +165,133 @@
   "home": {
     "hero": {
       "title1": "Maßgeschneiderte IPL-Haarentfernungsgeräte für Kosmetikmarken",
-      "subtitle": "Sie entwerfen es, wir bauen es und verpacken es.",
-      "cta": "Kostenloses Angebot erhalten"
+      "title2": "& Branding IPL-Geräte",
+      "subtitle": "Global führender IPL-Gerätehersteller, hilft Ihnen dabei, es zu entwerfen, zu bauen und zu verpacken.",
+      "cta": "Angebot erhalten"
+    },
+    "unlimitedOptions": {
+      "colorCustomization": {
+        "label": "Farbanpassung",
+        "content": "Wählen Sie aus unbegrenzten Farboptionen, um zu Ihrer Markenidentität zu passen."
+      },
+      "logoPrinting": {
+        "label": "Logo-Druck",
+        "content": "Fügen Sie Ihr Logo für ein vollständig gebrandetes Produkterlebnis hinzu."
+      },
+      "functionCustomization": {
+        "label": "Funktionsanpassung",
+        "content": "Passen Sie Features und Funktionen an Ihre Marktanforderungen an."
+      },
+      "packagingDesign": {
+        "label": "Verpackungsdesign",
+        "content": "Premium-Verpackung für Einzelhandel, E-Commerce oder Geschenke."
+      },
+      "certificationSupport": {
+        "label": "Zertifizierungsunterstützung",
+        "content": "Vollständige Unterstützung für globale Zertifizierungen."
+      }
+    },
+    "processSteps": {
+      "consultation": {
+        "title": "Beratung",
+        "desc": "Besprechen Sie Ihre Markenvision und Anforderungen."
+      },
+      "designPrototyping": {
+        "title": "Design & Prototyping",
+        "desc": "Erhalten Sie maßgeschneiderte Designs und funktionale Prototypen."
+      },
+      "sampleConfirmation": {
+        "title": "Musterbestätigung",
+        "desc": "Genehmigen Sie Muster vor der Massenproduktion."
+      },
+      "massProduction": {
+        "title": "Massenproduktion",
+        "desc": "Effiziente und hochwertige Herstellung."
+      },
+      "qualityInspection": {
+        "title": "Qualitätskontrolle",
+        "desc": "Strenge QC für jede Charge."
+      },
+      "certification": {
+        "title": "Zertifizierung",
+        "desc": "Unterstützung für FDA, CE und mehr."
+      },
+      "globalShipping": {
+        "title": "Weltweiter Versand",
+        "desc": "Weltweite Lieferung mit flexibler Logistik."
+      },
+      "afterSalesService": {
+        "title": "Kundendienst",
+        "desc": "Laufende Unterstützung für Ihr Geschäft."
+      }
+    },
+    "testimonials": {
+      "testimonial1": "\"iShine hat uns geholfen, unsere IPL-Marke in Rekordzeit zu lancieren. Die Qualität und der Service sind beeindruckend!\"",
+      "testimonial2": "\"Die Anpassungsoptionen sind endlos. Unsere Kunden lieben die einzigartige Verpackung und Features.\"",
+      "testimonial3": "\"Professionelles Team, schnelle Reaktion und zuverlässige Lieferung. Sehr empfehlenswert für OEM/ODM.\"",
+      "testimonial4": "\"Wir haben uns dank iShines Zertifizierungs- und Compliance-Unterstützung auf neue Märkte ausgeweitet.\"",
+      "testimonial5": "\"Der Kundendienst ist ausgezeichnet. Alle Probleme werden schnell und professionell gelöst.\"",
+      "testimonial6": "\"Unser Markenruf hat sich dank iShines Design- und Herstellungsexpertise erheblich verbessert.\""
+    },
+    "faq": {
+      "q1": {
+        "question": "Was ist IPL und wie funktioniert es?",
+        "answer": "IPL (Intense Pulsed Light) verwendet Breitbandlicht, um Haarfollikel zu zielen und Haarwuchs sicher und effektiv zu reduzieren."
+      },
+      "q2": {
+        "question": "Kann ich die Gerätefunktionen anpassen?",
+        "answer": "Ja, wir bieten vollständige Anpassung von Features, Farben, Verpackung und mehr, um Ihren Markenbedürfnissen zu entsprechen."
+      },
+      "q3": {
+        "question": "Welche Zertifizierungen unterstützen Sie?",
+        "answer": "Wir unterstützen FDA, CE, RoHS und andere globale Zertifizierungen, um Compliance in Ihren Zielmärkten zu gewährleisten."
+      },
+      "q4": {
+        "question": "Wie lange ist die Produktionszeit?",
+        "answer": "Typische Lieferzeit ist 25-35 Tage nach Musterbestätigung, abhängig von Bestellgröße und Anpassung."
+      },
+      "q5": {
+        "question": "Bieten Sie Kundendienst?",
+        "answer": "Ja, wir bieten umfassenden Kundendienst einschließlich technischer Unterstützung und Garantie."
+      },
+      "q6": {
+        "question": "Können Sie weltweit versenden?",
+        "answer": {
+          "intro": "Absolut. Wir bieten zuverlässigen weltweiten Versand, um Ihr Geschäft zu unterstützen, wo immer Sie sind.",
+          "coverage": {
+            "title": "Globale Logistik-Abdeckung:",
+            "text": "Ja, wir bieten internationale Versandlösungen mit Tracking-Codes für jede Bestellung."
+          },
+          "costs": {
+            "title": "Transparente Versandkosten:",
+            "text": "Versandgebühren werden basierend auf dem Gewicht und der Menge Ihrer Bestellung berechnet."
+          },
+          "clickText": "Klicken Sie auf den",
+          "checkButton": "Versandkosten prüfen",
+          "buttonText": "Button.",
+          "howTo": {
+            "title": "Wie Sie Ihre Versandkosten prüfen:",
+            "step1": "Geben Sie Ihre Bestelldetails ein (Gewicht/Menge).",
+            "step2": "Sehen Sie sofort die entsprechenden Versandraten und Optionen.",
+            "step3": "Verfolgen Sie Ihre Sendung jederzeit mit dem bereitgestellten Logistik-Code nach dem Versand."
+          },
+          "help": "Brauchen Sie Hilfe? Unser Team ist hier, um Ihnen bei allen Versand- oder Logistikfragen zu helfen."
+        }
+      }
+    },
+    "gallery": {
+      "image1": {
+        "alt": "Home IPL-Haarentfernungsgerät eingehende Materialprüfung und Qualitätskontrollprozess"
+      },
+      "image2": {
+        "alt": "Professioneller Verpackungsprozess für Home IPL-Haarentfernungsgeräte"
+      },
+      "image3": {
+        "alt": "Moderne Lagerhalle für Home IPL-Haarentfernungsgerät Lagerung und Vertrieb"
+      },
+      "image4": {
+        "alt": "iShine Forschungs- und Entwicklungsabteilung für IPL-Technologieinnovation"
+      }
     },
     "about": {
       "title": "Über iShine",
@@ -453,20 +578,177 @@
     "description": "Führender IPL-Gerätehersteller bietet OEM/ODM-Lösungen von der Idee zum Markt weltweit."
   },
   "howToUse": {
-    "heroTitle": "So verwenden Sie IPL-Geräte",
-    "heroDescription": "Kompletter Leitfaden für sichere und effektive IPL-Haarentfernung. Lernen Sie richtige Techniken, Sicherheitsrichtlinien und erhalten Sie die besten Ergebnisse von Ihrem IPL-Gerät.",
-    "stepByStepTitle": "Schritt-für-Schritt Anweisungen",
-    "stepByStepDescription": "Befolgen Sie diese Schritte für sichere und effektive IPL-Behandlung",
-    "safetyGuidelinesTitle": "Sicherheitsrichtlinien",
-    "safetyGuidelinesDescription": "Wichtige Sicherheitsinformationen für IPL-Behandlung",
-    "treatmentScheduleTitle": "Empfohlener Behandlungsplan",
-    "treatmentScheduleDescription": "Befolgen Sie diesen Plan für optimale Haarentfernungsergebnisse",
-    "troubleshootingTitle": "Fehlerbehebungsleitfaden",
-    "troubleshootingDescription": "Häufige Probleme und ihre Lösungen",
-    "faqTitle": "Häufig gestellte Fragen",
-    "faqDescription": "Erhalten Sie Antworten auf häufige IPL-Behandlungsfragen",
-    "videoTutorialsTitle": "Video-Tutorials",
-    "videoTutorialsDescription": "Schauen Sie sich Schritt-für-Schritt Video-Anleitungen für die richtige IPL-Nutzung an"
+    "heroTitle": "Wie man IPL-Geräte verwendet",
+    "heroDescription": "Vollständiger Leitfaden für sichere und effektive IPL-Haarentfernung. Lernen Sie richtige Techniken, Sicherheitsrichtlinien und erhalten Sie die besten Ergebnisse von Ihrem IPL-Gerät.",
+    "steps": {
+      "preparation": {
+        "title": "Vorbereitung",
+        "description": "Reinigen und bereiten Sie den Behandlungsbereich vor",
+        "details": {
+          "shave": "Rasieren Sie den Behandlungsbereich 24-48 Stunden vor der Verwendung",
+          "clean": "Reinigen Sie die Haut gründlich mit milder Seife und Wasser",
+          "dry": "Stellen Sie sicher, dass die Haut vollständig trocken ist",
+          "remove": "Entfernen Sie Make-up, Lotionen oder Deodorants"
+        }
+      },
+      "deviceSetup": {
+        "title": "Geräteeinrichtung",
+        "description": "Schalten Sie Ihr IPL-Gerät ein und konfigurieren Sie es",
+        "details": {
+          "connect": "Verbinden Sie das Gerät mit der Stromquelle",
+          "power": "Drücken Sie den Ein-/Ausschalter zum Einschalten",
+          "intensity": "Wählen Sie das entsprechende Intensitätsniveau (beginnen Sie mit dem niedrigsten)",
+          "attach": "Stellen Sie sicher, dass der Behandlungsaufsatz ordnungsgemäß befestigt ist"
+        }
+      },
+      "skinToneTest": {
+        "title": "Hautton-Test",
+        "description": "Führen Sie einen Patch-Test für die Sicherheit durch",
+        "details": {
+          "test": "Testen Sie zuerst auf einem kleinen, unauffälligen Bereich",
+          "wait": "Warten Sie 24 Stunden, um auf unerwünschte Reaktionen zu prüfen",
+          "adjust": "Passen Sie die Intensität bei Bedarf basierend auf der Hautreaktion an",
+          "proceed": "Fahren Sie nur fort, wenn keine Reizung auftritt"
+        }
+      },
+      "treatmentProcess": {
+        "title": "Behandlungsprozess",
+        "description": "Wenden Sie IPL-Behandlung systematisch an",
+        "details": {
+          "place": "Platzieren Sie das Gerät fest gegen die Haut",
+          "press": "Drücken Sie den Blitz-Button für jeden Impuls",
+          "move": "Bewegen Sie sich zum benachbarten Bereich ohne Überlappung",
+          "complete": "Vervollständigen Sie den gesamten Behandlungsbereich systematisch"
+        }
+      },
+      "postTreatmentCare": {
+        "title": "Nachbehandlung",
+        "description": "Richtige Nachsorge für optimale Ergebnisse",
+        "details": {
+          "cooling": "Tragen Sie Kühlgel oder Aloe Vera bei Bedarf auf",
+          "sun": "Vermeiden Sie Sonneneinstrahlung für 24-48 Stunden",
+          "sunscreen": "Verwenden Sie SPF 30+ Sonnenschutz beim Ausgehen",
+          "moisturize": "Befeuchten Sie den behandelten Bereich regelmäßig"
+        }
+      }
+    },
+    "safetyGuidelines": {
+      "warnings": {
+        "title": "Wichtige Sicherheitswarnungen",
+        "point1": "Verwenden Sie niemals auf gebräunter, sonnenverbrannter oder gereizter Haut",
+        "point2": "Verwenden Sie nicht auf Muttermalen, Tattoos oder dunklen Flecken",
+        "point3": "Vermeiden Sie Augenbereich und Schleimhäute",
+        "point4": "Nicht geeignet für schwangere oder stillende Frauen",
+        "point5": "Konsultieren Sie einen Arzt, wenn Sie Hauterkrankungen haben"
+      },
+      "eyeProtection": {
+        "title": "Augenschutz",
+        "point1": "Tragen Sie immer Schutzbrillen, wenn diese bereitgestellt werden",
+        "point2": "Schauen Sie niemals direkt in den Lichtblitz",
+        "point3": "Halten Sie das Gerät vom Augenbereich fern",
+        "point4": "Stellen Sie sicher, dass andere im Raum ebenfalls geschützt sind"
+      },
+      "skinSensitivity": {
+        "title": "Hautempfindlichkeit",
+        "point1": "Beginnen Sie mit der niedrigsten Intensitätseinstellung",
+        "point2": "Erhöhen Sie schrittweise, wenn es gut vertragen wird",
+        "point3": "Stoppen Sie sofort bei Schmerzen oder Unbehagen",
+        "point4": "Lassen Sie 48-72 Stunden zwischen Behandlungen im gleichen Bereich"
+      }
+    },
+    "treatmentSchedule": {
+      "weeks1to4": {
+        "week": "Woche 1-4",
+        "frequency": "Einmal pro Woche",
+        "description": "Anfangsbehandlungsphase für Haarreduktion"
+      },
+      "weeks5to8": {
+        "week": "Woche 5-8",
+        "frequency": "Alle 2 Wochen",
+        "description": "Wartungsphase, während das Haarwachstum langsamer wird"
+      },
+      "weeks9to12": {
+        "week": "Woche 9-12",
+        "frequency": "Alle 3-4 Wochen",
+        "description": "Endphase für verbleibende Haarfollikel"
+      },
+      "after12weeks": {
+        "week": "Nach 12 Wochen",
+        "frequency": "Bei Bedarf",
+        "description": "Touch-up-Behandlungen für neues Haarwachstum"
+      }
+    },
+    "troubleshooting": {
+      "deviceNotTurningOn": {
+        "problem": "Gerät schaltet sich nicht ein",
+        "solution1": "Überprüfen Sie die Stromverbindung und stellen Sie sicher, dass das Gerät eingesteckt ist",
+        "solution2": "Überprüfen Sie, ob der Ein-/Ausschalter fest gedrückt wird",
+        "solution3": "Überprüfen Sie, ob das Gerät aufgeladen werden muss (für Akku-Modelle)",
+        "solution4": "Kontaktieren Sie den Kundendienst, wenn das Problem weiterhin besteht"
+      },
+      "noLightFlash": {
+        "problem": "Kein Lichtblitz beim Drücken des Buttons",
+        "solution1": "Stellen Sie sicher, dass das Gerät in vollem Kontakt mit der Haut ist",
+        "solution2": "Überprüfen Sie, ob Sicherheitssensoren blockiert sind",
+        "solution3": "Überprüfen Sie, ob der Behandlungsaufsatz ordnungsgemäß befestigt ist",
+        "solution4": "Reinigen Sie das Lichtfenster und die Sensoren"
+      },
+      "skinIrritation": {
+        "problem": "Hautreizung nach der Behandlung",
+        "solution1": "Tragen Sie Kühlgel oder Aloe Vera auf, um die Haut zu beruhigen",
+        "solution2": "Reduzieren Sie das Intensitätsniveau für die nächste Behandlung",
+        "solution3": "Erhöhen Sie die Zeit zwischen den Behandlungen",
+        "solution4": "Beenden Sie die Verwendung, wenn die Reizung anhält"
+      },
+      "noResults": {
+        "problem": "Keine sichtbaren Ergebnisse nach mehreren Behandlungen",
+        "solution1": "Stellen Sie sicher, dass Sie einen konsistenten Behandlungsplan einhalten",
+        "solution2": "Überprüfen Sie, ob Sie das entsprechende Intensitätsniveau verwenden",
+        "solution3": "Überprüfen Sie, ob die Haarfarbe für IPL geeignet ist (dunkles Haar funktioniert am besten)",
+        "solution4": "Seien Sie geduldig - Ergebnisse sind typischerweise nach 4-6 Behandlungen sichtbar"
+      }
+    },
+    "faqs": {
+      "q1": {
+        "question": "Wie lange dauert jede Behandlungssitzung?",
+        "answer": "Die Behandlungszeit variiert je nach Bereichsgröße. Das Gesicht dauert typischerweise 5-10 Minuten, Beine 15-20 Minuten und der gesamte Körper kann 30-45 Minuten dauern."
+      },
+      "q2": {
+        "question": "Wann werde ich Ergebnisse sehen?",
+        "answer": "Die meisten Benutzer sehen eine anfängliche Haarreduktion nach 3-4 Behandlungen. Signifikante Ergebnisse sind typischerweise nach 6-8 Behandlungen über 2-3 Monate sichtbar."
+      },
+      "q3": {
+        "question": "Ist IPL-Behandlung schmerzhaft?",
+        "answer": "Die meisten Benutzer beschreiben die Empfindung als milden Gummiband-Schnapp. Moderne IPL-Geräte mit Kühltechnologie minimieren Unbehagen erheblich."
+      },
+      "q4": {
+        "question": "Kann ich IPL bei allen Hauttönen verwenden?",
+        "answer": "IPL funktioniert am besten bei hellen bis mittleren Hauttönen mit dunklem Haar. Führen Sie immer einen Patch-Test durch und konsultieren Sie die Geräteanleitung für Hautton-Kompatibilität."
+      },
+      "q5": {
+        "question": "Wie lange halten die Ergebnisse?",
+        "answer": "IPL bietet lang anhaltende Haarreduktion. Die meisten Benutzer genießen glatte Haut für 6-12 Monate, mit gelegentlichen Touch-up-Behandlungen bei Bedarf."
+      },
+      "q6": {
+        "question": "Kann ich IPL im Sommer verwenden?",
+        "answer": "Ja, aber zusätzlicher Sonnenschutz ist unerlässlich. Vermeiden Sie Sonneneinstrahlung 48 Stunden vor und nach der Behandlung und verwenden Sie immer SPF 30+ Sonnenschutz."
+      }
+    }
+  },
+  "shippingCost": {
+    "title": "Versandkosten-Rechner",
+    "destinationCountry": "Zielland",
+    "productQuantity": "Produktmenge",
+    "calculate": "Berechnen",
+    "result": "Geschätzte Versandkosten nach {country}: ${total} USD ({quantity} Einheit{plural})",
+    "countries": {
+      "US": "Vereinigte Staaten",
+      "UK": "Vereinigtes Königreich",
+      "DE": "Deutschland",
+      "AU": "Australien",
+      "JP": "Japan",
+      "CN": "China"
+    }
   },
   "iplHairRemoval": {
     "heroTitle": "Professionelle IPL-Haarentfernungslösungen",
