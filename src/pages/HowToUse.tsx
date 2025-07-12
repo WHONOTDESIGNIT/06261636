@@ -23,61 +23,61 @@ const HowToUse: React.FC = () => {
   const steps = [
     {
       step: '01',
-      title: 'Preparation',
-      description: 'Clean and prepare the treatment area',
+      title: t('howToUse.steps.preparation.title'),
+      description: t('howToUse.steps.preparation.description'),
       details: [
-        'Shave the treatment area 24-48 hours before use',
-        'Clean skin thoroughly with mild soap and water',
-        'Ensure skin is completely dry',
-        'Remove any makeup, lotions, or deodorants'
+        t('howToUse.steps.preparation.details.shave'),
+        t('howToUse.steps.preparation.details.clean'),
+        t('howToUse.steps.preparation.details.dry'),
+        t('howToUse.steps.preparation.details.remove')
       ],
       icon: Heart
     },
     {
       step: '02',
-      title: 'Device Setup',
-      description: 'Power on and configure your IPL device',
+      title: t('howToUse.steps.deviceSetup.title'),
+      description: t('howToUse.steps.deviceSetup.description'),
       details: [
-        'Connect the device to power source',
-        'Press the power button to turn on',
-        'Select appropriate intensity level (start with lowest)',
-        'Ensure the treatment head is properly attached'
+        t('howToUse.steps.deviceSetup.details.connect'),
+        t('howToUse.steps.deviceSetup.details.power'),
+        t('howToUse.steps.deviceSetup.details.intensity'),
+        t('howToUse.steps.deviceSetup.details.attach')
       ],
       icon: Zap
     },
     {
       step: '03',
-      title: 'Skin Tone Test',
-      description: 'Perform a patch test for safety',
+      title: t('howToUse.steps.skinToneTest.title'),
+      description: t('howToUse.steps.skinToneTest.description'),
       details: [
-        'Test on a small, inconspicuous area first',
-        'Wait 24 hours to check for adverse reactions',
-        'Adjust intensity if needed based on skin response',
-        'Proceed only if no irritation occurs'
+        t('howToUse.steps.skinToneTest.details.test'),
+        t('howToUse.steps.skinToneTest.details.wait'),
+        t('howToUse.steps.skinToneTest.details.adjust'),
+        t('howToUse.steps.skinToneTest.details.proceed')
       ],
       icon: Eye
     },
     {
       step: '04',
-      title: 'Treatment Process',
-      description: 'Apply IPL treatment systematically',
+      title: t('howToUse.steps.treatmentProcess.title'),
+      description: t('howToUse.steps.treatmentProcess.description'),
       details: [
-        'Place device firmly against skin',
-        'Press flash button for each pulse',
-        'Move to adjacent area without overlapping',
-        'Complete entire treatment area systematically'
+        t('howToUse.steps.treatmentProcess.details.place'),
+        t('howToUse.steps.treatmentProcess.details.press'),
+        t('howToUse.steps.treatmentProcess.details.move'),
+        t('howToUse.steps.treatmentProcess.details.complete')
       ],
       icon: CheckCircle
     },
     {
       step: '05',
-      title: 'Post-Treatment Care',
-      description: 'Proper aftercare for optimal results',
+      title: t('howToUse.steps.postTreatmentCare.title'),
+      description: t('howToUse.steps.postTreatmentCare.description'),
       details: [
-        'Apply cooling gel or aloe vera if needed',
-        'Avoid sun exposure for 24-48 hours',
-        'Use SPF 30+ sunscreen when going outside',
-        'Moisturize treated area regularly'
+        t('howToUse.steps.postTreatmentCare.details.cooling'),
+        t('howToUse.steps.postTreatmentCare.details.sun'),
+        t('howToUse.steps.postTreatmentCare.details.sunscreen'),
+        t('howToUse.steps.postTreatmentCare.details.moisturize')
       ],
       icon: Shield
     }
@@ -86,107 +86,107 @@ const HowToUse: React.FC = () => {
   const safetyGuidelines = [
     {
       icon: AlertTriangle,
-      title: 'Important Safety Warnings',
+      title: t('howToUse.safetyGuidelines.warnings.title'),
       points: [
-        'Never use on tanned, sunburned, or irritated skin',
-        'Do not use on moles, tattoos, or dark spots',
-        'Avoid eye area and mucous membranes',
-        'Not suitable for pregnant or breastfeeding women',
-        'Consult doctor if you have skin conditions'
+        t('howToUse.safetyGuidelines.warnings.point1'),
+        t('howToUse.safetyGuidelines.warnings.point2'),
+        t('howToUse.safetyGuidelines.warnings.point3'),
+        t('howToUse.safetyGuidelines.warnings.point4'),
+        t('howToUse.safetyGuidelines.warnings.point5')
       ]
     },
     {
       icon: Eye,
-      title: 'Eye Protection',
+      title: t('howToUse.safetyGuidelines.eyeProtection.title'),
       points: [
-        'Always wear protective goggles when provided',
-        'Never look directly at the light flash',
-        'Keep device away from eye area',
-        'Ensure others in room are also protected'
+        t('howToUse.safetyGuidelines.eyeProtection.point1'),
+        t('howToUse.safetyGuidelines.eyeProtection.point2'),
+        t('howToUse.safetyGuidelines.eyeProtection.point3'),
+        t('howToUse.safetyGuidelines.eyeProtection.point4')
       ]
     },
     {
       icon: Thermometer,
-      title: 'Skin Sensitivity',
+      title: t('howToUse.safetyGuidelines.skinSensitivity.title'),
       points: [
-        'Start with lowest intensity setting',
-        'Gradually increase if well tolerated',
-        'Stop immediately if pain or discomfort occurs',
-        'Allow 48-72 hours between treatments on same area'
+        t('howToUse.safetyGuidelines.skinSensitivity.point1'),
+        t('howToUse.safetyGuidelines.skinSensitivity.point2'),
+        t('howToUse.safetyGuidelines.skinSensitivity.point3'),
+        t('howToUse.safetyGuidelines.skinSensitivity.point4')
       ]
     }
   ];
 
   const treatmentSchedule = [
-    { week: 'Weeks 1-4', frequency: 'Once per week', description: 'Initial treatment phase for hair reduction' },
-    { week: 'Weeks 5-8', frequency: 'Every 2 weeks', description: 'Maintenance phase as hair growth slows' },
-    { week: 'Weeks 9-12', frequency: 'Every 3-4 weeks', description: 'Final phase for remaining hair follicles' },
-    { week: 'After 12 weeks', frequency: 'As needed', description: 'Touch-up treatments for new hair growth' }
+    { week: t('howToUse.treatmentSchedule.weeks1to4.week'), frequency: t('howToUse.treatmentSchedule.weeks1to4.frequency'), description: t('howToUse.treatmentSchedule.weeks1to4.description') },
+    { week: t('howToUse.treatmentSchedule.weeks5to8.week'), frequency: t('howToUse.treatmentSchedule.weeks5to8.frequency'), description: t('howToUse.treatmentSchedule.weeks5to8.description') },
+    { week: t('howToUse.treatmentSchedule.weeks9to12.week'), frequency: t('howToUse.treatmentSchedule.weeks9to12.frequency'), description: t('howToUse.treatmentSchedule.weeks9to12.description') },
+    { week: t('howToUse.treatmentSchedule.after12weeks.week'), frequency: t('howToUse.treatmentSchedule.after12weeks.frequency'), description: t('howToUse.treatmentSchedule.after12weeks.description') }
   ];
 
   const troubleshooting = [
     {
-      problem: 'Device not turning on',
+      problem: t('howToUse.troubleshooting.deviceNotTurningOn.problem'),
       solutions: [
-        'Check power connection and ensure device is plugged in',
-        'Verify power button is pressed firmly',
-        'Check if device needs charging (for battery models)',
-        'Contact customer support if issue persists'
+        t('howToUse.troubleshooting.deviceNotTurningOn.solution1'),
+        t('howToUse.troubleshooting.deviceNotTurningOn.solution2'),
+        t('howToUse.troubleshooting.deviceNotTurningOn.solution3'),
+        t('howToUse.troubleshooting.deviceNotTurningOn.solution4')
       ]
     },
     {
-      problem: 'No light flash when pressing button',
+      problem: t('howToUse.troubleshooting.noLightFlash.problem'),
       solutions: [
-        'Ensure device is in full contact with skin',
-        'Check if safety sensors are blocked',
-        'Verify treatment head is properly attached',
-        'Clean the light window and sensors'
+        t('howToUse.troubleshooting.noLightFlash.solution1'),
+        t('howToUse.troubleshooting.noLightFlash.solution2'),
+        t('howToUse.troubleshooting.noLightFlash.solution3'),
+        t('howToUse.troubleshooting.noLightFlash.solution4')
       ]
     },
     {
-      problem: 'Skin irritation after treatment',
+      problem: t('howToUse.troubleshooting.skinIrritation.problem'),
       solutions: [
-        'Apply cooling gel or aloe vera to soothe skin',
-        'Reduce intensity level for next treatment',
-        'Increase time between treatments',
-        'Discontinue use if irritation persists'
+        t('howToUse.troubleshooting.skinIrritation.solution1'),
+        t('howToUse.troubleshooting.skinIrritation.solution2'),
+        t('howToUse.troubleshooting.skinIrritation.solution3'),
+        t('howToUse.troubleshooting.skinIrritation.solution4')
       ]
     },
     {
-      problem: 'No visible results after several treatments',
+      problem: t('howToUse.troubleshooting.noResults.problem'),
       solutions: [
-        'Ensure consistent treatment schedule',
-        'Verify you are using appropriate intensity level',
-        'Check that hair color is suitable for IPL (dark hair works best)',
-        'Be patient - results typically visible after 4-6 treatments'
+        t('howToUse.troubleshooting.noResults.solution1'),
+        t('howToUse.troubleshooting.noResults.solution2'),
+        t('howToUse.troubleshooting.noResults.solution3'),
+        t('howToUse.troubleshooting.noResults.solution4')
       ]
     }
   ];
 
   const faqs = [
     {
-      question: 'How long does each treatment session take?',
-      answer: 'Treatment time varies by area size. Face typically takes 5-10 minutes, legs 15-20 minutes, and full body can take 30-45 minutes.'
+      question: t('howToUse.faqs.q1.question'),
+      answer: t('howToUse.faqs.q1.answer')
     },
     {
-      question: 'When will I see results?',
-      answer: 'Most users see initial hair reduction after 3-4 treatments. Significant results are typically visible after 6-8 treatments over 2-3 months.'
+      question: t('howToUse.faqs.q2.question'),
+      answer: t('howToUse.faqs.q2.answer')
     },
     {
-      question: 'Is IPL treatment painful?',
-      answer: 'Most users describe the sensation as a mild rubber band snap. Modern IPL devices with cooling technology minimize discomfort significantly.'
+      question: t('howToUse.faqs.q3.question'),
+      answer: t('howToUse.faqs.q3.answer')
     },
     {
-      question: 'Can I use IPL on all skin tones?',
-      answer: 'IPL works best on light to medium skin tones with dark hair. Always perform a patch test and consult the device manual for skin tone compatibility.'
+      question: t('howToUse.faqs.q4.question'),
+      answer: t('howToUse.faqs.q4.answer')
     },
     {
-      question: 'How long do results last?',
-      answer: 'IPL provides long-lasting hair reduction. Most users enjoy smooth skin for 6-12 months, with occasional touch-up treatments as needed.'
+      question: t('howToUse.faqs.q5.question'),
+      answer: t('howToUse.faqs.q5.answer')
     },
     {
-      question: 'Can I use IPL during summer?',
-      answer: 'Yes, but extra sun protection is essential. Avoid sun exposure 48 hours before and after treatment, and always use SPF 30+ sunscreen.'
+      question: t('howToUse.faqs.q6.question'),
+      answer: t('howToUse.faqs.q6.answer')
     }
   ];
 
