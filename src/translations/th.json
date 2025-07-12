@@ -431,137 +431,137 @@
   "faq": {
     "title": "คำถามที่พบบ่อย",
     "shipping": {
-      "q": "Can you ship globally?",
-      "a": "Absolutely. We offer reliable worldwide shipping to support your business wherever you are."
+      "q": "คุณสามารถจัดส่งทั่วโลกได้หรือไม่?",
+      "a": "แน่นอน. เราให้บริการจัดส่งทั่วโลกที่เชื่อถือได้เพื่อสนับสนุนธุรกิจของคุณไม่ว่าคุณจะอยู่ที่ไหน"
     },
     "customization": {
-      "q": "Can I customize the device functions?",
-      "a": "Yes, we offer full customization of features, colors, packaging, and more to fit your brand needs."
+      "q": "ฉันสามารถปรับแต่งฟังก์ชันของอุปกรณ์ได้หรือไม่?",
+      "a": "ใช่ เราให้บริการปรับแต่งฟีเจอร์ สี บรรจุภัณฑ์ และอื่นๆ อย่างครบถ้วนเพื่อให้เหมาะกับความต้องการของแบรนด์ของคุณ"
     },
     "certifications": {
-      "q": "What certifications do you support?",
-      "a": "We support FDA, CE, RoHS, and other global certifications to ensure compliance in your target markets."
+      "q": "คุณรองรับการรับรองใดบ้าง?",
+      "a": "เรารองรับ FDA, CE, RoHS และการรับรองระดับโลกอื่นๆ เพื่อให้แน่ใจว่ามีการปฏิบัติตามในตลาดเป้าหมายของคุณ"
     },
     "leadTime": {
-      "q": "How long is the production lead time?",
-      "a": "Typical lead time is 25-35 days after sample approval, depending on order size and customization."
+      "q": "เวลาการผลิตนานเท่าไหร่?",
+      "a": "เวลาการผลิตทั่วไปคือ 25-35 วันหลังจากอนุมัติตัวอย่าง ขึ้นอยู่กับขนาดคำสั่งซื้อและการปรับแต่ง"
     },
     "afterSales": {
-      "q": "Do you provide after-sales support?",
-      "a": "Yes, we offer comprehensive after-sales service including technical support and warranty."
+      "q": "คุณให้บริการสนับสนุนหลังการขายหรือไม่?",
+      "a": "ใช่ เราให้บริการสนับสนุนหลังการขายที่ครอบคลุมรวมถึงการสนับสนุนทางเทคนิคและการรับประกัน"
     }
   },
   "cta": {
-    "getSupport": "Get Support Now",
-    "readyToStart": "Ready to Get Started?",
-    "contactUs": "Contact Us",
-    "freeQuote": "Get a Free Quote",
-    "readMore": "Read More"
+    "getSupport": "รับการสนับสนุนตอนนี้",
+    "readyToStart": "พร้อมที่จะเริ่มต้นหรือยัง?",
+    "contactUs": "ติดต่อเรา",
+    "freeQuote": "รับใบเสนอราคาฟรี",
+    "readMore": "อ่านเพิ่มเติม"
   },
   "form": {
-    "name": "Name",
-    "email": "Email",
-    "phone": "Phone",
-    "country": "Country",
-    "message": "Message",
-    "submit": "Submit",
-    "sending": "Sending...",
-    "success": "Your message has been sent successfully!",
-    "error": "There was an error sending your message. Please try again."
+    "name": "ชื่อ",
+    "email": "อีเมล",
+    "phone": "โทรศัพท์",
+    "country": "ประเทศ",
+    "message": "ข้อความ",
+    "submit": "ส่ง",
+    "sending": "กำลังส่ง...",
+    "success": "ข้อความของคุณถูกส่งเรียบร้อยแล้ว!",
+    "error": "เกิดข้อผิดพลาดในการส่งข้อความของคุณ กรุณาลองใหม่อีกครั้ง"
   },
   "blog": {
     "posts": {
       "sustainableManufacturing": {
         "title": "การผลิตที่ยั่งยืน: วิธีการผลิต IPL สีเขียว",
-        "intro": "As the demand for at-home IPL (Intense Pulsed Light) hair removal devices surges, so does the responsibility to produce these electronics with minimal environmental impact. Sustainable manufacturing is no longer a trend but a necessity—encompassing every stage from raw material sourcing to end-of-life recycling. This article assesses the environmental footprint of IPL device production and explores innovative, practical strategies for achieving a truly green supply chain, with a focus on electronics, optics, eco-friendly ABS housings, sustainable packaging, and waste reutilization.",
+        "intro": "เมื่อความต้องการอุปกรณ์กำจัดขน IPL (แสงพัลส์เข้มข้น) สำหรับใช้ในบ้านเพิ่มขึ้น ความรับผิดชอบในการผลิตอุปกรณ์อิเล็กทรอนิกส์เหล่านี้ด้วยผลกระทบต่อสิ่งแวดล้อมที่น้อยที่สุดก็เพิ่มขึ้นเช่นกัน การผลิตที่ยั่งยืนไม่ใช่แค่เทรนด์อีกต่อไป แต่เป็นความจำเป็นที่ครอบคลุมทุกขั้นตอนตั้งแต่การจัดหาวัตถุดิบไปจนถึงการรีไซเคิลเมื่อหมดอายุการใช้งาน บทความนี้ประเมินรอยเท้าสิ่งแวดล้อมของการผลิตอุปกรณ์ IPL และสำรวจกลยุทธ์ที่สร้างสรรค์และปฏิบัติได้จริงเพื่อบรรลุห่วงโซ่อุปทานที่เขียวอย่างแท้จริง โดยเน้นที่อิเล็กทรอนิกส์ ออปติก ตัวเรือน ABS ที่เป็นมิตรต่อสิ่งแวดล้อม บรรจุภัณฑ์ที่ยั่งยืน และการนำขยะกลับมาใช้ใหม่",
         "sections": {
-          "environmentalImpact": "Environmental Impact Assessment of IPL Device Manufacturing",
-          "electronics": "1. Electronic Components",
-          "optics": "2. Optical Components (Lenses and Filters)",
-          "absHousing": "3. ABS Eco-Friendly Housings",
-          "packaging": "4. Sustainable Paper Packaging",
-          "wasteReduction": "5. Waste Reduction and Reuse",
-          "supplyChain": "Sustainable Supply Chain Innovations",
-          "feasibility": "The Feasibility of a Green IPL Supply Chain",
-          "commitment": "iShine's Commitment to Sustainability",
-          "references": "References"
+          "environmentalImpact": "การประเมินผลกระทบต่อสิ่งแวดล้อมของการผลิตอุปกรณ์ IPL",
+          "electronics": "1. ส่วนประกอบอิเล็กทรอนิกส์",
+          "optics": "2. ส่วนประกอบออปติก (เลนส์และฟิลเตอร์)",
+          "absHousing": "3. ตัวเรือน ABS ที่เป็นมิตรต่อสิ่งแวดล้อม",
+          "packaging": "4. บรรจุภัณฑ์กระดาษที่ยั่งยืน",
+          "wasteReduction": "5. การลดขยะและการนำกลับมาใช้ใหม่",
+          "supplyChain": "นวัตกรรมห่วงโซ่อุปทานที่ยั่งยืน",
+          "feasibility": "ความเป็นไปได้ของห่วงโซ่อุปทาน IPL สีเขียว",
+          "commitment": "ความมุ่งมั่นของ iShine ต่อความยั่งยืน",
+          "references": "เอกสารอ้างอิง"
         }
       },
       "globalMarketShifts": {
         "title": "การเปลี่ยนแปลงตลาดโลก: แนวโน้มและโอกาสอุปกรณ์ IPL",
-        "intro": "Explore the latest global trends in IPL device adoption, regulatory changes, and market opportunities for brands and manufacturers.",
+        "intro": "สำรวจแนวโน้มระดับโลกล่าสุดในการนำอุปกรณ์ IPL มาใช้ การเปลี่ยนแปลงด้านกฎระเบียบ และโอกาสทางการตลาดสำหรับแบรนด์และผู้ผลิต",
         "sections": {
-          "marketOverview": "Market Overview",
-          "regionalTrends": "Regional Trends",
-          "regulatoryChanges": "Regulatory Changes",
-          "consumerPreferences": "Consumer Preferences",
-          "opportunities": "Opportunities for Brands",
-          "challenges": "Challenges and Risks",
-          "futureOutlook": "Future Outlook"
+          "marketOverview": "ภาพรวมตลาด",
+          "regionalTrends": "แนวโน้มระดับภูมิภาค",
+          "regulatoryChanges": "การเปลี่ยนแปลงด้านกฎระเบียบ",
+          "consumerPreferences": "ความชอบของผู้บริโภค",
+          "opportunities": "โอกาสสำหรับแบรนด์",
+          "challenges": "ความท้าทายและความเสี่ยง",
+          "futureOutlook": "มุมมองในอนาคต"
         }
       },
       "aiPoweredSkinSensing": {
         "title": "การตรวจจับผิวขับเคลื่อนด้วย AI: แนวหน้าใหม่ในความปลอดภัย IPL",
-        "intro": "How artificial intelligence is revolutionizing IPL device safety and personalization through real-time skin analysis.",
+        "intro": "ปัญญาประดิษฐ์กำลังปฏิวัติความปลอดภัยและความเป็นส่วนตัวของอุปกรณ์ IPL อย่างไรผ่านการวิเคราะห์ผิวแบบเรียลไทม์",
         "sections": {
-          "introduction": "Introduction",
-          "aiTechnology": "AI Technology in IPL",
-          "skinSensing": "Skin Sensing Mechanisms",
-          "safetyBenefits": "Safety Benefits",
-          "userExperience": "User Experience",
-          "caseStudies": "Case Studies",
-          "conclusion": "Conclusion"
+          "introduction": "บทนำ",
+          "aiTechnology": "เทคโนโลยี AI ใน IPL",
+          "skinSensing": "กลไกการตรวจจับผิว",
+          "safetyBenefits": "ประโยชน์ด้านความปลอดภัย",
+          "userExperience": "ประสบการณ์ผู้ใช้",
+          "caseStudies": "กรณีศึกษา",
+          "conclusion": "สรุป"
         }
       },
       "multiHeadIPLSystems": {
         "title": "ระบบ IPL หลายหัว: ความแม่นยำพบกับประสิทธิภาพทั้งตัว",
-        "intro": "The evolution of at-home hair removal has been profoundly shaped by the introduction of multi-head Intense Pulsed Light (IPL) systems. Philips pioneered this trend with its interchangeable head technology, setting a new standard for versatility and user-centric design in home-use IPL devices.",
+        "intro": "วิวัฒนาการของการกำจัดขนในบ้านได้รับอิทธิพลอย่างลึกซึ้งจากการแนะนำระบบแสงพัลส์เข้มข้น (IPL) หลายหัว ฟิลิปส์เป็นผู้นำเทรนด์นี้ด้วยเทคโนโลยีหัวที่เปลี่ยนได้ ซึ่งกำหนดมาตรฐานใหม่สำหรับความหลากหลายและการออกแบบที่เน้นผู้ใช้ในอุปกรณ์ IPL สำหรับใช้ในบ้าน",
         "sections": {
-          "philipsLegacy": "The Philips Legacy: Setting the Standard for Multi-Head IPL",
-          "keyFeatures": "Key Features of Multi-Head IPL Devices",
-          "respondingToVIO": "Responding to VIO Hair Removal Needs",
-          "whyMultiHeadMatters": "Why Multi-Head Design Matters",
-          "painReduction": "Pain Reduction: The Role of Advanced Filters",
-          "realUserFeedback": "Real User Feedback",
-          "conclusion": "Conclusion",
-          "references": "References"
+          "philipsLegacy": "มรดกของฟิลิปส์: การกำหนดมาตรฐานสำหรับ IPL หลายหัว",
+          "keyFeatures": "คุณสมบัติหลักของอุปกรณ์ IPL หลายหัว",
+          "respondingToVIO": "การตอบสนองต่อความต้องการการกำจัดขน VIO",
+          "whyMultiHeadMatters": "ทำไมการออกแบบหลายหัวจึงสำคัญ",
+          "painReduction": "การลดความเจ็บปวด: บทบาทของฟิลเตอร์ขั้นสูง",
+          "realUserFeedback": "ข้อเสนอแนะผู้ใช้จริง",
+          "conclusion": "สรุป",
+          "references": "เอกสารอ้างอิง"
         }
       },
       "sapphireCooling": {
         "title": "การระบายความร้อนด้วยไพลิน: เพิ่มความสะดวกสบายในการรักษา IPL",
-        "intro": "Discover how sapphire cooling technology is transforming the comfort and safety of IPL hair removal treatments.",
+        "intro": "ค้นพบว่าเทคโนโลยีการระบายความร้อนด้วยไพลินกำลังเปลี่ยนแปลงความสะดวกสบายและความปลอดภัยของการรักษาการกำจัดขน IPL อย่างไร",
         "sections": {
-          "technologyOverview": "Technology Overview",
-          "coolingMechanism": "How Sapphire Cooling Works",
-          "benefits": "Benefits for Users",
-          "clinicalEvidence": "Clinical Evidence",
-          "deviceComparison": "Device Comparison",
-          "userTestimonials": "User Testimonials",
-          "conclusion": "Conclusion"
+          "technologyOverview": "ภาพรวมเทคโนโลยี",
+          "coolingMechanism": "การระบายความร้อนด้วยไพลินทำงานอย่างไร",
+          "benefits": "ประโยชน์สำหรับผู้ใช้",
+          "clinicalEvidence": "หลักฐานทางคลินิก",
+          "deviceComparison": "การเปรียบเทียบอุปกรณ์",
+          "userTestimonials": "คำรับรองผู้ใช้",
+          "conclusion": "สรุป"
         }
       },
       "industries": {
         "title": "อุตสาหกรรมที่เราให้บริการ: การประยุกต์ใช้ IPL ในภาคส่วนต่างๆ",
-        "intro": "IPL technology is not just for beauty—explore its applications in medical, veterinary, and industrial sectors.",
+        "intro": "เทคโนโลยี IPL ไม่ใช่แค่สำหรับความงาม สำรวจการประยุกต์ใช้ในภาคส่วนทางการแพทย์ สัตวแพทย์ และอุตสาหกรรม",
         "sections": {
-          "beauty": "Beauty Industry",
-          "medical": "Medical Applications",
-          "veterinary": "Veterinary Uses",
-          "industrial": "Industrial Applications",
-          "caseStudies": "Case Studies",
-          "futureTrends": "Future Trends"
+          "beauty": "อุตสาหกรรมความงาม",
+          "medical": "การประยุกต์ใช้ทางการแพทย์",
+          "veterinary": "การใช้งานทางสัตวแพทย์",
+          "industrial": "การประยุกต์ใช้ทางอุตสาหกรรม",
+          "caseStudies": "กรณีศึกษา",
+          "futureTrends": "แนวโน้มในอนาคต"
         }
       },
       "iplBestChoice": {
         "title": "ทำไมอุปกรณ์กำจัดขน IPL ในบ้านจึงเป็นตัวเลือกที่ดีที่สุดในบรรดาเครื่องมือกำจัดขนทั้งหมด",
-        "intro": "Discover why IPL is the most effective, comfortable, and convenient solution for long-term hair removal at home—backed by science and real user experience.",
+        "intro": "ค้นพบว่าทำไม IPL จึงเป็นวิธีแก้ปัญหาที่มีประสิทธิภาพ สะดวกสบาย และสะดวกที่สุดสำหรับการกำจัดขนระยะยาวในบ้าน ซึ่งได้รับการสนับสนุนจากวิทยาศาสตร์และประสบการณ์ผู้ใช้จริง",
         "sections": {
-          "comparison": "Hair Removal Methods Comparison",
-          "whyChooseIPL": "Why Choose IPL Home Hair Removal?",
-          "userStories": "Real User Stories",
-          "faq": "Frequently Asked Questions",
-          "recommendedBlog": "Recommended Blog",
-          "exploreMore": "Explore More"
+          "comparison": "การเปรียบเทียบวิธีการกำจัดขน",
+          "whyChooseIPL": "ทำไมต้องเลือกการกำจัดขน IPL ในบ้าน?",
+          "userStories": "เรื่องราวผู้ใช้จริง",
+          "faq": "คำถามที่พบบ่อย",
+          "recommendedBlog": "บล็อกที่แนะนำ",
+          "exploreMore": "สำรวจเพิ่มเติม"
         }
       },
       "futureHomeHairRemoval": {
@@ -598,6 +598,6 @@
   },
   "floating": {
     "contact": "ติดต่อเรา",
-    "backToTop": "กลับไปด้านบน"
+    "backToTop": "กลับขึ้นด้านบน"
   }
 }
