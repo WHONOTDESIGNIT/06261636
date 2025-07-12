@@ -474,125 +474,125 @@
     "posts": {
       "sustainableManufacturing": {
         "title": "Fabrication durable : Méthodes de production IPL vertes",
-        "intro": "As the demand for at-home IPL (Intense Pulsed Light) hair removal devices surges, so does the responsibility to produce these electronics with minimal environmental impact. Sustainable manufacturing is no longer a trend but a necessity—encompassing every stage from raw material sourcing to end-of-life recycling. This article assesses the environmental footprint of IPL device production and explores innovative, practical strategies for achieving a truly green supply chain, with a focus on electronics, optics, eco-friendly ABS housings, sustainable packaging, and waste reutilization.",
+        "intro": "Alors que la demande d'appareils d'épilation IPL (Lumière Pulsée Intense) à domicile augmente, la responsabilité de produire ces appareils électroniques avec un impact environnemental minimal augmente également. La fabrication durable n'est plus une tendance mais une nécessité — englobant chaque étape de l'approvisionnement en matières premières au recyclage en fin de vie. Cet article évalue l'empreinte environnementale de la production d'appareils IPL et explore des stratégies innovantes et pratiques pour parvenir à une chaîne d'approvisionnement vraiment verte, en se concentrant sur l'électronique, l'optique, les boîtiers ABS écologiques, l'emballage durable et la réutilisation des déchets.",
         "sections": {
-          "environmentalImpact": "Environmental Impact Assessment of IPL Device Manufacturing",
-          "electronics": "1. Electronic Components",
-          "optics": "2. Optical Components (Lenses and Filters)",
-          "absHousing": "3. ABS Eco-Friendly Housings",
-          "packaging": "4. Sustainable Paper Packaging",
-          "wasteReduction": "5. Waste Reduction and Reuse",
-          "supplyChain": "Sustainable Supply Chain Innovations",
-          "feasibility": "The Feasibility of a Green IPL Supply Chain",
-          "commitment": "iShine's Commitment to Sustainability",
-          "references": "References"
+          "environmentalImpact": "Évaluation de l'impact environnemental de la fabrication d'appareils IPL",
+          "electronics": "1. Composants électroniques",
+          "optics": "2. Composants optiques (Lentilles et Filtres)",
+          "absHousing": "3. Boîtiers ABS écologiques",
+          "packaging": "4. Emballage papier durable",
+          "wasteReduction": "5. Réduction et réutilisation des déchets",
+          "supplyChain": "Innovations de chaîne d'approvisionnement durable",
+          "feasibility": "La faisabilité d'une chaîne d'approvisionnement IPL verte",
+          "commitment": "L'engagement d'iShine envers la durabilité",
+          "references": "Références"
         }
       },
       "globalMarketShifts": {
         "title": "Changements du marché mondial : Tendances et opportunités des appareils IPL",
-        "intro": "Explore the latest global trends in IPL device adoption, regulatory changes, and market opportunities for brands and manufacturers.",
+        "intro": "Explorez les dernières tendances mondiales dans l'adoption d'appareils IPL, les changements réglementaires et les opportunités de marché pour les marques et les fabricants.",
         "sections": {
-          "marketOverview": "Market Overview",
-          "regionalTrends": "Regional Trends",
-          "regulatoryChanges": "Regulatory Changes",
-          "consumerPreferences": "Consumer Preferences",
-          "opportunities": "Opportunities for Brands",
-          "challenges": "Challenges and Risks",
-          "futureOutlook": "Future Outlook"
+          "marketOverview": "Aperçu du marché",
+          "regionalTrends": "Tendances régionales",
+          "regulatoryChanges": "Changements réglementaires",
+          "consumerPreferences": "Préférences des consommateurs",
+          "opportunities": "Opportunités pour les marques",
+          "challenges": "Défis et risques",
+          "futureOutlook": "Perspectives d'avenir"
         }
       },
       "aiPoweredSkinSensing": {
         "title": "Détection de peau alimentée par IA : La prochaine frontière de la sécurité IPL",
-        "intro": "How artificial intelligence is revolutionizing IPL device safety and personalization through real-time skin analysis.",
+        "intro": "Comment l'intelligence artificielle révolutionne la sécurité et la personnalisation des appareils IPL grâce à l'analyse de la peau en temps réel.",
         "sections": {
           "introduction": "Introduction",
-          "aiTechnology": "AI Technology in IPL",
-          "skinSensing": "Skin Sensing Mechanisms",
-          "safetyBenefits": "Safety Benefits",
-          "userExperience": "User Experience",
-          "caseStudies": "Case Studies",
+          "aiTechnology": "Technologie IA dans IPL",
+          "skinSensing": "Mécanismes de détection de la peau",
+          "safetyBenefits": "Avantages de sécurité",
+          "userExperience": "Expérience utilisateur",
+          "caseStudies": "Études de cas",
           "conclusion": "Conclusion"
         }
       },
       "multiHeadIPLSystems": {
         "title": "Systèmes IPL multi-têtes : La précision rencontre l'efficacité corps entier",
-        "intro": "The evolution of at-home hair removal has been profoundly shaped by the introduction of multi-head Intense Pulsed Light (IPL) systems. Philips pioneered this trend with its interchangeable head technology, setting a new standard for versatility and user-centric design in home-use IPL devices.",
+        "intro": "L'évolution de l'épilation à domicile a été profondément façonnée par l'introduction de systèmes IPL (Lumière Pulsée Intense) multi-têtes. Philips a été le pionnier de cette tendance avec sa technologie de têtes interchangeables, établissant une nouvelle norme pour la polyvalence et la conception centrée sur l'utilisateur dans les appareils IPL d'usage domestique.",
         "sections": {
-          "philipsLegacy": "The Philips Legacy: Setting the Standard for Multi-Head IPL",
-          "keyFeatures": "Key Features of Multi-Head IPL Devices",
-          "respondingToVIO": "Responding to VIO Hair Removal Needs",
-          "whyMultiHeadMatters": "Why Multi-Head Design Matters",
-          "painReduction": "Pain Reduction: The Role of Advanced Filters",
-          "realUserFeedback": "Real User Feedback",
+          "philipsLegacy": "L'héritage Philips : Établir la norme pour IPL multi-têtes",
+          "keyFeatures": "Fonctionnalités clés des appareils IPL multi-têtes",
+          "respondingToVIO": "Répondre aux besoins d'épilation VIO",
+          "whyMultiHeadMatters": "Pourquoi la conception multi-têtes est importante",
+          "painReduction": "Réduction de la douleur : Le rôle des filtres avancés",
+          "realUserFeedback": "Vrais retours d'utilisateurs",
           "conclusion": "Conclusion",
-          "references": "References"
+          "references": "Références"
         }
       },
       "sapphireCooling": {
         "title": "Refroidissement saphir : Améliorer le confort des traitements IPL",
-        "intro": "Discover how sapphire cooling technology is transforming the comfort and safety of IPL hair removal treatments.",
+        "intro": "Découvrez comment la technologie de refroidissement saphir transforme le confort et la sécurité des traitements d'épilation IPL.",
         "sections": {
-          "technologyOverview": "Technology Overview",
-          "coolingMechanism": "How Sapphire Cooling Works",
-          "benefits": "Benefits for Users",
-          "clinicalEvidence": "Clinical Evidence",
-          "deviceComparison": "Device Comparison",
-          "userTestimonials": "User Testimonials",
+          "technologyOverview": "Aperçu de la technologie",
+          "coolingMechanism": "Comment fonctionne le refroidissement saphir",
+          "benefits": "Avantages pour les utilisateurs",
+          "clinicalEvidence": "Preuves cliniques",
+          "deviceComparison": "Comparaison d'appareils",
+          "userTestimonials": "Témoignages d'utilisateurs",
           "conclusion": "Conclusion"
         }
       },
       "industries": {
         "title": "Industries que nous servons : Applications IPL à travers les secteurs",
-        "intro": "IPL technology is not just for beauty—explore its applications in medical, veterinary, and industrial sectors.",
+        "intro": "La technologie IPL n'est pas seulement pour la beauté — explorez ses applications dans les secteurs médical, vétérinaire et industriel.",
         "sections": {
-          "beauty": "Beauty Industry",
-          "medical": "Medical Applications",
-          "veterinary": "Veterinary Uses",
-          "industrial": "Industrial Applications",
-          "caseStudies": "Case Studies",
-          "futureTrends": "Future Trends"
+          "beauty": "Industrie de la beauté",
+          "medical": "Applications médicales",
+          "veterinary": "Utilisations vétérinaires",
+          "industrial": "Applications industrielles",
+          "caseStudies": "Études de cas",
+          "futureTrends": "Tendances futures"
         }
       },
       "iplBestChoice": {
         "title": "Pourquoi les appareils d'épilation IPL domestiques sont le meilleur choix parmi tous les outils d'épilation",
-        "intro": "Discover why IPL is the most effective, comfortable, and convenient solution for long-term hair removal at home—backed by science and real user experience.",
+        "intro": "Découvrez pourquoi IPL est la solution la plus efficace, confortable et pratique pour l'épilation à long terme à domicile — soutenue par la science et une vraie expérience utilisateur.",
         "sections": {
-          "comparison": "Hair Removal Methods Comparison",
-          "whyChooseIPL": "Why Choose IPL Home Hair Removal?",
-          "userStories": "Real User Stories",
-          "faq": "Frequently Asked Questions",
-          "recommendedBlog": "Recommended Blog",
-          "exploreMore": "Explore More"
+          "comparison": "Comparaison des méthodes d'épilation",
+          "whyChooseIPL": "Pourquoi choisir l'épilation IPL à domicile ?",
+          "userStories": "Vraies histoires d'utilisateurs",
+          "faq": "Questions fréquemment posées",
+          "recommendedBlog": "Blog recommandé",
+          "exploreMore": "Explorer plus"
         }
       },
       "futureHomeHairRemoval": {
         "title": "L'avenir des appareils d'épilation domestiques : Tendances, innovations et ce qui vient ensuite",
-        "intro": "Explore the evolution, current breakthroughs, and the next generation of home hair removal devices—AI, multifunctionality, and sustainable design for 2025 and beyond.",
+        "intro": "Explorez l'évolution, les percées actuelles et la prochaine génération d'appareils d'épilation domestiques — IA, multifonctionnalité et conception durable pour 2025 et au-delà.",
         "sections": {
-          "evolution": "Evolution of Home Hair Removal Technology",
-          "stateOfTheArt": "Key Features of Next-Gen Devices (2025)",
-          "aiPersonalization": "AI and Personalization in Hair Removal",
-          "vision": "The 'Ultimate' Home Hair Removal Device: A Vision",
-          "challenges": "Challenges and Considerations",
-          "faq": "Frequently Asked Questions",
-          "exploreMore": "Explore More",
-          "aboutAuthor": "About the Author"
+          "evolution": "Évolution de la technologie d'épilation domestique",
+          "stateOfTheArt": "Fonctionnalités clés des appareils de nouvelle génération (2025)",
+          "aiPersonalization": "IA et personnalisation dans l'épilation",
+          "vision": "L'appareil d'épilation domestique 'Ultime' : Une vision",
+          "challenges": "Défis et considérations",
+          "faq": "Questions fréquemment posées",
+          "exploreMore": "Explorer plus",
+          "aboutAuthor": "À propos de l'auteur"
         }
       },
       "fda510kPathway": {
         "title": "Voie FDA 510(k) : Navigation de la classification des dispositifs médicaux pour IPL",
-        "intro": "A comprehensive guide to the FDA 510(k) pathway for home-use IPL hair removal devices. Learn about regulatory requirements, marketing claims, and how iShine helps brands achieve compliance.",
+        "intro": "Un guide complet de la voie FDA 510(k) pour les appareils d'épilation IPL d'usage domestique. Apprenez sur les exigences réglementaires, les allégations marketing et comment iShine aide les marques à atteindre la conformité.",
         "sections": {
           "introduction": "Introduction",
-          "pathway": "1. FDA 510(k) Pathway for Home IPL Devices",
-          "marketingClaims": "2. How Marketing Claims Affect Regulatory Classification",
-          "ishineExpertise": "3. iShine's Expertise in Securing Your Brand's FDA 510(k) Listing",
-          "benefits": "4. Benefits of Obtaining a Brand-Specific FDA 510(k) Listing",
-          "guidance": "5. Practical Guidance for Brands",
+          "pathway": "1. Voie FDA 510(k) pour les appareils IPL domestiques",
+          "marketingClaims": "2. Comment les allégations marketing affectent la classification réglementaire",
+          "ishineExpertise": "3. L'expertise d'iShine pour sécuriser l'inscription FDA 510(k) de votre marque",
+          "benefits": "4. Avantages d'obtenir une inscription FDA 510(k) spécifique à la marque",
+          "guidance": "5. Orientation pratique pour les marques",
           "conclusion": "Conclusion",
-          "faq": "Frequently Asked Questions",
-          "exploreMore": "Explore More",
-          "author": "About the Author"
+          "faq": "Questions fréquemment posées",
+          "exploreMore": "Explorer plus",
+          "author": "À propos de l'auteur"
         }
       }
     }
