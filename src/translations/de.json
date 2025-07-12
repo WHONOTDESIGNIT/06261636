@@ -451,48 +451,78 @@
     }
   },
   "contact": {
-    "hero": {
-      "title": "Kontaktieren Sie uns",
-      "description": "Bereit, Ihr IPL-Projekt zu besprechen? Nehmen Sie noch heute Kontakt mit unserem Expertenteam auf. Wir sind hier, um Ihre Vision zum Leben zu erwecken."
+    "heroTitle": "Kontaktieren Sie uns",
+    "heroDescription": "Bereit, Ihr IPL-Projekt zu starten? Unser Expertenteam ist hier, um Ihnen zu helfen. Lassen Sie uns über Ihre Vision sprechen und wie wir sie zum Leben erwecken können.",
+    "form": {
+      "title": "Senden Sie uns eine Nachricht",
+      "subtitle": "Füllen Sie das Formular aus und wir werden uns innerhalb von 24 Stunden bei Ihnen melden.",
+      "fields": {
+        "name": {
+          "label": "Vollständiger Name",
+          "placeholder": "Ihr vollständiger Name",
+          "error": "Name ist erforderlich"
+        },
+        "email": {
+          "label": "E-Mail-Adresse",
+          "placeholder": "ihre.email@beispiel.com",
+          "error": "Gültige E-Mail-Adresse ist erforderlich"
+        },
+        "phone": {
+          "label": "Telefonnummer",
+          "placeholder": "+1 (555) 123-4567",
+          "error": "Telefonnummer ist erforderlich"
+        },
+        "company": {
+          "label": "Unternehmen",
+          "placeholder": "Ihr Unternehmen",
+          "error": "Unternehmen ist erforderlich"
+        },
+        "country": {
+          "label": "Land",
+          "placeholder": "Wählen Sie Ihr Land",
+          "error": "Land ist erforderlich"
+        },
+        "product": {
+          "label": "Interessiertes Produkt",
+          "placeholder": "Wählen Sie ein Produkt",
+          "error": "Produkt ist erforderlich"
+        },
+        "quantity": {
+          "label": "Geschätzte Menge",
+          "placeholder": "Wählen Sie eine Menge",
+          "error": "Menge ist erforderlich"
+        },
+        "message": {
+          "label": "Nachricht",
+          "placeholder": "Beschreiben Sie Ihr Projekt, Anforderungen oder Fragen...",
+          "error": "Nachricht ist erforderlich"
+        }
+      },
+      "submit": "Nachricht senden",
+      "submitting": "Wird gesendet...",
+      "success": "Nachricht erfolgreich gesendet! Wir werden uns innerhalb von 24 Stunden bei Ihnen melden.",
+      "error": "Fehler beim Senden der Nachricht. Bitte versuchen Sie es erneut."
     },
     "info": {
-      "title": "Kontakt aufnehmen",
-      "subtitle": "Mehrere Wege, uns zu erreichen - wählen Sie was für Sie am besten funktioniert",
+      "title": "Kontaktinformationen",
+      "subtitle": "Mehrere Möglichkeiten, uns zu erreichen",
       "address": {
         "title": "Adresse",
-        "company": "iShine Manufacturing Co., Ltd.",
-        "location": "Shenzhen, Guangdong, China"
-      },
-      "phone": {
-        "title": "Telefon"
+        "content": "iShine Tech Co., Limited\nShenzhen, Guangdong, China"
       },
       "email": {
-        "title": "E-Mail"
+        "title": "E-Mail",
+        "content": "info@ishine-tech.com"
+      },
+      "phone": {
+        "title": "Telefon",
+        "content": "+86 755-1234-5678"
       },
       "hours": {
         "title": "Geschäftszeiten",
-        "weekdays": "Montag - Freitag: 9:00 - 18:00",
-        "saturday": "Samstag: 9:00 - 12:00"
+        "content": "Montag - Freitag: 9:00 - 18:00 (CST)\nSamstag: 9:00 - 12:00 (CST)"
       }
-    },
-    "map": {
-      "title": "Besuchen Sie unsere Einrichtung",
-      "subtitle": "Im Herzen von Shenzhens Produktionsviertel gelegen"
-    },
-    "form": {
-      "title": "Was haben Sie vor? Lassen Sie uns sprechen!",
-      "subtitle": "Füllen Sie dieses Formular aus, um den Prozess zu starten. Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
-      "name": "Name*",
-      "email": "E-Mail-Adresse*",
-      "phone": "Telefonnummer* z.B. (+1-541-3456-3001)",
-      "country": "Land",
-      "message": "Beschreiben Sie hier Ihre Bedürfnisse*",
-      "submit": "Senden",
-      "sending": "Wird gesendet..."
-    },
-    "title": "Kontaktieren Sie uns",
-    "subtitle": "Nehmen Sie Kontakt mit unserem Team auf für Geschäftsanfragen, Support oder Partnerschaftsmöglichkeiten.",
-    "companyPhotoAlt": "iShine Produktionsanlage"
+    }
   },
   "buttons": {
     "getQuote": "Angebot erhalten",
@@ -546,6 +576,44 @@
     "yearsExperience": "Jahre Erfahrung"
   },
   "about": {
+    "heroTitle": "Über iShine",
+    "heroDesc": "Ihr vertrauenswürdiger Partner in der IPL-Geräteherstellung, der innovative Beauty-Technologie von der Idee zum Markt bringt, seit 2018.",
+    "storyTitle": "Unsere Geschichte",
+    "storyP1": "Gegründet im Jahr 2018, entstand iShine aus einer Vision, fortschrittliche IPL-Technologie zu demokratisieren. Wir erkannten, dass Beauty-Marken einen zuverlässigen Partner brauchten, der ihre Ideen mit Präzision und Exzellenz in marktreife Produkte verwandeln konnte.",
+    "storyP2": "Heute sind wir stolz darauf, Kunden auf drei Kontinenten zu bedienen, von innovativen Startups bis hin zu etablierten Beauty-Konglomeraten. Unser Engagement für Qualität, Innovation und Kundenerfolg treibt alles an, was wir tun.",
+    "storyP3": "Bei iShine stellen wir nicht nur Geräte her - wir entwickeln Lösungen, die Marken befähigen, im wettbewerbsintensiven Beauty-Markt erfolgreich zu sein.",
+    "valuesTitle": "Unsere Kernwerte",
+    "valuesDesc": "Die Prinzipien, die unsere Arbeit und Beziehungen zu Kunden leiten",
+    "values": {
+      "qualityTitle": "Qualitätsexzellenz",
+      "qualityDesc": "FDA GMP-zertifizierte Herstellung mit strenger Qualitätskontrolle",
+      "customerTitle": "Kundenorientierung",
+      "customerDesc": "Dediziert zum Verständnis und Übertreffen der Kundenerwartungen",
+      "globalTitle": "Globale Wirkung",
+      "globalDesc": "Bedienung von Beauty-Marken weltweit mit innovativen IPL-Lösungen",
+      "innovationTitle": "Innovationsantrieb",
+      "innovationDesc": "Kontinuierliche F&E-Investitionen in IPL-Technologie der nächsten Generation"
+    },
+    "journeyTitle": "Unsere Reise",
+    "journeyDesc": "Wichtige Meilensteine in unserem Wachstum und unserer Innovation",
+    "milestones": {
+      "2018": { "title": "Unternehmen gegründet", "desc": "iShine als IPL-Gerätehersteller etabliert" },
+      "2019": { "title": "Erster internationaler Kunde", "desc": "Partnerschaft mit KU-2 Cosmetic in Deutschland" },
+      "2020": { "title": "FDA GMP-Zertifizierung", "desc": "FDA GMP Reinraum-Zertifizierung erreicht" },
+      "2021": { "title": "Smart IPL-Lancierung", "desc": "Einführung der ersten app-gesteuerten IPL-Geräte" },
+      "2022": { "title": "Globale Expansion", "desc": "Partnerschaften mit Costco und ROSESKINCO" },
+      "2023": { "title": "KI-Integration", "desc": "KI-gestützte IPL-Technologie lanciert" }
+    },
+    "teamTitle": "Unser Expertenteam",
+    "teamDesc": "Dedizierte Fachkräfte, die sich Ihrem Erfolg verschrieben haben",
+    "team": {
+      "rnd": "F&E-Ingenieure",
+      "rndDesc": "Experten-Ingenieure entwickeln bahnbrechende IPL-Technologie",
+      "quality": "Qualitätsspezialisten",
+      "qualityDesc": "Stellen sicher, dass jedes Gerät die höchsten Standards erfüllt",
+      "customer": "Kundenerfolg",
+      "customerDesc": "Dedizierte Unterstützung von der Idee bis zur Markteinführung"
+    },
     "brandStory": {
       "hero": {
         "title": "Von der Herausforderung zum Wandel: Die iShine-Reise",
@@ -799,121 +867,121 @@
   },
   "iplHairRemoval": {
     "heroTitle": "Professionelle IPL-Haarentfernungslösungen",
-    "heroDescription": "Entdecken Sie die nächste Generation von IPL-Haarentfernungsgeräten - sicher, effektiv und für alle Hauttypen entwickelt. Erleben Sie Salon-Qualität zu Hause oder in Ihrem Unternehmen.",
-    "iplDevicesTitle": "Unser IPL-Gerätesortiment",
-    "iplDevicesDescription": "Erkunden Sie unser komplettes Sortiment fortschrittlicher IPL-Haarentfernungsgeräte, jedes für maximalen Komfort und Ergebnisse entwickelt.",
+    "heroDescription": "Entdecken Sie die nächste Generation von IPL-Haarentfernungsgeräten - sicher, effektiv und für alle Hauttypen konzipiert. Erleben Sie Salon-Qualitätsergebnisse zu Hause oder in Ihrem Geschäft.",
+    "iplDevicesTitle": "Unser IPL-Geräte-Sortiment",
+    "iplDevicesDescription": "Entdecken Sie unsere vollständige Palette fortschrittlicher IPL-Haarentfernungsgeräte, jedes für maximalen Komfort und Ergebnisse entwickelt.",
     "accessoriesTitle": "Wichtiges IPL-Zubehör",
     "accessoriesDescription": "Verbessern Sie Ihre IPL-Erfahrung mit unserem Sortiment zertifizierter Zubehörteile für Sicherheit und Komfort.",
     "advancedIplTitle": "Fortschrittliche IPL-Technologie",
-    "smartTechnologyIntegration": "Smart Technology Integration",
+    "smartTechnologyIntegration": "Intelligente Technologie-Integration",
     "smartTechnologyIntegrationDescription": "Unsere IPL-Geräte verfügen über intelligente Sensoren und App-Konnektivität für personalisierte, sichere und effektive Behandlungen.",
     "coolingComfortSystems": "Kühlkomfort-Systeme",
-    "coolingComfortSystemsDescription": "Saphir- und Metallplatten-Kühlung halten Ihre Haut während jeder Sitzung komfortabel und geschützt.",
+    "coolingComfortSystemsDescription": "Saphir- und Metallplatten-Kühlung halten Ihre Haut komfortabel und geschützt während jeder Sitzung.",
     "intelligentSkinSensors": "Intelligente Hautsensoren",
-    "intelligentSkinSensorsDescription": "Automatische Hautton- und Haarerkennung gewährleistet optimale Energieabgabe und Sicherheit für jeden Benutzer."
+    "intelligentSkinSensorsDescription": "Automatische Hautton- und Haarerfassung gewährleistet optimale Energieabgabe und Sicherheit für jeden Benutzer."
   },
   "ipl": {
     "aiPowered": {
       "title": "KI-gestütztes IPL-Gerät",
-      "desc": "Die Zukunft der Haarentfernung ist da. Künstliche Intelligenz optimiert jede Behandlung für personalisierte, effektive Ergebnisse.",
+      "desc": "Die Zukunft der Haarentfernung ist hier. Künstliche Intelligenz optimiert jede Behandlung für personalisierte, effektive Ergebnisse.",
       "features": {
         "aiTech": "KI-Technologie",
         "aiTechDesc": "Intelligente Lernalgorithmen",
         "smartProcessing": "Intelligente Verarbeitung",
         "smartProcessingDesc": "Echtzeit-Optimierung",
-        "analytics": "Erweiterte Analyse",
+        "analytics": "Erweiterte Analysen",
         "analyticsDesc": "Detaillierte Fortschrittsverfolgung",
         "personalized": "Personalisiert",
-        "personalizedDesc": "Angepasst an Ihre Bedürfnisse"
+        "personalizedDesc": "An Ihre Bedürfnisse angepasst"
       }
     },
     "batteryPowered": {
       "title": "Akkubetriebenes IPL-Haarentfernungsgerät",
-      "desc": "Erleben Sie ultimative kabellose Bequemlichkeit mit unserem akkubetriebenen IPL-Gerät. Ausgestattet mit einem hochkapazitiven wiederaufladbaren Akku bietet es nahtlose Mobilität ohne Netzteil. Genießen Sie professionelle Haarentfernung überall und jederzeit, mit bis zu 9 einstellbaren Energiestufen für personalisierte Behandlungen.",
+      "desc": "Erleben Sie ultimativen kabellosen Komfort mit unserem akkubetriebenen IPL-Gerät. Ausgestattet mit einem hochkapazitiven wiederaufladbaren Akku bietet es nahtlose Mobilität ohne die Notwendigkeit von Netzadaptern. Genießen Sie professionelle Haarentfernung überall und jederzeit mit bis zu 9 einstellbaren Energieniveaus für personalisierte Behandlungen.",
       "features": {
-        "cordless": "Kabelloses Design für ultimative Freiheit und Bequemlichkeit.",
-        "energyLevels": "9 einstellbare Energiestufen für maßgeschneiderte Behandlungen.",
+        "cordless": "Kabelloses Design für ultimative Freiheit und Komfort.",
+        "energyLevels": "9 einstellbare Energieniveaus für maßgeschneiderte Behandlungen.",
         "longBattery": "Langlebiger wiederaufladbarer Akku mit 600+ Ladezyklen.",
-        "noAdapter": "Kein Netzteil während der Nutzung erforderlich, ideal für Reisen.",
-        "allSkin": "Geeignet für alle Hauttöne, FDA & CE zugelassen."
+        "noAdapter": "Keine Netzadapter während der Verwendung erforderlich, ideal für Reisen.",
+        "allSkin": "Geeignet für alle Hauttöne, FDA & CE-zugelassen."
       }
     },
     "dualLamp": {
       "title": "Dual-Lamp IPL-Gerät",
-      "desc": "Doppelte Kraft, doppelte Effizienz. Revolutionäre Dual-Lamp Technologie für schnellere Behandlungen und überlegene Ergebnisse.",
+      "desc": "Doppelte Kraft, doppelte Effizienz. Revolutionäre Dual-Lamp-Technologie für schnellere Behandlungen und überlegene Ergebnisse.",
       "features": {
         "dualLamps": "Dual-Lampen",
-        "dualLampsDesc": "Erhöhte Leistung und Abdeckung",
+        "dualLampsDesc": "Erhöhte Kraft und Abdeckung",
         "faster": "Schnellere Behandlung",
         "fasterDesc": "Reduzierte Sitzungszeit",
-        "proPower": "Professionelle Leistung",
-        "proPowerDesc": "Salon-Qualität Performance",
+        "proPower": "Professionelle Kraft",
+        "proPowerDesc": "Salon-Grade-Leistung",
         "evenCoverage": "Gleichmäßige Abdeckung",
         "evenCoverageDesc": "Gleichmäßige Lichtverteilung"
       }
     },
     "emerald": {
       "title": "Emerald IPL-Haarentfernungsgerät",
-      "desc": "Erleben Sie professionelle Haarentfernung zu Hause mit unserem Emerald IPL-Gerät mit fortschrittlicher Intense Pulsed Light-Technologie mit 15 J/cm² Energie und 600.000+ Blitzen für langanhaltend glatte Haut. Das präzisionsentwickelte System liefert konsistente Ergebnisse in allen Behandlungsbereichen.",
+      "desc": "Erleben Sie professionelle Haarentfernung zu Hause mit unserem Emerald IPL-Gerät mit fortschrittlicher Intense Pulsed Light-Technologie mit 15 J/cm² Energie und 600.000+ Blitzen für lang anhaltende glatte Haut. Das präzisionsgefertigte System liefert konsistente Ergebnisse in allen Behandlungsbereichen.",
       "features": {
-        "proResults": "Professionelle Ergebnisse — bis zu 94% Haarreduktion nach 12 Wochen.",
+        "proResults": "Professionelle Ergebnisse - bis zu 94% Haarreduktion nach 12 Wochen.",
         "manualIntensity": "5-stufige manuelle Intensitätskontrolle für personalisierte Behandlungen.",
-        "safeAllSkin": "Sicher für alle Hauttöne im Fitzpatrick I-V Bereich.",
+        "safeAllSkin": "Sicher für alle Hauttöne im Fitzpatrick I-V-Bereich.",
         "largeWindow": "Großes 4,2 cm² Behandlungsfenster für schnellere Abdeckung.",
-        "ergonomic": "Ergonomisches Design mit integrierten Sicherheitssensoren."
+        "ergonomic": "Ergonomisches Design mit eingebauten Sicherheitssensoren."
       }
     },
     "handheld": {
       "title": "Handgehaltenes IPL-Haarentfernungsgerät",
-      "desc": "Entdecken Sie die perfekte Mischung aus Komfort und Leistung mit unserem handgehaltenen IPL-Gerät. Entwickelt für einfachen Griff und präzise Kontrolle, verfügt es über 5 einstellbare Energiestufen für alle Hauttypen und Empfindlichkeiten. Erreichen Sie Salon-Qualität Haarentfernungsergebnisse zu Hause mit einem leichten, tragbaren Gerät.",
+      "desc": "Entdecken Sie die perfekte Mischung aus Komfort und Leistung mit unserem handgehaltenen IPL-Gerät. Entwickelt für einfachen Griff und präzise Kontrolle, verfügt es über 5 einstellbare Energieniveaus für alle Hauttypen und Empfindlichkeiten. Erreichen Sie Salon-Qualitäts-Haarentfernungsergebnisse zu Hause mit einem leichten, tragbaren Gerät.",
       "features": {
-        "ergonomic": "Ergonomisches handgehaltenes Design für komfortable Nutzung.",
-        "energyLevels": "5 einstellbare Energiestufen für personalisierte Behandlungen.",
-        "portable": "Leicht und tragbar — ideal für Reisen und Heimgebrauch.",
+        "ergonomic": "Ergonomisches handgehaltenes Design für komfortable Verwendung.",
+        "energyLevels": "5 einstellbare Energieniveaus für personalisierte Behandlungen.",
+        "portable": "Leicht und tragbar - ideal für Reisen und Heimgebrauch.",
         "allSkin": "Geeignet für alle Hauttöne, sanft und effektiv.",
-        "certified": "FDA & CE zugelassen für Sicherheit und Qualität."
+        "certified": "FDA & CE-zugelassen für Sicherheit und Qualität."
       }
     },
     "iceCooling": {
       "title": "Ice Cooling IPL-Haarentfernungsgerät",
-      "desc": "Erleben Sie professionelle luxuriöse Ice Cooling Haarentfernungstechnologie mit einer Luft- und Raumfahrt-Qualität Kühlmetallplatte, die die Haut sofort auf 5°C ultra-niedrige Temperatur kühlt. Kombiniert mit 2,0~5,0 J/cm² Hochenergie-IPL-Impulsen und 999.000+ Blitzen liefert es ein göttin-ähnliches seidiges Hauterlebnis. Das luxuriöse Design ist für perfektionssuchende moderne Frauen gefertigt.",
+      "desc": "Erleben Sie professionelle luxuriöse Ice-Cooling-Haarentfernungstechnologie mit einer luft- und raumfahrtgradigen Kühlmetallplatte, die die Haut sofort auf 5°C Ultra-Niedertemperatur kühlt. Kombiniert mit 2,0~5,0 J/cm² Hochenergie-IPL-Impulsen und 999.000+ Blitzen liefert es ein göttinnenhaftes seidiges Hauterlebnis. Das luxuriöse Design ist für perfektionistische moderne Frauen geschaffen.",
       "features": {
-        "luxuryDesign": "Luxuriöses Göttinnen-Design — Luft- und Raumfahrt-Qualität Metalltextur, die edlen Geschmack zeigt.",
-        "coolingPlate": "Ice Cooling Plattentechnologie — Kühlt Haut sofort auf 5°C für wirklich schmerzfreie Erfahrung.",
-        "preciseControl": "9-stufige präzise Energiekontrolle — Anpassbar für empfindliche Bereiche und grobes Haar.",
-        "allSkin": "Geeignet für alle Hauttöne — Fitzpatrick I-V zertifiziert.",
-        "largeWindow": "3,3 cm² extra-großes Behandlungsfenster — Schnelle Abdeckung, 50% höhere Effizienz."
+        "luxuryDesign": "Luxuriöses Göttinnen-Design - Luft- und raumfahrtgradige Metalltextur, die edlen Geschmack zeigt.",
+        "coolingPlate": "Ice-Cooling-Platten-Technologie - Kühlt die Haut sofort auf 5°C für ein wirklich schmerzloses Erlebnis.",
+        "preciseControl": "9-stufige präzise Energiekontrolle - Anpassbar für empfindliche Bereiche und grobes Haar.",
+        "allSkin": "Geeignet für alle Hauttöne - Fitzpatrick I-V-zertifiziert.",
+        "largeWindow": "3,3 cm² extra-großes Behandlungsfenster - Schnelle Abdeckung, 50% höhere Effizienz."
       }
     },
     "iceFeeling": {
       "title": "Saphir Ice Feeling IPL-Gerät",
-      "desc": "Genießen Sie schmerzfreie Haarentfernung mit einer klinischen Saphir-Kühlplatte, die die Haut auf 5°C kühlt und höhere Energieimpulse für schnellere Ergebnisse ermöglicht. Die integrierte Intense Pulsed Light (IPL) Engine liefert 2,0~5,0 J/cm² Energie mit 999.999 Blitzen für lebenslange Nutzung.",
+      "desc": "Genießen Sie schmerzlose Haarentfernung mit einer klinischen Saphir-Kühlplatte, die die Haut auf 5°C kühlt und höhere Energieimpulse für schnellere Ergebnisse ermöglicht. Die integrierte Intense Pulsed Light (IPL)-Engine liefert 2,0~5,0 J/cm² Energie mit 999.999 Blitzen für lebenslange Nutzung.",
       "features": {
-        "longSmooth": "Langanhaltende Glätte — sichtbare Reduktion nach 3-4 Wochen.",
-        "cooling": "Kühlplatte hält Epidermis bei 5°C für wirklich schmerzfreie Behandlungen.",
-        "energyLevels": "Fünf Energiestufen passen sich fast allen Hauttönen im Fitzpatrick I-V Bereich an.",
+        "longSmooth": "Lang anhaltende Glätte - sichtbare Reduktion nach 3-4 Wochen.",
+        "cooling": "Kühlplatte hält die Epidermis bei 5°C für echte schmerzlose Behandlungen.",
+        "energyLevels": "Fünf Energieniveaus passen sich fast allen Hauttönen im Fitzpatrick I-V-Bereich an.",
         "flashModes": "Auto/Manueller Blitzmodus für Körper und Präzisionsbereiche.",
         "multiUse": "4-in-1: Ganzkörper, Bikini, Gesicht und Hautverjüngung."
       }
     },
     "skinSensor": {
-      "title": "IPL-Gerät mit Hautsensor",
-      "desc": "Erleben Sie die sicherste und intelligenteste Haarentfernung zu Hause mit unserem Hautsensor IPL-Gerät. Dieses revolutionäre Gerät verfügt über fortschrittliche optische Hautsensoren, die automatisch Ihren Hautton und Ihre Haarfarbe erkennen - liefert personalisierte Behandlungsintensität für maximale Wirksamkeit und komplette Sicherheit. Mit Echtzeit-Hautanalyse und automatischer Energieanpassung ist dieses Gerät perfekt für alle geeigneten Hauttypen und gewährleistet jedes Mal optimale Ergebnisse.",
+      "title": "Hautsensor IPL-Gerät",
+      "desc": "Erleben Sie die sicherste und intelligenteste Haarentfernung zu Hause mit unserem Hautsensor IPL-Gerät. Dieses revolutionäre Gerät verfügt über fortschrittliche optische Hautsensoren, die automatisch Ihren Hautton und Ihre Haarfarbe erkennen - und personalisierte Behandlungsintensität für maximale Effektivität und vollständige Sicherheit liefern. Mit Echtzeit-Hautanalyse und automatischer Energieanpassung ist dieses Gerät perfekt für alle geeigneten Hauttypen und gewährleistet optimale Ergebnisse bei jedem Mal.",
       "features": {
-        "intelligentDetection": "Intelligente Hauterkennung — Fortschrittliche Sensoren identifizieren automatisch Hautton und passen Energiestufen an",
-        "maxSafety": "Maximale Sicherheit — Verhindert Überbehandlung und reduziert Risiko von Hautreizungen oder Verbrennungen",
-        "personalized": "Personalisierte Behandlung — Optimiert automatisch Intensität für Ihre einzigartigen Hautcharakteristika",
-        "realTime": "Echtzeit-Analyse — Kontinuierliche Überwachung gewährleistet konsistente, sichere Behandlungssitzungen",
-        "proResults": "Professionelle Ergebnisse — Salon-Qualität Haarentfernung im Komfort Ihres Zuhauses"
+        "intelligentDetection": "Intelligente Hauterkennung - Fortschrittliche Sensoren identifizieren automatisch den Hautton und passen Energieniveaus an",
+        "maxSafety": "Maximale Sicherheit - Verhindert Überbehandlung und reduziert das Risiko von Hautreizungen oder Verbrennungen",
+        "personalized": "Personalisiertes Behandlungsverfahren - Optimiert automatisch die Intensität für Ihre einzigartigen Hautmerkmale",
+        "realTime": "Echtzeit-Analyse - Kontinuierliche Überwachung gewährleistet konsistente, sichere Behandlungssitzungen",
+        "proResults": "Professionelle Ergebnisse - Salon-Qualitäts-Haarentfernung im Komfort Ihres Zuhauses"
       }
     },
     "smartApp": {
       "title": "Smart App IPL-Haarentfernungsgerät",
-      "desc": "Verbinden Sie Ihr IPL-Gerät nahtlos über Bluetooth mit unserer SmartApp. Genießen Sie geführte Behandlungen, Echtzeit-Sitzungsverfolgung, personalisierte Routinen und KI-gestützte Einblicke. Kontrollieren Sie Intensitätsstufen, überwachen Sie Fortschritte und erhalten Sie Erinnerungen — alles von Ihrem Smartphone.",
+      "desc": "Verbinden Sie Ihr IPL-Gerät nahtlos über Bluetooth mit unserer SmartApp. Genießen Sie geführte Behandlungen, Echtzeit-Sitzungsverfolgung, personalisierte Routinen und KI-gestützte Einblicke. Kontrollieren Sie Intensitätsniveaus, überwachen Sie den Fortschritt und erhalten Sie Erinnerungen - alles von Ihrem Smartphone.",
       "features": {
-        "bluetooth": "Bluetooth 5.0-Konnektivität für stabile Verbindung",
-        "aiPlans": "Personalisierte Behandlungspläne via KI-Analyse",
-        "realTimeControl": "Echtzeit-Intensitätskontrolle und Bildschirm-Feedback",
+        "bluetooth": "Bluetooth 5.0-Konnektivität für stabile Paarung",
+        "aiPlans": "Personalisiertes Behandlungsverfahren über KI-Analyse",
+        "realTimeControl": "Echtzeit-Intensitätskontrolle und On-Screen-Feedback",
         "scheduling": "Sitzungsplanung und Nutzungserinnerungen",
         "compatibility": "Kompatibel mit iOS & Android"
       }
