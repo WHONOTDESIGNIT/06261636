@@ -2,31 +2,34 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Globe, Plane, Shield, Clock } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
+import { useLanguage } from '../../context/LanguageContext';
 
 const GlobalShipping: React.FC = () => {
+  const { t } = useLanguage();
+
   const shippingZones = [
     {
-      region: 'North America',
-      countries: ['United States', 'Canada', 'Mexico'],
-      deliveryTime: '3-7 business days',
+      region: t('globalShipping.zones.northAmerica.region'),
+      countries: [t('globalShipping.zones.northAmerica.countries.us'), t('globalShipping.zones.northAmerica.countries.canada'), t('globalShipping.zones.northAmerica.countries.mexico')],
+      deliveryTime: t('globalShipping.zones.northAmerica.deliveryTime'),
       icon: '🇺🇸'
     },
     {
-      region: 'Europe',
-      countries: ['Germany', 'France', 'UK', 'Netherlands', 'Italy'],
-      deliveryTime: '5-10 business days',
+      region: t('globalShipping.zones.europe.region'),
+      countries: [t('globalShipping.zones.europe.countries.germany'), t('globalShipping.zones.europe.countries.france'), t('globalShipping.zones.europe.countries.uk'), t('globalShipping.zones.europe.countries.netherlands'), t('globalShipping.zones.europe.countries.italy')],
+      deliveryTime: t('globalShipping.zones.europe.deliveryTime'),
       icon: '🇪🇺'
     },
     {
-      region: 'Asia Pacific',
-      countries: ['Japan', 'Australia', 'Singapore', 'South Korea'],
-      deliveryTime: '3-8 business days',
+      region: t('globalShipping.zones.asiaPacific.region'),
+      countries: [t('globalShipping.zones.asiaPacific.countries.japan'), t('globalShipping.zones.asiaPacific.countries.australia'), t('globalShipping.zones.asiaPacific.countries.singapore'), t('globalShipping.zones.asiaPacific.countries.southKorea')],
+      deliveryTime: t('globalShipping.zones.asiaPacific.deliveryTime'),
       icon: '🌏'
     },
     {
-      region: 'Rest of World',
-      countries: ['Brazil', 'India', 'South Africa', 'UAE'],
-      deliveryTime: '7-15 business days',
+      region: t('globalShipping.zones.restOfWorld.region'),
+      countries: [t('globalShipping.zones.restOfWorld.countries.brazil'), t('globalShipping.zones.restOfWorld.countries.india'), t('globalShipping.zones.restOfWorld.countries.southAfrica'), t('globalShipping.zones.restOfWorld.countries.uae')],
+      deliveryTime: t('globalShipping.zones.restOfWorld.deliveryTime'),
       icon: '🌍'
     }
   ];
@@ -34,27 +37,27 @@ const GlobalShipping: React.FC = () => {
   const services = [
     {
       icon: Plane,
-      title: 'Express Shipping',
-      description: 'Fast delivery for urgent orders with tracking and insurance',
-      features: ['2-5 day delivery', 'Full tracking', 'Insurance included', 'Priority handling']
+      title: t('globalShipping.services.express.title'),
+      description: t('globalShipping.services.express.description'),
+      features: [t('globalShipping.services.express.features.delivery'), t('globalShipping.services.express.features.tracking'), t('globalShipping.services.express.features.insurance'), t('globalShipping.services.express.features.priority')]
     },
     {
       icon: Shield,
-      title: 'Secure Packaging',
-      description: 'Professional packaging to ensure safe delivery worldwide',
-      features: ['Impact protection', 'Moisture resistance', 'Tamper-evident seals', 'Custom inserts']
+      title: t('globalShipping.services.secure.title'),
+      description: t('globalShipping.services.secure.description'),
+      features: [t('globalShipping.services.secure.features.protection'), t('globalShipping.services.secure.features.resistance'), t('globalShipping.services.secure.features.seals'), t('globalShipping.services.secure.features.inserts')]
     },
     {
       icon: Clock,
-      title: 'Flexible Options',
-      description: 'Multiple shipping options to meet your timeline and budget',
-      features: ['Standard shipping', 'Express delivery', 'Economy options', 'Scheduled delivery']
+      title: t('globalShipping.services.flexible.title'),
+      description: t('globalShipping.services.flexible.description'),
+      features: [t('globalShipping.services.flexible.features.standard'), t('globalShipping.services.flexible.features.express'), t('globalShipping.services.flexible.features.economy'), t('globalShipping.services.flexible.features.scheduled')]
     },
     {
       icon: Globe,
-      title: 'Customs Support',
-      description: 'Complete customs documentation and compliance handling',
-      features: ['Customs clearance', 'Documentation', 'Duty calculation', 'Compliance check']
+      title: t('globalShipping.services.customs.title'),
+      description: t('globalShipping.services.customs.description'),
+      features: [t('globalShipping.services.customs.features.clearance'), t('globalShipping.services.customs.features.documentation'), t('globalShipping.services.customs.features.duty'), t('globalShipping.services.customs.features.compliance')]
     }
   ];
 
@@ -70,10 +73,9 @@ const GlobalShipping: React.FC = () => {
             className="text-center"
           >
             <Globe className="w-16 h-16 mx-auto mb-6 text-white" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Global Shipping Solutions</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('globalShipping.hero.title')}</h1>
             <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
-              Reliable worldwide shipping for your IPL devices. Fast, secure, and fully tracked 
-              delivery to over 200 countries with complete customs support.
+              {t('globalShipping.hero.subtitle')}
             </p>
           </motion.div>
         </div>
@@ -88,9 +90,9 @@ const GlobalShipping: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Shipping Zones</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('globalShipping.zones.title')}</h2>
             <p className="text-lg text-gray-600">
-              Fast and reliable delivery to major markets worldwide
+              {t('globalShipping.zones.subtitle')}
             </p>
           </motion.div>
 
@@ -124,9 +126,9 @@ const GlobalShipping: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Shipping Services</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('globalShipping.services.title')}</h2>
             <p className="text-lg text-gray-600">
-              Comprehensive shipping solutions for your business needs
+              {t('globalShipping.services.subtitle')}
             </p>
           </motion.div>
 
