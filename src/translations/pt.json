@@ -115,6 +115,132 @@
       "subtitle": "Fabricante líder mundial de dispositivos IPL, ajudamos você a projetar, construir e embalar.",
       "cta": "Obter orçamento"
     },
+    "about": {
+      "title": "Sobre a iShine",
+      "subtitle": "Soluções IPL completas.",
+      "cta": "Ler mais",
+      "description1": "iShine Tech Co., Limited, é um fornecedor completo para",
+      "manufacturing": "fabricação de dispositivos de depilação IPL",
+      "and": "e",
+      "customization": "personalização",
+      "description2": ". Ajudamos você a projetar, construir e embalar. Da ideia ao mercado.",
+      "description3": "Temos capacidade para IPL com resfriamento de gelo personalizado, dispositivo IPL conectado ao aplicativo inteligente, dispositivo IPL com sensor de pele. A iShine oferece soluções que melhor se adequam à identidade da sua marca."
+    },
+    "whatWeDo": {
+      "title": "O QUE FAZEMOS",
+      "description": "A equipe iShine trabalha com proprietários de marcas de diferentes indústrias, gerentes de desenvolvimento de produtos, gerentes de produtos, gerentes de sourcing de categoria, especialistas em conformidade de varejo, designers de produtos juntos e oferece soluções OEM ODM desde design de dispositivos IPL moldados, prototipagem até fabricação contratual IPL, impressão, embalagem para garantir o sucesso de seus projetos IPL."
+    },
+    "productShowcase": {
+      "title": "DISPOSITIVOS IPL PERSONALIZADOS",
+      "subtitle": "Você projeta, nós construímos, embalamos",
+      "description": "A iShine é um fabricante completo de produtos IPL personalizados oferecendo personalização end-to-end, desde desenvolvimento de moldes e prototipagem até produção em massa e embalagem. A iShine já personalizou mais de 1.000 projetos de dispositivos IPL personalizados para nossos parceiros no passado com muita experiência em Solução Técnica de Produtos IPL e Solução de Conformidade.",
+      "include": "Os produtos IPL personalizados incluem:"
+    },
+    "customization": {
+      "title": "Opções de personalização ilimitadas",
+      "subtitle": "Destaque-se no mercado com dispositivos IPL totalmente personalizáveis adequados para sua marca.",
+      "options": {
+        "0": {
+          "label": "Personalização de Cor",
+          "content": "Escolha entre opções de cores ilimitadas para combinar com a identidade da sua marca."
+        },
+        "1": {
+          "label": "Impressão de Logo",
+          "content": "Adicione seu logo para uma experiência de produto totalmente marcada."
+        },
+        "2": {
+          "label": "Personalização de Função",
+          "content": "Personalize recursos e funções para atender às necessidades do seu mercado."
+        },
+        "3": {
+          "label": "Design de Embalagem",
+          "content": "Embalagem premium para varejo, e-commerce ou presentes."
+        },
+        "4": {
+          "label": "Suporte a Certificação",
+          "content": "Suporte completo para certificações globais."
+        }
+      }
+    },
+    "process": {
+      "title": "Processo OEM/ODM",
+      "subtitle": "Da ideia à entrega, tornamos seu projeto de dispositivo IPL perfeito e bem-sucedido.",
+      "steps": {
+        "0": {
+          "title": "Consulta",
+          "desc": "Discuta sua visão de marca e requisitos."
+        },
+        "1": {
+          "title": "Design & Prototipagem",
+          "desc": "Obtenha designs personalizados e protótipos funcionais."
+        },
+        "2": {
+          "title": "Confirmação de Amostra",
+          "desc": "Aprove amostras antes da produção em massa."
+        },
+        "3": {
+          "title": "Produção em Massa",
+          "desc": "Produção eficiente e de alta qualidade."
+        },
+        "4": {
+          "title": "Inspeção de Qualidade",
+          "desc": "QC rigoroso para cada lote."
+        },
+        "5": {
+          "title": "Certificação",
+          "desc": "Suporte para FDA, CE e mais."
+        },
+        "6": {
+          "title": "Envio Mundial",
+          "desc": "Entrega mundial com logística flexível."
+        },
+        "7": {
+          "title": "Serviço Pós-Venda",
+          "desc": "Suporte contínuo para seu negócio."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "O que nossos clientes dizem",
+      "pageButton": "Ir para página de depoimentos",
+      "0": "\"A iShine nos ajudou a lançar nossa marca IPL em tempo recorde. A qualidade e o serviço são impressionantes!\"",
+      "1": "\"As opções de personalização são infinitas. Nossos clientes adoram a embalagem e recursos únicos.\"",
+      "2": "\"Equipe profissional, resposta rápida e entrega confiável. Altamente recomendado para OEM/ODM.\"",
+      "3": "\"Expandimos para novos mercados graças ao suporte de certificação e conformidade da iShine.\"",
+      "4": "\"O serviço pós-venda é excelente. Qualquer problema é resolvido rapidamente e profissionalmente.\"",
+      "5": "\"Nossa reputação de marca melhorou significativamente com a expertise de design e fabricação da iShine.\""
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "0": {
+        "q": "O que é IPL e como funciona?",
+        "a": "IPL (Luz Pulsada Intensa) usa luz de espectro amplo para atingir folículos capilares, reduzindo o crescimento do cabelo de forma segura e eficaz."
+      },
+      "1": {
+        "q": "Posso personalizar as funções do dispositivo?",
+        "a": "Sim, oferecemos personalização completa de recursos, cores, embalagem e mais para atender às necessidades da sua marca."
+      },
+      "2": {
+        "q": "Quais certificações vocês suportam?",
+        "a": "Suportamos FDA, CE, RoHS e outras certificações globais para garantir conformidade em seus mercados-alvo."
+      },
+      "3": {
+        "q": "Qual é o prazo de entrega da produção?",
+        "a": "O prazo típico é de 25-35 dias após aprovação da amostra, dependendo do tamanho do pedido e personalização."
+      },
+      "4": {
+        "q": "Vocês fornecem suporte pós-venda?",
+        "a": "Sim, oferecemos suporte pós-venda abrangente incluindo suporte técnico e garantia."
+      },
+      "5": {
+        "q": "Vocês podem enviar para todo o mundo?",
+        "a": "Absolutamente. Oferecemos envio mundial confiável para apoiar seu negócio onde quer que você esteja."
+      }
+    },
+    "contact": {
+      "title": "Entre em contato",
+      "subtitle": "Pronto para fortalecer sua marca? Entre em contato para uma consulta gratuita e orçamento."
+    },
     "partners": {
       "title": "Confiado por Marcas Globais",
       "subtitle": "Trabalhando com líderes da indústria em todo o mundo"
