@@ -22,7 +22,8 @@ export default function ShippingCostPage() {
     e.preventDefault();
     const rate = countryRates.find(c => c.code === country)?.rate || 0;
     const total = rate * quantity;
-    setResult(t('shippingCost.result', `Estimated shipping cost to ${countryRates.find(c => c.code === country)?.country}: $${total} USD (${quantity} unit${quantity > 1 ? 's' : ''})`));
+    const countryName = t(`shippingCost.countries.${country}`, countryRates.find(c => c.code === country)?.country || '');
+    setResult(t('shippingCost.result', `Estimated shipping cost to ${countryName}: $${total} USD (${quantity} unit${quantity > 1 ? 's' : ''})`));
   };
 
   return (
