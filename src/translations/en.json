@@ -55,7 +55,83 @@
       "videos": "Videos",
       "blog": "Blog",
       "newsInsights": "News & Insights",
-      "industries": "Industries We Serve"
+      "industries": "Industries We Serve",
+      "hero": {
+        "title": "Service & Support",
+        "subtitle": "Comprehensive support ecosystem for IPL device manufacturers, distributors, and brand owners. From technical guidance to business solutions, we're here to ensure your success.",
+        "cta": "Get Support Now"
+      },
+      "stats": {
+        "satisfiedClients": "Satisfied Clients",
+        "technicalSupport": "Technical Support",
+        "uptimeGuarantee": "Uptime Guarantee",
+        "countriesServed": "Countries Served"
+      },
+      "ecosystem": {
+        "title": "Our Service Ecosystem",
+        "subtitle": "Everything you need to succeed in the IPL device market, from technical support to business growth solutions."
+      },
+      "categories": {
+        "technicalSupport": {
+          "title": "Technical Support",
+          "description": "Expert guidance and troubleshooting for all your IPL device needs"
+        },
+        "manufacturingServices": {
+          "title": "Manufacturing Services",
+          "description": "Complete OEM/ODM solutions from design to production"
+        },
+        "businessSupport": {
+          "title": "Business Support",
+          "description": "Comprehensive business solutions for distributors and brand owners"
+        },
+        "resourcesMedia": {
+          "title": "Resources & Media",
+          "description": "Visual resources and educational content for marketing and training"
+        }
+      },
+      "services": {
+        "afterSalesService": {
+          "name": "After-Sales Service",
+          "description": "24/7 technical support with 1-year warranty and 365-day return policy"
+        },
+        "knowledgeBase": {
+          "name": "Knowledge Base",
+          "description": "Comprehensive FAQ and technical documentation for IPL devices"
+        },
+        "helpCenter": {
+          "name": "Help Center",
+          "description": "Multi-channel support including live chat, phone, and email assistance"
+        },
+        "iplManufacturing": {
+          "name": "IPL Manufacturing",
+          "description": "Custom IPL device manufacturing with FDA compliance and quality assurance"
+        },
+        "winFdaListing": {
+          "name": "Win FDA Listing",
+          "description": "Professional guidance to obtain FDA 510(k) listing for your brand"
+        },
+        "beautySourcing": {
+          "name": "Beauty Sourcing",
+          "description": "Specialized sourcing for beauty devices and accessories with expert guidance"
+        },
+        "pricingGuide": {
+          "name": "Pricing Guide",
+          "description": "Transparent pricing information and customized quotations for bulk orders"
+        },
+        "gallery": {
+          "name": "Gallery",
+          "description": "High-quality product images and lifestyle photography for marketing use"
+        },
+        "videos": {
+          "name": "Videos",
+          "description": "Product demonstrations, tutorials, and promotional video content"
+        }
+      },
+      "learnMore": "Learn More →",
+      "cta": {
+        "title": "Ready to Get Started?",
+        "subtitle": "Our expert team is standing by to help you with any questions or support needs. Get in touch today and experience the iShine difference."
+      }
     },
     "about": {
       "founderMessage": "Founder Message",
@@ -114,6 +190,132 @@
       "title2": "& Branding IPL Devices",
       "subtitle": "Global Leading IPL device manufacturer, help you design it, build it, and box it.",
       "cta": "Get Quote"
+    },
+    "about": {
+      "title": "About iShine",
+      "subtitle": "Complete IPL solutions.",
+      "cta": "Read More",
+      "description1": "iShine Tech Co., Limited is a complete supplier for",
+      "manufacturing": "IPL hair removal device manufacturing",
+      "and": "and",
+      "customization": "customization",
+      "description2": ". Help you design, manufacture, and package. From idea to market.",
+      "description3": "We have capabilities for custom ice cooling IPL, Smart app-connected IPL device, skin sensor IPL device. iShine provides solutions that best fit your brand identity."
+    },
+    "whatWeDo": {
+      "title": "WHAT WE DO",
+      "description": "The iShine team works with brand owners from different industries, product development managers, product managers, category sourcing managers, retail compliance specialists, product designers together and provides OEM ODM solutions from molded IPL devices design, prototyping to IPL contract manufacturing, printing, packaging to ensure the success of their IPL projects."
+    },
+    "productShowcase": {
+      "title": "CUSTOMIZED IPL DEVICES",
+      "subtitle": "You design, we manufacture, package",
+      "description": "iShine is a full-service custom IPL products manufacturer providing end-to-end customization from mold development and prototyping to mass production and packaging. iShine has customized over 1,000 custom devices IPL projects for our partners in the past with extensive experience in IPL products Technical solution and Compliance solution.",
+      "include": "Custom IPL products include:"
+    },
+    "customization": {
+      "title": "Unlimited customization options",
+      "subtitle": "Stand out in the market with fully customizable IPL devices that fit your brand.",
+      "options": {
+        "0": {
+          "label": "Color Customization",
+          "content": "Choose from unlimited color options to match your brand identity."
+        },
+        "1": {
+          "label": "Logo Printing",
+          "content": "Add your logo for a fully branded product experience."
+        },
+        "2": {
+          "label": "Function Customization",
+          "content": "Customize features and functions to meet your market needs."
+        },
+        "3": {
+          "label": "Packaging Design",
+          "content": "Premium packaging for retail, e-commerce, or gifting."
+        },
+        "4": {
+          "label": "Certification Support",
+          "content": "Complete support for global certifications."
+        }
+      }
+    },
+    "process": {
+      "title": "OEM/ODM Process",
+      "subtitle": "From idea to delivery, we make your IPL device project seamless and successful.",
+      "steps": {
+        "0": {
+          "title": "Consultation",
+          "desc": "Discuss your brand vision and requirements."
+        },
+        "1": {
+          "title": "Design & Prototyping",
+          "desc": "Get custom designs and functional prototypes."
+        },
+        "2": {
+          "title": "Sample Confirmation",
+          "desc": "Approve samples before mass production."
+        },
+        "3": {
+          "title": "Mass Production",
+          "desc": "Efficient and high-quality manufacturing."
+        },
+        "4": {
+          "title": "Quality Inspection",
+          "desc": "Strict QC for every batch."
+        },
+        "5": {
+          "title": "Certification",
+          "desc": "Support for FDA, CE, and others."
+        },
+        "6": {
+          "title": "Global Shipping",
+          "desc": "Worldwide delivery with flexible logistics."
+        },
+        "7": {
+          "title": "After-Sales Service",
+          "desc": "Ongoing support for your business."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "pageButton": "Go to testimonials page",
+      "0": "\"iShine helped us launch our IPL brand in record time. Impressive quality and service!\"",
+      "1": "\"Unlimited customization options. Our clients love the unique packaging and features.\"",
+      "2": "\"Professional team, fast response, and reliable delivery. Highly recommended for OEM/ODM.\"",
+      "3": "\"We expanded to new markets thanks to iShine's certification and compliance support.\"",
+      "4": "\"Excellent after-sales service. Any issues are resolved quickly and professionally.\"",
+      "5": "\"Our brand reputation has significantly improved thanks to iShine's design and manufacturing expertise.\""
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "0": {
+        "q": "What is IPL and how does it work?",
+        "a": "IPL (Intense Pulsed Light) uses broad-spectrum light to target hair follicles, safely and effectively reducing hair growth."
+      },
+      "1": {
+        "q": "Can I customize device functions?",
+        "a": "Yes, we provide complete customization of features, colors, packaging, and more to match your brand needs."
+      },
+      "2": {
+        "q": "What certifications do you support?",
+        "a": "We support FDA, CE, RoHS, and other global certifications to ensure compliance with your target markets."
+      },
+      "3": {
+        "q": "How long is the production lead time?",
+        "a": "Typical lead time is 25-35 days after sample approval, depending on order size and customization."
+      },
+      "4": {
+        "q": "Do you provide after-sales support?",
+        "a": "Yes, we provide comprehensive after-sales service including technical support and warranty."
+      },
+      "5": {
+        "q": "Can you ship worldwide?",
+        "a": "Certainly. We provide reliable worldwide shipping to support your business wherever you are."
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Ready to strengthen your brand? Contact us for free consultation and quote."
     },
     "partners": {
       "title": "Trusted by Global Brands",
@@ -455,6 +657,126 @@
   "floating": {
     "contact": "Contact Us",
     "backToTop": "Back to top"
+  },
+  "afterSalesService": {
+    "hero": {
+      "title": "Your Satisfaction, Guaranteed",
+      "subtitle": "Experience risk-free B2B partnership with iShine. Our commitment: comprehensive after-sales support, transparent policies, and industry-leading warranty coverage for all IPL hair removal devices."
+    },
+    "commonIssues": {
+      "title": "Common After-Sales Issues & Prevention",
+      "scenarios": {
+        "title": "Typical After-Sales Scenarios",
+        "items": [
+          "Not reviewing the user manual thoroughly before use",
+          "Using the device without confirming skin/hair type suitability",
+          "Selecting an energy level beyond personal skin tolerance",
+          "Unstable local voltage affecting device performance",
+          "Blade-induced scratches during pre-treatment",
+          "Device not fully contacting skin or not held at a 90° angle",
+          "Sensitive skin experiencing pronounced discomfort",
+          "Product or packaging damaged during shipping",
+          "Skipping pre-use shaving, leading to hair burns",
+          "Not wearing protective goggles, resulting in eye discomfort or injury",
+          "Other unforeseen causes"
+        ]
+      },
+      "prevention": {
+        "title": "How to Avoid These Issues",
+        "items": [
+          "Read the User Manual: Review all guidelines and contraindications before first use.",
+          "Check Suitability: Confirm your skin and hair type match device recommendations.",
+          "Start Low, Go Slow: Always begin with the lowest energy setting; increase only if comfortable.",
+          "Voltage Check: Ensure your local voltage matches device requirements.",
+          "Pre-Shave Properly: Shave treatment areas to avoid hair burns.",
+          "Wear Safety Goggles: Always use provided eye protection.",
+          "Correct Device Angle: Maintain full contact and a 90° angle between device and skin.",
+          "Gentle Handling: Avoid using blades or accessories that may cause injury.",
+          "Unbox Carefully: Inspect for shipping damage before use.",
+          "For Sensitive Skin: Test on a small area first; discontinue if discomfort occurs."
+        ]
+      },
+      "howToUseGuide": "How to Use Guide"
+    },
+    "commitments": {
+      "title": "Our Response & Service Commitments",
+      "warranty": {
+        "title": "1-Year Limited Warranty",
+        "description": "If your device malfunctions due to manufacturing defects within one year, we will repair or replace it at no cost."
+      },
+      "return": {
+        "title": "Risk-Free 365-Day Return Policy",
+        "description": "Try iShine beauty tools risk-free. If dissatisfied, return the product within 365 days for a refund."
+      },
+      "moneyBack": {
+        "title": "90-Day Money-Back Guarantee",
+        "description": "Not satisfied within the first 90 days? Contact us for a full refund. No questions asked."
+      },
+      "note": "Note: The 90-day money-back guarantee is for product dissatisfaction. The 1-year warranty covers manufacturing defects or malfunctions during normal use. Refunds are not available after 90 days, but warranty coverage continues for the remainder of the year.",
+      "warrantyClaim": "Warranty Claim Form",
+      "returnRequest": "Return Request Form"
+    },
+    "returnsTerms": {
+      "title": "Returns & Terms",
+      "returnWindow": "Return Window: 90 days from delivery for money-back guarantee.",
+      "process": "Process: Contact us before returning any product. Unauthorized returns may be refused.",
+      "exclusions": "Exclusions: Orders via Tapjoy or in-game currency are final sale and not eligible for return.",
+      "refunds": "Refunds: Processed to the original payment method upon receipt and inspection. Allow up to 30 days for credit processing.",
+      "warrantyExclusions": "Warranty Exclusions: Damage from misuse, unauthorized modifications, accidental damage, or failure to follow instructions is not covered. Issues arising from not following device suitability guidelines or improper operation are excluded from warranty coverage.",
+      "fullTerms": "Full Terms & Conditions"
+    },
+    "insights": {
+      "title": "Data-Driven Insights",
+      "failureRate": "Over 80% of reported device failures are linked to incorrect operation or ignoring suitability guidelines."
+    }
+  },
+  "helpCenter": {
+    "hero": {
+      "title": "Help Center",
+      "subtitle": "Get the support you need with our comprehensive help center. Find answers to common questions, troubleshooting guides, and expert assistance."
+    }
+  },
+  "knowledgeBase": {
+    "hero": {
+      "title": "Knowledge Base",
+      "subtitle": "Comprehensive FAQ and technical documentation for IPL devices. Find answers to all your questions about our products and services."
+    }
+  },
+  "iplManufacturing": {
+    "hero": {
+      "title": "IPL Manufacturing",
+      "subtitle": "Custom IPL device manufacturing with FDA compliance and quality assurance. From design to production, we ensure your success."
+    }
+  },
+  "winFdaListing": {
+    "hero": {
+      "title": "Win FDA Listing",
+      "subtitle": "Professional guidance to obtain FDA 510(k) listing for your brand. Navigate the regulatory process with expert support."
+    }
+  },
+  "beautySourcing": {
+    "hero": {
+      "title": "Beauty Sourcing",
+      "subtitle": "Specialized sourcing for beauty devices and accessories with expert guidance. Find the perfect products for your business."
+    }
+  },
+  "pricingGuide": {
+    "hero": {
+      "title": "Pricing Guide",
+      "subtitle": "Transparent pricing information and customized quotations for bulk orders. Get competitive pricing for your IPL device needs."
+    }
+  },
+  "gallery": {
+    "hero": {
+      "title": "Gallery",
+      "subtitle": "High-quality product images and lifestyle photography for marketing use. Showcase your products with professional visuals."
+    }
+  },
+  "videos": {
+    "hero": {
+      "title": "Videos",
+      "subtitle": "Product demonstrations, tutorials, and promotional video content. Learn about our products through engaging video content."
+    }
   },
   "blog": {
     "posts": {
