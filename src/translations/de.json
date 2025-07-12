@@ -592,61 +592,81 @@
     "yearsExperience": "Jahre Erfahrung"
   },
   "about": {
-    "heroTitle": "Über iShine",
-    "heroDesc": "Ihr vertrauenswürdiger Partner in der IPL-Geräteherstellung, der seit 2018 innovative Beauty-Technologie vom Konzept zum Markt bringt.",
-    "storyTitle": "Unsere Geschichte",
-    "storyP1": "2018 gegründet, entstand iShine aus einer Vision, fortschrittliche IPL-Technologie zu demokratisieren. Wir erkannten, dass Beauty-Marken einen zuverlässigen Partner benötigen, der ihre Ideen mit Präzision und Exzellenz in marktreife Produkte verwandeln kann.",
-    "storyP2": "Heute sind wir stolz darauf, Kunden auf drei Kontinenten zu bedienen, von innovativen Startups bis hin zu etablierten Beauty-Konglomeraten. Unser Engagement für Qualität, Innovation und Kundenerfolg treibt alles an, was wir tun.",
-    "storyP3": "Bei iShine stellen wir nicht nur Geräte her - wir entwickeln Lösungen, die Marken ermöglichen, auf dem konkurrenzfähigen Beauty-Markt erfolgreich zu sein.",
-    "valuesTitle": "Unsere Kernwerte",
-    "valuesDesc": "Die Prinzipien, die unsere Arbeit und Beziehungen zu Kunden leiten",
-    "values": {
-      "qualityTitle": "Qualitätsexzellenz",
-      "qualityDesc": "FDA GMP-zertifizierte Herstellung mit rigoroser Qualitätskontrolle",
-      "customerTitle": "Kundenfokus",
-      "customerDesc": "Engagiert im Verstehen und Übertreffen von Kundenerwartungen",
-      "globalTitle": "Globale Wirkung",
-      "globalDesc": "Bedienung von Beauty-Marken weltweit mit innovativen IPL-Lösungen",
-      "innovationTitle": "Innovationsantrieb",
-      "innovationDesc": "Kontinuierliche F&E-Investition in IPL-Technologie der nächsten Generation"
-    },
-    "journeyTitle": "Unsere Reise",
-    "journeyDesc": "Schlüsselmeilensteine in unserem Wachstum und unserer Innovation",
-    "milestones": {
-      "2018": {
-        "title": "Unternehmen gegründet",
-        "desc": "iShine als IPL-Gerätehersteller etabliert"
+    "brandStory": {
+      "hero": {
+        "title": "Von der Herausforderung zum Wandel: Die iShine-Reise",
+        "subtitle": "Die IPL-Branche kämpfte mit hohen Kosten, begrenzter Anpassung und technischen Hürden. iShine wurde gegründet, um dieses Muster zu durchbrechen - Unternehmen weltweit mit IPL-Technologie der nächsten Generation und einem nahtlosen Weg von der Idee zum Markt zu befähigen."
       },
-      "2019": {
-        "title": "Erster internationaler Kunde",
-        "desc": "Partnerschaft mit KU-2 Cosmetic in Deutschland"
-      },
-      "2020": {
-        "title": "FDA GMP-Zertifizierung",
-        "desc": "FDA GMP Reinraum-Zertifizierung erreicht"
-      },
-      "2021": {
-        "title": "Smart IPL-Einführung",
-        "desc": "Erste app-gesteuerte IPL-Geräte eingeführt"
-      },
-      "2022": {
-        "title": "Globale Expansion",
-        "desc": "Partnerschaften mit Costco und ROSESKINCO"
-      },
-      "2023": {
-        "title": "KI-Integration",
-        "desc": "KI-betriebene IPL-Technologie eingeführt"
+      "sections": {
+        "origin": {
+          "title": "Unser Ursprung",
+          "content": "Gegründet mit der Vision, fortschrittliche IPL-Technologie zu demokratisieren, entstand iShine aus der Erkenntnis, dass Innovation durch hohe Kosten und begrenzte Zugänglichkeit im Beauty-Geräte-Markt behindert wurde."
+        },
+        "mission": {
+          "title": "Unsere Mission",
+          "content": "Fortschrittliche IPL-Lösungen für jede visionäre Marke zugänglich, anpassbar und skalierbar zu machen und Barrieren für Innovation im Beauty-Technologie-Bereich abzubauen."
+        },
+        "vision": {
+          "title": "Unsere Vision",
+          "content": "Der globale Marktführer bei der Demokratisierung fortschrittlicher Beauty-Technologie zu sein und Marken weltweit zu befähigen, innovative IPL-Lösungen mit Vertrauen und Erfolg auf den Markt zu bringen."
+        },
+        "values": {
+          "title": "Unsere Werte",
+          "content": "Innovation, Zusammenarbeit, Qualität und Kundenorientierung treiben alles an, was wir tun. Wir glauben an den Aufbau dauerhafter Partnerschaften und die Lieferung von Exzellenz in jedem Projekt."
+        }
       }
     },
-    "teamTitle": "Unser Expertenteam",
-    "teamDesc": "Engagierte Profis, die sich Ihrem Erfolg verpflichten",
-    "team": {
-      "rnd": "F&E-Ingenieure",
-      "rndDesc": "Expertingenieure, die modernste IPL-Technologie entwickeln",
-      "quality": "Qualitätsspezialisten",
-      "qualityDesc": "Sicherstellen, dass jedes Gerät die höchsten Standards erfüllt",
-      "customer": "Kundenerfolg",
-      "customerDesc": "Engagierte Unterstützung vom Konzept zur Markteinführung"
+    "corePrinciples": {
+      "hero": {
+        "title": "Kernprinzipien",
+        "subtitle": "Die grundlegenden Werte, die unseren Ansatz für Innovation, Qualität und Kundenerfolg leiten."
+      },
+      "principles": {
+        "innovation": {
+          "title": "Innovation zuerst",
+          "content": "Wir erweitern kontinuierlich die Grenzen des Möglichen in der IPL-Technologie und investieren in F&E, um bahnbrechende Lösungen zu liefern."
+        },
+        "quality": {
+          "title": "Qualitätsexzellenz",
+          "content": "Jedes Produkt, das wir herstellen, erfüllt die höchsten Standards für Qualität, Sicherheit und Leistung."
+        },
+        "partnership": {
+          "title": "Partnerschaftsansatz",
+          "content": "Wir arbeiten kollaborativ mit unseren Kunden zusammen, behandeln ihren Erfolg als unseren eigenen und bieten umfassende Unterstützung."
+        },
+        "accessibility": {
+          "title": "Zugänglichkeit",
+          "content": "Wir glauben, dass fortschrittliche Technologie für alle zugänglich sein sollte, nicht nur für große Unternehmen."
+        }
+      }
+    },
+    "founderMessage": {
+      "hero": {
+        "title": "Gründernachricht",
+        "subtitle": "Eine persönliche Nachricht unseres Gründers über die Reise, Vision und das Engagement für Exzellenz."
+      },
+      "message": {
+        "title": "Liebe Partner und Freunde",
+        "content": "Als wir iShine gründeten, sahen wir eine Branche, in der Innovation durch hohe Kosten und komplexe Barrieren begrenzt war. Unsere Mission war klar: fortschrittliche IPL-Technologie zu demokratisieren und sie für visionäre Marken weltweit zugänglich zu machen. Heute bin ich stolz zu sagen, dass wir mehr als ein Herstellungsunternehmen aufgebaut haben - wir haben ein Partnerschaftsökosystem geschaffen, das Erfolg ermöglicht."
+      },
+      "vision": {
+        "title": "Unsere Vision für die Zukunft",
+        "content": "Wir stellen uns eine Welt vor, in der jede Marke, unabhängig von der Größe, Zugang zu den neuesten Beauty-Technologie-Innovationen haben kann. Unser Engagement für F&E, Qualität und Partnerschaft stellt sicher, dass wir an der Spitze der IPL-Technologie-Entwicklung bleiben."
+      }
+    },
+    "globalWitness": {
+      "hero": {
+        "title": "Weltweiter Zeuge",
+        "subtitle": "Entdecken Sie, wie iShine weltweit durch Innovation, Qualität und Partnerschaft einen Unterschied macht."
+      },
+      "impact": {
+        "title": "Globale Wirkung",
+        "content": "Unsere Technologie und Lösungen haben über 50 Länder erreicht und Marken befähigt, innovative IPL-Produkte auf den Markt zu bringen und Leben durch fortschrittliche Beauty-Technologie zu verbessern."
+      },
+      "partnerships": {
+        "title": "Strategische Partnerschaften",
+        "content": "Wir haben dauerhafte Beziehungen zu führenden Marken, Händlern und Technologiepartnern weltweit aufgebaut und ein Netzwerk für Innovation und Erfolg geschaffen."
+      }
     }
   },
   "countryPage": {
@@ -1360,6 +1380,54 @@
           "description": "Medizinischer Saphir für optimale Leistung"
         }
       }
+    }
+  },
+  "helpCenter": {
+    "hero": {
+      "title": "Hilfezentrum",
+      "subtitle": "Erhalten Sie die Unterstützung, die Sie benötigen, mit unserem umfassenden Hilfezentrum. Finden Sie Antworten auf häufige Fragen, Fehlerbehebungsleitfäden und Expertenunterstützung."
+    }
+  },
+  "knowledgeBase": {
+    "hero": {
+      "title": "Wissensdatenbank",
+      "subtitle": "Umfassende FAQ und technische Dokumentation für IPL-Geräte. Finden Sie Antworten auf alle Ihre Fragen zu unseren Produkten und Dienstleistungen."
+    }
+  },
+  "iplManufacturing": {
+    "hero": {
+      "title": "IPL-Herstellung",
+      "subtitle": "Maßgeschneiderte IPL-Geräteherstellung mit FDA-Compliance und Qualitätssicherung. Vom Design bis zur Produktion gewährleisten wir Ihren Erfolg."
+    }
+  },
+  "winFdaListing": {
+    "hero": {
+      "title": "FDA-Listung gewinnen",
+      "subtitle": "Professionelle Beratung zur Erlangung der FDA 510(k)-Listung für Ihre Marke. Navigieren Sie durch den regulatorischen Prozess mit Expertenunterstützung."
+    }
+  },
+  "beautySourcing": {
+    "hero": {
+      "title": "Beauty-Beschaffung",
+      "subtitle": "Spezialisierte Beschaffung für Beauty-Geräte und Zubehör mit Expertenberatung. Finden Sie die perfekten Produkte für Ihr Geschäft."
+    }
+  },
+  "pricingGuide": {
+    "hero": {
+      "title": "Preisleitfaden",
+      "subtitle": "Transparente Preisinformationen und maßgeschneiderte Angebote für Großbestellungen. Erhalten Sie wettbewerbsfähige Preise für Ihre IPL-Geräte-Bedürfnisse."
+    }
+  },
+  "gallery": {
+    "hero": {
+      "title": "Galerie",
+      "subtitle": "Hochwertige Produktbilder und Lifestyle-Fotografie für Marketing-Zwecke. Präsentieren Sie Ihre Produkte mit professionellen Visuals."
+    }
+  },
+  "videos": {
+    "hero": {
+      "title": "Videos",
+      "subtitle": "Produktdemonstrationen, Tutorials und Werbevideo-Inhalte. Lernen Sie unsere Produkte durch fesselnde Videoinhalte kennen."
     }
   }
 }
