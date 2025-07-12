@@ -109,7 +109,83 @@
       "videos": "Videos",
       "blog": "Blog",
       "newsInsights": "Nachrichten & Insights",
-      "industries": "Branchen die wir bedienen"
+      "industries": "Branchen die wir bedienen",
+      "hero": {
+        "title": "Service & Support",
+        "subtitle": "Umfassendes Support-Ökosystem für IPL-Gerätehersteller, Händler und Markeninhaber. Von technischer Beratung bis zu Geschäftslösungen sind wir hier, um Ihren Erfolg zu gewährleisten.",
+        "cta": "Jetzt Support erhalten"
+      },
+      "stats": {
+        "satisfiedClients": "Zufriedene Kunden",
+        "technicalSupport": "Technischer Support",
+        "uptimeGuarantee": "Uptime-Garantie",
+        "countriesServed": "Bediente Länder"
+      },
+      "ecosystem": {
+        "title": "Unser Service-Ökosystem",
+        "subtitle": "Alles, was Sie für den Erfolg im IPL-Geräte-Markt benötigen, von technischem Support bis zu Geschäftswachstumslösungen."
+      },
+      "categories": {
+        "technicalSupport": {
+          "title": "Technischer Support",
+          "description": "Expertenberatung und Fehlerbehebung für alle Ihre IPL-Geräte-Bedürfnisse"
+        },
+        "manufacturingServices": {
+          "title": "Herstellungsdienstleistungen",
+          "description": "Vollständige OEM/ODM-Lösungen vom Design bis zur Produktion"
+        },
+        "businessSupport": {
+          "title": "Geschäftssupport",
+          "description": "Umfassende Geschäftslösungen für Händler und Markeninhaber"
+        },
+        "resourcesMedia": {
+          "title": "Ressourcen & Medien",
+          "description": "Visuelle Ressourcen und Bildungsinhalte für Marketing und Schulung"
+        }
+      },
+      "services": {
+        "afterSalesService": {
+          "name": "Kundendienst",
+          "description": "24/7 technischer Support mit 1-Jahres-Garantie und 365-Tage-Rückgaberecht"
+        },
+        "knowledgeBase": {
+          "name": "Wissensdatenbank",
+          "description": "Umfassende FAQ und technische Dokumentation für IPL-Geräte"
+        },
+        "helpCenter": {
+          "name": "Hilfezentrum",
+          "description": "Multi-Channel-Support einschließlich Live-Chat, Telefon und E-Mail-Unterstützung"
+        },
+        "iplManufacturing": {
+          "name": "IPL-Herstellung",
+          "description": "Maßgeschneiderte IPL-Geräteherstellung mit FDA-Compliance und Qualitätssicherung"
+        },
+        "winFdaListing": {
+          "name": "FDA-Listung gewinnen",
+          "description": "Professionelle Beratung zur Erlangung der FDA 510(k)-Listung für Ihre Marke"
+        },
+        "beautySourcing": {
+          "name": "Beauty-Beschaffung",
+          "description": "Spezialisierte Beschaffung für Beauty-Geräte und Zubehör mit Expertenberatung"
+        },
+        "pricingGuide": {
+          "name": "Preisleitfaden",
+          "description": "Transparente Preisinformationen und maßgeschneiderte Angebote für Großbestellungen"
+        },
+        "gallery": {
+          "name": "Galerie",
+          "description": "Hochwertige Produktbilder und Lifestyle-Fotografie für Marketing-Zwecke"
+        },
+        "videos": {
+          "name": "Videos",
+          "description": "Produktdemonstrationen, Tutorials und Werbevideo-Inhalte"
+        }
+      },
+      "learnMore": "Mehr erfahren →",
+      "cta": {
+        "title": "Bereit zu starten?",
+        "subtitle": "Unser Expertenteam steht bereit, um Ihnen bei allen Fragen oder Support-Bedürfnissen zu helfen. Nehmen Sie noch heute Kontakt auf und erleben Sie den iShine-Unterschied."
+      }
     },
     "about": {
       "founderMessage": "Gründernachricht",
@@ -1064,85 +1140,6 @@
       }
     }
   },
-  "serviceSupport": {
-    "hero": {
-      "title": "Service & Support",
-      "subtitle": "Umfassendes Support-Ökosystem für IPL-Gerätehersteller, Händler und Markeninhaber. Von technischer Beratung bis zu Geschäftslösungen sind wir hier, um Ihren Erfolg zu gewährleisten.",
-      "cta": "Jetzt Support erhalten"
-    },
-    "stats": {
-      "satisfiedClients": "Zufriedene Kunden",
-      "technicalSupport": "Technischer Support",
-      "uptimeGuarantee": "Uptime-Garantie",
-      "countriesServed": "Bediente Länder"
-    },
-    "ecosystem": {
-      "title": "Unser Service-Ökosystem",
-      "subtitle": "Alles, was Sie für den Erfolg im IPL-Geräte-Markt benötigen, von technischem Support bis zu Geschäftswachstumslösungen."
-    },
-    "categories": {
-      "technicalSupport": {
-        "title": "Technischer Support",
-        "description": "Expertenberatung und Fehlerbehebung für alle Ihre IPL-Geräte-Bedürfnisse",
-        "services": {
-          "afterSales": {
-            "name": "Kundendienst",
-            "description": "24/7 technischer Support mit 1-Jahres-Garantie und 365-Tage-Rückgaberecht"
-          },
-          "knowledgeBase": {
-            "name": "Wissensdatenbank",
-            "description": "Umfassende FAQ und technische Dokumentation für IPL-Geräte"
-          },
-          "helpCenter": {
-            "name": "Hilfezentrum",
-            "description": "Multi-Channel-Support einschließlich Live-Chat, Telefon und E-Mail-Unterstützung"
-          }
-        }
-      },
-      "manufacturingServices": {
-        "title": "Herstellungsdienstleistungen",
-        "description": "Vollständige OEM/ODM-Lösungen vom Design bis zur Produktion",
-        "services": {
-          "iplManufacturing": {
-            "name": "IPL-Herstellung",
-            "description": "Maßgeschneiderte IPL-Geräteherstellung mit FDA-Compliance und Qualitätssicherung"
-          },
-          "winFDAListing": {
-            "name": "FDA-Listung gewinnen",
-            "description": "Professionelle Beratung zur Erlangung der FDA 510(k)-Listung für Ihre Marke"
-          }
-        }
-      },
-      "businessSupport": {
-        "title": "Geschäftssupport",
-        "description": "Umfassende Geschäftslösungen für Händler und Markeninhaber",
-        "services": {
-          "beautySourcing": {
-            "name": "Beauty-Beschaffung",
-            "description": "Spezialisierte Beschaffung für Beauty-Geräte und Zubehör mit Expertenberatung"
-          },
-          "pricingGuide": {
-            "name": "Preisleitfaden",
-            "description": "Transparente Preisinformationen und maßgeschneiderte Angebote für Großbestellungen"
-          }
-        }
-      },
-      "resourcesMedia": {
-        "title": "Ressourcen & Medien",
-        "description": "Visuelle Ressourcen und Bildungsinhalte für Marketing und Schulung",
-        "services": {
-          "gallery": {
-            "name": "Galerie",
-            "description": "Hochwertige Produktbilder und Lifestyle-Fotografie für Marketing-Zwecke"
-          },
-          "videos": {
-            "name": "Videos",
-            "description": "Produktdemonstrationen, Tutorials und Werbevideo-Inhalte"
-          }
-        }
-      }
-    }
-  },
   "afterSalesService": {
     "hero": {
       "title": "Ihre Zufriedenheit, garantiert",
@@ -1200,6 +1197,169 @@
       "note": "Hinweis: Die 90-Tage-Geld-zurück-Garantie gilt für Produktunzufriedenheit. Die 1-Jahres-Garantie deckt Herstellungsfehler oder Funktionsstörungen während der normalen Nutzung ab. Rückerstattungen sind nach 90 Tagen nicht verfügbar, aber die Garantieabdeckung setzt sich für den Rest des Jahres fort.",
       "warrantyButton": "Garantieanspruch-Formular",
       "returnButton": "Rückgabeanfrage"
+    }
+  },
+  "sitemap": {
+    "title": "Sitemap",
+    "mainPages": "Hauptseiten",
+    "home": "Startseite",
+    "about": "Über uns",
+    "iplHairRemoval": "IPL-Haarentfernung",
+    "solutions": "Lösungen",
+    "contact": "Kontakt",
+    "iplProducts": "IPL-Produkte",
+    "emeraldIpl": "Emerald IPL",
+    "iceCoolingIpl": "Ice Cooling IPL",
+    "iceFeelingIpl": "Ice Feeling IPL",
+    "handheldIpl": "Handgehaltenes IPL",
+    "batteryPoweredIpl": "Akkubetriebenes IPL",
+    "skinSensorIpl": "Hautsensor IPL",
+    "aiPoweredIpl": "KI-gestütztes IPL",
+    "dualLampIpl": "Dual-Lamp IPL",
+    "aboutPages": "Über uns Seiten",
+    "brandStory": "Markengeschichte",
+    "companyInfo": "Unternehmensinfo",
+    "corePrinciples": "Kernprinzipien",
+    "founderMessage": "Gründernachricht",
+    "globalWitness": "Weltweiter Zeuge",
+    "quality": "Qualität",
+    "technology": "Technologie",
+    "brandCustomization": "Markenanpassung",
+    "compliance": "Konformität",
+    "designPrototyping": "Design & Prototyping",
+    "dropShipping": "Dropshipping",
+    "dualLampIplSolution": "Dual-Lamp IPL",
+    "globalShipping": "Weltweiter Versand",
+    "logoPrinting": "Logo-Druck",
+    "multiHeadIpl": "Multi-Head IPL",
+    "packagingSolutions": "Verpackungslösungen",
+    "accessories": "Zubehör",
+    "adapter": "Adapter",
+    "filter": "Filter",
+    "protectiveGoggles": "Schutzbrille",
+    "sapphireLens": "Saphir-Linse",
+    "serviceSupport": "Service & Support",
+    "afterSalesService": "Kundendienst",
+    "helpCenter": "Hilfezentrum",
+    "knowledgeBase": "Wissensdatenbank",
+    "iplManufacturing": "IPL-Herstellung",
+    "winFdaListing": "FDA-Listung gewinnen",
+    "beautySourcing": "Beauty-Beschaffung",
+    "pricingGuide": "Preisleitfaden",
+    "gallery": "Galerie",
+    "videos": "Videos",
+    "blog": "Blog",
+    "aiPoweredSkinSensing": "KI-gestützte Hauterkennung",
+    "fda510kPathway": "FDA 510k Weg",
+    "futureHomeHairRemoval": "Zukunft der Haarentfernung zu Hause",
+    "globalMarketShifts": "Globale Marktverschiebungen",
+    "industries": "Branchen",
+    "iplBestChoice": "IPL beste Wahl",
+    "multiHeadIplSystems": "Multi-Head IPL-Systeme",
+    "newsInsights": "Nachrichten & Insights",
+    "sapphireCooling": "Saphir-Kühlung",
+    "sustainableManufacturing": "Nachhaltige Herstellung",
+    "otherPages": "Andere Seiten",
+    "howToUse": "Anwendung",
+    "shippingCost": "Versandkosten",
+    "silk": "Seide"
+  },
+  "accessories": {
+    "adapter": {
+      "hero": {
+        "title": "Netzadapter",
+        "subtitle": "Universal-Netzadapter mit mehrfacher Spannungsunterstützung für zuverlässigen und sicheren Betrieb weltweit."
+      },
+      "features": {
+        "voltage": {
+          "title": "Multi-Spannungsunterstützung",
+          "description": "Kompatibel mit 100-240V AC-Eingang für weltweite Verwendung"
+        },
+        "safety": {
+          "title": "Sicherheitszertifiziert",
+          "description": "CE-, FCC- und RoHS-zertifiziert für sicheren Betrieb"
+        },
+        "compatibility": {
+          "title": "Universelle Kompatibilität",
+          "description": "Funktioniert mit allen iShine IPL-Geräten und Zubehör"
+        },
+        "quality": {
+          "title": "Premium-Qualität",
+          "description": "Hochwertige Komponenten für zuverlässige Leistung"
+        }
+      }
+    },
+    "filter": {
+      "hero": {
+        "title": "IPL-Filter",
+        "subtitle": "Hochwertige optische Filter für optimale IPL-Leistung und Sicherheit."
+      },
+      "features": {
+        "optical": {
+          "title": "Optische Qualität",
+          "description": "Präzisionsgefertigt für optimale Lichtübertragung"
+        },
+        "safety": {
+          "title": "Sicherheitsschutz",
+          "description": "Blockiert schädliche Wellenlängen während Behandlungslicht durchlässt"
+        },
+        "durability": {
+          "title": "Langlebig",
+          "description": "Hitzebeständig und verschleißfest für längere Nutzung"
+        },
+        "compatibility": {
+          "title": "Perfekte Passform",
+          "description": "Speziell für iShine IPL-Geräte entwickelt"
+        }
+      }
+    },
+    "protectiveGoggles": {
+      "hero": {
+        "title": "Schutzbrille",
+        "subtitle": "Professioneller Augenschutz für sichere IPL-Behandlungen."
+      },
+      "features": {
+        "protection": {
+          "title": "Augenschutz",
+          "description": "Blockiert schädliche Lichtwellenlängen während der Behandlung"
+        },
+        "comfort": {
+          "title": "Bequeme Passform",
+          "description": "Ergonomisches Design für langanhaltenden Tragekomfort"
+        },
+        "durability": {
+          "title": "Robuste Konstruktion",
+          "description": "Hochwertige Materialien für langlebigen Schutz"
+        },
+        "safety": {
+          "title": "Sicherheitszertifiziert",
+          "description": "Erfüllt internationale Sicherheitsstandards"
+        }
+      }
+    },
+    "sapphireLens": {
+      "hero": {
+        "title": "Saphir-Linse",
+        "subtitle": "Premium-Saphir-Kühllinse für verbesserten IPL-Behandlungskomfort und Sicherheit."
+      },
+      "features": {
+        "cooling": {
+          "title": "Fortschrittliche Kühlung",
+          "description": "Saphir-Material bietet überlegene Kühlwirkung"
+        },
+        "comfort": {
+          "title": "Verbesserter Komfort",
+          "description": "Reduziert Behandlungsunbehagen und Schmerzen"
+        },
+        "safety": {
+          "title": "Sicherheitsverbesserung",
+          "description": "Schützt die Haut während hochintensiver Behandlungen"
+        },
+        "quality": {
+          "title": "Premium-Qualität",
+          "description": "Medizinischer Saphir für optimale Leistung"
+        }
+      }
     }
   }
 }
