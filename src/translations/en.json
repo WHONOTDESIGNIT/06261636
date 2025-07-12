@@ -5,6 +5,14 @@
     "keywords": "IPL devices, OEM manufacturing, ODM solutions, hair removal, beauty devices, custom manufacturing"
   },
   "header": {
+    "nav": {
+      "solutions": "Solutions",
+      "iplHairRemoval": "IPL Hair Removal",
+      "howToUse": "How to Use",
+      "serviceSupport": "Service & Support",
+      "about": "About",
+      "contact": "Contact"
+    },
     "navigation": {
       "solutions": "Solutions",
       "iplHairRemoval": "IPL Hair Removal",
@@ -403,11 +411,11 @@
     "testimonials": {
       "title": "What Our Clients Say",
       "pageButton": "Go to testimonials page",
-      "0": "\"iShine helped us launch our IPL brand in record time. Impressive quality and service!\"",
-      "1": "\"Unlimited customization options. Our clients love the unique packaging and features.\"",
+      "0": "\"iShine helped us launch our IPL brand in record time. The quality and service are impressive!\"",
+      "1": "\"The customization options are endless. Our clients love the unique packaging and features.\"",
       "2": "\"Professional team, fast response, and reliable delivery. Highly recommended for OEM/ODM.\"",
       "3": "\"We expanded to new markets thanks to iShine's certification and compliance support.\"",
-      "4": "\"Excellent after-sales service. Any issues are resolved quickly and professionally.\"",
+      "4": "\"The after-sales service is excellent. Any issues are resolved quickly and professionally.\"",
       "5": "\"Our brand reputation has significantly improved thanks to iShine's design and manufacturing expertise.\""
     },
     "faq": {
@@ -1466,6 +1474,88 @@
   },
   "blog": {
     "breadcrumb": "Blog",
+    "posts": {
+      "iplBestChoice": {
+        "title": "Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools",
+        "date": "July 10, 2025",
+        "excerpt": "Discover why IPL technology stands out as the most effective and safe hair removal solution available today.",
+        "readTime": "5 min read",
+        "author": "iShine Team",
+        "category": "Technology"
+      },
+      "aiPoweredSkinSensing": {
+        "title": "AI-Powered Skin Sensing Technology in Modern IPL Devices",
+        "date": "July 8, 2025",
+        "excerpt": "How artificial intelligence is revolutionizing IPL treatments with intelligent skin detection and personalized settings.",
+        "readTime": "4 min read",
+        "author": "iShine Team",
+        "category": "Innovation"
+      },
+      "fda510kPathway": {
+        "title": "Navigating the FDA 510(k) Pathway for IPL Devices",
+        "date": "July 5, 2025",
+        "excerpt": "A comprehensive guide to obtaining FDA approval for your IPL hair removal device.",
+        "readTime": "6 min read",
+        "author": "iShine Team",
+        "category": "Compliance"
+      },
+      "futureHomeHairRemoval": {
+        "title": "The Future of Home Hair Removal: Trends and Innovations",
+        "date": "July 3, 2025",
+        "excerpt": "Exploring emerging technologies and market trends shaping the future of at-home hair removal.",
+        "readTime": "5 min read",
+        "author": "iShine Team",
+        "category": "Trends"
+      },
+      "globalMarketShifts": {
+        "title": "Global Market Shifts in the Beauty Device Industry",
+        "date": "July 1, 2025",
+        "excerpt": "Understanding the changing landscape of beauty device manufacturing and distribution worldwide.",
+        "readTime": "4 min read",
+        "author": "iShine Team",
+        "category": "Market Analysis"
+      },
+      "industries": {
+        "title": "Industries We Serve: Beyond Beauty",
+        "date": "June 28, 2025",
+        "excerpt": "How IPL technology is expanding beyond traditional beauty applications into new industries.",
+        "readTime": "3 min read",
+        "author": "iShine Team",
+        "category": "Industry"
+      },
+      "multiHeadIplSystems": {
+        "title": "Multi-Head IPL Systems: Customization for Every Need",
+        "date": "June 25, 2025",
+        "excerpt": "The advantages of multi-head IPL systems and how they enhance treatment efficiency and results.",
+        "readTime": "4 min read",
+        "author": "iShine Team",
+        "category": "Technology"
+      },
+      "newsInsights": {
+        "title": "Latest News and Insights in IPL Technology",
+        "date": "June 22, 2025",
+        "excerpt": "Stay updated with the latest developments and insights in IPL hair removal technology.",
+        "readTime": "3 min read",
+        "author": "iShine Team",
+        "category": "News"
+      },
+      "sapphireCooling": {
+        "title": "Sapphire Cooling Technology: Revolutionizing IPL Comfort",
+        "date": "June 20, 2025",
+        "excerpt": "How sapphire cooling technology is making IPL treatments more comfortable and effective.",
+        "readTime": "4 min read",
+        "author": "iShine Team",
+        "category": "Technology"
+      },
+      "sustainableManufacturing": {
+        "title": "Sustainable Manufacturing Practices in Beauty Device Production",
+        "date": "June 18, 2025",
+        "excerpt": "How iShine is leading the way in environmentally conscious beauty device manufacturing.",
+        "readTime": "5 min read",
+        "author": "iShine Team",
+        "category": "Sustainability"
+      }
+    },
     "iplBestChoice": {
       "title": "Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools",
       "date": "July 10, 2025"
