@@ -115,6 +115,132 @@
       "subtitle": "Nhà sản xuất thiết bị IPL hàng đầu thế giới giúp bạn thiết kế, xây dựng và kết nối.",
       "cta": "Nhận Báo Giá"
     },
+    "about": {
+      "title": "Về iShine",
+      "subtitle": "Giải pháp IPL hoàn chỉnh.",
+      "cta": "Đọc Thêm",
+      "description1": "iShine Tech Co., Limited là nhà cung cấp toàn diện cho",
+      "manufacturing": "sản xuất thiết bị IPL triệt lông",
+      "and": "và",
+      "customization": "tùy chỉnh",
+      "description2": ". Giúp bạn thiết kế, sản xuất và đóng gói. Từ ý tưởng đến thị trường.",
+      "description3": "Chúng tôi có khả năng cho IPL làm lạnh băng tùy chỉnh, thiết bị IPL kết nối ứng dụng thông minh, thiết bị IPL cảm biến da. iShine cung cấp các giải pháp phù hợp nhất với bản sắc thương hiệu của bạn."
+    },
+    "whatWeDo": {
+      "title": "CHÚNG TÔI LÀM GÌ",
+      "description": "Đội ngũ iShine hợp tác với chủ sở hữu thương hiệu từ các ngành khác nhau, quản lý phát triển sản phẩm, quản lý sản phẩm, quản lý tìm nguồn cung ứng danh mục, chuyên gia tuân thủ bán lẻ, nhà thiết kế sản phẩm cùng nhau và cung cấp giải pháp OEM ODM từ thiết kế thiết bị IPL đúc, tạo mẫu đến sản xuất IPL theo hợp đồng, in ấn, đóng gói để đảm bảo thành công cho các dự án IPL của họ."
+    },
+    "productShowcase": {
+      "title": "THIẾT BỊ IPL TÙY CHỈNH",
+      "subtitle": "Bạn thiết kế, chúng tôi sản xuất, đóng gói",
+      "description": "iShine là nhà sản xuất sản phẩm IPL tùy chỉnh dịch vụ đầy đủ cung cấp tùy chỉnh end-to-end từ phát triển khuôn và tạo mẫu đến sản xuất hàng loạt và đóng gói. iShine đã tùy chỉnh hơn 1,000 dự án thiết bị IPL tùy chỉnh cho các đối tác của chúng tôi trong quá khứ với nhiều kinh nghiệm trong giải pháp kỹ thuật sản phẩm IPL và giải pháp tuân thủ.",
+      "include": "Các sản phẩm IPL tùy chỉnh bao gồm:"
+    },
+    "customization": {
+      "title": "Tùy chọn tùy chỉnh không giới hạn",
+      "subtitle": "Nổi bật trên thị trường với các thiết bị IPL hoàn toàn có thể tùy chỉnh phù hợp với thương hiệu của bạn.",
+      "options": {
+        "0": {
+          "label": "Tùy Chỉnh Màu Sắc",
+          "content": "Chọn từ các tùy chọn màu sắc không giới hạn để phù hợp với bản sắc thương hiệu của bạn."
+        },
+        "1": {
+          "label": "In Logo",
+          "content": "Thêm logo của bạn cho trải nghiệm sản phẩm hoàn toàn thương hiệu."
+        },
+        "2": {
+          "label": "Tùy Chỉnh Chức Năng",
+          "content": "Tùy chỉnh các tính năng và chức năng để đáp ứng nhu cầu thị trường của bạn."
+        },
+        "3": {
+          "label": "Thiết Kế Bao Bì",
+          "content": "Bao bì cao cấp cho bán lẻ, thương mại điện tử hoặc quà tặng."
+        },
+        "4": {
+          "label": "Hỗ Trợ Chứng Nhận",
+          "content": "Hỗ trợ đầy đủ cho các chứng nhận toàn cầu."
+        }
+      }
+    },
+    "process": {
+      "title": "Quy Trình OEM/ODM",
+      "subtitle": "Từ ý tưởng đến giao hàng, chúng tôi làm cho dự án thiết bị IPL của bạn trở nên mượt mà và thành công.",
+      "steps": {
+        "0": {
+          "title": "Tư Vấn",
+          "desc": "Thảo luận về tầm nhìn thương hiệu và yêu cầu của bạn."
+        },
+        "1": {
+          "title": "Thiết Kế & Tạo Mẫu",
+          "desc": "Nhận thiết kế tùy chỉnh và nguyên mẫu chức năng."
+        },
+        "2": {
+          "title": "Xác Nhận Mẫu",
+          "desc": "Phê duyệt mẫu trước khi sản xuất hàng loạt."
+        },
+        "3": {
+          "title": "Sản Xuất Hàng Loạt",
+          "desc": "Sản xuất hiệu quả và chất lượng cao."
+        },
+        "4": {
+          "title": "Kiểm Tra Chất Lượng",
+          "desc": "Kiểm soát chất lượng nghiêm ngặt cho mỗi lô."
+        },
+        "5": {
+          "title": "Chứng Nhận",
+          "desc": "Hỗ trợ cho FDA, CE và các chứng nhận khác."
+        },
+        "6": {
+          "title": "Vận Chuyển Toàn Cầu",
+          "desc": "Giao hàng toàn thế giới với hậu cần linh hoạt."
+        },
+        "7": {
+          "title": "Dịch Vụ Hậu Mãi",
+          "desc": "Hỗ trợ liên tục cho doanh nghiệp của bạn."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Khách Hàng Nói Gì Về Chúng Tôi",
+      "pageButton": "Đi đến trang đánh giá",
+      "0": "\"iShine đã giúp chúng tôi ra mắt thương hiệu IPL trong thời gian kỷ lục. Chất lượng và dịch vụ tuyệt vời!\"",
+      "1": "\"Tùy chọn tùy chỉnh không giới hạn. Khách hàng của chúng tôi thích bao bì và tính năng độc đáo.\"",
+      "2": "\"Đội ngũ chuyên nghiệp, phản hồi nhanh và giao hàng đáng tin cậy. Rất khuyến nghị cho OEM/ODM.\"",
+      "3": "\"Chúng tôi đã mở rộng sang các thị trường mới nhờ hỗ trợ chứng nhận và tuân thủ từ iShine.\"",
+      "4": "\"Dịch vụ hậu mãi tuyệt vời. Mọi vấn đề đều được giải quyết nhanh chóng và chuyên nghiệp.\"",
+      "5": "\"Danh tiếng thương hiệu của chúng tôi đã được cải thiện đáng kể nhờ chuyên môn thiết kế và sản xuất của iShine.\""
+    },
+    "faq": {
+      "title": "Câu Hỏi Thường Gặp",
+      "0": {
+        "q": "IPL là gì và nó hoạt động như thế nào?",
+        "a": "IPL (Ánh sáng xung cường độ cao) sử dụng ánh sáng phổ rộng để nhắm vào nang lông, giảm sự phát triển lông một cách an toàn và hiệu quả."
+      },
+      "1": {
+        "q": "Tôi có thể tùy chỉnh các chức năng của thiết bị không?",
+        "a": "Có, chúng tôi cung cấp tùy chỉnh hoàn toàn các tính năng, màu sắc, bao bì và hơn thế nữa để phù hợp với nhu cầu thương hiệu của bạn."
+      },
+      "2": {
+        "q": "Bạn hỗ trợ những chứng nhận nào?",
+        "a": "Chúng tôi hỗ trợ FDA, CE, RoHS và các chứng nhận toàn cầu khác để đảm bảo tuân thủ thị trường mục tiêu của bạn."
+      },
+      "3": {
+        "q": "Thời gian sản xuất là bao lâu?",
+        "a": "Thời gian thông thường là 25-35 ngày sau khi phê duyệt mẫu, tùy thuộc vào quy mô đơn hàng và tùy chỉnh."
+      },
+      "4": {
+        "q": "Bạn có cung cấp hỗ trợ hậu mãi không?",
+        "a": "Có, chúng tôi cung cấp dịch vụ hậu mãi toàn diện bao gồm hỗ trợ kỹ thuật và bảo hành."
+      },
+      "5": {
+        "q": "Bạn có thể vận chuyển toàn thế giới không?",
+        "a": "Chắc chắn. Chúng tôi cung cấp vận chuyển toàn thế giới đáng tin cậy để hỗ trợ doanh nghiệp của bạn ở bất kỳ đâu."
+      }
+    },
+    "contact": {
+      "title": "Liên Hệ Với Chúng Tôi",
+      "subtitle": "Sẵn sàng tăng cường thương hiệu của bạn? Liên hệ với chúng tôi để được tư vấn miễn phí và báo giá."
+    },
     "partners": {
       "title": "Được Tin Tưởng Bởi Các Thương Hiệu Toàn Cầu",
       "subtitle": "Làm việc với các nhà lãnh đạo ngành trên toàn thế giới"
