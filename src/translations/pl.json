@@ -1,39 +1,39 @@
 {
   "meta": {
-    "title": "iShine - Rozwiązania produkcji urządzeń IPL | Od pomysłu do rynku",
-    "description": "Wiodący producent urządzeń IPL oferujący kompletne rozwiązania OEM/ODM od pomysłu do rynku. Niestandardowe urządzenia IPL do usuwania włosów dla globalnych marek kosmetycznych.",
-    "keywords": "urządzenia IPL, produkcja OEM, rozwiązania ODM, usuwanie włosów, urządzenia kosmetyczne, produkcja na zamówienie"
+    "title": "iShine - Rozwiązania produkcyjne urządzeń IPL | Od pomysłu do rynku",
+    "description": "Wiodący producent urządzeń IPL oferujący kompleksowe rozwiązania OEM/ODM od pomysłu do rynku. Niestandardowe urządzenia IPL do depilacji dla globalnych marek kosmetycznych.",
+    "keywords": "urządzenia IPL, produkcja OEM, rozwiązania ODM, depilacja, urządzenia kosmetyczne, produkcja niestandardowa"
   },
   "header": {
     "navigation": {
       "solutions": "Rozwiązania",
-      "iplHairRemoval": "IPL usuwanie włosów",
+      "iplHairRemoval": "Depilacja IPL",
       "howToUse": "Jak używać",
       "serviceSupport": "Serwis i wsparcie",
       "about": "O nas",
       "contact": "Kontakt"
     },
     "solutions": {
-      "logoPrinting": "Drukowanie logo",
+      "logoPrinting": "Druk logo",
       "packaging": "Rozwiązania opakowaniowe",
       "dropShipping": "Drop shipping",
       "globalShipping": "Wysyłka globalna",
       "brandCustomization": "Personalizacja marki",
       "compliance": "Zgodność i certyfikaty",
       "designPrototyping": "Projektowanie i prototypowanie",
-      "multiHeadIPL": "Wielogłowicowe IPL na zamówienie",
-      "dualLampIPL": "Dwulampowe IPL na zamówienie"
+      "multiHeadIPL": "IPL wielogłowicowe niestandardowe",
+      "dualLampIPL": "IPL podwójna lampa niestandardowe"
     },
     "iplDevices": {
-      "smartApp": "Urządzenie IPL sterowane aplikacją",
-      "iceFeeling": "Urządzenie IPL z efektem lodu",
-      "emerald": "Urządzenie IPL Emerald",
+      "smartApp": "Inteligentne urządzenie IPL sterowane aplikacją",
+      "iceFeeling": "Urządzenie IPL z uczuciem lodu",
+      "emerald": "Szmaragdowe urządzenie IPL",
       "skinSensor": "Urządzenie IPL z czujnikiem skóry",
-      "batteryPowered": "Urządzenie IPL na baterie",
-      "handheld": "Ręczne urządzenie IPL",
-      "iceCooling": "Urządzenie IPL z chłodzeniem",
-      "dualLamp": "Urządzenie IPL z podwójną lampą",
-      "aiPowered": "Urządzenie IPL z AI"
+      "batteryPowered": "Urządzenie IPL zasilane bateryjnie",
+      "handheld": "Przenośne urządzenie IPL",
+      "iceCooling": "Urządzenie IPL z chłodzeniem lodem",
+      "dualLamp": "Urządzenie IPL podwójna lampa",
+      "aiPowered": "Urządzenie IPL wspierane AI"
     },
     "accessories": {
       "sapphireLens": "Soczewka szafirowa",
@@ -44,15 +44,15 @@
     "serviceSupport": {
       "service": "Serwis",
       "afterSales": "Serwis posprzedażowy",
-      "fdaGmp": "Projekt czystego pomieszczenia FDA GMP",
+      "fdaGmp": "Projekt pomieszczenia czystego FDA GMP",
       "manufacturing": "Produkcja urządzeń IPL",
       "knowledgeBase": "Baza wiedzy",
-      "support": "Wsparcie > Przewodnik zakupowy",
-      "beautySourcing": "Specjalistyczne pozyskiwanie kosmetyków i akcesoriów",
+      "support": "Wsparcie > Przewodnik zakupu",
+      "beautySourcing": "Sourcing niszowy beauty i akcesoria",
       "pricingGuide": "Przewodnik cenowy",
       "helpCenter": "Centrum pomocy",
       "gallery": "Galeria",
-      "videos": "Filmy",
+      "videos": "Wideo",
       "blog": "Blog",
       "newsInsights": "Aktualności i spostrzeżenia",
       "industries": "Branże, które obsługujemy"
@@ -61,7 +61,7 @@
       "founderMessage": "Wiadomość od założyciela",
       "technology": "Nasza technologia",
       "globalWitness": "Globalny świadek",
-      "corePrinciples": "Główne zasady",
+      "corePrinciples": "Zasady podstawowe",
       "company": "O iShine",
       "brandStory": "Historia marki",
       "quality": "Jakość"
@@ -69,20 +69,20 @@
   },
   "footer": {
     "company": {
-      "description": "Wiodący producent urządzeń IPL oferujący kompletne rozwiązania OEM/ODM od pomysłu do rynku.",
+      "description": "Wiodący producent urządzeń IPL oferujący kompleksowe rozwiązania OEM/ODM od pomysłu do rynku.",
       "products": "Produkty",
       "services": "Usługi",
       "company": "Firma"
     },
     "products": {
-      "iplHairRemoval": "IPL usuwanie włosów",
+      "iplHairRemoval": "Depilacja IPL",
       "accessories": "Akcesoria",
       "gallery": "Galeria"
     },
     "services": {
       "afterSales": "Serwis posprzedażowy",
       "manufacturing": "Produkcja IPL",
-      "buyingGuide": "Przewodnik zakupowy",
+      "buyingGuide": "Przewodnik zakupu",
       "helpCenter": "Centrum pomocy"
     },
     "companyLinks": {
@@ -92,17 +92,154 @@
       "blog": "Blog"
     },
     "legal": {
-      "copyright": "© 2025 iShine. Wszelkie prawa zastrzeżone.",
+      "copyright": "© 2025 iShine. Wszystkie prawa zastrzeżone.",
       "privacyPolicy": "Polityka prywatności",
-      "termsOfService": "Warunki korzystania"
+      "termsOfService": "Warunki korzystania z usług"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "tel": "Tel",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "address": "ADRES",
+      "telValue": "+86-15900283962",
+      "whatsappValue": "+86-15012891148",
+      "emailValue": "service@iplmanufacturer.com",
+      "addressValue": "Pokój 208, Budynek 4, Nr 45, Makan Road, Xi'li Street, Shenzhen, Guangdong, Chiny, 518071"
     }
   },
   "home": {
     "hero": {
+      "title1": "Niestandardowe urządzenia IPL",
+      "title2": "i urządzenia IPL markowe",
+      "subtitle": "Wiodący światowy producent urządzeń IPL, pomagamy Ci projektować, budować i pakować.",
+      "cta": "Otrzymaj ofertę"
+    },
+    "about": {
+      "title": "O iShine",
+      "subtitle": "Kompleksowe rozwiązania IPL.",
+      "cta": "Czytaj więcej",
+      "description1": "iShine Tech Co., Limited jest kompleksowym dostawcą dla",
+      "manufacturing": "produkcji urządzeń IPL do depilacji",
+      "and": "i",
+      "customization": "personalizacji",
+      "description2": ". Pomagamy Ci projektować, produkować i pakować. Od pomysłu do rynku.",
+      "description3": "Mamy możliwości dla niestandardowych IPL z chłodzeniem lodem, urządzeń IPL połączonych z inteligentną aplikacją, urządzeń IPL z czujnikiem skóry. iShine oferuje rozwiązania, które najlepiej pasują do tożsamości Twojej marki."
+    },
+    "whatWeDo": {
+      "title": "CO ROBIMY",
+      "description": "Zespół iShine współpracuje z właścicielami marek z różnych branż, menedżerami rozwoju produktów, menedżerami produktów, menedżerami sourcingu kategorii, specjalistami ds. zgodności detalicznej, projektantami produktów razem i zapewnia rozwiązania OEM ODM od projektowania formowanych urządzeń IPL, prototypowania do kontraktowej produkcji IPL, drukowania, pakowania, aby zapewnić sukces ich projektów IPL."
+    },
+    "productShowcase": {
       "title": "Niestandardowe urządzenia IPL",
-      "subtitle": "i brandowane urządzenia IPL",
-      "description": "Globalnie wiodący producent urządzeń IPL,\npomagamy projektować, budować i pakować.",
-      "getQuote": "Otrzymaj wycenę"
+      "subtitle": "Ty projektujesz, my produkujemy, pakujemy",
+      "description": "iShine jest producentem niestandardowych produktów IPL z pełnym zakresem usług, oferującym personalizację end-to-end od rozwoju form i prototypowania do produkcji masowej i pakowania. iShine spersonalizował ponad 1,000 niestandardowych projektów urządzeń IPL dla naszych partnerów w przeszłości z szerokim doświadczeniem w technicznych rozwiązaniach produktów IPL i rozwiązaniach zgodności.",
+      "include": "Niestandardowe produkty IPL obejmują:"
+    },
+    "customization": {
+      "title": "Nieograniczone opcje personalizacji",
+      "subtitle": "Wyróżnij się na rynku z w pełni konfigurowalnymi urządzeniami IPL, które pasują do Twojej marki.",
+      "options": {
+        "0": {
+          "label": "Personalizacja koloru",
+          "content": "Wybierz z nieograniczonych opcji kolorów, aby pasować do tożsamości Twojej marki."
+        },
+        "1": {
+          "label": "Druk logo",
+          "content": "Dodaj swoje logo dla w pełni spersonalizowanego doświadczenia produktu."
+        },
+        "2": {
+          "label": "Personalizacja funkcji",
+          "content": "Personalizuj funkcje i możliwości, aby zaspokoić potrzeby Twojego rynku."
+        },
+        "3": {
+          "label": "Projekt opakowania",
+          "content": "Premium opakowanie dla detalicznego, e-commerce lub prezentów."
+        },
+        "4": {
+          "label": "Wsparcie certyfikacji",
+          "content": "Kompleksowe wsparcie dla globalnych certyfikacji."
+        }
+      }
+    },
+    "process": {
+      "title": "Proces OEM/ODM",
+      "subtitle": "Od pomysłu do dostawy, sprawiamy, że Twój projekt urządzenia IPL jest płynny i udany.",
+      "steps": {
+        "0": {
+          "title": "Konsultacja",
+          "desc": "Omów swoją wizję marki i wymagania."
+        },
+        "1": {
+          "title": "Projektowanie i prototypowanie",
+          "desc": "Otrzymaj niestandardowe projekty i funkcjonalne prototypy."
+        },
+        "2": {
+          "title": "Potwierdzenie próbki",
+          "desc": "Zatwierdź próbki przed produkcją masową."
+        },
+        "3": {
+          "title": "Produkcja masowa",
+          "desc": "Wydajna i wysokiej jakości produkcja."
+        },
+        "4": {
+          "title": "Kontrola jakości",
+          "desc": "Ścisła kontrola jakości dla każdej partii."
+        },
+        "5": {
+          "title": "Certyfikacja",
+          "desc": "Wsparcie dla FDA, CE i innych."
+        },
+        "6": {
+          "title": "Wysyłka globalna",
+          "desc": "Dostawa na całym świecie z elastyczną logistyką."
+        },
+        "7": {
+          "title": "Serwis posprzedażowy",
+          "desc": "Ciągłe wsparcie dla Twojego biznesu."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Co mówią nasi klienci",
+      "pageButton": "Przejdź do strony z opiniami",
+      "0": "\"iShine pomógł nam uruchomić naszą markę IPL w rekordowym czasie. Imponująca jakość i serwis!\"",
+      "1": "\"Nieograniczone opcje personalizacji. Nasi klienci uwielbiają unikalne opakowanie i funkcje.\"",
+      "2": "\"Profesjonalny zespół, szybka odpowiedź i niezawodna dostawa. Gorąco polecane dla OEM/ODM.\"",
+      "3": "\"Rozszerzyliśmy się na nowe rynki dzięki wsparciu certyfikacji i zgodności od iShine.\"",
+      "4": "\"Doskonały serwis posprzedażowy. Wszystkie problemy są rozwiązywane szybko i profesjonalnie.\"",
+      "5": "\"Nasza reputacja marki znacznie się poprawiła dzięki ekspertyzie iShine w projektowaniu i produkcji.\""
+    },
+    "faq": {
+      "title": "Często zadawane pytania",
+      "0": {
+        "q": "Co to jest IPL i jak działa?",
+        "a": "IPL (Intensywne Pulsujące Światło) używa światła szerokopasmowego do celowania w mieszki włosowe, bezpiecznie i skutecznie zmniejszając wzrost włosów."
+      },
+      "1": {
+        "q": "Czy mogę personalizować funkcje urządzenia?",
+        "a": "Tak, zapewniamy kompleksową personalizację funkcji, kolorów, opakowania i więcej, aby pasować do potrzeb Twojej marki."
+      },
+      "2": {
+        "q": "Jakie certyfikacje wspieracie?",
+        "a": "Wspieramy FDA, CE, RoHS i inne globalne certyfikacje, aby zapewnić zgodność z Twoimi rynkami docelowymi."
+      },
+      "3": {
+        "q": "Jak długi jest czas produkcji?",
+        "a": "Typowy czas realizacji to 25-35 dni po zatwierdzeniu próbki, w zależności od wielkości zamówienia i personalizacji."
+      },
+      "4": {
+        "q": "Czy zapewniacie wsparcie posprzedażowe?",
+        "a": "Tak, zapewniamy kompleksowy serwis posprzedażowy, w tym wsparcie techniczne i gwarancję."
+      },
+      "5": {
+        "q": "Czy możecie wysyłać na całym świecie?",
+        "a": "Z pewnością. Zapewniamy niezawodną wysyłkę na całym świecie, aby wspierać Twój biznes, gdziekolwiek jesteś."
+      }
+    },
+    "contact": {
+      "title": "Skontaktuj się z nami",
+      "subtitle": "Gotowy, aby wzmocnić swoją markę? Skontaktuj się z nami, aby otrzymać bezpłatną konsultację i ofertę."
     },
     "partners": {
       "title": "Zaufały nam globalne marki",
@@ -110,43 +247,27 @@
     },
     "features": {
       "title": "Dlaczego wybrać iShine?",
-      "subtitle": "Kompletne rozwiązania produkcyjne IPL dostosowane do Twoich potrzeb",
-      "oemSolutions": {
-        "title": "Rozwiązania OEM/ODM",
-        "description": "Pełna personalizacja od projektu po opakowanie"
-      },
-      "experiencedTeam": {
-        "title": "Doświadczony zespół",
-        "description": "Eksperci inżynierowie i projektanci do Twojej dyspozycji"
-      },
-      "qualityAssurance": {
-        "title": "Zapewnienie jakości",
-        "description": "Produkcja w czystym pomieszczeniu certyfikowanym FDA GMP"
-      },
-      "globalReach": {
-        "title": "Zasięg globalny",
-        "description": "Obsługujemy klientów w Europie, Ameryce Północnej i Azji"
-      }
+      "subtitle": "Kompleksowe rozwiązania produkcyjne IPL dostosowane do Twoich potrzeb"
     },
     "products": {
       "title": "Nasza gama urządzeń IPL",
-      "subtitle": "Dostosowywalne urządzenia IPL dla każdej potrzeby rynkowej",
-      "viewAll": "Zobacz wszystkie urządzenia IPL"
+      "subtitle": "Szeroka gama urządzeń IPL dla wszystkich potrzeb",
+      "cta": "Zobacz wszystkie urządzenia IPL"
     },
     "cta": {
-      "title": "Gotowy na rozpoczęcie swojego projektu IPL?",
-      "subtitle": "Omówmy Twoje wymagania i stwórzmy idealne rozwiązanie IPL dla Twojej marki",
-      "button": "Zaplanuj konsultację"
+      "title": "Potrzebujesz pomocy?",
+      "subtitle": "Omówmy Twoje wymagania i stwórzmy rozwiązanie IPL, które najlepiej pasuje do Twojej marki.",
+      "button": "Wypełnij formularz, aby skorzystać z bezpłatnej konsultacji"
     }
   },
   "contact": {
     "hero": {
       "title": "Skontaktuj się z nami",
-      "description": "Gotowy omówić swój projekt IPL? Skontaktuj się z naszym zespołem ekspertów już dziś. Jesteśmy tutaj, aby pomóc zrealizować Twoją wizję."
+      "description": "Gotowy, aby omówić swój projekt IPL? Skontaktuj się z naszym zespołem ekspertów już dziś. Jesteśmy tutaj, aby pomóc urzeczywistnić Twoją wizję."
     },
     "info": {
       "title": "Skontaktuj się z nami",
-      "subtitle": "Wiele sposobów kontaktu - wybierz to, co najlepiej Ci odpowiada",
+      "subtitle": "Wiele sposobów, aby się z nami skontaktować - wybierz ten, który najlepiej dla Ciebie działa",
       "address": {
         "title": "Adres",
         "company": "iShine Manufacturing Co., Ltd.",
@@ -165,23 +286,26 @@
       }
     },
     "map": {
-      "title": "Odwiedź nasze zakłady",
-      "subtitle": "Znajdujemy się w sercu dzielnicy przemysłowej Shenzhen"
+      "title": "Odwiedź nasz obiekt",
+      "subtitle": "Znajduje się w sercu dzielnicy produkcyjnej Shenzhen"
     },
     "form": {
       "title": "Co masz na myśli? Porozmawiajmy!",
-      "subtitle": "Wypełnij ten formularz, aby rozpocząć proces. Skontaktujemy się z Tobą w ciągu 24 godzin.",
+      "subtitle": "Wypełnij ten formularz, aby rozpocząć proces. Skontaktujemy się w ciągu 24 godzin.",
       "name": "Imię*",
       "email": "Adres email*",
-      "phone": "Numer telefonu* np. (+1-541-3456-3001)",
+      "phone": "Numer telefonu* np. (+48-123-456-789)",
       "country": "Kraj",
-      "message": "Opisz tutaj swoje potrzeby*",
+      "message": "Opisz swoje potrzeby tutaj*",
       "submit": "Wyślij",
       "sending": "Wysyłanie..."
-    }
+    },
+    "title": "Skontaktuj się z nami",
+    "subtitle": "Skontaktuj się z naszym zespołem w sprawie zapytań biznesowych, wsparcia lub możliwości partnerstwa.",
+    "companyPhotoAlt": "Obiekt produkcyjny iShine"
   },
   "buttons": {
-    "getQuote": "Otrzymaj wycenę",
+    "getQuote": "Otrzymaj ofertę",
     "viewSolutions": "Zobacz nasze rozwiązania",
     "scheduleConsultation": "Zaplanuj konsultację",
     "submit": "Wyślij",
@@ -194,14 +318,119 @@
     "success": "Sukces",
     "readMore": "Czytaj więcej",
     "learnMore": "Dowiedz się więcej",
-    "getStarted": "Zacznij",
+    "getStarted": "Rozpocznij",
     "contactUs": "Skontaktuj się z nami"
   },
-  "countryPage": {
-    "hero": {
-      "title": "IPL urządzenia dla {country}",
-      "subtitle": "Profesjonalne rozwiązania IPL dostosowane do lokalnego rynku",
-      "description": "Odkryj naszą gamę urządzeń IPL zaprojektowanych specjalnie dla wymagań rynku {country}."
+  "solutions": {
+    "productDesignDevelopment": "Projektowanie i rozwój produktu",
+    "productDesignDevelopmentDescription": "Od początkowego konceptu do finalnego projektu, nasz zespół ekspertów ożywia Twoją wizję IPL z najnowocześniejszą technologią i wglądami rynkowymi.",
+    "oemManufacturing": "Produkcja OEM",
+    "oemManufacturingDescription": "Kompleksowe rozwiązania produkcyjne według Twoich specyfikacji. Zajmujemy się produkcją, podczas gdy Ty skupiasz się na swojej marce i rynku.",
+    "odmSolutions": "Rozwiązania ODM",
+    "odmSolutionsDescription": "Wybierz z naszych sprawdzonych projektów IPL i personalizuj je swoją marką, opakowaniem i unikalnymi funkcjami.",
+    "endToEndSupport": "Wsparcie end-to-end",
+    "endToEndSupportDescription": "Kompleksowe zarządzanie projektem od początkowej konsultacji do uruchomienia produktu i dalej, zapewniając Twój sukces na każdym kroku.",
+    "consultation": "Konsultacja",
+    "consultationDescription": "Zrozumienie Twojej wizji, rynku i wymagań",
+    "design": "Projektowanie",
+    "designDescription": "Tworzenie niestandardowych projektów lub adaptacja istniejących rozwiązań",
+    "prototype": "Prototyp",
+    "prototypeDescription": "Budowanie i testowanie prototypów w celu zapewnienia jakości",
+    "manufacturing": "Produkcja",
+    "manufacturingDescription": "Produkcja na pełną skalę z zapewnieniem jakości",
+    "launch": "Uruchomienie",
+    "launchDescription": "Wsparcie Twojego wejścia na rynek i ciągłego sukcesu",
+    "completeIPLSolutions": "Kompleksowe rozwiązania IPL",
+    "completeIPLSolutionsDescription": "Od początkowego konceptu do uruchomienia na rynku, zapewniamy kompleksowe rozwiązania OEM/ODM, które przekształcają Twoją wizję IPL w udane produkty.",
+    "ourSolutionPortfolio": "Nasze portfolio rozwiązań",
+    "comprehensiveServices": "Kompleksowe usługi, aby skutecznie wprowadzić Twoje produkty IPL na rynek",
+    "ourProcess": "Nasz proces",
+    "streamlinedWorkflow": "Usprawniony przepływ pracy, aby zapewnić sukces Twojego projektu",
+    "industriesWeServe": "Branże, które obsługujemy",
+    "tailoredSolutions": "Dostosowane rozwiązania dla różnych segmentów rynku",
+    "provenSuccess": "Sprawdzony sukces",
+    "numbersSpeak": "Liczby, które mówią o naszej ekspertyzie i zaangażowaniu",
+    "globalClients": "Globalni klienci",
+    "productsLaunched": "Uruchomione produkty",
+    "qualityRate": "Wskaźnik jakości",
+    "yearsExperience": "Lata doświadczenia"
+  },
+  "about": {
+    "heroTitle": "O iShine",
+    "heroDesc": "Twój zaufany partner w produkcji urządzeń IPL, wprowadzający innowacyjną technologię beauty od konceptu do rynku od 2018 roku.",
+    "storyTitle": "Nasza historia",
+    "storyP1": "Założona w 2018 roku, iShine powstała z wizji demokratyzacji zaawansowanej technologii IPL. Rozpoznaliśmy, że marki beauty potrzebują zaufanego partnera, który może przekształcić ich pomysły w produkty gotowe na rynek z precyzją i doskonałością.",
+    "storyP2": "Dziś jesteśmy dumni, że obsługujemy klientów na trzech kontynentach, od innowacyjnych startupów po ugruntowane konglomeraty beauty. Nasze zaangażowanie w jakość, innowacje i sukces klientów napędza wszystko, co robimy.",
+    "storyP3": "W iShine nie tylko produkujemy urządzenia — tworzymy rozwiązania, które dają markom możliwość osiągnięcia sukcesu na konkurencyjnym rynku beauty.",
+    "valuesTitle": "Nasze podstawowe wartości",
+    "valuesDesc": "Zasady, które kierują naszą pracą i relacjami z klientami",
+    "values": {
+      "qualityTitle": "Doskonałość jakości",
+      "qualityDesc": "Produkcja certyfikowana FDA GMP z rygorystyczną kontrolą jakości",
+      "customerTitle": "Skupienie na kliencie",
+      "customerDesc": "Zaangażowani w zrozumienie i przekroczenie oczekiwań klientów",
+      "globalTitle": "Globalny wpływ",
+      "globalDesc": "Obsługujemy marki beauty na całym świecie z innowacyjnymi rozwiązaniami IPL",
+      "innovationTitle": "Napęd innowacji",
+      "innovationDesc": "Ciągłe inwestycje w R&D dla technologii IPL następnej generacji"
+    },
+    "journeyTitle": "Nasza podróż",
+    "journeyDesc": "Kluczowe kamienie milowe w naszym wzroście i innowacjach",
+    "milestones": {
+      "2018": {
+        "title": "Firma założona",
+        "desc": "iShine ustanowiona jako producent urządzeń IPL"
+      },
+      "2019": {
+        "title": "Pierwszy międzynarodowy klient",
+        "desc": "Partnerstwo z KU-2 Cosmetic w Niemczech"
+      },
+      "2020": {
+        "title": "Certyfikacja FDA GMP",
+        "desc": "Osiągnięta certyfikacja pomieszczenia czystego FDA GMP"
+      },
+      "2021": {
+        "title": "Uruchomienie Smart IPL",
+        "desc": "Wprowadzone pierwsze urządzenia IPL sterowane aplikacją"
+      },
+      "2022": {
+        "title": "Ekspansja globalna",
+        "desc": "Partnerstwa z Costco i ROSESKINCO"
+      },
+      "2023": {
+        "title": "Integracja AI",
+        "desc": "Uruchomiona technologia IPL wspierana AI"
+      }
+    },
+    "teamTitle": "Nasz zespół ekspertów",
+    "teamDesc": "Zaangażowani profesjonaliści poświęceni Twojemu sukcesowi",
+    "team": {
+      "rnd": "Inżynierowie R&D",
+      "rndDesc": "Eksperci inżynierowie rozwijający najnowocześniejszą technologię IPL",
+      "quality": "Specjaliści ds. jakości",
+      "qualityDesc": "Zapewniają, że każde urządzenie spełnia najwyższe standardy",
+      "customer": "Sukces klienta",
+      "customerDesc": "Dedykowane wsparcie od konceptu do uruchomienia na rynku"
     }
+  },
+  "countryPage": {
+    "title": "iShine - Rozwiązania produkcyjne urządzeń IPL | Globalne",
+    "description": "Wiodący producent urządzeń IPL oferujący rozwiązania OEM/ODM od pomysłu do rynku na całym świecie."
+  },
+  "howToUse": {
+    "heroTitle": "Jak używać urządzeń IPL",
+    "heroDescription": "Kompleksowy przewodnik po bezpiecznej i skutecznej depilacji IPL. Naucz się właściwych technik, wytycznych bezpieczeństwa i uzyskaj najlepsze wyniki ze swojego urządzenia IPL.",
+    "stepByStepTitle": "Instrukcje krok po kroku",
+    "stepByStepDescription": "Postępuj zgodnie z tymi krokami dla bezpiecznego i skutecznego leczenia IPL",
+    "safetyGuidelinesTitle": "Wytyczne bezpieczeństwa",
+    "safetyGuidelinesDescription": "Kluczowe informacje o bezpieczeństwie dla leczenia IPL",
+    "treatmentScheduleTitle": "Zalecany harmonogram leczenia",
+    "treatmentScheduleDescription": "Postępuj zgodnie z tym harmonogramem dla optymalnych wyników depilacji",
+    "troubleshootingTitle": "Przewodnik rozwiązywania problemów",
+    "troubleshootingDescription": "Typowe problemy i ich rozwiązania",
+    "faqTitle": "Często zadawane pytania",
+    "faqDescription": "Otrzymaj odpowiedzi na typowe pytania dotyczące leczenia IPL",
+    "videoTutorialsTitle": "Samouczki wideo",
+    "videoTutorialsDescription": "Oglądaj przewodniki wideo krok po kroku dla właściwego użycia IPL"
   }
 } 
