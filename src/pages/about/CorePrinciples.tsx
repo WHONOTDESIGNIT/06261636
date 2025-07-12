@@ -1,80 +1,78 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Award } from 'lucide-react';
+import { Target, Heart, Shield, Zap } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
-
-const principles = [
-  {
-    title: 'Customer Obsession',
-    desc: 'We anticipate, invent, and improve on behalf of our customers—delivering more than expected, every time.',
-    detail: 'We don’t just serve customers; we obsess over them. We proactively solve problems and design experiences that inspire “Wow.”',
-  },
-  {
-    title: 'Integrity',
-    desc: 'We act with honesty, transparency, and responsibility in every partnership.',
-    detail: 'Integrity is our foundation. We keep every promise, value long-term trust over short-term gain, and let our results speak for themselves.',
-  },
-  {
-    title: 'Long-term Thinking',
-    desc: 'We build for the future—investing in sustainable growth, continuous improvement, and enduring customer value.',
-    detail: 'We stand behind our products, never skirt problems, and focus on metrics that matter: customer success and lasting impact.',
-  },
-];
+import { useLanguage } from '../../context/LanguageContext';
 
 const CorePrinciples: React.FC = () => {
+  const { t } = useLanguage();
+
+  const principles = [
+    {
+      icon: Target,
+      title: t('about.corePrinciples.principles.innovation.title'),
+      content: t('about.corePrinciples.principles.innovation.content')
+    },
+    {
+      icon: Shield,
+      title: t('about.corePrinciples.principles.quality.title'),
+      content: t('about.corePrinciples.principles.quality.content')
+    },
+    {
+      icon: Heart,
+      title: t('about.corePrinciples.principles.partnership.title'),
+      content: t('about.corePrinciples.principles.partnership.content')
+    },
+    {
+      icon: Zap,
+      title: t('about.corePrinciples.principles.accessibility.title'),
+      content: t('about.corePrinciples.principles.accessibility.content')
+    }
+  ];
+
   return (
-    <div className="min-h-screen bg-white pt-20">
+    <div className="min-h-screen pt-20">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[rgb(30,157,139)] to-[rgb(36,151,144)] text-white py-16">
-        <div className="max-w-2xl mx-auto px-4 text-center">
+      <section className="bg-gradient-to-r from-green-600 to-teal-600 text-white py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <Award className="w-16 h-16 mx-auto mb-6 text-white" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">Core Principles</h1>
+            <Target className="w-16 h-16 mx-auto mb-6" />
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('about.corePrinciples.hero.title')}</h1>
+            <p className="text-lg md:text-xl max-w-3xl mx-auto text-gray-100 mb-10">
+              {t('about.corePrinciples.hero.subtitle')}
+            </p>
           </motion.div>
         </div>
       </section>
 
       {/* Principles Section */}
       <section className="py-20 bg-white">
-        <div className="max-w-5xl mx-auto px-4 grid md:grid-cols-3 gap-10">
-          {principles.map((item) => (
-            <div
-              key={item.title}
-              className="bg-[#f9f9f9] rounded-2xl shadow-sm p-8 flex flex-col items-center text-center hover:shadow-md transition"
-            >
-              <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-              <p className="text-[rgb(0,116,224)] font-medium mb-2">{item.desc}</p>
-              <p className="text-gray-700 text-sm">{item.detail}</p>
-            </div>
-          ))}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            {principles.map((principle, index) => (
+              <motion.div
+                key={principle.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className="bg-gray-50 rounded-lg p-8"
+              >
+                <principle.icon className="w-12 h-12 text-green-500 mb-4" />
+                <h3 className="text-2xl font-semibold text-gray-900 mb-4">{principle.title}</h3>
+                <p className="text-gray-700 leading-relaxed">{principle.content}</p>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="bg-gradient-to-r from-[rgb(236,67,113)] to-[rgb(125,0,99)] py-16">
-        <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-white mb-4 tracking-tight">
-            Let’s Build the Future Together
-          </h2>
-          <p className="text-lg text-white mb-8">
-            Connect with iShine to experience a partnership built on customer obsession, integrity, and long-term thinking.
-          </p>
-          <button
-            className="bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold px-8 py-3 rounded-full transition"
-          >
-            Get in Touch
-          </button>
-        </div>
-      </section>
-
-      {/* Footer Contact Form */}
-      <div className="bg-[#f9f9f9] py-16">
-        <ContactFormA />
-      </div>
+      {/* Contact Form */}
+      <ContactFormA />
     </div>
   );
 };
