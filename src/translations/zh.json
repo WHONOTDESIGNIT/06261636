@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "iShine - IPL脱毛仪制造商 | 提供一条龙服务",
-    "description": "领先的IPL脱毛仪制造商，提供从手板制作到市场的完整OEM/ODM解决方案。为全球美容品牌定制IPL脱毛仪。",
-    "keywords": "IPL脱毛仪, 家用脱毛仪，家用脱毛仪厂家，家用脱毛仪生产厂家，脱毛仪制造商，脱毛仪工厂，脱毛仪定制, 美容仪定制制造"
+    "title": "iShine - IPL设备制造解决方案 | 从创意到市场",
+    "description": "领先的IPL设备制造商，提供从创意到市场的完整OEM/ODM解决方案。为全球美容品牌定制IPL脱毛设备。",
+    "keywords": "IPL设备, OEM制造, ODM解决方案, 脱毛, 美容设备, 定制制造"
   },
   "header": {
     "navigation": {
       "solutions": "解决方案",
-      "iplHairRemoval": "IPL家用脱毛仪",
+      "iplHairRemoval": "IPL脱毛",
       "howToUse": "使用方法",
       "serviceSupport": "服务与支持",
       "about": "关于我们",
@@ -25,37 +25,37 @@
       "dualLampIPL": "双灯管IPL定制"
     },
     "iplDevices": {
-      "smartApp": "智能app控制IPL",
-      "iceFeeling": "冰感IPL脱毛仪",
-      "emerald": "祖母绿IPL脱毛仪",
-      "skinSensor": "肌肤传感器IPL脱毛仪",
-      "batteryPowered": "电池供电IPL脱毛仪",
-      "handheld": "手持式IPL脱毛仪",
-      "iceCooling": "冰冷却IPL脱毛仪",
-      "dualLamp": "双灯IPL脱毛仪",
-      "aiPowered": "AI驱动IPL脱毛仪"
+      "smartApp": "智能应用控制IPL设备",
+      "iceFeeling": "冰感IPL设备",
+      "emerald": "翡翠IPL设备",
+      "skinSensor": "肌肤传感器IPL设备",
+      "batteryPowered": "电池供电IPL设备",
+      "handheld": "手持式IPL设备",
+      "iceCooling": "冰冷却IPL设备",
+      "dualLamp": "双灯IPL设备",
+      "aiPowered": "AI驱动IPL设备"
     },
     "accessories": {
       "sapphireLens": "蓝宝石镜片",
-      "adapter": "电源适配器",
+      "adapter": "适配器",
       "goggles": "防护眼镜",
-      "filter": "滤光片"
+      "filter": "滤镜"
     },
     "serviceSupport": {
       "service": "服务",
       "afterSales": "售后服务",
       "fdaGmp": "FDA GMP洁净室设计",
-      "manufacturing": "IPL脱毛仪制造",
+      "manufacturing": "IPL设备制造",
       "knowledgeBase": "知识库",
       "support": "支持 > 购买指南",
       "beautySourcing": "美容细分采购与配件",
       "pricingGuide": "价格指南",
       "helpCenter": "帮助中心",
-      "gallery": "画册",
+      "gallery": "画廊",
       "videos": "视频",
       "blog": "博客",
       "newsInsights": "新闻与洞察",
-      "industries": "服务的行业"
+      "industries": "服务行业"
     },
     "about": {
       "founderMessage": "创始人致辞",
@@ -64,7 +64,7 @@
       "corePrinciples": "核心原则",
       "company": "关于iShine",
       "brandStory": "品牌故事",
-      "quality": "质量把控"
+      "quality": "质量"
     }
   },
   "footer": {
@@ -75,13 +75,13 @@
       "company": "公司"
     },
     "products": {
-      "iplHairRemoval": "IPL脱毛仪",
-      "accessories": "脱毛仪配件",
+      "iplHairRemoval": "IPL脱毛",
+      "accessories": "配件",
       "gallery": "画廊"
     },
     "services": {
       "afterSales": "售后服务",
-      "manufacturing": "IPL脱毛仪制造",
+      "manufacturing": "IPL制造",
       "buyingGuide": "购买指南",
       "helpCenter": "帮助中心"
     },
@@ -110,10 +110,136 @@
   },
   "home": {
     "hero": {
-      "title1": "定制IPL脱毛仪",
-      "title2": "与IPL脱毛仪生产制造",
+      "title1": "定制IPL设备",
+      "title2": "与品牌IPL设备",
       "subtitle": "全球领先的IPL设备制造商，我们帮助您设计、制造和包装。",
       "cta": "获取报价"
+    },
+    "about": {
+      "title": "关于iShine",
+      "subtitle": "完整的IPL解决方案。",
+      "cta": "阅读更多",
+      "description1": "iShine Tech Co., Limited是",
+      "manufacturing": "IPL脱毛设备制造",
+      "and": "和",
+      "customization": "定制",
+      "description2": "的完整供应商。帮助您设计、制造和包装。从创意到市场。",
+      "description3": "我们具备定制冰感IPL、智能应用连接IPL设备、肌肤传感器IPL设备的能力。iShine提供最适合您品牌身份的解决方案。"
+    },
+    "whatWeDo": {
+      "title": "我们做什么",
+      "description": "iShine团队与来自不同行业的品牌所有者、产品开发经理、产品经理、品类采购经理、零售合规专家、产品设计师合作，提供从注塑IPL设备设计、原型制作到IPL合同制造、印刷、包装的OEM ODM解决方案，确保他们的IPL项目成功。"
+    },
+    "productShowcase": {
+      "title": "定制IPL设备",
+      "subtitle": "您设计，我们制造，包装",
+      "description": "iShine是一家全服务定制IPL产品制造商，提供从模具开发和原型制作到大规模生产和包装的端到端定制。iShine已经为我们的合作伙伴定制了超过1,000个定制设备IPL项目，在IPL产品技术解决方案和合规解决方案方面拥有丰富经验。",
+      "include": "定制IPL产品包括："
+    },
+    "customization": {
+      "title": "无限定制选项",
+      "subtitle": "在市场上脱颖而出，使用完全可定制的IPL设备，完美契合您的品牌。",
+      "options": {
+        "0": {
+          "label": "颜色定制",
+          "content": "从无限的颜色选项中选择，以匹配您的品牌身份。"
+        },
+        "1": {
+          "label": "Logo印刷",
+          "content": "添加您的logo，获得完全品牌化的产品体验。"
+        },
+        "2": {
+          "label": "功能定制",
+          "content": "定制功能和特性以满足您的市场需求。"
+        },
+        "3": {
+          "label": "包装设计",
+          "content": "适用于零售、电商或礼品的高端包装。"
+        },
+        "4": {
+          "label": "认证支持",
+          "content": "全球认证的完整支持。"
+        }
+      }
+    },
+    "process": {
+      "title": "OEM/ODM流程",
+      "subtitle": "从创意到交付，我们让您的IPL设备项目变得无缝和成功。",
+      "steps": {
+        "0": {
+          "title": "咨询",
+          "desc": "讨论您的品牌愿景和需求。"
+        },
+        "1": {
+          "title": "设计与原型",
+          "desc": "获得定制设计和功能原型。"
+        },
+        "2": {
+          "title": "样品确认",
+          "desc": "在大规模生产前批准样品。"
+        },
+        "3": {
+          "title": "大规模生产",
+          "desc": "高效高质量的制造。"
+        },
+        "4": {
+          "title": "质量检查",
+          "desc": "每批次的严格质量控制。"
+        },
+        "5": {
+          "title": "认证",
+          "desc": "FDA、CE等认证支持。"
+        },
+        "6": {
+          "title": "全球运输",
+          "desc": "灵活的物流全球交付。"
+        },
+        "7": {
+          "title": "售后服务",
+          "desc": "为您的业务提供持续支持。"
+        }
+      }
+    },
+    "testimonials": {
+      "title": "客户评价",
+      "pageButton": "前往评价页面",
+      "0": "\"iShine帮助我们在创纪录的时间内推出了我们的IPL品牌。令人印象深刻的质量和服务！\"",
+      "1": "\"无限的定制选项。我们的客户喜欢独特的包装和功能。\"",
+      "2": "\"专业的团队，快速响应，可靠的交付。强烈推荐OEM/ODM。\"",
+      "3": "\"我们通过iShine的认证和合规支持扩展到了新市场。\"",
+      "4": "\"出色的售后服务。任何问题都得到快速专业的解决。\"",
+      "5": "\"我们的品牌声誉通过iShine的设计和制造专业知识得到了显著提升。\""
+    },
+    "faq": {
+      "title": "常见问题",
+      "0": {
+        "q": "什么是IPL，它是如何工作的？",
+        "a": "IPL（强脉冲光）使用广谱光瞄准毛囊，安全有效地减少毛发生长。"
+      },
+      "1": {
+        "q": "我可以定制设备的功能吗？",
+        "a": "是的，我们提供功能、颜色、包装等的完全定制，以匹配您的品牌需求。"
+      },
+      "2": {
+        "q": "您支持哪些认证？",
+        "a": "我们支持FDA、CE、RoHS和其他全球认证，以确保您目标市场的合规性。"
+      },
+      "3": {
+        "q": "生产周期是多长？",
+        "a": "样品确认后的典型周期为25-35天，具体取决于订单规模和定制程度。"
+      },
+      "4": {
+        "q": "您提供售后支持吗？",
+        "a": "是的，我们提供包括技术支持和保修在内的全面售后服务。"
+      },
+      "5": {
+        "q": "您可以全球发货吗？",
+        "a": "当然。我们提供可靠的全球运输来支持您的业务，无论您在哪里。"
+      }
+    },
+    "contact": {
+      "title": "联系我们",
+      "subtitle": "准备加强您的品牌？联系我们获得免费咨询和报价。"
     },
     "partners": {
       "title": "受到全球品牌信赖",
@@ -121,23 +247,23 @@
     },
     "features": {
       "title": "为什么选择iShine？",
-      "subtitle": "为您的需求量身定制的完整IPL脱毛仪制造解决方案"
+      "subtitle": "为您的需求量身定制的完整IPL制造解决方案"
     },
     "products": {
-      "title": "我们的IPL脱毛仪系列",
-      "subtitle": "满足各种市场需求的可定制IPL脱毛仪",
+      "title": "我们的IPL设备系列",
+      "subtitle": "满足各种市场需求的可定制IPL设备",
       "cta": "查看所有IPL设备"
     },
     "cta": {
       "title": "准备开始您的IPL项目了吗？",
-      "subtitle": "让我们讨论您的需求，为您的品牌创造完美的IPL脱毛仪解决方案",
+      "subtitle": "让我们讨论您的需求，为您的品牌创造完美的IPL解决方案",
       "button": "预约咨询"
     }
   },
   "contact": {
     "hero": {
       "title": "联系我们",
-      "description": "准备讨论您的IPL项目了吗？今天就联系我们的专家团队。我们在这里为您提供解决方案。"
+      "description": "准备讨论您的IPL项目了吗？今天就联系我们的专家团队。我们在这里帮助实现您的愿景。"
     },
     "info": {
       "title": "联系方式",
@@ -227,7 +353,7 @@
     "globalClients": "全球客户",
     "productsLaunched": "已发布产品",
     "qualityRate": "质量率",
-    "yearsExperience": "多年经验"
+    "yearsExperience": "年经验"
   },
   "about": {
     "heroTitle": "关于iShine",
@@ -587,7 +713,7 @@
           "pathway": "1. 家用IPL设备的FDA 510(k)途径",
           "marketingClaims": "2. 营销声明如何影响监管分类",
           "ishineExpertise": "3. iShine在确保您品牌FDA 510(k)清单方面的专业知识",
-          "benefits": "4. 品牌获得自己专属的FDA 510(k)k号的收益",
+          "benefits": "4. 获得品牌专用FDA 510(k)清单的效益",
           "guidance": "5. 对品牌的实用指导",
           "conclusion": "结论",
           "faq": "常见问题",
