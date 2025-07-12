@@ -1,42 +1,64 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Filter as FilterIcon, Zap, Target, Award } from 'lucide-react';
+import { Eye, Shield, Zap, CheckCircle } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
+import { useLanguage } from '../../context/LanguageContext';
 
 const Filter: React.FC = () => {
+  const { t } = useLanguage();
+
+  const features = [
+    {
+      icon: Eye,
+      title: t('accessories.filter.features.optical.title'),
+      description: t('accessories.filter.features.optical.description')
+    },
+    {
+      icon: Shield,
+      title: t('accessories.filter.features.safety.title'),
+      description: t('accessories.filter.features.safety.description')
+    },
+    {
+      icon: Zap,
+      title: t('accessories.filter.features.durability.title'),
+      description: t('accessories.filter.features.durability.description')
+    },
+    {
+      icon: CheckCircle,
+      title: t('accessories.filter.features.compatibility.title'),
+      description: t('accessories.filter.features.compatibility.description')
+    }
+  ];
+
   return (
     <div className="min-h-screen pt-20">
-      <section className="bg-gradient-to-r from-purple-500 to-pink-500 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Hero Section */}
+      <section className="bg-gradient-to-r from-purple-600 to-pink-600 text-white py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center"
           >
-            <FilterIcon className="w-16 h-16 mx-auto mb-6 text-white" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Optical Filter</h1>
-            <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
-              High-quality optical filter for precise light wavelength control 
-              and optimal IPL treatment effectiveness.
+            <Eye className="w-16 h-16 mx-auto mb-6" />
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('accessories.filter.hero.title')}</h1>
+            <p className="text-lg md:text-xl max-w-3xl mx-auto text-gray-100 mb-10">
+              {t('accessories.filter.hero.subtitle')}
             </p>
           </motion.div>
         </div>
       </section>
 
-      <section className="py-16 bg-white">
+      {/* Features Section */}
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              { icon: FilterIcon, title: 'Precision Filtering', description: 'Accurate wavelength control' },
-              { icon: Target, title: 'Wavelength Control', description: 'Optimal light spectrum' },
-              { icon: Award, title: 'High Quality', description: 'Premium materials' },
-              { icon: Zap, title: 'Professional Standard', description: 'Industry-grade performance' }
-            ].map((feature, index) => (
+            {features.map((feature, index) => (
               <motion.div
                 key={feature.title}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="text-center"
               >
@@ -49,6 +71,7 @@ const Filter: React.FC = () => {
         </div>
       </section>
 
+      {/* Contact Form */}
       <ContactFormA />
     </div>
   );
