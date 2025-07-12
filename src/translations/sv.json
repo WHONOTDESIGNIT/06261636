@@ -115,6 +115,132 @@
       "subtitle": "Globalt ledande IPL-enhet tillverkare, vi hjälper dig att designa, bygga och förpacka.",
       "cta": "Få offert"
     },
+    "about": {
+      "title": "Om iShine",
+      "subtitle": "Kompletta IPL-lösningar.",
+      "cta": "Läs mer",
+      "description1": "iShine Tech Co., Limited är en komplett leverantör för",
+      "manufacturing": "tillverkning av IPL-hårborttagningsenheter",
+      "and": "och",
+      "customization": "anpassning",
+      "description2": ". Hjälper dig att designa, bygga och förpacka. Från idé till marknad.",
+      "description3": "Vi har kapacitet för anpassad iskylning IPL, Smart app-ansluten IPL-enhet, hudsensor IPL-enhet. iShine erbjuder lösningar som passar bäst för din varumärkesidentitet."
+    },
+    "whatWeDo": {
+      "title": "VAD VI GÖR",
+      "description": "iShine-teamet arbetar med olika branschers varumärkesägare, produktutvecklingschefer, produktchefer, kategorisourcingchefer, detaljhandels efterlevnadsspecialister, produktdesigners tillsammans och erbjuder OEM ODM-lösningar från formade IPL-enheter design, prototypframställning till IPL kontrakttillverkning, utskrift, förpackning för att säkerställa deras IPL-projekts framgång."
+    },
+    "productShowcase": {
+      "title": "ANPASSADE IPL-ENHETER",
+      "subtitle": "Du designer det, vi bygger det, förpackar det",
+      "description": "iShine är en fullservice anpassad IPL-produkter tillverkare som erbjuder end-to-end anpassning, från formutveckling och prototypframställning till massproduktion och förpackning. iShine har redan anpassat mer än 1.000 anpassade enheter IPL-projekt för våra partners i det förflutna med mycket erfarenhet i IPL-produkter Teknisk lösning och Efterlevnads lösning.",
+      "include": "De anpassade IPL-produkterna inkluderar:"
+    },
+    "customization": {
+      "title": "Obegränsade anpassningsalternativ",
+      "subtitle": "Stick ut på marknaden med helt anpassningsbara IPL-enheter som passar för ditt varumärke.",
+      "options": {
+        "0": {
+          "label": "Färganpassning",
+          "content": "Välj från obegränsade färgalternativ för att matcha din varumärkesidentitet."
+        },
+        "1": {
+          "label": "Logotyputskrift",
+          "content": "Lägg till din logotyp för en helt märkesproduktupplevelse."
+        },
+        "2": {
+          "label": "Funktionsanpassning",
+          "content": "Anpassa funktioner och funktioner för att möta dina marknadsbehov."
+        },
+        "3": {
+          "label": "Förpackningsdesign",
+          "content": "Premium förpackning för detaljhandel, e-handel eller gåvor."
+        },
+        "4": {
+          "label": "Certifieringsstöd",
+          "content": "Fullt stöd för globala certifieringar."
+        }
+      }
+    },
+    "process": {
+      "title": "OEM/ODM-process",
+      "subtitle": "Från idé till leverans, gör vi ditt IPL-enhetsprojekt sömlöst och framgångsrikt.",
+      "steps": {
+        "0": {
+          "title": "Konsultation",
+          "desc": "Diskutera din varumärkesvision och krav."
+        },
+        "1": {
+          "title": "Design & Prototypframställning",
+          "desc": "Få anpassade designer och funktionella prototyper."
+        },
+        "2": {
+          "title": "Provbekräftelse",
+          "desc": "Godkänn prover före massproduktion."
+        },
+        "3": {
+          "title": "Massproduktion",
+          "desc": "Effektiv och hög kvalitets tillverkning."
+        },
+        "4": {
+          "title": "Kvalitetskontroll",
+          "desc": "Strikt QC för varje batch."
+        },
+        "5": {
+          "title": "Certifiering",
+          "desc": "Stöd för FDA, CE och mer."
+        },
+        "6": {
+          "title": "Global frakt",
+          "desc": "Världsomspännande leverans med flexibel logistik."
+        },
+        "7": {
+          "title": "Eftermarknadsservice",
+          "desc": "Pågående stöd för din verksamhet."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Vad våra kunder säger",
+      "pageButton": "Gå till utlåtanden sida",
+      "0": "\"iShine hjälpte oss att lansera vårt IPL-varumärke på rekordtid. Kvaliteten och servicen är imponerande!\"",
+      "1": "\"Anpassningsalternativen är oändliga. Våra kunder älskar den unika förpackningen och funktionerna.\"",
+      "2": "\"Professionellt team, snabb respons och pålitlig leverans. Starkt rekommenderat för OEM/ODM.\"",
+      "3": "\"Vi expanderade till nya marknader tack vare iShines certifierings- och efterlevnadsstöd.\"",
+      "4": "\"Eftermarknadsservicen är utmärkt. Eventuella problem löses snabbt och professionellt.\"",
+      "5": "\"Vårt varumärkes rykte förbättrades avsevärt med iShines design- och tillverkningskompetens.\""
+    },
+    "faq": {
+      "title": "Vanliga frågor",
+      "0": {
+        "q": "Vad är IPL och hur fungerar det?",
+        "a": "IPL (Intensiv pulserande ljus) använder bredbandsljus för att rikta hårfolliklar, vilket minskar hårväxt säkert och effektivt."
+      },
+      "1": {
+        "q": "Kan jag anpassa enhetens funktioner?",
+        "a": "Ja, vi erbjuder full anpassning av funktioner, färger, förpackning och mer för att passa dina varumärkesbehov."
+      },
+      "2": {
+        "q": "Vilka certifieringar stöder ni?",
+        "a": "Vi stöder FDA, CE, RoHS och andra globala certifieringar för att säkerställa efterlevnad på dina målgmarknader."
+      },
+      "3": {
+        "q": "Vad är tillverkningens leveranstid?",
+        "a": "Typisk leveranstid är 25-35 dagar efter provgodkännande, beroende på orderstorlek och anpassning."
+      },
+      "4": {
+        "q": "Ger ni eftermarknadsstöd?",
+        "a": "Ja, vi erbjuder omfattande eftermarknadsstöd inklusive teknisk support och garanti."
+      },
+      "5": {
+        "q": "Kan ni skicka världen över?",
+        "a": "Absolut. Vi erbjuder pålitlig global frakt för att stödja din verksamhet var du än är."
+      }
+    },
+    "contact": {
+      "title": "Kontakta oss",
+      "subtitle": "Redo att stärka ditt varumärke? Kontakta oss för gratis konsultation och offert."
+    },
     "partners": {
       "title": "Betrodd av globala märken",
       "subtitle": "Arbetar med branschledare världen över"
