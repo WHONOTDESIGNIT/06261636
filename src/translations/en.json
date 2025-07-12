@@ -429,7 +429,199 @@
     "globalClients": "Global Clients",
     "productsLaunched": "Products Launched",
     "qualityRate": "Quality Rate",
-    "yearsExperience": "Years Experience"
+    "yearsExperience": "Years Experience",
+    "brandCustomization": {
+      "hero": {
+        "title": "Full-Chain Brand Customization",
+        "subtitle": "iShine empowers cosmetics brands to own every detail—from app UI to packaging, device interface to accessories, and even lifestyle merchandise."
+      },
+      "features": {
+        "design": {
+          "title": "Custom Design",
+          "description": "Personalize every aspect of your IPL device design and user interface"
+        },
+        "branding": {
+          "title": "Brand Integration",
+          "description": "Seamlessly integrate your brand identity across all touchpoints"
+        },
+        "quality": {
+          "title": "Premium Quality",
+          "description": "Maintain high-quality standards while customizing to your specifications"
+        },
+        "support": {
+          "title": "Full Support",
+          "description": "Comprehensive support from concept to production and beyond"
+        }
+      }
+    },
+    "designPrototyping": {
+      "hero": {
+        "title": "Design & Prototyping",
+        "subtitle": "Transform your ideas into reality with our comprehensive design and prototyping services."
+      },
+      "features": {
+        "design": {
+          "title": "Custom Design",
+          "description": "Professional design services tailored to your brand and requirements"
+        },
+        "prototyping": {
+          "title": "Rapid Prototyping",
+          "description": "Quick turnaround prototyping to test and refine your concepts"
+        },
+        "testing": {
+          "title": "Quality Testing",
+          "description": "Comprehensive testing to ensure your product meets all standards"
+        },
+        "refinement": {
+          "title": "Iterative Refinement",
+          "description": "Continuous improvement based on testing and feedback"
+        }
+      }
+    },
+    "dropShipping": {
+      "hero": {
+        "title": "Drop Shipping Solutions",
+        "subtitle": "Streamline your e-commerce operations with our comprehensive drop shipping services."
+      },
+      "features": {
+        "logistics": {
+          "title": "Global Logistics",
+          "description": "Worldwide shipping and fulfillment services"
+        },
+        "inventory": {
+          "title": "Inventory Management",
+          "description": "Real-time inventory tracking and management"
+        },
+        "automation": {
+          "title": "Order Automation",
+          "description": "Automated order processing and fulfillment"
+        },
+        "support": {
+          "title": "Customer Support",
+          "description": "Dedicated support for your drop shipping needs"
+        }
+      }
+    },
+    "dualLampIPL": {
+      "hero": {
+        "title": "Dual Lamp IPL Solutions",
+        "subtitle": "Advanced dual lamp technology for enhanced IPL treatment efficiency and coverage."
+      },
+      "features": {
+        "technology": {
+          "title": "Advanced Technology",
+          "description": "Cutting-edge dual lamp IPL technology"
+        },
+        "efficiency": {
+          "title": "Enhanced Efficiency",
+          "description": "Faster treatment times with improved coverage"
+        },
+        "safety": {
+          "title": "Safety Features",
+          "description": "Built-in safety mechanisms for optimal protection"
+        },
+        "customization": {
+          "title": "Custom Solutions",
+          "description": "Tailored dual lamp solutions for your specific needs"
+        }
+      }
+    },
+    "globalShipping": {
+      "hero": {
+        "title": "Global Shipping Solutions",
+        "subtitle": "Reliable worldwide shipping and logistics services for your IPL devices and accessories."
+      },
+      "features": {
+        "worldwide": {
+          "title": "Worldwide Coverage",
+          "description": "Shipping to over 200 countries and territories"
+        },
+        "tracking": {
+          "title": "Real-time Tracking",
+          "description": "Complete visibility of your shipments"
+        },
+        "insurance": {
+          "title": "Full Insurance",
+          "description": "Comprehensive insurance coverage for all shipments"
+        },
+        "support": {
+          "title": "24/7 Support",
+          "description": "Round-the-clock customer support for shipping inquiries"
+        }
+      }
+    },
+    "logoPrinting": {
+      "hero": {
+        "title": "Logo Printing Services",
+        "subtitle": "High-quality logo printing and branding solutions for your IPL devices and packaging."
+      },
+      "features": {
+        "quality": {
+          "title": "Premium Quality",
+          "description": "High-resolution printing with durable finishes"
+        },
+        "materials": {
+          "title": "Various Materials",
+          "description": "Printing on multiple surfaces and materials"
+        },
+        "customization": {
+          "title": "Custom Designs",
+          "description": "Tailored logo designs and placement options"
+        },
+        "durability": {
+          "title": "Long-lasting",
+          "description": "Durable prints that withstand wear and tear"
+        }
+      }
+    },
+    "multiHeadIPL": {
+      "hero": {
+        "title": "Multi-Head IPL Solutions",
+        "subtitle": "Versatile multi-head IPL systems for comprehensive hair removal treatment across all body areas."
+      },
+      "features": {
+        "versatility": {
+          "title": "Multi-Purpose",
+          "description": "Interchangeable heads for different body areas"
+        },
+        "precision": {
+          "title": "Precision Treatment",
+          "description": "Targeted treatment for optimal results"
+        },
+        "comfort": {
+          "title": "Enhanced Comfort",
+          "description": "Specialized heads for sensitive areas"
+        },
+        "efficiency": {
+          "title": "Treatment Efficiency",
+          "description": "Faster treatment times with larger coverage areas"
+        }
+      }
+    },
+    "packagingSolutions": {
+      "hero": {
+        "title": "Custom Packaging Solutions",
+        "subtitle": "Professional packaging design and manufacturing for your IPL devices and accessories."
+      },
+      "features": {
+        "design": {
+          "title": "Custom Design",
+          "description": "Tailored packaging designs for your brand"
+        },
+        "materials": {
+          "title": "Quality Materials",
+          "description": "Premium materials for durable and attractive packaging"
+        },
+        "printing": {
+          "title": "High-Quality Printing",
+          "description": "Professional printing with vibrant colors and crisp details"
+        },
+        "protection": {
+          "title": "Product Protection",
+          "description": "Secure packaging that protects your products during shipping"
+        }
+      }
+    }
   },
   "about": {
     "heroTitle": "About iShine",
