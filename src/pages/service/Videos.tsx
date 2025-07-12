@@ -2,8 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Play, Video, Monitor, Users } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const Videos: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="min-h-screen pt-20">
       <section className="bg-gradient-to-r from-red-500 to-orange-500 text-white py-16">
@@ -15,10 +18,9 @@ const Videos: React.FC = () => {
             className="text-center"
           >
             <Play className="w-16 h-16 mx-auto mb-6 text-white" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Videos</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('videos.hero.title')}</h1>
             <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
-              Watch our comprehensive video library featuring product demonstrations, 
-              tutorials, and manufacturing insights.
+              {t('videos.hero.subtitle')}
             </p>
           </motion.div>
         </div>
