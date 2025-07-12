@@ -5,6 +5,60 @@
     "keywords": "IPL-Geräte, OEM-Herstellung, ODM-Lösungen, Haarentfernung, Beauty-Geräte, kundenspezifische Herstellung"
   },
   "header": {
+    "logo": "iShine",
+    "nav": {
+      "solutions": "Lösungen",
+      "iplHairRemoval": "IPL-Haarentfernung",
+      "howToUse": "Anwendung",
+      "serviceSupport": "Service & Support",
+      "about": "Über uns",
+      "contact": "Kontakt",
+      "logoPrinting": "Logo-Druck",
+      "packaging": "Verpackungslösungen",
+      "dropShipping": "Dropshipping",
+      "globalShipping": "Weltweiter Versand",
+      "brandCustomization": "Markenanpassung",
+      "compliance": "Konformität & Zertifizierungen",
+      "designPrototyping": "Design & Prototypenerstellung",
+      "multiHeadIPL": "Multi-Head IPL angepasst",
+      "dualLampIPL": "Dual-Lamp IPL angepasst",
+      "iplDevices": "IPL-Geräte",
+      "smartAppIPL": "Intelligentes App-gesteuertes IPL-Gerät",
+      "iceFeelingIPL": "Ice Feeling IPL-Gerät",
+      "emeraldIPL": "Emerald IPL-Gerät",
+      "skinSensorIPL": "IPL-Gerät mit Hautsensor",
+      "batteryPoweredIPL": "Akkubetriebenes IPL-Gerät",
+      "handheldIPL": "Handgehaltenes IPL-Gerät",
+      "iceCoolingIPL": "Ice Cooling IPL-Gerät",
+      "dualLampIPLDevice": "Dual-Lamp IPL-Gerät",
+      "aiPoweredIPL": "KI-gestütztes IPL-Gerät",
+      "accessories": "Zubehör",
+      "sapphireLens": "Saphir-Linse",
+      "opticalFilter": "Optischer Filter",
+      "powerAdapter": "Netzadapter",
+      "safetyGoggles": "Schutzbrille",
+      "service": "Dienstleistung",
+      "afterSales": "Kundendienst",
+      "winFDAListing": "FDA-Listung gewinnen",
+      "iplManufacturing": "IPL-Geräte Herstellung",
+      "knowledgeBase": "Wissensdatenbank",
+      "supportGuide": "Unterstützung > Kaufleitfaden",
+      "beautySourcing": "Beauty-Nische Beschaffung & Zubehör",
+      "pricingGuide": "Preisleitfaden",
+      "helpCenter": "Hilfezentrum",
+      "gallery": "Galerie",
+      "videos": "Videos",
+      "blog": "Blog",
+      "newsInsights": "Nachrichten & Insights",
+      "industries": "Branchen die wir bedienen",
+      "founderMessage": "Gründernachricht",
+      "technology": "Unsere Technologie",
+      "globalWitness": "Weltweiter Zeuge",
+      "corePrinciples": "Kernprinzipien",
+      "company": "Über iShine",
+      "brandStory": "Markengeschichte",
+      "quality": "Qualität"
+    },
     "navigation": {
       "solutions": "Lösungen",
       "iplHairRemoval": "IPL-Haarentfernung",
@@ -577,6 +631,26 @@
     "success": "Ihre Nachricht wurde erfolgreich gesendet!",
     "error": "Es gab einen Fehler beim Senden Ihrer Nachricht. Bitte versuchen Sie es erneut."
   },
+  "contact": {
+    "form": {
+      "title": "Was haben Sie im Sinn? Lassen Sie uns reden!",
+      "subtitle": "Füllen Sie dieses Formular aus, um den Prozess zu starten. Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+      "name": "Name*",
+      "email": "E-Mail-Adresse*",
+      "phone": "Telefonnummer* z.B.(+1-541-3456-3001)",
+      "country": "Land",
+      "message": "Beschreiben Sie Ihre Bedürfnisse hier*",
+      "submit": "Senden",
+      "sending": "Wird gesendet...",
+      "submitSuccess": "Vielen Dank für Ihre Nachricht! Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+      "errors": {
+        "name": "Name ist erforderlich",
+        "email": "Gültige E-Mail-Adresse ist erforderlich",
+        "phone": "Telefonnummer ist erforderlich",
+        "message": "Nachricht ist erforderlich"
+      }
+    }
+  },
   "floating": {
     "contact": "Kontaktieren Sie uns",
     "backToTop": "Nach oben"
@@ -706,6 +780,144 @@
           "author": "Über den Autor"
         }
       }
+    }
+  },
+  "serviceSupport": {
+    "hero": {
+      "title": "Service & Support",
+      "subtitle": "Umfassendes Support-Ökosystem für IPL-Gerätehersteller, Händler und Markeninhaber. Von technischer Beratung bis zu Geschäftslösungen sind wir hier, um Ihren Erfolg zu gewährleisten.",
+      "cta": "Jetzt Support erhalten"
+    },
+    "stats": {
+      "satisfiedClients": "Zufriedene Kunden",
+      "technicalSupport": "Technischer Support",
+      "uptimeGuarantee": "Uptime-Garantie",
+      "countriesServed": "Bediente Länder"
+    },
+    "ecosystem": {
+      "title": "Unser Service-Ökosystem",
+      "subtitle": "Alles, was Sie für den Erfolg im IPL-Geräte-Markt benötigen, von technischem Support bis zu Geschäftswachstumslösungen."
+    },
+    "categories": {
+      "technicalSupport": {
+        "title": "Technischer Support",
+        "description": "Expertenberatung und Fehlerbehebung für alle Ihre IPL-Geräte-Bedürfnisse",
+        "services": {
+          "afterSales": {
+            "name": "Kundendienst",
+            "description": "24/7 technischer Support mit 1-Jahres-Garantie und 365-Tage-Rückgaberecht"
+          },
+          "knowledgeBase": {
+            "name": "Wissensdatenbank",
+            "description": "Umfassende FAQ und technische Dokumentation für IPL-Geräte"
+          },
+          "helpCenter": {
+            "name": "Hilfezentrum",
+            "description": "Multi-Channel-Support einschließlich Live-Chat, Telefon und E-Mail-Unterstützung"
+          }
+        }
+      },
+      "manufacturingServices": {
+        "title": "Herstellungsdienstleistungen",
+        "description": "Vollständige OEM/ODM-Lösungen vom Design bis zur Produktion",
+        "services": {
+          "iplManufacturing": {
+            "name": "IPL-Herstellung",
+            "description": "Maßgeschneiderte IPL-Geräteherstellung mit FDA-Compliance und Qualitätssicherung"
+          },
+          "winFDAListing": {
+            "name": "FDA-Listung gewinnen",
+            "description": "Professionelle Beratung zur Erlangung der FDA 510(k)-Listung für Ihre Marke"
+          }
+        }
+      },
+      "businessSupport": {
+        "title": "Geschäftssupport",
+        "description": "Umfassende Geschäftslösungen für Händler und Markeninhaber",
+        "services": {
+          "beautySourcing": {
+            "name": "Beauty-Beschaffung",
+            "description": "Spezialisierte Beschaffung für Beauty-Geräte und Zubehör mit Expertenberatung"
+          },
+          "pricingGuide": {
+            "name": "Preisleitfaden",
+            "description": "Transparente Preisinformationen und maßgeschneiderte Angebote für Großbestellungen"
+          }
+        }
+      },
+      "resourcesMedia": {
+        "title": "Ressourcen & Medien",
+        "description": "Visuelle Ressourcen und Bildungsinhalte für Marketing und Schulung",
+        "services": {
+          "gallery": {
+            "name": "Galerie",
+            "description": "Hochwertige Produktbilder und Lifestyle-Fotografie für Marketing-Zwecke"
+          },
+          "videos": {
+            "name": "Videos",
+            "description": "Produktdemonstrationen, Tutorials und Werbevideo-Inhalte"
+          }
+        }
+      }
+    }
+  },
+  "afterSalesService": {
+    "hero": {
+      "title": "Ihre Zufriedenheit, garantiert",
+      "subtitle": "Erleben Sie risikofreie B2B-Partnerschaft mit iShine. Unser Versprechen: umfassender Kundendienst, transparente Richtlinien und branchenführende Garantieabdeckung für alle IPL-Haarentfernungsgeräte."
+    },
+    "commonIssues": {
+      "title": "Häufige Kundendienst-Probleme & Prävention",
+      "scenarios": {
+        "title": "Typische Kundendienst-Szenarien",
+        "items": [
+          "Nicht gründliche Überprüfung der Bedienungsanleitung vor der Verwendung",
+          "Verwendung des Geräts ohne Bestätigung der Haut-/Haartyp-Eignung",
+          "Auswahl eines Energieniveaus über die persönliche Hauttoleranz hinaus",
+          "Instabile lokale Spannung beeinträchtigt die Geräteleistung",
+          "Klingeninduzierte Kratzer während der Vorbehandlung",
+          "Gerät hat keinen vollständigen Hautkontakt oder wird nicht im 90°-Winkel gehalten",
+          "Empfindliche Haut erlebt ausgeprägtes Unbehagen",
+          "Produkt oder Verpackung während des Versands beschädigt",
+          "Überspringen der Vorrasur, führt zu Haarverbrennungen",
+          "Nicht tragen von Schutzbrillen, führt zu Augenunbehagen oder Verletzungen",
+          "Andere unvorhergesehene Ursachen"
+        ]
+      },
+      "prevention": {
+        "title": "Wie man diese Probleme vermeidet",
+        "items": [
+          "Bedienungsanleitung lesen: Überprüfen Sie alle Richtlinien und Kontraindikationen vor der ersten Verwendung.",
+          "Eignung prüfen: Bestätigen Sie, dass Ihr Haut- und Haartyp den Geräteempfehlungen entspricht.",
+          "Niedrig anfangen, langsam steigern: Beginnen Sie immer mit der niedrigsten Energieeinstellung; erhöhen Sie nur, wenn es angenehm ist.",
+          "Spannungsprüfung: Stellen Sie sicher, dass Ihre lokale Spannung den Geräteanforderungen entspricht.",
+          "Richtig vorrasieren: Rasieren Sie Behandlungsbereiche, um Haarverbrennungen zu vermeiden.",
+          "Schutzbrille tragen: Verwenden Sie immer den bereitgestellten Augenschutz.",
+          "Korrekte Geräteposition: Halten Sie vollen Kontakt und einen 90°-Winkel zwischen Gerät und Haut.",
+          "Sachte Handhabung: Vermeiden Sie die Verwendung von Klingen oder Zubehör, das Verletzungen verursachen könnte.",
+          "Vorsichtig auspacken: Prüfen Sie auf Versandschäden vor der Verwendung.",
+          "Für empfindliche Haut: Testen Sie zuerst auf einem kleinen Bereich; beenden Sie bei Unbehagen."
+        ]
+      },
+      "guideButton": "Anwendungsleitfaden"
+    },
+    "commitments": {
+      "title": "Unsere Reaktion & Service-Versprechen",
+      "warranty": {
+        "title": "1-Jahres-Limited-Warranty",
+        "description": "Wenn Ihr Gerät innerhalb eines Jahres aufgrund von Herstellungsfehlern nicht funktioniert, reparieren oder ersetzen wir es kostenlos."
+      },
+      "return": {
+        "title": "Risikofreie 365-Tage-Rückgaberichtlinie",
+        "description": "Testen Sie iShine Beauty-Tools risikofrei. Wenn Sie nicht zufrieden sind, geben Sie das Produkt innerhalb von 365 Tagen für eine Rückerstattung zurück."
+      },
+      "moneyBack": {
+        "title": "90-Tage-Geld-zurück-Garantie",
+        "description": "Nicht zufrieden in den ersten 90 Tagen? Kontaktieren Sie uns für eine vollständige Rückerstattung. Keine Fragen gestellt."
+      },
+      "note": "Hinweis: Die 90-Tage-Geld-zurück-Garantie gilt für Produktunzufriedenheit. Die 1-Jahres-Garantie deckt Herstellungsfehler oder Funktionsstörungen während der normalen Nutzung ab. Rückerstattungen sind nach 90 Tagen nicht verfügbar, aber die Garantieabdeckung setzt sich für den Rest des Jahres fort.",
+      "warrantyButton": "Garantieanspruch-Formular",
+      "returnButton": "Rückgabeanfrage"
     }
   }
 }
