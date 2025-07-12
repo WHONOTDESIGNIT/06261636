@@ -115,6 +115,132 @@
       "subtitle": "Nangungunang pandaigdigang tagagawa ng IPL device, tumutulong sa iyo na idisenyo, gawin, at i-package ito.",
       "cta": "Kumuha ng Quote"
     },
+    "about": {
+      "title": "Tungkol sa iShine",
+      "subtitle": "Kumpletong mga solusyon ng IPL.",
+      "cta": "Basahin pa",
+      "description1": "Ang iShine Tech Co., Limited ay isang kumpletong supplier para sa",
+      "manufacturing": "pagmamanufacture ng mga IPL hair removal device",
+      "and": "at",
+      "customization": "customization",
+      "description2": ". Tumutulong sa iyo na idisenyo, gawin, at i-package ito. Mula sa ideya hanggang merkado.",
+      "description3": "May kakayahan kami para sa custom ice cooling IPL, Smart app-connected IPL device, skin sensor IPL device. Ang iShine ay nagbibigay ng mga solusyon na pinakabagay sa inyong brand identity."
+    },
+    "whatWeDo": {
+      "title": "ANO ANG GINAGAWA NAMIN",
+      "description": "Ang team ng iShine ay nakikipagtulungan sa mga brand owner mula sa iba't ibang industriya, product development managers, product managers, category sourcing managers, retail compliance specialists, product designers magkasama at nagbibigay ng OEM ODM solutions mula sa molded IPL devices design, prototyping hanggang IPL contract manufacturing, printing, packaging para matiyak ang tagumpay ng kanilang mga IPL project."
+    },
+    "productShowcase": {
+      "title": "MGA CUSTOMIZED NA IPL DEVICES",
+      "subtitle": "Ikaw ang magdidisenyo, kami ang gagawa, magpa-package",
+      "description": "Ang iShine ay isang full-service custom IPL products manufacturer na nagbibigay ng end-to-end customization, mula sa mold development at prototyping hanggang mass production at packaging. Ang iShine ay nakapag-customize na ng mahigit 1,000 custom devices IPL projects para sa aming mga partner sa nakaraan na may maraming karanasan sa IPL products Technical solution at Compliance solution.",
+      "include": "Ang mga custom IPL products ay kinabibilangan ng:"
+    },
+    "customization": {
+      "title": "Walang limitasyong mga opsyon sa customization",
+      "subtitle": "Mag-stand out sa merkado gamit ang mga fully customizable IPL devices na bagay sa inyong brand.",
+      "options": {
+        "0": {
+          "label": "Color Customization",
+          "content": "Pumili mula sa walang limitasyong mga opsyon ng kulay para tumugma sa inyong brand identity."
+        },
+        "1": {
+          "label": "Logo Printing",
+          "content": "Magdagdag ng inyong logo para sa isang fully branded product experience."
+        },
+        "2": {
+          "label": "Function Customization",
+          "content": "I-customize ang mga feature at function para matugunan ang inyong market needs."
+        },
+        "3": {
+          "label": "Packaging Design",
+          "content": "Premium packaging para sa retail, e-commerce, o gifting."
+        },
+        "4": {
+          "label": "Certification Support",
+          "content": "Buong suporta para sa mga global certification."
+        }
+      }
+    },
+    "process": {
+      "title": "OEM/ODM Process",
+      "subtitle": "Mula sa ideya hanggang delivery, ginagawa naming seamless at successful ang inyong IPL device project.",
+      "steps": {
+        "0": {
+          "title": "Konsultasyon",
+          "desc": "Pag-usapan ang inyong brand vision at requirements."
+        },
+        "1": {
+          "title": "Design & Prototyping",
+          "desc": "Kumuha ng custom designs at functional prototypes."
+        },
+        "2": {
+          "title": "Sample Confirmation",
+          "desc": "I-approve ang mga sample bago ang mass production."
+        },
+        "3": {
+          "title": "Mass Production",
+          "desc": "Efficient at high-quality na pagmamanufacture."
+        },
+        "4": {
+          "title": "Quality Inspection",
+          "desc": "Mahigpit na QC para sa bawat batch."
+        },
+        "5": {
+          "title": "Certification",
+          "desc": "Suporta para sa FDA, CE, at iba pa."
+        },
+        "6": {
+          "title": "Global Shipping",
+          "desc": "Worldwide delivery na may flexible logistics."
+        },
+        "7": {
+          "title": "After-Sales Service",
+          "desc": "Patuloy na suporta para sa inyong negosyo."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Ano ang Sinasabi ng Aming mga Kliyente",
+      "pageButton": "Pumunta sa testimonials page",
+      "0": "\"Tumulong ang iShine sa amin na i-launch ang aming IPL brand sa record time. Kahanga-hanga ang kalidad at serbisyo!\"",
+      "1": "\"Walang katapusan ang mga opsyon sa customization. Gustung-gusto ng aming mga kliyente ang unique packaging at features.\"",
+      "2": "\"Professional na team, mabilis na response, at maaasahang delivery. Lubos na inirerekomenda para sa OEM/ODM.\"",
+      "3": "\"Nag-expand kami sa mga bagong merkado salamat sa certification at compliance support ng iShine.\"",
+      "4": "\"Napakaganda ng after-sales service. Anumang isyu ay mabilis at propesyonal na naresolba.\"",
+      "5": "\"Ang aming brand reputation ay lubos na napabuti sa design at manufacturing expertise ng iShine.\""
+    },
+    "faq": {
+      "title": "Mga Madalas na Tanong",
+      "0": {
+        "q": "Ano ang IPL at paano ito gumagana?",
+        "a": "Ang IPL (Intense Pulsed Light) ay gumagamit ng broad-spectrum light para i-target ang hair follicles, na ligtas at epektibong nagbabawas ng hair growth."
+      },
+      "1": {
+        "q": "Maaari ba akong mag-customize ng mga function ng device?",
+        "a": "Oo, nagbibigay kami ng buong customization ng mga feature, color, packaging, at iba pa para tumugma sa inyong brand needs."
+      },
+      "2": {
+        "q": "Anong mga certification ang sinusuportahan ninyo?",
+        "a": "Sinusuportahan namin ang FDA, CE, RoHS, at iba pang global certification para matiyak ang compliance sa inyong target markets."
+      },
+      "3": {
+        "q": "Gaano katagal ang production lead time?",
+        "a": "Ang typical lead time ay 25-35 araw pagkatapos ng sample approval, depende sa order size at customization."
+      },
+      "4": {
+        "q": "Nagbibigay ba kayo ng after-sales support?",
+        "a": "Oo, nagbibigay kami ng comprehensive after-sales service kabilang ang technical support at warranty."
+      },
+      "5": {
+        "q": "Maaari ba kayong mag-ship sa buong mundo?",
+        "a": "Tiyak. Nagbibigay kami ng maaasahang worldwide shipping para suportahan ang inyong negosyo kahit saan kayo naroroon."
+      }
+    },
+    "contact": {
+      "title": "Makipag-ugnayan sa Amin",
+      "subtitle": "Handa na bang palakasin ang inyong brand? Makipag-ugnayan sa amin para sa libreng konsultasyon at quote."
+    },
     "partners": {
       "title": "Pinagkakatiwalaan ng mga Pandaigdigang Brand",
       "subtitle": "Nakikipagtulungan sa mga nangungunang industriya sa buong mundo"
