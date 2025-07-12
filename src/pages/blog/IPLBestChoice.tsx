@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ContactFormA from '../../components/Forms/ContactFormA';
-import { useTranslation } from '../../hooks/useTranslation';
+import { useLanguage } from '../../context/LanguageContext';
 
 const IPLBestChoice: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
 
   return (
     <div className="min-h-screen bg-white" style={{ wordSpacing: '0.1em' }}>
@@ -29,7 +29,7 @@ const IPLBestChoice: React.FC = () => {
                 fontWeight: '400'
               }}
             >
-              🏠 Blog
+              🏠 {t('blog.breadcrumb', 'Blog')}
             </span>
           </div>
           
@@ -49,7 +49,7 @@ const IPLBestChoice: React.FC = () => {
               textOverflow: 'ellipsis'
             }}
           >
-            Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools
+            {t('blog.iplBestChoice.title', 'Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools')}
           </h1>
           
           {/* 发布日期 */}
@@ -62,7 +62,7 @@ const IPLBestChoice: React.FC = () => {
               textAlign: 'left'
             }}
           >
-            July 10, 2025
+            {t('blog.iplBestChoice.date', 'July 10, 2025')}
           </p>
         </div>
       </div>
