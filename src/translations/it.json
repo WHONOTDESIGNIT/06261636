@@ -132,6 +132,132 @@
       "title": "Pronto a Iniziare il Tuo Progetto IPL?",
       "subtitle": "Discutiamo i tuoi requisiti e creiamo la soluzione IPL perfetta per il tuo marchio",
       "button": "Programma Consulenza"
+    },
+    "about": {
+      "title": "Chi è iShine",
+      "subtitle": "Soluzioni IPL complete.",
+      "cta": "Leggi di Più",
+      "description1": "iShine Tech Co., Limited è un fornitore completo per",
+      "manufacturing": "la produzione di dispositivi di rimozione peli IPL",
+      "and": "e",
+      "customization": "personalizzazione",
+      "description2": "Ti aiutiamo a progettare, costruire e confezionare. Dall'idea al mercato.",
+      "description3": "Abbiamo la capacità per IPL con raffreddamento a ghiaccio personalizzato, dispositivi IPL connessi a app intelligenti, dispositivi IPL con sensore cutaneo. iShine fornisce soluzioni che si adattano perfettamente alla tua identità di marca."
+    },
+    "whatWeDo": {
+      "title": "COSA FACCIAMO",
+      "description": "Il team iShine lavora con proprietari di marchi di diversi settori, responsabili dello sviluppo prodotti, responsabili di prodotto, responsabili degli approvvigionamenti per categoria, specialisti della conformità retail, designer di prodotti insieme e offre loro soluzioni OEM ODM dalla progettazione di dispositivi IPL modellati, prototipazione alla produzione contrattuale IPL, stampa, confezionamento per garantire il successo dei loro progetti IPL."
+    },
+    "productShowcase": {
+      "title": "DISPOSITIVI IPL PERSONALIZZATI",
+      "subtitle": "Tu progetti, noi costruiamo, confezioniamo",
+      "description": "iShine è un produttore di prodotti IPL personalizzati a servizio completo che offre personalizzazione end-to-end dallo sviluppo di stampi e prototipazione alla produzione di massa e confezionamento. iShine ha già personalizzato più di 1.000 progetti di dispositivi IPL personalizzati per i nostri partner in passato con molta esperienza nelle soluzioni tecniche e di conformità dei prodotti IPL.",
+      "include": "I prodotti IPL personalizzati includono:"
+    },
+    "customization": {
+      "title": "Opzioni di Personalizzazione Illimitate",
+      "subtitle": "Distinguiti nel mercato con dispositivi IPL completamente personalizzabili adatti alla tua marca.",
+      "options": {
+        "0": {
+          "label": "Personalizzazione Colore",
+          "content": "Scegli tra opzioni di colore illimitate per abbinare la tua identità di marca."
+        },
+        "1": {
+          "label": "Stampa Logo",
+          "content": "Aggiungi il tuo logo per un'esperienza prodotto completamente brandizzata."
+        },
+        "2": {
+          "label": "Personalizzazione Funzioni",
+          "content": "Personalizza caratteristiche e funzioni per soddisfare le esigenze del tuo mercato."
+        },
+        "3": {
+          "label": "Design Confezionamento",
+          "content": "Confezionamento premium per retail, e-commerce o regali."
+        },
+        "4": {
+          "label": "Supporto Certificazioni",
+          "content": "Supporto completo per certificazioni globali."
+        }
+      }
+    },
+    "process": {
+      "title": "Processo OEM/ODM",
+      "subtitle": "Dall'idea alla consegna, rendiamo il tuo progetto dispositivo IPL senza soluzione di continuità e di successo.",
+      "steps": {
+        "0": {
+          "title": "Consulenza",
+          "desc": "Discuti la tua visione di marca e requisiti."
+        },
+        "1": {
+          "title": "Design e Prototipo",
+          "desc": "Ottieni design personalizzati e prototipi funzionali."
+        },
+        "2": {
+          "title": "Conferma Campione",
+          "desc": "Approva i campioni prima della produzione di massa."
+        },
+        "3": {
+          "title": "Produzione di Massa",
+          "desc": "Produzione efficiente e di alta qualità."
+        },
+        "4": {
+          "title": "Ispezione Qualità",
+          "desc": "QC rigoroso per ogni lotto."
+        },
+        "5": {
+          "title": "Certificazione",
+          "desc": "Supporto per FDA, CE e altri."
+        },
+        "6": {
+          "title": "Spedizione Globale",
+          "desc": "Consegna mondiale con logistica flessibile."
+        },
+        "7": {
+          "title": "Servizio Post-Vendita",
+          "desc": "Supporto continuo per la tua attività."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Cosa Dicono i Nostri Clienti",
+      "pageButton": "Vai alla pagina testimonianze",
+      "0": "\"iShine ci ha aiutato a lanciare il nostro marchio IPL in tempi record. La qualità e il servizio sono impressionanti!\"",
+      "1": "\"Le opzioni di personalizzazione sono infinite. I nostri clienti amano il confezionamento e le caratteristiche uniche.\"",
+      "2": "\"Team professionale, risposta rapida e consegna affidabile. Altamente raccomandato per OEM/ODM.\"",
+      "3": "\"Ci siamo espansi in nuovi mercati grazie al supporto per certificazioni e conformità di iShine.\"",
+      "4": "\"Il servizio post-vendita è eccellente. Tutti i problemi vengono risolti rapidamente e professionalmente.\"",
+      "5": "\"La reputazione del nostro marchio è migliorata significativamente grazie all'esperienza di design e produzione di iShine.\""
+    },
+    "faq": {
+      "title": "Domande Frequenti",
+      "0": {
+        "q": "Cos'è l'IPL e come funziona?",
+        "a": "L'IPL (Luce Pulsata Intensa) utilizza luce a spettro ampio per colpire i follicoli piliferi, riducendo la crescita dei peli in modo sicuro ed efficace."
+      },
+      "1": {
+        "q": "Posso personalizzare le funzioni del dispositivo?",
+        "a": "Sì, offriamo personalizzazione completa di caratteristiche, colori, confezionamento e altro per adattarsi alle esigenze del tuo marchio."
+      },
+      "2": {
+        "q": "Quali certificazioni supportate?",
+        "a": "Supportiamo FDA, CE, RoHS e altre certificazioni globali per garantire la conformità nei tuoi mercati target."
+      },
+      "3": {
+        "q": "Qual è il tempo di produzione?",
+        "a": "Il tempo tipico è di 25-35 giorni dopo l'approvazione del campione, a seconda delle dimensioni dell'ordine e della personalizzazione."
+      },
+      "4": {
+        "q": "Fornite supporto post-vendita?",
+        "a": "Sì, offriamo servizio post-vendita completo inclusi supporto tecnico e garanzia."
+      },
+      "5": {
+        "q": "Potete spedire globalmente?",
+        "a": "Assolutamente. Offriamo spedizione mondiale affidabile per supportare la tua attività ovunque tu sia."
+      }
+    },
+    "contact": {
+      "title": "Contattaci",
+      "subtitle": "Pronto a potenziare il tuo marchio? Mettiti in contatto per una consulenza gratuita e un preventivo."
     }
   },
   "contact": {
