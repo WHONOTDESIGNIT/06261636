@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 interface TranslationData {
-  [key: string]: string | TranslationData;
+  [key: string]: string | string[] | TranslationData;
 }
 
 export const useTranslation = (language: string = 'en') => {
