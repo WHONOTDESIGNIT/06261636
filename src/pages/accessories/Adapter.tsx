@@ -1,46 +1,68 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Plug, Zap, Globe, Shield } from 'lucide-react';
+import { Zap, Shield, Globe, CheckCircle } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
+import { useLanguage } from '../../context/LanguageContext';
 
 const Adapter: React.FC = () => {
+  const { t } = useLanguage();
+
+  const features = [
+    {
+      icon: Zap,
+      title: t('accessories.adapter.features.voltage.title'),
+      description: t('accessories.adapter.features.voltage.description')
+    },
+    {
+      icon: Shield,
+      title: t('accessories.adapter.features.safety.title'),
+      description: t('accessories.adapter.features.safety.description')
+    },
+    {
+      icon: Globe,
+      title: t('accessories.adapter.features.compatibility.title'),
+      description: t('accessories.adapter.features.compatibility.description')
+    },
+    {
+      icon: CheckCircle,
+      title: t('accessories.adapter.features.quality.title'),
+      description: t('accessories.adapter.features.quality.description')
+    }
+  ];
+
   return (
     <div className="min-h-screen pt-20">
-      <section className="bg-gradient-to-r from-green-500 to-teal-600 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Hero Section */}
+      <section className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center"
           >
-            <Plug className="w-16 h-16 mx-auto mb-6 text-white" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Power Adapter</h1>
-            <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
-              Universal power adapter with multiple voltage support for 
-              reliable and safe operation worldwide.
+            <Zap className="w-16 h-16 mx-auto mb-6" />
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('accessories.adapter.hero.title')}</h1>
+            <p className="text-lg md:text-xl max-w-3xl mx-auto text-gray-100 mb-10">
+              {t('accessories.adapter.hero.subtitle')}
             </p>
           </motion.div>
         </div>
       </section>
 
-      <section className="py-16 bg-white">
+      {/* Features Section */}
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              { icon: Globe, title: 'Universal Compatibility', description: 'Works worldwide' },
-              { icon: Zap, title: 'Fast Charging', description: 'Quick power delivery' },
-              { icon: Shield, title: 'Safety Certified', description: 'Multiple safety standards' },
-              { icon: Plug, title: 'Compact Design', description: 'Portable and lightweight' }
-            ].map((feature, index) => (
+            {features.map((feature, index) => (
               <motion.div
                 key={feature.title}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="text-center"
               >
-                <feature.icon className="w-12 h-12 text-green-500 mx-auto mb-4" />
+                <feature.icon className="w-12 h-12 text-blue-500 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{feature.title}</h3>
                 <p className="text-gray-600">{feature.description}</p>
               </motion.div>
@@ -49,6 +71,7 @@ const Adapter: React.FC = () => {
         </div>
       </section>
 
+      {/* Contact Form */}
       <ContactFormA />
     </div>
   );
