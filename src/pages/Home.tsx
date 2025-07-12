@@ -142,7 +142,7 @@ export default function HomePage() {
   const [qaOpen, setQaOpen] = useState<number | null>(null);
   const [testimonialPage, setTestimonialPage] = useState(0);
   const [galleryIndex, setGalleryIndex] = useState(0);
-  const { currentLanguage } = useLanguage();
+  const { currentLanguage, t } = useLanguage();
 
   return (
     <div className="font-inter bg-[#F8FAFC] text-[#22223B]">
@@ -154,9 +154,9 @@ export default function HomePage() {
         </div>
         {/* 内容层 */}
         <div className="max-w-4xl text-center z-10 relative pt-14">
-          <h1 className="text-2xl md:text-6xl font-bold mb-4 drop-shadow-lg">Custom IPL Hair Removal Devices for Cosmetics Brands</h1>
-          <p className="text-lg md:text-2xl mb-8 font-medium drop-shadow mt-8">You design it, we build it and box it.</p>
-          <Link to="#contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-full shadow-lg hover:bg-blue-100 transition">Get a Free Quote</Link>
+          <h1 className="text-2xl md:text-6xl font-bold mb-4 drop-shadow-lg">{t('home.hero.title1', 'Custom IPL Hair Removal Devices for Cosmetics Brands')}</h1>
+          <p className="text-lg md:text-2xl mb-8 font-medium drop-shadow mt-8">{t('home.hero.subtitle', 'You design it, we build it and box it.')}</p>
+          <Link to="#contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-full shadow-lg hover:bg-blue-100 transition">{t('home.hero.cta', 'Get a Free Quote')}</Link>
         </div>
       </section>
 
@@ -165,23 +165,23 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
           {/* 容器1：主标题+副标题+按钮 */}
           <div className="flex flex-col items-start justify-center h-full">
-            <h2 className="text-3xl font-bold mb-4 text-blue-700">About iShine</h2>
-            <p className="text-lg mb-6 text-blue-700">One-stop IPL solutions.</p>
-            <Link to="#contact" className="inline-block px-6 py-2 bg-blue-700 text-white font-semibold rounded-full shadow hover:bg-blue-800 transition">Read More</Link>
+            <h2 className="text-3xl font-bold mb-4 text-blue-700">{t('home.about.title', 'About iShine')}</h2>
+            <p className="text-lg mb-6 text-blue-700">{t('home.about.subtitle', 'One-stop IPL solutions.')}</p>
+            <Link to="#contact" className="inline-block px-6 py-2 bg-blue-700 text-white font-semibold rounded-full shadow hover:bg-blue-800 transition">{t('home.about.cta', 'Read More')}</Link>
           </div>
           {/* 容器2：富文本1 */}
           <div className="text-lg">
-            iShine Tech Co., Limited, is one-stop supplier for{" "}
+            {t('home.about.description1', 'iShine Tech Co., Limited, is one-stop supplier for')}{" "}
             <Link to={`/${currentLanguage}/service-support/manufacturing`} className="text-blue-700 underline underline-offset-2 decoration-blue-700 hover:text-blue-800 hover:decoration-blue-800 transition">
-              IPL hair removal devices manufacturing
-            </Link>{" "}and{" "}
+              {t('home.about.manufacturing', 'IPL hair removal devices manufacturing')}
+            </Link>{" "}{t('home.about.and', 'and')}{" "}
             <Link to={`/${currentLanguage}/solutions/brand-customization`} className="text-blue-700 underline underline-offset-2 decoration-blue-700 hover:text-blue-800 hover:decoration-blue-800 transition">
-              customization
-            </Link>. Help you design it, build it and box it. From idea to market.
+              {t('home.about.customization', 'customization')}
+            </Link>. {t('home.about.description2', 'Help you design it, build it and box it. From idea to market.')}
           </div>
           {/* 容器3：富文本2 */}
           <div className="text-lg">
-            We have the capability for Custom ice cooling IPL, Smart APP-connected IPL device, Skin Sensor IPL device. iShine provide solutions that best fit for your brand identity.
+            {t('home.about.description3', 'We have the capability for Custom ice cooling IPL, Smart APP-connected IPL device, Skin Sensor IPL device. iShine provide solutions that best fit for your brand identity.')}
           </div>
         </div>
       </section>
@@ -203,10 +203,10 @@ export default function HomePage() {
           </div>
           {/* 右侧：富文本 */}
           <div>
-            <h2 className="text-4xl font-bold text-blue-700 mb-4">WHAT WE DO</h2>
+            <h2 className="text-4xl font-bold text-blue-700 mb-4">{t('home.whatWeDo.title', 'WHAT WE DO')}</h2>
             <div className="w-16 h-1 mb-4" style={{ background: 'rgb(239,187,32)' }}></div>
             <p className="text-lg text-gray-700">
-            iShine team work with the different industries brands owner, products development managers, products managers, category sourcing manager, retail compliance specialist, products designers together and offer them OEM ODM solution from molded IPL devices design, prototyping to IPL contract manufacturing, printing, package to ensure their IPL projects success.
+            {t('home.whatWeDo.description', 'iShine team work with the different industries brands owner, products development managers, products managers, category sourcing manager, retail compliance specialist, products designers together and offer them OEM ODM solution from molded IPL devices design, prototyping to IPL contract manufacturing, printing, package to ensure their IPL projects success.')}
             </p>
           </div>
         </div>
@@ -290,13 +290,13 @@ export default function HomePage() {
       {/* Product Showcase */}
       <section className="py-16 px-4 md:px-0 bg-gradient-to-br from-blue-50 via-white to-purple-50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-5xl font-bold mb-4 text-blue-700 text-center">CUSTMIZED IPL DEVICES</h2>
-          <h3 className="text-2xl font-semibold mb-4 text-blue-700 text-center">You design it, we build it, box it</h3>
+          <h2 className="text-5xl font-bold mb-4 text-blue-700 text-center">{t('home.productShowcase.title', 'CUSTMIZED IPL DEVICES')}</h2>
+          <h3 className="text-2xl font-semibold mb-4 text-blue-700 text-center">{t('home.productShowcase.subtitle', 'You design it, we build it, box it')}</h3>
           {/* 黄色细线+正文 */}
           <div className="flex flex-col items-center mb-8">
             <div className="w-32 h-1 mb-4 mt-8" style={{ background: 'rgb(239,187,32)' }}></div>
             <p className="text-lg text-gray-700 max-w-5.5xl text-justify mt-8">
-              iShine is a full-service custom IPL products manufacturer offering end-to-end customization, from mold development and prototyping to mass production and packaging. iShine already customized more than 1,000 custom devices IPL projects for our partner in the past with much experience in IPL products Technical solution and Compliance solution. <p>The custom IPL products include:</p>
+              {t('home.productShowcase.description', 'iShine is a full-service custom IPL products manufacturer offering end-to-end customization, from mold development and prototyping to mass production and packaging. iShine already customized more than 1,000 custom devices IPL projects for our partner in the past with much experience in IPL products Technical solution and Compliance solution.')} <p>{t('home.productShowcase.include', 'The custom IPL products include:')}</p>
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
@@ -313,8 +313,8 @@ export default function HomePage() {
       {/* Customization Options */}
       <section className="py-16 px-4 md:px-0 bg-gradient-to-r from-blue-100 via-white to-purple-100">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2 text-center">Unlimited Customization Options</h2>
-          <p className="text-center mb-8 text-lg">Stand out in the market with fully customizable IPL devices fit for your brand.</p>
+          <h2 className="text-3xl font-bold mb-2 text-center">{t('home.customization.title', 'Unlimited Customization Options')}</h2>
+          <p className="text-center mb-8 text-lg">{t('home.customization.subtitle', 'Stand out in the market with fully customizable IPL devices fit for your brand.')}</p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             {unlimitedOptions.map((opt, idx) => (
               <button
@@ -323,12 +323,12 @@ export default function HomePage() {
                 onClick={() => setOptionIdx(idx)}
               >
                 {opt.icon}
-                {opt.label}
+                {t(`home.customization.options.${idx}.label`, opt.label)}
               </button>
             ))}
           </div>
           <div className="max-w-2xl mx-auto bg-white rounded-xl p-6 shadow-lg text-center text-lg min-h-[80px] flex items-center justify-center transition-all">
-            {unlimitedOptions[optionIdx].content}
+            {t(`home.customization.options.${optionIdx}.content`, unlimitedOptions[optionIdx].content)}
           </div>
         </div>
       </section>
@@ -336,16 +336,16 @@ export default function HomePage() {
       {/* OEM/ODM Process */}
       <section className="py-16 px-4 md:px-0 bg-gradient-to-br from-blue-50 via-white to-purple-50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2 text-center">OEM/ODM Process</h2>
-          <p className="text-center mb-8 text-lg">From idea to delivery, we make your IPL device project seamless and successful.</p>
+          <h2 className="text-3xl font-bold mb-2 text-center">{t('home.process.title', 'OEM/ODM Process')}</h2>
+          <p className="text-center mb-8 text-lg">{t('home.process.subtitle', 'From idea to delivery, we make your IPL device project seamless and successful.')}</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             {processSteps.map((step, i) => {
               const Icon = processIcons[i % processIcons.length];
               return (
                 <div key={i} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg">
                   <Icon className="w-16 h-16 text-blue-700 mb-4" />
-                  <h3 className="font-bold text-base mb-1">{step.title}</h3>
-                  <p className="text-center text-sm">{step.desc}</p>
+                  <h3 className="font-bold text-base mb-1">{t(`home.process.steps.${i}.title`, step.title)}</h3>
+                  <p className="text-center text-sm">{t(`home.process.steps.${i}.desc`, step.desc)}</p>
                 </div>
               );
             })}
@@ -356,10 +356,10 @@ export default function HomePage() {
       {/* Testimonials */}
       <section className="py-16 px-4 md:px-0">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">What Our Clients Say</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">{t('home.testimonials.title', 'What Our Clients Say')}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
             {testimonials.slice(testimonialPage*3, testimonialPage*3+3).map((tk, i) => (
-              <div key={i} className="bg-white rounded-xl p-6 shadow-lg text-center text-lg italic">{tk}</div>
+              <div key={i} className="bg-white rounded-xl p-6 shadow-lg text-center text-lg italic">{t(`home.testimonials.${testimonialPage*3+i}`, tk)}</div>
             ))}
           </div>
           <div className="flex justify-center gap-2">
@@ -368,7 +368,7 @@ export default function HomePage() {
                 key={i}
                 className={`w-3 h-3 rounded-full ${testimonialPage === i ? "bg-blue-700" : "bg-blue-200"}`}
                 onClick={() => setTestimonialPage(i)}
-                aria-label={`Go to testimonials page ${i+1}`}
+                aria-label={t('home.testimonials.pageButton', `Go to testimonials page ${i+1}`)}
               />
             ))}
           </div>
@@ -378,7 +378,7 @@ export default function HomePage() {
       {/* FAQ Section */}
       <section className="py-16 px-4 md:px-0">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">{t('home.faq.title', 'Frequently Asked Questions')}</h2>
           <div className="flex flex-col gap-6">
             {qaList.map((item, idx) => (
               <div key={idx} className="mb-4">
@@ -396,7 +396,7 @@ export default function HomePage() {
                   onClick={() => setQaOpen(qaOpen === idx ? null : idx)}
                   style={{ transition: 'background 0.2s, color 0.2s' }}
                 >
-                  <span className="font-bold">{item.q}</span>
+                  <span className="font-bold">{t(`home.faq.${idx}.q`, item.q)}</span>
                   <span>
                     <ChevronDown className={`w-5 h-5 transition-transform ${qaOpen === idx ? "rotate-180" : ""}`} />
                   </span>
@@ -404,7 +404,7 @@ export default function HomePage() {
                 {/* 答案内容，下拉区域，无边框 */}
                 {qaOpen === idx && (
                   <div className="px-6 py-4 bg-transparent text-base">
-                    {typeof item.a === "function" ? item.a(currentLanguage) : item.a}
+                    {typeof item.a === "function" ? item.a(currentLanguage) : (typeof item.a === "string" ? t(`home.faq.${idx}.a`, item.a) : item.a)}
                   </div>
                 )}
               </div>
@@ -416,8 +416,8 @@ export default function HomePage() {
       {/* Contact / CTA */}
       <section id="contact" className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-6">Contact Us</h2>
-          <p className="text-center text-gray-700 mb-8">Ready to empower your brand? Get in touch for a free consultation and quote.</p>
+          <h2 className="text-3xl font-bold text-center mb-6">{t('home.contact.title', 'Contact Us')}</h2>
+          <p className="text-center text-gray-700 mb-8">{t('home.contact.subtitle', 'Ready to empower your brand? Get in touch for a free consultation and quote.')}</p>
           <ContactFormA />
         </div>
       </section>
