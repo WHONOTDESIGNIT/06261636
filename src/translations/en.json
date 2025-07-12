@@ -901,6 +901,247 @@
           "faq": "Frequently Asked Questions",
           "exploreMore": "Explore More",
           "author": "About the Author"
+              }
+    }
+  },
+  "about": {
+    "brandStory": {
+      "hero": {
+        "title": "From Challenge to Change: The iShine Journey",
+        "subtitle": "The IPL industry struggled with high costs, limited customization, and technical hurdles. iShine was founded to break this mold—empowering businesses worldwide with next-generation IPL technology and a seamless path from idea to market."
+      },
+      "sections": {
+        "origin": {
+          "title": "Our Origin",
+          "content": "Founded with a vision to democratize advanced IPL technology, iShine emerged from the recognition that innovation was stifled by high costs and limited accessibility in the beauty device market."
+        },
+        "mission": {
+          "title": "Our Mission",
+          "content": "To make advanced IPL solutions accessible, customizable, and scalable for every visionary brand, breaking down barriers to innovation in the beauty technology space."
+        },
+        "vision": {
+          "title": "Our Vision",
+          "content": "To be the global leader in democratizing advanced beauty technology, empowering brands worldwide to bring innovative IPL solutions to market with confidence and success."
+        },
+        "values": {
+          "title": "Our Values",
+          "content": "Innovation, collaboration, quality, and customer-centricity drive everything we do. We believe in building lasting partnerships and delivering excellence in every project."
+        }
+      }
+    },
+    "corePrinciples": {
+      "hero": {
+        "title": "Core Principles",
+        "subtitle": "The foundational values that guide our approach to innovation, quality, and customer success."
+      },
+      "principles": {
+        "innovation": {
+          "title": "Innovation First",
+          "content": "We continuously push the boundaries of what's possible in IPL technology, investing in R&D to deliver cutting-edge solutions."
+        },
+        "quality": {
+          "title": "Quality Excellence",
+          "content": "Every product we manufacture meets the highest standards of quality, safety, and performance."
+        },
+        "partnership": {
+          "title": "Partnership Approach",
+          "content": "We work collaboratively with our clients, treating their success as our own and providing comprehensive support."
+        },
+        "accessibility": {
+          "title": "Accessibility",
+          "content": "We believe advanced technology should be accessible to all, not just large corporations."
+        }
+      }
+    },
+    "founderMessage": {
+      "hero": {
+        "title": "Founder's Message",
+        "subtitle": "A personal message from our founder about the journey, vision, and commitment to excellence."
+      },
+      "message": {
+        "title": "Dear Partners and Friends",
+        "content": "When we started iShine, we saw an industry where innovation was limited by high costs and complex barriers. Our mission was clear: democratize advanced IPL technology and make it accessible to visionary brands worldwide. Today, I'm proud to say we've built more than a manufacturing company—we've created a partnership ecosystem that empowers success."
+      },
+      "vision": {
+        "title": "Our Vision for the Future",
+        "content": "We envision a world where every brand, regardless of size, can access the latest beauty technology innovations. Our commitment to R&D, quality, and partnership ensures we remain at the forefront of IPL technology advancement."
+      }
+    },
+    "globalWitness": {
+      "hero": {
+        "title": "Global Witness",
+        "subtitle": "Discover how iShine is making a difference worldwide through innovation, quality, and partnership."
+      },
+      "impact": {
+        "title": "Global Impact",
+        "content": "Our technology and solutions have reached over 50 countries, empowering brands to bring innovative IPL products to market and improve lives through advanced beauty technology."
+      },
+      "partnerships": {
+        "title": "Strategic Partnerships",
+        "content": "We've built lasting relationships with leading brands, distributors, and technology partners worldwide, creating a network of innovation and success."
+      }
+    }
+  }
+},
+  "sitemap": {
+    "title": "Sitemap",
+    "mainPages": "Main Pages",
+    "home": "Home",
+    "about": "About",
+    "iplHairRemoval": "IPL Hair Removal",
+    "solutions": "Solutions",
+    "contact": "Contact",
+    "iplProducts": "IPL Products",
+    "emeraldIpl": "Emerald IPL",
+    "iceCoolingIpl": "Ice Cooling IPL",
+    "iceFeelingIpl": "Ice Feeling IPL",
+    "handheldIpl": "Handheld IPL",
+    "batteryPoweredIpl": "Battery Powered IPL",
+    "skinSensorIpl": "Skin Sensor IPL",
+    "aiPoweredIpl": "AI Powered IPL",
+    "dualLampIpl": "Dual Lamp IPL",
+    "aboutPages": "About Pages",
+    "brandStory": "Brand Story",
+    "companyInfo": "Company Info",
+    "corePrinciples": "Core Principles",
+    "founderMessage": "Founder Message",
+    "globalWitness": "Global Witness",
+    "quality": "Quality",
+    "technology": "Technology",
+    "brandCustomization": "Brand Customization",
+    "compliance": "Compliance",
+    "designPrototyping": "Design & Prototyping",
+    "dropShipping": "Drop Shipping",
+    "dualLampIplSolution": "Dual Lamp IPL",
+    "globalShipping": "Global Shipping",
+    "logoPrinting": "Logo Printing",
+    "multiHeadIpl": "Multi Head IPL",
+    "packagingSolutions": "Packaging Solutions",
+    "accessories": "Accessories",
+    "adapter": "Adapter",
+    "filter": "Filter",
+    "protectiveGoggles": "Protective Goggles",
+    "sapphireLens": "Sapphire Lens",
+    "serviceSupport": "Service & Support",
+    "afterSalesService": "After-Sales Service",
+    "helpCenter": "Help Center",
+    "knowledgeBase": "Knowledge Base",
+    "iplManufacturing": "IPL Manufacturing",
+    "winFdaListing": "Win FDA Listing",
+    "beautySourcing": "Beauty Sourcing",
+    "pricingGuide": "Pricing Guide",
+    "gallery": "Gallery",
+    "videos": "Videos",
+    "blog": "Blog",
+    "aiPoweredSkinSensing": "AI Powered Skin Sensing",
+    "fda510kPathway": "FDA 510k Pathway",
+    "futureHomeHairRemoval": "Future Home Hair Removal",
+    "globalMarketShifts": "Global Market Shifts",
+    "industries": "Industries",
+    "iplBestChoice": "IPL Best Choice",
+    "multiHeadIplSystems": "Multi Head IPL Systems",
+    "newsInsights": "News & Insights",
+    "sapphireCooling": "Sapphire Cooling",
+    "sustainableManufacturing": "Sustainable Manufacturing",
+    "otherPages": "Other Pages",
+    "howToUse": "How to Use",
+    "shippingCost": "Shipping Cost",
+    "silk": "Silk"
+  },
+  "accessories": {
+    "adapter": {
+      "hero": {
+        "title": "Power Adapter",
+        "subtitle": "Universal power adapter with multiple voltage support for reliable and safe operation worldwide."
+      },
+      "features": {
+        "voltage": {
+          "title": "Multi-Voltage Support",
+          "description": "Compatible with 100-240V AC input for worldwide use"
+        },
+        "safety": {
+          "title": "Safety Certified",
+          "description": "CE, FCC, and RoHS certified for safe operation"
+        },
+        "compatibility": {
+          "title": "Universal Compatibility",
+          "description": "Works with all iShine IPL devices and accessories"
+        },
+        "quality": {
+          "title": "Premium Quality",
+          "description": "High-quality components for reliable performance"
+        }
+      }
+    },
+    "filter": {
+      "hero": {
+        "title": "IPL Filter",
+        "subtitle": "High-quality optical filters for optimal IPL performance and safety."
+      },
+      "features": {
+        "optical": {
+          "title": "Optical Quality",
+          "description": "Precision-engineered for optimal light transmission"
+        },
+        "safety": {
+          "title": "Safety Protection",
+          "description": "Blocks harmful wavelengths while allowing treatment light"
+        },
+        "durability": {
+          "title": "Long-lasting",
+          "description": "Resistant to heat and wear for extended use"
+        },
+        "compatibility": {
+          "title": "Perfect Fit",
+          "description": "Designed specifically for iShine IPL devices"
+        }
+      }
+    },
+    "protectiveGoggles": {
+      "hero": {
+        "title": "Protective Goggles",
+        "subtitle": "Professional-grade eye protection for safe IPL treatments."
+      },
+      "features": {
+        "protection": {
+          "title": "Eye Protection",
+          "description": "Blocks harmful light wavelengths during treatment"
+        },
+        "comfort": {
+          "title": "Comfortable Fit",
+          "description": "Ergonomic design for extended wear comfort"
+        },
+        "durability": {
+          "title": "Durable Construction",
+          "description": "High-quality materials for long-lasting protection"
+        },
+        "safety": {
+          "title": "Safety Certified",
+          "description": "Meets international safety standards"
+        }
+      }
+    },
+    "sapphireLens": {
+      "hero": {
+        "title": "Sapphire Lens",
+        "subtitle": "Premium sapphire cooling lens for enhanced IPL treatment comfort and safety."
+      },
+      "features": {
+        "cooling": {
+          "title": "Advanced Cooling",
+          "description": "Sapphire material provides superior cooling effect"
+        },
+        "comfort": {
+          "title": "Enhanced Comfort",
+          "description": "Reduces treatment discomfort and pain"
+        },
+        "safety": {
+          "title": "Safety Enhancement",
+          "description": "Protects skin during high-intensity treatments"
+        },
+        "quality": {
+          "title": "Premium Quality",
+          "description": "Medical-grade sapphire for optimal performance"
         }
       }
     }
