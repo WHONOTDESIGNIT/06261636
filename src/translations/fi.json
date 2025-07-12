@@ -132,6 +132,132 @@
       "title": "Tarvitsetko apua?",
       "subtitle": "Keskustellaan vaatimuksistasi ja luodaan IPL-ratkaisu, joka sopii parhaiten brändillesi.",
       "button": "Täytä lomake ilmaista konsultaatiota varten"
+    },
+    "about": {
+      "title": "Tietoa iShine",
+      "subtitle": "Yhden pysähdyksen IPL-ratkaisut.",
+      "cta": "Lue lisää",
+      "description1": "iShine Tech Co., Limited on yhden pysähdyksen toimittaja",
+      "manufacturing": "IPL-karvanpoistolaitteiden valmistukselle",
+      "and": "ja",
+      "customization": "räätälöinnille",
+      "description2": "Autamme sinua suunnittelemaan, rakentamaan ja pakkaamaan. Ideasta markkinoille.",
+      "description3": "Meillä on kapasiteetti räätälöityihin jääjäähdytys IPL:ään, älysovellukseen yhdistettyihin IPL-laitteisiin, ihon tunnistin IPL-laitteisiin. iShine tarjoaa ratkaisuja, jotka sopivat parhaiten brändiidentiteettiisi."
+    },
+    "whatWeDo": {
+      "title": "MITÄ TEEMME",
+      "description": "iShine-tiimi työskentelee erilaisten toimialojen brändien omistajien, tuotekehityspäälliköiden, tuotepäälliköiden, kategorioiden hankintapäälliköiden, vähittäiskaupan vaatimustenmukaisuusspecialistien ja tuotesuunnittelijoiden kanssa ja tarjoaa heille OEM ODM -ratkaisuja muovatuista IPL-laitesuunnitelmista, prototyyppauksesta IPL-sopimusvalmistukseen, painamiseen ja pakkaamiseen varmistaakseen heidän IPL-projektinsa menestyksen."
+    },
+    "productShowcase": {
+      "title": "RÄÄTÄLÖIDYT IPL-LAITTEET",
+      "subtitle": "Sinä suunnittelet, me rakennamme, pakkaamme",
+      "description": "iShine on täyden palvelun räätälöity IPL-tuotteiden valmistaja, joka tarjoaa kattavaa räätälöintiä muottien kehityksestä ja prototyyppauksesta massatuotantoon ja pakkaamiseen. iShine on jo räätälöinyt yli 1000 räätälöityä laitteen IPL-projektia kumppaneillemme menneisyydessä, jolla on paljon kokemusta IPL-tuotteiden teknisistä ratkaisuista ja vaatimustenmukaisuusratkaisuista.",
+      "include": "Räätälöidyt IPL-tuotteet sisältävät:"
+    },
+    "customization": {
+      "title": "Rajoittamattomat räätälöintivaihtoehdot",
+      "subtitle": "Erota markkinoilla täysin räätälöidyillä IPL-laitteilla, jotka sopivat brändillesi.",
+      "options": {
+        "0": {
+          "label": "Värin räätälöinti",
+          "content": "Valitse rajattomista värivaihtoehdoista brändiidentiteettisi mukaan."
+        },
+        "1": {
+          "label": "Logon painatus",
+          "content": "Lisää logosi täysin brändättyyn tuotekokemukseen."
+        },
+        "2": {
+          "label": "Toimintojen räätälöinti",
+          "content": "Räätälöi ominaisuudet ja toiminnot markkinatarpeidesi mukaan."
+        },
+        "3": {
+          "label": "Pakkaussuunnittelu",
+          "content": "Premium-pakkaus vähittäiskauppaan, verkkokauppaan tai lahjaksi."
+        },
+        "4": {
+          "label": "Sertifikaattituki",
+          "content": "Täydellinen tuki maailmanlaajuisille sertifikaateille."
+        }
+      }
+    },
+    "process": {
+      "title": "OEM/ODM-prosessi",
+      "subtitle": "Ideasta toimituksen, teemme IPL-laiteprojektistasi saumattoman ja menestyksekkään.",
+      "steps": {
+        "0": {
+          "title": "Konsultaatio",
+          "desc": "Keskustele brändivisiostasi ja vaatimuksista."
+        },
+        "1": {
+          "title": "Suunnittelu ja prototyyppi",
+          "desc": "Saa räätälöidyt suunnitelmat ja toimivat prototyypit."
+        },
+        "2": {
+          "title": "Näytteen vahvistus",
+          "desc": "Hyväksy näytteet ennen massatuotantoa."
+        },
+        "3": {
+          "title": "Massatuotanto",
+          "desc": "Tehokas ja laadukas valmistus."
+        },
+        "4": {
+          "title": "Laadunvalvonta",
+          "desc": "Tiukka QC jokaiselle erälle."
+        },
+        "5": {
+          "title": "Sertifikaatti",
+          "desc": "Tuki FDA:lle, CE:lle ja muille."
+        },
+        "6": {
+          "title": "Maailmanlaajuinen toimitus",
+          "desc": "Maailmanlaajuinen toimitus joustavilla logistiikkaratkaisuilla."
+        },
+        "7": {
+          "title": "Jälkimyyntipalvelu",
+          "desc": "Jatkuva tuki liiketoiminnallesi."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Mitä asiakkaamme sanovat",
+      "pageButton": "Siirry suositukset-sivulle",
+      "0": "\"iShine auttoi meitä lanseeraamaan IPL-brändimme ennätysajassa. Laatu ja palvelu ovat vaikuttavia!\"",
+      "1": "\"Räätälöintivaihtoehdot ovat loputtomia. Asiakkaamme rakastavat ainutlaatuista pakkausta ja ominaisuuksia.\"",
+      "2": "\"Ammattimainen tiimi, nopea vastaus ja luotettava toimitus. Suosittelen lämpimästi OEM/ODM:lle.\"",
+      "3": "\"Laajensimme uusille markkinoille iShinen sertifikaatti- ja vaatimustenmukaisuustuen ansiosta.\"",
+      "4": "\"Jälkimyyntipalvelu on erinomainen. Kaikki ongelmat ratkaistaan nopeasti ja ammattimaisesti.\"",
+      "5": "\"Brändimme maine parani merkittävästi iShinen suunnittelu- ja valmistusasiantuntemuksen ansiosta.\""
+    },
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "0": {
+        "q": "Mikä on IPL ja miten se toimii?",
+        "a": "IPL (Intense Pulsed Light) käyttää laajakaistaista valoa kohdistaakseen karvojen juurisoluja, vähentäen karvojen kasvua turvallisesti ja tehokkaasti."
+      },
+      "1": {
+        "q": "Voinko räätälöidä laitteen toiminnot?",
+        "a": "Kyllä, tarjoamme täydellisen ominaisuuksien, värien, pakkauksen ja muiden räätälöinnin bränditarpeidesi mukaisesti."
+      },
+      "2": {
+        "q": "Mitä sertifikaatteja tuette?",
+        "a": "Tuemme FDA, CE, RoHS ja muita maailmanlaajuisia sertifikaatteja varmistaaksemme vaatimustenmukaisuuden kohdemarkkinoillasi."
+      },
+      "3": {
+        "q": "Mikä on tuotannon toimitusaika?",
+        "a": "Tyypillinen toimitusaika on 25-35 päivää näytteen hyväksynnän jälkeen, riippuen tilauksen koosta ja räätälöinnistä."
+      },
+      "4": {
+        "q": "Tarjoatteko myynnin jälkeistä tukea?",
+        "a": "Kyllä, tarjoamme kattavan myynnin jälkeisen tuen mukaan lukien tekninen tuki ja takuu."
+      },
+      "5": {
+        "q": "Voitteko toimittaa maailmanlaajuisesti?",
+        "a": "Ehdottomasti. Tarjoamme luotettavan maailmanlaajuisen toimituksen tukemaan liiketoimintaasi riippumatta siitä, missä olet."
+      }
+    },
+    "contact": {
+      "title": "Ota yhteyttä",
+      "subtitle": "Valmis voimaannuttamaan brändiäsi? Ota yhteyttä ilmaista konsultaatiota ja tarjousta varten."
     }
   },
   "contact": {
