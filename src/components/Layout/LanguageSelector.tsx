@@ -1,70 +1,86 @@
-//
-import React, { useEffect } from 'react';
-import { ChevronDown } from 'lucide-react';
-import { useLanguage } from '../../context/LanguageContext';
-import { languages } from '../../data/languages';
-import { useNavigate, useLocation } from 'react-router-dom';
+import React, { createContext, useContext, useState, useEffect } from 'react';
+import { useTranslation } from '../hooks/useTranslation'; // 你的自定义hook，负责加载翻译资源
 
-interface Language {
-  code: string;
-  flag: string;
-  name: string;
-  nativeName?: string;
+// 类型定义，保证类型安全
+interface LanguageContextType {
+  currentLanguage: string;
+  currentCountry: string;
+  setLanguage: (languageCode: string, countryCode?: string) => void;
+  t: (key: string, fallback?: string) => string;
+  loading: boolean;
 }
 
-const LanguageSelector: React.FC = () => {
-  const { currentLanguage, currentCountry, setLanguage } = useLanguage();
-  const navigate = useNavigate();
-  const location = useLocation();
+// 创建Context，初始值为undefined，强制只能在Provider内部用
+const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-  // 移除自动IP检测和重定向功能，只保留默认设置
+// Provider组件，负责全局语言/国家状态
+export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  // 状态：当前语言和国家
+  const [currentLanguage, setCurrentLanguage] = useState('en');
+  const [currentCountry, setCurrentCountry] = useState('global');
+  // t/翻译函数与loading状态从自定义hook获取
+  const { t, loading } = useTranslation(currentLanguage);
+
   useEffect(() => {
-    if (!currentLanguage || !currentCountry) {
-      // 静态设置默认语言，不触发任何重定向
-      setLanguage('en', 'global');
-    }
-  }, [currentLanguage, currentCountry, setLanguage]);
+    // 检查URL路径中是否有国家代码
+    const path = window.location.pathname;
+    const countryMatch = path.match(/\/iplmanufacturer\/([a-z]{2})/);
 
-  /* ---------------- 语言切换下拉 ---------------- */
-  const currentValue = `${currentLanguage || 'en'}-${currentCountry || 'global'}`;
+    if (countryMatch) {
+      const countryCode = countryMatch[1];
+      setCurrentCountry(countryCode);
 
-  const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const selectedCode = e.target.value;
-    const [langCode, countryCode] = selectedCode.split('-');
-    setLanguage(langCode, countryCode);
+      // 国家-语言映射表（可扩展）
+      const languageMap: Record<string, string> = {
+        us: 'en', gb: 'en', ca: 'en', au: 'en',
+        de: 'de', fr: 'fr', es: 'es', it: 'it',
+        pt: 'pt', nl: 'nl', mx: 'es', br: 'pt',
+        jp: 'ja', kr: 'ko', cn: 'zh', tw: 'zh',
+        th: 'th', vn: 'vi', id: 'id', my: 'ms',
+        ae: 'ar', sa: 'ar', il: 'he', tr: 'tr',
+        in: 'hi', cz: 'cs', dk: 'da', ee: 'et',
+        hr: 'hr', be: 'nl', pl: 'pl'
+      };
 
-    // 英文跳转到无前缀页面，其它语言带前缀
-    let newPath = location.pathname;
-    const pathSegments = newPath.split('/');
-    if (pathSegments.length > 1 && languages.some(l => l.code.startsWith(pathSegments[1]))) {
-      // 当前有语言前缀，去掉
-      pathSegments.splice(1, 1);
-      newPath = pathSegments.join('/') || '/';
+      const detectedLanguage = languageMap[countryCode] || 'en';
+      setCurrentLanguage(detectedLanguage);
+    } else {
+      // 可选：从localStorage恢复用户选择
+      const savedLang = localStorage.getItem('selectedLanguage');
+      const savedCountry = localStorage.getItem('selectedCountry');
+      if (savedLang) setCurrentLanguage(savedLang);
+      if (savedCountry) setCurrentCountry(savedCountry);
     }
-    if (langCode !== 'en') {
-      // 非英文加前缀
-      if (!newPath.startsWith('/')) newPath = '/' + newPath;
-      newPath = `/${langCode}${newPath}`;
+  }, []);
+
+  // 切换语言和国家，并持久化
+  const setLanguage = (languageCode: string, countryCode?: string) => {
+    setCurrentLanguage(languageCode);
+    if (countryCode) {
+      setCurrentCountry(countryCode);
+      localStorage.setItem('selectedCountry', countryCode);
     }
-    navigate(`${newPath}${location.search}`);
+    localStorage.setItem('selectedLanguage', languageCode);
   };
 
   return (
-    <div className="relative inline-block">
-      <select
-        value={currentValue}
-        onChange={handleLanguageChange}
-        className="appearance-none bg-white border border-gray-300 rounded-md pl-4 pr-10 py-2 text-sm font-medium text-gray-700 hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-ishine-blue-500 focus:border-transparent cursor-pointer min-w-[140px]"
-      >
-        {languages.map((option: Language) => (
-          <option key={option.code} value={option.code}>
-            {option.flag} {option.nativeName || option.name}
-          </option>
-        ))}
-      </select>
-      <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500 pointer-events-none" />
-    </div>
+    <LanguageContext.Provider value={{
+      currentLanguage,
+      currentCountry,
+      setLanguage,
+      t,
+      loading
+    }}>
+      {children}
+    </LanguageContext.Provider>
   );
 };
 
-export default LanguageSelector;
+// Hook：消费Context，必须在Provider内部用
+export const useLanguage = () => {
+  const context = useContext(LanguageContext);
+  if (context === undefined) {
+    throw new Error('useLanguage must be used within a LanguageProvider');
+  }
+  return context;
+};
