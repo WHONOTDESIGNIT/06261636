@@ -432,5 +432,299 @@
     "faqDescription": "Otrzymaj odpowiedzi na typowe pytania dotyczące leczenia IPL",
     "videoTutorialsTitle": "Samouczki wideo",
     "videoTutorialsDescription": "Oglądaj przewodniki wideo krok po kroku dla właściwego użycia IPL"
+  },
+  "iplHairRemoval": {
+    "heroTitle": "Profesjonalne rozwiązania depilacji IPL",
+    "heroDescription": "Odkryj następną generację urządzeń IPL do depilacji - bezpieczne, skuteczne i zaprojektowane dla wszystkich typów skóry. Doświadcz jakości salonowej w domu lub w swoim biznesie.",
+    "iplDevicesTitle": "Nasza gama urządzeń IPL",
+    "iplDevicesDescription": "Poznaj naszą kompletną gamę zaawansowanych urządzeń IPL do depilacji, każde zaprojektowane dla maksymalnego komfortu i wyników.",
+    "accessoriesTitle": "Ważne akcesoria IPL",
+    "accessoriesDescription": "Ulepsz swoje doświadczenie IPL z naszą gamą certyfikowanych akcesoriów dla bezpieczeństwa i komfortu.",
+    "advancedIplTitle": "Zaawansowana technologia IPL",
+    "smartTechnologyIntegration": "Integracja inteligentnej technologii",
+    "smartTechnologyIntegrationDescription": "Nasze urządzenia IPL wyposażone są w inteligentne czujniki i łączność z aplikacją dla spersonalizowanych, bezpiecznych i skutecznych zabiegów.",
+    "coolingComfortSystems": "Systemy chłodzenia komfortu",
+    "coolingComfortSystemsDescription": "Chłodzenie szafirowe i metalowe utrzymuje Twoją skórę komfortową i chronioną podczas każdej sesji.",
+    "intelligentSkinSensors": "Inteligentne czujniki skóry",
+    "intelligentSkinSensorsDescription": "Automatyczne wykrywanie odcienia skóry i koloru włosów zapewnia optymalne dostarczanie energii i bezpieczeństwo dla każdego użytkownika."
+  },
+  "ipl": {
+    "aiPowered": {
+      "title": "Urządzenie IPL wspierane AI",
+      "desc": "Przyszłość depilacji jest tutaj. Sztuczna inteligencja optymalizuje każde leczenie dla spersonalizowanych, skutecznych wyników.",
+      "features": {
+        "aiTech": "Technologia AI",
+        "aiTechDesc": "Inteligentne algorytmy uczenia się",
+        "smartProcessing": "Inteligentne przetwarzanie",
+        "smartProcessingDesc": "Optymalizacja w czasie rzeczywistym",
+        "analytics": "Zaawansowana analityka",
+        "analyticsDesc": "Szczegółowe śledzenie postępów",
+        "personalized": "Spersonalizowane",
+        "personalizedDesc": "Dostosowane do Twoich potrzeb"
+      }
+    },
+    "batteryPowered": {
+      "title": "Akkowe urządzenie IPL do depilacji",
+      "desc": "Doświadcz ultymatywnej bezprzewodowej wygody z naszym akkowym urządzeniem IPL. Wyposażone w wysokopojemnościowy akumulator ładowalny zapewnia płynną mobilność bez zasilacza. Ciesz się profesjonalną depilacją wszędzie i w każdej chwili, z do 9 regulowanymi poziomami energii dla spersonalizowanych zabiegów.",
+      "features": {
+        "cordless": "Bezprzewodowy design dla ultymatywnej wolności i wygody.",
+        "energyLevels": "9 regulowanych poziomów energii dla spersonalizowanych zabiegów.",
+        "longBattery": "Długotrwały akumulator ładowalny z 600+ cyklami ładowania.",
+        "noAdapter": "Brak potrzeby zasilacza podczas użytkowania, idealne do podróży.",
+        "allSkin": "Odpowiednie dla wszystkich odcieni skóry, zatwierdzone FDA & CE."
+      }
+    },
+    "dualLamp": {
+      "title": "Urządzenie IPL podwójna lampa",
+      "desc": "Podwójna moc, podwójna wydajność. Rewolucyjna technologia podwójnej lampy dla szybszych zabiegów i lepszych wyników.",
+      "features": {
+        "dualLamps": "Podwójne lampy",
+        "dualLampsDesc": "Zwiększona moc i pokrycie",
+        "faster": "Szybszy zabieg",
+        "fasterDesc": "Zmniejszony czas sesji",
+        "proPower": "Profesjonalna moc",
+        "proPowerDesc": "Wydajność jakości salonowej",
+        "evenCoverage": "Równomierne pokrycie",
+        "evenCoverageDesc": "Równomierna dystrybucja światła"
+      }
+    },
+    "emerald": {
+      "title": "Szmaragdowe urządzenie IPL do depilacji",
+      "desc": "Doświadcz profesjonalnej depilacji w domu z naszym szmaragdowym urządzeniem IPL z zaawansowaną technologią Intense Pulsed Light z energią 15 J/cm² i 600.000+ błyskami dla długotrwałej gładkiej skóry. Precyzyjnie zaprojektowany system zapewnia spójne wyniki we wszystkich obszarach leczenia.",
+      "features": {
+        "proResults": "Profesjonalne wyniki — do 94% redukcji włosów po 12 tygodniach.",
+        "manualIntensity": "5-stopniowa ręczna kontrola intensywności dla spersonalizowanych zabiegów.",
+        "safeAllSkin": "Bezpieczne dla wszystkich odcieni skóry w zakresie Fitzpatrick I-V.",
+        "largeWindow": "Duże 4,2 cm² okno leczenia dla szybszego pokrycia.",
+        "ergonomic": "Ergonomiczny design z zintegrowanymi czujnikami bezpieczeństwa."
+      }
+    },
+    "handheld": {
+      "title": "Przenośne urządzenie IPL do depilacji",
+      "desc": "Odkryj idealną mieszankę komfortu i wydajności z naszym przenośnym urządzeniem IPL. Zaprojektowane dla łatwego chwytu i precyzyjnej kontroli, wyposażone w 5 regulowanych poziomów energii dla wszystkich typów skóry i wrażliwości. Osiągnij wyniki depilacji jakości salonowej w domu z lekkim, przenośnym urządzeniem.",
+      "features": {
+        "ergonomic": "Ergonomiczny przenośny design dla komfortowego użytkowania.",
+        "energyLevels": "5 regulowanych poziomów energii dla spersonalizowanych zabiegów.",
+        "portable": "Lekkie i przenośne — idealne do podróży i użytku domowego.",
+        "allSkin": "Odpowiednie dla wszystkich odcieni skóry, delikatne i skuteczne.",
+        "certified": "Zatwierdzone FDA & CE dla bezpieczeństwa i jakości."
+      }
+    },
+    "iceCooling": {
+      "title": "Urządzenie IPL do depilacji z chłodzeniem lodem",
+      "desc": "Doświadcz profesjonalnej luksusowej technologii depilacji z chłodzeniem lodem z płytą chłodzącą jakości lotniczej, która natychmiast chłodzi skórę do ultra-niskiej temperatury 5°C. Połączone z impulsami IPL o wysokiej energii 2,0~5,0 J/cm² i 999.000+ błyskami zapewnia boginiopodobne jedwabiste doświadczenie skóry. Luksusowy design jest stworzony dla nowoczesnych kobiet poszukujących perfekcji.",
+      "features": {
+        "luxuryDesign": "Luksusowy design bogini — tekstura metalu jakości lotniczej pokazująca szlachetny smak.",
+        "coolingPlate": "Technologia płyty chłodzącej lodem — Chłodzi skórę natychmiast do 5°C dla naprawdę bezbolesnego doświadczenia.",
+        "preciseControl": "9-stopniowa precyzyjna kontrola energii — Dostosowalna dla wrażliwych obszarów i grubych włosów.",
+        "allSkin": "Odpowiednie dla wszystkich odcieni skóry — Certyfikowane Fitzpatrick I-V.",
+        "largeWindow": "3,3 cm² ekstra-duże okno leczenia — Szybkie pokrycie, 50% wyższa wydajność."
+      }
+    },
+    "iceFeeling": {
+      "title": "Szafirowe urządzenie IPL z uczuciem lodu",
+      "desc": "Ciesz się bezbolesną depilacją z kliniczną szafirową płytą chłodzącą, która chłodzi skórę do 5°C i umożliwia wyższe impulsy energii dla szybszych wyników. Zintegrowany silnik Intense Pulsed Light (IPL) dostarcza energię 2,0~5,0 J/cm² z 999.999 błyskami dla dożywotniego użytkowania.",
+      "features": {
+        "longSmooth": "Długotrwała gładkość — widoczna redukcja po 3-4 tygodniach.",
+        "cooling": "Płyta chłodząca utrzymuje naskórek w 5°C dla naprawdę bezbolesnych zabiegów.",
+        "energyLevels": "Pięć poziomów energii dostosowuje się do prawie wszystkich odcieni skóry w zakresie Fitzpatrick I-V.",
+        "flashModes": "Tryb błysku Auto/Ręczny dla ciała i obszarów precyzyjnych.",
+        "multiUse": "4-w-1: Całe ciało, bikini, twarz i odmładzanie skóry."
+      }
+    },
+    "skinSensor": {
+      "title": "Urządzenie IPL z czujnikiem skóry",
+      "desc": "Doświadcz najbezpieczniejszej i najinteligentniejszej depilacji w domu z naszym urządzeniem IPL z czujnikiem skóry. To rewolucyjne urządzenie wyposażone jest w zaawansowane optyczne czujniki skóry, które automatycznie rozpoznają Twój odcień skóry i kolor włosów - dostarcza spersonalizowaną intensywność leczenia dla maksymalnej skuteczności i kompletnego bezpieczeństwa. Z analizą skóry w czasie rzeczywistym i automatyczną regulacją energii, to urządzenie jest idealne dla wszystkich odpowiednich typów skóry i zapewnia optymalne wyniki za każdym razem.",
+      "features": {
+        "intelligentDetection": "Inteligentne wykrywanie skóry — Zaawansowane czujniki automatycznie identyfikują odcień skóry i dostosowują poziomy energii",
+        "maxSafety": "Maksymalne bezpieczeństwo — Zapobiega nadmiernemu leczeniu i zmniejsza ryzyko podrażnień skóry lub oparzeń",
+        "personalized": "Spersonalizowane leczenie — Automatycznie optymalizuje intensywność dla Twoich unikalnych charakterystyk skóry",
+        "realTime": "Analiza w czasie rzeczywistym — Ciągłe monitorowanie zapewnia spójne, bezpieczne sesje leczenia",
+        "proResults": "Profesjonalne wyniki — Depilacja jakości salonowej w komforcie Twojego domu"
+      }
+    },
+    "smartApp": {
+      "title": "Inteligentne urządzenie IPL do depilacji z aplikacją",
+      "desc": "Połącz swoje urządzenie IPL bezproblemowo przez Bluetooth z naszą SmartApp. Ciesz się prowadzonymi zabiegami, śledzeniem sesji w czasie rzeczywistym, spersonalizowanymi rutynami i wglądami wspieranymi AI. Kontroluj poziomy intensywności, monitoruj postępy i otrzymuj przypomnienia — wszystko z Twojego smartfona.",
+      "features": {
+        "bluetooth": "Łączność Bluetooth 5.0 dla stabilnego połączenia",
+        "aiPlans": "Spersonalizowane plany leczenia przez analizę AI",
+        "realTimeControl": "Kontrola intensywności w czasie rzeczywistym i feedback na ekranie",
+        "scheduling": "Planowanie sesji i przypomnienia o użytkowaniu",
+        "compatibility": "Kompatybilne z iOS & Android"
+      }
+    }
+  },
+  "faq": {
+    "title": "Często zadawane pytania",
+    "shipping": {
+      "q": "Czy możecie wysyłać na całym świecie?",
+      "a": "Z pewnością. Zapewniamy niezawodną wysyłkę na całym świecie, aby wspierać Twój biznes, gdziekolwiek jesteś."
+    },
+    "customization": {
+      "q": "Czy mogę personalizować funkcje urządzenia?",
+      "a": "Tak, zapewniamy kompleksową personalizację funkcji, kolorów, opakowania i więcej, aby pasować do potrzeb Twojej marki."
+    },
+    "certifications": {
+      "q": "Jakie certyfikacje wspieracie?",
+      "a": "Wspieramy FDA, CE, RoHS i inne globalne certyfikacje, aby zapewnić zgodność z Twoimi rynkami docelowymi."
+    },
+    "leadTime": {
+      "q": "Jak długi jest czas produkcji?",
+      "a": "Typowy czas realizacji to 25-35 dni po zatwierdzeniu próbki, w zależności od wielkości zamówienia i personalizacji."
+    },
+    "afterSales": {
+      "q": "Czy zapewniacie wsparcie posprzedażowe?",
+      "a": "Tak, zapewniamy kompleksowy serwis posprzedażowy, w tym wsparcie techniczne i gwarancję."
+    }
+  },
+  "cta": {
+    "getSupport": "Otrzymaj wsparcie teraz",
+    "readyToStart": "Gotowy do rozpoczęcia?",
+    "contactUs": "Skontaktuj się z nami",
+    "freeQuote": "Otrzymaj bezpłatną ofertę",
+    "readMore": "Czytaj więcej"
+  },
+  "form": {
+    "name": "Imię",
+    "email": "Email",
+    "phone": "Telefon",
+    "country": "Kraj",
+    "message": "Wiadomość",
+    "submit": "Wyślij",
+    "sending": "Wysyłanie...",
+    "success": "Twoja wiadomość została pomyślnie wysłana!",
+    "error": "Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie."
+  },
+  "floating": {
+    "contact": "Skontaktuj się z nami",
+    "backToTop": "Do góry"
+  },
+  "blog": {
+    "posts": {
+      "sustainableManufacturing": {
+        "title": "Zrównoważona produkcja: Zielone metody produkcji IPL",
+        "intro": "Gdy rośnie popyt na urządzenia IPL (Intense Pulsed Light) do depilacji w domu, rośnie również odpowiedzialność za produkcję tej elektroniki z minimalnym wpływem na środowisko. Zrównoważona produkcja nie jest już tylko trendem, ale koniecznością — obejmuje każdą fazę od pozyskiwania surowców po recykling na końcu życia. Ten artykuł ocenia ślad środowiskowy produkcji urządzeń IPL i bada innowacyjne, praktyczne strategie dla naprawdę zielonego łańcucha dostaw, z naciskiem na elektronikę, optykę, przyjazne dla środowiska obudowy ABS, zrównoważone opakowania i ponowne wykorzystanie odpadów.",
+        "sections": {
+          "environmentalImpact": "Ocena wpływu środowiskowego produkcji urządzeń IPL",
+          "electronics": "1. Komponenty elektroniczne",
+          "optics": "2. Komponenty optyczne (soczewki i filtry)",
+          "absHousing": "3. Przyjazne dla środowiska obudowy ABS",
+          "packaging": "4. Zrównoważone opakowania papierowe",
+          "wasteReduction": "5. Redukcja odpadów i ponowne wykorzystanie",
+          "supplyChain": "Innowacje zrównoważonego łańcucha dostaw",
+          "feasibility": "Wykonalność zielonego łańcucha dostaw IPL",
+          "commitment": "Zaangażowanie iShine w zrównoważony rozwój",
+          "references": "Referencje"
+        }
+      },
+      "globalMarketShifts": {
+        "title": "Globalne zmiany rynkowe: Trendy i szanse urządzeń IPL",
+        "intro": "Poznaj najnowsze globalne trendy w adopcji urządzeń IPL, zmiany regulacyjne i szanse rynkowe dla marek i producentów.",
+        "sections": {
+          "marketOverview": "Przegląd rynku",
+          "regionalTrends": "Trendy regionalne",
+          "regulatoryChanges": "Zmiany regulacyjne",
+          "consumerPreferences": "Preferencje konsumentów",
+          "opportunities": "Szanse dla marek",
+          "challenges": "Wyzwania i ryzyka",
+          "futureOutlook": "Perspektywy przyszłości"
+        }
+      },
+      "aiPoweredSkinSensing": {
+        "title": "Wspierane AI wykrywanie skóry: Następna granica w bezpieczeństwie IPL",
+        "intro": "Jak sztuczna inteligencja rewolucjonizuje bezpieczeństwo urządzeń IPL i personalizację przez analizę skóry w czasie rzeczywistym.",
+        "sections": {
+          "introduction": "Wprowadzenie",
+          "aiTechnology": "Technologia AI w IPL",
+          "skinSensing": "Mechanizmy wykrywania skóry",
+          "safetyBenefits": "Korzyści bezpieczeństwa",
+          "userExperience": "Doświadczenie użytkownika",
+          "caseStudies": "Studia przypadków",
+          "conclusion": "Wnioski"
+        }
+      },
+      "multiHeadIPLSystems": {
+        "title": "Systemy IPL wielogłowicowe: Precyzja spotyka wydajność całego ciała",
+        "intro": "Ewolucja depilacji w domu została głęboko ukształtowana przez wprowadzenie systemów Intense Pulsed Light (IPL) wielogłowicowych. Philips był pionierem tego trendu ze swoją wymienną technologią głowic i ustanowił nowy standard wszechstronności i designu zorientowanego na użytkownika w urządzeniach IPL do użytku domowego.",
+        "sections": {
+          "philipsLegacy": "Dziedzictwo Philips: Ustanawianie standardu dla IPL wielogłowicowego",
+          "keyFeatures": "Kluczowe cechy urządzeń IPL wielogłowicowych",
+          "respondingToVIO": "Odpowiedź na potrzeby depilacji VIO",
+          "whyMultiHeadMatters": "Dlaczego design wielogłowicowy ma znaczenie",
+          "painReduction": "Redukcja bólu: Rola zaawansowanych filtrów",
+          "realUserFeedback": "Prawdziwe opinie użytkowników",
+          "conclusion": "Wnioski",
+          "references": "Referencje"
+        }
+      },
+      "sapphireCooling": {
+        "title": "Chłodzenie szafirowe: Poprawianie komfortu podczas zabiegów IPL",
+        "intro": "Odkryj, jak technologia chłodzenia szafirowego transformuje komfort i bezpieczeństwo zabiegów depilacji IPL.",
+        "sections": {
+          "technologyOverview": "Przegląd technologii",
+          "coolingMechanism": "Jak działa chłodzenie szafirowe",
+          "benefits": "Korzyści dla użytkowników",
+          "clinicalEvidence": "Dowody kliniczne",
+          "deviceComparison": "Porównanie urządzeń",
+          "userTestimonials": "Opinie użytkowników",
+          "conclusion": "Wnioski"
+        }
+      },
+      "industries": {
+        "title": "Branże, które obsługujemy: Zastosowania IPL w różnych branżach",
+        "intro": "Technologia IPL nie jest tylko dla beauty — poznaj jej zastosowania w medycznych, weterynaryjnych i przemysłowych dziedzinach.",
+        "sections": {
+          "beauty": "Branża beauty",
+          "medical": "Zastosowania medyczne",
+          "veterinary": "Zastosowania weterynaryjne",
+          "industrial": "Zastosowania przemysłowe",
+          "caseStudies": "Studia przypadków",
+          "futureTrends": "Trendy przyszłości"
+        }
+      },
+      "iplBestChoice": {
+        "title": "Dlaczego urządzenia IPL do depilacji w domu są najlepszym wyborem spośród wszystkich narzędzi do depilacji",
+        "intro": "Odkryj, dlaczego IPL jest najbardziej skutecznym, komfortowym i wygodnym rozwiązaniem dla długoterminowej depilacji w domu — wspierane przez naukę i prawdziwe doświadczenie użytkownika.",
+        "sections": {
+          "comparison": "Porównanie metod depilacji",
+          "whyChooseIPL": "Dlaczego wybrać depilację IPL w domu?",
+          "userStories": "Prawdziwe historie użytkowników",
+          "faq": "Często zadawane pytania",
+          "recommendedBlog": "Polecany blog",
+          "exploreMore": "Poznaj więcej"
+        }
+      },
+      "futureHomeHairRemoval": {
+        "title": "Przyszłość urządzeń do depilacji w domu: Trendy, innowacje i co nadchodzi",
+        "intro": "Poznaj ewolucję, obecne przełomy i następną generację urządzeń do depilacji w domu — AI, multifunkcyjność i zrównoważony design dla 2025 i dalej.",
+        "sections": {
+          "evolution": "Ewolucja technologii depilacji w domu",
+          "stateOfTheArt": "Kluczowe cechy urządzeń następnej generacji (2025)",
+          "aiPersonalization": "AI i personalizacja w depilacji",
+          "vision": "'Ultimate' urządzenie do depilacji w domu: Wizja",
+          "challenges": "Wyzwania i rozważania",
+          "faq": "Często zadawane pytania",
+          "exploreMore": "Poznaj więcej",
+          "aboutAuthor": "O autorze"
+        }
+      },
+      "fda510kPathway": {
+        "title": "Ścieżka FDA 510(k): Nawigacja klasyfikacji urządzeń medycznych dla IPL",
+        "intro": "Kompleksowy przewodnik po ścieżce FDA 510(k) dla urządzeń IPL do depilacji do użytku domowego. Dowiedz się o wymaganiach regulacyjnych, roszczeniach marketingowych i jak iShine pomaga markom w zgodności.",
+        "sections": {
+          "introduction": "Wprowadzenie",
+          "pathway": "1. Ścieżka FDA 510(k) dla urządzeń IPL do użytku domowego",
+          "marketingClaims": "2. Jak roszczenia marketingowe wpływają na klasyfikację regulacyjną",
+          "ishineExpertise": "3. Ekspertyza iShine w zabezpieczaniu listowania FDA 510(k) Twojej marki",
+          "benefits": "4. Korzyści z markowego listowania FDA 510(k)",
+          "guidance": "5. Praktyczne wskazówki dla marek",
+          "conclusion": "Wnioski",
+          "faq": "Często zadawane pytania",
+          "exploreMore": "Poznaj więcej",
+          "author": "O autorze"
+        }
+      }
+    }
   }
 } 
