@@ -112,8 +112,134 @@
     "hero": {
       "title1": "Perangkat IPL Kustom",
       "title2": "& Perangkat IPL Bermerek",
-      "subtitle": "& Perangkat IPL Merek",
+      "subtitle": "Produsen perangkat IPL terkemuka dunia, membantu Anda merancang, membangun, dan mengemas.",
       "cta": "Dapatkan Penawaran"
+    },
+    "about": {
+      "title": "Tentang iShine",
+      "subtitle": "Solusi IPL lengkap.",
+      "cta": "Baca Selengkapnya",
+      "description1": "iShine Tech Co., Limited adalah pemasok lengkap untuk",
+      "manufacturing": "manufaktur perangkat IPL penghilang rambut",
+      "and": "dan",
+      "customization": "kustomisasi",
+      "description2": ". Membantu Anda merancang, memproduksi, dan mengemas. Dari ide ke pasar.",
+      "description3": "Kami memiliki kemampuan untuk IPL pendingin es kustom, perangkat IPL terhubung aplikasi pintar, perangkat IPL sensor kulit. iShine menyediakan solusi yang paling sesuai dengan identitas merek Anda."
+    },
+    "whatWeDo": {
+      "title": "APA YANG KAMI LAKUKAN",
+      "description": "Tim iShine bekerja sama dengan pemilik merek dari berbagai industri, manajer pengembangan produk, manajer produk, manajer sourcing kategori, spesialis kepatuhan ritel, desainer produk bersama-sama dan menyediakan solusi OEM ODM dari desain perangkat IPL cetakan, prototipe hingga manufaktur IPL kontrak, pencetakan, pengemasan untuk memastikan kesuksesan proyek IPL mereka."
+    },
+    "productShowcase": {
+      "title": "PERANGKAT IPL KUSTOM",
+      "subtitle": "Anda merancang, kami memproduksi, mengemas",
+      "description": "iShine adalah produsen produk IPL kustom layanan lengkap yang menyediakan kustomisasi end-to-end dari pengembangan cetakan dan prototipe hingga produksi massal dan pengemasan. iShine telah mengkustomisasi lebih dari 1,000 proyek perangkat IPL kustom untuk mitra kami di masa lalu dengan pengalaman luas dalam solusi teknis produk IPL dan solusi kepatuhan.",
+      "include": "Produk IPL kustom meliputi:"
+    },
+    "customization": {
+      "title": "Opsi kustomisasi tanpa batas",
+      "subtitle": "Berdiri di pasar dengan perangkat IPL yang sepenuhnya dapat dikustomisasi yang sesuai dengan merek Anda.",
+      "options": {
+        "0": {
+          "label": "Kustomisasi Warna",
+          "content": "Pilih dari opsi warna tanpa batas untuk mencocokkan identitas merek Anda."
+        },
+        "1": {
+          "label": "Cetak Logo",
+          "content": "Tambahkan logo Anda untuk pengalaman produk yang sepenuhnya bermerek."
+        },
+        "2": {
+          "label": "Kustomisasi Fungsi",
+          "content": "Kustomisasi fitur dan fungsi untuk memenuhi kebutuhan pasar Anda."
+        },
+        "3": {
+          "label": "Desain Kemasan",
+          "content": "Kemasan premium untuk ritel, e-commerce, atau hadiah."
+        },
+        "4": {
+          "label": "Dukungan Sertifikasi",
+          "content": "Dukungan lengkap untuk sertifikasi global."
+        }
+      }
+    },
+    "process": {
+      "title": "Proses OEM/ODM",
+      "subtitle": "Dari ide ke pengiriman, kami membuat proyek perangkat IPL Anda menjadi lancar dan sukses.",
+      "steps": {
+        "0": {
+          "title": "Konsultasi",
+          "desc": "Diskusikan visi merek dan kebutuhan Anda."
+        },
+        "1": {
+          "title": "Desain & Prototipe",
+          "desc": "Dapatkan desain kustom dan prototipe fungsional."
+        },
+        "2": {
+          "title": "Konfirmasi Sampel",
+          "desc": "Setujui sampel sebelum produksi massal."
+        },
+        "3": {
+          "title": "Produksi Massal",
+          "desc": "Manufaktur yang efisien dan berkualitas tinggi."
+        },
+        "4": {
+          "title": "Inspeksi Kualitas",
+          "desc": "Kontrol kualitas ketat untuk setiap batch."
+        },
+        "5": {
+          "title": "Sertifikasi",
+          "desc": "Dukungan untuk FDA, CE, dan lainnya."
+        },
+        "6": {
+          "title": "Pengiriman Global",
+          "desc": "Pengiriman worldwide dengan logistik yang fleksibel."
+        },
+        "7": {
+          "title": "Layanan Purna Jual",
+          "desc": "Dukungan berkelanjutan untuk bisnis Anda."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Apa Kata Klien Kami",
+      "pageButton": "Pergi ke halaman testimonial",
+      "0": "\"iShine membantu kami meluncurkan merek IPL kami dalam waktu rekor. Kualitas dan layanan yang mengesankan!\"",
+      "1": "\"Opsi kustomisasi tanpa batas. Klien kami menyukai kemasan dan fitur yang unik.\"",
+      "2": "\"Tim yang profesional, respons cepat, dan pengiriman yang dapat diandalkan. Sangat direkomendasikan untuk OEM/ODM.\"",
+      "3": "\"Kami telah memperluas ke pasar baru berkat dukungan sertifikasi dan kepatuhan dari iShine.\"",
+      "4": "\"Layanan purna jual yang luar biasa. Setiap masalah diselesaikan dengan cepat dan profesional.\"",
+      "5": "\"Reputasi merek kami telah meningkat secara signifikan berkat keahlian desain dan manufaktur iShine.\""
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "0": {
+        "q": "Apa itu IPL dan bagaimana cara kerjanya?",
+        "a": "IPL (Intense Pulsed Light) menggunakan cahaya spektrum luas untuk menargetkan folikel rambut, mengurangi pertumbuhan rambut dengan aman dan efektif."
+      },
+      "1": {
+        "q": "Bisakah saya mengkustomisasi fungsi perangkat?",
+        "a": "Ya, kami menyediakan kustomisasi lengkap fitur, warna, kemasan, dan lainnya untuk mencocokkan kebutuhan merek Anda."
+      },
+      "2": {
+        "q": "Sertifikasi apa yang Anda dukung?",
+        "a": "Kami mendukung FDA, CE, RoHS, dan sertifikasi global lainnya untuk memastikan kepatuhan dengan pasar target Anda."
+      },
+      "3": {
+        "q": "Berapa lama waktu produksi?",
+        "a": "Waktu khas adalah 25-35 hari setelah persetujuan sampel, tergantung pada ukuran pesanan dan kustomisasi."
+      },
+      "4": {
+        "q": "Apakah Anda menyediakan dukungan purna jual?",
+        "a": "Ya, kami menyediakan layanan purna jual komprehensif termasuk dukungan teknis dan garansi."
+      },
+      "5": {
+        "q": "Bisakah Anda mengirim ke seluruh dunia?",
+        "a": "Tentu. Kami menyediakan pengiriman worldwide yang dapat diandalkan untuk mendukung bisnis Anda di mana pun Anda berada."
+      }
+    },
+    "contact": {
+      "title": "Hubungi Kami",
+      "subtitle": "Siap memperkuat merek Anda? Hubungi kami untuk konsultasi gratis dan penawaran."
     },
     "partners": {
       "title": "Dipercaya oleh Merek Global",
