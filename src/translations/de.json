@@ -110,28 +110,135 @@
   },
   "home": {
     "hero": {
-      "title1": "Maßgeschneiderte IPL-Geräte",
-      "title2": "& Branding IPL-Geräte",
-      "subtitle": "Weltweit führender IPL-Gerätehersteller, wir helfen Ihnen dabei, es zu entwerfen, zu bauen und zu verpacken.",
-      "cta": "Angebot erhalten"
+      "title1": "Maßgeschneiderte IPL-Haarentfernungsgeräte für Kosmetikmarken",
+      "subtitle": "Sie entwerfen es, wir bauen es und verpacken es.",
+      "cta": "Kostenloses Angebot erhalten"
     },
-    "partners": {
-      "title": "Vertraut von internationalen Marken",
-      "subtitle": "Zusammenarbeit mit Branchenführern weltweit"
+    "about": {
+      "title": "Über iShine",
+      "subtitle": "All-in-One IPL-Lösungen.",
+      "cta": "Mehr lesen",
+      "description1": "iShine Tech Co., Limited ist ein All-in-One-Lieferant für",
+      "manufacturing": "IPL-Haarentfernungsgeräte-Herstellung",
+      "and": "und",
+      "customization": "Anpassung",
+      "description2": "Hilft Ihnen dabei, es zu entwerfen, zu bauen und zu verpacken. Von der Idee zum Markt.",
+      "description3": "Wir haben die Fähigkeit für maßgeschneiderte Ice-Cooling-IPL, Smart-App-verbundene IPL-Geräte, Hautsensor-IPL-Geräte. iShine bietet Lösungen, die am besten zu Ihrer Markenidentität passen."
     },
-    "features": {
-      "title": "Warum iShine wählen?",
-      "subtitle": "Umfassende IPL-Herstellungslösungen maßgeschneidert für Ihre Bedürfnisse"
+    "whatWeDo": {
+      "title": "WAS WIR TUN",
+      "description": "Das iShine-Team arbeitet mit verschiedenen Branchenmarkeninhabern, Produktentwicklungsmanagern, Produktmanagern, Category-Sourcing-Managern, Retail-Compliance-Spezialisten und Produktdesignern zusammen und bietet ihnen OEM-ODM-Lösungen von geformten IPL-Gerätedesigns, Prototyping bis hin zu IPL-Vertragsherstellung, Druck und Verpackung, um den Erfolg ihrer IPL-Projekte zu gewährleisten."
     },
-    "products": {
-      "title": "Unser IPL-Gerätesortiment",
-      "subtitle": "Breite Palette von IPL-Geräten für jeden Bedarf",
-      "cta": "Alle IPL-Geräte anzeigen"
+    "productShowcase": {
+      "title": "MAßGESCHNEIDERTE IPL-GERÄTE",
+      "subtitle": "Sie entwerfen es, wir bauen es, verpacken es",
+      "description": "iShine ist ein Full-Service-Hersteller für maßgeschneiderte IPL-Produkte, der End-to-End-Anpassung bietet, von Formenentwicklung und Prototyping bis hin zu Massenproduktion und Verpackung. iShine hat bereits mehr als 1.000 maßgeschneiderte IPL-Geräteprojekte für unsere Partner in der Vergangenheit mit viel Erfahrung in IPL-Produkttechnischen Lösungen und Compliance-Lösungen angepasst.",
+      "include": "Die maßgeschneiderten IPL-Produkte umfassen:"
     },
-    "cta": {
-      "title": "Benötigen Sie Hilfe?",
-      "subtitle": "Lassen Sie uns Ihre Anforderungen besprechen und die IPL-Lösung erstellen, die am besten zu Ihrer Marke passt.",
-      "button": "Füllen Sie das Formular aus, um eine kostenlose Beratung zu erhalten"
+    "customization": {
+      "title": "Unbegrenzte Anpassungsoptionen",
+      "subtitle": "Heben Sie sich im Markt mit vollständig anpassbaren IPL-Geräten ab, die zu Ihrer Marke passen.",
+      "options": {
+        "0": {
+          "label": "Farbanpassung",
+          "content": "Wählen Sie aus unbegrenzten Farboptionen, um zu Ihrer Markenidentität zu passen."
+        },
+        "1": {
+          "label": "Logo-Druck",
+          "content": "Fügen Sie Ihr Logo für ein vollständig gebrandetes Produkterlebnis hinzu."
+        },
+        "2": {
+          "label": "Funktionsanpassung",
+          "content": "Passen Sie Features und Funktionen an Ihre Marktanforderungen an."
+        },
+        "3": {
+          "label": "Verpackungsdesign",
+          "content": "Premium-Verpackung für Einzelhandel, E-Commerce oder Geschenke."
+        },
+        "4": {
+          "label": "Zertifizierungsunterstützung",
+          "content": "Vollständige Unterstützung für globale Zertifizierungen."
+        }
+      }
+    },
+    "process": {
+      "title": "OEM/ODM-Prozess",
+      "subtitle": "Von der Idee bis zur Lieferung machen wir Ihr IPL-Geräteprojekt nahtlos und erfolgreich.",
+      "steps": {
+        "0": {
+          "title": "Beratung",
+          "desc": "Besprechen Sie Ihre Markenvision und Anforderungen."
+        },
+        "1": {
+          "title": "Design & Prototyping",
+          "desc": "Erhalten Sie maßgeschneiderte Designs und funktionale Prototypen."
+        },
+        "2": {
+          "title": "Musterbestätigung",
+          "desc": "Genehmigen Sie Muster vor der Massenproduktion."
+        },
+        "3": {
+          "title": "Massenproduktion",
+          "desc": "Effiziente und hochwertige Herstellung."
+        },
+        "4": {
+          "title": "Qualitätskontrolle",
+          "desc": "Strenge QC für jede Charge."
+        },
+        "5": {
+          "title": "Zertifizierung",
+          "desc": "Unterstützung für FDA, CE und mehr."
+        },
+        "6": {
+          "title": "Weltweiter Versand",
+          "desc": "Weltweite Lieferung mit flexibler Logistik."
+        },
+        "7": {
+          "title": "Kundendienst",
+          "desc": "Laufende Unterstützung für Ihr Geschäft."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Was unsere Kunden sagen",
+      "0": "iShine hat uns geholfen, unsere IPL-Marke in Rekordzeit zu lancieren. Die Qualität und der Service sind beeindruckend!",
+      "1": "Die Anpassungsoptionen sind endlos. Unsere Kunden lieben die einzigartige Verpackung und Features.",
+      "2": "Professionelles Team, schnelle Reaktion und zuverlässige Lieferung. Sehr empfehlenswert für OEM/ODM.",
+      "3": "Wir haben uns dank iShines Zertifizierungs- und Compliance-Unterstützung auf neue Märkte ausgeweitet.",
+      "4": "Der Kundendienst ist ausgezeichnet. Alle Probleme werden schnell und professionell gelöst.",
+      "5": "Unser Markenruf hat sich dank iShines Design- und Herstellungsexpertise erheblich verbessert.",
+      "pageButton": "Gehen Sie zu Testimonials-Seite"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "0": {
+        "q": "Was ist IPL und wie funktioniert es?",
+        "a": "IPL (Intense Pulsed Light) verwendet Breitbandlicht, um Haarfollikel zu zielen und Haarwuchs sicher und effektiv zu reduzieren."
+      },
+      "1": {
+        "q": "Kann ich die Gerätefunktionen anpassen?",
+        "a": "Ja, wir bieten vollständige Anpassung von Features, Farben, Verpackung und mehr, um Ihren Markenbedürfnissen zu entsprechen."
+      },
+      "2": {
+        "q": "Welche Zertifizierungen unterstützen Sie?",
+        "a": "Wir unterstützen FDA, CE, RoHS und andere globale Zertifizierungen, um Compliance in Ihren Zielmärkten zu gewährleisten."
+      },
+      "3": {
+        "q": "Wie lange ist die Produktionszeit?",
+        "a": "Typische Lieferzeit ist 25-35 Tage nach Musterbestätigung, abhängig von Bestellgröße und Anpassung."
+      },
+      "4": {
+        "q": "Bieten Sie Kundendienst?",
+        "a": "Ja, wir bieten umfassenden Kundendienst einschließlich technischer Unterstützung und Garantie."
+      },
+      "5": {
+        "q": "Können Sie weltweit versenden?",
+        "a": "Absolut. Wir bieten zuverlässigen weltweiten Versand, um Ihr Geschäft zu unterstützen, wo immer Sie sind."
+      }
+    },
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "subtitle": "Bereit, Ihre Marke zu stärken? Nehmen Sie Kontakt auf für eine kostenlose Beratung und ein Angebot."
     }
   },
   "contact": {
