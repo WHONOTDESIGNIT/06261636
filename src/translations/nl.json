@@ -132,6 +132,132 @@
       "title": "Klaar om Uw IPL Project te Starten?",
       "subtitle": "Laten we uw vereisten bespreken en de perfecte IPL oplossing voor uw merk creëren",
       "button": "Consultatie Plannen"
+    },
+    "about": {
+      "title": "Over iShine",
+      "subtitle": "Alles-in-één IPL oplossingen.",
+      "cta": "Meer Leren",
+      "description1": "iShine Tech Co., Limited is een alles-in-één leverancier voor",
+      "manufacturing": "IPL ontharingsapparaat productie",
+      "and": "en",
+      "customization": "aanpassing",
+      "description2": ". Wij helpen u bij ontwerpen, bouwen en verpakken. Van idee tot markt.",
+      "description3": "Wij hebben de capaciteit voor aangepaste ijs-koeling IPL, slimme app-aangesloten IPL-apparaten, huid-sensor IPL-apparaten. iShine biedt oplossingen die het beste passen bij uw merkidentiteit."
+    },
+    "whatWeDo": {
+      "title": "WAT WIJ DOEN",
+      "description": "Het iShine-team werkt samen met merkeigenaren uit verschillende industrieën, productontwikkelingsmanagers, productmanagers, categorie-inkoopmanagers, retail compliance-specialisten, productontwerpers samen en biedt hen OEM ODM-oplossingen van gegoten IPL-apparaatontwerp, prototyping tot IPL-contractproductie, printen, verpakking om het succes van hun IPL-projecten te waarborgen."
+    },
+    "productShowcase": {
+      "title": "AANGEPASTE IPL-APPARATEN",
+      "subtitle": "U ontwerpt, wij bouwen, verpakken",
+      "description": "iShine is een full-service aangepaste IPL-productfabrikant die end-to-end aanpassing biedt van mouleontwikkeling en prototyping tot massaproductie en verpakking. iShine heeft al meer dan 1.000 aangepaste IPL-apparaatprojecten aangepast voor onze partners in het verleden met veel ervaring in IPL-producttechnische oplossingen en compliance-oplossingen.",
+      "include": "Aangepaste IPL-producten omvatten:"
+    },
+    "customization": {
+      "title": "Onbeperkte Aanpassingsopties",
+      "subtitle": "Onderscheid u in de markt met volledig aanpasbare IPL-apparaten die passen bij uw merk.",
+      "options": {
+        "0": {
+          "label": "Kleuraanpassing",
+          "content": "Kies uit onbeperkte kleuropties om bij uw merkidentiteit te passen."
+        },
+        "1": {
+          "label": "Logo-afdruk",
+          "content": "Voeg uw logo toe voor een volledig gemerkte productervaring."
+        },
+        "2": {
+          "label": "Functieaanpassing",
+          "content": "Pas functies en kenmerken aan om aan uw marktbehoeften te voldoen."
+        },
+        "3": {
+          "label": "Verpakkingsontwerp",
+          "content": "Premium verpakking voor retail, e-commerce of cadeau."
+        },
+        "4": {
+          "label": "Certificeringsondersteuning",
+          "content": "Volledige ondersteuning voor wereldwijde certificeringen."
+        }
+      }
+    },
+    "process": {
+      "title": "OEM/ODM Proces",
+      "subtitle": "Van idee tot levering maken wij uw IPL-apparaatproject naadloos en succesvol.",
+      "steps": {
+        "0": {
+          "title": "Consultatie",
+          "desc": "Bespreek uw merkvisie en vereisten."
+        },
+        "1": {
+          "title": "Ontwerp & Prototype",
+          "desc": "Krijg aangepaste ontwerpen en functionele prototypes."
+        },
+        "2": {
+          "title": "Monsterbevestiging",
+          "desc": "Keur monsters goed voordat massaproductie."
+        },
+        "3": {
+          "title": "Massaproductie",
+          "desc": "Efficiënte en hoogwaardige productie."
+        },
+        "4": {
+          "title": "Kwaliteitscontrole",
+          "desc": "Strikte QC voor elke batch."
+        },
+        "5": {
+          "title": "Certificering",
+          "desc": "Ondersteuning voor FDA, CE en meer."
+        },
+        "6": {
+          "title": "Wereldwijde verzending",
+          "desc": "Wereldwijde levering met flexibele logistiek."
+        },
+        "7": {
+          "title": "Naverkoopservice",
+          "desc": "Doorlopende ondersteuning voor uw bedrijf."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Wat Onze Klanten Zeggen",
+      "pageButton": "Ga naar testimonials pagina",
+      "0": "\"iShine hielp ons om ons IPL-merk in recordtijd te lanceren. De kwaliteit en service zijn indrukwekkend!\"",
+      "1": "\"De aanpassingsopties zijn eindeloos. Onze klanten houden van de unieke verpakking en functies.\"",
+      "2": "\"Professioneel team, snelle reactie en betrouwbare levering. Zeer aanbevolen voor OEM/ODM.\"",
+      "3": "\"We breidden uit naar nieuwe markten dankzij iShine's certificerings- en compliance-ondersteuning.\"",
+      "4": "\"De naverkoopservice is uitstekend. Alle problemen worden snel en professioneel opgelost.\"",
+      "5": "\"Onze merknaam verbeterde aanzienlijk dankzij iShine's ontwerp- en productie-expertise.\""
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen",
+      "0": {
+        "q": "Wat is IPL en hoe werkt het?",
+        "a": "IPL (Intense Pulsed Light) gebruikt breedspectrum licht om haarzakjes te targeten, waardoor haargroei veilig en effectief wordt verminderd."
+      },
+      "1": {
+        "q": "Kan ik de apparaatfuncties aanpassen?",
+        "a": "Ja, wij bieden volledige aanpassing van functies, kleuren, verpakking en meer om bij uw merkbehoeften te passen."
+      },
+      "2": {
+        "q": "Welke certificeringen ondersteunt u?",
+        "a": "Wij ondersteunen FDA, CE, RoHS en andere wereldwijde certificeringen om compliance in uw doelmarkten te waarborgen."
+      },
+      "3": {
+        "q": "Hoe lang is de productietijd?",
+        "a": "Typische levertijd is 25-35 dagen na monsterbevestiging, afhankelijk van bestelgrootte en aanpassing."
+      },
+      "4": {
+        "q": "Biedt u naverkoopondersteuning?",
+        "a": "Ja, wij bieden uitgebreide naverkoopservice inclusief technische ondersteuning en garantie."
+      },
+      "5": {
+        "q": "Kunt u wereldwijd verzenden?",
+        "a": "Absoluut. Wij bieden betrouwbare wereldwijde verzending om uw bedrijf te ondersteunen waar u ook bent."
+      }
+    },
+    "contact": {
+      "title": "Neem Contact Op",
+      "subtitle": "Klaar om uw merk te versterken? Neem contact op voor gratis consultatie en offerte."
     }
   },
   "contact": {
