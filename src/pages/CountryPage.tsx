@@ -7,11 +7,11 @@ import { Helmet } from 'react-helmet';
 
 const CountryPage: React.FC = () => {
   const { countryCode } = useParams<{ countryCode: string }>();
-  const { setLanguage, currentCountry } = useLanguage();
+  const { setLanguage, currentCountry, t } = useLanguage();
 
-  // 默认title和description，便于后期修改
-  const title = "iShine - IPL Device Manufacturing Solutions | Global";
-  const description = "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide.";
+  // 用t()国际化title和description
+  const title = t('countryPage.title', 'iShine - IPL Device Manufacturing Solutions | Global');
+  const description = t('countryPage.description', 'Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide.');
 
   useEffect(() => {
     if (countryCode && countryCode !== currentCountry) {
