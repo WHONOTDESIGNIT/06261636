@@ -17,86 +17,89 @@ import {
   Heart
 } from 'lucide-react';
 import ContactFormA from '../components/Forms/ContactFormA';
+import { useTranslation } from '../hooks/useTranslation';
 
 const ServiceSupport: React.FC = () => {
+  const { t } = useTranslation();
+
   const serviceCategories = [
     {
-      title: 'Technical Support',
-      description: 'Expert guidance and troubleshooting for all your IPL device needs',
+      title: t('serviceSupport.categories.technicalSupport.title'),
+      description: t('serviceSupport.categories.technicalSupport.description'),
       icon: Headphones,
       services: [
         {
-          name: 'After-Sales Service',
-          description: '24/7 technical support with 1-year warranty and 365-day return policy',
+          name: t('serviceSupport.services.afterSalesService.name'),
+          description: t('serviceSupport.services.afterSalesService.description'),
           href: '/service-support/after-sales',
           icon: Shield
         },
         {
-          name: 'Knowledge Base',
-          description: 'Comprehensive FAQ and technical documentation for IPL devices',
+          name: t('serviceSupport.services.knowledgeBase.name'),
+          description: t('serviceSupport.services.knowledgeBase.description'),
           href: '/service-support/knowledge-base',
           icon: BookOpen
         },
         {
-          name: 'Help Center',
-          description: 'Multi-channel support including live chat, phone, and email assistance',
+          name: t('serviceSupport.services.helpCenter.name'),
+          description: t('serviceSupport.services.helpCenter.description'),
           href: '/service-support/help-center',
           icon: HelpCircle
         }
       ]
     },
     {
-      title: 'Manufacturing Services',
-      description: 'Complete OEM/ODM solutions from design to production',
+      title: t('serviceSupport.categories.manufacturingServices.title'),
+      description: t('serviceSupport.categories.manufacturingServices.description'),
       icon: Factory,
       services: [
         {
-          name: 'IPL Manufacturing',
-          description: 'Custom IPL device manufacturing with FDA compliance and quality assurance',
+          name: t('serviceSupport.services.iplManufacturing.name'),
+          description: t('serviceSupport.services.iplManufacturing.description'),
           href: '/service-support/manufacturing',
           icon: Factory
         },
         {
-          name: 'Win FDA Listing',
-          description: 'Professional guidance to obtain FDA 510(k) listing for your brand',
+          name: t('serviceSupport.services.winFdaListing.name'),
+          description: t('serviceSupport.services.winFdaListing.description'),
           href: '/service-support/win-fda-listing',
           icon: Award
         }
       ]
     },
     {
-      title: 'Business Support',
-      description: 'Comprehensive business solutions for distributors and brand owners',
+      title: t('serviceSupport.categories.businessSupport.title'),
+      description: t('serviceSupport.categories.businessSupport.description'),
       icon: Users,
       services: [
         {
-          name: 'Beauty Sourcing',
-          description: 'Specialized sourcing for beauty devices and accessories with expert guidance',
+          name: t('serviceSupport.services.beautySourcing.name'),
+          description: t('serviceSupport.services.beautySourcing.description'),
           href: '/service-support/beauty-sourcing',
           icon: Search
         },
         {
-          name: 'Pricing Guide',
-          description: 'Transparent pricing information and customized quotations for bulk orders',
+          name: t('serviceSupport.services.pricingGuide.name'),
+          description: t('serviceSupport.services.pricingGuide.description'),
           href: '/service-support/pricing-guide',
           icon: DollarSign
         }
       ]
     },
     {
-      title: 'Resources & Media',
-      description: 'Visual resources and educational content for marketing and training',
+      title: t('serviceSupport.categories.resourcesMedia.title'),
+      description: t('serviceSupport.categories.resourcesMedia.description'),
       icon: Camera,
       services: [
         {
-          name: 'Gallery',
-          description: 'High-quality product images and lifestyle photography for marketing use',
+          name: t('serviceSupport.services.gallery.name'),
+          description: t('serviceSupport.services.gallery.description'),
           href: '/service-support/gallery',
           icon: Camera
         },
         {
-          name: 'Videos',
-          description: 'Product demonstrations, tutorials, and promotional video content',
+          name: t('serviceSupport.services.videos.name'),
+          description: t('serviceSupport.services.videos.description'),
           href: '/service-support/videos',
           icon: Play
         }
@@ -105,10 +108,10 @@ const ServiceSupport: React.FC = () => {
   ];
 
   const stats = [
-    { number: '5000+', label: 'Satisfied Clients', icon: Heart },
-    { number: '24/7', label: 'Technical Support', icon: Headphones },
-    { number: '99.9%', label: 'Uptime Guarantee', icon: Shield },
-    { number: '50+', label: 'Countries Served', icon: Truck }
+    { number: '5000+', label: t('serviceSupport.stats.satisfiedClients'), icon: Heart },
+    { number: '24/7', label: t('serviceSupport.stats.technicalSupport'), icon: Headphones },
+    { number: '99.9%', label: t('serviceSupport.stats.uptimeGuarantee'), icon: Shield },
+    { number: '50+', label: t('serviceSupport.stats.countriesServed'), icon: Truck }
   ];
 
   return (
@@ -124,18 +127,17 @@ const ServiceSupport: React.FC = () => {
           >
             <Headphones className="w-20 h-20 mx-auto mb-6 text-white" />
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Service & Support
+              {t('serviceSupport.hero.title')}
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-100 max-w-4xl mx-auto">
-              Comprehensive support ecosystem for IPL device manufacturers, distributors, and brand owners. 
-              From technical guidance to business solutions, we're here to ensure your success.
+              {t('serviceSupport.hero.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/service-support/help-center"
                 className="bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300"
               >
-                Get Support Now
+                {t('serviceSupport.hero.cta')}
               </Link>
             </div>
           </motion.div>
@@ -177,10 +179,10 @@ const ServiceSupport: React.FC = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Our Service Ecosystem
+              {t('serviceSupport.ecosystem.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Everything you need to succeed in the IPL device market, from technical support to business growth solutions.
+              {t('serviceSupport.ecosystem.subtitle')}
             </p>
           </motion.div>
 
@@ -225,7 +227,7 @@ const ServiceSupport: React.FC = () => {
                           {service.description}
                         </p>
                         <div className="mt-4 text-blue-600 font-medium text-sm group-hover:translate-x-1 transition-transform duration-300">
-                          Learn More →
+                          {t('serviceSupport.learnMore')}
                         </div>
                       </Link>
                     </motion.div>
@@ -247,11 +249,10 @@ const ServiceSupport: React.FC = () => {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Ready to Get Started?
+              {t('serviceSupport.cta.title')}
             </h2>
             <p className="text-xl mb-8 text-gray-100">
-              Our expert team is standing by to help you with any questions or support needs. 
-              Get in touch today and experience the iShine difference.
+              {t('serviceSupport.cta.subtitle')}
             </p>
           </motion.div>
         </div>
