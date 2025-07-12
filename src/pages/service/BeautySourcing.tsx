@@ -10,6 +10,7 @@ import {
   ClipboardCheck
 } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const whyChoose = [
   {
@@ -113,6 +114,8 @@ const frequentProducts = [
 ];
 
 const BeautySourcing: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="min-h-screen pt-20 overflow-x-hidden">
       {/* ---------------------------- HERO ---------------------------- */}
@@ -124,9 +127,9 @@ const BeautySourcing: React.FC = () => {
             transition={{ duration: 0.8 }}
           >
             <Search className="w-16 h-16 mx-auto mb-6" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Unlock the Full Potential of Beauty Sourcing</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('beautySourcing.hero.title')}</h1>
             <p className="text-lg md:text-xl max-w-3xl mx-auto mb-10 text-gray-100">
-              Beyond IPL hair removal devices, iShine is your trusted partner for sourcing any beauty consumer electronics—facial cleansing brushes, LED masks, blackhead removers, high-speed hair dryers, curling irons, RF devices, and more. We deliver end-to-end sourcing management, global procurement, and supply chain solutions tailored for the beauty industry.
+              {t('beautySourcing.hero.subtitle')}
             </p>
             <a
               href="/sourcing-consultation"
