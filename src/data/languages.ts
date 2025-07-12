@@ -1,11 +1,18 @@
 export const languages = [
-  // Global (English first)
+  // Global (English first) - 固定第一行
   { code: 'en-global', name: 'Global', nativeName: 'English', flag: '🌍', region: 'Global' },
   
-  // Europe
+  // 按用户要求排序的主要语言
   { code: 'de-de', name: 'Germany', nativeName: 'Deutsch', flag: '🇩🇪', region: 'Europe' },
-  { code: 'fr-fr', name: 'France', nativeName: 'Français', flag: '🇫🇷', region: 'Europe' },
+  { code: 'tr-tr', name: 'Turkey', nativeName: 'Türkçe', flag: '🇹🇷', region: 'Middle East & Africa' },
   { code: 'es-es', name: 'Spain', nativeName: 'Español', flag: '🇪🇸', region: 'Europe' },
+  { code: 'ar-ae', name: 'United Arab Emirates', nativeName: 'العربية', flag: '🇦🇪', region: 'Middle East & Africa' },
+  { code: 'he-il', name: 'Israel', nativeName: 'עברית', flag: '🇮🇱', region: 'Middle East & Africa' },
+  { code: 'ja-jp', name: 'Japan', nativeName: '日本語', flag: '🇯🇵', region: 'Asia Pacific' },
+  { code: 'ko-kr', name: 'South Korea', nativeName: '한국어', flag: '🇰🇷', region: 'Asia Pacific' },
+  
+  // 其他欧洲语言
+  { code: 'fr-fr', name: 'France', nativeName: 'Français', flag: '🇫🇷', region: 'Europe' },
   { code: 'it-it', name: 'Italy', nativeName: 'Italiano', flag: '🇮🇹', region: 'Europe' },
   { code: 'pt-pt', name: 'Portugal', nativeName: 'Português', flag: '🇵🇹', region: 'Europe' },
   { code: 'nl-nl', name: 'Netherlands', nativeName: 'Nederlands', flag: '🇳🇱', region: 'Europe' },
@@ -20,19 +27,12 @@ export const languages = [
   { code: 'ru-ru', name: 'Russia', nativeName: 'Русский', flag: '🇷🇺', region: 'Europe' },
   { code: 'uk-ua', name: 'Ukraine', nativeName: 'Українська', flag: '🇺🇦', region: 'Europe' },
   
-  // Asia Pacific
+  // 其他亚太语言
   { code: 'zh-cn', name: 'China', nativeName: '简体中文', flag: '🇨🇳', region: 'Asia Pacific' },
-  { code: 'ja-jp', name: 'Japan', nativeName: '日本語', flag: '🇯🇵', region: 'Asia Pacific' },
-  { code: 'ko-kr', name: 'South Korea', nativeName: '한국어', flag: '🇰🇷', region: 'Asia Pacific' },
   { code: 'hi-in', name: 'India', nativeName: 'हिन्दी', flag: '🇮🇳', region: 'Asia Pacific' },
   { code: 'th-th', name: 'Thailand', nativeName: 'ไทย', flag: '🇹🇭', region: 'Asia Pacific' },
   { code: 'vi-vn', name: 'Vietnam', nativeName: 'Tiếng Việt', flag: '🇻🇳', region: 'Asia Pacific' },
   { code: 'id-id', name: 'Indonesia', nativeName: 'Bahasa Indonesia', flag: '🇮🇩', region: 'Asia Pacific' },
   { code: 'ms-my', name: 'Malaysia', nativeName: 'Bahasa Malaysia', flag: '🇲🇾', region: 'Asia Pacific' },
-  { code: 'tl-ph', name: 'Philippines', nativeName: 'Filipino', flag: '🇵🇭', region: 'Asia Pacific' },
-  
-  // Middle East & Africa
-  { code: 'ar-ae', name: 'United Arab Emirates', nativeName: 'العربية', flag: '🇦🇪', region: 'Middle East & Africa' },
-  { code: 'he-il', name: 'Israel', nativeName: 'עברית', flag: '🇮🇱', region: 'Middle East & Africa' },
-  { code: 'tr-tr', name: 'Turkey', nativeName: 'Türkçe', flag: '🇹🇷', region: 'Middle East & Africa' }
+  { code: 'tl-ph', name: 'Philippines', nativeName: 'Filipino', flag: '🇵🇭', region: 'Asia Pacific' }
 ];
