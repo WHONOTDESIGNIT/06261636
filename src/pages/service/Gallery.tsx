@@ -2,8 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Camera, Image, Eye, Download } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const Gallery: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="min-h-screen pt-20">
       <section className="bg-gradient-to-r from-purple-500 to-pink-500 text-white py-16">
@@ -15,10 +18,9 @@ const Gallery: React.FC = () => {
             className="text-center"
           >
             <Camera className="w-16 h-16 mx-auto mb-6 text-white" />
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Gallery</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('gallery.hero.title')}</h1>
             <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
-              Explore our comprehensive gallery showcasing IPL devices, manufacturing 
-              processes, and successful client projects.
+              {t('gallery.hero.subtitle')}
             </p>
           </motion.div>
         </div>
