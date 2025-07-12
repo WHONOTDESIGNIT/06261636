@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { Users, Building2, Sparkles, Truck, ArrowRight, CheckCircle, DollarSign, Globe, Shield } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const PricingGuide: React.FC = () => {
+  const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState('distributors');
 
   const pricingTiers = [
@@ -80,10 +82,9 @@ const PricingGuide: React.FC = () => {
       <section className="bg-gradient-to-r from-[rgb(30,157,139)] to-[rgb(36,151,144)] text-white py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <DollarSign className="w-16 h-16 mx-auto mb-6 text-white" />
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">B2B Pricing Guide</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">{t('pricingGuide.hero.title')}</h1>
           <p className="text-xl mb-8 text-gray-100">
-            Strategic pricing solutions for distributors, retailers, and beauty brands. Choose the partnership model 
-            that maximizes your ROI and accelerates market entry in the $3.2 billion IPL device industry.
+            {t('pricingGuide.hero.subtitle')}
           </p>
         </div>
       </section>
