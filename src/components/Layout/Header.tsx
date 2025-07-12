@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Search, Youtube, Linkedin, Menu, X, ChevronDown } from 'lucide-react';
-import LanguageSelector from './LanguageSelector';
+import LanguageSelector from './LanguageSelector.tsx';
 import { iplDevices, accessories } from '../../data/products'; // 导入产品数据
 import { useLanguage } from '../../context/LanguageContext';
 
@@ -274,6 +274,11 @@ const Header: React.FC = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="lg:hidden py-4 border-t border-gray-200 max-h-96 overflow-y-auto">
+            {/* Mobile Language Selector */}
+            <div className="mb-4 px-4">
+              <LanguageSelector />
+            </div>
+            
             <div className="flex flex-col space-y-4">
               {navigation.map((item) => (
                 <div key={item.name}>
