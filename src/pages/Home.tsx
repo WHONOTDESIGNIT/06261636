@@ -14,7 +14,7 @@ const unlimitedOptions = [
     label: "Color Customization",
     icon: <Palette className="w-6 h-6" />,
     content: {
-      img: "/images/color-customization.png",
+      img: "/homeimages/ipl color customize.png",
       text: "Choose from unlimited color options to match your brand identity. We support Pantone, metallic, gradient and more."
     }
   },
