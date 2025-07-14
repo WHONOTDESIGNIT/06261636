@@ -35,116 +35,116 @@ const CountryPage: React.FC = () => {
     // 国家特定的页面元数据
     const countryMetadata: Record<string, { title: string; description: string; }> = {
       us: {
-        title: "iShine IPL Devices Manufacturing USA | FDA Approved Solutions",
-        description: "Leading IPL device manufacturer for USA market. FDA approved manufacturing solutions from idea to market.",
+        title: "iShine IPL Devices Manufacturing USA | FDA Approved Solutions | Custom OEM/ODM",
+        description: "Leading IPL device manufacturer for USA market. FDA approved manufacturing solutions from idea to market. Custom OEM/ODM services.",
       },
       gb: {
-        title: "iShine IPL Device Manufacturing UK | Professional Beauty Equipment",
-        description: "Professional IPL device manufacturing for UK market. Quality beauty equipment solutions.",
+        title: "iShine IPL Device Manufacturing UK | Professional Beauty Equipment | CE Certified",
+        description: "Professional IPL device manufacturing for UK market. Quality beauty equipment solutions with CE certification and compliance.",
       },
       de: {
-        title: "iShine IPL Geräte Herstellung Deutschland | Professionelle Beauty Ausrüstung",
-        description: "Professionelle IPL Geräte Herstellung für den deutschen Markt. Qualitäts Beauty Equipment Lösungen.",
+        title: "iShine IPL Geräte Herstellung Deutschland | Professionelle Beauty Ausrüstung | CE Zertifiziert",
+        description: "Professionelle IPL Geräte Herstellung für den deutschen Markt. Qualitäts Beauty Equipment Lösungen mit CE Zertifizierung.",
       },
       fr: {
-        title: "iShine Fabrication d'Appareils IPL France | Équipement de Beauté Professionnel",
-        description: "Fabrication professionnelle d'appareils IPL pour le marché français. Solutions d'équipement de beauté de qualité.",
+        title: "iShine Fabrication d'Appareils IPL France | Équipement de Beauté Professionnel | CE Certifié",
+        description: "Fabrication professionnelle d'appareils IPL pour le marché français. Solutions d'équipement de beauté de qualité avec certification CE.",
       },
       es: {
-        title: "iShine Fabricación de Dispositivos IPL España | Equipos de Belleza Profesionales",
-        description: "Fabricación profesional de dispositivos IPL para el mercado español. Soluciones de equipos de belleza de calidad.",
+        title: "iShine Fabricación de Dispositivos IPL España | Equipos de Belleza Profesionales | CE Certificado",
+        description: "Fabricación profesional de dispositivos IPL para el mercado español. Soluciones de equipos de belleza de calidad con certificación CE.",
       },
       it: {
-        title: "iShine Produzione Dispositivi IPL Italia | Attrezzature per la Bellezza Professionali",
-        description: "Produzione professionale di dispositivi IPL per il mercato italiano. Soluzioni di attrezzature per la bellezza di qualità.",
+        title: "iShine Produzione Dispositivi IPL Italia | Attrezzature per la Bellezza Professionali | CE Certificato",
+        description: "Produzione professionale di dispositivi IPL per il mercato italiano. Soluzioni di attrezzature per la bellezza di qualità con certificazione CE.",
       },
       pt: {
-        title: "iShine Fabricação de Dispositivos IPL Portugal | Equipamentos de Beleza Profissionais",
-        description: "Fabricação profissional de dispositivos IPL para o mercado português. Soluções de equipamentos de beleza de qualidade.",
+        title: "iShine Fabricação de Dispositivos IPL Portugal | Equipamentos de Beleza Profissionais | CE Certificado",
+        description: "Fabricação profissional de dispositivos IPL para o mercado português. Soluções de equipamentos de beleza de qualidade com certificação CE.",
       },
       nl: {
-        title: "iShine IPL Apparaten Productie Nederland | Professionele Beauty Apparatuur",
-        description: "Professionele IPL apparaten productie voor de Nederlandse markt. Kwaliteits beauty apparatuur oplossingen.",
+        title: "iShine IPL Apparaten Productie Nederland | Professionele Beauty Apparatuur | CE Gecertificeerd",
+        description: "Professionele IPL apparaten productie voor de Nederlandse markt. Kwaliteits beauty apparatuur oplossingen met CE certificering.",
       },
       mx: {
-        title: "iShine Fabricación de Dispositivos IPL México | Equipos de Belleza Profesionales",
-        description: "Fabricación profesional de dispositivos IPL para el mercado mexicano. Soluciones de equipos de belleza de calidad.",
+        title: "iShine Fabricación de Dispositivos IPL México | Equipos de Belleza Profesionales | NOM Certificado",
+        description: "Fabricación profesional de dispositivos IPL para el mercado mexicano. Soluciones de equipos de belleza de calidad con certificación NOM.",
       },
       br: {
-        title: "iShine Fabricação de Dispositivos IPL Brasil | Equipamentos de Beleza Profissionais",
-        description: "Fabricação profissional de dispositivos IPL para o mercado brasileiro. Soluções de equipamentos de beleza de qualidade.",
+        title: "iShine Fabricação de Dispositivos IPL Brasil | Equipamentos de Beleza Profissionais | ANVISA Aprovado",
+        description: "Fabricação profissional de dispositivos IPL para o mercado brasileiro. Soluções de equipamentos de beleza de qualidade com aprovação ANVISA.",
       },
       jp: {
-        title: "iShine IPLデバイス製造 日本 | プロフェッショナル美容機器",
-        description: "日本市場向けプロフェッショナルIPLデバイス製造。品質美容機器ソリューション。",
+        title: "iShine IPLデバイス製造 日本 | プロフェッショナル美容機器 | PMDA承認済み",
+        description: "日本市場向けプロフェッショナルIPLデバイス製造。品質美容機器ソリューション。PMDA承認済み製品。",
       },
       kr: {
-        title: "iShine IPL 기기 제조 한국 | 전문 미용 장비",
-        description: "한국 시장을 위한 전문 IPL 기기 제조. 고품질 미용 장비 솔루션.",
+        title: "iShine IPL 기기 제조 한국 | 전문 미용 장비 | MFDS 승인",
+        description: "한국 시장을 위한 전문 IPL 기기 제조. 고품질 미용 장비 솔루션. MFDS 승인 제품.",
       },
       cn: {
-        title: "iShine IPL设备制造 中国 | 专业美容设备",
-        description: "面向中国市场的专业IPL设备制造。优质美容设备解决方案。",
+        title: "iShine IPL设备制造 中国 | 专业美容设备 | NMPA认证",
+        description: "面向中国市场的专业IPL设备制造。优质美容设备解决方案。NMPA认证产品。",
       },
       tw: {
-        title: "iShine IPL設備製造 台灣 | 專業美容設備",
-        description: "面向台灣市場的專業IPL設備製造。優質美容設備解決方案。",
+        title: "iShine IPL設備製造 台灣 | 專業美容設備 | TFDA認證",
+        description: "面向台灣市場的專業IPL設備製造。優質美容設備解決方案。TFDA認證產品。",
       },
       th: {
-        title: "iShine การผลิตอุปกรณ์ IPL ประเทศไทย | อุปกรณ์ความงามมืออาชีพ",
-        description: "การผลิตอุปกรณ์ IPL มืออาชีพสำหรับตลาดไทย โซลูชันอุปกรณ์ความงามคุณภาพสูง",
+        title: "iShine การผลิตอุปกรณ์ IPL ประเทศไทย | อุปกรณ์ความงามมืออาชีพ | อย. อนุมัติ",
+        description: "การผลิตอุปกรณ์ IPL มืออาชีพสำหรับตลาดไทย โซลูชันอุปกรณ์ความงามคุณภาพสูง ผลิตภัณฑ์ที่ได้รับอนุมัติจาก อย.",
       },
       vn: {
-        title: "iShine Sản xuất Thiết bị IPL Việt Nam | Thiết bị Làm đẹp Chuyên nghiệp",
-        description: "Sản xuất thiết bị IPL chuyên nghiệp cho thị trường Việt Nam. Giải pháp thiết bị làm đẹp chất lượng cao.",
+        title: "iShine Sản xuất Thiết bị IPL Việt Nam | Thiết bị Làm đẹp Chuyên nghiệp | Bộ Y tế Phê duyệt",
+        description: "Sản xuất thiết bị IPL chuyên nghiệp cho thị trường Việt Nam. Giải pháp thiết bị làm đẹp chất lượng cao. Sản phẩm được Bộ Y tế phê duyệt.",
       },
       id: {
-        title: "iShine Manufaktur Perangkat IPL Indonesia | Peralatan Kecantikan Profesional",
-        description: "Manufaktur perangkat IPL profesional untuk pasar Indonesia. Solusi peralatan kecantikan berkualitas tinggi.",
+        title: "iShine Manufaktur Perangkat IPL Indonesia | Peralatan Kecantikan Profesional | BPOM Disetujui",
+        description: "Manufaktur perangkat IPL profesional untuk pasar Indonesia. Solusi peralatan kecantikan berkualitas tinggi. Produk disetujui BPOM.",
       },
       my: {
-        title: "iShine Pembuatan Peranti IPL Malaysia | Peralatan Kecantikan Profesional",
-        description: "Pembuatan peranti IPL profesional untuk pasaran Malaysia. Penyelesaian peralatan kecantikan berkualiti tinggi.",
+        title: "iShine Pembuatan Peranti IPL Malaysia | Peralatan Kecantikan Profesional | MDA Diluluskan",
+        description: "Pembuatan peranti IPL profesional untuk pasaran Malaysia. Penyelesaian peralatan kecantikan berkualiti tinggi. Produk diluluskan MDA.",
       },
       ae: {
-        title: "iShine تصنيع أجهزة IPL الإمارات | معدات تجميل احترافية",
-        description: "تصنيع أجهزة IPL احترافية للسوق الإماراتي. حلول معدات التجميل عالية الجودة.",
+        title: "iShine تصنيع أجهزة IPL الإمارات | معدات تجميل احترافية | وزارة الصحة معتمدة",
+        description: "تصنيع أجهزة IPL احترافية للسوق الإماراتي. حلول معدات التجميل عالية الجودة. منتجات معتمدة من وزارة الصحة.",
       },
       sa: {
-        title: "iShine تصنيع أجهزة IPL السعودية | معدات تجميل احترافية",
-        description: "تصنيع أجهزة IPL احترافية للسوق السعودي. حلول معدات التجميل عالية الجودة.",
+        title: "iShine تصنيع أجهزة IPL السعودية | معدات تجميل احترافية | SFDA معتمدة",
+        description: "تصنيع أجهزة IPL احترافية للسوق السعودي. حلول معدات التجميل عالية الجودة. منتجات معتمدة من الهيئة السعودية للغذاء والدواء.",
       },
       il: {
-        title: "iShine ייצור מכשירי IPL ישראל | ציוד יופי מקצועי",
-        description: "ייצור מכשירי IPL מקצועי לשוק הישראלי. פתרונות ציוד יופי איכותיים.",
+        title: "iShine ייצור מכשירי IPL ישראל | ציוד יופי מקצועי | משרד הבריאות מאושר",
+        description: "ייצור מכשירי IPL מקצועי לשוק הישראלי. פתרונות ציוד יופי איכותיים. מוצרים מאושרים על ידי משרד הבריאות.",
       },
       tr: {
-        title: "iShine IPL Cihaz Üretimi Türkiye | Profesyonel Güzellik Ekipmanları",
-        description: "Türkiye pazarı için profesyonel IPL cihaz üretimi. Kaliteli güzellik ekipmanı çözümleri.",
+        title: "iShine IPL Cihaz Üretimi Türkiye | Profesyonel Güzellik Ekipmanları | TİTCK Onaylı",
+        description: "Türkiye pazarı için profesyonel IPL cihaz üretimi. Kaliteli güzellik ekipmanı çözümleri. TİTCK onaylı ürünler.",
       },
       in: {
-        title: "iShine IPL उपकरण निर्माण भारत | पेशेवर सौंदर्य उपकरण",
-        description: "भारतीय बाजार के लिए पेशेवर IPL उपकरण निर्माण। गुणवत्तापूर्ण सौंदर्य उपकरण समाधान।",
+        title: "iShine IPL उपकरण निर्माण भारत | पेशेवर सौंदर्य उपकरण | CDSCO अनुमोदित",
+        description: "भारतीय बाजार के लिए पेशेवर IPL उपकरण निर्माण। गुणवत्तापूर्ण सौंदर्य उपकरण समाधान। CDSCO अनुमोदित उत्पाद।",
       },
       cz: {
-        title: "iShine Výroba IPL zařízení Česká republika | Profesionální kosmetické vybavení",
-        description: "Profesionální výroba IPL zařízení pro český trh. Kvalitní řešení kosmetického vybavení.",
+        title: "iShine Výroba IPL zařízení Česká republika | Profesionální kosmetické vybavení | SÚKL Schváleno",
+        description: "Profesionální výroba IPL zařízení pro český trh. Kvalitní řešení kosmetického vybavení. SÚKL schválené produkty.",
       },
       dk: {
-        title: "iShine IPL Udstyr Produktion Danmark | Professionelt Skønhedsudstyr",
-        description: "Professionel IPL udstyr produktion for det danske marked. Kvalitets skønhedsudstyr løsninger.",
+        title: "iShine IPL Udstyr Produktion Danmark | Professionelt Skønhedsudstyr | Lægemiddelstyrelsen Godkendt",
+        description: "Professionel IPL udstyr produktion for det danske marked. Kvalitets skønhedsudstyr løsninger. Lægemiddelstyrelsen godkendte produkter.",
       },
       ee: {
-        title: "iShine IPL Seadmete Tootmine Eesti | Professionaalne Iluseadmed",
-        description: "Professionaalne IPL seadmete tootmine Eesti turule. Kvaliteetsed iluseadmete lahendused.",
+        title: "iShine IPL Seadmete Tootmine Eesti | Professionaalne Iluseadmed | Ravimiamet Kinnitatud",
+        description: "Professionaalne IPL seadmete tootmine Eesti turule. Kvaliteetsed iluseadmete lahendused. Ravimiameti kinnitatud tooted.",
       },
       hr: {
-        title: "iShine Proizvodnja IPL uređaja Hrvatska | Profesionalna oprema za ljepotu",
-        description: "Profesionalna proizvodnja IPL uređaja za hrvatsko tržište. Kvalitetna rješenja opreme za ljepotu.",
+        title: "iShine Proizvodnja IPL uređaja Hrvatska | Profesionalna oprema za ljepotu | HALMED Odobreno",
+        description: "Profesionalna proizvodnja IPL uređaja za hrvatsko tržište. Kvalitetna rješenja opreme za ljepotu. HALMED odobreni proizvodi.",
       },
       be: {
-        title: "iShine IPL Apparaten Productie België | Professionele Beauty Apparatuur",
-        description: "Professionele IPL apparaten productie voor de Belgische markt. Kwaliteits beauty apparatuur oplossingen.",
+        title: "iShine IPL Apparaten Productie België | Professionele Beauty Apparatuur | FAGG Goedgekeurd",
+        description: "Professionele IPL apparaten productie voor de Belgische markt. Kwaliteits beauty apparatuur oplossingen. FAGG goedgekeurde producten.",
       }
     };
 
