@@ -183,7 +183,7 @@ export default function HomePage() {
             </div>
             <div>
               <div className="text-3xl font-bold text-[#18181B]">$1M+</div>
-              <div className="text-sm text-[#52525B]">DTC Devices Completed</div>
+              <div className="text-sm text-[#52525B]">IPL Devices Completed</div>
             </div>
           </div>
         </div>
