@@ -369,10 +369,13 @@ export default function HomePage() {
                 )}
                 <div className="flex-1 text-left">
                   {Array.isArray(unlimitedOptions[optionIdx].content.text)
-                    ? unlimitedOptions[optionIdx].content.text.map((p, i) => (
-                        <p key={i} className="mb-4 last:mb-0">
-                          {t(`home.customization.options.${optionIdx}.content.text.${i}`, p)}
-                        </p>
+                    ? unlimitedOptions[optionIdx].content.text.map((p, i, arr) => (
+                        <>
+                          <p key={i} className="mb-4 last:mb-0">
+                            {t(`home.customization.options.${optionIdx}.content.text.${i}`, p)}
+                          </p>
+                          {i === 0 && arr.length > 1 && <p className="my-4" key="gap"></p>}
+                        </>
                       ))
                     : t(`home.customization.options.${optionIdx}.content.text`, unlimitedOptions[optionIdx].content.text)
                   }
