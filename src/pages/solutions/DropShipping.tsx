@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Truck, Box, Zap, CheckCircle } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 import { useLanguage } from '../../context/LanguageContext';
+import SEOTags from '../../components/SEO/SEOTags';
 
 const DropShipping: React.FC = () => {
   const { t } = useLanguage();
@@ -31,7 +32,13 @@ const DropShipping: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-20">
+    <>
+      <SEOTags 
+        title="Drop Shipping Solutions | White Label IPL Device Distribution"
+        description="Complete drop shipping solutions for IPL hair removal devices. White label packaging, direct customer shipping, and inventory management for your business."
+        keywords="drop shipping, white label IPL, direct shipping, inventory management, business solutions"
+      />
+      <div className="min-h-screen pt-20">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-yellow-500 to-orange-500 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -74,6 +81,7 @@ const DropShipping: React.FC = () => {
       {/* Contact Form */}
       <ContactFormA />
     </div>
+    </>
   );
 };
 
