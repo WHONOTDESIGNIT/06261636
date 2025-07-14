@@ -45,7 +45,23 @@ const unlimitedOptions = [
     icon: <Flame className="w-6 h-6" />,
     content: {
       img: "/images/function-customization.png",
-      text: "Customize features and functions to meet your market needs."
+      text: [
+        "iShine’s Own Eight IPL Device Technologies.",
+        <>
+          iShine’s IPL devices feature eight advanced technologies, including:
+          <ul className="list-disc pl-6 mt-2 mb-2 space-y-1">
+            <li>Hair removal</li>
+            <li>Replaceable heads</li>
+            <li>Sapphire cooling</li>
+            <li>Ice-cooling technology</li>
+            <li>App connectivity</li>
+            <li>Skin sensor</li>
+            <li>Continuous automatic flash</li>
+            <li>Skin rejuvenation</li>
+          </ul>
+        </>,
+        "All the IPL products iShine made from basic one to smart skin-sensor IPL to meet your different project needs."
+      ]
     }
   },
   {
