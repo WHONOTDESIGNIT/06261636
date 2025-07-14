@@ -30,22 +30,37 @@ const LanguageSelector: React.FC = () => {
   const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const selectedCode = e.target.value;
     const [langCode, countryCode] = selectedCode.split('-');
+    
+    // 先更新语言状态
     setLanguage(langCode, countryCode);
 
-    // 英文跳转到无前缀页面，其它语言带前缀
+    // 计算新的路径
     let newPath = location.pathname;
-    const pathSegments = newPath.split('/');
-    if (pathSegments.length > 1 && languages.some(l => l.code.startsWith(pathSegments[1]))) {
-      // 当前有语言前缀，去掉
-      pathSegments.splice(1, 1);
-      newPath = pathSegments.join('/') || '/';
+    const pathSegments = newPath.split('/').filter(Boolean); // 移除空字符串
+    
+    // 检查当前路径是否已有语言前缀
+    const hasLanguagePrefix = pathSegments.length > 0 && 
+      languages.some(l => l.code.startsWith(pathSegments[0]));
+    
+    if (hasLanguagePrefix) {
+      // 移除现有语言前缀
+      pathSegments.shift();
     }
-    if (langCode !== 'en') {
-      // 非英文加前缀
-      if (!newPath.startsWith('/')) newPath = '/' + newPath;
-      newPath = `/${langCode}${newPath}`;
+    
+    // 构建新路径
+    if (langCode === 'en') {
+      // 英文：无前缀路径
+      newPath = pathSegments.length > 0 ? `/${pathSegments.join('/')}` : '/';
+    } else {
+      // 其他语言：添加语言前缀
+      newPath = `/${langCode}${pathSegments.length > 0 ? '/' + pathSegments.join('/') : ''}`;
     }
-    navigate(`${newPath}${location.search}`);
+    
+    // 添加查询参数和哈希
+    const fullPath = `${newPath}${location.search}${location.hash}`;
+    
+    // 使用 navigate 进行客户端路由跳转，避免页面重载
+    navigate(fullPath, { replace: true });
   };
 
   return (
