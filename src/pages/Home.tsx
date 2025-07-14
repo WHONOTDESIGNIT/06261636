@@ -402,8 +402,8 @@ export default function HomePage() {
                   <img
                     src={unlimitedOptions[optionIdx].content.img}
                     alt={unlimitedOptions[optionIdx].label}
-                    style={{ width: '600px', height: '337.5px' /* 或其他尺寸 */ }}
-                    className={`object-cover flex-shrink-0 ${unlimitedOptions[optionIdx].content.imgClass || 'rounded-2xl'}`}
+                    style={optionIdx === 2 ? { width: '600px', height: '600px' } : { width: '600px', height: '337.5px' }}
+                    className="object-cover rounded-2xl flex-shrink-0"
                   />
                 )}
                 <div className="flex-1 text-left min-w-[320px]">
