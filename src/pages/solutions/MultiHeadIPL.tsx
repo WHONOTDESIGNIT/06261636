@@ -2,6 +2,7 @@ import React from 'react';
 import { Settings, Zap, Target } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 import { useLanguage } from '../../context/LanguageContext';
+import SEOTags from '../../components/SEO/SEOTags';
 
 const MultiHeadIPL: React.FC = () => {
   const { t } = useLanguage();
@@ -60,7 +61,13 @@ const MultiHeadIPL: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white pt-20">
+    <>
+      <SEOTags 
+        title="Multi-Head IPL Hair Removal Device | Professional Multi-Attachment System"
+        description="Professional multi-head IPL device with 6 specialized attachments for face, body, and sensitive areas. Features sapphire cooling, skin recognition, and customizable treatment heads."
+        keywords="multi-head IPL, IPL attachments, professional IPL device, sapphire cooling IPL, skin recognition IPL, hair removal device"
+      />
+      <div className="min-h-screen bg-white pt-20">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-[rgb(30,157,139)] to-[rgb(36,151,144)] text-white py-16">
         <div className="max-w-3xl mx-auto px-4 text-center">
@@ -212,6 +219,7 @@ const MultiHeadIPL: React.FC = () => {
         <ContactFormA />
       </div>
     </div>
+    </>
   );
 };
 
