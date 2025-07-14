@@ -396,6 +396,17 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+        {/* More Support Section */}
+        <section className="mt-12 max-w-3xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-bold text-blue-700 mb-2">More Support</h2>
+          <p className="text-lg mb-6 text-gray-700">Flexible customization, providing sample testing and design assistance services.</p>
+          <ul className="space-y-3 text-base">
+            <li className="flex items-start gap-2"><CheckCircle className="w-6 h-6 text-blue-700 mt-1 flex-shrink-0" />MOQ: 1000 pcs by new silicone products developments.</li>
+            <li className="flex items-start gap-2"><CheckCircle className="w-6 h-6 text-blue-700 mt-1 flex-shrink-0" />Prototype time: 7-15 days for silicone prototypes samples making.</li>
+            <li className="flex items-start gap-2"><CheckCircle className="w-6 h-6 text-blue-700 mt-1 flex-shrink-0" />Mass Production time: 30–45 days with quanity in 3,000-300,000pcs.</li>
+            <li className="flex items-start gap-2"><CheckCircle className="w-6 h-6 text-blue-700 mt-1 flex-shrink-0" />Certified: FDA, LFGB, EN71,REACH Products compliant by SGS, Intertek,BV etc.ISO9001,ISO14001, BCSI,SEDEX,SA8000 Certified Factory.</li>
+          </ul>
+        </section>
       </section>
 
       {/* OEM/ODM Process */}
