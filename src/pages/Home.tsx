@@ -353,7 +353,7 @@ export default function HomePage() {
               ))}
             </div>
             <div
-              className="rounded-xl p-6 shadow-lg text-lg min-h-[700px] flex items-center justify-center transition-all"
+              className={`rounded-xl p-6 shadow-lg text-lg flex items-center justify-center transition-all ${optionIdx === 0 ? 'min-h-[500px]' : 'min-h-[700px]'}`}
               style={{ background: "#F3F4F7" }}
             >
               <div className="flex flex-col md:flex-row items-center gap-8 w-full h-full justify-center">
