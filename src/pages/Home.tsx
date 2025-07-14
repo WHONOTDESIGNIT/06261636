@@ -405,7 +405,7 @@ export default function HomePage() {
             <li className="flex items-start gap-2"><CheckCircle className="w-6 h-6 text-blue-700 mt-1 flex-shrink-0" />MOQ: 1000 pcs by new silicone products developments.</li>
             <li className="flex items-start gap-2"><CheckCircle className="w-6 h-6 text-blue-700 mt-1 flex-shrink-0" />Prototype time: 7-15 days for silicone prototypes samples making.</li>
             <li className="flex items-start gap-2"><CheckCircle className="w-6 h-6 text-blue-700 mt-1 flex-shrink-0" />Mass Production time: 30–45 days with quanity in 3,000-300,000pcs.</li>
-            <li className="flex items-start gap-2"><CheckCircle className="w-6 h-6 text-blue-700 mt-1 flex-shrink-0" />Certified: FDA, TGA, MDL ,REACH Products compliant by SGS, Intertek,BV etc.ISO13485 Certified Factory.</li>
+            <li className="flex items-start gap-2"><CheckCircle className="w-6 h-6 text-blue-700 mt-1 flex-shrink-0" />Certified: FDA, TGA, MDL, REACH Products compliant by SGS, Intertek,BV etc.ISO13485 Certified Factory.</li>
           </ul>
         </section>
       </section>
