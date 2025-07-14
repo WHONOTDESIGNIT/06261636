@@ -416,7 +416,9 @@ export default function HomePage() {
                     ? unlimitedOptions[optionIdx].content.text.map((p, i, arr) => (
                         <>
                           <p key={i} className="mb-4 last:mb-0">
-                            {t(`home.customization.options.${optionIdx}.content.text.${i}`, p)}
+                            {typeof p === 'string'
+                              ? t(`home.customization.options.${optionIdx}.content.text.${i}`, p)
+                              : p}
                           </p>
                           {i === 0 && arr.length > 1 && <p className="my-4" key="gap"></p>}
                           {/* 在Function Customization最后一段下方加按钮 */}
