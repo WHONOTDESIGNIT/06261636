@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Palette, Target, Award, CheckCircle } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 import { useLanguage } from '../../context/LanguageContext';
+import SEOTags from '../../components/SEO/SEOTags';
 
 const DesignPrototyping: React.FC = () => {
   const { t } = useLanguage();
@@ -31,7 +32,13 @@ const DesignPrototyping: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-20">
+    <>
+      <SEOTags 
+        title="Design & Prototyping | Custom IPL Device Development"
+        description="Professional design and prototyping services for custom IPL hair removal devices. Rapid prototyping, 3D modeling, and engineering for innovative beauty tech."
+        keywords="design prototyping, IPL device development, custom IPL, rapid prototyping, 3D modeling, beauty tech engineering"
+      />
+      <div className="min-h-screen pt-20">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -74,6 +81,7 @@ const DesignPrototyping: React.FC = () => {
       {/* Contact Form */}
       <ContactFormA />
     </div>
+    </>
   );
 };
 
