@@ -142,151 +142,224 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="w-full bg-white border-b border-gray-200 shadow-sm">
-      <nav className="max-w-7xl mx-auto flex items-center px-8 py-4">
-        {/* Logo */}
-        <Link to="/" className="flex items-center mr-12">
-          <span className="text-xl font-bold text-[#18181B] tracking-tight">/rareblocks</span>
-        </Link>
-        {/* Desktop Navigation */}
-        <div className="hidden lg:flex items-center gap-8">
-          {navigation.map((item) => (
-            <div key={item.name} className="relative group">
-              <div className="flex items-center">
-                <Link
-                  to={item.href}
-                  className={`text-base font-semibold px-2 py-1 rounded-lg transition-colors duration-200 hover:bg-[#F1F5F9] hover:text-blue-700 ${isActive(item.href) ? 'text-blue-700' : 'text-[#18181B]'}`}
-                >
-                  {item.name}
-                </Link>
-                {item.hasDropdown && (
-                  <ChevronDown className="ml-1 w-4 h-4 text-gray-400 group-hover:text-blue-700 transition-colors" />
-                )}
-              </div>
-              {/* Dropdown Menu */}
-              {item.hasDropdown && (
-                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                  <div className="p-4">
-                    {item.items?.map((subItem: any, index) => (
-                      <div key={index}>
-                        {subItem.isCategory ? (
-                          <div className="mb-4">
-                            <h4 className="font-semibold text-gray-900 mb-2 text-sm border-b border-gray-100 pb-1">{subItem.name}</h4>
-                            <div className="space-y-1">
-                              {subItem.items?.map((categoryItem: any, catIndex: number) => (
-                                <Link
-                                  key={catIndex}
-                                  to={categoryItem.href}
-                                  className="flex items-center px-3 py-2 text-sm text-gray-600 hover:text-blue-700 hover:bg-[#F1F5F9] rounded-md transition-colors"
-                                >
-                                  {categoryItem.icon ? (
-                                    <span className="text-lg mr-3">{categoryItem.icon}</span>
-                                  ) : null}
-                                  {categoryItem.name}
-                                </Link>
-                              ))}
-                            </div>
-                          </div>
-                        ) : (
-                          <Link
-                            to={subItem.href}
-                            className="flex items-center px-3 py-2 text-sm text-gray-600 hover:text-blue-700 hover:bg-[#F1F5F9] rounded-md transition-colors"
-                          >
-                            {subItem.icon ? (
-                              <span className="text-lg mr-3">{subItem.icon}</span>
-                            ) : null}
-                            {subItem.name}
-                          </Link>
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-16">
+          {/* Logo */}
+          <Link to="/" className="flex items-center space-x-2">
+            <div className="w-8 h-8 bg-gradient-to-br from-ishine-blue-500 to-ishine-purple-500 rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-sm">iS</span>
             </div>
-          ))}
-        </div>
-        {/* 右侧按钮组 */}
-        <div className="flex gap-4 items-center ml-auto">
-          <LanguageSelector />
-          <Link to="/login" className="text-base font-medium text-[#18181B] hover:text-blue-700 transition">Sign in</Link>
-          <Link to="/register" className="px-6 py-2 bg-[#18181B] text-white rounded-lg font-semibold shadow hover:bg-[#333] transition">Create free account</Link>
-        </div>
-        {/* 移动端菜单按钮 */}
-        <button
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="lg:hidden ml-4 p-2 rounded hover:bg-[#F1F5F9] text-gray-600 hover:text-[#18181B]"
-        >
-          {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-        </button>
-      </nav>
-      {/* 移动端导航 */}
-      {isMenuOpen && (
-        <div className="lg:hidden py-4 border-t border-gray-100 max-h-96 overflow-y-auto bg-white px-8">
-          <div className="mb-4">
-            <LanguageSelector />
-          </div>
-          <div className="flex flex-col gap-4">
+            <span className="text-xl font-bold text-gray-900">{t('header.logo', 'iShine')}</span>
+          </Link>
+
+          {/* Desktop Navigation */}
+          <div className="hidden lg:flex items-center space-x-8">
             {navigation.map((item) => (
-              <div key={item.name}>
-                <div className="flex items-center justify-between">
+              <div key={item.name} className="relative group">
+                <div className="flex items-center">
                   <Link
                     to={item.href}
-                    onClick={() => setIsMenuOpen(false)}
-                    className={`text-base font-semibold px-2 py-1 rounded-lg transition-colors duration-200 hover:bg-[#F1F5F9] hover:text-blue-700 ${isActive(item.href) ? 'text-blue-700' : 'text-[#18181B]'}`}
+                    className={`text-sm font-medium transition-colors duration-200 hover:text-ishine-blue-500 ${
+                      isActive(item.href) ? 'text-ishine-blue-500' : 'text-gray-700'
+                    }`}
                   >
                     {item.name}
                   </Link>
                   {item.hasDropdown && (
-                    <button
-                      onClick={() => handleDropdownToggle(item.name)}
-                      className="p-1"
-                    >
-                      <ChevronDown
-                        className={`w-4 h-4 text-gray-400 transition-transform ${activeDropdown === item.name ? 'rotate-180' : ''}`}
-                      />
-                    </button>
+                    <ChevronDown className="ml-1 w-4 h-4 text-gray-500 group-hover:text-ishine-blue-500 transition-colors" />
                   )}
                 </div>
-                {/* Mobile Dropdown */}
-                {item.hasDropdown && activeDropdown === item.name && (
-                  <div className="mt-2 ml-4 flex flex-col gap-2">
-                    {item.items?.map((subItem: any, index) => (
-                      <div key={index}>
-                        {subItem.isCategory ? (
-                          <div className="mb-3">
-                            <h4 className="font-semibold text-gray-900 mb-1 text-xs">{subItem.name}</h4>
-                            <div className="flex flex-col gap-1 ml-2">
-                              {subItem.items?.map((categoryItem: any, catIndex: number) => (
-                                <Link
-                                  key={catIndex}
-                                  to={categoryItem.href}
-                                  onClick={() => setIsMenuOpen(false)}
-                                  className="block text-xs text-gray-600 hover:text-blue-700 py-1 rounded hover:bg-[#F1F5F9]"
-                                >
-                                  {categoryItem.name}
-                                </Link>
-                              ))}
+
+                {/* Dropdown Menu - IPL Hair Removal 菜单宽度调整为150% */}
+                {item.hasDropdown && (
+                  <div className={`absolute top-full left-0 mt-2 ${
+                    item.name === 'IPL Hair Removal' ? 'w-120' : 'w-80'
+                  } bg-white rounded-lg shadow-xl border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50`}>
+                    <div className="p-4">
+                      {item.items?.map((subItem: any, index) => (
+                        <div key={index}>
+                          {subItem.isCategory ? (
+                            <div className="mb-4">
+                              <h4 className="font-semibold text-gray-900 mb-2 text-sm border-b border-gray-200 pb-1">
+                                {subItem.name}
+                              </h4>
+                              <div className="space-y-1">
+                                {subItem.items?.map((categoryItem: any, catIndex: number) => (
+                                  <Link
+                                    key={catIndex}
+                                    to={categoryItem.href}
+                                    className="flex items-center px-3 py-2 text-sm text-gray-600 hover:text-ishine-blue-500 hover:bg-gray-50 rounded-md transition-colors"
+                                  >
+                                    {categoryItem.thumbnail ? (
+                                      <img
+                                        src={getThumbnailUrl(categoryItem.name)}
+                                        alt={categoryItem.name}
+                                        className="w-8 h-8 rounded object-cover mr-3"
+                                        onError={(e) => {
+                                          // 如果图片加载失败，隐藏图片元素
+                                          e.currentTarget.style.display = 'none';
+                                        }}
+                                      />
+                                    ) : categoryItem.icon ? (
+                                      <span className="text-lg mr-3">{categoryItem.icon}</span>
+                                    ) : null}
+                                    {categoryItem.name}
+                                  </Link>
+                                ))}
+                              </div>
                             </div>
-                          </div>
-                        ) : (
-                          <Link
-                            to={subItem.href}
-                            onClick={() => setIsMenuOpen(false)}
-                            className="flex items-center text-sm text-gray-600 hover:text-blue-700 py-1 rounded hover:bg-[#F1F5F9]"
-                          >
-                            {subItem.name}
-                          </Link>
-                        )}
-                      </div>
-                    ))}
+                          ) : (
+                            <Link
+                              to={subItem.href}
+                              className="flex items-center px-3 py-2 text-sm text-gray-600 hover:text-ishine-blue-500 hover:bg-gray-50 rounded-md transition-colors"
+                            >
+                              {subItem.thumbnail ? (
+                                <img
+                                  src={getThumbnailUrl(subItem.name)}
+                                  alt={subItem.name}
+                                  className="w-8 h-8 rounded object-cover mr-3"
+                                  onError={(e) => {
+                                    e.currentTarget.style.display = 'none';
+                                  }}
+                                />
+                              ) : subItem.icon ? (
+                                <span className="text-lg mr-3">{subItem.icon}</span>
+                              ) : null}
+                              {subItem.name}
+                            </Link>
+                          )}
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 )}
               </div>
             ))}
           </div>
+
+          {/* Right Side Icons */}
+          <div className="flex items-center space-x-4">
+            <LanguageSelector />
+            <button className="p-2 text-gray-600 hover:text-ishine-blue-500 transition-colors">
+              <Search className="w-5 h-5" />
+            </button>
+            <a
+              href="https://youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 text-gray-600 hover:text-red-500 transition-colors"
+            >
+              <Youtube className="w-5 h-5" />
+            </a>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 text-gray-600 hover:text-blue-600 transition-colors"
+            >
+              <Linkedin className="w-5 h-5" />
+            </a>
+
+            {/* Mobile menu button */}
+            <button
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="lg:hidden p-2 text-gray-600 hover:text-gray-900"
+            >
+              {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
+          </div>
         </div>
-      )}
+
+        {/* Mobile Navigation */}
+        {isMenuOpen && (
+          <div className="lg:hidden py-4 border-t border-gray-200 max-h-96 overflow-y-auto">
+            {/* Mobile Language Selector */}
+            <div className="mb-4 px-4">
+              <LanguageSelector />
+            </div>
+            
+            <div className="flex flex-col space-y-4">
+              {navigation.map((item) => (
+                <div key={item.name}>
+                  <div className="flex items-center justify-between">
+                    <Link
+                      to={item.href}
+                      onClick={() => setIsMenuOpen(false)}
+                      className={`text-sm font-medium transition-colors duration-200 hover:text-ishine-blue-500 ${
+                        isActive(item.href) ? 'text-ishine-blue-500' : 'text-gray-700'
+                      }`}
+                    >
+                      {item.name}
+                    </Link>
+                    {item.hasDropdown && (
+                      <button
+                        onClick={() => handleDropdownToggle(item.name)}
+                        className="p-1"
+                      >
+                        <ChevronDown
+                          className={`w-4 h-4 text-gray-500 transition-transform ${
+                            activeDropdown === item.name ? 'rotate-180' : ''
+                          }`}
+                        />
+                      </button>
+                    )}
+                  </div>
+
+                  {/* Mobile Dropdown */}
+                  {item.hasDropdown && activeDropdown === item.name && (
+                    <div className="mt-2 ml-4 space-y-2">
+                      {item.items?.map((subItem: any, index) => (
+                        <div key={index}>
+                          {subItem.isCategory ? (
+                            <div className="mb-3">
+                              <h4 className="font-semibold text-gray-900 mb-1 text-xs">
+                                {subItem.name}
+                              </h4>
+                              <div className="space-y-1 ml-2">
+                                {subItem.items?.map((categoryItem: any, catIndex: number) => (
+                                  <Link
+                                    key={catIndex}
+                                    to={categoryItem.href}
+                                    onClick={() => setIsMenuOpen(false)}
+                                    className="block text-xs text-gray-600 hover:text-ishine-blue-500 py-1"
+                                  >
+                                    {categoryItem.name}
+                                  </Link>
+                                ))}
+                              </div>
+                            </div>
+                          ) : (
+                            <Link
+                              to={subItem.href}
+                              onClick={() => setIsMenuOpen(false)}
+                              className="flex items-center text-sm text-gray-600 hover:text-ishine-blue-500 py-1"
+                            >
+                              {subItem.thumbnail ? (
+                                <img
+                                  src={getThumbnailUrl(subItem.name)}
+                                  alt={subItem.name}
+                                  className="w-6 h-6 rounded object-cover mr-2"
+                                  onError={(e) => {
+                                    e.currentTarget.style.display = 'none';
+                                  }}
+                                />
+                              ) : subItem.icon ? (
+                                <span className="text-sm mr-2">{subItem.icon}</span>
+                              ) : null}
+                              {subItem.name}
+                            </Link>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+      </nav>
     </header>
   );
 };
