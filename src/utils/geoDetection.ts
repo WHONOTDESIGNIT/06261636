@@ -98,10 +98,37 @@ export const showLanguageSuggestion = (suggestedLanguage: string, currentLanguag
   
   document.body.prepend(banner);
   
-  // 添加事件监听器
+  // 添加事件监听器 - 移除重定向，只更新语言状态
   document.getElementById('accept-suggestion')?.addEventListener('click', () => {
-    const newPath = suggestedLanguage === 'en' ? window.location.pathname.replace(/^\/[a-z]{2}(\/|$)/, '/') : `/${suggestedLanguage}${window.location.pathname}`;
-    window.location.href = newPath;
+    // 移除重定向逻辑，只记录用户选择
+    localStorage.setItem('selectedLanguage', suggestedLanguage);
+    localStorage.setItem('user-visited-before', 'true');
+    
+    // 隐藏横幅
+    banner.remove();
+    
+    // 可选：显示成功消息
+    const successMessage = document.createElement('div');
+    successMessage.style.cssText = `
+      position: fixed;
+      top: 60px;
+      right: 20px;
+      background: #10b981;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 4px;
+      z-index: 10000;
+      font-size: 12px;
+    `;
+    successMessage.textContent = `已切换到${languageNames[suggestedLanguage] || suggestedLanguage}`;
+    document.body.appendChild(successMessage);
+    
+    // 3秒后移除成功消息
+    setTimeout(() => {
+      if (successMessage.parentNode) {
+        successMessage.remove();
+      }
+    }, 3000);
   });
   
   document.getElementById('dismiss-suggestion')?.addEventListener('click', () => {
