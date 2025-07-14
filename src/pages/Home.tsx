@@ -364,7 +364,7 @@ export default function HomePage() {
                   <img
                     src={unlimitedOptions[optionIdx].content.img}
                     alt={unlimitedOptions[optionIdx].label}
-                    className="w-[600px] h-[480px] object-contain rounded-xl shadow"
+                    className="w-[600px] h-[480px] object-contain rounded-[32px]"
                   />
                 )}
                 <div className="flex-1 text-left">
