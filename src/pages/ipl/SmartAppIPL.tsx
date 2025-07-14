@@ -10,6 +10,7 @@ import {
   Truck,
   Award,
 } from 'lucide-react';
+import SEOTags from '../../components/SEO/SEOTags';
 
 const SmartAppIPL: React.FC = () => {
   const { t } = useTranslation();
@@ -35,6 +36,11 @@ const SmartAppIPL: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white pt-20">
+      <SEOTags 
+        title={t('ipl.smartApp.seo.title', 'Smart App-Controlled IPL Device | Bluetooth Connected Hair Removal | iShine')}
+        description={t('ipl.smartApp.seo.description', 'Advanced smart app-controlled IPL device with Bluetooth connectivity. Customizable settings, treatment tracking, and professional-grade hair removal technology.')}
+        keywords={t('ipl.smartApp.seo.keywords', 'smart IPL device, app-controlled IPL, Bluetooth IPL, connected hair removal, smart beauty device, IPL app')}
+      />
       <div className="container mx-auto px-4">
         {/* Breadcrumb */}
         <nav className="text-sm text-gray-500 mb-4 mt-4 uppercase">
