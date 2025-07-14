@@ -13,32 +13,50 @@ const unlimitedOptions = [
   {
     label: "Color Customization",
     icon: <Palette className="w-6 h-6" />,
-    content: "Choose from unlimited color options to match your brand identity."
+    content: {
+      img: "/images/color-customization.png",
+      text: "Choose from unlimited color options to match your brand identity. We support Pantone, metallic, gradient and more."
+    }
   },
   {
     label: "Logo Printing",
     icon: <BadgeCheck className="w-6 h-6" />,
-    content: "Add your logo for a fully branded product experience."
+    content: {
+      img: "/images/logo-printing.png",
+      text: "Add your logo for a fully branded product experience. Multiple printing techniques available."
+    }
   },
   {
     label: "Function Customization",
     icon: <Flame className="w-6 h-6" />,
-    content: "Customize features and functions to meet your market needs."
+    content: {
+      img: "/images/function-customization.png",
+      text: "Customize features and functions to meet your market needs."
+    }
   },
   {
     label: "Packaging Design",
     icon: <Package className="w-6 h-6" />,
-    content: "Premium packaging for retail, e-commerce, or gifting."
+    content: {
+      img: "/images/packaging-design.png",
+      text: "Premium packaging for retail, e-commerce, or gifting."
+    }
   },
   {
     label: "Certification Support",
     icon: <CheckCircle className="w-6 h-6" />,
-    content: "Fully support for global certifications."
+    content: {
+      img: "/images/certification-support.png",
+      text: "Fully support for global certifications."
+    }
   },
   {
     label: "Quality Control",
     icon: <ThumbsUp className="w-6 h-6" />,
-    content: "Strict quality control for every batch to ensure product excellence."
+    content: {
+      img: "/images/quality-control.png",
+      text: "Strict quality control for every batch to ensure product excellence."
+    }
   },
 ];
 
@@ -335,10 +353,21 @@ export default function HomePage() {
               ))}
             </div>
             <div
-              className="rounded-xl p-6 shadow-lg text-center text-lg min-h-[700px] flex items-center justify-center transition-all"
+              className="rounded-xl p-6 shadow-lg text-lg min-h-[700px] flex items-center justify-center transition-all"
               style={{ background: "#F3F4F7" }}
             >
-              {t(`home.customization.options.${optionIdx}.content`, unlimitedOptions[optionIdx].content)}
+              <div className="flex flex-col md:flex-row items-center gap-8 w-full h-full justify-center">
+                {unlimitedOptions[optionIdx].content.img && (
+                  <img
+                    src={unlimitedOptions[optionIdx].content.img}
+                    alt={unlimitedOptions[optionIdx].label}
+                    className="w-64 h-64 object-contain rounded-xl shadow"
+                  />
+                )}
+                <div className="flex-1 text-left">
+                  {t(`home.customization.options.${optionIdx}.content.text`, unlimitedOptions[optionIdx].content.text)}
+                </div>
+              </div>
             </div>
           </div>
         </div>
