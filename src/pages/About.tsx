@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Award, Users, Globe, Target } from 'lucide-react';
 import ContactFormA from '../components/Forms/ContactFormA';
 import { useLanguage } from '../context/LanguageContext';
+import SEOTags from '../components/SEO/SEOTags';
 
 const About: React.FC = () => {
   const { t } = useLanguage();
@@ -31,6 +32,11 @@ const About: React.FC = () => {
 
   return (
     <div className="min-h-screen pt-20">
+      <SEOTags 
+        title={t('about.seo.title', 'About iShine - Leading IPL Device Manufacturer | Innovation & Quality')}
+        description={t('about.seo.description', 'Discover iShine\'s journey as a leading IPL device manufacturer. Learn about our innovation, quality standards, and commitment to excellence in beauty device manufacturing.')}
+        keywords={t('about.seo.keywords', 'about iShine, IPL manufacturer, beauty device company, innovation, quality, manufacturing excellence')}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-ishine-blue-500 via-ishine-purple-500 to-ishine-teal-500 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
