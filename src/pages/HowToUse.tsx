@@ -16,6 +16,7 @@ import {
 } from 'lucide-react';
 import ContactFormA from '../components/Forms/ContactFormA';
 import { useLanguage } from '../context/LanguageContext';
+import SEOTags from '../components/SEO/SEOTags';
 
 const HowToUse: React.FC = () => {
   const { t } = useLanguage();
@@ -192,6 +193,11 @@ const HowToUse: React.FC = () => {
 
   return (
     <div className="min-h-screen pt-20">
+      <SEOTags 
+        title={t('howToUse.seo.title', 'How to Use IPL Hair Removal Devices | Complete Guide | iShine')}
+        description={t('howToUse.seo.description', 'Learn how to use IPL hair removal devices safely and effectively. Complete guide with step-by-step instructions, safety tips, and best practices.')}
+        keywords={t('howToUse.seo.keywords', 'how to use IPL, IPL hair removal guide, IPL device instructions, IPL safety tips, IPL treatment guide')}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-ishine-blue-500 to-ishine-teal-500 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
