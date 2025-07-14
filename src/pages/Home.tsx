@@ -168,10 +168,10 @@ export default function HomePage() {
       </header>
       {/* Hero Section - Figma风格 */}
       <section className="flex flex-col md:flex-row items-center justify-between px-8 py-20 bg-[#FAFAFA]">
-        {/* 左侧内容整体右移 */}
-        <div className="max-w-xl w-full pl-8 md:pl-20">
-          <h1 className="text-5xl md:text-6xl font-extrabold text-[#18181B] mb-6 leading-tight">A special niche for Cosmetic Brands.</h1>
-          <p className="text-lg text-[#52525B] mb-8">At-Home Hair Removal Devices, Best Niche Market for Cosmetic Brands. We help you design it, build it and box it.</p>
+        {/* 左侧内容整体更大右移 */}
+        <div className="max-w-xl w-full pl-16 md:pl-40">
+          <h1 className="text-5xl md:text-6xl font-extrabold text-[#18181B] mb-6 leading-tight">A special credit card made for Developers.</h1>
+          <p className="text-lg text-[#52525B] mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vehicula massa in enim luctus. Rutrum arcu.</p>
           <form className="flex flex-col md:flex-row gap-4 mb-8">
             <input type="text" placeholder="Enter your email" className="flex-1 px-6 py-4 rounded-xl border border-gray-300 bg-[#FAFAFA] focus:outline-none focus:ring-2 focus:ring-blue-500 text-base" />
             <button type="submit" className="px-8 py-4 bg-[#18181B] text-white rounded-xl font-semibold shadow hover:bg-[#333] transition">Get Started</button>
@@ -179,16 +179,16 @@ export default function HomePage() {
           <div className="flex gap-8 mt-8">
             <div>
               <div className="text-3xl font-bold text-[#18181B]">2943</div>
-              <div className="text-sm text-[#52525B]">Projects Delivered</div>
+              <div className="text-sm text-[#52525B]">Cards Delivered</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-[#18181B]">$1M+</div>
-              <div className="text-sm text-[#52525B]">IPL Devices Completed</div>
+              <div className="text-sm text-[#52525B]">Transaction Completed</div>
             </div>
           </div>
         </div>
-        {/* 右侧插画/图片 */}
-        <div className="hidden md:block ml-16">
+        {/* 右侧插画/图片整体左移 */}
+        <div className="hidden md:block -ml-8 md:-ml-24">
           <img src="/figma-assets/Illustration-x1.png" alt="Hero Illustration" className="w-[475px] h-[607px] rounded-2xl shadow-lg object-cover" />
         </div>
       </section>
