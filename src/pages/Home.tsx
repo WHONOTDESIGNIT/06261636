@@ -359,16 +359,16 @@ export default function HomePage() {
               className={`rounded-xl p-6 shadow-lg text-lg flex items-center justify-center transition-all ${optionIdx === 0 ? 'min-h-[500px]' : 'min-h-[700px]'}`}
               style={{ background: "#F3F4F7" }}
             >
-              <div className="flex flex-col md:flex-row items-center gap-8 w-full h-full justify-center">
+              <div className="flex flex-col md:flex-row items-center gap-8 w-full h-full justify-center overflow-x-auto">
                 {unlimitedOptions[optionIdx].content.img && (
                   <img
                     src={unlimitedOptions[optionIdx].content.img}
                     alt={unlimitedOptions[optionIdx].label}
                     style={{ width: '600px', height: '480px' }}
-                    className="object-cover rounded-2xl"
+                    className="object-cover rounded-2xl flex-shrink-0"
                   />
                 )}
-                <div className="flex-1 text-left">
+                <div className="flex-1 text-left min-w-[320px]">
                   {Array.isArray(unlimitedOptions[optionIdx].content.text)
                     ? unlimitedOptions[optionIdx].content.text.map((p, i, arr) => (
                         <>
