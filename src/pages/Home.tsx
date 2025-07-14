@@ -18,7 +18,9 @@ const unlimitedOptions = [
       text: [
         "You can customize IPL products color according to the Pantone book. We will add the Pantone Color Paste to the ABS material when the material mixed. Our usual colors are White, Red, Translucent, Green, and Gray. We also can make the double color, marble color and multi-colored Molded IPL products for you if you needed.",
         "iShine own the printing workshop for printing the pattern or logo color by Silk Screen printing, Pad printing, Heat Transfer printing and Water Transfer printing, In mold Decoration, Digital printing."
-      ]
+      ],
+      cardClass: "bg-[#F3F4F7] rounded-[32px] shadow-lg",
+      imgClass: "rounded-[32px] border-4 border-blue-200",
     }
   },
   {
@@ -37,7 +39,9 @@ const unlimitedOptions = [
           In iShine group, we offer different ways to put your logo and pattern on. The different logo and patterns may need different methods.{' '}
           <Link to="/solutions/logo-printing" className="text-blue-700 underline underline-offset-2 font-bold hover:text-blue-800 transition">Click Here</Link> to get rough information for the different performance with the different printing ways.
         </>
-      ]
+      ],
+      cardClass: "bg-white rounded-2xl shadow-xl border border-blue-100",
+      imgClass: "rounded-xl border-2 border-blue-400",
     }
   },
   {
@@ -61,7 +65,9 @@ const unlimitedOptions = [
           </ul>
         </>,
         "All the IPL products iShine made from basic one to smart skin-sensor IPL to meet your different project needs."
-      ]
+      ],
+      cardClass: "bg-[#F3F4F7] rounded-[32px] shadow-lg",
+      imgClass: "rounded-[32px] border-4 border-blue-200",
     }
   },
   {
@@ -69,7 +75,9 @@ const unlimitedOptions = [
     icon: <Package className="w-6 h-6" />,
     content: {
       img: "/images/packaging-design.png",
-      text: "Premium packaging for retail, e-commerce, or gifting."
+      text: "Premium packaging for retail, e-commerce, or gifting.",
+      cardClass: "bg-[#F3F4F7] rounded-[32px] shadow-lg",
+      imgClass: "rounded-[32px] border-4 border-blue-200",
     }
   },
   {
@@ -77,7 +85,9 @@ const unlimitedOptions = [
     icon: <CheckCircle className="w-6 h-6" />,
     content: {
       img: "/images/certification-support.png",
-      text: "Fully support for global certifications."
+      text: "Fully support for global certifications.",
+      cardClass: "bg-[#F3F4F7] rounded-[32px] shadow-lg",
+      imgClass: "rounded-[32px] border-4 border-blue-200",
     }
   },
   {
@@ -85,7 +95,9 @@ const unlimitedOptions = [
     icon: <ThumbsUp className="w-6 h-6" />,
     content: {
       img: "/images/quality-control.png",
-      text: "Strict quality control for every batch to ensure product excellence."
+      text: "Strict quality control for every batch to ensure product excellence.",
+      cardClass: "bg-[#F3F4F7] rounded-[32px] shadow-lg",
+      imgClass: "rounded-[32px] border-4 border-blue-200",
     }
   },
 ];
@@ -383,16 +395,15 @@ export default function HomePage() {
               ))}
             </div>
             <div
-              className={`rounded-xl p-6 shadow-lg text-lg flex items-center justify-center transition-all ${optionIdx === 0 ? 'min-h-[500px]' : 'min-h-[700px]'}`}
-              style={{ background: "#F3F4F7" }}
+              className={`p-6 min-h-[500px] flex items-center justify-center transition-all ${unlimitedOptions[optionIdx].content.cardClass || 'bg-[#F3F4F7] rounded-2xl shadow-lg'}`}
             >
               <div className="flex flex-col md:flex-row items-center gap-8 w-full h-full justify-center overflow-x-auto">
                 {unlimitedOptions[optionIdx].content.img && (
                   <img
                     src={unlimitedOptions[optionIdx].content.img}
                     alt={unlimitedOptions[optionIdx].label}
-                    style={{ width: '600px', height: '600px' }}
-                    className="object-cover rounded-2xl flex-shrink-0"
+                    style={{ width: '600px', height: '337.5px' /* 或其他尺寸 */ }}
+                    className={`object-cover flex-shrink-0 ${unlimitedOptions[optionIdx].content.imgClass || 'rounded-2xl'}`}
                   />
                 )}
                 <div className="flex-1 text-left min-w-[320px]">
@@ -403,6 +414,17 @@ export default function HomePage() {
                             {t(`home.customization.options.${optionIdx}.content.text.${i}`, p)}
                           </p>
                           {i === 0 && arr.length > 1 && <p className="my-4" key="gap"></p>}
+                          {/* 在Function Customization最后一段下方加按钮 */}
+                          {optionIdx === 2 && i === arr.length - 1 && (
+                            <div className="mt-6 flex justify-start">
+                              <Link
+                                to="/solutions"
+                                className="inline-block px-8 py-3 bg-blue-700 text-white font-bold rounded-full shadow hover:bg-blue-800 transition"
+                              >
+                                Ask Our Expert
+                              </Link>
+                            </div>
+                          )}
                         </>
                       ))
                     : t(`home.customization.options.${optionIdx}.content.text`, unlimitedOptions[optionIdx].content.text)
