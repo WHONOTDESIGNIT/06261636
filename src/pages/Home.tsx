@@ -179,7 +179,7 @@ export default function HomePage() {
           <div className="flex gap-8 mt-8">
             <div>
               <div className="text-3xl font-bold text-[#18181B]">2943</div>
-              <div className="text-sm text-[#52525B]">Cards Delivered</div>
+              <div className="text-sm text-[#52525B]">Projects Delivered</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-[#18181B]">$1M+</div>
