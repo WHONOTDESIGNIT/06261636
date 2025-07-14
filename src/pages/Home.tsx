@@ -15,7 +15,9 @@ const unlimitedOptions = [
     icon: <Palette className="w-6 h-6" />,
     content: {
       img: "/homeimages/ipl color customize.png",
-      text: "Choose from unlimited color options to match your brand identity. We support Pantone, metallic, gradient and more."
+      text: "You can customize silicone products color according to the Pantone book. We will add the FDA Color Paste to the silicone material when the material mixed. Our usual colors are White, Red, Translucent，Green, and Gray. We also can make the double color, marble color and multi-colored Molded silicone products for you if you needed
+
+ZSR own the printing workshop for printing the pattern or logo color by Silk Screen printing,Pad printing,Heat Transfer printing and Water Transfer printing, In mold Decoration, Digital printing."
     }
   },
   {
