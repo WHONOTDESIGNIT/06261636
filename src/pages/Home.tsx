@@ -153,15 +153,15 @@ export default function HomePage() {
         keywords={t('home.seo.keywords', 'IPL hair removal devices, custom manufacturing, OEM ODM, beauty device manufacturing, IPL device manufacturer')}
       />
       {/* Header Navigation - Figma风格 */}
-      <header className="flex items-center justify-between px-8 py-4 bg-white shadow-sm">
-        <div className="text-xl font-bold tracking-tight text-[#18181B]">/rareblocks</div>
+      <header className="flex items-center px-8 py-4 bg-white shadow-sm">
+        <div className="text-xl font-bold tracking-tight text-[#18181B] mr-12">/rareblocks</div>
         <nav className="flex gap-8 items-center">
           <Link to="/solutions" className="text-base font-medium text-[#18181B] hover:text-blue-700 transition">Solutions</Link>
           <Link to="/industries" className="text-base font-medium text-[#18181B] hover:text-blue-700 transition">Industries</Link>
           <Link to="/pricing-guide" className="text-base font-medium text-[#18181B] hover:text-blue-700 transition">Fees</Link>
           <Link to="/about" className="text-base font-medium text-[#18181B] hover:text-blue-700 transition">About Rareblocks</Link>
         </nav>
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-4 items-center ml-auto">
           <Link to="/login" className="text-base font-medium text-[#18181B] hover:text-blue-700 transition">Sign in</Link>
           <Link to="/register" className="px-6 py-2 bg-[#18181B] text-white rounded-lg font-semibold shadow hover:bg-[#333] transition">Create free account</Link>
         </div>
