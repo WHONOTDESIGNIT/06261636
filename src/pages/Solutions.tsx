@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Lightbulb, Cog, Package, Rocket, Users, Award } from 'lucide-react';
 import ContactFormA from '../components/Forms/ContactFormA';
 import { useLanguage } from '../context/LanguageContext';
+import SEOTags from '../components/SEO/SEOTags';
 
 const Solutions: React.FC = () => {
   const { t } = useLanguage();
@@ -51,6 +52,11 @@ const Solutions: React.FC = () => {
 
   return (
     <div className="min-h-screen pt-20">
+      <SEOTags 
+        title={t('solutions.seo.title', 'IPL Device Manufacturing Solutions | Custom OEM/ODM Services | iShine')}
+        description={t('solutions.seo.description', 'Comprehensive IPL device manufacturing solutions including logo printing, packaging, drop shipping, global shipping, and brand customization. Turn your ideas into market-ready products.')}
+        keywords={t('solutions.seo.keywords', 'IPL manufacturing solutions, OEM ODM services, logo printing, packaging solutions, drop shipping, brand customization')}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-ishine-teal-500 to-ishine-blue-500 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
