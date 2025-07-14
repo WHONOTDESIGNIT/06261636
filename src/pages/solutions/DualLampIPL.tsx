@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Zap, Award, Shield, CheckCircle } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 import { useLanguage } from '../../context/LanguageContext';
+import SEOTags from '../../components/SEO/SEOTags';
 
 const DualLampIPL: React.FC = () => {
   const { t } = useLanguage();
@@ -31,7 +32,13 @@ const DualLampIPL: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-20">
+    <>
+      <SEOTags 
+        title="Dual Lamp IPL Device | Professional Dual-Light Hair Removal System"
+        description="Professional dual lamp IPL device with enhanced coverage and efficiency. Features dual light sources for faster treatment and improved hair removal results."
+        keywords="dual lamp IPL, dual light IPL, professional IPL device, enhanced coverage IPL, faster hair removal"
+      />
+      <div className="min-h-screen bg-white pt-20">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-purple-600 to-pink-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -74,6 +81,7 @@ const DualLampIPL: React.FC = () => {
       {/* Contact Form */}
       <ContactFormA />
     </div>
+    </>
   );
 };
 
