@@ -18,6 +18,7 @@ import {
 } from 'lucide-react';
 import ContactFormA from '../components/Forms/ContactFormA';
 import { useTranslation } from '../hooks/useTranslation';
+import SEOTags from '../components/SEO/SEOTags';
 
 const ServiceSupport: React.FC = () => {
   const { t } = useTranslation();
@@ -116,6 +117,11 @@ const ServiceSupport: React.FC = () => {
 
   return (
     <div className="min-h-screen pt-20">
+      <SEOTags 
+        title={t('serviceSupport.seo.title', 'Service & Support | IPL Device Manufacturing Support | iShine')}
+        description={t('serviceSupport.seo.description', 'Comprehensive service and support for IPL device manufacturers. After-sales service, technical support, knowledge base, and manufacturing assistance.')}
+        keywords={t('serviceSupport.seo.keywords', 'IPL service support, after-sales service, technical support, manufacturing support, knowledge base')}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
