@@ -144,7 +144,7 @@ const Header: React.FC = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-32">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-br from-ishine-blue-500 to-ishine-purple-500 rounded-lg flex items-center justify-center">
@@ -241,9 +241,6 @@ const Header: React.FC = () => {
           {/* Right Side Icons */}
           <div className="flex items-center space-x-4">
             <LanguageSelector />
-            <button className="p-2 text-gray-600 hover:text-ishine-blue-500 transition-colors">
-              <Search className="w-5 h-5" />
-            </button>
             <a
               href="https://youtube.com"
               target="_blank"
