@@ -167,7 +167,7 @@ export default function HomePage() {
         </div>
       </header>
       {/* Hero Section - Figma风格 */}
-      <section className="flex flex-col md:flex-row items-center justify-between px-8 py-20 bg-[#FAFAFA]">
+      <section className="flex flex-col md:flex-row items-center justify-between px-8 py-[112px] md:py-[224px] bg-[#FAFAFA]">
         {/* 左侧内容整体更大右移 */}
         <div className="max-w-3xl w-full pl-16 md:pl-40">
           <h1 className="text-5xl md:text-6xl font-extrabold text-[#18181B] mb-6 leading-tight">A special credit card made for Developers.</h1>
