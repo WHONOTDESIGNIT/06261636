@@ -321,20 +321,25 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold mb-2 text-center">{t('home.customization.title', 'Unlimited Customization Options')}</h2>
           <p className="text-center mb-8 text-lg">{t('home.customization.subtitle', 'Stand out in the market with fully customizable IPL devices fit for your brand.')}</p>
-          <div className="flex flex-nowrap justify-center gap-2 mb-8 w-full max-w-full">
-            {unlimitedOptions.map((opt, idx) => (
-              <button
-                key={opt.label}
-                className={`flex items-center gap-2 px-4 py-3 rounded-full font-semibold border transition whitespace-nowrap ${optionIdx === idx ? "bg-blue-700 text-white" : "bg-white text-blue-700 border-blue-700"} hover:bg-blue-700 hover:text-white`}
-                onClick={() => setOptionIdx(idx)}
-              >
-                {opt.icon}
-                {t(`home.customization.options.${idx}.label`, opt.label)}
-              </button>
-            ))}
-          </div>
-          <div className="max-w-2xl mx-auto bg-white rounded-xl p-6 shadow-lg text-center text-lg min-h-[80px] flex items-center justify-center transition-all">
-            {t(`home.customization.options.${optionIdx}.content`, unlimitedOptions[optionIdx].content)}
+          <div className="w-fit mx-auto">
+            <div className="flex flex-nowrap justify-center gap-2 mb-8">
+              {unlimitedOptions.map((opt, idx) => (
+                <button
+                  key={opt.label}
+                  className={`flex items-center gap-2 px-4 py-3 rounded-full font-semibold border transition whitespace-nowrap ${optionIdx === idx ? "bg-blue-700 text-white" : "bg-white text-blue-700 border-blue-700"} hover:bg-blue-700 hover:text-white`}
+                  onClick={() => setOptionIdx(idx)}
+                >
+                  {opt.icon}
+                  {t(`home.customization.options.${idx}.label`, opt.label)}
+                </button>
+              ))}
+            </div>
+            <div
+              className="rounded-xl p-6 shadow-lg text-center text-lg min-h-[80px] flex items-center justify-center transition-all"
+              style={{ background: "#F3F4F7" }}
+            >
+              {t(`home.customization.options.${optionIdx}.content`, unlimitedOptions[optionIdx].content)}
+            </div>
           </div>
         </div>
       </section>
