@@ -364,7 +364,7 @@ export default function HomePage() {
                   <img
                     src={unlimitedOptions[optionIdx].content.img}
                     alt={unlimitedOptions[optionIdx].label}
-                    style={{ width: '600px', height: '480px' }}
+                    style={{ width: '600px', height: '337.5px' }}
                     className="object-cover rounded-2xl flex-shrink-0"
                   />
                 )}
