@@ -44,7 +44,7 @@ const unlimitedOptions = [
     label: "Function Customization",
     icon: <Flame className="w-6 h-6" />,
     content: {
-      img: "/homeimages/home hair removal device technologies.webp",
+      img: "/homeimages/9 home hair removal device technologies.webp",
       text: [
         "iShine’s Own Eight IPL Device Technologies.",
         <>
