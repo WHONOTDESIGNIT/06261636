@@ -35,6 +35,11 @@ const unlimitedOptions = [
     icon: <CheckCircle className="w-6 h-6" />,
     content: "Fully support for global certifications."
   },
+  {
+    label: "Quality Control",
+    icon: <ThumbsUp className="w-6 h-6" />,
+    content: "Strict quality control for every batch to ensure product excellence."
+  },
 ];
 
 const processSteps = [
@@ -316,11 +321,11 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold mb-2 text-center">{t('home.customization.title', 'Unlimited Customization Options')}</h2>
           <p className="text-center mb-8 text-lg">{t('home.customization.subtitle', 'Stand out in the market with fully customizable IPL devices fit for your brand.')}</p>
-          <div className="flex flex-wrap justify-center gap-4 mb-8">
+          <div className="flex flex-nowrap overflow-x-auto justify-start gap-4 mb-8 scrollbar-thin scrollbar-thumb-blue-200 scrollbar-track-blue-50">
             {unlimitedOptions.map((opt, idx) => (
               <button
                 key={opt.label}
-                className={`flex items-center gap-2 px-5 py-3 rounded-full font-semibold border transition ${optionIdx === idx ? "bg-blue-700 text-white" : "bg-white text-blue-700 border-blue-700"} hover:bg-blue-700 hover:text-white`}
+                className={`flex items-center gap-2 px-5 py-3 rounded-full font-semibold border transition whitespace-nowrap ${optionIdx === idx ? "bg-blue-700 text-white" : "bg-white text-blue-700 border-blue-700"} hover:bg-blue-700 hover:text-white`}
                 onClick={() => setOptionIdx(idx)}
               >
                 {opt.icon}
