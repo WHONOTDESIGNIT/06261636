@@ -26,7 +26,7 @@ const unlimitedOptions = [
     icon: <BadgeCheck className="w-6 h-6" />,
     content: {
       img: "/homeimages/ipl logo printing (2).png",
-      text: "Add your logo for a fully branded product experience. Multiple printing techniques available."
+      text: "iShine helps companies create custom logo IPL products that make your brand stand out. iShine custom Logo IPL products, promotional IPL merchandise, and gift giveaways that you’ll love. We offer logo branding services to the Cosmetics and Hair Removal industries. We work with the Cosmetic brands owners, Marketing and Advertising, Licensor, Licensee, wholesale, retail chain, swimming wear store, and product development companies together offer molded logo IPL products to the whole world to expand your brands and Market. In iShine group, we offer different ways to put your logo and pattern on. The different logo and patterns may need different methods. Click Here to get rough information for the different performance with the different printing ways."
     }
   },
   {
