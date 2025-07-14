@@ -398,7 +398,7 @@ export default function HomePage() {
         </div>
         {/* More Support Section */}
         <section className="mt-12 max-w-3xl mx-auto">
-          <h2 className="text-5xl md:text-3xl font-bold text-blue-700 mb-2">More Support</h2>
+          <h2 className="text-2xl md:text-5xl font-bold text-blue-700 mb-2">More Support</h2>
           <p className="text-lg mb-6 text-gray-700">Flexible customization, providing sample testing and design assistance services.</p>
           <ul className="space-y-3 text-base">
             <li className="flex items-start gap-2"><CheckCircle className="w-6 h-6 text-blue-700 mt-1 flex-shrink-0" />MOQ: 1000 pcs by new silicone products developments.</li>
