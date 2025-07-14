@@ -335,7 +335,7 @@ export default function HomePage() {
               ))}
             </div>
             <div
-              className="rounded-xl p-6 shadow-lg text-center text-lg min-h-[80px] flex items-center justify-center transition-all"
+              className="rounded-xl p-6 shadow-lg text-center text-lg min-h-[700px] flex items-center justify-center transition-all"
               style={{ background: "#F3F4F7" }}
             >
               {t(`home.customization.options.${optionIdx}.content`, unlimitedOptions[optionIdx].content)}
