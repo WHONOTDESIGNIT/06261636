@@ -146,26 +146,52 @@ export default function HomePage() {
   const { currentLanguage, t } = useLanguage();
 
   return (
-    <div className="font-inter bg-[#F8FAFC] text-[#22223B]">
+    <div className="font-['PlusJakartaSans',_Inter,_sans-serif] bg-white text-[#18181B] min-h-screen">
       <SEOTags 
         title={t('home.seo.title', 'iShine - Custom IPL Hair Removal Device Manufacturing | OEM/ODM Solutions')}
         description={t('home.seo.description', 'Leading IPL device manufacturer providing custom OEM/ODM solutions. Design, build, and brand your own IPL hair removal devices with iShine.')}
         keywords={t('home.seo.keywords', 'IPL hair removal devices, custom manufacturing, OEM ODM, beauty device manufacturing, IPL device manufacturer')}
       />
-      {/* Hero Section */}
-      <section className={`${heroBg} min-h-[66vh] flex flex-col justify-center items-center text-white relative overflow-hidden`}>
-        {/* Silk Canvas 背景 */}
-        <div className="absolute inset-0 z-0 pointer-events-none">
-          <Silk speed={5} scale={1} color="#7B7481" noiseIntensity={1.5} rotation={0} />
+      {/* Header Navigation - Figma风格 */}
+      <header className="flex items-center justify-between px-8 py-4 bg-white shadow-sm">
+        <div className="text-xl font-bold tracking-tight text-[#18181B]">/rareblocks</div>
+        <nav className="flex gap-8 items-center">
+          <Link to="/solutions" className="text-base font-medium text-[#18181B] hover:text-blue-700 transition">Solutions</Link>
+          <Link to="/industries" className="text-base font-medium text-[#18181B] hover:text-blue-700 transition">Industries</Link>
+          <Link to="/pricing-guide" className="text-base font-medium text-[#18181B] hover:text-blue-700 transition">Fees</Link>
+          <Link to="/about" className="text-base font-medium text-[#18181B] hover:text-blue-700 transition">About Rareblocks</Link>
+        </nav>
+        <div className="flex gap-4 items-center">
+          <Link to="/login" className="text-base font-medium text-[#18181B] hover:text-blue-700 transition">Sign in</Link>
+          <Link to="/register" className="px-6 py-2 bg-[#18181B] text-white rounded-lg font-semibold shadow hover:bg-[#333] transition">Create free account</Link>
         </div>
-        {/* 内容层 */}
-        <div className="max-w-4xl text-center z-10 relative pt-14">
-          <h1 className="text-2xl md:text-6xl font-bold mb-4 drop-shadow-lg">{t('home.hero.title1', 'Custom IPL Hair Removal Devices for Cosmetics Brands')}</h1>
-          <p className="text-lg md:text-2xl mb-8 font-medium drop-shadow mt-8">{t('home.hero.subtitle', 'You design it, we build it and box it.')}</p>
-          <Link to="#contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-full shadow-lg hover:bg-blue-100 transition">{t('home.hero.cta', 'Get a Free Quote')}</Link>
+      </header>
+      {/* Hero Section - Figma风格 */}
+      <section className="flex flex-col md:flex-row items-center justify-between px-8 py-20 bg-[#FAFAFA]">
+        {/* 左侧内容 */}
+        <div className="max-w-xl w-full">
+          <h1 className="text-5xl md:text-6xl font-extrabold text-[#18181B] mb-6 leading-tight">A special credit card made for Developers.</h1>
+          <p className="text-lg text-[#52525B] mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vehicula massa in enim luctus. Rutrum arcu.</p>
+          <form className="flex flex-col md:flex-row gap-4 mb-8">
+            <input type="text" placeholder="Enter your email" className="flex-1 px-6 py-4 rounded-xl border border-gray-300 bg-[#FAFAFA] focus:outline-none focus:ring-2 focus:ring-blue-500 text-base" />
+            <button type="submit" className="px-8 py-4 bg-[#18181B] text-white rounded-xl font-semibold shadow hover:bg-[#333] transition">Get Started</button>
+          </form>
+          <div className="flex gap-8 mt-8">
+            <div>
+              <div className="text-3xl font-bold text-[#18181B]">2943</div>
+              <div className="text-sm text-[#52525B]">Cards Delivered</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-[#18181B]">$1M+</div>
+              <div className="text-sm text-[#52525B]">Transaction Completed</div>
+            </div>
+          </div>
+        </div>
+        {/* 右侧插画/图片 */}
+        <div className="hidden md:block ml-16">
+          <img src="/figma-assets/Illustration-x1.png" alt="Hero Illustration" className="w-[475px] h-[607px] rounded-2xl shadow-lg object-cover" />
         </div>
       </section>
-
       {/* Brand Empowerment / USP */}
       <section className="py-16 px-4 md:px-0 bg-gradient-to-r from-blue-100 via-white to-purple-100">
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
