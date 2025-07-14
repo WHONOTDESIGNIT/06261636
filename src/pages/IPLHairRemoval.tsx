@@ -4,12 +4,18 @@ import ProductCard from '../components/Product/ProductCard';
 import ContactFormA from '../components/Forms/ContactFormA';
 import { iplDevices, accessories } from '../data/products';
 import { useLanguage } from '../context/LanguageContext';
+import SEOTags from '../components/SEO/SEOTags';
 
 const IPLHairRemoval: React.FC = () => {
   const { t } = useLanguage();
 
   return (
     <div className="min-h-screen pt-20">
+      <SEOTags 
+        title={t('iplHairRemoval.seo.title', 'IPL Hair Removal Devices | Smart App, Ice Cooling, AI-Powered | iShine')}
+        description={t('iplHairRemoval.seo.description', 'Professional IPL hair removal devices including smart app-controlled, ice cooling, AI-powered, and skin sensor models. Custom manufacturing for beauty brands worldwide.')}
+        keywords={t('iplHairRemoval.seo.keywords', 'IPL hair removal devices, smart IPL, ice cooling IPL, AI-powered IPL, skin sensor IPL, beauty devices')}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-ishine-pink-500 to-ishine-purple-600 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
