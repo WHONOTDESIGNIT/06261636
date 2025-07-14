@@ -25,7 +25,7 @@ const unlimitedOptions = [
     label: "Logo Printing",
     icon: <BadgeCheck className="w-6 h-6" />,
     content: {
-      img: "/images/logo-printing.png",
+      img: "/homeimages/ipl logo printing (2).png",
       text: "Add your logo for a fully branded product experience. Multiple printing techniques available."
     }
   },
