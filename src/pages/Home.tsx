@@ -15,7 +15,10 @@ const unlimitedOptions = [
     icon: <Palette className="w-6 h-6" />,
     content: {
       img: "/homeimages/ipl color customize.png",
-      text: "You can customize IPL products color according to the Pantone book. We will add the Pantone Color Paste to the ABS material when the material mixed. Our usual colors are White, Red, Translucent，Green, and Gray. We also can make the double color, marble color and multi-colored Molded IPL products for you if you needed. iShine own the printing workshop for printing the pattern or logo color by Silk Screen printing, Pad printing, Heat Transfer printing and Water Transfer printing, In mold Decoration, Digital printing."
+      text: [
+        "You can customize IPL products color according to the Pantone book. We will add the Pantone Color Paste to the ABS material when the material mixed. Our usual colors are White, Red, Translucent, Green, and Gray. We also can make the double color, marble color and multi-colored Molded IPL products for you if you needed.",
+        "iShine own the printing workshop for printing the pattern or logo color by Silk Screen printing, Pad printing, Heat Transfer printing and Water Transfer printing, In mold Decoration, Digital printing."
+      ]
     }
   },
   {
@@ -365,7 +368,14 @@ export default function HomePage() {
                   />
                 )}
                 <div className="flex-1 text-left">
-                  {t(`home.customization.options.${optionIdx}.content.text`, unlimitedOptions[optionIdx].content.text)}
+                  {Array.isArray(unlimitedOptions[optionIdx].content.text)
+                    ? unlimitedOptions[optionIdx].content.text.map((p, i) => (
+                        <p key={i} className="mb-4 last:mb-0">
+                          {t(`home.customization.options.${optionIdx}.content.text.${i}`, p)}
+                        </p>
+                      ))
+                    : t(`home.customization.options.${optionIdx}.content.text`, unlimitedOptions[optionIdx].content.text)
+                  }
                 </div>
               </div>
             </div>
