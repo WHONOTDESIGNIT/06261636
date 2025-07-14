@@ -5,6 +5,7 @@ import ContactFormA from '../components/Forms/ContactFormA';
 import Silk from './Silk';
 import { iplDevices } from '../data/products';
 import { useLanguage } from '../context/LanguageContext';
+import SEOTags from '../components/SEO/SEOTags';
 
 const heroBg = "bg-gradient-to-br from-blue-700 via-indigo-500 to-purple-600";
 
@@ -146,6 +147,11 @@ export default function HomePage() {
 
   return (
     <div className="font-inter bg-[#F8FAFC] text-[#22223B]">
+      <SEOTags 
+        title={t('home.seo.title', 'iShine - Custom IPL Hair Removal Device Manufacturing | OEM/ODM Solutions')}
+        description={t('home.seo.description', 'Leading IPL device manufacturer providing custom OEM/ODM solutions. Design, build, and brand your own IPL hair removal devices with iShine.')}
+        keywords={t('home.seo.keywords', 'IPL hair removal devices, custom manufacturing, OEM ODM, beauty device manufacturing, IPL device manufacturer')}
+      />
       {/* Hero Section */}
       <section className={`${heroBg} min-h-[66vh] flex flex-col justify-center items-center text-white relative overflow-hidden`}>
         {/* Silk Canvas 背景 */}
