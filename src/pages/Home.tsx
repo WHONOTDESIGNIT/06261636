@@ -170,8 +170,8 @@ export default function HomePage() {
       <section className="flex flex-col md:flex-row items-center justify-between px-8 py-20 bg-[#FAFAFA]">
         {/* 左侧内容整体右移 */}
         <div className="max-w-xl w-full pl-8 md:pl-20">
-          <h1 className="text-5xl md:text-6xl font-extrabold text-[#18181B] mb-6 leading-tight">A special credit card made for Developers.</h1>
-          <p className="text-lg text-[#52525B] mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vehicula massa in enim luctus. Rutrum arcu.</p>
+          <h1 className="text-5xl md:text-6xl font-extrabold text-[#18181B] mb-6 leading-tight">A special niche for Cosmetic Brands.</h1>
+          <p className="text-lg text-[#52525B] mb-8">At-Home Hair Removal Devices, Best Niche Market for Cosmetic Brands. We help you design it, build it and box it.</p>
           <form className="flex flex-col md:flex-row gap-4 mb-8">
             <input type="text" placeholder="Enter your email" className="flex-1 px-6 py-4 rounded-xl border border-gray-300 bg-[#FAFAFA] focus:outline-none focus:ring-2 focus:ring-blue-500 text-base" />
             <button type="submit" className="px-8 py-4 bg-[#18181B] text-white rounded-xl font-semibold shadow hover:bg-[#333] transition">Get Started</button>
