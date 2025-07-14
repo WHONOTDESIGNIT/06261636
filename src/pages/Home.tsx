@@ -177,10 +177,10 @@ export default function HomePage() {
           </div>
           {/* 容器2：富文本1 */}
           <div className="text-lg">
-            {t('home.about.description1', 'iShine Tech Co., Limited, is one-stop supplier for')}{{" "}}
+            {t('home.about.description1', 'iShine Tech Co., Limited, is one-stop supplier for')}{' '}
             <Link to={`/${currentLanguage}/service-support/manufacturing`} className="text-blue-700 underline underline-offset-2 decoration-blue-700 hover:text-blue-800 hover:decoration-blue-800 transition">
               {t('home.about.manufacturing', 'IPL hair removal devices manufacturing')}
-            </Link>{{" "}}{t('home.about.and', 'and')}{{" "}}
+            </Link>{' '}{t('home.about.and', 'and')}{' '}
             <Link to={`/${currentLanguage}/solutions/brand-customization`} className="text-blue-700 underline underline-offset-2 decoration-blue-700 hover:text-blue-800 hover:decoration-blue-800 transition">
               {t('home.about.customization', 'customization')}
             </Link>. {t('home.about.description2', 'Help you design it, build it and box it. From idea to market.')}
