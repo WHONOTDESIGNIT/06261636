@@ -50,7 +50,9 @@ const unlimitedOptions = [
     content: {
       img: "/homeimages/9 home hair removal device technologies.webp",
       text: [
-        "iShine’s Own Eight IPL Device Technologies.",
+        <span style={{ fontWeight: 700, fontSize: '1.5em' }}>
+          iShine’s Own Eight IPL Device Technologies.
+        </span>,
         <>
           iShine’s IPL devices feature eight advanced technologies, including:
           <ul className="list-disc pl-6 mt-2 mb-2 space-y-1">
