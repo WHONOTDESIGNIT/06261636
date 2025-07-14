@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Globe, Plane, Shield, Clock } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 import { useLanguage } from '../../context/LanguageContext';
+import SEOTags from '../../components/SEO/SEOTags';
 
 const GlobalShipping: React.FC = () => {
   const { t } = useLanguage();
@@ -62,7 +63,13 @@ const GlobalShipping: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-20">
+    <>
+      <SEOTags 
+        title="Global Shipping Solutions | Worldwide IPL Device Delivery"
+        description="Professional global shipping services for IPL hair removal devices. Express delivery to 50+ countries with customs clearance, tracking, and secure packaging."
+        keywords="global shipping, worldwide delivery, IPL device shipping, customs clearance, express shipping, secure packaging"
+      />
+      <div className="min-h-screen pt-20">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-ishine-cyan-500 to-ishine-blue-500 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -161,6 +168,7 @@ const GlobalShipping: React.FC = () => {
       {/* Contact Form */}
       <ContactFormA />
     </div>
+    </>
   );
 };
 
