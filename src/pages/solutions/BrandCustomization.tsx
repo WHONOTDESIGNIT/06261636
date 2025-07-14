@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Palette, Target, Award, CheckCircle } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 import { useLanguage } from '../../context/LanguageContext';
+import SEOTags from '../../components/SEO/SEOTags';
 
 const BrandCustomization: React.FC = () => {
   const { t } = useLanguage();
@@ -31,7 +32,13 @@ const BrandCustomization: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-20">
+    <>
+      <SEOTags 
+        title="Brand Customization | Private Label IPL Device Solutions"
+        description="Private label and brand customization services for IPL hair removal devices. Custom packaging, logo printing, and exclusive design for your beauty brand."
+        keywords="brand customization, private label IPL, custom packaging, logo printing, exclusive design, beauty brand"
+      />
+      <div className="min-h-screen pt-20">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-pink-600 to-purple-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -74,6 +81,7 @@ const BrandCustomization: React.FC = () => {
       {/* Contact Form */}
       <ContactFormA />
     </div>
+    </>
   );
 };
 
