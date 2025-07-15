@@ -379,7 +379,7 @@ export default function HomePage() {
             ))}
           </div>
           {/* 新增：产品特性描述段落 */}
-          <div className="max-w-4xl mx-auto mt-10 mb-2 p-6 bg-white rounded-xl shadow text-gray-800 text-base leading-relaxed border border-blue-100">
+          <div className="w-full mt-10 mb-2 p-6 bg-transparent rounded-xl text-gray-800 text-base leading-relaxed" style={{ boxShadow: 'none' }}>
             <p className="mb-2 font-semibold text-lg text-blue-700">All iShine home IPL hair removal devices are designed for long-lasting performance and user safety. Built with advanced materials and precision engineering, these devices are:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li>Resistant to temperature fluctuations (operating range: -10 °C to 45 °C), as well as common household chemicals and UV exposure.</li>
