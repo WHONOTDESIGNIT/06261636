@@ -79,7 +79,7 @@ const unlimitedOptions = [
     label: "Packaging Design",
     icon: <Package className="w-6 h-6" />,
     content: {
-      img: "/images/packaging-design.png",
+      img: "/home/project/homeimages/IPL packaging solutions (1).webp",
       text: "Premium packaging for retail, e-commerce, or gifting.",
       cardClass: "bg-[#F3F4F7] rounded-[32px] shadow-lg",
       imgClass: "rounded-[32px] border-4 border-blue-200",
