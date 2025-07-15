@@ -378,6 +378,21 @@ export default function HomePage() {
               </div>
             ))}
           </div>
+          {/* 新增：产品特性描述段落 */}
+          <div className="max-w-4xl mx-auto mt-10 mb-2 p-6 bg-white rounded-xl shadow text-gray-800 text-base leading-relaxed border border-blue-100">
+            <p className="mb-2 font-semibold text-lg text-blue-700">All iShine home IPL hair removal devices are designed for long-lasting performance and user safety. Built with advanced materials and precision engineering, these devices are:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Resistant to temperature fluctuations (operating range: -10 °C to 45 °C), as well as common household chemicals and UV exposure.</li>
+              <li>Easy to clean and maintain, with a smooth, ergonomic design that fits comfortably in the hand.</li>
+              <li>Available in a variety of shapes, sizes, and modern color options to suit different preferences and needs.</li>
+              <li>Lightweight, soft-touch, and flexible for comfortable handling during treatments.</li>
+              <li>Free from PVC, BPA, phthalates, and lead—safe for direct skin contact, non-toxic, and harmless for all users.</li>
+              <li>Environmentally conscious: made with recyclable components and energy-efficient technology.</li>
+              <li>Equipped with medical-grade biocompatible materials for safe use on all suitable skin types.</li>
+              <li>Designed with user-friendly features such as intuitive controls, multiple intensity settings, and built-in skin sensors for added safety.</li>
+              <li>Compliant with international safety standards and suitable for home use, providing professional-level results with minimal discomfort.</li>
+            </ul>
+          </div>
         </div>
       </section>
 
