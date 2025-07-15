@@ -399,7 +399,7 @@ export default function HomePage() {
       {/* Customization Options */}
       <section className="py-16 px-4 md:px-0 bg-gradient-to-r from-blue-100 via-white to-purple-100">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2 text-center">{t('home.customization.title', 'Unlimited Customization Options')}</h2>
+          <h2 className="text-6xl font-bold mb-2 text-center text-blue-700">{t('home.customization.title', 'Unlimited Customization Options')}</h2>
           <p className="text-center mb-8 text-lg">iShine offers a wide range of customization options for you. You can work with us to create unique and competitive IPL devices for your business.</p>
           <div className="w-fit mx-auto">
             <div className="flex flex-nowrap justify-center gap-2 mb-8">
