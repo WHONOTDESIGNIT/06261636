@@ -422,7 +422,11 @@ export default function HomePage() {
                   <img
                     src={unlimitedOptions[optionIdx].content.img}
                     alt={unlimitedOptions[optionIdx].label}
-                    style={optionIdx === 2 ? { width: '600px', height: '600px' } : { width: '600px', height: '337.5px' }}
+                    style={optionIdx === 2
+                      ? { width: '600px', height: '600px' }
+                      : optionIdx === 3
+                        ? { width: '600px', height: '387.5px' }
+                        : { width: '600px', height: '337.5px' }}
                     className="object-cover rounded-2xl flex-shrink-0"
                   />
                 )}
