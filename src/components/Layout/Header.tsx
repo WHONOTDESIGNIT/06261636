@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Search, Youtube, Linkedin, Menu, X, ChevronDown } from 'lucide-react';
+import { Youtube, Linkedin, Menu, X, ChevronDown } from 'lucide-react';
 import LanguageSelector from './LanguageSelector.tsx';
 import { iplDevices, accessories } from '../../data/products'; // 导入产品数据
 import { useLanguage } from '../../context/LanguageContext';
