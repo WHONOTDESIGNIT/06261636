@@ -509,7 +509,7 @@ export default function HomePage() {
                     className="object-cover rounded-2xl flex-shrink-0"
                   />
                 )}
-                {optionIdx !== 4 && (
+                {optionIdx !== 4 && optionIdx !== 5 && (
                   <div className="flex-1 w-full text-left max-w-full">
                     {Array.isArray(unlimitedOptions[optionIdx].content.text)
                       ? unlimitedOptions[optionIdx].content.text.map((p, i, arr) => (
