@@ -456,10 +456,7 @@ export default function HomePage() {
                       className="object-contain rounded-2xl flex-shrink-0"
                     />
                     <div className="text-base text-gray-700 font-medium mb-6">
-                      <div>Custom your IPL products Quality Control Inspection.</div>
-                      <div className="mt-2">
-                        Our common IPL products Quality Control Inspection is from supplier selection, production specification, In-process Inspection, Before shipment inspection (OQC). We also accept the customer hire the 3rd party to pre-shipment QC include Full inspection if needed.
-                      </div>
+                      Custom your IPL products Quality Control Inspection.
                     </div>
                     {/* Section B: 新增两张图片 */}
                     <div className="flex flex-row gap-6 w-full mt-2">
