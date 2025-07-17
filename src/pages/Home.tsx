@@ -448,6 +448,10 @@ export default function HomePage() {
                       style={{ height: '217px', width: 'auto', objectFit: 'contain', marginBottom: '8px' }}
                       className="object-contain rounded-2xl flex-shrink-0"
                     />
+                    {/* Section A: 文案 */}
+                    <div className="w-full text-base text-gray-700 font-medium mt-4">
+                      {t('home.customization.options.5.content.text')}
+                    </div>
                     {/* Section B: 新增两张图片 */}
                     <div className="flex flex-row gap-6 w-full mt-2">
                       <img
