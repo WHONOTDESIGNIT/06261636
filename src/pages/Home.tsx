@@ -446,20 +446,24 @@ export default function HomePage() {
                 {Array.isArray(unlimitedOptions[optionIdx].content.img) ? (
                   <div style={{ display: 'flex', flexDirection: 'row', gap: '16px', width: '1264px' }}>
                     {unlimitedOptions[optionIdx].content.img.map((src, idx) => (
-                      <div key={idx} className="flex flex-col items-center">
+                      <div key={idx} className={optionIdx === 5 ? "flex flex-col items-start" : "flex flex-col items-center"}>
                         <img
                           src={src}
                           alt={unlimitedOptions[optionIdx].label + ' ' + (idx + 1)}
-                          style={{ width: '572px', height: '572px', objectFit: 'contain', marginBottom: '8px' }}
+                          style={optionIdx === 5
+                            ? { width: '193.5px', height: '128px', objectFit: 'contain', marginBottom: '8px' }
+                            : { width: '572px', height: '572px', objectFit: 'contain', marginBottom: '8px' }}
                           className="object-contain rounded-2xl flex-shrink-0"
                         />
-                        <div className="text-center text-base text-gray-700 font-medium" style={{ position: 'relative', top: '-18px' }}>
-                          {[
-                            'FDA 510(k) Certificate',
-                            'ISO 13485 Medical Device Quality Management Certificate',
-                            'MDL (Canada) Medical Device Listing'
-                          ][idx]}
-                        </div>
+                        {optionIdx === 4 && (
+                          <div className="text-center text-base text-gray-700 font-medium" style={{ position: 'relative', top: '-18px' }}>
+                            {[
+                              'FDA 510(k) Certificate',
+                              'ISO 13485 Medical Device Quality Management Certificate',
+                              'MDL (Canada) Medical Device Listing'
+                            ][idx]}
+                          </div>
+                        )}
                       </div>
                     ))}
                   </div>
@@ -471,7 +475,9 @@ export default function HomePage() {
                       ? { width: '600px', height: '600px' }
                       : optionIdx === 3
                         ? { width: '600px', height: '387.5px' }
-                        : { width: '600px', height: '337.5px' }}
+                        : optionIdx === 5
+                          ? { width: '387px', height: '256px' }
+                          : { width: '600px', height: '337.5px' }}
                     className="object-cover rounded-2xl flex-shrink-0"
                   />
                 )}
