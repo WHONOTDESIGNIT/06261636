@@ -464,13 +464,13 @@ export default function HomePage() {
                       <img
                         src="/homeimages/quality-control-room-ishine.png"
                         alt="Quality Control Room"
-                        style={{ height: '243.04px', width: 'auto', objectFit: 'contain' }}
+                        style={{ height: '272.2px', width: 'auto', objectFit: 'contain' }}
                         className="object-contain rounded-2xl flex-shrink-0"
                       />
                       <img
                         src="/homeimages/flash test.png"
                         alt="Flash Test"
-                        style={{ height: '243.04px', width: 'auto', objectFit: 'contain' }}
+                        style={{ height: '272.2px', width: 'auto', objectFit: 'contain' }}
                         className="object-contain rounded-2xl flex-shrink-0"
                       />
                     </div>
