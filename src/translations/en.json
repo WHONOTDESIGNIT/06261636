@@ -388,7 +388,7 @@
           "desc": "Develop product concepts and detailed designs tailored to your needs."
         },
         "2": {
-          "title": "Prototyping & Sample Confirmation",
+          "title": "Prototyping",
           "desc": "Create prototypes and confirm samples before mass production."
         },
         "3": {
@@ -476,7 +476,7 @@
       "steps": {
         "0": { "title": "Consultation" },
         "1": { "title": "Product Design" },
-        "2": { "title": "Prototyping & Sample Confirmation" },
+        "2": { "title": "Prototyping" },
         "3": { "title": "Printing" },
         "4": { "title": "Mass Production" },
         "5": { "title": "IPQC" },
