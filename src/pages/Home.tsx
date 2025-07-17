@@ -128,14 +128,14 @@ const unlimitedOptions = [
 ];
 
 const processSteps = [
-  { img: "/step1.jpg", title: "Consultation", desc: "Discuss your brand vision and requirements." },
-  { img: "/step2.jpg", title: "Design & Prototyping", desc: "Get custom designs and functional prototypes." },
-  { img: "/step3.jpg", title: "Sample Confirmation", desc: "Approve samples before mass production." },
-  { img: "/step4.jpg", title: "Mass Production", desc: "Efficient and high-quality manufacturing." },
-  { img: "/step5.jpg", title: "Quality Inspection", desc: "Strict QC for every batch." },
-  { img: "/step6.jpg", title: "Certification", desc: "Support for FDA, CE, and more." },
-  { img: "/step7.jpg", title: "Global Shipping", desc: "Worldwide delivery with flexible logistics." },
-  { img: "/step8.jpg", title: "After-Sales Service", desc: "Ongoing support for your business." },
+  { img: "/step1.jpg", title: "Consultation", desc: "" },
+  { img: "/step2.jpg", title: "Product Design", desc: "" },
+  { img: "/step3.jpg", title: "Prototyping & Sample Confirmation", desc: "" },
+  { img: "/step4.jpg", title: "Printing", desc: "" },
+  { img: "/step5.jpg", title: "Mass Production", desc: "" },
+  { img: "/step6.jpg", title: "IPQC", desc: "" },
+  { img: "/step7.jpg", title: "OQC", desc: "" },
+  { img: "/step8.jpg", title: "Packaging & Shipping", desc: "" },
 ];
 
 const testimonials = [
