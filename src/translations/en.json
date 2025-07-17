@@ -384,28 +384,28 @@
           "desc": "Discuss your brand vision and requirements."
         },
         "1": {
-          "title": "Design & Prototyping",
-          "desc": "Get custom designs and functional prototypes."
+          "title": "Product Design",
+          "desc": "Develop product concepts and detailed designs tailored to your needs."
         },
         "2": {
-          "title": "Sample Confirmation",
-          "desc": "Approve samples before mass production."
+          "title": "Prototyping & Sample Confirmation",
+          "desc": "Create prototypes and confirm samples before mass production."
         },
         "3": {
           "title": "Mass Production",
-          "desc": "Efficient and high-quality manufacturing."
+          "desc": "Manufacture your IPL products efficiently and at scale."
         },
         "4": {
-          "title": "Quality Inspection",
-          "desc": "Strict QC for every batch."
+          "title": "IPQC",
+          "desc": "Conduct in-process quality control checks during production."
         },
         "5": {
-          "title": "Certification",
-          "desc": "Support for FDA, CE, and others."
+          "title": "OQC",
+          "desc": "Perform outgoing quality control before shipment."
         },
         "6": {
-          "title": "Global Shipping",
-          "desc": "Worldwide delivery with flexible logistics."
+          "title": "Packaging & Shipping",
+          "desc": "Package products securely and arrange global shipping."
         },
         "7": {
           "title": "After-Sales Service",
