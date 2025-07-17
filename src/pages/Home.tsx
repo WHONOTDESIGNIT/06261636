@@ -441,16 +441,17 @@ export default function HomePage() {
               <div className="flex flex-col md:flex-row items-start gap-8 w-full h-full justify-center overflow-x-auto">
                 {optionIdx === 5 ? (
                   <div className="w-full flex flex-col items-start">
-                    {/* Section A: 原有图片 */}
-                    <img
-                      src="/homeimages/quality-control-ishine.png"
-                      alt="Quality Control"
-                      style={{ height: '217px', width: 'auto', objectFit: 'contain', marginBottom: '8px' }}
-                      className="object-contain rounded-2xl flex-shrink-0"
-                    />
-                    {/* Section A: 文案 */}
-                    <div className="w-full text-base text-gray-700 font-medium mt-4">
-                      {t('home.customization.options.5.content.text')}
+                    {/* Section A: 横向排列图片和文案 */}
+                    <div className="flex flex-row items-start w-full gap-8 mb-4">
+                      <img
+                        src="/homeimages/quality-control-ishine.png"
+                        alt="Quality Control"
+                        style={{ height: '217px', width: 'auto', objectFit: 'contain' }}
+                        className="object-contain rounded-2xl flex-shrink-0"
+                      />
+                      <div className="flex-1 text-base text-gray-700 font-medium">
+                        {t('home.customization.options.5.content.text')}
+                      </div>
                     </div>
                     {/* Section B: 新增两张图片 */}
                     <div className="flex flex-row gap-6 w-full mt-2">
