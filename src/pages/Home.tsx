@@ -566,7 +566,7 @@ export default function HomePage() {
               return (
                 <div key={i} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg">
                   <Icon className="w-16 h-16 text-blue-700 mb-4" />
-                  <h3 className="font-bold text-base mb-1">{t(`home.process.steps.${i}.title`, step.title)}</h3>
+                  <h3 className="font-bold text-base mb-1">{`${i + 1}. ${t(`home.process.steps.${i}.title`, step.title)}`}</h3>
                   <p className="text-center text-sm">{t(`home.process.steps.${i}.desc`, step.desc)}</p>
                 </div>
               );
