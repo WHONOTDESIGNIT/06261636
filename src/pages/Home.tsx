@@ -121,7 +121,6 @@ const unlimitedOptions = [
         "/homeimages/quality-control-room-ishine.png",
         "/homeimages/quality-control-ishine.png"
       ],
-      text: "Custom your IPL products Quality Control Inspection. Our common IPL products Quality Control Inspection is from supplier selection, production specification, In-process Inspection, Before shipment inspection (OQC). We also accept the customer hire the 3rd party to pre-shipment QC include Full inspection if needed.",
       cardClass: "bg-[#F3F4F7] rounded-[32px] shadow-lg",
       imgClass: "rounded-[32px] border-4 border-blue-200",
     }
