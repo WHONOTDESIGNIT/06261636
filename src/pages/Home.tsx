@@ -442,7 +442,7 @@ export default function HomePage() {
             <div
               className={`p-6 min-h-[500px] flex items-center justify-center transition-all ${unlimitedOptions[optionIdx].content.cardClass || 'bg-[#F3F4F7] rounded-2xl shadow-lg'}`}
             >
-              <div className="flex flex-col md:flex-row items-center gap-8 w-full h-full justify-center overflow-x-auto">
+              <div className="flex flex-col md:flex-row items-start gap-8 w-full h-full justify-center overflow-x-auto">
                 {Array.isArray(unlimitedOptions[optionIdx].content.img) ? (
                   <div style={{ display: 'flex', flexDirection: 'row', gap: '16px', width: '1264px' }}>
                     {unlimitedOptions[optionIdx].content.img.map((src, idx) => (
