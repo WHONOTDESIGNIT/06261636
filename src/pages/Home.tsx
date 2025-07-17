@@ -445,22 +445,21 @@ export default function HomePage() {
             <div
               className={`p-6 min-h-[500px] flex items-center justify-center transition-all ${unlimitedOptions[optionIdx].content.cardClass || 'bg-[#F3F4F7] rounded-2xl shadow-lg'}`}
             >
-              <div className="flex flex-row items-start gap-6 w-full">
+              <div className="flex flex-col md:flex-row items-start gap-8 w-full h-full justify-center overflow-x-auto">
                 {optionIdx === 5 ? (
-                  <>
-                    {/* SectionA: 图片 */}
+                  <div className="w-full flex flex-col items-start">
+                    {/* Section A: 原有图片和文案 */}
                     <img
                       src="/homeimages/quality-control-ishine.png"
                       alt="Quality Control"
-                      style={{ height: '217px', width: 'auto' }}
+                      style={{ height: '217px', width: 'auto', objectFit: 'contain', marginBottom: '8px' }}
                       className="object-contain rounded-2xl flex-shrink-0"
                     />
-                    {/* SectionA: 文案 */}
-                    <div className="text-base text-gray-700 font-medium flex-1">
+                    <div className="text-base text-gray-700 font-medium mb-6">
                       Custom your IPL products Quality Control Inspection.<br/>
                       Our common IPL products Quality Control Inspection is from supplier selection, production specification, In-process Inspection, Before shipment inspection (OQC). We also accept the customer hire the 3rd party to pre-shipment QC include Full inspection if needed.
                     </div>
-                    {/* SectionB: 两张图片 */}
+                    {/* Section B: 新增两张图片 */}
                     <div className="flex flex-row gap-6 w-full mt-2">
                       <img
                         src="/homeimages/quality-control-room-ishine.png"
@@ -475,7 +474,7 @@ export default function HomePage() {
                         className="object-contain rounded-2xl flex-shrink-0"
                       />
                     </div>
-                  </>
+                  </div>
                 ) : Array.isArray(unlimitedOptions[optionIdx].content.img) ? (
                   <div style={{ display: 'flex', flexDirection: 'row', gap: '16px', width: '1264px' }}>
                     {unlimitedOptions[optionIdx].content.img.map((src, idx) => (
