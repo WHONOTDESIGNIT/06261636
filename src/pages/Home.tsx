@@ -449,21 +449,7 @@ export default function HomePage() {
                         className="object-contain rounded-2xl flex-shrink-0"
                       />
                     </div>
-                    {/* Section B: 新增两张图片 */}
-                    <div className="flex flex-row gap-6 w-full mt-2">
-                      <img
-                        src="/homeimages/quality-control-room-ishine.png"
-                        alt="Quality Control Room"
-                        style={{ height: '258.59px', width: 'auto', objectFit: 'contain' }}
-                        className="object-contain rounded-2xl flex-shrink-0"
-                      />
-                      <img
-                        src="/homeimages/flash test.png"
-                        alt="Flash Test"
-                        style={{ height: '258.59px', width: 'auto', objectFit: 'contain' }}
-                        className="object-contain rounded-2xl flex-shrink-0"
-                      />
-                    </div>
+                    {/* Section B: 暂不显示图片 */}
                   </div>
                 ) : Array.isArray(unlimitedOptions[optionIdx].content.img) ? (
                   <div style={{ display: 'flex', flexDirection: 'row', gap: '16px', width: '1264px' }}>
