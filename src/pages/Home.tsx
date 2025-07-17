@@ -117,7 +117,10 @@ const unlimitedOptions = [
     label: "Quality Control",
     icon: <ThumbsUp className="w-6 h-6" />,
     content: {
-      img: "/homeimages/quality-control-ishine.png",
+      img: [
+        "/homeimages/quality-control-room-ishine.png",
+        "/homeimages/quality-control-ishine.png"
+      ],
       text: (
         <>
           <div>Custom your IPL products Quality Control Inspection.</div>
@@ -451,7 +454,7 @@ export default function HomePage() {
                           src={src}
                           alt={unlimitedOptions[optionIdx].label + ' ' + (idx + 1)}
                           style={optionIdx === 5
-                            ? { width: '193.5px', height: '128px', objectFit: 'contain', marginBottom: '8px' }
+                            ? { height: '217px', width: 'auto', objectFit: 'contain', marginBottom: '8px' }
                             : { width: '572px', height: '572px', objectFit: 'contain', marginBottom: '8px' }}
                           className="object-contain rounded-2xl flex-shrink-0"
                         />
