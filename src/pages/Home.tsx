@@ -448,7 +448,7 @@ export default function HomePage() {
               <div className="flex flex-col md:flex-row items-start gap-8 w-full h-full justify-center overflow-x-auto">
                 {optionIdx === 5 ? (
                   <div className="w-full flex flex-col items-start">
-                    {/* 原有图片和文案 */}
+                    {/* Section A: 原有图片和文案 */}
                     <img
                       src="/homeimages/quality-control-ishine.png"
                       alt="Quality Control"
@@ -461,7 +461,7 @@ export default function HomePage() {
                         Our common IPL products Quality Control Inspection is from supplier selection, production specification, In-process Inspection, Before shipment inspection (OQC). We also accept the customer hire the 3rd party to pre-shipment QC include Full inspection if needed.
                       </div>
                     </div>
-                    {/* 新增图片section */}
+                    {/* Section B: 新增两张图片 */}
                     <div className="flex flex-row gap-6 w-full mt-2">
                       <img
                         src="/homeimages/quality-control-room-ishine.png"
@@ -470,8 +470,8 @@ export default function HomePage() {
                         className="object-contain rounded-2xl flex-shrink-0"
                       />
                       <img
-                        src="/homeimages/quality-control-ishine.png"
-                        alt="Quality Control"
+                        src="/homeimages/flash test.png"
+                        alt="Flash Test"
                         style={{ height: '217px', width: 'auto', objectFit: 'contain' }}
                         className="object-contain rounded-2xl flex-shrink-0"
                       />
