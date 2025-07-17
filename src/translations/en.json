@@ -471,6 +471,18 @@
       "title": "Need help?",
       "subtitle": "Let's discuss your requirements and create the IPL solution that best fit for your brand.",
       "button": "Fill out the form to enjoy Free Consultation"
+    },
+    "process": {
+      "steps": {
+        "0": { "title": "Consultation" },
+        "1": { "title": "Product Design" },
+        "2": { "title": "Prototyping & Sample Confirmation" },
+        "3": { "title": "Printing" },
+        "4": { "title": "Mass Production" },
+        "5": { "title": "IPQC" },
+        "6": { "title": "OQC" },
+        "7": { "title": "Packaging & Shipping" }
+      }
     }
   },
   "contact": {
