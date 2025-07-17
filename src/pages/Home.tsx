@@ -121,14 +121,6 @@ const unlimitedOptions = [
         "/homeimages/quality-control-room-ishine.png",
         "/homeimages/quality-control-ishine.png"
       ],
-      text: (
-        <>
-          <div>Custom your IPL products Quality Control Inspection.</div>
-          <div className="mt-2">
-            Our common IPL products Quality Control Inspection is from supplier selection, production specification, In-process Inspection, Before shipment inspection (OQC). We also accept the customer hire the 3rd party to pre-shipment QC include Full inspection if needed.
-          </div>
-        </>
-      ),
       cardClass: "bg-[#F3F4F7] rounded-[32px] shadow-lg",
       imgClass: "rounded-[32px] border-4 border-blue-200",
     }
@@ -448,14 +440,13 @@ export default function HomePage() {
               <div className="flex flex-col md:flex-row items-start gap-8 w-full h-full justify-center overflow-x-auto">
                 {optionIdx === 5 ? (
                   <div className="w-full flex flex-col items-start">
-                    {/* Section A: 原有图片和文案 */}
+                    {/* Section A: 原有图片 */}
                     <img
                       src="/homeimages/quality-control-ishine.png"
                       alt="Quality Control"
                       style={{ height: '217px', width: 'auto', objectFit: 'contain', marginBottom: '8px' }}
                       className="object-contain rounded-2xl flex-shrink-0"
                     />
-                    {/* 文案已删除，仅保留图片和SectionB */}
                     {/* Section B: 新增两张图片 */}
                     <div className="flex flex-row gap-6 w-full mt-2">
                       <img
@@ -470,6 +461,11 @@ export default function HomePage() {
                         style={{ height: '258.59px', width: 'auto', objectFit: 'contain' }}
                         className="object-contain rounded-2xl flex-shrink-0"
                       />
+                    </div>
+                    {/* 独立文案 */}
+                    <div className="text-base text-gray-700 font-medium mt-6">
+                      Custom your IPL products Quality Control Inspection.<br/>
+                      Our common IPL products Quality Control Inspection is from supplier selection, production specification, In-process Inspection, Before shipment inspection (OQC). We also accept the customer hire the 3rd party to pre-shipment QC include Full inspection if needed.
                     </div>
                   </div>
                 ) : Array.isArray(unlimitedOptions[optionIdx].content.img) ? (
