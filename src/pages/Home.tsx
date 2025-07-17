@@ -533,7 +533,10 @@ export default function HomePage() {
                             )}
                           </>
                         ))
-                      : t(`home.customization.options.${optionIdx}.content.text`, unlimitedOptions[optionIdx].content.text)
+                      : t(
+                          `home.customization.options.${optionIdx}.content.text`,
+                          typeof unlimitedOptions[optionIdx].content.text === 'string' ? unlimitedOptions[optionIdx].content.text : undefined
+                        )
                     }
                   </div>
                 )}
