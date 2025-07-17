@@ -446,7 +446,38 @@ export default function HomePage() {
               className={`p-6 min-h-[500px] flex items-center justify-center transition-all ${unlimitedOptions[optionIdx].content.cardClass || 'bg-[#F3F4F7] rounded-2xl shadow-lg'}`}
             >
               <div className="flex flex-col md:flex-row items-start gap-8 w-full h-full justify-center overflow-x-auto">
-                {Array.isArray(unlimitedOptions[optionIdx].content.img) ? (
+                {optionIdx === 5 ? (
+                  <div className="w-full flex flex-col items-start">
+                    {/* 原有图片和文案 */}
+                    <img
+                      src="/homeimages/quality-control-ishine.png"
+                      alt="Quality Control"
+                      style={{ height: '217px', width: 'auto', objectFit: 'contain', marginBottom: '8px' }}
+                      className="object-contain rounded-2xl flex-shrink-0"
+                    />
+                    <div className="text-base text-gray-700 font-medium mb-6">
+                      <div>Custom your IPL products Quality Control Inspection.</div>
+                      <div className="mt-2">
+                        Our common IPL products Quality Control Inspection is from supplier selection, production specification, In-process Inspection, Before shipment inspection (OQC). We also accept the customer hire the 3rd party to pre-shipment QC include Full inspection if needed.
+                      </div>
+                    </div>
+                    {/* 新增图片section */}
+                    <div className="flex flex-row gap-6 w-full mt-2">
+                      <img
+                        src="/homeimages/quality-control-room-ishine.png"
+                        alt="Quality Control Room"
+                        style={{ height: '217px', width: 'auto', objectFit: 'contain' }}
+                        className="object-contain rounded-2xl flex-shrink-0"
+                      />
+                      <img
+                        src="/homeimages/quality-control-ishine.png"
+                        alt="Quality Control"
+                        style={{ height: '217px', width: 'auto', objectFit: 'contain' }}
+                        className="object-contain rounded-2xl flex-shrink-0"
+                      />
+                    </div>
+                  </div>
+                ) : Array.isArray(unlimitedOptions[optionIdx].content.img) ? (
                   <div style={{ display: 'flex', flexDirection: 'row', gap: '16px', width: '1264px' }}>
                     {unlimitedOptions[optionIdx].content.img.map((src, idx) => (
                       <div key={idx} className={optionIdx === 5 ? "flex flex-col items-start" : "flex flex-col items-center"}>
@@ -479,7 +510,7 @@ export default function HomePage() {
                       : optionIdx === 3
                         ? { width: '600px', height: '387.5px' }
                         : optionIdx === 5
-                          ? { width: '387px', height: '256px' }
+                          ? { height: '217px', width: 'auto' }
                           : { width: '600px', height: '337.5px' }}
                     className="object-cover rounded-2xl flex-shrink-0"
                   />
