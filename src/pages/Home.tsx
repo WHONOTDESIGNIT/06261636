@@ -504,7 +504,7 @@ export default function HomePage() {
                   />
                 )}
                 {optionIdx !== 4 && (
-                  <div className="flex-1 text-left w-full max-w-full">
+                  <div className="flex-1 w-full text-left max-w-full">
                     {Array.isArray(unlimitedOptions[optionIdx].content.text)
                       ? unlimitedOptions[optionIdx].content.text.map((p, i, arr) => (
                           <>
