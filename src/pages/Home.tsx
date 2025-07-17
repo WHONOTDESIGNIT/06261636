@@ -80,17 +80,35 @@ const unlimitedOptions = [
     icon: <Package className="w-6 h-6" />,
     content: {
       img: "/homeimages/IPL packaging solutions (1).webp",
-      text: "Premium packaging for retail, e-commerce, or gifting.",
+      text: (
+        <>
+          Premium packaging for retail, e-commerce, and gifting.<br />
+          <a
+            href="/solutions/packaging-solutions"
+            className="font-bold underline text-blue-700 hover:text-blue-800 transition ml-1"
+            style={{ textUnderlineOffset: 3 }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Click Here
+          </a>
+          {" to explore the packaging solutions you’ll love."}
+        </>
+      ),
       cardClass: "bg-[#F3F4F7] rounded-[32px] shadow-lg",
       imgClass: "rounded-[32px] border-4 border-blue-200",
     }
   },
   {
-    label: "Certification Support",
+    label: "Certification",
     icon: <CheckCircle className="w-6 h-6" />,
     content: {
-      img: "/images/certification-support.png",
-      text: "Fully support for global certifications.",
+      img: [
+        "/homeimages/FDA_IPL_ISHINE.png",
+        "/homeimages/iso13485 cert ishine.png",
+        "/homeimages/MDL_IPL-ISHINE.png"
+      ],
+      text: "",
       cardClass: "bg-[#F3F4F7] rounded-[32px] shadow-lg",
       imgClass: "rounded-[32px] border-4 border-blue-200",
     }
@@ -400,7 +418,7 @@ export default function HomePage() {
       <section className="py-16 px-4 md:px-0 bg-gradient-to-r from-blue-100 via-white to-purple-100">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-6xl font-bold mb-2 text-center text-blue-700">{t('home.customization.title', 'Unlimited Customization Options')}</h2>
-          <p className="text-center mb-8 text-lg">iShine offers a wide range of customization options for you. You can work with us to create unique and competitive IPL devices for your business.</p>
+          <p className="text-center mb-8 text-lg" style={{ marginBottom: '2.5rem' }}>iShine offers a wide range of customization options for you. You can work with us to create unique and competitive IPL devices for your business.</p>
           <div className="w-full">
             <div className="flex flex-nowrap justify-center gap-2 mb-8">
               {unlimitedOptions.map((opt, idx) => (
@@ -418,7 +436,27 @@ export default function HomePage() {
               className={`p-6 min-h-[500px] flex items-center justify-center transition-all ${unlimitedOptions[optionIdx].content.cardClass || 'bg-[#F3F4F7] rounded-2xl shadow-lg'}`}
             >
               <div className="flex flex-col md:flex-row items-center gap-8 w-full h-full justify-center overflow-x-auto">
-                {unlimitedOptions[optionIdx].content.img && (
+                {Array.isArray(unlimitedOptions[optionIdx].content.img) ? (
+                  <div style={{ display: 'flex', flexDirection: 'row', gap: '16px', width: '1264px' }}>
+                    {unlimitedOptions[optionIdx].content.img.map((src, idx) => (
+                      <div key={idx} className="flex flex-col items-center">
+                        <img
+                          src={src}
+                          alt={unlimitedOptions[optionIdx].label + ' ' + (idx + 1)}
+                          style={{ width: '572px', height: '572px', objectFit: 'contain', marginBottom: '8px' }}
+                          className="object-contain rounded-2xl flex-shrink-0"
+                        />
+                        <div className="text-center text-base text-gray-700 font-medium" style={{ position: 'relative', top: '-18px' }}>
+                          {[
+                            'FDA 510(k) Certificate',
+                            'ISO 13485 Medical Device Quality Management Certificate',
+                            'MDL (Canada) Medical Device Listing'
+                          ][idx]}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
                   <img
                     src={unlimitedOptions[optionIdx].content.img}
                     alt={unlimitedOptions[optionIdx].label}
@@ -430,32 +468,34 @@ export default function HomePage() {
                     className="object-cover rounded-2xl flex-shrink-0"
                   />
                 )}
-                <div className="flex-1 text-left min-w-[320px]">
-                  {Array.isArray(unlimitedOptions[optionIdx].content.text)
-                    ? unlimitedOptions[optionIdx].content.text.map((p, i, arr) => (
-                        <>
-                          <p key={i} className="mb-4 last:mb-0">
-                            {typeof p === 'string'
-                              ? t(`home.customization.options.${optionIdx}.content.text.${i}`, p)
-                              : p}
-                          </p>
-                          {i === 0 && arr.length > 1 && <p className="my-4" key="gap"></p>}
-                          {/* 在Function Customization最后一段下方加按钮 */}
-                          {optionIdx === 2 && i === arr.length - 1 && (
-                            <div className="mt-6 flex justify-start">
-                              <Link
-                                to="/solutions"
-                                className="inline-block px-8 py-3 bg-blue-700 text-white font-bold rounded-full shadow hover:bg-blue-800 transition"
-                              >
-                                Ask Our Expert
-                              </Link>
-                            </div>
-                          )}
-                        </>
-                      ))
-                    : t(`home.customization.options.${optionIdx}.content.text`, unlimitedOptions[optionIdx].content.text)
-                  }
-                </div>
+                {optionIdx !== 4 && (
+                  <div className="flex-1 text-left min-w-[320px]">
+                    {Array.isArray(unlimitedOptions[optionIdx].content.text)
+                      ? unlimitedOptions[optionIdx].content.text.map((p, i, arr) => (
+                          <>
+                            <p key={i} className="mb-4 last:mb-0">
+                              {typeof p === 'string'
+                                ? t(`home.customization.options.${optionIdx}.content.text.${i}`, p)
+                                : p}
+                            </p>
+                            {i === 0 && arr.length > 1 && <p className="my-4" key="gap"></p>}
+                            {/* 在Function Customization最后一段下方加按钮 */}
+                            {optionIdx === 2 && i === arr.length - 1 && (
+                              <div className="mt-6 flex justify-start">
+                                <Link
+                                  to="/solutions"
+                                  className="inline-block px-8 py-3 bg-blue-700 text-white font-bold rounded-full shadow hover:bg-blue-800 transition"
+                                >
+                                  Ask Our Expert
+                                </Link>
+                              </div>
+                            )}
+                          </>
+                        ))
+                      : t(`home.customization.options.${optionIdx}.content.text`, unlimitedOptions[optionIdx].content.text)
+                    }
+                  </div>
+                )}
               </div>
             </div>
           </div>
