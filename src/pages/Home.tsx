@@ -117,8 +117,15 @@ const unlimitedOptions = [
     label: "Quality Control",
     icon: <ThumbsUp className="w-6 h-6" />,
     content: {
-      img: "/images/quality-control.png",
-      text: "Strict quality control for every batch to ensure product excellence.",
+      img: "/homeimages/quality-control-ishine.png",
+      text: (
+        <>
+          <div>Custom your IPL products Quality Control Inspection.</div>
+          <div className="mt-2">
+            Our common IPL products Quality Control Inspection is from supplier selection, production specification, In-process Inspection, Before shipment inspection (OQC). We also accept the customer hire the 3rd party to pre-shipment QC include Full inspection if needed.
+          </div>
+        </>
+      ),
       cardClass: "bg-[#F3F4F7] rounded-[32px] shadow-lg",
       imgClass: "rounded-[32px] border-4 border-blue-200",
     }
