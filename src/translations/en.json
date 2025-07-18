@@ -256,58 +256,41 @@
       }
     },
     "testimonials": {
-      "testimonial1": "\"iShine helped us launch our IPL brand in record time. The quality and service are impressive!\"",
-      "testimonial2": "\"The customization options are endless. Our clients love the unique packaging and features.\"",
-      "testimonial3": "\"Professional team, fast response, and reliable delivery. Highly recommended for OEM/ODM.\"",
-      "testimonial4": "\"We expanded to new markets thanks to iShine's certification and compliance support.\"",
-      "testimonial5": "\"The after-sales service is excellent. Any issues are resolved quickly and professionally.\"",
-      "testimonial6": "\"Our brand reputation improved significantly with iShine's design and manufacturing expertise.\""
+      "0": "\"iShine helped us launch our IPL brand in record time. The quality and service are impressive!\"",
+      "1": "\"The customization options are endless. Our clients love the unique packaging and features.\"",
+      "2": "\"Professional team, fast response, and reliable delivery. Highly recommended for OEM/ODM.\"",
+      "3": "\"We expanded to new markets thanks to iShine's certification and compliance support.\"",
+      "4": "\"The after-sales service is excellent. Any issues are resolved quickly and professionally.\"",
+      "5": "\"Our brand reputation has significantly improved thanks to iShine's design and manufacturing expertise.\"",
+      "title": "What Our Clients Say",
+      "pageButton": "Go to testimonials page"
     },
     "faq": {
-      "q1": {
-        "question": "What is IPL and how does it work?",
-        "answer": "IPL (Intense Pulsed Light) uses broad-spectrum light to target hair follicles, reducing hair growth safely and effectively."
+      "0": {
+        "q": "What is IPL and how does it work?",
+        "a": "IPL (Intense Pulsed Light) uses broad-spectrum light to target hair follicles, safely and effectively reducing hair growth."
       },
-      "q2": {
-        "question": "Can I customize the device functions?",
-        "answer": "Yes, we offer full customization of features, colors, packaging, and more to fit your brand needs."
+      "1": {
+        "q": "Can I customize device functions?",
+        "a": "Yes, we provide complete customization of features, colors, packaging, and more to match your brand needs."
       },
-      "q3": {
-        "question": "What certifications do you support?",
-        "answer": "We support FDA, CE, RoHS, and other global certifications to ensure compliance in your target markets."
+      "2": {
+        "q": "What certifications do you support?",
+        "a": "We support FDA, CE, RoHS, and other global certifications to ensure compliance with your target markets."
       },
-      "q4": {
-        "question": "How long is the production lead time?",
-        "answer": "Typical lead time is 25-35 days after sample approval, depending on order size and customization."
+      "3": {
+        "q": "How long is the production lead time?",
+        "a": "Typical lead time is 25-35 days after sample approval, depending on order size and customization."
       },
-      "q5": {
-        "question": "Do you provide after-sales support?",
-        "answer": "Yes, we offer comprehensive after-sales service including technical support and warranty."
+      "4": {
+        "q": "Do you provide after-sales support?",
+        "a": "Yes, we provide comprehensive after-sales service including technical support and warranty."
       },
-      "q6": {
-        "question": "Can you ship globally?",
-        "answer": {
-          "intro": "Absolutely. We offer reliable worldwide shipping to support your business wherever you are.",
-          "coverage": {
-            "title": "Global Logistics Coverage:",
-            "text": "Yes, we provide international shipping solutions with tracking codes for every order."
-          },
-          "costs": {
-            "title": "Transparent Shipping Costs:",
-            "text": "Shipping fees are calculated based on your order's weight and quantity."
-          },
-          "clickText": "Click on the",
-          "checkButton": "Check Shipping Cost",
-          "buttonText": "button.",
-          "howTo": {
-            "title": "How to Check Your Shipping Cost:",
-            "step1": "Enter your order details (weight/quantity).",
-            "step2": "Instantly view the corresponding shipping rates and options.",
-            "step3": "Track your shipment anytime with the provided logistics code after dispatch."
-          },
-          "help": "Need help? Our team is here to assist you with any shipping or logistics questions."
-        }
-      }
+      "5": {
+        "q": "Can you ship worldwide?",
+        "a": "Certainly. We provide reliable worldwide shipping to support your business wherever you are."
+      },
+      "title": "Frequently Asked Questions"
     },
     "gallery": {
       "image1": {
@@ -376,78 +359,31 @@
       }
     },
     "process": {
-      "title": "OEM/ODM Process",
-      "subtitle": "From idea to delivery, we make your IPL device project seamless and successful.",
       "steps": {
         "0": {
-          "title": "Consultation",
-          "desc": "Discuss your brand vision and requirements."
+          "title": "Consultation"
         },
         "1": {
-          "title": "Product Design",
-          "desc": "Develop product concepts and detailed designs tailored to your needs."
+          "title": "Product Design"
         },
         "2": {
-          "title": "Prototyping",
-          "desc": "Create prototypes and confirm samples before mass production."
+          "title": "Prototyping"
         },
         "3": {
-          "title": "Mass Production",
-          "desc": "Manufacture your IPL products efficiently and at scale."
+          "title": "Printing"
         },
         "4": {
-          "title": "IPQC",
-          "desc": "Conduct in-process quality control checks during production."
+          "title": "Mass Production"
         },
         "5": {
-          "title": "OQC",
-          "desc": "Perform outgoing quality control before shipment."
+          "title": "IPQC"
         },
         "6": {
-          "title": "Packaging & Shipping",
-          "desc": "Package products securely and arrange global shipping."
+          "title": "OQC"
         },
         "7": {
-          "title": "After-Sales Service",
-          "desc": "Ongoing support for your business."
+          "title": "Packaging & Shipping"
         }
-      }
-    },
-    "testimonials": {
-      "title": "What Our Clients Say",
-      "pageButton": "Go to testimonials page",
-      "0": "\"iShine helped us launch our IPL brand in record time. The quality and service are impressive!\"",
-      "1": "\"The customization options are endless. Our clients love the unique packaging and features.\"",
-      "2": "\"Professional team, fast response, and reliable delivery. Highly recommended for OEM/ODM.\"",
-      "3": "\"We expanded to new markets thanks to iShine's certification and compliance support.\"",
-      "4": "\"The after-sales service is excellent. Any issues are resolved quickly and professionally.\"",
-      "5": "\"Our brand reputation has significantly improved thanks to iShine's design and manufacturing expertise.\""
-    },
-    "faq": {
-      "title": "Frequently Asked Questions",
-      "0": {
-        "q": "What is IPL and how does it work?",
-        "a": "IPL (Intense Pulsed Light) uses broad-spectrum light to target hair follicles, safely and effectively reducing hair growth."
-      },
-      "1": {
-        "q": "Can I customize device functions?",
-        "a": "Yes, we provide complete customization of features, colors, packaging, and more to match your brand needs."
-      },
-      "2": {
-        "q": "What certifications do you support?",
-        "a": "We support FDA, CE, RoHS, and other global certifications to ensure compliance with your target markets."
-      },
-      "3": {
-        "q": "How long is the production lead time?",
-        "a": "Typical lead time is 25-35 days after sample approval, depending on order size and customization."
-      },
-      "4": {
-        "q": "Do you provide after-sales support?",
-        "a": "Yes, we provide comprehensive after-sales service including technical support and warranty."
-      },
-      "5": {
-        "q": "Can you ship worldwide?",
-        "a": "Certainly. We provide reliable worldwide shipping to support your business wherever you are."
       }
     },
     "contact": {
@@ -471,18 +407,6 @@
       "title": "Need help?",
       "subtitle": "Let's discuss your requirements and create the IPL solution that best fit for your brand.",
       "button": "Fill out the form to enjoy Free Consultation"
-    },
-    "process": {
-      "steps": {
-        "0": { "title": "Consultation" },
-        "1": { "title": "Product Design" },
-        "2": { "title": "Prototyping" },
-        "3": { "title": "Printing" },
-        "4": { "title": "Mass Production" },
-        "5": { "title": "IPQC" },
-        "6": { "title": "OQC" },
-        "7": { "title": "Packaging & Shipping" }
-      }
     }
   },
   "contact": {
@@ -1001,43 +925,81 @@
     }
   },
   "about": {
-    "heroTitle": "About iShine",
-    "heroDesc": "Your trusted partner in IPL device manufacturing, bringing innovative beauty technology from concept to market since 2018.",
-    "storyTitle": "Our Story",
-    "storyP1": "Founded in 2018, iShine emerged from a vision to democratize advanced IPL technology. We recognized that beauty brands needed a reliable partner who could transform their ideas into market-ready products with precision and excellence.",
-    "storyP2": "Today, we're proud to serve clients across three continents, from innovative startups to established beauty conglomerates. Our commitment to quality, innovation, and customer success drives everything we do.",
-    "storyP3": "At iShine, we don't just manufacture devices — we craft solutions that empower brands to succeed in the competitive beauty market.",
-    "valuesTitle": "Our Core Values",
-    "valuesDesc": "The principles that guide our work and relationships with clients",
-    "values": {
-      "qualityTitle": "Quality Excellence",
-      "qualityDesc": "FDA GMP certified manufacturing with rigorous quality control",
-      "customerTitle": "Customer Focus",
-      "customerDesc": "Dedicated to understanding and exceeding customer expectations",
-      "globalTitle": "Global Impact",
-      "globalDesc": "Serving beauty brands worldwide with innovative IPL solutions",
-      "innovationTitle": "Innovation Drive",
-      "innovationDesc": "Continuous R&D investment in next-generation IPL technology"
+    "brandStory": {
+      "hero": {
+        "title": "From Challenge to Change: The iShine Journey",
+        "subtitle": "The IPL industry struggled with high costs, limited customization, and technical hurdles. iShine was founded to break this mold—empowering businesses worldwide with next-generation IPL technology and a seamless path from idea to market."
+      },
+      "sections": {
+        "origin": {
+          "title": "Our Origin",
+          "content": "Founded with a vision to democratize advanced IPL technology, iShine emerged from the recognition that innovation was stifled by high costs and limited accessibility in the beauty device market."
+        },
+        "mission": {
+          "title": "Our Mission",
+          "content": "To make advanced IPL solutions accessible, customizable, and scalable for every visionary brand, breaking down barriers to innovation in the beauty technology space."
+        },
+        "vision": {
+          "title": "Our Vision",
+          "content": "To be the global leader in democratizing advanced beauty technology, empowering brands worldwide to bring innovative IPL solutions to market with confidence and success."
+        },
+        "values": {
+          "title": "Our Values",
+          "content": "Innovation, collaboration, quality, and customer-centricity drive everything we do. We believe in building lasting partnerships and delivering excellence in every project."
+        }
+      }
     },
-    "journeyTitle": "Our Journey",
-    "journeyDesc": "Key milestones in our growth and innovation",
-    "milestones": {
-      "2018": { "title": "Company Founded", "desc": "iShine established as IPL device manufacturer" },
-      "2019": { "title": "First International Client", "desc": "Partnership with KU-2 Cosmetic in Germany" },
-      "2020": { "title": "FDA GMP Certification", "desc": "Achieved FDA GMP clean room certification" },
-      "2021": { "title": "Smart IPL Launch", "desc": "Introduced first app-controlled IPL devices" },
-      "2022": { "title": "Global Expansion", "desc": "Partnerships with Costco and ROSESKINCO" },
-      "2023": { "title": "AI Integration", "desc": "Launched AI-powered IPL technology" }
+    "corePrinciples": {
+      "hero": {
+        "title": "Core Principles",
+        "subtitle": "The foundational values that guide our approach to innovation, quality, and customer success."
+      },
+      "principles": {
+        "innovation": {
+          "title": "Innovation First",
+          "content": "We continuously push the boundaries of what's possible in IPL technology, investing in R&D to deliver cutting-edge solutions."
+        },
+        "quality": {
+          "title": "Quality Excellence",
+          "content": "Every product we manufacture meets the highest standards of quality, safety, and performance."
+        },
+        "partnership": {
+          "title": "Partnership Approach",
+          "content": "We work collaboratively with our clients, treating their success as our own and providing comprehensive support."
+        },
+        "accessibility": {
+          "title": "Accessibility",
+          "content": "We believe advanced technology should be accessible to all, not just large corporations."
+        }
+      }
     },
-    "teamTitle": "Our Expert Team",
-    "teamDesc": "Dedicated professionals committed to your success",
-    "team": {
-      "rnd": "R&D Engineers",
-      "rndDesc": "Expert engineers developing cutting-edge IPL technology",
-      "quality": "Quality Specialists",
-      "qualityDesc": "Ensuring every device meets the highest standards",
-      "customer": "Customer Success",
-      "customerDesc": "Dedicated support from concept to market launch"
+    "founderMessage": {
+      "hero": {
+        "title": "Founder's Message",
+        "subtitle": "A personal message from our founder about the journey, vision, and commitment to excellence."
+      },
+      "message": {
+        "title": "Dear Partners and Friends",
+        "content": "When we started iShine, we saw an industry where innovation was limited by high costs and complex barriers. Our mission was clear: democratize advanced IPL technology and make it accessible to visionary brands worldwide. Today, I'm proud to say we've built more than a manufacturing company—we've created a partnership ecosystem that empowers success."
+      },
+      "vision": {
+        "title": "Our Vision for the Future",
+        "content": "We envision a world where every brand, regardless of size, can access the latest beauty technology innovations. Our commitment to R&D, quality, and partnership ensures we remain at the forefront of IPL technology advancement."
+      }
+    },
+    "globalWitness": {
+      "hero": {
+        "title": "Global Witness",
+        "subtitle": "Discover how iShine is making a difference worldwide through innovation, quality, and partnership."
+      },
+      "impact": {
+        "title": "Global Impact",
+        "content": "Our technology and solutions have reached over 50 countries, empowering brands to bring innovative IPL products to market and improve lives through advanced beauty technology."
+      },
+      "partnerships": {
+        "title": "Strategic Partnerships",
+        "content": "We've built lasting relationships with leading brands, distributors, and technology partners worldwide, creating a network of innovation and success."
+      }
     }
   },
   "countryPage": {
@@ -1571,89 +1533,11 @@
         "readTime": "5 min read",
         "author": "iShine Team",
         "category": "Sustainability"
-        }
-      },
-      "iplBestChoice": {
-        "title": "Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools",
+      }
+    },
+    "iplBestChoice": {
+      "title": "Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools",
       "date": "July 10, 2025"
-    }
-  },
-  "about": {
-    "brandStory": {
-      "hero": {
-        "title": "From Challenge to Change: The iShine Journey",
-        "subtitle": "The IPL industry struggled with high costs, limited customization, and technical hurdles. iShine was founded to break this mold—empowering businesses worldwide with next-generation IPL technology and a seamless path from idea to market."
-      },
-        "sections": {
-        "origin": {
-          "title": "Our Origin",
-          "content": "Founded with a vision to democratize advanced IPL technology, iShine emerged from the recognition that innovation was stifled by high costs and limited accessibility in the beauty device market."
-        },
-        "mission": {
-          "title": "Our Mission",
-          "content": "To make advanced IPL solutions accessible, customizable, and scalable for every visionary brand, breaking down barriers to innovation in the beauty technology space."
-        },
-        "vision": {
-          "title": "Our Vision",
-          "content": "To be the global leader in democratizing advanced beauty technology, empowering brands worldwide to bring innovative IPL solutions to market with confidence and success."
-        },
-        "values": {
-          "title": "Our Values",
-          "content": "Innovation, collaboration, quality, and customer-centricity drive everything we do. We believe in building lasting partnerships and delivering excellence in every project."
-        }
-      }
-    },
-    "corePrinciples": {
-      "hero": {
-        "title": "Core Principles",
-        "subtitle": "The foundational values that guide our approach to innovation, quality, and customer success."
-      },
-      "principles": {
-        "innovation": {
-          "title": "Innovation First",
-          "content": "We continuously push the boundaries of what's possible in IPL technology, investing in R&D to deliver cutting-edge solutions."
-        },
-        "quality": {
-          "title": "Quality Excellence",
-          "content": "Every product we manufacture meets the highest standards of quality, safety, and performance."
-        },
-        "partnership": {
-          "title": "Partnership Approach",
-          "content": "We work collaboratively with our clients, treating their success as our own and providing comprehensive support."
-        },
-        "accessibility": {
-          "title": "Accessibility",
-          "content": "We believe advanced technology should be accessible to all, not just large corporations."
-        }
-      }
-    },
-    "founderMessage": {
-      "hero": {
-        "title": "Founder's Message",
-        "subtitle": "A personal message from our founder about the journey, vision, and commitment to excellence."
-      },
-      "message": {
-        "title": "Dear Partners and Friends",
-        "content": "When we started iShine, we saw an industry where innovation was limited by high costs and complex barriers. Our mission was clear: democratize advanced IPL technology and make it accessible to visionary brands worldwide. Today, I'm proud to say we've built more than a manufacturing company—we've created a partnership ecosystem that empowers success."
-      },
-      "vision": {
-        "title": "Our Vision for the Future",
-        "content": "We envision a world where every brand, regardless of size, can access the latest beauty technology innovations. Our commitment to R&D, quality, and partnership ensures we remain at the forefront of IPL technology advancement."
-      }
-    },
-    "globalWitness": {
-      "hero": {
-        "title": "Global Witness",
-        "subtitle": "Discover how iShine is making a difference worldwide through innovation, quality, and partnership."
-      },
-      "impact": {
-        "title": "Global Impact",
-        "content": "Our technology and solutions have reached over 50 countries, empowering brands to bring innovative IPL products to market and improve lives through advanced beauty technology."
-      },
-      "partnerships": {
-        "title": "Strategic Partnerships",
-        "content": "We've built lasting relationships with leading brands, distributors, and technology partners worldwide, creating a network of innovation and success."
-      }
     }
   },
   "sitemap": {
