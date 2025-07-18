@@ -94,6 +94,8 @@ function main() {
 }
 
 function syncAllLanguages() {
+  const enJsonPath = path.join(translationsDir, 'en.json');
+  const enJson = JSON.parse(fs.readFileSync(enJsonPath, 'utf8'));
   const langFiles = fs.readdirSync(translationsDir).filter(f => f.endsWith('.json') && f !== 'en.json');
   langFiles.forEach(file => {
     const langCode = file.replace('.json', '');
