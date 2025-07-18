@@ -989,5 +989,25 @@
     "whatsapp": "WhatsApp Chat",
     "email": "Email Us",
     "phone": "Call Us"
+  },
+  "iplHairRemoval": {
+    "heroTitle": "IPL Hair Removal Devices",
+    "heroDescription": "Discover our range of advanced IPL hair removal devices designed for professional results at home. From smart app-controlled to AI-powered models, find the perfect solution for your needs.",
+    "iplDevicesTitle": "Our IPL Devices",
+    "iplDevicesDescription": "Explore our innovative lineup of IPL hair removal devices featuring cutting-edge technology for safe, effective, and convenient hair removal.",
+    "accessoriesTitle": "IPL Accessories",
+    "accessoriesDescription": "Complement your IPL device with our range of high-quality accessories designed to enhance your hair removal experience.",
+    "advancedIplTitle": "Advanced IPL Technology",
+    "smartTechnologyIntegration": "Smart Technology Integration",
+    "smartTechnologyIntegrationDescription": "Seamless app connectivity for personalized treatments and progress tracking.",
+    "coolingComfortSystems": "Cooling Comfort Systems",
+    "coolingComfortSystemsDescription": "Ice feeling and cooling technology for pain-free hair removal sessions.",
+    "intelligentSkinSensors": "Intelligent Skin Sensors",
+    "intelligentSkinSensorsDescription": "AI-powered sensors that adapt to your skin tone for safe, optimal results.",
+    "seo": {
+      "title": "IPL Hair Removal Devices | Smart App, Ice Cooling, AI-Powered | iShine",
+      "description": "Professional IPL hair removal devices including smart app-controlled, ice cooling, AI-powered, and skin sensor models. Custom manufacturing for beauty brands worldwide.",
+      "keywords": "IPL hair removal devices, smart IPL, ice cooling IPL, AI-powered IPL, skin sensor IPL, beauty devices"
+    }
   }
 }
