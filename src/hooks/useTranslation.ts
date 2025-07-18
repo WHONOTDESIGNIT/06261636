@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { useTranslation as useI18nextTranslation } from 'react-i18next';
 
 interface TranslationData {
