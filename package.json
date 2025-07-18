@@ -9,7 +9,9 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "generate-sitemap": "node scripts/generate-sitemap.js",
-    "build:full": "npm run generate-sitemap && npm run build"
+    "build:full": "npm run generate-sitemap && npm run build",
+    "i18n:update": "node script/i18n-sync.cjs --update-en",
+    "i18n:sync": "node script/i18n-sync.cjs --sync-all"
   },
   "dependencies": {
     "@react-three/fiber": "^8.15.15",
