@@ -465,7 +465,17 @@
     },
     "features": {
       "title": "Why Choose iShine?",
-      "subtitle": "Complete IPL manufacturing solutions tailored to your needs"
+      "subtitle": "Complete IPL manufacturing solutions tailored to your needs",
+      "items": [
+        {"title": "Innovation", "description": "Cutting-edge IPL technology"},
+        {"title": "Quality", "description": "Strict quality control"}
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {"q": "What is IPL?", "a": "Intense Pulsed Light technology for hair removal."}
+      ]
     },
     "products": {
       "title": "Our IPL Device Range",
@@ -900,6 +910,10 @@
       "description": "Stay updated with the latest trends in IPL hair removal and beauty device manufacturing.",
       "keywords": "IPL blog, beauty tech news, hair removal insights"
     },
+    "hero": {
+      "title": "iShine Blog",
+      "subtitle": "Latest IPL insights"
+    },
     "posts": {
       "aiPoweredSkinSensing": {
         "title": "AI-Powered Skin Sensing Technology in Modern IPL Devices",
@@ -1043,12 +1057,15 @@
     "phone": "Call Us"
   },
   "iplHairRemoval": {
-    "heroTitle": "IPL Hair Removal Devices",
-    "heroDescription": "Discover our range of advanced IPL hair removal devices designed for professional results at home. From smart app-controlled to AI-powered models, find the perfect solution for your needs.",
-    "iplDevicesTitle": "Our IPL Devices",
-    "iplDevicesDescription": "Explore our innovative lineup of IPL hair removal devices featuring cutting-edge technology for safe, effective, and convenient hair removal.",
-    "accessoriesTitle": "IPL Accessories",
-    "accessoriesDescription": "Complement your IPL device with our range of high-quality accessories designed to enhance your hair removal experience.",
+    "hero": {
+      "title": "IPL Hair Removal Devices",
+      "description": "Discover our range of advanced IPL devices.",
+      "cta": "Get Started"
+    },
+    "productCard": {
+      "viewDetails": "View Device",
+      "learnMore": "Learn More"
+    },
     "advancedIplTitle": "Advanced IPL Technology",
     "smartTechnologyIntegration": "Smart Technology Integration",
     "smartTechnologyIntegrationDescription": "Seamless app connectivity for personalized treatments and progress tracking.",
@@ -1186,6 +1203,10 @@
       "title": "iShine Blog - IPL Insights & News",
       "description": "Stay updated with the latest trends in IPL hair removal and beauty device manufacturing.",
       "keywords": "IPL blog, beauty tech news, hair removal insights"
+    },
+    "hero": {
+      "title": "iShine Blog",
+      "subtitle": "Latest IPL insights"
     },
     "posts": {
       "aiPoweredSkinSensing": {
@@ -1467,6 +1488,12 @@
         "description": "Help obtaining FDA approval for IPL devices.",
         "keywords": "FDA listing, compliance services"
       }
+    },
+    "faq": {
+      "title": "Service FAQ",
+      "items": [
+        {"q": "What is after-sales support?", "a": "24/7 assistance."}
+      ]
     }
   },
   "solutionsPages": {
