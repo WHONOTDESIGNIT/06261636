@@ -2,9 +2,6 @@ const fs = require('fs');
 const path = require('path');
 const { fileURLToPath } = require('url');
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
 // 获取所有语言文件
 const translationsDir = path.join(__dirname, '../src/translations');
 const enJsonPath = path.join(translationsDir, 'en.json');
