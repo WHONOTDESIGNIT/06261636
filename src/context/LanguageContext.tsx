@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { useTranslation } from '../hooks/useTranslation'; // 你的自定义hook，负责加载翻译资源
+import { useTranslation } from '../hooks/useTranslation'; // Updated hook with i18next integration
 import { useLocation } from 'react-router-dom';
+import { useTranslation as useTranslationI18next } from 'react-i18next'; // For direct access if needed
 
 // 类型定义，保证类型安全
 interface LanguageContextType {
@@ -22,6 +23,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   // t/翻译函数与loading状态从自定义hook获取
   const { t, loading } = useTranslation(currentLanguage);
   const location = useLocation();
+  const { i18n } = useTranslationI18next(); // Get i18n instance
 
   useEffect(() => {
     // 检查URL路径中是否有语言前缀
@@ -41,6 +43,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   // 切换语言和国家，并持久化
   const setLanguage = (languageCode: string, countryCode?: string) => {
     setCurrentLanguage(languageCode);
+    i18n.changeLanguage(languageCode); // Sync with i18next
     if (countryCode) {
       setCurrentCountry(countryCode);
       localStorage.setItem('selectedCountry', countryCode);
