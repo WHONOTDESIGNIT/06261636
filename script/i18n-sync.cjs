@@ -17,21 +17,37 @@ function deepMerge(target, source, isTemplate = false) {
   return target;
 }
 
-// 使用 git diff 获取变更键（增量）
+// 使用文件修改时间获取最近变更文件（替代 git diff）
 function getChangedKeys() {
-  try {
-    const diff = execSync('git diff HEAD').toString();
-    const keys = new Set();
+  const recentThreshold = 60 * 60 * 1000; // 1 小时（毫秒）
+  const now = Date.now();
+  const srcDir = path.join(__dirname, '../src');
+  const changedFiles = [];
+
+  function walk(dir) {
+    fs.readdirSync(dir).forEach(file => {
+      const filePath = path.join(dir, file);
+      const stat = fs.statSync(filePath);
+      if (stat.isDirectory()) {
+        walk(filePath);
+      } else if (file.endsWith('.tsx') && now - stat.mtimeMs < recentThreshold) {
+        changedFiles.push(filePath);
+      }
+    });
+  }
+  walk(srcDir);
+
+  // 从变更文件中提取 t('key')
+  const keys = new Set();
+  changedFiles.forEach(file => {
+    const content = fs.readFileSync(file, 'utf8');
     const regex = /t\(['"]([^'"]+)['"]\)/g;
     let match;
-    while ((match = regex.exec(diff)) !== null) {
+    while ((match = regex.exec(content)) !== null) {
       keys.add(match[1]);
     }
-    return Array.from(keys);
-  } catch (e) {
-    console.warn('Git diff failed, scanning all keys');
-    return [];
-  }
+  });
+  return Array.from(keys);
 }
 
 // 构建新键对象（从变更键）
