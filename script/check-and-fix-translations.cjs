@@ -2,9 +2,6 @@ const fs = require('fs');
 const path = require('path');
 const { fileURLToPath } = require('url');
 
-const __filename = fileURLToPath(require('url').pathToFileURL(__filename));
-const __dirname = path.dirname(__filename);
-
 // 读取英文模板
 const enJsonPath = path.join(__dirname, '../src/translations/en.json');
 const enJson = JSON.parse(fs.readFileSync(enJsonPath, 'utf8'));
