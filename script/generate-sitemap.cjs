@@ -1,6 +1,14 @@
 const fs = require('fs');
 const path = require('path');
 
+// 辅助函数：PascalCase to kebab-case
+function toKebabCase(str) {
+  return str
+    .replace(/([a-z])([A-Z])/g, '$1-$2') // 添加连字符
+    .replace(/[\s_]+/g, '-') // 替换空格/下划线
+    .toLowerCase(); // 转小写
+}
+
 // 递归扫描 src/pages 下所有 .tsx 文件
 function scanPageRoutes() {
   const baseDir = path.join(__dirname, '../src/pages');
@@ -19,14 +27,16 @@ function scanPageRoutes() {
     return results;
   }
   const files = walk(baseDir);
-  // 生成路由路径
+  // 生成路由路径（转换为 kebab-case）
   return files.map(f => {
     let rel = f.replace(baseDir, '').replace(/\\/g, '/');
     rel = rel.replace(/\.tsx$/, '');
     if (rel.endsWith('/index')) rel = rel.slice(0, -6);
     if (rel === '/Home') return '';
+    // 转换为 kebab-case
+    rel = rel.split('/').map(segment => toKebabCase(segment)).join('/');
     return rel;
-  });
+  }).filter(route => !route.includes('admin') && !route.includes('private')); // 可选：排除某些路由
 }
 
 // 动态读取实际支持的语言列表
@@ -43,7 +53,7 @@ const scannedRoutes = scanPageRoutes();
 const englishRoutes = [];
 const otherLangRoutes = [];
 
-// 定义高优先级页面（对搜索引擎更重要）
+// 定义高优先级页面（对搜索引擎更重要，使用 kebab-case）
 const highPriorityPages = [
   '',
   '/about',
