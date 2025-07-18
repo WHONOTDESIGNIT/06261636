@@ -78,4 +78,23 @@ function main() {
   console.log('✅ en.json updated successfully with all keys from codebase.');
 }
 
+function syncAllLanguages() {
+  const langFiles = fs.readdirSync(translationsDir).filter(f => f.endsWith('.json') && f !== 'en.json');
+  langFiles.forEach(file => {
+    const langCode = file.replace('.json', '');
+    const langPath = path.join(translationsDir, file);
+    let langJson = {};
+    if (fs.existsSync(langPath)) {
+      langJson = JSON.parse(fs.readFileSync(langPath, 'utf8'));
+    }
+    const fixedJson = deepFix(enJson, langJson);
+    fs.writeFileSync(langPath, JSON.stringify(fixedJson, null, 2), 'utf8');
+    console.log(`✅ Synced ${langCode}.json`);
+  });
+}
+
+if (process.argv.includes('--sync-all')) {
+  syncAllLanguages();
+}
+
 main(); 
