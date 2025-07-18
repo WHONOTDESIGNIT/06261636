@@ -303,9 +303,9 @@
     },
     "contact": {
       "title": "Контакти",
-      "tel": "Тел",
+      "tel": "Телефон",
       "whatsapp": "WhatsApp",
-      "email": "Ел. пошта",
+      "email": "Електронна пошта",
       "address": "АДРЕСА",
       "telValue": "+86-15900283962",
       "whatsappValue": "+86-15012891148",
@@ -633,7 +633,10 @@
     "subtitle', 'Get in touch with our team for business inquiries, support, or partnership opportunities": {
       "": ""
     },
-    "companyPhotoAlt', 'iShine Manufacturing Facility": "companyPhotoAlt', 'iShine Manufacturing Facility"
+    "companyPhotoAlt', 'iShine Manufacturing Facility": "companyPhotoAlt', 'iShine Manufacturing Facility",
+    "hero": {
+      "title": "Зв'яжіться з нами"
+    }
   },
   "buttons": {
     "getQuote": "Отримати пропозицію",

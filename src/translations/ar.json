@@ -302,11 +302,11 @@
       "termsOfService": "Terms of Service"
     },
     "contact": {
-      "title": "Contact",
-      "tel": "Tel",
+      "title": "اتصل بنا",
+      "tel": "هاتف",
       "whatsapp": "WhatsApp",
-      "email": "Email",
-      "address": "ADDRESS",
+      "email": "بريد إلكتروني",
+      "address": "العنوان",
       "telValue": "+86-15900283962",
       "whatsappValue": "+86-15012891148",
       "emailValue": "service@iplmanufacturer.com",

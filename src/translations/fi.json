@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "iShine - IPL-laitevalmistusratkaisut | Ideasta markkinoille",
-    "description": "Johtava IPL-laitevalmistaja tarjoaa kattavia OEM/ODM-ratkaisuja ideasta markkinoille. Räätälöidyt IPL-karvanpoistojärjestelmät globaaleille kauneusbrändeille.",
+    "title": "iShine - IPL-laitteiden valmistusratkaisut | Ideasta markkinoille",
+    "description": "Johtava IPL-laitteiden valmistaja tarjoaa OEM/ODM-ratkaisuja ideasta markkinoille. Räätälöidyt IPL-karvanpoistolaittet maailmanlaajuisille kauneusbrändille.",
     "keywords": "IPL-laitteet, OEM-valmistus, ODM-ratkaisut, karvanpoisto, kauneuslaitteet, räätälöity valmistus"
   },
   "header": {
@@ -70,7 +70,7 @@
       "howToUse": "Käyttöohjeet",
       "serviceSupport": "Palvelu ja tuki",
       "about": "Tietoa meistä",
-      "contact": "Yhteystiedot"
+      "contact": "Ota yhteyttä"
     },
     "solutions": {
       "logoPrinting": "Logon painatus",
@@ -303,7 +303,7 @@
     },
     "contact": {
       "title": "Yhteystiedot",
-      "tel": "Puh",
+      "tel": "Puhelin",
       "whatsapp": "WhatsApp",
       "email": "Sähköposti",
       "address": "OSOITE",
@@ -633,7 +633,10 @@
     "subtitle', 'Get in touch with our team for business inquiries, support, or partnership opportunities": {
       "": ""
     },
-    "companyPhotoAlt', 'iShine Manufacturing Facility": "companyPhotoAlt', 'iShine Manufacturing Facility"
+    "companyPhotoAlt', 'iShine Manufacturing Facility": "companyPhotoAlt', 'iShine Manufacturing Facility",
+    "hero": {
+      "title": "Ota yhteyttä"
+    }
   },
   "buttons": {
     "getQuote": "Pyydä tarjous",

@@ -303,7 +303,7 @@
     },
     "contact": {
       "title": "Kontakt",
-      "tel": "Tel",
+      "tel": "Telefon",
       "whatsapp": "WhatsApp",
       "email": "E-post",
       "address": "ADRESS",
@@ -633,7 +633,10 @@
     "subtitle', 'Get in touch with our team for business inquiries, support, or partnership opportunities": {
       "": ""
     },
-    "companyPhotoAlt', 'iShine Manufacturing Facility": "companyPhotoAlt', 'iShine Manufacturing Facility"
+    "companyPhotoAlt', 'iShine Manufacturing Facility": "companyPhotoAlt', 'iShine Manufacturing Facility",
+    "hero": {
+      "title": "Kontakta oss"
+    }
   },
   "buttons": {
     "getQuote": "Få offert",

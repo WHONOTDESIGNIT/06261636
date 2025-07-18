@@ -633,7 +633,10 @@
     "subtitle', 'Get in touch with our team for business inquiries, support, or partnership opportunities": {
       "": ""
     },
-    "companyPhotoAlt', 'iShine Manufacturing Facility": "companyPhotoAlt', 'iShine Manufacturing Facility"
+    "companyPhotoAlt', 'iShine Manufacturing Facility": "companyPhotoAlt', 'iShine Manufacturing Facility",
+    "hero": {
+      "title": "Makipag-ugnayan sa Amin"
+    }
   },
   "buttons": {
     "getQuote": "Kumuha ng Quote",
