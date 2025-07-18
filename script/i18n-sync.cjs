@@ -40,48 +40,6 @@ function deepMerge(target, source, lang, isForce = false) {
   return hasChanges;
 }
 
-// 使用文件修改时间获取最近变更文件（替代 git diff，BoltNew友好）
-function getChangedKeys() {
-  const recentThreshold = 60 * 60 * 1000; // 1 小时（毫秒）
-  const now = Date.now();
-  const srcDir = path.join(__dirname, '../src');
-  const changedFiles = [];
-
-  function walk(dir) {
-    try {
-      fs.readdirSync(dir).forEach(file => {
-        const filePath = path.join(dir, file);
-        const stat = fs.statSync(filePath);
-        if (stat.isDirectory()) {
-          walk(filePath);
-        } else if (file.endsWith('.tsx') && now - stat.mtimeMs < recentThreshold) {
-          changedFiles.push(filePath);
-        }
-      });
-    } catch (e) {
-      console.log('目录扫描错误，跳过:', e.message);
-    }
-  }
-  walk(srcDir);
-
-  if (changedFiles.length === 0) {
-    console.log('无最近变更文件，使用全扫描模式');
-    return []; // 或实现全扫描
-  }
-
-  // 从变更文件中提取 t('key')
-  const keys = new Set();
-  changedFiles.forEach(file => {
-    const content = fs.readFileSync(file, 'utf8');
-    const regex = /t\(['"]([^'"]+)['"]\)/g;
-    let match;
-    while ((match = regex.exec(content)) !== null) {
-      keys.add(match[1]);
-    }
-  });
-  return Array.from(keys);
-}
-
 // 构建新键对象（从变更键）
 function buildNewKeys(changedKeys) {
   const newObj = {};
@@ -100,6 +58,34 @@ function buildNewKeys(changedKeys) {
   return newObj;
 }
 
+function walk(dir, allKeys) {
+  try {
+    fs.readdirSync(dir).forEach(file => {
+      const filePath = path.join(dir, file);
+      const stat = fs.statSync(filePath);
+      if (stat.isDirectory()) {
+        walk(filePath, allKeys);
+      } else if (file.endsWith('.tsx')) {
+        const content = fs.readFileSync(filePath, 'utf8');
+        const regex = /t\(['"]([^'"]+)['"]\)/g;
+        let match;
+        while ((match = regex.exec(content)) !== null) {
+          allKeys.add(match[1]);
+        }
+      }
+    });
+  } catch (e) {
+    console.log('Directory scan error, skipping:', e.message);
+  }
+}
+
+function getAllKeys() {
+  const srcDir = path.join(__dirname, '../src');
+  const allKeys = new Set();
+  walk(srcDir, allKeys);
+  return Array.from(allKeys);
+}
+
 const translationsDir = path.join(__dirname, '../src/translations');
 const enPath = path.join(translationsDir, 'en.json');
 
@@ -112,16 +98,16 @@ function main(args) {
   }
   const isForce = args.includes('--force') || false;
   let enData = JSON.parse(fs.readFileSync(enPath, 'utf8'));
-  const changedKeys = getChangedKeys();
+  const allKeys = getAllKeys();
 
   if (mode === '--update-en') {
-    const newKeys = buildNewKeys(changedKeys);
-    const updatedData = deepMerge(enData, newKeys, 'en'); // Pass 'en' for English
-    if (JSON.stringify(updatedData) !== JSON.stringify(enData)) {
-      fs.writeFileSync(enPath, JSON.stringify(updatedData, null, 2), 'utf8');
-      console.log('✅ en.json 更新完成（有变更）');
+    const newKeys = buildNewKeys(allKeys);
+    const hasChanges = deepMerge(enData, newKeys, 'en');
+    if (hasChanges) {
+      fs.writeFileSync(enPath, JSON.stringify(enData, null, 2) + '\n', 'utf8');
+      console.log('✅ en.json fully updated with all keys from codebase');
     } else {
-      console.log('✅ en.json 无需更新（无新键）');
+      console.log('✅ en.json is already complete');
     }
   } else if (mode === '--sync-all') {
     fs.readdirSync(translationsDir).forEach(file => {
