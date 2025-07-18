@@ -2,26 +2,31 @@ const fs = require('fs');
 const path = require('path');
 
 // 辅助函数：递归补齐结构 + 同步内容（检查差异）
-function deepMerge(target, source) {
+function deepMerge(target, source, isForce = false) {
   let hasChanges = false;
+  const changes = []; // 日志数组
   for (const key in source) {
     if (typeof source[key] === 'object' && !Array.isArray(source[key])) {
       if (typeof target[key] !== 'object' || target[key] === null) {
         target[key] = {};
         hasChanges = true;
       }
-      const subChanges = deepMerge(target[key], source[key]);
+      const subChanges = deepMerge(target[key], source[key], isForce);
       if (subChanges) hasChanges = true;
     } else {
       if (!target.hasOwnProperty(key)) {
         target[key] = source[key]; // 补齐缺失
+        changes.push(`Added key: ${key}`);
         hasChanges = true;
-      } else if (target[key] !== source[key]) {
-        target[key] = `${source[key]} [synced from en - was: ${target[key]}]`; // 同步差异 + 标记
+      } else if (target[key] !== source[key] && isForce) { // force 时同步差异
+        const oldVal = target[key];
+        target[key] = source[key];
+        changes.push(`Synced key: ${key} (was: ${oldVal})`);
         hasChanges = true;
       }
     }
   }
+  if (changes.length > 0) console.log(`Changes: ${changes.join(', ')}`);
   return hasChanges;
 }
 
@@ -88,8 +93,10 @@ function buildNewKeys(changedKeys) {
 const translationsDir = path.join(__dirname, '../src/translations');
 const enPath = path.join(translationsDir, 'en.json');
 
-// 主函数
-function main(mode) {
+// 主函数（添加 --force 支持）
+function main(args) {
+  const mode = args[2];
+  const isForce = args.includes('--force');
   let enData = JSON.parse(fs.readFileSync(enPath, 'utf8'));
   const changedKeys = getChangedKeys();
 
@@ -107,19 +114,18 @@ function main(mode) {
       if (file.endsWith('.json') && file !== 'en.json') {
         const filePath = path.join(translationsDir, file);
         let targetData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-        const hasChanges = deepMerge(targetData, enData);
-        if (hasChanges) {
+        const hasChanges = deepMerge(targetData, enData, isForce); // 传递 isForce
+        if (hasChanges || isForce) { // 强制时总是写
           fs.writeFileSync(filePath, JSON.stringify(targetData, null, 2), 'utf8');
-          console.log(`✅ ${file} 已同步结构和内容（与 en.json 对齐，有变更）`);
+          console.log(`✅ ${file} 已强制同步结构和内容（与 en.json 对齐）`);
         } else {
           console.log(`✅ ${file} 已与 en.json 完全一致，无需更新`);
         }
       }
     });
   } else {
-    console.log('用法: node i18n-sync.cjs --update-en 或 --sync-all');
-    console.log('提示: 此脚本在本地运行，不会消耗 Netlify 额度。');
+    console.log('用法: node i18n-sync.cjs --update-en 或 --sync-all [--force]');
   }
 }
 
-main(process.argv[2]); 
+main(process.argv); 
