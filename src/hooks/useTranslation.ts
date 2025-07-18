@@ -1,10 +1,6 @@
 import { useEffect } from 'react';
 import { useTranslation as useI18nextTranslation } from 'react-i18next';
 
-interface TranslationData {
-  [key: string]: string | string[] | TranslationData;
-}
-
 export const useTranslation = (language: string = 'en') => {
   // Use i18next's hook
   const { t: i18nT, i18n, ready } = useI18nextTranslation();
