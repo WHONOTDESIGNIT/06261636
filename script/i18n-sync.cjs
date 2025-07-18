@@ -1,19 +1,23 @@
 const fs = require('fs');
 const path = require('path');
 
-// 辅助函数：递归补齐结构（手动填充模板）
-function deepMerge(target, source, isTemplate = false) {
+// 辅助函数：递归补齐结构（自动复制 en 值 + 标记）
+function deepMerge(target, source) {
+  let hasChanges = false;
   for (const key in source) {
     if (typeof source[key] === 'object' && !Array.isArray(source[key])) {
       if (typeof target[key] !== 'object' || target[key] === null) {
         target[key] = {};
+        hasChanges = true;
       }
-      deepMerge(target[key], source[key], isTemplate);
+      const subChanges = deepMerge(target[key], source[key]);
+      if (subChanges) hasChanges = true;
     } else if (!target.hasOwnProperty(key)) {
-      target[key] = isTemplate ? `[TODO: Translate '${source[key]}' to target language]` : source[key];
+      target[key] = `${source[key]} [from en - review translation]`;
+      hasChanges = true;
     }
   }
-  return target;
+  return hasChanges;
 }
 
 // 使用文件修改时间获取最近变更文件（替代 git diff，BoltNew友好）
@@ -98,12 +102,13 @@ function main(mode) {
       if (file.endsWith('.json') && file !== 'en.json') {
         const filePath = path.join(translationsDir, file);
         let targetData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-        const updatedData = deepMerge(targetData, enData, true);
-        if (JSON.stringify(updatedData) !== JSON.stringify(targetData)) {
-          fs.writeFileSync(filePath, JSON.stringify(updatedData, null, 2), 'utf8');
-          console.log(`✅ ${file} 补齐完成（使用手动模板，有变更）`);
+        const originalStr = JSON.stringify(targetData);
+        const hasChanges = deepMerge(targetData, enData);
+        if (hasChanges) {
+          fs.writeFileSync(filePath, JSON.stringify(targetData, null, 2), 'utf8');
+          console.log(`✅ ${file} 已补齐结构和内容（复制自 en.json，有变更）`);
         } else {
-          console.log(`✅ ${file} 无需更新`);
+          console.log(`✅ ${file} 已与 en.json 一致，无需更新`);
         }
       }
     });
