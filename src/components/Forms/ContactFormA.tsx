@@ -17,7 +17,7 @@ const ContactFormA: React.FC = () => {
     business: '',
     timeline: '',
     message: '',
-    verification: 0
+    verification: ''
   });
 
   const onSubmit = async (data: any) => {
