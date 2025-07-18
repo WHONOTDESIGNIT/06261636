@@ -6,6 +6,7 @@ export interface Product {
   features: string[];
   thumbnail?: string;
   link?: string;
+  category?: string;
 }
 
 export interface ContactFormData {
