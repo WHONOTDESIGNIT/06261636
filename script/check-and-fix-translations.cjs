@@ -1,8 +1,8 @@
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
+const fs = require('fs');
+const path = require('path');
+const { fileURLToPath } = require('url');
 
-const __filename = fileURLToPath(import.meta.url);
+const __filename = fileURLToPath(require('url').pathToFileURL(__filename));
 const __dirname = path.dirname(__filename);
 
 // 读取英文模板
