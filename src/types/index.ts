@@ -41,3 +41,12 @@ export interface ThumbnailData {
 export interface HeaderProps {
   thumbnailData: ThumbnailData[];
 }
+
+declare module 'i18next-http-backend' {
+  import { BackendOptions, RequestCallback } from 'i18next';
+  class Http {
+    constructor(options?: BackendOptions);
+    read(language: string, namespace: string, callback: RequestCallback): void;
+  }
+  export default Http;
+}
