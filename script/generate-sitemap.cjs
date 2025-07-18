@@ -1,6 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 
+// 注意：此脚本生成sitemap.xml并写入public/目录，确保Netlify的publish directory包含public/，以正确托管sitemap文件。
+// 推荐：在public/_headers中添加以下规则以确保正确的Content-Type：
+// /sitemap.xml
+//   Content-Type: application/xml
+
 // 辅助函数：PascalCase to kebab-case
 function toKebabCase(str) {
   return str
@@ -36,7 +41,7 @@ function scanPageRoutes() {
     // 转换为 kebab-case
     rel = rel.split('/').map(segment => toKebabCase(segment)).join('/');
     return rel;
-  }).filter(route => !route.includes('admin') && !route.includes('private')); // 可选：排除某些路由
+  }).filter(route => !route.includes('admin') && !route.includes('private')); // 排除私有路由
 }
 
 // 动态读取实际支持的语言列表
@@ -53,7 +58,7 @@ const scannedRoutes = scanPageRoutes();
 const englishRoutes = [];
 const otherLangRoutes = [];
 
-// 定义高优先级页面（对搜索引擎更重要，使用 kebab-case）
+// 定义高优先级页面（使用 kebab-case）
 const highPriorityPages = [
   '',
   '/about',
