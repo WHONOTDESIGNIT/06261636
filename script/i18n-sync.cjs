@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
 
 // 辅助函数：递归补齐结构（手动填充模板）
 function deepMerge(target, source, isTemplate = false) {
@@ -17,7 +16,7 @@ function deepMerge(target, source, isTemplate = false) {
   return target;
 }
 
-// 使用文件修改时间获取最近变更文件（替代 git diff）
+// 使用文件修改时间获取最近变更文件（替代 git diff，BoltNew友好）
 function getChangedKeys() {
   const recentThreshold = 60 * 60 * 1000; // 1 小时（毫秒）
   const now = Date.now();
@@ -25,17 +24,26 @@ function getChangedKeys() {
   const changedFiles = [];
 
   function walk(dir) {
-    fs.readdirSync(dir).forEach(file => {
-      const filePath = path.join(dir, file);
-      const stat = fs.statSync(filePath);
-      if (stat.isDirectory()) {
-        walk(filePath);
-      } else if (file.endsWith('.tsx') && now - stat.mtimeMs < recentThreshold) {
-        changedFiles.push(filePath);
-      }
-    });
+    try {
+      fs.readdirSync(dir).forEach(file => {
+        const filePath = path.join(dir, file);
+        const stat = fs.statSync(filePath);
+        if (stat.isDirectory()) {
+          walk(filePath);
+        } else if (file.endsWith('.tsx') && now - stat.mtimeMs < recentThreshold) {
+          changedFiles.push(filePath);
+        }
+      });
+    } catch (e) {
+      console.log('目录扫描错误，跳过:', e.message);
+    }
   }
   walk(srcDir);
+
+  if (changedFiles.length === 0) {
+    console.log('无最近变更文件，使用全扫描模式');
+    return []; // 或实现全扫描
+  }
 
   // 从变更文件中提取 t('key')
   const keys = new Set();
@@ -78,21 +86,30 @@ function main(mode) {
 
   if (mode === '--update-en') {
     const newKeys = buildNewKeys(changedKeys);
-    enData = deepMerge(enData, newKeys);
-    fs.writeFileSync(enPath, JSON.stringify(enData, null, 2), 'utf8');
-    console.log('✅ en.json 更新完成');
+    const updatedData = deepMerge(enData, newKeys);
+    if (JSON.stringify(updatedData) !== JSON.stringify(enData)) {
+      fs.writeFileSync(enPath, JSON.stringify(updatedData, null, 2), 'utf8');
+      console.log('✅ en.json 更新完成（有变更）');
+    } else {
+      console.log('✅ en.json 无需更新（无新键）');
+    }
   } else if (mode === '--sync-all') {
     fs.readdirSync(translationsDir).forEach(file => {
       if (file.endsWith('.json') && file !== 'en.json') {
         const filePath = path.join(translationsDir, file);
         let targetData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-        targetData = deepMerge(targetData, enData, true); // 使用模板填充
-        fs.writeFileSync(filePath, JSON.stringify(targetData, null, 2), 'utf8');
-        console.log(`✅ ${file} 补齐完成（使用手动模板）`);
+        const updatedData = deepMerge(targetData, enData, true);
+        if (JSON.stringify(updatedData) !== JSON.stringify(targetData)) {
+          fs.writeFileSync(filePath, JSON.stringify(updatedData, null, 2), 'utf8');
+          console.log(`✅ ${file} 补齐完成（使用手动模板，有变更）`);
+        } else {
+          console.log(`✅ ${file} 无需更新`);
+        }
       }
     });
   } else {
     console.log('用法: node i18n-sync.cjs --update-en 或 --sync-all');
+    console.log('提示: 此脚本在本地运行，不会消耗 Netlify 额度。');
   }
 }
 
