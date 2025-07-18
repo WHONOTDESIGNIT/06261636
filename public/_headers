@@ -1,0 +1,9 @@
+/sitemap.xml
+  Content-Type: application/xml
+
+/sitemap-yandex.xml
+  Content-Type: application/xml
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block 
