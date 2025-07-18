@@ -59,6 +59,21 @@ function buildNestedObject(keys) {
   return obj;
 }
 
+function deepFix(enObj, langObj = {}) {
+  if (typeof enObj !== 'object' || enObj === null) {
+    return langObj !== undefined ? langObj : enObj;
+  }
+  const result = Array.isArray(enObj) ? [] : {};
+  for (const key in enObj) {
+    if (typeof enObj[key] === 'object' && enObj[key] !== null) {
+      result[key] = deepFix(enObj[key], langObj[key]);
+    } else {
+      result[key] = langObj && langObj[key] !== undefined ? langObj[key] : enObj[key];
+    }
+  }
+  return result;
+}
+
 const translationsDir = path.join(__dirname, '../src/translations');
 const enPath = path.join(translationsDir, 'en.json');
 
