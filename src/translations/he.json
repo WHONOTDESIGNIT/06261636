@@ -5,6 +5,65 @@
     "keywords": "מכשירי IPL, ייצור OEM, פתרונות ODM, הסרת שיער, מכשירי יופי, ייצור מותאם אישית"
   },
   "header": {
+    "nav": {
+      "solutions": "Solutions",
+      "iplHairRemoval": "IPL Hair Removal",
+      "howToUse": "How to Use",
+      "serviceSupport": "Service & Support",
+      "about": "About",
+      "contact": "Contact",
+      "solutions', 'Solutions": "solutions', 'Solutions",
+      "logoPrinting', 'Logo Printing": "logoPrinting', 'Logo Printing",
+      "packaging', 'Packaging Solutions": "packaging', 'Packaging Solutions",
+      "dropShipping', 'Drop Shipping": "dropShipping', 'Drop Shipping",
+      "globalShipping', 'Global Shipping": "globalShipping', 'Global Shipping",
+      "brandCustomization', 'Brand Customization": "brandCustomization', 'Brand Customization",
+      "compliance', 'Compliance & Certifications": "compliance', 'Compliance & Certifications",
+      "designPrototyping', 'Design & Prototyping": "designPrototyping', 'Design & Prototyping",
+      "multiHeadIPL', 'Multi-head IPL Custom": "multiHeadIPL', 'Multi-head IPL Custom",
+      "dualLampIPL', 'Dual-lamp IPL Custom": "dualLampIPL', 'Dual-lamp IPL Custom",
+      "iplHairRemoval', 'IPL Hair Removal": "iplHairRemoval', 'IPL Hair Removal",
+      "iplDevices', 'IPL Devices": "iplDevices', 'IPL Devices",
+      "smartAppIPL', 'Smart App-Controlled IPL Device": "smartAppIPL', 'Smart App-Controlled IPL Device",
+      "iceFeelingIPL', 'Ice Feeling IPL Device": "iceFeelingIPL', 'Ice Feeling IPL Device",
+      "emeraldIPL', 'Emerald IPL Device": "emeraldIPL', 'Emerald IPL Device",
+      "skinSensorIPL', 'Skin Sensor IPL Device": "skinSensorIPL', 'Skin Sensor IPL Device",
+      "batteryPoweredIPL', 'Battery Powered IPL Device": "batteryPoweredIPL', 'Battery Powered IPL Device",
+      "handheldIPL', 'Handheld IPL Device": "handheldIPL', 'Handheld IPL Device",
+      "iceCoolingIPL', 'Ice Cooling IPL Device": "iceCoolingIPL', 'Ice Cooling IPL Device",
+      "dualLampIPLDevice', 'Dual-Lamp IPL Device": "dualLampIPLDevice', 'Dual-Lamp IPL Device",
+      "aiPoweredIPL', 'AI-POWERED IPL Device": "aiPoweredIPL', 'AI-POWERED IPL Device",
+      "accessories', 'Accessories": "accessories', 'Accessories",
+      "sapphireLens', 'Sapphire Lens": "sapphireLens', 'Sapphire Lens",
+      "opticalFilter', 'Optical Filter": "opticalFilter', 'Optical Filter",
+      "powerAdapter', 'Power Adapter": "powerAdapter', 'Power Adapter",
+      "safetyGoggles', 'Safety Goggles": "safetyGoggles', 'Safety Goggles",
+      "howToUse', 'How to Use": "howToUse', 'How to Use",
+      "serviceSupport', 'Service & Support": "serviceSupport', 'Service & Support",
+      "service', 'Service": "service', 'Service",
+      "afterSales', 'After-Sales Service": "afterSales', 'After-Sales Service",
+      "winFDAListing', 'Win FDA Listing": "winFDAListing', 'Win FDA Listing",
+      "iplManufacturing', 'IPL Devices Manufacturing": "iplManufacturing', 'IPL Devices Manufacturing",
+      "knowledgeBase', 'Knowledge Base": "knowledgeBase', 'Knowledge Base",
+      "supportGuide', 'Support > Buying Guide": "supportGuide', 'Support > Buying Guide",
+      "beautySourcing', 'Beauty Niche Sourcing & Accessories": "beautySourcing', 'Beauty Niche Sourcing & Accessories",
+      "pricingGuide', 'Pricing Guide": "pricingGuide', 'Pricing Guide",
+      "helpCenter', 'Help Center": "helpCenter', 'Help Center",
+      "gallery', 'Gallery": "gallery', 'Gallery",
+      "videos', 'Videos": "videos', 'Videos",
+      "blog', 'Blog": "blog', 'Blog",
+      "newsInsights', 'News & Insights": "newsInsights', 'News & Insights",
+      "industries', 'Industries We Serve": "industries', 'Industries We Serve",
+      "about', 'About": "about', 'About",
+      "founderMessage', 'Founder Message": "founderMessage', 'Founder Message",
+      "technology', 'Our Technology": "technology', 'Our Technology",
+      "globalWitness', 'Global Witness": "globalWitness', 'Global Witness",
+      "corePrinciples', 'Core Principles": "corePrinciples', 'Core Principles",
+      "company', 'About iShine": "company', 'About iShine",
+      "brandStory', 'Brand Story": "brandStory', 'Brand Story",
+      "quality', 'Quality": "quality', 'Quality",
+      "contact', 'Contact": "contact', 'Contact"
+    },
     "navigation": {
       "solutions": "פתרונות",
       "iplHairRemoval": "הסרת שיער IPL",
@@ -36,18 +95,30 @@
       "aiPowered": "מכשיר IPL מופעל בבינה מלאכותית"
     },
     "accessories": {
-      "sapphireLens": "עדשת ספיר",
-      "adapter": "מתאם",
-      "goggles": "משקפי מגן",
-      "filter": "מסנן"
+      "sapphireLens": {
+        "title": "Sapphire Lens",
+        "description": "High-quality sapphire lens for IPL devices, ensuring optimal light transmission and durability."
+      },
+      "opticalFilter": {
+        "title": "Optical Filter",
+        "description": "Advanced optical filters for precise wavelength control in IPL treatments."
+      },
+      "powerAdapter": {
+        "title": "Power Adapter",
+        "description": "Reliable power adapters compatible with global voltage standards."
+      },
+      "safetyGoggles": {
+        "title": "Safety Goggles",
+        "description": "Protective eyewear designed for safe IPL device usage."
+      }
     },
     "serviceSupport": {
       "service": "שירות",
       "afterSales": "שירות לאחר מכירה",
-      "fdaGmp": "עיצוב חדר נקי FDA GMP",
-      "manufacturing": "ייצור מכשירי IPL",
+      "winFDAListing": "Win FDA Listing",
+      "iplManufacturing": "IPL Devices Manufacturing",
       "knowledgeBase": "בסיס ידע",
-      "support": "תמיכה > מדריך קנייה",
+      "supportGuide": "Support > Buying Guide",
       "beautySourcing": "מיקור נישת יופי ואביזרים",
       "pricingGuide": "מדריך מחירים",
       "helpCenter": "מרכז עזרה",
@@ -55,7 +126,140 @@
       "videos": "סרטונים",
       "blog": "בלוג",
       "newsInsights": "חדשות ותובנות",
-      "industries": "תעשיות שאנו משרתים"
+      "industries": "תעשיות שאנו משרתים",
+      "hero": {
+        "title": "Service & Support",
+        "subtitle": "Comprehensive support ecosystem for IPL device manufacturers, distributors, and brand owners. From technical guidance to business solutions, we're here to ensure your success.",
+        "cta": "Get Support Now"
+      },
+      "stats": {
+        "satisfiedClients": "Satisfied Clients",
+        "technicalSupport": "Technical Support",
+        "uptimeGuarantee": "Uptime Guarantee",
+        "countriesServed": "Countries Served"
+      },
+      "ecosystem": {
+        "title": "Our Service Ecosystem",
+        "subtitle": "Everything you need to succeed in the IPL device market, from technical support to business growth solutions."
+      },
+      "categories": {
+        "technicalSupport": {
+          "title": "Technical Support",
+          "description": "Expert guidance and troubleshooting for all your IPL device needs"
+        },
+        "manufacturingServices": {
+          "title": "Manufacturing Services",
+          "description": "Complete OEM/ODM solutions from design to production"
+        },
+        "businessSupport": {
+          "title": "Business Support",
+          "description": "Comprehensive business solutions for distributors and brand owners"
+        },
+        "resourcesMedia": {
+          "title": "Resources & Media",
+          "description": "Visual resources and educational content for marketing and training"
+        }
+      },
+      "services": {
+        "afterSalesService": {
+          "name": "After-Sales Service",
+          "description": "24/7 technical support with 1-year warranty and 365-day return policy",
+          "hero": {
+            "title": "Comprehensive After-Sales Service",
+            "subtitle": "Dedicated support for your IPL devices post-purchase",
+            "cta": "Learn More"
+          },
+          "details": {
+            "warranty": "1-year standard warranty with optional extensions",
+            "supportHours": "24/7 customer support",
+            "returnPolicy": "365-day return window for manufacturing defects",
+            "repairServices": "Fast turnaround repairs with genuine parts"
+          }
+        },
+        "knowledgeBase": {
+          "name": "Knowledge Base",
+          "description": "Comprehensive FAQ and technical documentation for IPL devices",
+          "hero": {
+            "title": "Knowledge Base",
+            "subtitle": "Your go-to resource for IPL device information and troubleshooting",
+            "cta": "Browse Articles"
+          },
+          "sections": {
+            "faq": "Frequently Asked Questions",
+            "tutorials": "Step-by-step guides",
+            "technicalDocs": "Detailed technical specifications",
+            "troubleshooting": "Common issue resolutions"
+          }
+        },
+        "helpCenter": {
+          "name": "Help Center",
+          "description": "Multi-channel support including live chat, phone, and email assistance",
+          "hero": {
+            "title": "Help Center",
+            "subtitle": "Get assistance whenever you need it",
+            "cta": "Contact Support"
+          }
+        },
+        "iplManufacturing": {
+          "name": "IPL Manufacturing",
+          "description": "Custom IPL device manufacturing with FDA compliance and quality assurance",
+          "hero": {
+            "title": "IPL Manufacturing",
+            "subtitle": "State-of-the-art production facilities for premium IPL devices",
+            "cta": "Explore Manufacturing"
+          }
+        },
+        "winFdaListing": {
+          "name": "Win FDA Listing",
+          "description": "Professional guidance to obtain FDA 510(k) listing for your brand",
+          "hero": {
+            "title": "Win FDA Listing",
+            "subtitle": "Expert assistance for FDA compliance and market entry",
+            "cta": "Get Started"
+          }
+        },
+        "beautySourcing": {
+          "name": "Beauty Sourcing",
+          "description": "Specialized sourcing for beauty devices and accessories with expert guidance",
+          "hero": {
+            "title": "Beauty Sourcing",
+            "subtitle": "Find the perfect components for your beauty products",
+            "cta": "Source Now"
+          }
+        },
+        "pricingGuide": {
+          "name": "Pricing Guide",
+          "description": "Transparent pricing information and customized quotations for bulk orders",
+          "hero": {
+            "title": "Pricing Guide",
+            "subtitle": "Competitive pricing for high-quality IPL solutions",
+            "cta": "Request Quote"
+          }
+        },
+        "gallery": {
+          "name": "Gallery",
+          "description": "High-quality product images and lifestyle photography for marketing use",
+          "hero": {
+            "title": "Image Gallery",
+            "subtitle": "Visual showcase of our IPL devices and manufacturing",
+            "cta": "View Gallery"
+          }
+        },
+        "videos": {
+          "name": "Videos",
+          "description": "Product demonstrations, tutorials, and promotional video content",
+          "hero": {
+            "title": "Video Library",
+            "subtitle": "Watch our IPL devices in action",
+            "cta": "Watch Videos"
+          }
+        }
+      },
+      "learnMore": "Learn More →",
+      "cta": {
+        "title": "Ready to Get Started?",
+        "subtitle": "Our expert team is standing by to help you with any questions or support needs. Get in touch today and experience the iShine difference."
+      }
     },
     "about": {
       "founderMessage": "מסר המייסד",
@@ -65,7 +269,8 @@
       "company": "אודות iShine",
       "brandStory": "סיפור המותג",
       "quality": "איכות"
-    }
+    },
+    "logo', 'iShine": "logo', 'iShine"
   },
   "footer": {
     "company": {
@@ -113,25 +318,103 @@
       "title1": "מכשירי IPL מותאמים אישית",
       "title2": "ומכשירי IPL למותג",
       "subtitle": "יצרן מוביל עולמי של מכשירי IPL, עוזר לך לעצב, לבנות ולארוז.",
-      "cta": "קבל הצעת מחיר"
+      "cta": "קבל הצעת מחיר",
+      "title1', 'Custom IPL Hair Removal Devices for Cosmetics Brands": "title1', 'Custom IPL Hair Removal Devices for Cosmetics Brands",
+      "subtitle', 'You design it, we build it and box it": {
+        "": ""
+      },
+      "cta', 'Get a Free Quote": "cta', 'Get a Free Quote"
     },
-    "partners": {
-      "title": "מהימן על ידי מותגים גלובליים",
-      "subtitle": "עובדים עם מובילי התעשייה ברחבי העולם"
+    "unlimitedOptions": {
+      "colorCustomization": {
+        "label": "Color Customization",
+        "content": "Choose from unlimited color options to match your brand identity."
+      },
+      "logoPrinting": {
+        "label": "Logo Printing",
+        "content": "Add your logo for a fully branded product experience."
+      },
+      "functionCustomization": {
+        "label": "Function Customization",
+        "content": "Customize features and functions to meet your market needs."
+      },
+      "packagingDesign": {
+        "label": "Packaging Design",
+        "content": "Premium packaging for retail, e-commerce, or gifting."
+      },
+      "certificationSupport": {
+        "label": "Certification Support",
+        "content": "Fully support for global certifications."
+      }
     },
-    "features": {
-      "title": "למה לבחור ב-iShine?",
-      "subtitle": "פתרונות ייצור IPL מלאים המותאמים לצרכים שלך"
+    "processSteps": {
+      "consultation": {
+        "title": "Consultation",
+        "desc": "Discuss your brand vision and requirements."
+      },
+      "designPrototyping": {
+        "title": "Design & Prototyping",
+        "desc": "Get custom designs and functional prototypes."
+      },
+      "sampleConfirmation": {
+        "title": "Sample Confirmation",
+        "desc": "Approve samples before mass production."
+      },
+      "massProduction": {
+        "title": "Mass Production",
+        "desc": "Efficient and high-quality manufacturing."
+      },
+      "qualityInspection": {
+        "title": "Quality Inspection",
+        "desc": "Strict QC for every batch."
+      },
+      "certification": {
+        "title": "Certification",
+        "desc": "Support for FDA, CE, and more."
+      },
+      "globalShipping": {
+        "title": "Global Shipping",
+        "desc": "Worldwide delivery with flexible logistics."
+      },
+      "afterSalesService": {
+        "title": "After-Sales Service",
+        "desc": "Ongoing support for your business."
+      }
     },
-    "products": {
-      "title": "מגוון מכשירי ה-IPL שלנו",
-      "subtitle": "מכשירי IPL הניתנים להתאמה אישית לכל צורך בשוק",
-      "cta": "צפה בכל מכשירי ה-IPL"
+    "testimonials": {
+      "0": "\"iShine עזר לנו להשיק את מותג ה-IPL שלנו בזמן שיא. האיכות והשירות מרשימים!\"",
+      "1": "\"אפשרויות ההתאמה האישית אינסופיות. הלקוחות שלנו אוהבים את האריזה והתכונות הייחודיות.\"",
+      "2": "\"צוות מקצועי, תגובה מהירה ומשלוח אמין. מומלץ מאוד ל-OEM/ODM.\"",
+      "3": "\"התרחבנו לשווקים חדשים בזכות התמיכה בהסמכה וציות של iShine.\"",
+      "4": "\"השירות לאחר מכירה מעולה. כל בעיה נפתרת במהירות ובמקצועיות.\"",
+      "5": "\"מוניטין המותג שלנו השתפר משמעותית בזכות המומחיות בעיצוב וייצור של iShine.\"",
+      "title": "מה הלקוחות שלנו אומרים",
+      "pageButton": "עבור לעמוד המלצות",
+      "title', 'What Our Clients Say": "title', 'What Our Clients Say"
     },
-    "cta": {
-      "title": "מוכן להתחיל את פרויקט ה-IPL שלך?",
-      "subtitle": "בואו נדון בדרישות שלך וניצור את פתרון ה-IPL המושלם למותג שלך",
-      "button": "קבע ייעוץ"
+    "faq": {
+      "title": "שאלות נפוצות",
+      "items": [
+        {
+          "q": "What is IPL?",
+          "a": "Intense Pulsed Light technology for hair removal."
+        }
+      ],
+      "title', 'Frequently Asked Questions": "title', 'Frequently Asked Questions"
+    },
+    "gallery": {
+      "image1": {
+        "alt": "Home IPL hair removal device incoming material testing and quality control process"
+      },
+      "image2": {
+        "alt": "Professional packaging process for home IPL hair removal devices"
+      },
+      "image3": {
+        "alt": "Modern warehouse facility for home IPL hair removal device storage and distribution"
+      },
+      "image4": {
+        "alt": "iShine research and development department for IPL technology innovation"
+      }
     },
     "about": {
       "title": "אודות iShine",
@@ -142,7 +425,28 @@
       "and": "ו",
       "customization": "התאמה אישית",
       "description2": "עוזר לך לעצב, לבנות ולארוז. מרעיון לשוק.",
-      "description3": "יש לנו יכולת ל-IPL עם קירור קרח מותאם אישית, מכשיר IPL מחובר לאפליקציה חכמה, מכשיר IPL עם חיישן עור. iShine מספק פתרונות המתאימים ביותר לזהות המותג שלך."
+      "description3": "יש לנו יכולת ל-IPL עם קירור קרח מותאם אישית, מכשיר IPL מחובר לאפליקציה חכמה, מכשיר IPL עם חיישן עור. iShine מספק פתרונות המתאימים ביותר לזהות המותג שלך.",
+      "title', 'About iShine": "title', 'About iShine",
+      "subtitle', 'One-stop IPL solutions": {
+        "": ""
+      },
+      "cta', 'Read More": "cta', 'Read More",
+      "description1', 'iShine Tech Co": {
+        ", Limited, is one-stop supplier for": ", Limited, is one-stop supplier for"
+      },
+      "manufacturing', 'IPL hair removal devices manufacturing": "manufacturing', 'IPL hair removal devices manufacturing",
+      "and', 'and": "and', 'and",
+      "customization', 'customization": "customization', 'customization",
+      "description2', 'Help you design it, build it and box it": {
+        " From idea to market": {
+          "": ""
+        }
+      },
+      "description3', 'We have the capability for Custom ice cooling IPL, Smart APP-connected IPL device, Skin Sensor IPL device": {
+        " iShine provide solutions that best fit for your brand identity": {
+          "": ""
+        }
+      }
     },
     "whatWeDo": {
       "title": "מה אנחנו עושים",
@@ -152,7 +456,15 @@
       "title": "מכשירי IPL מותאמים אישית",
       "subtitle": "אתה מעצב, אנחנו בונים, ארוזים",
       "description": "iShine הוא יצרן מוצרי IPL מותאמים אישית בשירות מלא המציע התאמה אישית מקיפה מפיתוח תבניות ואב טיפוס ועד ייצור המוני ואריזה. iShine כבר התאים אישית יותר מ-1,000 פרויקטי מכשירי IPL מותאמים אישית לשותפינו בעבר עם ניסיון רב בפתרונות טכניים למוצרי IPL ופתרונות ציות.",
-      "include": "מוצרי IPL מותאמים אישית כוללים:"
+      "include": "מוצרי IPL מותאמים אישית כוללים:",
+      "title', 'CUSTMIZED IPL DEVICES": "title', 'CUSTMIZED IPL DEVICES",
+      "subtitle', 'You design it, we build it, box it": "subtitle', 'You design it, we build it, box it",
+      "description', 'iShine is a full-service custom IPL products manufacturer offering end-to-end customization, from mold development and prototyping to mass production and packaging": {
+        " iShine already customized more than 1,000 custom devices IPL projects for our partner in the past with much experience in IPL products Technical solution and Compliance solution": {
+          "": ""
+        }
+      },
+      "include', 'The custom IPL products include:": "include', 'The custom IPL products include:"
     },
     "customization": {
       "title": "אפשרויות התאמה אישית בלתי מוגבלות",
@@ -177,132 +489,151 @@
         "4": {
           "label": "תמיכה בהסמכה",
           "content": "תמיכה מלאה בהסמכות גלובליות."
-        }
-      }
-    },
-    "process": {
-      "title": "תהליך OEM/ODM",
-      "subtitle": "מרעיון ועד משלוח, אנחנו הופכים את פרויקט מכשיר ה-IPL שלך לחלק ומוצלח.",
-      "steps": {
-        "0": {
-          "title": "ייעוץ",
-          "desc": "דון בחזון המותג והדרישות שלך."
-        },
-        "1": {
-          "title": "עיצוב ואב טיפוס",
-          "desc": "קבל עיצובים מותאמים אישית ואבות טיפוס פונקציונליים."
-        },
-        "2": {
-          "title": "אישור דגימה",
-          "desc": "אשר דגימות לפני ייצור המוני."
-        },
-        "3": {
-          "title": "ייצור המוני",
-          "desc": "ייצור יעיל ואיכותי."
-        },
-        "4": {
-          "title": "בקרת איכות",
-          "desc": "בקרת איכות קפדנית לכל אצווה."
         },
         "5": {
-          "title": "הסמכה",
-          "desc": "תמיכה ב-FDA, CE ועוד."
+          "content": {
+            "text": "Custom your IPL products Quality Control Inspection. Our common IPL products Quality Control Inspection is from supplier selection, production specification, In-process Inspection, Before shipment inspection (OQC). We also accept the customer hire the 3rd party to pre-shipment QC include Full inspection if needed."
+          }
+        }
+      },
+      "title', 'Unlimited Customization Options": "title', 'Unlimited Customization Options"
+    },
+    "process": {
+      "steps": {
+        "0": {
+          "title": "ייעוץ"
+        },
+        "1": {
+          "title": "עיצוב ואב טיפוס"
+        },
+        "2": {
+          "title": "אישור דגימה"
+        },
+        "3": {
+          "title": "ייצור המוני"
+        },
+        "4": {
+          "title": "בקרת איכות"
+        },
+        "5": {
+          "title": "הסמכה"
         },
         "6": {
-          "title": "משלוח גלובלי",
-          "desc": "משלוח עולמי עם לוגיסטיקה גמישה."
+          "title": "משלוח גלובלי"
         },
         "7": {
-          "title": "שירות לאחר מכירה",
-          "desc": "תמיכה מתמשכת לעסק שלך."
+          "title": "שירות לאחר מכירה"
         }
-      }
-    },
-    "testimonials": {
-      "title": "מה הלקוחות שלנו אומרים",
-      "pageButton": "עבור לעמוד המלצות",
-      "0": "\"iShine עזר לנו להשיק את מותג ה-IPL שלנו בזמן שיא. האיכות והשירות מרשימים!\"",
-      "1": "\"אפשרויות ההתאמה האישית אינסופיות. הלקוחות שלנו אוהבים את האריזה והתכונות הייחודיות.\"",
-      "2": "\"צוות מקצועי, תגובה מהירה ומשלוח אמין. מומלץ מאוד ל-OEM/ODM.\"",
-      "3": "\"התרחבנו לשווקים חדשים בזכות התמיכה בהסמכה וציות של iShine.\"",
-      "4": "\"השירות לאחר מכירה מעולה. כל בעיה נפתרת במהירות ובמקצועיות.\"",
-      "5": "\"מוניטין המותג שלנו השתפר משמעותית בזכות המומחיות בעיצוב וייצור של iShine.\""
-    },
-    "faq": {
-      "title": "שאלות נפוצות",
-      "0": {
-        "q": "מה זה IPL ואיך זה עובד?",
-        "a": "IPL (Intense Pulsed Light) משתמש באור רחב ספקטרום כדי לכוון לזקיקי השיער, מפחית את צמיחת השיער בבטחה וביעילות."
       },
-      "1": {
-        "q": "האם אני יכול להתאים אישית את פונקציות המכשיר?",
-        "a": "כן, אנחנו מציעים התאמה אישית מלאה של תכונות, צבעים, אריזה ועוד להתאמה לצרכי המותג שלך."
-      },
-      "2": {
-        "q": "אילו הסמכות אתם תומכים?",
-        "a": "אנחנו תומכים ב-FDA, CE, RoHS והסמכות גלובליות אחרות להבטחת ציות בשווקי היעד שלך."
-      },
-      "3": {
-        "q": "כמה זמן לוקח זמן הייצור?",
-        "a": "זמן הייצור הטיפוסי הוא 25-35 ימים לאחר אישור הדגימה, תלוי בגודל ההזמנה וההתאמה האישית."
-      },
-      "4": {
-        "q": "האם אתם מספקים תמיכה לאחר מכירה?",
-        "a": "כן, אנחנו מציעים שירות לאחר מכירה מקיף כולל תמיכה טכנית ואחריות."
-      },
-      "5": {
-        "q": "האם אתם יכולים לשלוח ברחבי העולם?",
-        "a": "בהחלט. אנחנו מציעים משלוח עולמי אמין לתמיכה בעסק שלך בכל מקום שאתה נמצא."
+      "subtitle', 'From idea to delivery, we make your IPL device project successful": {
+        "": ""
       }
     },
     "contact": {
       "title": "צור קשר",
-      "subtitle": "מוכן להעצים את המותג שלך? צור קשר לייעוץ חינם והצעת מחיר."
+      "subtitle": "מוכן להעצים את המותג שלך? צור קשר לייעוץ חינם והצעת מחיר.",
+      "title', 'Contact Us": "title', 'Contact Us",
+      "subtitle', 'Ready to empower your brand? Get in touch for a free consultation and quote": {
+        "": ""
+      }
+    },
+    "partners": {
+      "title": "מהימן על ידי מותגים גלובליים",
+      "subtitle": "עובדים עם מובילי התעשייה ברחבי העולם"
+    },
+    "features": {
+      "title": "למה לבחור ב-iShine?",
+      "subtitle": "פתרונות ייצור IPL מלאים המותאמים לצרכים שלך",
+      "items": [
+        {
+          "title": "Innovation",
+          "description": "Cutting-edge IPL technology"
+        },
+        {
+          "title": "Quality",
+          "description": "Strict quality control"
+        }
+      ]
+    },
+    "products": {
+      "title": "מגוון מכשירי ה-IPL שלנו",
+      "subtitle": "מכשירי IPL הניתנים להתאמה אישית לכל צורך בשוק",
+      "cta": "צפה בכל מכשירי ה-IPL"
+    },
+    "cta": {
+      "title": "מוכן להתחיל את פרויקט ה-IPL שלך?",
+      "subtitle": "בואו נדון בדרישות שלך וניצור את פתרון ה-IPL המושלם למותג שלך",
+      "button": "קבע ייעוץ"
+    },
+    "seo": {
+      "title": "iShine - Custom IPL Hair Removal Device Manufacturing | OEM/ODM Solutions",
+      "description": "Leading IPL device manufacturer providing custom OEM/ODM solutions. Design, build, and brand your own IPL hair removal devices with iShine.",
+      "keywords": "IPL hair removal devices, custom manufacturing, OEM ODM, beauty device manufacturing, IPL device manufacturer",
+      "title', 'iShine - Custom IPL Hair Removal Device Manufacturing | OEM/ODM Solutions": "title', 'iShine - Custom IPL Hair Removal Device Manufacturing | OEM/ODM Solutions",
+      "description', 'Leading IPL device manufacturer providing custom OEM/ODM solutions": {
+        " Design, build, and brand your own IPL hair removal devices with iShine": {
+          "": ""
+        }
+      },
+      "keywords', 'IPL hair removal devices, custom manufacturing, OEM ODM, beauty device manufacturing, IPL device manufacturer": "keywords', 'IPL hair removal devices, custom manufacturing, OEM ODM, beauty device manufacturing, IPL device manufacturer"
+    },
+    "video": {
+      "description": "Watch how iShine brings your IPL device ideas to life, from design to delivery. Our advanced manufacturing and strict quality control ensure your brand stands out in the beauty market.",
+      "description', 'Watch how iShine brings your IPL device ideas to life, from design to delivery": {
+        " Our advanced manufacturing and strict quality control ensure your brand stands out in the beauty market": {
+          "": ""
+        }
+      }
     }
   },
   "contact": {
-    "hero": {
-      "title": "צור קשר",
-      "description": "מוכן לדון בפרויקט ה-IPL שלך? צור קשר עם צוות המומחים שלנו היום. אנחנו כאן כדי לעזור להגשים את החזון שלך."
-    },
-    "info": {
-      "title": "יצירת קשר",
-      "subtitle": "דרכים מרובות להגיע אלינו - בחר מה שעובד הכי טוב בשבילך",
-      "address": {
-        "title": "כתובת",
-        "company": "iShine Manufacturing Co., Ltd.",
-        "location": "שנזן, גואנגדונג, סין"
+    "title": "צור קשר",
+    "description": "Get in touch with us.",
+    "seo": {
+      "title": "Contact iShine",
+      "description": "Contact page for inquiries.",
+      "keywords": "contact, support",
+      "title', 'Contact iShine - IPL Device Manufacturing Inquiries": "title', 'Contact iShine - IPL Device Manufacturing Inquiries",
+      "description', 'Contact iShine Manufacturing for IPL device OEM/ODM inquiries, custom manufacturing solutions, and business partnerships": {
+        " Get expert consultation today": {
+          "": ""
+        }
       },
-      "phone": {
-        "title": "טלפון"
-      },
-      "email": {
-        "title": "אימייל"
-      },
-      "hours": {
-        "title": "שעות פעילות",
-        "weekdays": "ראשון - חמישי: 9:00 - 18:00",
-        "saturday": "שבת: 9:00 - 12:00"
-      }
-    },
-    "map": {
-      "title": "בקר במתקן שלנו",
-      "subtitle": "ממוקם בלב רובע הייצור של שנזן"
+      "keywords', 'contact iShine, IPL manufacturing inquiry, OEM ODM consultation, custom IPL devices, beauty device manufacturing": "keywords', 'contact iShine, IPL manufacturing inquiry, OEM ODM consultation, custom IPL devices, beauty device manufacturing"
     },
     "form": {
-      "title": "מה יש לך בראש? בואו נדבר!",
-      "subtitle": "מלא את הטופס הזה כדי להתחיל את התהליך. נחזור אליך תוך 24 שעות.",
-      "name": "שם*",
-      "email": "כתובת אימייל*",
-      "phone": "מספר טלפון* לדוגמה:(+1-541-3456-3001)",
-      "country": "מדינה",
-      "message": "תאר את הצרכים שלך כאן*",
-      "submit": "שלח",
-      "sending": "שולח..."
+      "submitSuccess', 'Thank you for your message! We\\'ll be in touch within 24hrs": {
+        "": ""
+      },
+      "title', 'What\\'s in your mind? Let\\'s talk!": "title', 'What\\'s in your mind? Let\\'s talk!",
+      "subtitle', 'Fill out this form to get the process started": {
+        " We\\'ll be in touch within 24hrs": {
+          "": ""
+        }
+      },
+      "name', 'Name*": "name', 'Name*",
+      "email', 'Email Address*": "email', 'Email Address*",
+      "phone', 'Phone number* e": {
+        "g": {
+          "(+1-541-3456-3001)": "(+1-541-3456-3001)"
+        }
+      },
+      "country', 'Country": "country', 'Country",
+      "message', 'Describe your needs here*": "message', 'Describe your needs here*",
+      "sending', 'Sending": {
+        "": {
+          "": {
+            "": ""
+          }
+        }
+      },
+      "submit', 'Submit": "submit', 'Submit"
     },
-    "title": "צור קשר",
-    "subtitle": "צור קשר עם הצוות שלנו לשאלות עסקיות, תמיכה או הזדמנויות שיתוף פעולה.",
-    "companyPhotoAlt": "מתקן הייצור של iShine"
+    "title', 'Contact Us": "title', 'Contact Us",
+    "subtitle', 'Get in touch with our team for business inquiries, support, or partnership opportunities": {
+      "": ""
+    },
+    "companyPhotoAlt', 'iShine Manufacturing Facility": "companyPhotoAlt', 'iShine Manufacturing Facility"
   },
   "buttons": {
     "getQuote": "קבל הצעת מחיר",
@@ -319,51 +650,628 @@
     "readMore": "קרא עוד",
     "learnMore": "למד עוד",
     "getStarted": "התחל",
-    "contactUs": "צור קשר"
+    "contactUs": "צור קשר",
+    "relatedArticles": "Related Articles",
+    "yes": "Yes",
+    "note": "Note",
+    "home": "Home"
   },
   "solutions": {
-    "productDesignDevelopment": "עיצוב ופיתוח מוצר",
-    "productDesignDevelopmentDescription": "מהרעיון הראשוני ועד העיצוב הסופי, צוות המומחים שלנו מביא את חזון ה-IPL שלך לחיים עם טכנולוגיה מתקדמת ותובנות שוק.",
-    "oemManufacturing": "ייצור OEM",
-    "oemManufacturingDescription": "פתרונות ייצור מלאים לפי המפרטים שלך. אנחנו מטפלים בייצור בזמן שאתה מתמקד במותג ובשוק שלך.",
-    "odmSolutions": "פתרונות ODM",
-    "odmSolutionsDescription": "בחר מהעיצובים המוכחים שלנו של IPL והתאם אותם עם המיתוג, האריזה והתכונות הייחודיות שלך.",
-    "endToEndSupport": "תמיכה מקצה לקצה",
-    "endToEndSupportDescription": "ניהול פרויקט מלא מייעוץ ראשוני ועד השקת המוצר ומעבר לכך, להבטחת הצלחתך בכל שלב.",
-    "consultation": "ייעוץ",
-    "consultationDescription": "הבנת החזון, השוק והדרישות שלך",
-    "design": "עיצוב",
-    "designDescription": "יצירת עיצובים מותאמים אישית או התאמת פתרונות קיימים",
-    "prototype": "אב טיפוס",
-    "prototypeDescription": "בניית ובדיקת אבי טיפוס להבטחת איכות",
-    "manufacturing": "ייצור",
-    "manufacturingDescription": "ייצור בקנה מידה מלא עם הבטחת איכות",
-    "launch": "השקה",
-    "launchDescription": "תמיכה בכניסה לשוק והצלחה מתמשכת",
-    "completeIPLSolutions": "פתרונות IPL מלאים",
-    "completeIPLSolutionsDescription": "מהרעיון הראשוני ועד השקת השוק, אנו מספקים פתרונות OEM/ODM מקיפים המפיכים את חזון ה-IPL שלך למוצרים מוצלחים.",
-    "ourSolutionPortfolio": "תיק הפתרונות שלנו",
-    "comprehensiveServices": "שירותים מקיפים להביא את מוצרי ה-IPL שלך לשוק בהצלחה",
-    "ourProcess": "התהליך שלנו",
-    "streamlinedWorkflow": "זרימת עבודה מייעלת להבטחת הצלחת הפרויקט שלך",
-    "industriesWeServe": "התעשיות שאנו משרתים",
-    "tailoredSolutions": "פתרונות מותאמים לקטעי שוק מגוונים",
-    "provenSuccess": "הצלחה מוכחת",
-    "numbersSpeak": "מספרים המדברים על המומחיות והמחויבות שלנו",
-    "globalClients": "לקוחות גלובליים",
-    "productsLaunched": "מוצרים שהושקו",
-    "qualityRate": "אחוז איכות",
-    "yearsExperience": "שנות ניסיון"
+    "title": "Solutions",
+    "description": "Our solution offerings.",
+    "seo": {
+      "title": "iShine Solutions",
+      "description": "Custom solutions for IPL needs.",
+      "keywords": "solutions, custom IPL",
+      "title', 'IPL Device Manufacturing Solutions | Custom OEM/ODM Services | iShine": "title', 'IPL Device Manufacturing Solutions | Custom OEM/ODM Services | iShine",
+      "description', 'Comprehensive IPL device manufacturing solutions including logo printing, packaging, drop shipping, global shipping, and brand customization": {
+        " Turn your ideas into market-ready products": {
+          "": ""
+        }
+      },
+      "keywords', 'IPL manufacturing solutions, OEM ODM services, logo printing, packaging solutions, drop shipping, brand customization": "keywords', 'IPL manufacturing solutions, OEM ODM services, logo printing, packaging solutions, drop shipping, brand customization"
+    },
+    "productDesignDevelopment', 'Product Design & Development": "productDesignDevelopment', 'Product Design & Development",
+    "productDesignDevelopmentDescription', 'From initial concept to final design, our expert team brings your IPL vision to life with cutting-edge technology and market insights": {
+      "": ""
+    },
+    "oemManufacturing', 'OEM Manufacturing": "oemManufacturing', 'OEM Manufacturing",
+    "oemManufacturingDescription', 'Complete manufacturing solutions with your specifications": {
+      " We handle production while you focus on your brand and market": {
+        "": ""
+      }
+    },
+    "odmSolutions', 'ODM Solutions": "odmSolutions', 'ODM Solutions",
+    "odmSolutionsDescription', 'Choose from our proven IPL designs and customize them with your branding, packaging, and unique features": {
+      "": ""
+    },
+    "endToEndSupport', 'End-to-End Support": "endToEndSupport', 'End-to-End Support",
+    "endToEndSupportDescription', 'Complete project management from initial consultation to product launch and beyond, ensuring your success every step of the way": {
+      "": ""
+    },
+    "consultation', 'Consultation": "consultation', 'Consultation",
+    "consultationDescription', 'Understand your vision, market, and requirements": "consultationDescription', 'Understand your vision, market, and requirements",
+    "design', 'Design": "design', 'Design",
+    "designDescription', 'Create custom designs or adapt existing solutions": "designDescription', 'Create custom designs or adapt existing solutions",
+    "prototype', 'Prototype": "prototype', 'Prototype",
+    "prototypeDescription', 'Build and test prototypes to ensure quality": "prototypeDescription', 'Build and test prototypes to ensure quality",
+    "manufacturing', 'Manufacturing": "manufacturing', 'Manufacturing",
+    "manufacturingDescription', 'Full-scale production with quality assurance": "manufacturingDescription', 'Full-scale production with quality assurance",
+    "launch', 'Launch": "launch', 'Launch",
+    "launchDescription', 'Support your market entry and ongoing success": "launchDescription', 'Support your market entry and ongoing success",
+    "completeIPLSolutions', 'Complete IPL Solutions": "completeIPLSolutions', 'Complete IPL Solutions",
+    "completeIPLSolutionsDescription', 'From initial concept to market launch, we provide comprehensive OEM/ODM solutions that transform your IPL vision into successful products": {
+      "": ""
+    },
+    "ourSolutionPortfolio', 'Our Solution Portfolio": "ourSolutionPortfolio', 'Our Solution Portfolio",
+    "comprehensiveServices', 'Comprehensive services to bring your IPL products to market successfully": "comprehensiveServices', 'Comprehensive services to bring your IPL products to market successfully",
+    "ourProcess', 'Our Process": "ourProcess', 'Our Process",
+    "streamlinedWorkflow', 'Streamlined workflow to ensure your project success": "streamlinedWorkflow', 'Streamlined workflow to ensure your project success",
+    "industriesWeServe', 'Industries We Serve": "industriesWeServe', 'Industries We Serve",
+    "tailoredSolutions', 'Tailored solutions for diverse market segments": "tailoredSolutions', 'Tailored solutions for diverse market segments",
+    "provenSuccess', 'Proven Success": "provenSuccess', 'Proven Success",
+    "numbersSpeak', 'Numbers that speak to our expertise and commitment": "numbersSpeak', 'Numbers that speak to our expertise and commitment",
+    "globalClients', 'Global Clients": "globalClients', 'Global Clients",
+    "productsLaunched', 'Products Launched": "productsLaunched', 'Products Launched",
+    "qualityRate', 'Quality Rate": "qualityRate', 'Quality Rate",
+    "yearsExperience', 'Years Experience": "yearsExperience', 'Years Experience",
+    "brandCustomization": {
+      "features": {
+        "design": {
+          "title": "title",
+          "description": "description"
+        },
+        "branding": {
+          "title": "title",
+          "description": "description"
+        },
+        "quality": {
+          "title": "title",
+          "description": "description"
+        },
+        "support": {
+          "title": "title",
+          "description": "description"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
+      }
+    },
+    "designPrototyping": {
+      "features": {
+        "design": {
+          "title": "title",
+          "description": "description"
+        },
+        "prototyping": {
+          "title": "title",
+          "description": "description"
+        },
+        "testing": {
+          "title": "title",
+          "description": "description"
+        },
+        "refinement": {
+          "title": "title",
+          "description": "description"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
+      }
+    },
+    "dropShipping": {
+      "features": {
+        "logistics": {
+          "title": "title",
+          "description": "description"
+        },
+        "inventory": {
+          "title": "title",
+          "description": "description"
+        },
+        "automation": {
+          "title": "title",
+          "description": "description"
+        },
+        "support": {
+          "title": "title",
+          "description": "description"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
+      }
+    },
+    "dualLampIPL": {
+      "features": {
+        "technology": {
+          "title": "title",
+          "description": "description"
+        },
+        "efficiency": {
+          "title": "title",
+          "description": "description"
+        },
+        "safety": {
+          "title": "title",
+          "description": "description"
+        },
+        "customization": {
+          "title": "title",
+          "description": "description"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
+      }
+    }
+  },
+  "blog": {
+    "title": "iShine Blog",
+    "description": "Latest insights and news from the world of IPL technology and beauty manufacturing.",
+    "seo": {
+      "title": "iShine Blog - IPL Insights & News",
+      "description": "Stay updated with the latest trends in IPL hair removal and beauty device manufacturing.",
+      "keywords": "IPL blog, beauty tech news, hair removal insights"
+    },
+    "hero": {
+      "title": "iShine Blog",
+      "subtitle": "Latest IPL insights"
+    },
+    "posts": {
+      "aiPoweredSkinSensing": {
+        "title": "חישה של עור מופעלת בינה מלאכותית: הגבול הבא בבטיחות IPL",
+        "description": "Exploring AI in IPL.",
+        "seo": {
+          "title": "AI Skin Sensing in IPL",
+          "description": "How AI is revolutionizing IPL.",
+          "keywords": "AI IPL, skin sensing"
+        },
+        "intro": "איך בינה מלאכותית מחוללת מהפכה בבטיחות והתאמה אישית של מכשירי IPL דרך ניתוח עור בזמן אמת.",
+        "sections": {
+          "introduction": "מבוא",
+          "conclusion": "מסקנה"
+        }
+      },
+      "fda510kPathway": {
+        "title": "מסלול FDA 510(k): ניווט בסיווג מכשיר רפואי עבור IPL",
+        "description": "Guide to FDA clearance.",
+        "seo": {
+          "title": "FDA Pathway for IPL",
+          "description": "Navigating FDA regulations.",
+          "keywords": "FDA 510k, IPL clearance"
+        }
+      },
+      "futureHomeHairRemoval": {
+        "title": "עתיד מכשירי הסרת שיער ביתיים: טרנדים, חידושים ומה הלאה",
+        "description": "Trends in at-home IPL.",
+        "seo": {
+          "title": "Future Home Hair Removal",
+          "description": "Emerging IPL trends.",
+          "keywords": "home IPL, future trends"
+        },
+        "intro": "גלה את האבולוציה, פריצות הדרך הנוכחיות והדור הבא של מכשירי הסרת שיער ביתיים - בינה מלאכותית, רב פונקציונליות ועיצוב בר קיימא ל-2025 ומעבר לכך.",
+        "sections": {
+          "introduction": "introduction",
+          "conclusion": "conclusion"
+        }
+      },
+      "globalMarketShifts": {
+        "title": "שינויים בשוק הגלובלי: טרנדים והזדמנויות במכשירי IPL",
+        "description": "Market analysis.",
+        "seo": {
+          "title": "Beauty Tech Market Shifts",
+          "description": "Global trends in beauty technology.",
+          "keywords": "beauty market, tech shifts"
+        },
+        "intro": "גלה את הטרנדים הגלובליים העדכניים באימוץ מכשירי IPL, שינויים רגולטוריים והזדמנויות שוק למותגים ויצרנים.",
+        "sections": {
+          "introduction": "introduction",
+          "conclusion": "conclusion"
+        }
+      },
+      "industries": {
+        "title": "תעשיות שאנו משרתים: יישומי IPL בכל הסקטורים",
+        "description": "Our industry coverage.",
+        "seo": {
+          "title": "iShine Industries",
+          "description": "Sectors we support with IPL solutions.",
+          "keywords": "IPL industries, beauty sectors"
+        },
+        "intro": "טכנולוגיית IPL אינה רק ליופי - גלה את היישומים שלה בסקטורים רפואיים, וטרינריים ותעשייתיים.",
+        "sections": {
+          "introduction": "introduction",
+          "conclusion": "conclusion"
+        }
+      },
+      "iplBestChoice": {
+        "title": "למה מכשירי הסרת שיער IPL ביתיים הם הבחירה הטובה ביותר מבין כל כלי הסרת השיער",
+        "description": "Benefits of IPL.",
+        "seo": {
+          "title": "IPL Best Choice",
+          "description": "Advantages of IPL hair removal.",
+          "keywords": "IPL benefits, hair removal choice"
+        }
+      },
+      "multiHeadIPLSystems": {
+        "title": "מערכות IPL רב ראשיות: דיוק פוגש יעילות גוף מלא",
+        "description": "Advanced IPL systems.",
+        "seo": {
+          "title": "Multi-Head IPL",
+          "description": "Custom multi-head IPL solutions.",
+          "keywords": "multi-head IPL, advanced systems"
+        }
+      },
+      "newsInsights": {
+        "title": "News & Insights",
+        "description": "Latest news.",
+        "seo": {
+          "title": "iShine News",
+          "description": "Beauty tech news and insights.",
+          "keywords": "IPL news, beauty insights"
+        },
+        "intro": "intro",
+        "sections": {
+          "introduction": "introduction",
+          "conclusion": "conclusion"
+        }
+      },
+      "promotionalIplMerchandise": {
+        "title": "Promotional IPL Merchandise",
+        "description": "Marketing materials.",
+        "seo": {
+          "title": "IPL Merchandise",
+          "description": "Promotional items for IPL brands.",
+          "keywords": "IPL promo, merchandise"
+        }
+      },
+      "sapphireCooling": {
+        "title": "קירור ספיר: שיפור הנוחות בטיפולי IPL",
+        "description": "Cooling innovations.",
+        "seo": {
+          "title": "Sapphire Cooling",
+          "description": "Advanced cooling in IPL devices.",
+          "keywords": "sapphire cooling, IPL tech"
+        },
+        "intro": "גלה איך טכנולוגיית קירור ספיר משנה את הנוחות והבטיחות של טיפולי הסרת שיער IPL.",
+        "sections": {
+          "introduction": "introduction",
+          "conclusion": "מסקנה"
+        }
+      },
+      "sustainableManufacturing": {
+        "title": "ייצור בר קיימא: שיטות ייצור IPL ירוקות",
+        "description": "Eco-friendly practices.",
+        "seo": {
+          "title": "Sustainable IPL Manufacturing",
+          "description": "Green manufacturing for IPL devices.",
+          "keywords": "sustainable IPL, eco manufacturing"
+        },
+        "intro": "כשהביקוש למכשירי הסרת שיער IPL (Intense Pulsed Light) לשימוש ביתי עולה, כך גם האחריות לייצר את האלקטרוניקה הזו עם השפעה סביבתית מינימלית. ייצור בר קיימא אינו עוד טרנד אלא הכרח - הכולל כל שלב ממקור חומרי גלם ועד מיחזור סוף החיים. מאמר זה בוחן את טביעת הרגל הסביבתית של ייצור מכשירי IPL וחוקר אסטרטגיות חדשניות ומעשיות להשגת שרשרת אספקה ירוקה באמת, עם התמקדות באלקטרוניקה, אופטיקה, מארזי ABS ידידותיים לסביבה, אריזה בת קיימא ויצירת פסולת חוזרת.",
+        "sections": {
+          "introduction": "introduction",
+          "conclusion": "conclusion"
+        }
+      }
+    },
+    "breadcrumb', 'Blog": "breadcrumb', 'Blog",
+    "iplBestChoice": {
+      "title', 'Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools": "title', 'Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools",
+      "date', 'July 10, 2025": "date', 'July 10, 2025"
+    }
+  },
+  "shippingCost": {
+    "title": "Shipping Cost",
+    "description": "Calculate shipping costs.",
+    "seo": {
+      "title": "IPL Shipping Costs",
+      "description": "Estimate delivery costs.",
+      "keywords": "shipping cost, delivery estimate"
+    },
+    "title', 'Shipping Cost Calculator": "title', 'Shipping Cost Calculator",
+    "destinationCountry', 'Destination Country": "destinationCountry', 'Destination Country",
+    "productQuantity', 'Product Quantity": "productQuantity', 'Product Quantity",
+    "calculate', 'Calculate": "calculate', 'Calculate"
+  },
+  "sitemap": {
+    "title": "Sitemap",
+    "description": "Site navigation map.",
+    "seo": {
+      "title": "iShine Sitemap",
+      "description": "All pages and sections.",
+      "keywords": "sitemap, site navigation"
+    },
+    "mainPages": "mainPages",
+    "home": "home",
+    "about": "about",
+    "iplHairRemoval": "iplHairRemoval",
+    "solutions": "solutions",
+    "contact": "contact",
+    "iplProducts": "iplProducts",
+    "emeraldIpl": "emeraldIpl",
+    "iceCoolingIpl": "iceCoolingIpl",
+    "iceFeelingIpl": "iceFeelingIpl",
+    "handheldIpl": "handheldIpl",
+    "batteryPoweredIpl": "batteryPoweredIpl",
+    "skinSensorIpl": "skinSensorIpl",
+    "aiPoweredIpl": "aiPoweredIpl",
+    "dualLampIpl": "dualLampIpl",
+    "aboutPages": "aboutPages",
+    "brandStory": "brandStory",
+    "companyInfo": "companyInfo",
+    "corePrinciples": "corePrinciples",
+    "founderMessage": "founderMessage",
+    "globalWitness": "globalWitness",
+    "quality": "quality",
+    "technology": "technology",
+    "brandCustomization": "brandCustomization",
+    "compliance": "compliance",
+    "designPrototyping": "designPrototyping",
+    "dropShipping": "dropShipping",
+    "dualLampIplSolution": "dualLampIplSolution",
+    "globalShipping": "globalShipping",
+    "logoPrinting": "logoPrinting",
+    "multiHeadIpl": "multiHeadIpl",
+    "packagingSolutions": "packagingSolutions",
+    "accessories": "accessories",
+    "adapter": "adapter",
+    "filter": "filter",
+    "protectiveGoggles": "protectiveGoggles",
+    "sapphireLens": "sapphireLens",
+    "serviceSupport": "serviceSupport",
+    "afterSalesService": "afterSalesService",
+    "helpCenter": "helpCenter",
+    "knowledgeBase": "knowledgeBase",
+    "iplManufacturing": "iplManufacturing",
+    "winFdaListing": "winFdaListing",
+    "beautySourcing": "beautySourcing",
+    "pricingGuide": "pricingGuide",
+    "gallery": "gallery",
+    "videos": "videos",
+    "blog": "blog",
+    "aiPoweredSkinSensing": "aiPoweredSkinSensing",
+    "fda510kPathway": "fda510kPathway",
+    "futureHomeHairRemoval": "futureHomeHairRemoval",
+    "globalMarketShifts": "globalMarketShifts",
+    "industries": "industries",
+    "iplBestChoice": "iplBestChoice",
+    "multiHeadIplSystems": "multiHeadIplSystems",
+    "newsInsights": "newsInsights",
+    "sapphireCooling": "sapphireCooling",
+    "sustainableManufacturing": "sustainableManufacturing",
+    "otherPages": "otherPages",
+    "howToUse": "howToUse",
+    "shippingCost": "shippingCost",
+    "silk": "silk"
+  },
+  "floating": {
+    "cta": {
+      "title": "Ready for Your IPL Solution?",
+      "subtitle": "Contact us for a free consultation",
+      "button": "Contact Now"
+    },
+    "whatsapp": "WhatsApp Chat",
+    "email": "Email Us",
+    "phone": "Call Us",
+    "contact": "צור קשר",
+    "backToTop": "חזרה למעלה"
+  },
+  "iplHairRemoval": {
+    "hero": {
+      "title": "IPL Hair Removal Devices",
+      "description": "Discover our range of advanced IPL devices.",
+      "cta": "Get Started"
+    },
+    "productCard": {
+      "viewDetails": "View Device",
+      "learnMore": "Learn More"
+    },
+    "advancedIplTitle": "טכנולוגיית IPL מתקדמת",
+    "smartTechnologyIntegration": "שילוב טכנולוגיה חכמה",
+    "smartTechnologyIntegrationDescription": "מכשירי ה-IPL שלנו כוללים חיישנים חכמים וחיבוריות אפליקציה לטיפולים מותאמים אישית, בטוחים ויעילים.",
+    "coolingComfortSystems": "מערכות נוחות קירור",
+    "coolingComfortSystemsDescription": "קירור ספיר ולוחות מתכת שומרים על העור שלך נוח ומוגן במהלך כל סשן.",
+    "intelligentSkinSensors": "חיישני עור חכמים",
+    "intelligentSkinSensorsDescription": "זיהוי אוטומטי של גוון העור ושיער מבטיח אספקת אנרגיה אופטימלית ובטיחות לכל משתמש.",
+    "seo": {
+      "title": "IPL Hair Removal Devices | Smart App, Ice Cooling, AI-Powered | iShine",
+      "description": "Professional IPL hair removal devices including smart app-controlled, ice cooling, AI-powered, and skin sensor models. Custom manufacturing for beauty brands worldwide.",
+      "keywords": "IPL hair removal devices, smart IPL, ice cooling IPL, AI-powered IPL, skin sensor IPL, beauty devices",
+      "title', 'IPL Hair Removal Devices | Smart App, Ice Cooling, AI-Powered | iShine": "title', 'IPL Hair Removal Devices | Smart App, Ice Cooling, AI-Powered | iShine",
+      "description', 'Professional IPL hair removal devices including smart app-controlled, ice cooling, AI-powered, and skin sensor models": {
+        " Custom manufacturing for beauty brands worldwide": {
+          "": ""
+        }
+      },
+      "keywords', 'IPL hair removal devices, smart IPL, ice cooling IPL, AI-powered IPL, skin sensor IPL, beauty devices": "keywords', 'IPL hair removal devices, smart IPL, ice cooling IPL, AI-powered IPL, skin sensor IPL, beauty devices"
+    },
+    "heroTitle": "פתרונות הסרת שיער IPL מקצועיים",
+    "heroDescription": "גלה את הדור הבא של מכשירי הסרת שיער IPL - בטוחים, יעילים ומעוצבים לכל סוגי העור. חווה תוצאות איכות סלון בבית או בעסק שלך.",
+    "iplDevicesTitle": "מגוון מכשירי ה-IPL שלנו",
+    "iplDevicesDescription": "גלה את המגוון המלא שלנו של מכשירי הסרת שיער IPL מתקדמים, כל אחד מהונדס לנוחות ותוצאות מקסימליות.",
+    "accessoriesTitle": "אביזרי IPL חיוניים",
+    "accessoriesDescription": "שפר את חוויית ה-IPL שלך עם מגוון האביזרים המוסמכים שלנו לבטיחות ונוחות."
   },
   "about": {
-    "heroTitle": "אודות iShine",
-    "heroDesc": "השותף המהימן שלך בייצור מכשירי IPL, מביא טכנולוגיית יופי חדשנית מרעיון לשוק מאז 2018.",
-    "storyTitle": "הסיפור שלנו",
-    "storyP1": "נוסדה בשנת 2018, iShine צמחה מחזון לדמוקרטיזציה של טכנולוגיית IPL מתקדמת. זיהינו שמותגי יופי זקוקים לשותף אמין שיכול להפוך את הרעיונות שלהם למוצרים מוכנים לשוק בדיוק ובמצוינות.",
-    "storyP2": "היום, אנחנו גאים לשרת לקוחות בשלוש יבשות, מסטארט-אפים חדשניים ועד קונצרני יופי מבוססים. המחויבות שלנו לאיכות, חדשנות והצלחת הלקוחות מניעה את כל מה שאנחנו עושים.",
-    "storyP3": "ב-iShine, אנחנו לא רק מייצרים מכשירים - אנחנו יוצרים פתרונות המעצימים מותגים להצליח בשוק היופי התחרותי.",
-    "valuesTitle": "הערכים הליבה שלנו",
-    "valuesDesc": "העקרונות המנחים את העבודה והיחסים שלנו עם הלקוחות",
+    "title": "About iShine",
+    "description": "Learn more about our company, mission, and values.",
+    "seo": {
+      "title": "About iShine - IPL Device Manufacturer",
+      "description": "Discover iShine's story, technology, and commitment to excellence in IPL manufacturing.",
+      "keywords": "about iShine, IPL manufacturer story, company information",
+      "title', 'About iShine - Leading IPL Device Manufacturer | Innovation & Quality": "title', 'About iShine - Leading IPL Device Manufacturer | Innovation & Quality",
+      "description', 'Discover iShine\\'s journey as a leading IPL device manufacturer": {
+        " Learn about our innovation, quality standards, and commitment to excellence in beauty device manufacturing": {
+          "": ""
+        }
+      },
+      "keywords', 'about iShine, IPL manufacturer, beauty device company, innovation, quality, manufacturing excellence": "keywords', 'about iShine, IPL manufacturer, beauty device company, innovation, quality, manufacturing excellence"
+    },
+    "brandStory": {
+      "title": "Brand Story",
+      "description": "The journey of iShine in the beauty industry.",
+      "seo": {
+        "title": "iShine Brand Story",
+        "description": "From inception to innovation in IPL technology.",
+        "keywords": "iShine history, brand journey"
+      },
+      "sections": {
+        "origin": {
+          "title": "title",
+          "content": "content"
+        },
+        "mission": {
+          "title": "title",
+          "content": "content"
+        },
+        "vision": {
+          "title": "title",
+          "content": "content"
+        },
+        "values": {
+          "title": "title",
+          "content": "content"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
+      }
+    },
+    "companyInfo": {
+      "title": "Company Information",
+      "description": "Details about iShine Tech Co., Limited.",
+      "seo": {
+        "title": "iShine Company Info",
+        "description": "Our company structure and operations.",
+        "keywords": "iShine company, corporate information"
+      }
+    },
+    "corePrinciples": {
+      "title": "Core Principles",
+      "description": "Our guiding values and principles.",
+      "seo": {
+        "title": "iShine Core Principles",
+        "description": "What drives our success and innovation.",
+        "keywords": "iShine values, company principles"
+      },
+      "principles": {
+        "innovation": {
+          "title": "title",
+          "content": "content"
+        },
+        "quality": {
+          "title": "title",
+          "content": "content"
+        },
+        "partnership": {
+          "title": "title",
+          "content": "content"
+        },
+        "accessibility": {
+          "title": "title",
+          "content": "content"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
+      }
+    },
+    "founderMessage": {
+      "title": "Founder Message",
+      "description": "Message from our founder.",
+      "seo": {
+        "title": "Message from iShine Founder",
+        "description": "Insights from the founder of iShine.",
+        "keywords": "iShine founder, CEO message"
+      },
+      "message": {
+        "title": "title",
+        "content": "content"
+      },
+      "vision": {
+        "title": "title",
+        "content": "content"
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
+      }
+    },
+    "globalWitness": {
+      "title": "Global Witness",
+      "description": "Our global impact and testimonials.",
+      "seo": {
+        "title": "iShine Global Witness",
+        "description": "Worldwide recognition and success stories.",
+        "keywords": "iShine global, international presence"
+      },
+      "impact": {
+        "title": "title",
+        "content": "content"
+      },
+      "partnerships": {
+        "title": "title",
+        "content": "content"
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
+      }
+    },
+    "quality": {
+      "title": "Quality",
+      "description": "Our commitment to quality standards.",
+      "seo": {
+        "title": "iShine Quality Assurance",
+        "description": "How we ensure top-quality IPL devices.",
+        "keywords": "iShine quality, manufacturing standards"
+      },
+      "heroTitle', 'Quality You Can Trust": "heroTitle', 'Quality You Can Trust",
+      "ctaTitle', 'Want to Know More About iShine Quality?": "ctaTitle', 'Want to Know More About iShine Quality?",
+      "ctaDesc', 'Contact us for detailed quality documentation, certifications, and case studies": {
+        "": ""
+      }
+    },
+    "technology": {
+      "title": "Our Technology",
+      "description": "Innovative technologies behind our products.",
+      "seo": {
+        "title": "iShine Technology",
+        "description": "Advanced IPL technology and innovations.",
+        "keywords": "iShine tech, IPL innovation"
+      },
+      "hero": {
+        "title": "title",
+        "description": "description"
+      },
+      "timeline": {
+        "title": "title"
+      },
+      "capabilities": {
+        "title": "title",
+        "requestCustomSolution": "requestCustomSolution"
+      },
+      "dataDrivenRnD": {
+        "title": "title",
+        "continuousInnovation": "continuousInnovation",
+        "globalCompliance": "globalCompliance",
+        "userCentricDesign": "userCentricDesign"
+      },
+      "futureReady": {
+        "title": "title",
+        "aiPoweredIpl": "aiPoweredIpl",
+        "sustainability": "sustainability",
+        "haveAVision": "haveAVision"
+      }
+    },
     "values": {
       "qualityTitle": "מצוינות באיכות",
       "qualityDesc": "ייצור מוסמך FDA GMP עם בקרת איכות קפדנית",
@@ -374,8 +1282,6 @@
       "innovationTitle": "מניע חדשנות",
       "innovationDesc": "השקעה מתמשכת במחקר ופיתוח של טכנולוגיית IPL דור הבא"
     },
-    "journeyTitle": "המסע שלנו",
-    "journeyDesc": "אבני דרך מרכזיות בצמיחה ובחדשנות שלנו",
     "milestones": {
       "2018": {
         "title": "הקמת החברה",
@@ -402,8 +1308,6 @@
         "desc": "השקת טכנולוגיית IPL מופעלת בינה מלאכותית"
       }
     },
-    "teamTitle": "צוות המומחים שלנו",
-    "teamDesc": "אנשי מקצוע מסורים למחויבות להצלחתך",
     "team": {
       "rnd": "מהנדסי מחקר ופיתוח",
       "rndDesc": "מהנדסים מומחים המפתחים טכנולוגיית IPL מתקדמת",
@@ -411,44 +1315,242 @@
       "qualityDesc": "מבטיחים שכל מכשיר עומד בסטנדרטים הגבוהים ביותר",
       "customer": "הצלחת לקוחות",
       "customerDesc": "תמיכה מסורה מרעיון ועד השקת השוק"
+    },
+    "heroTitle": "אודות iShine",
+    "heroDesc": "השותף המהימן שלך בייצור מכשירי IPL, מביא טכנולוגיית יופי חדשנית מרעיון לשוק מאז 2018.",
+    "storyTitle": "הסיפור שלנו",
+    "storyP1": "נוסדה בשנת 2018, iShine צמחה מחזון לדמוקרטיזציה של טכנולוגיית IPL מתקדמת. זיהינו שמותגי יופי זקוקים לשותף אמין שיכול להפוך את הרעיונות שלהם למוצרים מוכנים לשוק בדיוק ובמצוינות.",
+    "storyP2": "היום, אנחנו גאים לשרת לקוחות בשלוש יבשות, מסטארט-אפים חדשניים ועד קונצרני יופי מבוססים. המחויבות שלנו לאיכות, חדשנות והצלחת הלקוחות מניעה את כל מה שאנחנו עושים.",
+    "storyP3": "ב-iShine, אנחנו לא רק מייצרים מכשירים - אנחנו יוצרים פתרונות המעצימים מותגים להצליח בשוק היופי התחרותי.",
+    "valuesTitle": "הערכים הליבה שלנו",
+    "valuesDesc": "העקרונות המנחים את העבודה והיחסים שלנו עם הלקוחות",
+    "journeyTitle": "המסע שלנו",
+    "journeyDesc": "אבני דרך מרכזיות בצמיחה ובחדשנות שלנו",
+    "teamTitle": "צוות המומחים שלנו",
+    "teamDesc": "אנשי מקצוע מסורים למחויבות להצלחתך"
+  },
+  "accessories": {
+    "title": "IPL Accessories",
+    "description": "Enhance your IPL experience with our range of accessories.",
+    "seo": {
+      "title": "IPL Accessories | iShine",
+      "description": "High-quality accessories for IPL devices.",
+      "keywords": "IPL accessories, sapphire lens, protective goggles"
+    },
+    "adapter": {
+      "title": "Adapter",
+      "description": "Reliable power adapters for IPL devices.",
+      "seo": {
+        "title": "IPL Adapter",
+        "description": "Compatible power adapters for global use.",
+        "keywords": "IPL adapter, power supply"
+      },
+      "features": {
+        "voltage": {
+          "title": "title",
+          "description": "description"
+        },
+        "safety": {
+          "title": "title",
+          "description": "description"
+        },
+        "compatibility": {
+          "title": "title",
+          "description": "description"
+        },
+        "quality": {
+          "title": "title",
+          "description": "description"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
+      }
+    },
+    "filter": {
+      "title": "Filter",
+      "description": "Optical filters for IPL treatments.",
+      "seo": {
+        "title": "IPL Filter",
+        "description": "Precision filters for wavelength control.",
+        "keywords": "IPL filter, optical filter"
+      },
+      "features": {
+        "optical": {
+          "title": "title",
+          "description": "description"
+        },
+        "safety": {
+          "title": "title",
+          "description": "description"
+        },
+        "durability": {
+          "title": "title",
+          "description": "description"
+        },
+        "compatibility": {
+          "title": "title",
+          "description": "description"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
+      }
+    },
+    "protectiveGoggles": {
+      "title": "Protective Goggles",
+      "description": "Safety eyewear for IPL usage.",
+      "seo": {
+        "title": "IPL Protective Goggles",
+        "description": "Protective glasses for safe IPL treatments.",
+        "keywords": "IPL goggles, safety glasses"
+      },
+      "features": {
+        "protection": {
+          "title": "title",
+          "description": "description"
+        },
+        "comfort": {
+          "title": "title",
+          "description": "description"
+        },
+        "durability": {
+          "title": "title",
+          "description": "description"
+        },
+        "safety": {
+          "title": "title",
+          "description": "description"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
+      }
+    },
+    "sapphireLens": {
+      "title": "Sapphire Lens",
+      "description": "Durable sapphire lenses for IPL devices.",
+      "seo": {
+        "title": "IPL Sapphire Lens",
+        "description": "High-quality lenses for optimal performance.",
+        "keywords": "IPL lens, sapphire lens"
+      },
+      "features": {
+        "cooling": {
+          "title": "title",
+          "description": "description"
+        },
+        "comfort": {
+          "title": "title",
+          "description": "description"
+        },
+        "safety": {
+          "title": "title",
+          "description": "description"
+        },
+        "quality": {
+          "title": "title",
+          "description": "description"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
+      }
     }
   },
-  "countryPage": {
-    "title": "iShine - פתרונות ייצור מכשירי IPL | גלובלי",
-    "description": "יצרן מוביל של מכשירי IPL המספק פתרונות OEM/ODM מרעיון לשוק ברחבי העולם."
-  },
-  "howToUse": {
-    "heroTitle": "איך להשתמש במכשירי IPL",
-    "heroDescription": "מדריך מלא לשימוש בטוח ויעיל במכשירי IPL להסרת שיער. למד טכניקות נכונות, הנחיות בטיחות וקבל את התוצאות הטובות ביותר ממכשיר ה-IPL שלך.",
-    "stepByStepTitle": "הוראות שלב אחר שלב",
-    "stepByStepDescription": "בצע את השלבים הללו לטיפול IPL בטוח ויעיל",
-    "safetyGuidelinesTitle": "הנחיות בטיחות",
-    "safetyGuidelinesDescription": "מידע בטיחות חיוני לטיפול IPL",
-    "treatmentScheduleTitle": "לוח זמנים מומלץ לטיפול",
-    "treatmentScheduleDescription": "בצע לוח זמנים זה לתוצאות הסרת שיער אופטימליות",
-    "troubleshootingTitle": "מדריך פתרון בעיות",
-    "troubleshootingDescription": "בעיות נפוצות והפתרונות שלהן",
-    "faqTitle": "שאלות נפוצות",
-    "faqDescription": "קבל תשובות לשאלות נפוצות על טיפול IPL",
-    "videoTutorialsTitle": "מדריכים בווידאו",
-    "videoTutorialsDescription": "צפה במדריכים בווידאו שלב אחר שלב לשימוש נכון ב-IPL"
-  },
-  "iplHairRemoval": {
-    "heroTitle": "פתרונות הסרת שיער IPL מקצועיים",
-    "heroDescription": "גלה את הדור הבא של מכשירי הסרת שיער IPL - בטוחים, יעילים ומעוצבים לכל סוגי העור. חווה תוצאות איכות סלון בבית או בעסק שלך.",
-    "iplDevicesTitle": "מגוון מכשירי ה-IPL שלנו",
-    "iplDevicesDescription": "גלה את המגוון המלא שלנו של מכשירי הסרת שיער IPL מתקדמים, כל אחד מהונדס לנוחות ותוצאות מקסימליות.",
-    "accessoriesTitle": "אביזרי IPL חיוניים",
-    "accessoriesDescription": "שפר את חוויית ה-IPL שלך עם מגוון האביזרים המוסמכים שלנו לבטיחות ונוחות.",
-    "advancedIplTitle": "טכנולוגיית IPL מתקדמת",
-    "smartTechnologyIntegration": "שילוב טכנולוגיה חכמה",
-    "smartTechnologyIntegrationDescription": "מכשירי ה-IPL שלנו כוללים חיישנים חכמים וחיבוריות אפליקציה לטיפולים מותאמים אישית, בטוחים ויעילים.",
-    "coolingComfortSystems": "מערכות נוחות קירור",
-    "coolingComfortSystemsDescription": "קירור ספיר ולוחות מתכת שומרים על העור שלך נוח ומוגן במהלך כל סשן.",
-    "intelligentSkinSensors": "חיישני עור חכמים",
-    "intelligentSkinSensorsDescription": "זיהוי אוטומטי של גוון העור ושיער מבטיח אספקת אנרגיה אופטימלית ובטיחות לכל משתמש."
-  },
   "ipl": {
+    "title": "IPL Devices",
+    "description": "Our range of advanced IPL devices.",
+    "seo": {
+      "title": "iShine IPL Devices",
+      "description": "Innovative IPL hair removal devices.",
+      "keywords": "IPL devices, hair removal tech"
+    },
+    "aiPoweredIPL": {
+      "title": "AI-Powered IPL",
+      "description": "Intelligent IPL device with AI features.",
+      "seo": {
+        "title": "AI-Powered IPL Device",
+        "description": "Smart AI IPL for personalized treatments.",
+        "keywords": "AI IPL, intelligent hair removal"
+      }
+    },
+    "batteryPoweredIPL": {
+      "title": "Battery Powered IPL",
+      "description": "Portable battery-operated IPL device.",
+      "seo": {
+        "title": "Battery Powered IPL",
+        "description": "Cordless IPL for on-the-go use.",
+        "keywords": "battery IPL, portable hair removal"
+      }
+    },
+    "dualLampIPLDevice": {
+      "title": "Dual Lamp IPL Device",
+      "description": "Powerful dual-lamp IPL technology.",
+      "seo": {
+        "title": "Dual Lamp IPL",
+        "description": "Enhanced efficiency with dual lamps.",
+        "keywords": "dual lamp IPL, advanced IPL"
+      }
+    },
+    "emeraldIPL": {
+      "title": "Emerald IPL",
+      "description": "Premium Emerald IPL device.",
+      "seo": {
+        "title": "Emerald IPL Device",
+        "description": "Luxury IPL with emerald technology.",
+        "keywords": "emerald IPL, premium hair removal"
+      }
+    },
+    "handheldIPL": {
+      "title": "Handheld IPL",
+      "description": "Compact handheld IPL device.",
+      "seo": {
+        "title": "Handheld IPL",
+        "description": "Easy-to-use handheld hair removal.",
+        "keywords": "handheld IPL, compact device"
+      }
+    },
+    "iceCoolingIPL": {
+      "title": "Ice Cooling IPL",
+      "description": "Cooling IPL for comfortable treatments.",
+      "seo": {
+        "title": "Ice Cooling IPL",
+        "description": "Pain-free IPL with ice cooling.",
+        "keywords": "ice cooling IPL, comfortable hair removal"
+      }
+    },
+    "iceFeelingIPL": {
+      "title": "Ice Feeling IPL",
+      "description": "IPL with ice-like cooling sensation.",
+      "seo": {
+        "title": "Ice Feeling IPL",
+        "description": "Refreshing IPL treatments.",
+        "keywords": "ice feeling IPL, cooling sensation"
+      }
+    },
+    "skinSensorIPL": {
+      "title": "Skin Sensor IPL",
+      "description": "IPL with built-in skin sensor.",
+      "seo": {
+        "title": "Skin Sensor IPL",
+        "description": "Safe IPL with skin tone detection.",
+        "keywords": "skin sensor IPL, safe hair removal"
+      }
+    },
+    "smartAppIPL": {
+      "title": "Smart App IPL",
+      "description": "App-controlled smart IPL device.",
+      "seo": {
+        "title": "Smart App IPL",
+        "description": "Connected IPL for smart treatments.",
+        "keywords": "smart IPL, app controlled"
+      }
+    },
     "aiPowered": {
       "title": "מכשיר IPL מופעל בינה מלאכותית",
       "desc": "עתיד הסרת השיער כאן. בינה מלאכותית מייעלת כל טיפול לתוצאות מותאמות אישית ויעילות.",
@@ -465,14 +1567,15 @@
     },
     "batteryPowered": {
       "title": "מכשיר הסרת שיער IPL מופעל בסוללה",
-      "desc": "חווה את הנוחות האלחוטית האולטימטיבית עם מכשיר ה-IPL המופעל בסוללה שלנו. מצויד בסוללה נטענת בעלת קיבולת גבוהה, הוא מציע ניידות חלקה ללא צורך במתאמי חשמל. תהנה מהסרת שיער ברמה מקצועית בכל מקום, בכל זמן, עם עד 9 רמות אנרגיה מתכווננות לטיפולים מותאמים אישית.",
       "features": {
         "cordless": "עיצוב אלחוטי לחופש ונוחות מוחלטים.",
         "energyLevels": "9 רמות אנרגיה מתכווננות לטיפולים מותאמים אישית.",
         "longBattery": "סוללה נטענת עם חיי סוללה ארוכים עם 600+ מחזורי טעינה.",
         "noAdapter": "אין צורך במתאמי חשמל במהלך השימוש, אידיאלי לנסיעות.",
-        "allSkin": "מתאים לכל גווני העור, מאושר FDA ו-CE."
-      }
+        "allSkin": "מתאים לכל גווני העור, מאושר FDA ו-CE.",
+        "portable": "portable"
+      },
+      "desc": "חווה את הנוחות האלחוטית האולטימטיבית עם מכשיר ה-IPL המופעל בסוללה שלנו. מצויד בסוללה נטענת בעלת קיבולת גבוהה, הוא מציע ניידות חלקה ללא צורך במתאמי חשמל. תהנה מהסרת שיער ברמה מקצועית בכל מקום, בכל זמן, עם עד 9 רמות אנרגיה מתכווננות לטיפולים מותאמים אישית."
     },
     "dualLamp": {
       "title": "מכשיר IPL דו נורתי",
@@ -488,243 +1591,1771 @@
         "evenCoverageDesc": "הפצת אור אחידה"
       }
     },
-    "emerald": {
-      "title": "מכשיר הסרת שיער IPL אמרלד",
-      "desc": "חווה הסרת שיער ברמה מקצועית בבית עם מכשיר ה-IPL אמרלד שלנו הכולל טכנולוגיית Intense Pulsed Light מתקדמת עם 15 ג'אול/סמ² של אנרגיה ו-600,000+ הבזקים לעור חלק ועמיד. המערכת המהונדסת בדיוק מספקת תוצאות עקביות בכל אזורי הטיפול.",
-      "features": {
-        "proResults": "תוצאות מקצועיות - עד 94% הפחתת שיער אחרי 12 שבועות.",
-        "manualIntensity": "בקרת עוצמה ידנית ב-5 רמות לטיפולים מותאמים אישית.",
-        "safeAllSkin": "בטוח לכל גווני העור בטווח Fitzpatrick I-V.",
-        "largeWindow": "חלון טיפול גדול 4.2 סמ² לכיסוי מהיר יותר.",
-        "ergonomic": "עיצוב ארגונומי עם חיישני בטיחות מובנים."
-      }
-    },
-    "handheld": {
-      "title": "מכשיר הסרת שיער IPL נייד",
-      "desc": "גלה את השילוב המושלם של נוחות וביצועים עם מכשיר ה-IPL הנייד שלנו. מעוצב לאחיזה קלה ובקרה מדויקת, הוא כולל 5 רמות אנרגיה מתכווננות להתאמה לכל סוגי העור והרגישויות. השג תוצאות הסרת שיער באיכות סלון בבית עם מכשיר קל משקל ונייד.",
-      "features": {
-        "ergonomic": "עיצוב נייד ארגונומי לשימוש נוח.",
-        "energyLevels": "5 רמות אנרגיה מתכווננות לטיפולים מותאמים אישית.",
-        "portable": "קל משקל ונייד - אידיאלי לנסיעות ושימוש בבית.",
-        "allSkin": "מתאים לכל גווני העור, עדין ויעיל.",
-        "certified": "מאושר FDA ו-CE לבטיחות ואיכות."
-      }
-    },
-    "iceCooling": {
-      "title": "מכשיר הסרת שיער IPL עם קירור קרח",
-      "desc": "חווה טכנולוגיית הסרת שיער יוקרתית עם קירור קרח ברמה מקצועית, הכוללת לוח מתכת קירור בדרגת תעופה וחלל שמקרר מיידית את העור לטמפרטורה אולטרה נמוכה של 5°C. בשילוב עם פולסי IPL בעוצמה גבוהה של 2.0~5.0 ג'אול/סמ² ו-999,000+ הבזקים, הוא מספק חוויית עור משיי כמו אלה. העיצוב היוקרתי מיועד לנשים מודרניות החותרות לשלמות.",
-      "features": {
-        "luxuryDesign": "עיצוב אלה יוקרתי - מרקם מתכת בדרגת תעופה וחלל, מציג טעם אצילי.",
-        "coolingPlate": "טכנולוגיית לוח קירור קרח - מקרר מיידית את העור ל-5°C לחוויה באמת ללא כאב.",
-        "preciseControl": "בקרת אנרגיה מדויקת ב-9 רמות - ניתן להתאמה לאזורים רגישים ושיער גס.",
-        "allSkin": "מתאים לכל גווני העור - מוסמך Fitzpatrick I-V.",
-        "largeWindow": "חלון טיפול גדול במיוחד 3.3 סמ² - כיסוי מהיר, יעילות גבוהה ב-50%."
-      }
-    },
-    "iceFeeling": {
-      "title": "מכשיר IPL ספיר עם תחושת קרח",
-      "desc": "תהנה מהסרת שיער ללא כאב עם לוח קירור ספיר ברמה קלינית שמקרר את העור ל-5°C, מאפשר פולסי אנרגיה גבוהים יותר לתוצאות מהירות יותר. מנוע Intense Pulsed Light (IPL) המשולב מספק 2.0~5.0 ג'אול/סמ² של אנרגיה עם 999,999 הבזקים לכל חיי השימוש.",
-      "features": {
-        "longSmooth": "חלקות ארוכת טווח - הפחתה נראית לעין אחרי 3-4 שבועות.",
-        "cooling": "לוח קירור שומר על האפידרמיס ב-5°C לטיפולים באמת ללא כאב.",
-        "energyLevels": "חמש רמות אנרגיה מתאימות כמעט לכל גווני העור בטווח Fitzpatrick I-V.",
-        "flashModes": "מצבי הבזק אוטומטיים/ידניים לגוף ואזורים מדויקים.",
-        "multiUse": "4 ב-1: גוף מלא, ביקיני, פנים והחדרת עור."
-      }
-    },
-    "skinSensor": {
-      "title": "מכשיר IPL עם חיישן עור",
-      "desc": "חווה את הסרת השיער הבטוחה והחכמה ביותר בבית עם מכשיר IPL חיישן העור שלנו. מכשיר מהפכני זה כולל חיישנים אופטיים מתקדמים של העור המזהים אוטומטית את גוון העור וצבע השיער - מספקים עוצמת טיפול מותאמת אישית ליעילות מקסימלית ובטיחות מלאה. עם ניתוח עור בזמן אמת והתאמת אנרגיה אוטומטית, מכשיר זה מושלם לכל סוגי העור המתאימים ומבטיח תוצאות אופטימליות בכל פעם.",
-      "features": {
-        "intelligentDetection": "זיהוי עור חכם - חיישנים מתקדמים מזהים אוטומטית גוון עור ומתאימים רמות אנרגיה",
-        "maxSafety": "בטיחות מקסימלית - מונע טיפול יתר ומפחית סיכון לגירוי עור או כוויות",
-        "personalized": "טיפול מותאם אישית - מייעל אוטומטית עוצמה למאפיינים הייחודיים של העור שלך",
-        "realTime": "ניתוח בזמן אמת - מעקב מתמשך מבטיח סשני טיפול עקביים ובטוחים",
-        "proResults": "תוצאות מקצועיות - הסרת שיער באיכות סלון בנוחות הבית שלך"
-      }
-    },
     "smartApp": {
       "title": "מכשיר הסרת שיער IPL עם אפליקציה חכמה",
-      "desc": "חבר בצורה חלקה את מכשיר ה-IPL שלך דרך Bluetooth לאפליקציה החכמה שלנו. תהנה מטיפולים מובאים, מעקב סשן בזמן אמת, שגרות מותאמות אישית ותובנות מופעלות בינה מלאכותית. שלוט ברמות עוצמה, עקוב אחר התקדמות וקבל תזכורות - הכל מהסמארטפון שלך.",
       "features": {
         "bluetooth": "חיבוריות Bluetooth 5.0 לצימוד יציב",
         "aiPlans": "תוכניות טיפול מותאמות אישית דרך ניתוח בינה מלאכותית",
         "realTimeControl": "בקרת עוצמה בזמן אמת ומשוב על המסך",
         "scheduling": "תזמון סשן ותזכורות שימוש",
         "compatibility": "תואם iOS ו-Android"
+      },
+      "desc": "חבר בצורה חלקה את מכשיר ה-IPL שלך דרך Bluetooth לאפליקציה החכמה שלנו. תהנה מטיפולים מובאים, מעקב סשן בזמן אמת, שגרות מותאמות אישית ותובנות מופעלות בינה מלאכותית. שלוט ברמות עוצמה, עקוב אחר התקדמות וקבל תזכורות - הכל מהסמארטפון שלך."
+    },
+    "handheld": {
+      "title": "מכשיר הסרת שיער IPL נייד",
+      "features": {
+        "ergonomic": "עיצוב נייד ארגונומי לשימוש נוח.",
+        "energyLevels": "5 רמות אנרגיה מתכווננות לטיפולים מותאמים אישית.",
+        "portable": "קל משקל ונייד - אידיאלי לנסיעות ושימוש בבית.",
+        "allSkin": "מתאים לכל גווני העור, עדין ויעיל.",
+        "certified": "מאושר FDA ו-CE לבטיחות ואיכות."
+      },
+      "desc": "גלה את השילוב המושלם של נוחות וביצועים עם מכשיר ה-IPL הנייד שלנו. מעוצב לאחיזה קלה ובקרה מדויקת, הוא כולל 5 רמות אנרגיה מתכווננות להתאמה לכל סוגי העור והרגישויות. השג תוצאות הסרת שיער באיכות סלון בבית עם מכשיר קל משקל ונייד."
+    },
+    "iceCooling": {
+      "title": "מכשיר הסרת שיער IPL עם קירור קרח",
+      "features": {
+        "luxuryDesign": "עיצוב אלה יוקרתי - מרקם מתכת בדרגת תעופה וחלל, מציג טעם אצילי.",
+        "coolingPlate": "טכנולוגיית לוח קירור קרח - מקרר מיידית את העור ל-5°C לחוויה באמת ללא כאב.",
+        "preciseControl": "בקרת אנרגיה מדויקת ב-9 רמות - ניתן להתאמה לאזורים רגישים ושיער גס.",
+        "allSkin": "מתאים לכל גווני העור - מוסמך Fitzpatrick I-V.",
+        "largeWindow": "חלון טיפול גדול במיוחד 3.3 סמ² - כיסוי מהיר, יעילות גבוהה ב-50%."
+      },
+      "desc": "חווה טכנולוגיית הסרת שיער יוקרתית עם קירור קרח ברמה מקצועית, הכוללת לוח מתכת קירור בדרגת תעופה וחלל שמקרר מיידית את העור לטמפרטורה אולטרה נמוכה של 5°C. בשילוב עם פולסי IPL בעוצמה גבוהה של 2.0~5.0 ג'אול/סמ² ו-999,000+ הבזקים, הוא מספק חוויית עור משיי כמו אלה. העיצוב היוקרתי מיועד לנשים מודרניות החותרות לשלמות."
+    },
+    "iceFeeling": {
+      "title": "מכשיר IPL ספיר עם תחושת קרח",
+      "features": {
+        "cooling": "לוח קירור שומר על האפידרמיס ב-5°C לטיפולים באמת ללא כאב.",
+        "longSmooth": "חלקות ארוכת טווח - הפחתה נראית לעין אחרי 3-4 שבועות.",
+        "energyLevels": "חמש רמות אנרגיה מתאימות כמעט לכל גווני העור בטווח Fitzpatrick I-V.",
+        "flashModes": "מצבי הבזק אוטומטיים/ידניים לגוף ואזורים מדויקים.",
+        "multiUse": "4 ב-1: גוף מלא, ביקיני, פנים והחדרת עור."
+      },
+      "desc": "תהנה מהסרת שיער ללא כאב עם לוח קירור ספיר ברמה קלינית שמקרר את העור ל-5°C, מאפשר פולסי אנרגיה גבוהים יותר לתוצאות מהירות יותר. מנוע Intense Pulsed Light (IPL) המשולב מספק 2.0~5.0 ג'אול/סמ² של אנרגיה עם 999,999 הבזקים לכל חיי השימוש."
+    },
+    "skinSensor": {
+      "title": "מכשיר IPL עם חיישן עור",
+      "features": {
+        "intelligentDetection": "זיהוי עור חכם - חיישנים מתקדמים מזהים אוטומטית גוון עור ומתאימים רמות אנרגיה",
+        "maxSafety": "בטיחות מקסימלית - מונע טיפול יתר ומפחית סיכון לגירוי עור או כוויות",
+        "personalized": "טיפול מותאם אישית - מייעל אוטומטית עוצמה למאפיינים הייחודיים של העור שלך",
+        "realTime": "ניתוח בזמן אמת - מעקב מתמשך מבטיח סשני טיפול עקביים ובטוחים",
+        "proResults": "תוצאות מקצועיות - הסרת שיער באיכות סלון בנוחות הבית שלך"
+      },
+      "desc": "חווה את הסרת השיער הבטוחה והחכמה ביותר בבית עם מכשיר IPL חיישן העור שלנו. מכשיר מהפכני זה כולל חיישנים אופטיים מתקדמים של העור המזהים אוטומטית את גוון העור וצבע השיער - מספקים עוצמת טיפול מותאמת אישית ליעילות מקסימלית ובטיחות מלאה. עם ניתוח עור בזמן אמת והתאמת אנרגיה אוטומטית, מכשיר זה מושלם לכל סוגי העור המתאימים ומבטיח תוצאות אופטימליות בכל פעם."
+    }
+  },
+  "service": {
+    "title": "Services",
+    "description": "Our comprehensive service offerings.",
+    "seo": {
+      "title": "iShine Services",
+      "description": "From manufacturing to support services.",
+      "keywords": "IPL services, beauty manufacturing"
+    },
+    "afterSalesService": {
+      "title": "After Sales Service",
+      "description": "Post-purchase support and warranty.",
+      "seo": {
+        "title": "iShine After Sales",
+        "description": "Reliable after-sales support.",
+        "keywords": "after sales, IPL support"
+      }
+    },
+    "beautySourcing": {
+      "title": "Beauty Sourcing",
+      "description": "Sourcing solutions for beauty products.",
+      "seo": {
+        "title": "Beauty Sourcing Services",
+        "description": "Expert sourcing for beauty industry.",
+        "keywords": "beauty sourcing, product procurement"
+      }
+    },
+    "gallery": {
+      "title": "Gallery",
+      "description": "Visual showcase of our products.",
+      "seo": {
+        "title": "iShine Gallery",
+        "description": "Images of IPL devices and manufacturing.",
+        "keywords": "IPL gallery, product images"
+      }
+    },
+    "helpCenter": {
+      "title": "Help Center",
+      "description": "Support and FAQ resources.",
+      "seo": {
+        "title": "iShine Help Center",
+        "description": "Get help with our products and services.",
+        "keywords": "help center, support FAQ"
+      }
+    },
+    "iplManufacturing": {
+      "title": "IPL Manufacturing",
+      "description": "Custom IPL device manufacturing.",
+      "seo": {
+        "title": "IPL Manufacturing Services",
+        "description": "OEM/ODM IPL production.",
+        "keywords": "IPL manufacturing, device production"
+      }
+    },
+    "knowledgeBase": {
+      "title": "Knowledge Base",
+      "description": "Articles and guides on IPL technology.",
+      "seo": {
+        "title": "iShine Knowledge Base",
+        "description": "Educational resources on IPL.",
+        "keywords": "IPL knowledge, tech guides"
+      }
+    },
+    "pricingGuide": {
+      "title": "Pricing Guide",
+      "description": "Pricing information for our services.",
+      "seo": {
+        "title": "iShine Pricing",
+        "description": "Transparent pricing for IPL solutions.",
+        "keywords": "IPL pricing, cost guide"
+      }
+    },
+    "videos": {
+      "title": "Videos",
+      "description": "Product demos and tutorials.",
+      "seo": {
+        "title": "iShine Videos",
+        "description": "Watch IPL device demonstrations.",
+        "keywords": "IPL videos, product demos"
+      }
+    },
+    "winFdaListing": {
+      "title": "Win FDA Listing",
+      "description": "Assistance with FDA compliance.",
+      "seo": {
+        "title": "FDA Listing Services",
+        "description": "Help obtaining FDA approval for IPL devices.",
+        "keywords": "FDA listing, compliance services"
+      }
+    },
+    "faq": {
+      "title": "Service FAQ",
+      "items": [
+        {
+          "q": "What is after-sales support?",
+          "a": "24/7 assistance."
+        }
+      ]
+    }
+  },
+  "solutionsPages": {
+    "title": "Solutions",
+    "description": "Our custom solutions for IPL manufacturing.",
+    "seo": {
+      "title": "iShine Solutions",
+      "description": "Custom OEM/ODM solutions for beauty brands.",
+      "keywords": "IPL solutions, custom manufacturing"
+    },
+    "brandCustomization": {
+      "title": "Brand Customization",
+      "description": "Full brand customization services.",
+      "seo": {
+        "title": "IPL Brand Customization",
+        "description": "Customize your IPL brand identity.",
+        "keywords": "brand customization, IPL branding"
+      }
+    },
+    "compliance": {
+      "title": "Compliance",
+      "description": "Regulatory compliance support.",
+      "seo": {
+        "title": "IPL Compliance Services",
+        "description": "Ensure your products meet global standards.",
+        "keywords": "IPL compliance, regulations"
+      }
+    },
+    "designPrototyping": {
+      "title": "Design & Prototyping",
+      "description": "Product design and prototyping.",
+      "seo": {
+        "title": "IPL Design & Prototyping",
+        "description": "From concept to prototype.",
+        "keywords": "IPL design, prototyping services"
+      }
+    },
+    "dropShipping": {
+      "title": "Drop Shipping",
+      "description": "Efficient drop shipping solutions.",
+      "seo": {
+        "title": "IPL Drop Shipping",
+        "description": "Streamline your e-commerce operations.",
+        "keywords": "drop shipping, IPL fulfillment"
+      }
+    },
+    "dualLampIPL": {
+      "title": "Dual Lamp IPL",
+      "description": "Advanced dual lamp technology.",
+      "seo": {
+        "title": "Dual Lamp IPL Solutions",
+        "description": "Enhanced IPL performance with dual lamps.",
+        "keywords": "dual lamp IPL, advanced tech"
+      }
+    },
+    "globalShipping": {
+      "title": "Global Shipping",
+      "description": "Worldwide shipping services.",
+      "seo": {
+        "title": "Global IPL Shipping",
+        "description": "Reliable international delivery.",
+        "keywords": "global shipping, IPL logistics"
+      }
+    },
+    "logoPrinting": {
+      "title": "Logo Printing",
+      "description": "Custom logo printing for devices.",
+      "seo": {
+        "title": "IPL Logo Printing",
+        "description": "Brand your IPL devices with custom logos.",
+        "keywords": "logo printing, custom branding"
+      }
+    },
+    "multiHeadIPL": {
+      "title": "Multi Head IPL",
+      "description": "Versatile multi-head systems.",
+      "seo": {
+        "title": "Multi Head IPL Systems",
+        "description": "Customizable multi-head IPL solutions.",
+        "keywords": "multi head IPL, versatile systems"
+      }
+    },
+    "packagingSolutions": {
+      "title": "Packaging Solutions",
+      "description": "Custom packaging options.",
+      "seo": {
+        "title": "IPL Packaging Solutions",
+        "description": "Premium packaging for your products.",
+        "keywords": "packaging, custom boxes"
       }
     }
   },
-  "faq": {
-    "title": "שאלות נפוצות",
-    "shipping": {
-      "q": "האם אתם יכולים לשלוח ברחבי העולם?",
-      "a": "בהחלט. אנו מציעים משלוח אמין ברחבי העולם כדי לתמוך בעסק שלך בכל מקום שאתה נמצא."
+  "countryPage": {
+    "title": "iShine - פתרונות ייצור מכשירי IPL | גלובלי",
+    "description": "יצרן מוביל של מכשירי IPL המספק פתרונות OEM/ODM מרעיון לשוק ברחבי העולם.",
+    "seo": {
+      "title": "iShine in Your Country",
+      "description": "Country-specific IPL solutions.",
+      "keywords": "country IPL, localized services"
     },
-    "customization": {
-      "q": "האם אני יכול להתאים אישית את פונקציות המכשיר?",
-      "a": "כן, אנו מציעים התאמה אישית מלאה של תכונות, צבעים, אריזה ועוד כדי להתאים לצורכי המותג שלך."
-    },
-    "certifications": {
-      "q": "איזה הסמכות אתם תומכים?",
-      "a": "אנו תומכים ב-FDA, CE, RoHS והסמכות גלובליות אחרות כדי להבטיח ציות בשווקי היעד שלך."
-    },
-    "leadTime": {
-      "q": "כמה זמן לוקח זמן ההובלה של הייצור?",
-      "a": "זמן ההובלה הטיפוסי הוא 25-35 יום לאחר אישור הדגימה, תלוי בגודל ההזמנה ובהתאמה האישית."
-    },
-    "afterSales": {
-      "q": "האם אתם מספקים תמיכה לאחר מכירה?",
-      "a": "כן, אנו מציעים שירות מקיף לאחר מכירה כולל תמיכה טכנית ואחריות."
+    "title', 'iShine - IPL Device Manufacturing Solutions | Global": "title', 'iShine - IPL Device Manufacturing Solutions | Global",
+    "description', 'Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide": {
+      "": ""
     }
   },
-  "cta": {
-    "getSupport": "קבל תמיכה עכשיו",
-    "readyToStart": "מוכן להתחיל?",
-    "contactUs": "צור קשר",
-    "freeQuote": "קבל הצעת מחיר חינם",
-    "readMore": "קרא עוד"
-  },
-  "form": {
-    "name": "שם",
-    "email": "אימייל",
-    "phone": "טלפון",
-    "country": "מדינה",
-    "message": "הודעה",
-    "submit": "שלח",
-    "sending": "שולח...",
-    "success": "ההודעה שלך נשלחה בהצלחה!",
-    "error": "הייתה שגיאה בשליחת ההודעה שלך. אנא נסה שוב."
-  },
-  "blog": {
-    "posts": {
-      "sustainableManufacturing": {
-        "title": "ייצור בר קיימא: שיטות ייצור IPL ירוקות",
-        "intro": "כשהביקוש למכשירי הסרת שיער IPL (Intense Pulsed Light) לשימוש ביתי עולה, כך גם האחריות לייצר את האלקטרוניקה הזו עם השפעה סביבתית מינימלית. ייצור בר קיימא אינו עוד טרנד אלא הכרח - הכולל כל שלב ממקור חומרי גלם ועד מיחזור סוף החיים. מאמר זה בוחן את טביעת הרגל הסביבתית של ייצור מכשירי IPL וחוקר אסטרטגיות חדשניות ומעשיות להשגת שרשרת אספקה ירוקה באמת, עם התמקדות באלקטרוניקה, אופטיקה, מארזי ABS ידידותיים לסביבה, אריזה בת קיימא ויצירת פסולת חוזרת.",
-        "sections": {
-          "environmentalImpact": "הערכת השפעה סביבתית של ייצור מכשירי IPL",
-          "electronics": "1. רכיבים אלקטרוניים",
-          "optics": "2. רכיבים אופטיים (עדשות ומסננים)",
-          "absHousing": "3. מארזי ABS ידידותיים לסביבה",
-          "packaging": "4. אריזת נייר בת קיימא",
-          "wasteReduction": "5. הפחתת פסולת ושימוש חוזר",
-          "supplyChain": "חידושי שרשרת אספקה בת קיימא",
-          "feasibility": "היתכנות של שרשרת אספקת IPL ירוקה",
-          "commitment": "המחויבות של iShine לקיימות",
-          "references": "הפניות"
+  "howToUse": {
+    "title": "How to Use",
+    "description": "Guide on using our IPL devices.",
+    "seo": {
+      "title": "How to Use IPL Devices",
+      "description": "Step-by-step usage guide.",
+      "keywords": "IPL usage, how to guide",
+      "title', 'How to Use IPL Hair Removal Devices | Complete Guide | iShine": "title', 'How to Use IPL Hair Removal Devices | Complete Guide | iShine",
+      "description', 'Learn how to use IPL hair removal devices safely and effectively": {
+        " Complete guide with step-by-step instructions, safety tips, and best practices": {
+          "": ""
         }
       },
-      "globalMarketShifts": {
-        "title": "שינויים בשוק הגלובלי: טרנדים והזדמנויות במכשירי IPL",
-        "intro": "גלה את הטרנדים הגלובליים העדכניים באימוץ מכשירי IPL, שינויים רגולטוריים והזדמנויות שוק למותגים ויצרנים.",
-        "sections": {
-          "marketOverview": "סקירת שוק",
-          "regionalTrends": "טרנדים אזוריים",
-          "regulatoryChanges": "שינויים רגולטוריים",
-          "consumerPreferences": "העדפות צרכנים",
-          "opportunities": "הזדמנויות למותגים",
-          "challenges": "אתגרים וסיכונים",
-          "futureOutlook": "תחזית עתידית"
+      "keywords', 'how to use IPL, IPL hair removal guide, IPL device instructions, IPL safety tips, IPL treatment guide": "keywords', 'how to use IPL, IPL hair removal guide, IPL device instructions, IPL safety tips, IPL treatment guide"
+    },
+    "steps": {
+      "preparation": {
+        "title": "title",
+        "description": "description",
+        "details": {
+          "shave": "shave",
+          "clean": "clean",
+          "dry": "dry",
+          "remove": "remove"
         }
       },
-      "aiPoweredSkinSensing": {
-        "title": "חישה של עור מופעלת בינה מלאכותית: הגבול הבא בבטיחות IPL",
-        "intro": "איך בינה מלאכותית מחוללת מהפכה בבטיחות והתאמה אישית של מכשירי IPL דרך ניתוח עור בזמן אמת.",
-        "sections": {
-          "introduction": "מבוא",
-          "aiTechnology": "טכנולוגיית בינה מלאכותית ב-IPL",
-          "skinSensing": "מנגנוני חישת עור",
-          "safetyBenefits": "יתרונות בטיחות",
-          "userExperience": "חוויית משתמש",
-          "caseStudies": "מחקרי מקרה",
-          "conclusion": "מסקנה"
+      "deviceSetup": {
+        "title": "title",
+        "description": "description",
+        "details": {
+          "connect": "connect",
+          "power": "power",
+          "intensity": "intensity",
+          "attach": "attach"
         }
       },
-      "multiHeadIPLSystems": {
-        "title": "מערכות IPL רב ראשיות: דיוק פוגש יעילות גוף מלא",
-        "intro": "האבולוציה של הסרת שיער בבית עוצבה באופן עמוק על ידי הצגת מערכות Intense Pulsed Light (IPL) רב ראשיות. פיליפס חלצה בטרנד זה עם טכנולוגיית הראשים הניתנים להחלפה שלה, וקבעה סטנדרט חדש לרבגוניות ועיצוב ממוקד משתמש במכשירי IPL לשימוש ביתי.",
-        "sections": {
-          "philipsLegacy": "המורשת של פיליפס: קביעת הסטנדרט ל-IPL רב ראשי",
-          "keyFeatures": "תכונות מרכזיות של מכשירי IPL רב ראשיים",
-          "respondingToVIO": "מענה לצורכי הסרת שיער VIO",
-          "whyMultiHeadMatters": "למה עיצוב רב ראשי חשוב",
-          "painReduction": "הפחתת כאב: התפקיד של מסננים מתקדמים",
-          "realUserFeedback": "משוב משתמשים אמיתי",
-          "conclusion": "מסקנה",
-          "references": "הפניות"
+      "skinToneTest": {
+        "title": "title",
+        "description": "description",
+        "details": {
+          "test": "test",
+          "wait": "wait",
+          "adjust": "adjust",
+          "proceed": "proceed"
         }
       },
-      "sapphireCooling": {
-        "title": "קירור ספיר: שיפור הנוחות בטיפולי IPL",
-        "intro": "גלה איך טכנולוגיית קירור ספיר משנה את הנוחות והבטיחות של טיפולי הסרת שיער IPL.",
-        "sections": {
-          "technologyOverview": "סקירת טכנולוגיה",
-          "coolingMechanism": "איך קירור ספיר עובד",
-          "benefits": "יתרונות למשתמשים",
-          "clinicalEvidence": "עדויות קליניות",
-          "deviceComparison": "השוואת מכשירים",
-          "userTestimonials": "עדויות משתמשים",
-          "conclusion": "מסקנה"
+      "treatmentProcess": {
+        "title": "title",
+        "description": "description",
+        "details": {
+          "place": "place",
+          "press": "press",
+          "move": "move",
+          "complete": "complete"
         }
       },
-      "industries": {
-        "title": "תעשיות שאנו משרתים: יישומי IPL בכל הסקטורים",
-        "intro": "טכנולוגיית IPL אינה רק ליופי - גלה את היישומים שלה בסקטורים רפואיים, וטרינריים ותעשייתיים.",
-        "sections": {
-          "beauty": "תעשיית היופי",
-          "medical": "יישומים רפואיים",
-          "veterinary": "שימושים וטרינריים",
-          "industrial": "יישומים תעשייתיים",
-          "caseStudies": "מחקרי מקרה",
-          "futureTrends": "טרנדים עתידיים"
-        }
-      },
-      "iplBestChoice": {
-        "title": "למה מכשירי הסרת שיער IPL ביתיים הם הבחירה הטובה ביותר מבין כל כלי הסרת השיער",
-        "intro": "גלה למה IPL הוא הפתרון היעיל, הנוח והנוח ביותר להסרת שיער ארוכת טווח בבית - מגובה במדע ובניסיון משתמשים אמיתי.",
-        "sections": {
-          "comparison": "השוואת שיטות הסרת שיער",
-          "whyChooseIPL": "למה לבחור בהסרת שיער IPL ביתית?",
-          "userStories": "סיפורי משתמשים אמיתיים",
-          "faq": "שאלות נפוצות",
-          "recommendedBlog": "בלוג מומלץ",
-          "exploreMore": "גלה עוד"
-        }
-      },
-      "futureHomeHairRemoval": {
-        "title": "עתיד מכשירי הסרת שיער ביתיים: טרנדים, חידושים ומה הלאה",
-        "intro": "גלה את האבולוציה, פריצות הדרך הנוכחיות והדור הבא של מכשירי הסרת שיער ביתיים - בינה מלאכותית, רב פונקציונליות ועיצוב בר קיימא ל-2025 ומעבר לכך.",
-        "sections": {
-          "evolution": "אבולוציה של טכנולוגיית הסרת שיער ביתית",
-          "stateOfTheArt": "תכונות מרכזיות של מכשירים מדור הבא (2025)",
-          "aiPersonalization": "בינה מלאכותית והתאמה אישית בהסרת שיער",
-          "vision": "מכשיר הסרת השיער הביתי 'האולטימטיבי': חזון",
-          "challenges": "אתגרים ושיקולים",
-          "faq": "שאלות נפוצות",
-          "exploreMore": "גלה עוד",
-          "aboutAuthor": "אודות הכותב"
-        }
-      },
-      "fda510kPathway": {
-        "title": "מסלול FDA 510(k): ניווט בסיווג מכשיר רפואי עבור IPL",
-        "intro": "מדריך מקיף למסלול FDA 510(k) למכשירי הסרת שיער IPL לשימוש ביתי. למד על דרישות רגולטוריות, טענות שיווק ואיך iShine עוזרת למותגים להשיג ציות.",
-        "sections": {
-          "introduction": "מבוא",
-          "pathway": "1. מסלול FDA 510(k) למכשירי IPL ביתיים",
-          "marketingClaims": "2. איך טענות שיווק משפיעות על סיווג רגולטורי",
-          "ishineExpertise": "3. המומחיות של iShine בהבטחת רישיון FDA 510(k) ספציפי למותג שלך",
-          "benefits": "4. יתרונות השגת רישיון FDA 510(k) ספציפי למותג",
-          "guidance": "5. הנחיות מעשיות למותגים",
-          "conclusion": "מסקנה",
-          "faq": "שאלות נפוצות",
-          "exploreMore": "גלה עוד",
-          "author": "אודות הכותב"
+      "postTreatmentCare": {
+        "title": "title",
+        "description": "description",
+        "details": {
+          "cooling": "cooling",
+          "sun": "sun",
+          "sunscreen": "sunscreen",
+          "moisturize": "moisturize"
         }
       }
+    },
+    "safetyGuidelines": {
+      "warnings": {
+        "title": "title",
+        "point1": "point1",
+        "point2": "point2",
+        "point3": "point3",
+        "point4": "point4",
+        "point5": "point5"
+      },
+      "eyeProtection": {
+        "title": "title",
+        "point1": "point1",
+        "point2": "point2",
+        "point3": "point3",
+        "point4": "point4"
+      },
+      "skinSensitivity": {
+        "title": "title",
+        "point1": "point1",
+        "point2": "point2",
+        "point3": "point3",
+        "point4": "point4"
+      }
+    },
+    "treatmentSchedule": {
+      "weeks1to4": {
+        "week": "week",
+        "frequency": "frequency",
+        "description": "description"
+      },
+      "weeks5to8": {
+        "week": "week",
+        "frequency": "frequency",
+        "description": "description"
+      },
+      "weeks9to12": {
+        "week": "week",
+        "frequency": "frequency",
+        "description": "description"
+      },
+      "after12weeks": {
+        "week": "week",
+        "frequency": "frequency",
+        "description": "description"
+      }
+    },
+    "troubleshooting": {
+      "deviceNotTurningOn": {
+        "problem": "problem",
+        "solution1": "solution1",
+        "solution2": "solution2",
+        "solution3": "solution3",
+        "solution4": "solution4"
+      },
+      "noLightFlash": {
+        "problem": "problem",
+        "solution1": "solution1",
+        "solution2": "solution2",
+        "solution3": "solution3",
+        "solution4": "solution4"
+      },
+      "skinIrritation": {
+        "problem": "problem",
+        "solution1": "solution1",
+        "solution2": "solution2",
+        "solution3": "solution3",
+        "solution4": "solution4"
+      },
+      "noResults": {
+        "problem": "problem",
+        "solution1": "solution1",
+        "solution2": "solution2",
+        "solution3": "solution3",
+        "solution4": "solution4"
+      }
+    },
+    "faqs": {
+      "q1": {
+        "question": "question",
+        "answer": "answer"
+      },
+      "q2": {
+        "question": "question",
+        "answer": "answer"
+      },
+      "q3": {
+        "question": "question",
+        "answer": "answer"
+      },
+      "q4": {
+        "question": "question",
+        "answer": "answer"
+      },
+      "q5": {
+        "question": "question",
+        "answer": "answer"
+      },
+      "q6": {
+        "question": "question",
+        "answer": "answer"
+      }
+    },
+    "heroTitle": "איך להשתמש במכשירי IPL",
+    "heroDescription": "מדריך מלא לשימוש בטוח ויעיל במכשירי IPL להסרת שיער. למד טכניקות נכונות, הנחיות בטיחות וקבל את התוצאות הטובות ביותר ממכשיר ה-IPL שלך.",
+    "stepByStepTitle": "הוראות שלב אחר שלב",
+    "stepByStepDescription": "בצע את השלבים הללו לטיפול IPL בטוח ויעיל",
+    "safetyGuidelinesTitle": "הנחיות בטיחות",
+    "safetyGuidelinesDescription": "מידע בטיחות חיוני לטיפול IPL",
+    "treatmentScheduleTitle": "לוח זמנים מומלץ לטיפול",
+    "treatmentScheduleDescription": "בצע לוח זמנים זה לתוצאות הסרת שיער אופטימליות",
+    "troubleshootingTitle": "מדריך פתרון בעיות",
+    "troubleshootingDescription": "בעיות נפוצות והפתרונות שלהן",
+    "faqTitle": "שאלות נפוצות",
+    "faqDescription": "קבל תשובות לשאלות נפוצות על טיפול IPL",
+    "videoTutorialsTitle": "מדריכים בווידאו",
+    "videoTutorialsDescription": "צפה במדריכים בווידאו שלב אחר שלב לשימוש נכון ב-IPL"
+  },
+  "serviceSupport": {
+    "title": "Service & Support",
+    "description": "Our support services.",
+    "seo": {
+      "title": "iShine Support",
+      "description": "Comprehensive support for customers.",
+      "keywords": "support, service",
+      "title', 'Service & Support | IPL Device Manufacturing Support | iShine": "title', 'Service & Support | IPL Device Manufacturing Support | iShine",
+      "description', 'Comprehensive service and support for IPL device manufacturers": {
+        " After-sales service, technical support, knowledge base, and manufacturing assistance": {
+          "": ""
+        }
+      },
+      "keywords', 'IPL service support, after-sales service, technical support, manufacturing support, knowledge base": "keywords', 'IPL service support, after-sales service, technical support, manufacturing support, knowledge base"
+    },
+    "categories": {
+      "technicalSupport": {
+        "title": "title",
+        "description": "description"
+      },
+      "manufacturingServices": {
+        "title": "title",
+        "description": "description"
+      },
+      "businessSupport": {
+        "title": "title",
+        "description": "description"
+      },
+      "resourcesMedia": {
+        "title": "title",
+        "description": "description"
+      }
+    },
+    "services": {
+      "afterSalesService": {
+        "name": "name",
+        "description": "description"
+      },
+      "knowledgeBase": {
+        "name": "name",
+        "description": "description"
+      },
+      "helpCenter": {
+        "name": "name",
+        "description": "description"
+      },
+      "iplManufacturing": {
+        "name": "name",
+        "description": "description"
+      },
+      "winFdaListing": {
+        "name": "name",
+        "description": "description"
+      },
+      "beautySourcing": {
+        "name": "name",
+        "description": "description"
+      },
+      "pricingGuide": {
+        "name": "name",
+        "description": "description"
+      },
+      "gallery": {
+        "name": "name",
+        "description": "description"
+      },
+      "videos": {
+        "name": "name",
+        "description": "description"
+      }
+    },
+    "stats": {
+      "satisfiedClients": "satisfiedClients",
+      "technicalSupport": "technicalSupport",
+      "uptimeGuarantee": "uptimeGuarantee",
+      "countriesServed": "countriesServed"
+    },
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle",
+      "cta": "cta"
+    },
+    "ecosystem": {
+      "title": "title",
+      "subtitle": "subtitle"
+    },
+    "learnMore": "learnMore",
+    "cta": {
+      "title": "title",
+      "subtitle": "subtitle"
     }
   },
-  "floating": {
-    "contact": "צור קשר",
-    "backToTop": "חזרה למעלה"
+  "silk": {
+    "title": "Silk",
+    "description": "Silk product page.",
+    "seo": {
+      "title": "iShine Silk",
+      "description": "Smooth as silk IPL experience.",
+      "keywords": "silk IPL, smooth hair removal"
+    }
+  },
+  "-": "-",
+  "Please solve the math question correctly": {
+    "": ""
+  },
+  "Thank you for your inquiry! We will reply within 24 hours": {
+    "": ""
+  },
+  "/": "/",
+  "link": "link",
+  "aiPoweredSkinSensing": {
+    "publishDate": "publishDate",
+    "introduction": {
+      "content": "content"
+    },
+    "howItWorks": {
+      "title": "title",
+      "content": "content"
+    },
+    "steps": {
+      "detection": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "analysis": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "adaptation": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "benefits": {
+      "title": "title",
+      "safety": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "effectiveness": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "personalization": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "convenience": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "technical": {
+      "title": "title",
+      "content": "content",
+      "components": {
+        "title": "title",
+        "sensors": "sensors",
+        "algorithms": "algorithms",
+        "processing": "processing",
+        "feedback": "feedback"
+      }
+    },
+    "future": {
+      "title": "title",
+      "content": "content",
+      "applications": {
+        "skincare": {
+          "title": "title",
+          "desc": "desc"
+        },
+        "medical": {
+          "title": "title",
+          "desc": "desc"
+        },
+        "wellness": {
+          "title": "title",
+          "desc": "desc"
+        }
+      }
+    },
+    "market": {
+      "title": "title",
+      "content": "content",
+      "trends": {
+        "title": "title",
+        "growth": "growth",
+        "adoption": "adoption",
+        "innovation": "innovation",
+        "investment": "investment"
+      }
+    },
+    "conclusion": {
+      "content": "content"
+    }
+  },
+  "fda510kPathway": {
+    "introduction": {
+      "content": "content"
+    },
+    "section1": {
+      "title": "title",
+      "subTitle1": "subTitle1",
+      "item1": "item1",
+      "item2": "item2",
+      "item3": "item3",
+      "subTitle2": "subTitle2",
+      "item4": "item4",
+      "item5": "item5",
+      "item6": "item6"
+    },
+    "section2": {
+      "title": "title",
+      "item1": {
+        "title": "title",
+        "content": "content"
+      },
+      "item2": {
+        "title": "title",
+        "content": "content"
+      },
+      "item3": "item3",
+      "keyPoint": {
+        "title": "title",
+        "content": "content"
+      }
+    },
+    "section3": {
+      "title": "title",
+      "item1": {
+        "title": "title",
+        "content": "content"
+      },
+      "item2": {
+        "title": "title",
+        "content": "content"
+      },
+      "item3": {
+        "title": "title",
+        "content": "content"
+      },
+      "item4": {
+        "title": "title",
+        "content": "content"
+      }
+    },
+    "section4": {
+      "title": "title",
+      "table": {
+        "header1": "header1",
+        "header2": "header2",
+        "row1": {
+          "benefit": "benefit",
+          "description": "description"
+        },
+        "row2": {
+          "benefit": "benefit",
+          "description": "description"
+        },
+        "row3": {
+          "benefit": "benefit",
+          "description": "description"
+        },
+        "row4": {
+          "benefit": "benefit",
+          "description": "description"
+        },
+        "row5": {
+          "benefit": "benefit",
+          "description": "description"
+        },
+        "row6": {
+          "benefit": "benefit",
+          "description": "description"
+        }
+      }
+    },
+    "section5": {
+      "title": "title",
+      "item1": {
+        "title": "title",
+        "content": "content"
+      },
+      "item2": {
+        "title": "title",
+        "content": "content"
+      },
+      "item3": {
+        "title": "title",
+        "content": "content"
+      },
+      "item4": {
+        "title": "title",
+        "content": "content"
+      }
+    },
+    "conclusion": {
+      "title": "title",
+      "content": "content",
+      "note": {
+        "title": "title",
+        "content": "content"
+      }
+    },
+    "faq": {
+      "title": "title",
+      "item1": {
+        "question": "question",
+        "answer": "answer"
+      },
+      "item2": {
+        "question": "question",
+        "answer": "answer"
+      },
+      "item3": {
+        "question": "question",
+        "answer": "answer"
+      }
+    },
+    "exploreMore": {
+      "title": "title",
+      "item1": "item1",
+      "item2": "item2",
+      "item3": "item3",
+      "item4": "item4"
+    },
+    "author": {
+      "title": "title",
+      "content": "content"
+    }
+  },
+  "futureHomeHairRemoval": {
+    "publishDate": "publishDate",
+    "introduction": {
+      "content": "content"
+    },
+    "aiPowered": {
+      "title": "title",
+      "content": "content"
+    },
+    "aiFeatures": {
+      "title": "title",
+      "smartSkinDetection": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "adaptiveIntensity": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "predictiveAnalysis": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "coolingTech": {
+      "title": "title",
+      "content": "content"
+    },
+    "coolingInnovations": {
+      "title": "title",
+      "cryogenicCooling": "cryogenicCooling",
+      "liquidNitrogen": "liquidNitrogen",
+      "thermoelectric": "thermoelectric"
+    },
+    "sustainability": {
+      "title": "title",
+      "content": "content"
+    },
+    "ecoFeatures": {
+      "title": "title",
+      "solarPowered": "solarPowered",
+      "recyclableComponents": "recyclableComponents",
+      "energyEfficient": "energyEfficient",
+      "biodegradablePackaging": "biodegradablePackaging"
+    },
+    "personalization": {
+      "title": "title",
+      "content": "content"
+    },
+    "smartFeatures": {
+      "title": "title",
+      "mobileApp": "mobileApp",
+      "cloudSync": "cloudSync",
+      "remoteMonitoring": "remoteMonitoring"
+    },
+    "userExperience": {
+      "title": "title",
+      "voiceControl": "voiceControl",
+      "gestureRecognition": "gestureRecognition",
+      "hapticFeedback": "hapticFeedback"
+    },
+    "timeline": {
+      "title": "title",
+      "current": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "nextFiveYears": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "nextDecade": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "conclusion": {
+      "content": "content"
+    }
+  },
+  "globalMarketShifts": {
+    "publishDate": "publishDate",
+    "introduction": {
+      "content": "content"
+    },
+    "marketSize": {
+      "title": "title"
+    },
+    "stats": {
+      "marketValue": "marketValue",
+      "currentMarket": "currentMarket",
+      "cagr": "cagr",
+      "growthRate": "growthRate",
+      "projection": "projection",
+      "futureValue": "futureValue"
+    },
+    "regionalAnalysis": {
+      "title": "title"
+    },
+    "regions": {
+      "northAmerica": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "europe": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "asiaPacific": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "keyTrends": {
+      "title": "title"
+    },
+    "trends": {
+      "athomeDevices": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "aiIntegration": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "sustainability": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "personalization": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "futureOutlook": {
+      "title": "title",
+      "content": "content"
+    },
+    "predictions": {
+      "title": "title",
+      "growth": "growth",
+      "technology": "technology",
+      "accessibility": "accessibility"
+    },
+    "conclusion": {
+      "content": "content"
+    }
+  },
+  "hairRemovalMethodsComparison": {
+    "title": "title",
+    "method": "method",
+    "pros": "pros",
+    "cons": "cons",
+    "bestFor": "bestFor",
+    "IPLHomeDevice": "IPLHomeDevice",
+    "IPLHomeDevicePros": "IPLHomeDevicePros",
+    "IPLHomeDeviceCons": "IPLHomeDeviceCons",
+    "IPLHomeDeviceBestFor": "IPLHomeDeviceBestFor",
+    "waxing": "waxing",
+    "waxingPros": "waxingPros",
+    "waxingCons": "waxingCons",
+    "waxingBestFor": "waxingBestFor",
+    "hairRemovalCream": "hairRemovalCream",
+    "hairRemovalCreamPros": "hairRemovalCreamPros",
+    "hairRemovalCreamCons": "hairRemovalCreamCons",
+    "hairRemovalCreamBestFor": "hairRemovalCreamBestFor",
+    "razor": "razor",
+    "razorPros": "razorPros",
+    "razorCons": "razorCons",
+    "razorBestFor": "razorBestFor",
+    "electricShaver": "electricShaver",
+    "electricShaverPros": "electricShaverPros",
+    "electricShaverCons": "electricShaverCons",
+    "electricShaverBestFor": "electricShaverBestFor",
+    "laserHairRemoval": "laserHairRemoval",
+    "laserHairRemovalPros": "laserHairRemovalPros",
+    "laserHairRemovalCons": "laserHairRemovalCons",
+    "laserHairRemovalBestFor": "laserHairRemovalBestFor"
+  },
+  "whyChooseIPLHomeHairRemoval": {
+    "title": "title",
+    "longlastingResults": "longlastingResults",
+    "longlastingResultsDescription": "longlastingResultsDescription",
+    "healthlineLink": "healthlineLink",
+    "minimalPain": "minimalPain",
+    "minimalPainDescription": "minimalPainDescription",
+    "safeForHomeUse": "safeForHomeUse",
+    "safeForHomeUseDescription": "safeForHomeUseDescription",
+    "costEffective": "costEffective",
+    "costEffectiveDescription": "costEffectiveDescription",
+    "convenient": "convenient",
+    "convenientDescription": "convenientDescription"
+  },
+  "realUserStories": {
+    "title": "title",
+    "quote1": "quote1",
+    "quote1Attribution": "quote1Attribution",
+    "quote2": "quote2",
+    "quote2Attribution": "quote2Attribution"
+  },
+  "exploreMore": {
+    "title": "title",
+    "howToUse": "howToUse",
+    "ourIPLProductRange": "ourIPLProductRange",
+    "hairRemovalFAQs": "hairRemovalFAQs",
+    "latestTechnologyInsights": "latestTechnologyInsights"
+  },
+  "frequentlyAskedQuestions": {
+    "title": "title",
+    "isIPLSafeForAllSkinTypes": "isIPLSafeForAllSkinTypes",
+    "isIPLSafeForAllSkinTypesDescription": "isIPLSafeForAllSkinTypesDescription",
+    "howLongDoesItTakeToSeeResults": "howLongDoesItTakeToSeeResults",
+    "howLongDoesItTakeToSeeResultsDescription": "howLongDoesItTakeToSeeResultsDescription",
+    "doesIPLHurt": "doesIPLHurt",
+    "doesIPLHurtDescription": "doesIPLHurtDescription"
+  },
+  "recommendedBlog": {
+    "title": "title",
+    "description": "description",
+    "readFullArticle": "readFullArticle"
+  },
+  "industries": {
+    "publishDate": "publishDate",
+    "introduction": {
+      "content": "content"
+    },
+    "beautyOverview": {
+      "title": "title",
+      "content": "content"
+    },
+    "beautyStats": {
+      "title": "title",
+      "marketSize": "marketSize",
+      "globalValue": "globalValue",
+      "growth": "growth",
+      "annualGrowth": "annualGrowth",
+      "projection": "projection",
+      "futureValue": "futureValue"
+    },
+    "iplSegment": {
+      "title": "title",
+      "content": "content"
+    },
+    "iplAdvantages": {
+      "title": "title",
+      "convenience": "convenience",
+      "costEffective": "costEffective",
+      "privacy": "privacy",
+      "safety": "safety"
+    },
+    "marketTrends": {
+      "title": "title",
+      "technology": "technology",
+      "portability": "portability",
+      "affordability": "affordability",
+      "effectiveness": "effectiveness"
+    },
+    "manufacturing": {
+      "title": "title",
+      "content": "content"
+    },
+    "qualityControl": {
+      "title": "title",
+      "desc": "desc"
+    },
+    "innovation": {
+      "title": "title",
+      "desc": "desc"
+    },
+    "compliance": {
+      "title": "title",
+      "desc": "desc"
+    },
+    "technology": {
+      "title": "title"
+    },
+    "techFeatures": {
+      "ai": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "cooling": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "connectivity": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "opportunities": {
+      "title": "title",
+      "content": "content"
+    },
+    "growthAreas": {
+      "title": "title",
+      "emergingMarkets": "emergingMarkets",
+      "maleGrooming": "maleGrooming",
+      "premiumDevices": "premiumDevices",
+      "subscription": "subscription"
+    },
+    "conclusion": {
+      "content": "content"
+    }
+  },
+  "nav": {
+    "service": {
+      "iplManufacturing": "iplManufacturing"
+    }
+  },
+  "MultiHeadIPLSystems": {
+    "title": "title",
+    "introduction": {
+      "title": "title",
+      "text": "text"
+    },
+    "philipsLegacy": {
+      "title": "title",
+      "text": "text"
+    },
+    "keyFeatures": {
+      "title": "title",
+      "interchangeableHeads": "interchangeableHeads",
+      "skinToneSensors": "skinToneSensors",
+      "cordedAndCordlessUse": "cordedAndCordlessUse"
+    },
+    "respondingToVIOHairRemovalNeeds": {
+      "title": "title",
+      "text": "text"
+    },
+    "whyMultiHeadDesignMatters": {
+      "title": "title",
+      "precisionForEveryCurve": {
+        "title": "title",
+        "largeAttachments": "largeAttachments",
+        "smallAttachments": "smallAttachments"
+      },
+      "enhancedUserExperience": {
+        "title": "title",
+        "personalization": "personalization",
+        "safety": "safety"
+      }
+    },
+    "painReduction": {
+      "title": "title",
+      "howTheseFiltersWork": {
+        "title": "title",
+        "cutOffFilters": "cutOffFilters",
+        "bandPassAndNotchFilters": "bandPassAndNotchFilters",
+        "clinicalEvidence": "clinicalEvidence"
+      }
+    },
+    "realUserFeedback": {
+      "title": "title",
+      "text": "text",
+      "quote": "quote",
+      "quoteAttribution": "quoteAttribution"
+    },
+    "conclusion": {
+      "title": "title",
+      "text": "text",
+      "E-E-A-TGuidance": {
+        "title": "title",
+        "experience": "experience",
+        "expertise": "expertise",
+        "authoritativeness": "authoritativeness",
+        "trust": "trust"
+      },
+      "note": "note"
+    },
+    "references": {
+      "title": "title",
+      "link1": "link1",
+      "link2": "link2",
+      "link3": "link3",
+      "link4": "link4",
+      "link5": "link5",
+      "link6": "link6",
+      "link7": "link7",
+      "link8": "link8",
+      "link9": "link9",
+      "link10": "link10",
+      "link11": "link11",
+      "link12": "link12",
+      "link13": "link13",
+      "link14": "link14",
+      "link15": "link15",
+      "link16": "link16",
+      "link17": "link17",
+      "link18": "link18",
+      "link19": "link19"
+    }
+  },
+  "newsInsights": {
+    "publishDate": "publishDate",
+    "introduction": {
+      "content": "content"
+    },
+    "technologyTrends": {
+      "title": "title"
+    },
+    "trends": {
+      "aiIntegration": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "smartDevices": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "portability": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "sustainability": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "marketAnalysis": {
+      "title": "title",
+      "content": "content"
+    },
+    "marketStats": {
+      "title": "title",
+      "globalValue": "globalValue",
+      "currentMarket": "currentMarket",
+      "growth": "growth",
+      "annualGrowth": "annualGrowth",
+      "projection": "projection",
+      "futureMarket": "futureMarket"
+    },
+    "newsHighlights": {
+      "title": "title"
+    },
+    "news": {
+      "regulatory": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "innovation": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "partnerships": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "consumer": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "predictions": {
+      "title": "title",
+      "content": "content",
+      "forecast": {
+        "title": "title",
+        "technology": "technology",
+        "market": "market",
+        "consumer": "consumer",
+        "regulation": "regulation"
+      }
+    },
+    "expertOpinions": {
+      "title": "title"
+    },
+    "quotes": {
+      "expert1": {
+        "quote": "quote",
+        "attribution": "attribution"
+      },
+      "expert2": {
+        "quote": "quote",
+        "attribution": "attribution"
+      }
+    },
+    "events": {
+      "title": "title",
+      "conferences": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "exhibitions": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "conclusion": {
+      "content": "content"
+    }
+  },
+  "sapphireCooling": {
+    "publishDate": "publishDate",
+    "introduction": {
+      "content": "content"
+    },
+    "whatIs": {
+      "title": "title",
+      "content": "content"
+    },
+    "keyBenefits": {
+      "title": "title",
+      "rapidHeat": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "continuousCooling": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "enhancedComfort": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "improvedSafety": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "clinicalData": {
+      "title": "title",
+      "fitzpatrickTitle": "fitzpatrickTitle",
+      "note": "note"
+    },
+    "table": {
+      "fitzpatrickType": "fitzpatrickType",
+      "skinToneDescription": "skinToneDescription",
+      "suitability": "suitability",
+      "type1": "type1",
+      "type2": "type2",
+      "type3": "type3",
+      "type4": "type4",
+      "withCaution": "withCaution",
+      "type5": "type5",
+      "type6": "type6",
+      "notRecommended": "notRecommended"
+    },
+    "clinicalEvidence": {
+      "title": "title",
+      "painReduction": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "safetyProfile": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "bestPractices": {
+      "title": "title",
+      "startLow": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "testPatch": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "properPrep": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "userTestimonials": {
+      "title": "title",
+      "testimonial1": {
+        "quote": "quote",
+        "attribution": "attribution"
+      },
+      "testimonial2": {
+        "quote": "quote",
+        "attribution": "attribution"
+      }
+    },
+    "conclusion": {
+      "content": "content"
+    }
+  },
+  "sustainableManufacturing": {
+    "publishDate": "publishDate",
+    "introduction": {
+      "content": "content"
+    },
+    "environmental": {
+      "title": "title",
+      "content": "content"
+    },
+    "initiatives": {
+      "title": "title",
+      "renewableEnergy": "renewableEnergy",
+      "wasteReduction": "wasteReduction",
+      "sustainableMaterials": "sustainableMaterials",
+      "carbonFootprint": "carbonFootprint"
+    },
+    "materials": {
+      "title": "title",
+      "recyclable": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "biodegradable": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "process": {
+      "title": "title",
+      "efficiency": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "automation": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "quality": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "impact": {
+      "title": "title",
+      "content": "content"
+    },
+    "benefits": {
+      "title": "title",
+      "costReduction": "costReduction",
+      "brandImage": "brandImage",
+      "compliance": "compliance",
+      "innovation": "innovation"
+    },
+    "future": {
+      "title": "title",
+      "content": "content"
+    },
+    "goals": {
+      "carbonNeutral": {
+        "target": "target",
+        "desc": "desc"
+      },
+      "renewable": {
+        "target": "target",
+        "desc": "desc"
+      },
+      "waste": {
+        "target": "target",
+        "desc": "desc"
+      }
+    },
+    "conclusion": {
+      "content": "content"
+    }
+  },
+  "afterSalesService": {
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    },
+    "commonIssues": {
+      "title": "title",
+      "scenarios": {
+        "title": "title"
+      },
+      "prevention": {
+        "title": "title"
+      },
+      "howToUseGuide": "howToUseGuide"
+    },
+    "commitments": {
+      "title": "title",
+      "warranty": {
+        "title": "title",
+        "description": "description"
+      },
+      "return": {
+        "title": "title",
+        "description": "description"
+      },
+      "moneyBack": {
+        "title": "title",
+        "description": "description"
+      },
+      "note": "note",
+      "warrantyClaim": "warrantyClaim",
+      "returnRequest": "returnRequest"
+    },
+    "returnsTerms": {
+      "title": "title",
+      "returnWindow": "returnWindow",
+      "process": "process",
+      "exclusions": "exclusions",
+      "refunds": "refunds",
+      "warrantyExclusions": "warrantyExclusions",
+      "fullTerms": "fullTerms"
+    },
+    "insights": {
+      "title": "title",
+      "failureRate": "failureRate"
+    }
+  },
+  "beautySourcing": {
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    }
+  },
+  "gallery": {
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    }
+  },
+  "helpCenter": {
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    },
+    "contact": {
+      "title": "title",
+      "subtitle": "subtitle",
+      "button": "button"
+    }
+  },
+  "knowledgeBase": {
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    }
+  },
+  "pricingGuide": {
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    }
+  },
+  "videos": {
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    }
+  },
+  "winFdaListing": {
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    }
+  },
+  "globalShipping": {
+    "zones": {
+      "northAmerica": {
+        "region": "region",
+        "countries": {
+          "us": "us",
+          "canada": "canada",
+          "mexico": "mexico"
+        },
+        "deliveryTime": "deliveryTime"
+      },
+      "europe": {
+        "region": "region",
+        "countries": {
+          "germany": "germany",
+          "france": "france",
+          "uk": "uk",
+          "netherlands": "netherlands",
+          "italy": "italy"
+        },
+        "deliveryTime": "deliveryTime"
+      },
+      "asiaPacific": {
+        "region": "region",
+        "countries": {
+          "japan": "japan",
+          "australia": "australia",
+          "singapore": "singapore",
+          "southKorea": "southKorea"
+        },
+        "deliveryTime": "deliveryTime"
+      },
+      "restOfWorld": {
+        "region": "region",
+        "countries": {
+          "brazil": "brazil",
+          "india": "india",
+          "southAfrica": "southAfrica",
+          "uae": "uae"
+        },
+        "deliveryTime": "deliveryTime"
+      },
+      "title": "title",
+      "subtitle": "subtitle"
+    },
+    "services": {
+      "express": {
+        "title": "title",
+        "description": "description",
+        "features": {
+          "delivery": "delivery",
+          "tracking": "tracking",
+          "insurance": "insurance",
+          "priority": "priority"
+        }
+      },
+      "secure": {
+        "title": "title",
+        "description": "description",
+        "features": {
+          "protection": "protection",
+          "resistance": "resistance",
+          "seals": "seals",
+          "inserts": "inserts"
+        }
+      },
+      "flexible": {
+        "title": "title",
+        "description": "description",
+        "features": {
+          "standard": "standard",
+          "express": "express",
+          "economy": "economy",
+          "scheduled": "scheduled"
+        }
+      },
+      "customs": {
+        "title": "title",
+        "description": "description",
+        "features": {
+          "clearance": "clearance",
+          "documentation": "documentation",
+          "duty": "duty",
+          "compliance": "compliance"
+        }
+      },
+      "title": "title",
+      "subtitle": "subtitle"
+    },
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    }
+  },
+  "logoPrinting": {
+    "screenPrinting": {
+      "label": "label",
+      "description": "description"
+    },
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    },
+    "info": {
+      "colors": {
+        "label": "label",
+        "value": "value"
+      },
+      "surface": {
+        "label": "label",
+        "value": "value"
+      },
+      "leadTime": {
+        "label": "label",
+        "value": "value"
+      },
+      "moq": {
+        "label": "label",
+        "value": "value"
+      },
+      "premium": {
+        "label": "label",
+        "value": "value"
+      }
+    },
+    "cta": {
+      "title": "title",
+      "subtitle": "subtitle",
+      "button": "button"
+    }
+  },
+  "multiHeadIPL": {
+    "heads": {
+      "precisionFace": {
+        "name": "name",
+        "spotSize": "spotSize",
+        "application": "application",
+        "features": "features"
+      },
+      "underarm": {
+        "name": "name",
+        "spotSize": "spotSize",
+        "application": "application",
+        "features": "features"
+      },
+      "bikini": {
+        "name": "name",
+        "spotSize": "spotSize",
+        "application": "application",
+        "features": "features"
+      },
+      "largeBody": {
+        "name": "name",
+        "spotSize": "spotSize",
+        "application": "application",
+        "features": "features"
+      },
+      "sapphire": {
+        "name": "name",
+        "spotSize": "spotSize",
+        "application": "application",
+        "features": "features"
+      },
+      "professional": {
+        "name": "name",
+        "spotSize": "spotSize",
+        "application": "application",
+        "features": "features"
+      }
+    },
+    "specs": {
+      "spotSize": {
+        "parameter": "parameter",
+        "value": "value",
+        "note": "note"
+      },
+      "wavelength": {
+        "parameter": "parameter",
+        "value": "value",
+        "note": "note"
+      },
+      "cooling": {
+        "parameter": "parameter",
+        "value": "value",
+        "note": "note"
+      },
+      "energy": {
+        "parameter": "parameter",
+        "value": "value",
+        "note": "note"
+      },
+      "coverage": {
+        "parameter": "parameter",
+        "value": "value",
+        "note": "note"
+      },
+      "title": "title",
+      "table": {
+        "parameter": "parameter",
+        "range": "range",
+        "notes": "notes"
+      }
+    },
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    },
+    "portfolio": {
+      "title": "title"
+    },
+    "features": {
+      "title": "title",
+      "sapphire": {
+        "title": "title",
+        "painReduction": "painReduction",
+        "continuousCooling": "continuousCooling",
+        "safeSkinTypes": "safeSkinTypes",
+        "temperatureControl": "temperatureControl"
+      },
+      "recognition": {
+        "title": "title",
+        "adaptation": "adaptation",
+        "recognition": "recognition",
+        "feedback": "feedback",
+        "safety": "safety"
+      }
+    },
+    "process": {
+      "title": "title",
+      "step1": "step1",
+      "step2": "step2",
+      "step3": "step3",
+      "step4": "step4"
+    },
+    "benefits": {
+      "title": "title",
+      "faster": "faster",
+      "painReduction": "painReduction",
+      "satisfaction": "satisfaction"
+    },
+    "cta": {
+      "title": "title",
+      "subtitle": "subtitle",
+      "button": "button"
+    }
   }
 }
