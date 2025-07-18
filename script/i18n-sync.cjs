@@ -2,31 +2,41 @@ const fs = require('fs');
 const path = require('path');
 
 // 辅助函数：递归补齐结构 + 同步内容（检查差异）
-function deepMerge(target, source, isForce = false) {
+function translateToLanguage(key, value, lang) {
+  // Placeholder for translation logic - in practice, use a translation service or map
+  // For now, simulate with prefix (replace with actual translations)
+  const translations = {
+    'de': (str) => `German: ${str}`, // Replace with real translations
+    // Add for other languages
+  };
+  return translations[lang] ? translations[lang](value) : value;
+}
+
+function deepMerge(target, source, lang, isForce = false) {
   let hasChanges = false;
-  const changes = []; // 日志数组
+  const changes = [];
   for (const key in source) {
     if (typeof source[key] === 'object' && !Array.isArray(source[key])) {
       if (typeof target[key] !== 'object' || target[key] === null) {
         target[key] = {};
         hasChanges = true;
       }
-      const subChanges = deepMerge(target[key], source[key], isForce);
+      const subChanges = deepMerge(target[key], source[key], lang, isForce);
       if (subChanges) hasChanges = true;
     } else {
       if (!target.hasOwnProperty(key)) {
-        target[key] = source[key]; // 补齐缺失
-        changes.push(`Added key: ${key}`);
+        target[key] = translateToLanguage(key, source[key], lang);
+        changes.push(`Added and translated key: ${key}`);
         hasChanges = true;
-      } else if (target[key] !== source[key] && isForce) { // force 时同步差异
+      } else if (target[key] !== source[key] && isForce) {
         const oldVal = target[key];
-        target[key] = source[key];
-        changes.push(`Synced key: ${key} (was: ${oldVal})`);
+        target[key] = translateToLanguage(key, source[key], lang);
+        changes.push(`Synced and translated key: ${key} (was: ${oldVal})`);
         hasChanges = true;
       }
     }
   }
-  if (changes.length > 0) console.log(`Changes: ${changes.join(', ')}`);
+  if (changes.length > 0) console.log(`Changes for ${lang}: ${changes.join(', ')}`);
   return hasChanges;
 }
 
@@ -95,14 +105,18 @@ const enPath = path.join(translationsDir, 'en.json');
 
 // 主函数（添加 --force 支持）
 function main(args) {
-  const mode = args[2];
-  const isForce = args.includes('--force');
+  let mode = args[2];
+  if (!mode) {
+    mode = '--sync-all';
+    console.log('No mode specified, running --sync-all by default');
+  }
+  const isForce = args.includes('--force') || false;
   let enData = JSON.parse(fs.readFileSync(enPath, 'utf8'));
   const changedKeys = getChangedKeys();
 
   if (mode === '--update-en') {
     const newKeys = buildNewKeys(changedKeys);
-    const updatedData = deepMerge(enData, newKeys);
+    const updatedData = deepMerge(enData, newKeys, 'en'); // Pass 'en' for English
     if (JSON.stringify(updatedData) !== JSON.stringify(enData)) {
       fs.writeFileSync(enPath, JSON.stringify(updatedData, null, 2), 'utf8');
       console.log('✅ en.json 更新完成（有变更）');
@@ -114,7 +128,8 @@ function main(args) {
       if (file.endsWith('.json') && file !== 'en.json') {
         const filePath = path.join(translationsDir, file);
         let targetData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-        const hasChanges = deepMerge(targetData, enData, isForce); // 传递 isForce
+        const lang = file.split('.').[0];
+        const hasChanges = deepMerge(targetData, enData, lang, isForce); // 传递 isForce
         if (hasChanges || isForce) { // 强制时总是写
           fs.writeFileSync(filePath, JSON.stringify(targetData, null, 2), 'utf8');
           console.log(`✅ ${file} 已强制同步结构和内容（与 en.json 对齐）`);
@@ -128,4 +143,7 @@ function main(args) {
   }
 }
 
+// Default behavior
+const mode = process.argv[2] || '--sync-all';
+const isForce = process.argv.includes('--force');
 main(process.argv); 
