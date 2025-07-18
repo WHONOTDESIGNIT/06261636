@@ -893,77 +893,123 @@
     }
   },
   "blog": {
+    "title": "iShine Blog",
+    "description": "Latest insights and news from the world of IPL technology and beauty manufacturing.",
+    "seo": {
+      "title": "iShine Blog - IPL Insights & News",
+      "description": "Stay updated with the latest trends in IPL hair removal and beauty device manufacturing.",
+      "keywords": "IPL blog, beauty tech news, hair removal insights"
+    },
     "posts": {
       "aiPoweredSkinSensing": {
         "title": "AI-Powered Skin Sensing Technology in Modern IPL Devices",
-        "date": "July 8, 2025",
-        "excerpt": "How artificial intelligence is revolutionizing IPL treatments with intelligent skin detection and personalized settings.",
-        "readTime": "4 min read",
-        "author": "iShine Team",
-        "category": "Innovation",
-        "introduction": {
-          "content": "In the evolving world of beauty technology, AI is transforming how we approach hair removal. Discover how iShine's AI-powered IPL devices are setting new standards in safety and effectiveness."
-        },
-        "sections": {
-          "benefits": {
-            "title": "Key Benefits",
-            "items": [
-              "Automatic skin tone detection for safe treatments",
-              "Personalized intensity settings",
-              "Real-time adjustments during use",
-              "Reduced risk of side effects"
-            ]
-          },
-          "howItWorks": {
-            "title": "How It Works",
-            "content": "The AI sensor analyzes skin tone and hair color in milliseconds, adjusting light intensity accordingly for optimal results."
-          }
-        },
-        "conclusion": "Embrace the future of hair removal with iShine's AI technology."
+        "description": "Exploring AI in IPL.",
+        "seo": {
+          "title": "AI Skin Sensing in IPL",
+          "description": "How AI is revolutionizing IPL.",
+          "keywords": "AI IPL, skin sensing"
+        }
       },
       "fda510kPathway": {
         "title": "FDA 510(k) Pathway for IPL Devices",
-        "date": "June 15, 2025",
-        "excerpt": "Guide to obtaining FDA clearance for your IPL hair removal devices.",
-        "readTime": "6 min read",
-        "author": "Compliance Team",
-        "category": "Regulatory",
-        "introduction": {
-          "content": "Navigating FDA regulations is crucial for market entry. Learn the steps to achieve 510(k) clearance."
-        },
-        "sections": {
-          "steps": {
-            "title": "Key Steps",
-            "items": [
-              "Device classification",
-              "Predicate device identification",
-              "Testing and documentation",
-              "Submission and review"
-            ]
-          },
-          "tips": {
-            "title": "Expert Tips",
-            "content": "Partner with experienced manufacturers like iShine to streamline the process."
-          }
-        },
-        "conclusion": "Achieve FDA compliance with confidence."
+        "description": "Guide to FDA clearance.",
+        "seo": {
+          "title": "FDA Pathway for IPL",
+          "description": "Navigating FDA regulations.",
+          "keywords": "FDA 510k, IPL clearance"
+        }
       },
       "futureHomeHairRemoval": {
         "title": "The Future of Home Hair Removal",
-        "date": "August 1, 2025",
-        "excerpt": "Emerging trends in at-home IPL technology.",
-        "readTime": "5 min read",
-        "author": "Innovation Team",
-        "category": "Trends",
-        "introduction": {
-          "content": "Explore what's next in home beauty tech."
+        "description": "Trends in at-home IPL.",
+        "seo": {
+          "title": "Future Home Hair Removal",
+          "description": "Emerging IPL trends.",
+          "keywords": "home IPL, future trends"
+        }
+      },
+      "globalMarketShifts": {
+        "title": "Global Market Shifts in Beauty Tech",
+        "description": "Market analysis.",
+        "seo": {
+          "title": "Beauty Tech Market Shifts",
+          "description": "Global trends in beauty technology.",
+          "keywords": "beauty market, tech shifts"
+        }
+      },
+      "industries": {
+        "title": "Industries We Serve",
+        "description": "Our industry coverage.",
+        "seo": {
+          "title": "iShine Industries",
+          "description": "Sectors we support with IPL solutions.",
+          "keywords": "IPL industries, beauty sectors"
+        }
+      },
+      "iplBestChoice": {
+        "title": "Why IPL is the Best Choice",
+        "description": "Benefits of IPL.",
+        "seo": {
+          "title": "IPL Best Choice",
+          "description": "Advantages of IPL hair removal.",
+          "keywords": "IPL benefits, hair removal choice"
+        }
+      },
+      "multiHeadIPLSystems": {
+        "title": "Multi-Head IPL Systems",
+        "description": "Advanced IPL systems.",
+        "seo": {
+          "title": "Multi-Head IPL",
+          "description": "Custom multi-head IPL solutions.",
+          "keywords": "multi-head IPL, advanced systems"
+        }
+      },
+      "newsInsights": {
+        "title": "News & Insights",
+        "description": "Latest news.",
+        "seo": {
+          "title": "iShine News",
+          "description": "Beauty tech news and insights.",
+          "keywords": "IPL news, beauty insights"
+        }
+      },
+      "promotionalIplMerchandise": {
+        "title": "Promotional IPL Merchandise",
+        "description": "Marketing materials.",
+        "seo": {
+          "title": "IPL Merchandise",
+          "description": "Promotional items for IPL brands.",
+          "keywords": "IPL promo, merchandise"
+        }
+      },
+      "sapphireCooling": {
+        "title": "Sapphire Cooling Technology",
+        "description": "Cooling innovations.",
+        "seo": {
+          "title": "Sapphire Cooling",
+          "description": "Advanced cooling in IPL devices.",
+          "keywords": "sapphire cooling, IPL tech"
+        }
+      },
+      "sustainableManufacturing": {
+        "title": "Sustainable Manufacturing",
+        "description": "Eco-friendly practices.",
+        "seo": {
+          "title": "Sustainable IPL Manufacturing",
+          "description": "Green manufacturing for IPL devices.",
+          "keywords": "sustainable IPL, eco manufacturing"
         }
       }
     }
   },
   "shippingCost": {
-    "title": "Shipping Cost Calculator",
-    "description": "Estimate your shipping costs for IPL device orders.",
+    "title": "Shipping Cost",
+    "description": "Calculate shipping costs.",
+    "seo": {
+      "title": "IPL Shipping Costs",
+      "description": "Estimate delivery costs.",
+      "keywords": "shipping cost, delivery estimate"
+    },
     "calculator": {
       "quantity": "Quantity",
       "destination": "Destination Country",
@@ -972,7 +1018,13 @@
     }
   },
   "sitemap": {
-    "title": "Site Map",
+    "title": "Sitemap",
+    "description": "Site navigation map.",
+    "seo": {
+      "title": "iShine Sitemap",
+      "description": "All pages and sections.",
+      "keywords": "sitemap, site navigation"
+    },
     "sections": {
       "main": "Main Pages",
       "products": "Products",
@@ -1008,6 +1060,575 @@
       "title": "IPL Hair Removal Devices | Smart App, Ice Cooling, AI-Powered | iShine",
       "description": "Professional IPL hair removal devices including smart app-controlled, ice cooling, AI-powered, and skin sensor models. Custom manufacturing for beauty brands worldwide.",
       "keywords": "IPL hair removal devices, smart IPL, ice cooling IPL, AI-powered IPL, skin sensor IPL, beauty devices"
+    }
+  },
+  "about": {
+    "title": "About iShine",
+    "description": "Learn more about our company, mission, and values.",
+    "seo": {
+      "title": "About iShine - IPL Device Manufacturer",
+      "description": "Discover iShine's story, technology, and commitment to excellence in IPL manufacturing.",
+      "keywords": "about iShine, IPL manufacturer story, company information"
+    },
+    "brandStory": {
+      "title": "Brand Story",
+      "description": "The journey of iShine in the beauty industry.",
+      "seo": {
+        "title": "iShine Brand Story",
+        "description": "From inception to innovation in IPL technology.",
+        "keywords": "iShine history, brand journey"
+      }
+    },
+    "companyInfo": {
+      "title": "Company Information",
+      "description": "Details about iShine Tech Co., Limited.",
+      "seo": {
+        "title": "iShine Company Info",
+        "description": "Our company structure and operations.",
+        "keywords": "iShine company, corporate information"
+      }
+    },
+    "corePrinciples": {
+      "title": "Core Principles",
+      "description": "Our guiding values and principles.",
+      "seo": {
+        "title": "iShine Core Principles",
+        "description": "What drives our success and innovation.",
+        "keywords": "iShine values, company principles"
+      }
+    },
+    "founderMessage": {
+      "title": "Founder Message",
+      "description": "Message from our founder.",
+      "seo": {
+        "title": "Message from iShine Founder",
+        "description": "Insights from the founder of iShine.",
+        "keywords": "iShine founder, CEO message"
+      }
+    },
+    "globalWitness": {
+      "title": "Global Witness",
+      "description": "Our global impact and testimonials.",
+      "seo": {
+        "title": "iShine Global Witness",
+        "description": "Worldwide recognition and success stories.",
+        "keywords": "iShine global, international presence"
+      }
+    },
+    "quality": {
+      "title": "Quality",
+      "description": "Our commitment to quality standards.",
+      "seo": {
+        "title": "iShine Quality Assurance",
+        "description": "How we ensure top-quality IPL devices.",
+        "keywords": "iShine quality, manufacturing standards"
+      }
+    },
+    "technology": {
+      "title": "Our Technology",
+      "description": "Innovative technologies behind our products.",
+      "seo": {
+        "title": "iShine Technology",
+        "description": "Advanced IPL technology and innovations.",
+        "keywords": "iShine tech, IPL innovation"
+      }
+    }
+  },
+  "accessories": {
+    "title": "IPL Accessories",
+    "description": "Enhance your IPL experience with our range of accessories.",
+    "seo": {
+      "title": "IPL Accessories | iShine",
+      "description": "High-quality accessories for IPL devices.",
+      "keywords": "IPL accessories, sapphire lens, protective goggles"
+    },
+    "adapter": {
+      "title": "Adapter",
+      "description": "Reliable power adapters for IPL devices.",
+      "seo": {
+        "title": "IPL Adapter",
+        "description": "Compatible power adapters for global use.",
+        "keywords": "IPL adapter, power supply"
+      }
+    },
+    "filter": {
+      "title": "Filter",
+      "description": "Optical filters for IPL treatments.",
+      "seo": {
+        "title": "IPL Filter",
+        "description": "Precision filters for wavelength control.",
+        "keywords": "IPL filter, optical filter"
+      }
+    },
+    "protectiveGoggles": {
+      "title": "Protective Goggles",
+      "description": "Safety eyewear for IPL usage.",
+      "seo": {
+        "title": "IPL Protective Goggles",
+        "description": "Protective glasses for safe IPL treatments.",
+        "keywords": "IPL goggles, safety glasses"
+      }
+    },
+    "sapphireLens": {
+      "title": "Sapphire Lens",
+      "description": "Durable sapphire lenses for IPL devices.",
+      "seo": {
+        "title": "IPL Sapphire Lens",
+        "description": "High-quality lenses for optimal performance.",
+        "keywords": "IPL lens, sapphire lens"
+      }
+    }
+  },
+  "blog": {
+    "title": "iShine Blog",
+    "description": "Latest insights and news from the world of IPL technology and beauty manufacturing.",
+    "seo": {
+      "title": "iShine Blog - IPL Insights & News",
+      "description": "Stay updated with the latest trends in IPL hair removal and beauty device manufacturing.",
+      "keywords": "IPL blog, beauty tech news, hair removal insights"
+    },
+    "posts": {
+      "aiPoweredSkinSensing": {
+        "title": "AI-Powered Skin Sensing Technology in Modern IPL Devices",
+        "description": "Exploring AI in IPL.",
+        "seo": {
+          "title": "AI Skin Sensing in IPL",
+          "description": "How AI is revolutionizing IPL.",
+          "keywords": "AI IPL, skin sensing"
+        }
+      },
+      "fda510kPathway": {
+        "title": "FDA 510(k) Pathway for IPL Devices",
+        "description": "Guide to FDA clearance.",
+        "seo": {
+          "title": "FDA Pathway for IPL",
+          "description": "Navigating FDA regulations.",
+          "keywords": "FDA 510k, IPL clearance"
+        }
+      },
+      "futureHomeHairRemoval": {
+        "title": "The Future of Home Hair Removal",
+        "description": "Trends in at-home IPL.",
+        "seo": {
+          "title": "Future Home Hair Removal",
+          "description": "Emerging IPL trends.",
+          "keywords": "home IPL, future trends"
+        }
+      },
+      "globalMarketShifts": {
+        "title": "Global Market Shifts in Beauty Tech",
+        "description": "Market analysis.",
+        "seo": {
+          "title": "Beauty Tech Market Shifts",
+          "description": "Global trends in beauty technology.",
+          "keywords": "beauty market, tech shifts"
+        }
+      },
+      "industries": {
+        "title": "Industries We Serve",
+        "description": "Our industry coverage.",
+        "seo": {
+          "title": "iShine Industries",
+          "description": "Sectors we support with IPL solutions.",
+          "keywords": "IPL industries, beauty sectors"
+        }
+      },
+      "iplBestChoice": {
+        "title": "Why IPL is the Best Choice",
+        "description": "Benefits of IPL.",
+        "seo": {
+          "title": "IPL Best Choice",
+          "description": "Advantages of IPL hair removal.",
+          "keywords": "IPL benefits, hair removal choice"
+        }
+      },
+      "multiHeadIPLSystems": {
+        "title": "Multi-Head IPL Systems",
+        "description": "Advanced IPL systems.",
+        "seo": {
+          "title": "Multi-Head IPL",
+          "description": "Custom multi-head IPL solutions.",
+          "keywords": "multi-head IPL, advanced systems"
+        }
+      },
+      "newsInsights": {
+        "title": "News & Insights",
+        "description": "Latest news.",
+        "seo": {
+          "title": "iShine News",
+          "description": "Beauty tech news and insights.",
+          "keywords": "IPL news, beauty insights"
+        }
+      },
+      "promotionalIplMerchandise": {
+        "title": "Promotional IPL Merchandise",
+        "description": "Marketing materials.",
+        "seo": {
+          "title": "IPL Merchandise",
+          "description": "Promotional items for IPL brands.",
+          "keywords": "IPL promo, merchandise"
+        }
+      },
+      "sapphireCooling": {
+        "title": "Sapphire Cooling Technology",
+        "description": "Cooling innovations.",
+        "seo": {
+          "title": "Sapphire Cooling",
+          "description": "Advanced cooling in IPL devices.",
+          "keywords": "sapphire cooling, IPL tech"
+        }
+      },
+      "sustainableManufacturing": {
+        "title": "Sustainable Manufacturing",
+        "description": "Eco-friendly practices.",
+        "seo": {
+          "title": "Sustainable IPL Manufacturing",
+          "description": "Green manufacturing for IPL devices.",
+          "keywords": "sustainable IPL, eco manufacturing"
+        }
+      }
+    }
+  },
+  "ipl": {
+    "title": "IPL Devices",
+    "description": "Our range of advanced IPL devices.",
+    "seo": {
+      "title": "iShine IPL Devices",
+      "description": "Innovative IPL hair removal devices.",
+      "keywords": "IPL devices, hair removal tech"
+    },
+    "aiPoweredIPL": {
+      "title": "AI-Powered IPL",
+      "description": "Intelligent IPL device with AI features.",
+      "seo": {
+        "title": "AI-Powered IPL Device",
+        "description": "Smart AI IPL for personalized treatments.",
+        "keywords": "AI IPL, intelligent hair removal"
+      }
+    },
+    "batteryPoweredIPL": {
+      "title": "Battery Powered IPL",
+      "description": "Portable battery-operated IPL device.",
+      "seo": {
+        "title": "Battery Powered IPL",
+        "description": "Cordless IPL for on-the-go use.",
+        "keywords": "battery IPL, portable hair removal"
+      }
+    },
+    "dualLampIPLDevice": {
+      "title": "Dual Lamp IPL Device",
+      "description": "Powerful dual-lamp IPL technology.",
+      "seo": {
+        "title": "Dual Lamp IPL",
+        "description": "Enhanced efficiency with dual lamps.",
+        "keywords": "dual lamp IPL, advanced IPL"
+      }
+    },
+    "emeraldIPL": {
+      "title": "Emerald IPL",
+      "description": "Premium Emerald IPL device.",
+      "seo": {
+        "title": "Emerald IPL Device",
+        "description": "Luxury IPL with emerald technology.",
+        "keywords": "emerald IPL, premium hair removal"
+      }
+    },
+    "handheldIPL": {
+      "title": "Handheld IPL",
+      "description": "Compact handheld IPL device.",
+      "seo": {
+        "title": "Handheld IPL",
+        "description": "Easy-to-use handheld hair removal.",
+        "keywords": "handheld IPL, compact device"
+      }
+    },
+    "iceCoolingIPL": {
+      "title": "Ice Cooling IPL",
+      "description": "Cooling IPL for comfortable treatments.",
+      "seo": {
+        "title": "Ice Cooling IPL",
+        "description": "Pain-free IPL with ice cooling.",
+        "keywords": "ice cooling IPL, comfortable hair removal"
+      }
+    },
+    "iceFeelingIPL": {
+      "title": "Ice Feeling IPL",
+      "description": "IPL with ice-like cooling sensation.",
+      "seo": {
+        "title": "Ice Feeling IPL",
+        "description": "Refreshing IPL treatments.",
+        "keywords": "ice feeling IPL, cooling sensation"
+      }
+    },
+    "skinSensorIPL": {
+      "title": "Skin Sensor IPL",
+      "description": "IPL with built-in skin sensor.",
+      "seo": {
+        "title": "Skin Sensor IPL",
+        "description": "Safe IPL with skin tone detection.",
+        "keywords": "skin sensor IPL, safe hair removal"
+      }
+    },
+    "smartAppIPL": {
+      "title": "Smart App IPL",
+      "description": "App-controlled smart IPL device.",
+      "seo": {
+        "title": "Smart App IPL",
+        "description": "Connected IPL for smart treatments.",
+        "keywords": "smart IPL, app controlled"
+      }
+    }
+  },
+  "service": {
+    "title": "Services",
+    "description": "Our comprehensive service offerings.",
+    "seo": {
+      "title": "iShine Services",
+      "description": "From manufacturing to support services.",
+      "keywords": "IPL services, beauty manufacturing"
+    },
+    "afterSalesService": {
+      "title": "After Sales Service",
+      "description": "Post-purchase support and warranty.",
+      "seo": {
+        "title": "iShine After Sales",
+        "description": "Reliable after-sales support.",
+        "keywords": "after sales, IPL support"
+      }
+    },
+    "beautySourcing": {
+      "title": "Beauty Sourcing",
+      "description": "Sourcing solutions for beauty products.",
+      "seo": {
+        "title": "Beauty Sourcing Services",
+        "description": "Expert sourcing for beauty industry.",
+        "keywords": "beauty sourcing, product procurement"
+      }
+    },
+    "gallery": {
+      "title": "Gallery",
+      "description": "Visual showcase of our products.",
+      "seo": {
+        "title": "iShine Gallery",
+        "description": "Images of IPL devices and manufacturing.",
+        "keywords": "IPL gallery, product images"
+      }
+    },
+    "helpCenter": {
+      "title": "Help Center",
+      "description": "Support and FAQ resources.",
+      "seo": {
+        "title": "iShine Help Center",
+        "description": "Get help with our products and services.",
+        "keywords": "help center, support FAQ"
+      }
+    },
+    "iplManufacturing": {
+      "title": "IPL Manufacturing",
+      "description": "Custom IPL device manufacturing.",
+      "seo": {
+        "title": "IPL Manufacturing Services",
+        "description": "OEM/ODM IPL production.",
+        "keywords": "IPL manufacturing, device production"
+      }
+    },
+    "knowledgeBase": {
+      "title": "Knowledge Base",
+      "description": "Articles and guides on IPL technology.",
+      "seo": {
+        "title": "iShine Knowledge Base",
+        "description": "Educational resources on IPL.",
+        "keywords": "IPL knowledge, tech guides"
+      }
+    },
+    "pricingGuide": {
+      "title": "Pricing Guide",
+      "description": "Pricing information for our services.",
+      "seo": {
+        "title": "iShine Pricing",
+        "description": "Transparent pricing for IPL solutions.",
+        "keywords": "IPL pricing, cost guide"
+      }
+    },
+    "videos": {
+      "title": "Videos",
+      "description": "Product demos and tutorials.",
+      "seo": {
+        "title": "iShine Videos",
+        "description": "Watch IPL device demonstrations.",
+        "keywords": "IPL videos, product demos"
+      }
+    },
+    "winFdaListing": {
+      "title": "Win FDA Listing",
+      "description": "Assistance with FDA compliance.",
+      "seo": {
+        "title": "FDA Listing Services",
+        "description": "Help obtaining FDA approval for IPL devices.",
+        "keywords": "FDA listing, compliance services"
+      }
+    }
+  },
+  "solutionsPages": {
+    "title": "Solutions",
+    "description": "Our custom solutions for IPL manufacturing.",
+    "seo": {
+      "title": "iShine Solutions",
+      "description": "Custom OEM/ODM solutions for beauty brands.",
+      "keywords": "IPL solutions, custom manufacturing"
+    },
+    "brandCustomization": {
+      "title": "Brand Customization",
+      "description": "Full brand customization services.",
+      "seo": {
+        "title": "IPL Brand Customization",
+        "description": "Customize your IPL brand identity.",
+        "keywords": "brand customization, IPL branding"
+      }
+    },
+    "compliance": {
+      "title": "Compliance",
+      "description": "Regulatory compliance support.",
+      "seo": {
+        "title": "IPL Compliance Services",
+        "description": "Ensure your products meet global standards.",
+        "keywords": "IPL compliance, regulations"
+      }
+    },
+    "designPrototyping": {
+      "title": "Design & Prototyping",
+      "description": "Product design and prototyping.",
+      "seo": {
+        "title": "IPL Design & Prototyping",
+        "description": "From concept to prototype.",
+        "keywords": "IPL design, prototyping services"
+      }
+    },
+    "dropShipping": {
+      "title": "Drop Shipping",
+      "description": "Efficient drop shipping solutions.",
+      "seo": {
+        "title": "IPL Drop Shipping",
+        "description": "Streamline your e-commerce operations.",
+        "keywords": "drop shipping, IPL fulfillment"
+      }
+    },
+    "dualLampIPL": {
+      "title": "Dual Lamp IPL",
+      "description": "Advanced dual lamp technology.",
+      "seo": {
+        "title": "Dual Lamp IPL Solutions",
+        "description": "Enhanced IPL performance with dual lamps.",
+        "keywords": "dual lamp IPL, advanced tech"
+      }
+    },
+    "globalShipping": {
+      "title": "Global Shipping",
+      "description": "Worldwide shipping services.",
+      "seo": {
+        "title": "Global IPL Shipping",
+        "description": "Reliable international delivery.",
+        "keywords": "global shipping, IPL logistics"
+      }
+    },
+    "logoPrinting": {
+      "title": "Logo Printing",
+      "description": "Custom logo printing for devices.",
+      "seo": {
+        "title": "IPL Logo Printing",
+        "description": "Brand your IPL devices with custom logos.",
+        "keywords": "logo printing, custom branding"
+      }
+    },
+    "multiHeadIPL": {
+      "title": "Multi Head IPL",
+      "description": "Versatile multi-head systems.",
+      "seo": {
+        "title": "Multi Head IPL Systems",
+        "description": "Customizable multi-head IPL solutions.",
+        "keywords": "multi head IPL, versatile systems"
+      }
+    },
+    "packagingSolutions": {
+      "title": "Packaging Solutions",
+      "description": "Custom packaging options.",
+      "seo": {
+        "title": "IPL Packaging Solutions",
+        "description": "Premium packaging for your products.",
+        "keywords": "packaging, custom boxes"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Get in touch with us.",
+    "seo": {
+      "title": "Contact iShine",
+      "description": "Contact page for inquiries.",
+      "keywords": "contact, support"
+    }
+  },
+  "countryPage": {
+    "title": "Country Specific Page",
+    "description": "Localized content for specific countries.",
+    "seo": {
+      "title": "iShine in Your Country",
+      "description": "Country-specific IPL solutions.",
+      "keywords": "country IPL, localized services"
+    }
+  },
+  "howToUse": {
+    "title": "How to Use",
+    "description": "Guide on using our IPL devices.",
+    "seo": {
+      "title": "How to Use IPL Devices",
+      "description": "Step-by-step usage guide.",
+      "keywords": "IPL usage, how to guide"
+    }
+  },
+  "serviceSupport": {
+    "title": "Service & Support",
+    "description": "Our support services.",
+    "seo": {
+      "title": "iShine Support",
+      "description": "Comprehensive support for customers.",
+      "keywords": "support, service"
+    }
+  },
+  "shippingCost": {
+    "title": "Shipping Cost",
+    "description": "Calculate shipping costs.",
+    "seo": {
+      "title": "IPL Shipping Costs",
+      "description": "Estimate delivery costs.",
+      "keywords": "shipping cost, delivery estimate"
+    }
+  },
+  "silk": {
+    "title": "Silk",
+    "description": "Silk product page.",
+    "seo": {
+      "title": "iShine Silk",
+      "description": "Smooth as silk IPL experience.",
+      "keywords": "silk IPL, smooth hair removal"
+    }
+  },
+  "sitemap": {
+    "title": "Sitemap",
+    "description": "Site navigation map.",
+    "seo": {
+      "title": "iShine Sitemap",
+      "description": "All pages and sections.",
+      "keywords": "sitemap, site navigation"
+    }
+  },
+  "solutions": {
+    "title": "Solutions",
+    "description": "Our solution offerings.",
+    "seo": {
+      "title": "iShine Solutions",
+      "description": "Custom solutions for IPL needs.",
+      "keywords": "solutions, custom IPL"
     }
   }
 }
