@@ -67,10 +67,10 @@ function walk(dir, allKeys) {
         walk(filePath, allKeys);
       } else if (file.endsWith('.tsx')) {
         const content = fs.readFileSync(filePath, 'utf8');
-        const regex = new RegExp('t\\\\([\\\'\"]([^\\\'\"]+)[\\\'\"]\\\\)', 'g');
+        const regex = /t\((['"])((?:(?!\1).)*)\1\)/g;
         let match;
         while ((match = regex.exec(content)) !== null) {
-          allKeys.add(match[1]);
+          allKeys.add(match[2]);
         }
       }
     });
