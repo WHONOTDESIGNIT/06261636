@@ -25,19 +25,7 @@ const initOptions: InitOptions = {
   returnNull: false,
   returnEmptyString: false,
   saveMissing: true,
-  saveMissingTo: 'all',
-  missingKeyHandler(lngs: readonly string[], ns: string, key: string, fallbackValue: string, updateMissing: boolean, options: any) {
-    console.warn(`Missing translation key: ${key} for languages: ${lngs.join(', ')} in namespace: ${ns}`);
-    if (fallbackValue) {
-      console.warn('Fallback value:', fallbackValue);
-    }
-    if (updateMissing) {
-      console.warn('Update missing:', updateMissing);
-    }
-    if (options) {
-      console.warn('Options:', options);
-    }
-  }
+  saveMissingTo: 'all'
 };
 
 i18next
@@ -45,7 +33,13 @@ i18next
   .use(LanguageDetector)
   .use(HttpBackend)
   .use(resourcesToBackend((language: string) => import(`./translations/${language}.json`)))
-  .init(initOptions);
+  .init(initOptions)
+  .then(() => {
+    console.log('i18next initialized successfully');
+  })
+  .catch((error) => {
+    console.error('Failed to initialize i18next:', error);
+  });
 
 // Add event listeners for debugging
 i18next.on('initialized', (options: any) => {
