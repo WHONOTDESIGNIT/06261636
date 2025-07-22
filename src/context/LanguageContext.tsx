@@ -1,14 +1,14 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
 import i18next from 'i18next';
 import { languages } from '../data/languages';
+import { useTypedTranslation, TranslationKey } from '../hooks/useTypedTranslation';
 
 interface LanguageContextType {
   currentLanguage: string;
   currentCountry: string;
   setLanguage: (languageCode: string, countryCode?: string) => Promise<void>;
-  t: (key: string, options?: any) => string;
+  t: (key: TranslationKey, options?: Record<string, any>) => string;
   loading: boolean;
   isRTL: boolean;
   availableLanguages: typeof languages;
@@ -29,9 +29,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   });
 
   const [loading, setLoading] = useState(true);
-  const [isRTL, setIsRTL] = useState(false);
-
-  const { t, i18n } = useTranslation();
+  const { t, i18n, isRTL } = useTypedTranslation();
   const location = useLocation();
 
   // 监听路径变化
@@ -66,9 +64,6 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       }
       localStorage.setItem('selectedLanguage', languageCode);
 
-      // 更新RTL状态
-      setIsRTL(['ar', 'he'].includes(languageCode));
-
       // 触发自定义事件
       window.dispatchEvent(new Event('languageChanged'));
     } catch (error) {
@@ -96,7 +91,8 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   useEffect(() => {
     const handleLanguageChanged = (lng: string) => {
       console.log('Language changed to:', lng);
-      setIsRTL(['ar', 'he'].includes(lng));
+      document.documentElement.lang = lng;
+      document.documentElement.dir = ['ar', 'he'].includes(lng) ? 'rtl' : 'ltr';
     };
 
     i18next.on('languageChanged', handleLanguageChanged);
