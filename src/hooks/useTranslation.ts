@@ -8,13 +8,19 @@ export const useTranslation = (language: string = 'en') => {
   // Sync language with i18next
   useEffect(() => {
     if (i18n.language !== language) {
-      i18n.changeLanguage(language);
+      i18n.changeLanguage(language).catch(error => {
+        console.error('Failed to change language:', error);
+      });
     }
   }, [language, i18n]);
   
-  // Custom t function to handle nested keys (as before)
+  // Custom t function to handle nested keys and debug missing translations
   const t = (key: string, fallback?: string): string => {
-    return i18nT(key, { defaultValue: fallback || key });
+    const translation = i18nT(key, { defaultValue: fallback || key });
+    if (translation === key && !fallback) {
+      console.warn(`Missing translation for key: ${key} in language: ${language}`);
+    }
+    return translation;
   };
 
   return { t, loading: !ready, language: i18n.language };
