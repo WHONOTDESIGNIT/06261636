@@ -29,8 +29,7 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": false,
-    "skipDefaultLibCheck": true,
-    "noStrictGenericChecks": true
+    "skipDefaultLibCheck": true
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
