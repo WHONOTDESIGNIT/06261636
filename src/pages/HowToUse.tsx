@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { 
   BookOpen, 
@@ -19,7 +19,23 @@ import { useLanguage } from '../context/LanguageContext';
 import SEOTags from '../components/SEO/SEOTags';
 
 const HowToUse: React.FC = () => {
-  const { t } = useLanguage();
+  const { t, currentLanguage } = useLanguage();
+
+  useEffect(() => {
+    // 检查翻译是否正确加载
+    const testKeys = [
+      'howToUse.heroTitle',
+      'howToUse.heroDescription',
+      'howToUse.steps.preparation.title',
+      'howToUse.steps.preparation.description'
+    ];
+    testKeys.forEach(key => {
+      const translation = t(key);
+      if (translation === key) {
+        console.warn(`Missing translation for key: ${key} in language: ${currentLanguage}`);
+      }
+    });
+  }, [t, currentLanguage]);
 
   const steps = [
     {
@@ -194,9 +210,9 @@ const HowToUse: React.FC = () => {
   return (
     <div className="min-h-screen pt-20">
       <SEOTags 
-        title={t('howToUse.seo.title', 'How to Use IPL Hair Removal Devices | Complete Guide | iShine')}
-        description={t('howToUse.seo.description', 'Learn how to use IPL hair removal devices safely and effectively. Complete guide with step-by-step instructions, safety tips, and best practices.')}
-        keywords={t('howToUse.seo.keywords', 'how to use IPL, IPL hair removal guide, IPL device instructions, IPL safety tips, IPL treatment guide')}
+        title={t('howToUse.seo.title')}
+        description={t('howToUse.seo.description')}
+        keywords={t('howToUse.seo.keywords')}
       />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-ishine-blue-500 to-ishine-teal-500 text-white py-16">
@@ -439,12 +455,12 @@ const HowToUse: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { title: 'Getting Started with IPL', duration: '5:30' },
-              { title: 'Safety Guidelines & Preparation', duration: '4:15' },
-              { title: 'Treatment Techniques', duration: '7:20' },
-              { title: 'Post-Treatment Care', duration: '3:45' },
-              { title: 'Troubleshooting Common Issues', duration: '6:10' },
-              { title: 'Maintenance & Storage', duration: '2:55' }
+              { title: t('howToUse.videoTutorials.gettingStarted.title'), duration: '5:30' },
+              { title: t('howToUse.videoTutorials.safetyGuidelines.title'), duration: '4:15' },
+              { title: t('howToUse.videoTutorials.treatmentTechniques.title'), duration: '7:20' },
+              { title: t('howToUse.videoTutorials.postTreatmentCare.title'), duration: '3:45' },
+              { title: t('howToUse.videoTutorials.troubleshooting.title'), duration: '6:10' },
+              { title: t('howToUse.videoTutorials.maintenance.title'), duration: '2:55' }
             ].map((video, index) => (
               <motion.div
                 key={video.title}
