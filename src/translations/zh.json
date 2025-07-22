@@ -6,12 +6,12 @@
   },
   "header": {
     "nav": {
-      "solutions": "Solutions",
-      "iplHairRemoval": "IPL Hair Removal",
-      "howToUse": "How to Use",
-      "serviceSupport": "Service & Support",
-      "about": "About",
-      "contact": "Contact",
+      "solutions": "解决方案",
+      "iplHairRemoval": "IPL脱毛",
+      "howToUse": "使用方法",
+      "serviceSupport": "服务与支持",
+      "about": "关于我们",
+      "contact": "联系我们",
       "solutions_solutions": "solutions, Solutions",
       "logoPrinting_logo": "logoPrinting, Logo Printing",
       "packaging_solutions": "packaging, Packaging Solutions",
