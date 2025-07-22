@@ -30,6 +30,7 @@
     "@babel/traverse": "^7.22.8",
     "@types/babel__traverse": "^7.20.1",
     "@types/i18next": "^12.1.0",
+    "@types/i18next-browser-languagedetector": "^2.0.2",
     "@types/node": "^20.19.9",
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.2.6",
