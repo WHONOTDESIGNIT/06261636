@@ -4,7 +4,6 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import HttpBackend from 'i18next-http-backend';
 import resourcesToBackend from 'i18next-resources-to-backend';
 
-// @ts-expect-error: i18next types are not fully compatible with the current configuration
 i18next
   .use(initReactI18next)
   .use(LanguageDetector)
@@ -12,6 +11,7 @@ i18next
   .use(resourcesToBackend((language: string) => import(`./translations/${language}.json`)))
   .init({
     fallbackLng: 'en',
+    supportedLngs: ['en', 'zh', 'ja', 'ko', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'ar', 'hi', 'tr'],
     interpolation: { escapeValue: false },
     detection: {
       order: ['path', 'localStorage', 'navigator'],
@@ -21,24 +21,8 @@ i18next
     debug: process.env.NODE_ENV === 'development',
     react: {
       useSuspense: false
-    },
-    returnNull: false,
-    returnEmptyString: false,
-    saveMissing: true,
-    saveMissingTo: 'all',
-    // 添加更多的配置选项
-    load: 'languageOnly', // 只加载语言代码，不加载区域设置
-    preload: ['en'], // 预加载英语翻译
-    keySeparator: '.', // 使用点号作为键分隔符
-    nsSeparator: ':', // 使用冒号作为命名空间分隔符
-    pluralSeparator: '_', // 使用下划线作为复数分隔符
-    contextSeparator: '_', // 使用下划线作为上下文分隔符
-    appendNamespaceToMissingKey: true, // 在缺失的键前添加命名空间
-    parseMissingKeyHandler: (key) => {
-      console.warn(`Missing translation key: ${key}`);
-      return key;
     }
-  })
+  } as const)
   .then(() => {
     console.log('i18next initialized successfully');
   })
