@@ -1,5 +1,36 @@
 import 'i18next';
 
+declare module 'i18next' {
+  interface InitOptions {
+    fallbackLng?: string | string[] | false;
+    supportedLngs?: string[];
+    interpolation?: {
+      escapeValue?: boolean;
+      [key: string]: any;
+    };
+    detection?: {
+      order?: string[];
+      caches?: string[];
+      lookupFromPathIndex?: number;
+      [key: string]: any;
+    };
+    debug?: boolean;
+    react?: {
+      useSuspense?: boolean;
+      [key: string]: any;
+    };
+    [key: string]: any;
+  }
+
+  interface CustomTypeOptions {
+    defaultNS: 'translation';
+    resources: {
+      translation: I18nTranslations;
+    };
+    returnNull: false;
+  }
+}
+
 // 定义翻译键的类型结构
 interface I18nTranslations {
   meta: {
@@ -183,15 +214,4 @@ interface I18nTranslations {
       sent: string;
     };
   };
-}
-
-// 扩展 i18next 的类型定义
-declare module 'i18next' {
-  interface CustomTypeOptions {
-    defaultNS: 'translation';
-    resources: {
-      translation: I18nTranslations;
-    };
-    returnNull: false;
-  }
 } 
