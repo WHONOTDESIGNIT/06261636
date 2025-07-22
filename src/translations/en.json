@@ -574,38 +574,6 @@
       "description": "Custom solutions for IPL needs.",
       "keywords": "solutions, custom IPL"
     },
-    "productDesignDevelopment": "productDesignDevelopment",
-    "productDesignDevelopmentDescription": "productDesignDevelopmentDescription",
-    "oemManufacturing": "oemManufacturing",
-    "oemManufacturingDescription": "oemManufacturingDescription",
-    "odmSolutions": "odmSolutions",
-    "odmSolutionsDescription": "odmSolutionsDescription",
-    "endToEndSupport": "endToEndSupport",
-    "endToEndSupportDescription": "endToEndSupportDescription",
-    "consultation": "consultation",
-    "consultationDescription": "consultationDescription",
-    "design": "design",
-    "designDescription": "designDescription",
-    "prototype": "prototype",
-    "prototypeDescription": "prototypeDescription",
-    "manufacturing": "manufacturing",
-    "manufacturingDescription": "manufacturingDescription",
-    "launch": "launch",
-    "launchDescription": "launchDescription",
-    "completeIPLSolutions": "completeIPLSolutions",
-    "completeIPLSolutionsDescription": "completeIPLSolutionsDescription",
-    "ourSolutionPortfolio": "ourSolutionPortfolio",
-    "comprehensiveServices": "comprehensiveServices",
-    "ourProcess": "ourProcess",
-    "streamlinedWorkflow": "streamlinedWorkflow",
-    "industriesWeServe": "industriesWeServe",
-    "tailoredSolutions": "tailoredSolutions",
-    "provenSuccess": "provenSuccess",
-    "numbersSpeak": "numbersSpeak",
-    "globalClients": "globalClients",
-    "productsLaunched": "productsLaunched",
-    "qualityRate": "qualityRate",
-    "yearsExperience": "yearsExperience",
     "brandCustomization": {
       "features": {
         "design": {
@@ -701,7 +669,39 @@
         "title": "title",
         "subtitle": "subtitle"
       }
-    }
+    },
+    "productDesignDevelopment": "productDesignDevelopment",
+    "productDesignDevelopmentDescription": "productDesignDevelopmentDescription",
+    "oemManufacturing": "oemManufacturing",
+    "oemManufacturingDescription": "oemManufacturingDescription",
+    "odmSolutions": "odmSolutions",
+    "odmSolutionsDescription": "odmSolutionsDescription",
+    "endToEndSupport": "endToEndSupport",
+    "endToEndSupportDescription": "endToEndSupportDescription",
+    "consultation": "consultation",
+    "consultationDescription": "consultationDescription",
+    "design": "design",
+    "designDescription": "designDescription",
+    "prototype": "prototype",
+    "prototypeDescription": "prototypeDescription",
+    "manufacturing": "manufacturing",
+    "manufacturingDescription": "manufacturingDescription",
+    "launch": "launch",
+    "launchDescription": "launchDescription",
+    "completeIPLSolutions": "completeIPLSolutions",
+    "completeIPLSolutionsDescription": "completeIPLSolutionsDescription",
+    "ourSolutionPortfolio": "ourSolutionPortfolio",
+    "comprehensiveServices": "comprehensiveServices",
+    "ourProcess": "ourProcess",
+    "streamlinedWorkflow": "streamlinedWorkflow",
+    "industriesWeServe": "industriesWeServe",
+    "tailoredSolutions": "tailoredSolutions",
+    "provenSuccess": "provenSuccess",
+    "numbersSpeak": "numbersSpeak",
+    "globalClients": "globalClients",
+    "productsLaunched": "productsLaunched",
+    "qualityRate": "qualityRate",
+    "yearsExperience": "yearsExperience"
   },
   "blog": {
     "title": "iShine Blog",
@@ -973,13 +973,7 @@
       "title": "IPL Hair Removal Devices | Smart App, Ice Cooling, AI-Powered | iShine",
       "description": "Professional IPL hair removal devices including smart app-controlled, ice cooling, AI-powered, and skin sensor models. Custom manufacturing for beauty brands worldwide.",
       "keywords": "IPL hair removal devices, smart IPL, ice cooling IPL, AI-powered IPL, skin sensor IPL, beauty devices"
-    },
-    "heroTitle": "heroTitle",
-    "heroDescription": "heroDescription",
-    "iplDevicesTitle": "iplDevicesTitle",
-    "iplDevicesDescription": "iplDevicesDescription",
-    "accessoriesTitle": "accessoriesTitle",
-    "accessoriesDescription": "accessoriesDescription"
+    }
   },
   "about": {
     "title": "About iShine",
@@ -1728,174 +1722,220 @@
       "description": "Step-by-step usage guide.",
       "keywords": "IPL usage, how to guide"
     },
+    "heroTitle": "Complete Guide to Using Your IPL Device",
+    "heroDescription": "Learn how to use your IPL device safely and effectively with our comprehensive guide.",
+    "stepByStepTitle": "Step-by-Step Instructions",
+    "stepByStepDescription": "Follow these steps for optimal results with your IPL device.",
     "steps": {
       "preparation": {
-        "title": "title",
-        "description": "description",
+        "title": "Preparation",
+        "description": "Get your skin ready for IPL treatment",
         "details": {
-          "shave": "shave",
-          "clean": "clean",
-          "dry": "dry",
-          "remove": "remove"
+          "shave": "Shave the treatment area (do not wax or epilate)",
+          "clean": "Clean the skin thoroughly",
+          "dry": "Ensure skin is completely dry",
+          "remove": "Remove any makeup, creams, or lotions"
         }
       },
       "deviceSetup": {
-        "title": "title",
-        "description": "description",
+        "title": "Device Setup",
+        "description": "Prepare your device for treatment",
         "details": {
-          "connect": "connect",
-          "power": "power",
-          "intensity": "intensity",
-          "attach": "attach"
+          "connect": "Connect the device to power",
+          "power": "Turn on the device",
+          "intensity": "Select appropriate intensity level",
+          "attach": "Attach the correct treatment head"
         }
       },
       "skinToneTest": {
-        "title": "title",
-        "description": "description",
+        "title": "Skin Tone Test",
+        "description": "Test the device on a small area first",
         "details": {
-          "test": "test",
-          "wait": "wait",
-          "adjust": "adjust",
-          "proceed": "proceed"
+          "test": "Choose a small test area",
+          "wait": "Wait 24 hours for any reactions",
+          "adjust": "Adjust intensity if needed",
+          "proceed": "Proceed if no adverse reactions"
         }
       },
       "treatmentProcess": {
-        "title": "title",
-        "description": "description",
+        "title": "Treatment Process",
+        "description": "Perform the IPL treatment",
         "details": {
-          "place": "place",
-          "press": "press",
-          "move": "move",
-          "complete": "complete"
+          "place": "Place device firmly on skin",
+          "press": "Press the trigger button",
+          "move": "Move to next area with slight overlap",
+          "complete": "Complete entire treatment area"
         }
       },
       "postTreatmentCare": {
-        "title": "title",
-        "description": "description",
+        "title": "Post-Treatment Care",
+        "description": "Care for your skin after treatment",
         "details": {
-          "cooling": "cooling",
-          "sun": "sun",
-          "sunscreen": "sunscreen",
-          "moisturize": "moisturize"
+          "cooling": "Apply cooling gel if needed",
+          "sun": "Avoid sun exposure",
+          "sunscreen": "Use SPF protection",
+          "moisturize": "Keep skin moisturized"
+        }
+      },
+      "videoTutorials": {
+        "gettingStarted": {
+          "title": "Getting Started with IPL",
+          "description": "Learn the basics of IPL hair removal"
+        },
+        "safetyGuidelines": {
+          "title": "Safety Guidelines & Preparation",
+          "description": "Important safety information and preparation steps"
+        },
+        "treatmentTechniques": {
+          "title": "Treatment Techniques",
+          "description": "Learn proper IPL treatment techniques"
+        },
+        "postTreatmentCare": {
+          "title": "Post-Treatment Care",
+          "description": "How to care for your skin after IPL treatment"
+        },
+        "troubleshooting": {
+          "title": "Troubleshooting Common Issues",
+          "description": "Solutions for common IPL device problems"
+        },
+        "maintenance": {
+          "title": "Maintenance & Storage",
+          "description": "How to maintain and store your IPL device"
         }
       }
     },
+    "safetyGuidelinesTitle": "Safety Guidelines",
+    "safetyGuidelinesDescription": "Important safety information for using your IPL device",
     "safetyGuidelines": {
       "warnings": {
-        "title": "title",
-        "point1": "point1",
-        "point2": "point2",
-        "point3": "point3",
-        "point4": "point4",
-        "point5": "point5"
+        "title": "Important Warnings",
+        "point1": "Do not use on dark or tanned skin",
+        "point2": "Avoid using on tattoos or permanent makeup",
+        "point3": "Do not use on open wounds or infections",
+        "point4": "Keep away from water",
+        "point5": "Avoid eye contact with IPL light"
       },
       "eyeProtection": {
-        "title": "title",
-        "point1": "point1",
-        "point2": "point2",
-        "point3": "point3",
-        "point4": "point4"
+        "title": "Eye Protection",
+        "point1": "Always wear protective goggles",
+        "point2": "Never look directly at the flash",
+        "point3": "Keep device away from eyes",
+        "point4": "Use in well-lit areas"
       },
       "skinSensitivity": {
-        "title": "title",
-        "point1": "point1",
-        "point2": "point2",
-        "point3": "point3",
-        "point4": "point4"
+        "title": "Skin Sensitivity",
+        "point1": "Perform patch test before full treatment",
+        "point2": "Start with lowest intensity",
+        "point3": "Stop if skin becomes irritated",
+        "point4": "Wait between treatments as recommended"
       }
     },
+    "treatmentScheduleTitle": "Treatment Schedule",
+    "treatmentScheduleDescription": "Recommended treatment frequency for optimal results",
     "treatmentSchedule": {
       "weeks1to4": {
-        "week": "week",
-        "frequency": "frequency",
-        "description": "description"
+        "week": "Weeks 1-4",
+        "frequency": "Once per week",
+        "description": "Initial intensive treatment phase"
       },
       "weeks5to8": {
-        "week": "week",
-        "frequency": "frequency",
-        "description": "description"
+        "week": "Weeks 5-8",
+        "frequency": "Every two weeks",
+        "description": "Maintenance phase"
       },
       "weeks9to12": {
-        "week": "week",
-        "frequency": "frequency",
-        "description": "description"
+        "week": "Weeks 9-12",
+        "frequency": "Once per month",
+        "description": "Extended maintenance"
       },
       "after12weeks": {
-        "week": "week",
-        "frequency": "frequency",
-        "description": "description"
+        "week": "After 12 weeks",
+        "frequency": "As needed",
+        "description": "Touch-up treatments"
       }
     },
+    "troubleshootingTitle": "Troubleshooting",
+    "troubleshootingDescription": "Common issues and solutions",
     "troubleshooting": {
       "deviceNotTurningOn": {
-        "problem": "problem",
-        "solution1": "solution1",
-        "solution2": "solution2",
-        "solution3": "solution3",
-        "solution4": "solution4"
+        "problem": "Device Not Turning On",
+        "solution1": "Check power connection",
+        "solution2": "Verify power outlet",
+        "solution3": "Ensure battery is charged",
+        "solution4": "Contact support if issue persists"
       },
       "noLightFlash": {
-        "problem": "problem",
-        "solution1": "solution1",
-        "solution2": "solution2",
-        "solution3": "solution3",
-        "solution4": "solution4"
+        "problem": "No Light Flash",
+        "solution1": "Check skin contact sensor",
+        "solution2": "Clean the light window",
+        "solution3": "Verify treatment head attachment",
+        "solution4": "Try different power outlet"
       },
       "skinIrritation": {
-        "problem": "problem",
-        "solution1": "solution1",
-        "solution2": "solution2",
-        "solution3": "solution3",
-        "solution4": "solution4"
+        "problem": "Skin Irritation",
+        "solution1": "Reduce intensity level",
+        "solution2": "Increase treatment interval",
+        "solution3": "Apply cooling gel",
+        "solution4": "Consult dermatologist if severe"
       },
       "noResults": {
-        "problem": "problem",
-        "solution1": "solution1",
-        "solution2": "solution2",
-        "solution3": "solution3",
-        "solution4": "solution4"
+        "problem": "No Visible Results",
+        "solution1": "Ensure consistent use",
+        "solution2": "Verify correct intensity",
+        "solution3": "Check hair/skin color suitability",
+        "solution4": "Allow full treatment cycle"
       }
     },
+    "faqTitle": "Frequently Asked Questions",
+    "faqDescription": "Common questions about IPL treatment",
     "faqs": {
       "q1": {
-        "question": "question",
-        "answer": "answer"
+        "question": "How long until I see results?",
+        "answer": "Most users see initial results after 3-4 treatments, with optimal results after 12 weeks of consistent use."
       },
       "q2": {
-        "question": "question",
-        "answer": "answer"
+        "question": "Is IPL treatment painful?",
+        "answer": "IPL treatment should not be painful. You may feel a warm sensation or slight tingling."
       },
       "q3": {
-        "question": "question",
-        "answer": "answer"
+        "question": "How often should I use the device?",
+        "answer": "Start with weekly treatments for the first 4-8 weeks, then reduce frequency based on results."
       },
       "q4": {
-        "question": "question",
-        "answer": "answer"
+        "question": "Can I use IPL on all skin types?",
+        "answer": "IPL works best on light to medium skin tones. Not recommended for very dark skin or white/grey hair."
       },
       "q5": {
-        "question": "question",
-        "answer": "answer"
+        "question": "Do I need to prepare my skin before treatment?",
+        "answer": "Yes, skin should be clean, dry, and shaved. Avoid waxing or plucking before treatment."
       },
       "q6": {
-        "question": "question",
-        "answer": "answer"
+        "question": "How long does each treatment take?",
+        "answer": "Treatment time varies by area: 1-2 minutes for small areas, up to 20 minutes for larger areas."
       }
     },
-    "heroTitle": "heroTitle",
-    "heroDescription": "heroDescription",
-    "stepByStepTitle": "stepByStepTitle",
-    "stepByStepDescription": "stepByStepDescription",
-    "safetyGuidelinesTitle": "safetyGuidelinesTitle",
-    "safetyGuidelinesDescription": "safetyGuidelinesDescription",
-    "treatmentScheduleTitle": "treatmentScheduleTitle",
-    "treatmentScheduleDescription": "treatmentScheduleDescription",
-    "troubleshootingTitle": "troubleshootingTitle",
-    "troubleshootingDescription": "troubleshootingDescription",
-    "faqTitle": "faqTitle",
-    "faqDescription": "faqDescription",
-    "videoTutorialsTitle": "videoTutorialsTitle",
-    "videoTutorialsDescription": "videoTutorialsDescription"
+    "videoTutorialsTitle": "Video Tutorials",
+    "videoTutorialsDescription": "Watch our step-by-step video guides for using your IPL device",
+    "videoTutorials": {
+      "gettingStarted": {
+        "title": "title"
+      },
+      "safetyGuidelines": {
+        "title": "title"
+      },
+      "treatmentTechniques": {
+        "title": "title"
+      },
+      "postTreatmentCare": {
+        "title": "title"
+      },
+      "troubleshooting": {
+        "title": "title"
+      },
+      "maintenance": {
+        "title": "title"
+      }
+    }
   },
   "serviceSupport": {
     "title": "Service & Support",
@@ -1999,7 +2039,6 @@
     "": ""
   },
   "/": "/",
-  "link": "link",
   "aiPoweredSkinSensing": {
     "publishDate": "publishDate",
     "introduction": {
@@ -2369,79 +2408,6 @@
       "content": "content"
     }
   },
-  "hairRemovalMethodsComparison": {
-    "title": "title",
-    "method": "method",
-    "pros": "pros",
-    "cons": "cons",
-    "bestFor": "bestFor",
-    "IPLHomeDevice": "IPLHomeDevice",
-    "IPLHomeDevicePros": "IPLHomeDevicePros",
-    "IPLHomeDeviceCons": "IPLHomeDeviceCons",
-    "IPLHomeDeviceBestFor": "IPLHomeDeviceBestFor",
-    "waxing": "waxing",
-    "waxingPros": "waxingPros",
-    "waxingCons": "waxingCons",
-    "waxingBestFor": "waxingBestFor",
-    "hairRemovalCream": "hairRemovalCream",
-    "hairRemovalCreamPros": "hairRemovalCreamPros",
-    "hairRemovalCreamCons": "hairRemovalCreamCons",
-    "hairRemovalCreamBestFor": "hairRemovalCreamBestFor",
-    "razor": "razor",
-    "razorPros": "razorPros",
-    "razorCons": "razorCons",
-    "razorBestFor": "razorBestFor",
-    "electricShaver": "electricShaver",
-    "electricShaverPros": "electricShaverPros",
-    "electricShaverCons": "electricShaverCons",
-    "electricShaverBestFor": "electricShaverBestFor",
-    "laserHairRemoval": "laserHairRemoval",
-    "laserHairRemovalPros": "laserHairRemovalPros",
-    "laserHairRemovalCons": "laserHairRemovalCons",
-    "laserHairRemovalBestFor": "laserHairRemovalBestFor"
-  },
-  "whyChooseIPLHomeHairRemoval": {
-    "title": "title",
-    "longlastingResults": "longlastingResults",
-    "longlastingResultsDescription": "longlastingResultsDescription",
-    "healthlineLink": "healthlineLink",
-    "minimalPain": "minimalPain",
-    "minimalPainDescription": "minimalPainDescription",
-    "safeForHomeUse": "safeForHomeUse",
-    "safeForHomeUseDescription": "safeForHomeUseDescription",
-    "costEffective": "costEffective",
-    "costEffectiveDescription": "costEffectiveDescription",
-    "convenient": "convenient",
-    "convenientDescription": "convenientDescription"
-  },
-  "realUserStories": {
-    "title": "title",
-    "quote1": "quote1",
-    "quote1Attribution": "quote1Attribution",
-    "quote2": "quote2",
-    "quote2Attribution": "quote2Attribution"
-  },
-  "exploreMore": {
-    "title": "title",
-    "howToUse": "howToUse",
-    "ourIPLProductRange": "ourIPLProductRange",
-    "hairRemovalFAQs": "hairRemovalFAQs",
-    "latestTechnologyInsights": "latestTechnologyInsights"
-  },
-  "frequentlyAskedQuestions": {
-    "title": "title",
-    "isIPLSafeForAllSkinTypes": "isIPLSafeForAllSkinTypes",
-    "isIPLSafeForAllSkinTypesDescription": "isIPLSafeForAllSkinTypesDescription",
-    "howLongDoesItTakeToSeeResults": "howLongDoesItTakeToSeeResults",
-    "howLongDoesItTakeToSeeResultsDescription": "howLongDoesItTakeToSeeResultsDescription",
-    "doesIPLHurt": "doesIPLHurt",
-    "doesIPLHurtDescription": "doesIPLHurtDescription"
-  },
-  "recommendedBlog": {
-    "title": "title",
-    "description": "description",
-    "readFullArticle": "readFullArticle"
-  },
   "industries": {
     "publishDate": "publishDate",
     "introduction": {
@@ -2530,6 +2496,79 @@
     "service": {
       "iplManufacturing": "iplManufacturing"
     }
+  },
+  "hairRemovalMethodsComparison": {
+    "title": "title",
+    "method": "method",
+    "pros": "pros",
+    "cons": "cons",
+    "bestFor": "bestFor",
+    "IPLHomeDevice": "IPLHomeDevice",
+    "IPLHomeDevicePros": "IPLHomeDevicePros",
+    "IPLHomeDeviceCons": "IPLHomeDeviceCons",
+    "IPLHomeDeviceBestFor": "IPLHomeDeviceBestFor",
+    "waxing": "waxing",
+    "waxingPros": "waxingPros",
+    "waxingCons": "waxingCons",
+    "waxingBestFor": "waxingBestFor",
+    "hairRemovalCream": "hairRemovalCream",
+    "hairRemovalCreamPros": "hairRemovalCreamPros",
+    "hairRemovalCreamCons": "hairRemovalCreamCons",
+    "hairRemovalCreamBestFor": "hairRemovalCreamBestFor",
+    "razor": "razor",
+    "razorPros": "razorPros",
+    "razorCons": "razorCons",
+    "razorBestFor": "razorBestFor",
+    "electricShaver": "electricShaver",
+    "electricShaverPros": "electricShaverPros",
+    "electricShaverCons": "electricShaverCons",
+    "electricShaverBestFor": "electricShaverBestFor",
+    "laserHairRemoval": "laserHairRemoval",
+    "laserHairRemovalPros": "laserHairRemovalPros",
+    "laserHairRemovalCons": "laserHairRemovalCons",
+    "laserHairRemovalBestFor": "laserHairRemovalBestFor"
+  },
+  "whyChooseIPLHomeHairRemoval": {
+    "title": "title",
+    "longlastingResults": "longlastingResults",
+    "longlastingResultsDescription": "longlastingResultsDescription",
+    "healthlineLink": "healthlineLink",
+    "minimalPain": "minimalPain",
+    "minimalPainDescription": "minimalPainDescription",
+    "safeForHomeUse": "safeForHomeUse",
+    "safeForHomeUseDescription": "safeForHomeUseDescription",
+    "costEffective": "costEffective",
+    "costEffectiveDescription": "costEffectiveDescription",
+    "convenient": "convenient",
+    "convenientDescription": "convenientDescription"
+  },
+  "realUserStories": {
+    "title": "title",
+    "quote1": "quote1",
+    "quote1Attribution": "quote1Attribution",
+    "quote2": "quote2",
+    "quote2Attribution": "quote2Attribution"
+  },
+  "exploreMore": {
+    "title": "title",
+    "howToUse": "howToUse",
+    "ourIPLProductRange": "ourIPLProductRange",
+    "hairRemovalFAQs": "hairRemovalFAQs",
+    "latestTechnologyInsights": "latestTechnologyInsights"
+  },
+  "frequentlyAskedQuestions": {
+    "title": "title",
+    "isIPLSafeForAllSkinTypes": "isIPLSafeForAllSkinTypes",
+    "isIPLSafeForAllSkinTypesDescription": "isIPLSafeForAllSkinTypesDescription",
+    "howLongDoesItTakeToSeeResults": "howLongDoesItTakeToSeeResults",
+    "howLongDoesItTakeToSeeResultsDescription": "howLongDoesItTakeToSeeResultsDescription",
+    "doesIPLHurt": "doesIPLHurt",
+    "doesIPLHurtDescription": "doesIPLHurtDescription"
+  },
+  "recommendedBlog": {
+    "title": "title",
+    "description": "description",
+    "readFullArticle": "readFullArticle"
   },
   "MultiHeadIPLSystems": {
     "title": "title",
@@ -2875,6 +2914,7 @@
       "content": "content"
     }
   },
+  "link": "link",
   "afterSalesService": {
     "hero": {
       "title": "title",
