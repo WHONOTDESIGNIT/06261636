@@ -1,11 +1,11 @@
 // @ts-nocheck
-import i18next from 'i18next';
+import i18next, { InitOptions } from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import HttpBackend from 'i18next-http-backend';
 import resourcesToBackend from 'i18next-resources-to-backend';
 
-const config = {
+const config: Partial<InitOptions> = {
   fallbackLng: 'en',
   supportedLngs: ['en', 'zh', 'ja', 'ko', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'ar', 'hi', 'tr'],
   interpolation: { escapeValue: false },
