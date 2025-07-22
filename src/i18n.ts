@@ -1,11 +1,11 @@
 // @ts-nocheck
-import i18next, { InitOptions } from 'i18next';
+import i18next from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import HttpBackend from 'i18next-http-backend';
 import resourcesToBackend from 'i18next-resources-to-backend';
 
-const config: InitOptions = {
+const config = {
   fallbackLng: 'en',
   supportedLngs: ['en', 'zh', 'ja', 'ko', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'ar', 'hi', 'tr'],
   interpolation: { escapeValue: false },
@@ -17,19 +17,6 @@ const config: InitOptions = {
   debug: process.env.NODE_ENV === 'development',
   react: {
     useSuspense: false
-  },
-  // 添加必要的回调函数
-  missingKeyHandler: (lngs: readonly string[], ns: string, key: string, fallbackValue: string, updateMissing: boolean, options: any) => {
-    console.warn(`Missing translation key: ${key} for languages: ${lngs.join(', ')} in namespace: ${ns}`);
-    if (fallbackValue) {
-      console.warn('Fallback value:', fallbackValue);
-    }
-    if (updateMissing) {
-      console.warn('Update missing:', updateMissing);
-    }
-    if (options) {
-      console.warn('Options:', options);
-    }
   }
 };
 
