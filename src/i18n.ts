@@ -31,8 +31,11 @@ i18next
     returnEmptyString: false,
     saveMissing: true,
     saveMissingTo: 'all',
-    missingKeyHandler: (lng: string, ns: string, key: string) => {
-      console.warn(`Missing translation key: ${key} for language: ${lng} in namespace: ${ns}`);
+    missingKeyHandler: (lngs: readonly string[], ns: string, key: string, fallbackValue: string, updateMissing: boolean, options: any) => {
+      console.warn(`Missing translation key: ${key} for languages: ${lngs.join(', ')} in namespace: ${ns}`);
+      console.warn('Fallback value:', fallbackValue);
+      console.warn('Update missing:', updateMissing);
+      console.warn('Options:', options);
     }
   });
 
