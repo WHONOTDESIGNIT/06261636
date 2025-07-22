@@ -5,21 +5,6 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import HttpBackend from 'i18next-http-backend';
 import resourcesToBackend from 'i18next-resources-to-backend';
 
-// Add type declarations for modules without @types packages
-declare module 'i18next-http-backend' {
-  export default class HttpBackend {
-    constructor(services: any, options: any);
-    init(services: any, options: any): void;
-    read(language: string, namespace: string, callback: Function): void;
-  }
-}
-
-declare module 'i18next-resources-to-backend' {
-  export default function resourcesToBackend(
-    resources: ((language: string) => Promise<any>) | { [key: string]: any }
-  ): any;
-}
-
 declare module 'i18next' {
   interface CustomTypeOptions {
     returnNull: false;
@@ -41,11 +26,17 @@ const initOptions: InitOptions = {
   returnEmptyString: false,
   saveMissing: true,
   saveMissingTo: 'all',
-  missingKeyHandler: (lngs: readonly string[], ns: string, key: string, fallbackValue: string, updateMissing: boolean, options: any) => {
+  missingKeyHandler(lngs: readonly string[], ns: string, key: string, fallbackValue: string, updateMissing: boolean, options: any) {
     console.warn(`Missing translation key: ${key} for languages: ${lngs.join(', ')} in namespace: ${ns}`);
-    console.warn('Fallback value:', fallbackValue);
-    console.warn('Update missing:', updateMissing);
-    console.warn('Options:', options);
+    if (fallbackValue) {
+      console.warn('Fallback value:', fallbackValue);
+    }
+    if (updateMissing) {
+      console.warn('Update missing:', updateMissing);
+    }
+    if (options) {
+      console.warn('Options:', options);
+    }
   }
 };
 
