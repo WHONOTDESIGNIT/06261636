@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "iShine - IPL Device Manufacturing Solutions | From Idea to Market",
-    "description": "Leading IPL device manufacturer providing OEM/ODM solutions from idea to market. Custom IPL hair removal devices for global beauty brands.",
-    "keywords": "IPL devices, OEM manufacturing, ODM solutions, hair removal, beauty devices, custom manufacturing"
+    "title": "iShine - IPL 脱毛仪制造解决方案 | 从创意到市场",
+    "description": "领先的 IPL 脱毛仪制造商，提供从创意到市场的 OEM/ODM 解决方案。为全球美容品牌定制 IPL 脱毛仪。",
+    "keywords": "IPL 脱毛仪, OEM 制造, ODM 解决方案, 脱毛, 美容设备, 定制制造"
   },
   "header": {
     "nav": {
@@ -11,7 +11,52 @@
       "howToUse": "How to Use",
       "serviceSupport": "Service & Support",
       "about": "About",
-      "contact": "Contact"
+      "contact": "Contact",
+      "logoPrinting": "logoPrinting",
+      "packaging": "packaging",
+      "dropShipping": "dropShipping",
+      "globalShipping": "globalShipping",
+      "brandCustomization": "brandCustomization",
+      "compliance": "compliance",
+      "designPrototyping": "designPrototyping",
+      "multiHeadIPL": "multiHeadIPL",
+      "dualLampIPL": "dualLampIPL",
+      "iplDevices": "iplDevices",
+      "smartAppIPL": "smartAppIPL",
+      "iceFeelingIPL": "iceFeelingIPL",
+      "emeraldIPL": "emeraldIPL",
+      "skinSensorIPL": "skinSensorIPL",
+      "batteryPoweredIPL": "batteryPoweredIPL",
+      "handheldIPL": "handheldIPL",
+      "iceCoolingIPL": "iceCoolingIPL",
+      "dualLampIPLDevice": "dualLampIPLDevice",
+      "aiPoweredIPL": "aiPoweredIPL",
+      "accessories": "accessories",
+      "sapphireLens": "sapphireLens",
+      "opticalFilter": "opticalFilter",
+      "powerAdapter": "powerAdapter",
+      "safetyGoggles": "safetyGoggles",
+      "service": "service",
+      "afterSales": "afterSales",
+      "winFDAListing": "winFDAListing",
+      "iplManufacturing": "iplManufacturing",
+      "knowledgeBase": "knowledgeBase",
+      "supportGuide": "supportGuide",
+      "beautySourcing": "beautySourcing",
+      "pricingGuide": "pricingGuide",
+      "helpCenter": "helpCenter",
+      "gallery": "gallery",
+      "videos": "videos",
+      "blog": "blog",
+      "newsInsights": "newsInsights",
+      "industries": "industries",
+      "founderMessage": "founderMessage",
+      "technology": "technology",
+      "globalWitness": "globalWitness",
+      "corePrinciples": "corePrinciples",
+      "company": "company",
+      "brandStory": "brandStory",
+      "quality": "quality"
     },
     "navigation": {
       "solutions": "Solutions",
@@ -218,7 +263,8 @@
       "company": "About iShine",
       "brandStory": "Brand Story",
       "quality": "Quality"
-    }
+    },
+    "logo": "logo"
   },
   "footer": {
     "company": {
@@ -435,7 +481,8 @@
         "7": {
           "title": "Packaging & Shipping"
         }
-      }
+      },
+      "subtitle": "subtitle"
     },
     "contact": {
       "title": "Contact Us",
@@ -485,7 +532,18 @@
       "title": "Contact iShine",
       "description": "Contact page for inquiries.",
       "keywords": "contact, support"
-    }
+    },
+    "form": {
+      "name": "name",
+      "email": "email",
+      "phone": "phone",
+      "country": "country",
+      "message": "message",
+      "sending": "sending",
+      "submit": "submit"
+    },
+    "subtitle": "subtitle",
+    "companyPhotoAlt": "companyPhotoAlt"
   },
   "buttons": {
     "getQuote": "Get Quote",
@@ -515,7 +573,135 @@
       "title": "iShine Solutions",
       "description": "Custom solutions for IPL needs.",
       "keywords": "solutions, custom IPL"
-    }
+    },
+    "brandCustomization": {
+      "features": {
+        "design": {
+          "title": "title",
+          "description": "description"
+        },
+        "branding": {
+          "title": "title",
+          "description": "description"
+        },
+        "quality": {
+          "title": "title",
+          "description": "description"
+        },
+        "support": {
+          "title": "title",
+          "description": "description"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
+      }
+    },
+    "designPrototyping": {
+      "features": {
+        "design": {
+          "title": "title",
+          "description": "description"
+        },
+        "prototyping": {
+          "title": "title",
+          "description": "description"
+        },
+        "testing": {
+          "title": "title",
+          "description": "description"
+        },
+        "refinement": {
+          "title": "title",
+          "description": "description"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
+      }
+    },
+    "dropShipping": {
+      "features": {
+        "logistics": {
+          "title": "title",
+          "description": "description"
+        },
+        "inventory": {
+          "title": "title",
+          "description": "description"
+        },
+        "automation": {
+          "title": "title",
+          "description": "description"
+        },
+        "support": {
+          "title": "title",
+          "description": "description"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
+      }
+    },
+    "dualLampIPL": {
+      "features": {
+        "technology": {
+          "title": "title",
+          "description": "description"
+        },
+        "efficiency": {
+          "title": "title",
+          "description": "description"
+        },
+        "safety": {
+          "title": "title",
+          "description": "description"
+        },
+        "customization": {
+          "title": "title",
+          "description": "description"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
+      }
+    },
+    "productDesignDevelopment": "productDesignDevelopment",
+    "productDesignDevelopmentDescription": "productDesignDevelopmentDescription",
+    "oemManufacturing": "oemManufacturing",
+    "oemManufacturingDescription": "oemManufacturingDescription",
+    "odmSolutions": "odmSolutions",
+    "odmSolutionsDescription": "odmSolutionsDescription",
+    "endToEndSupport": "endToEndSupport",
+    "endToEndSupportDescription": "endToEndSupportDescription",
+    "consultation": "consultation",
+    "consultationDescription": "consultationDescription",
+    "design": "design",
+    "designDescription": "designDescription",
+    "prototype": "prototype",
+    "prototypeDescription": "prototypeDescription",
+    "manufacturing": "manufacturing",
+    "manufacturingDescription": "manufacturingDescription",
+    "launch": "launch",
+    "launchDescription": "launchDescription",
+    "completeIPLSolutions": "completeIPLSolutions",
+    "completeIPLSolutionsDescription": "completeIPLSolutionsDescription",
+    "ourSolutionPortfolio": "ourSolutionPortfolio",
+    "comprehensiveServices": "comprehensiveServices",
+    "ourProcess": "ourProcess",
+    "streamlinedWorkflow": "streamlinedWorkflow",
+    "industriesWeServe": "industriesWeServe",
+    "tailoredSolutions": "tailoredSolutions",
+    "provenSuccess": "provenSuccess",
+    "numbersSpeak": "numbersSpeak",
+    "globalClients": "globalClients",
+    "productsLaunched": "productsLaunched",
+    "qualityRate": "qualityRate",
+    "yearsExperience": "yearsExperience"
   },
   "blog": {
     "title": "iShine Blog",
@@ -537,6 +723,11 @@
           "title": "AI Skin Sensing in IPL",
           "description": "How AI is revolutionizing IPL.",
           "keywords": "AI IPL, skin sensing"
+        },
+        "intro": "intro",
+        "sections": {
+          "introduction": "introduction",
+          "conclusion": "conclusion"
         }
       },
       "fda510kPathway": {
@@ -555,6 +746,11 @@
           "title": "Future Home Hair Removal",
           "description": "Emerging IPL trends.",
           "keywords": "home IPL, future trends"
+        },
+        "intro": "intro",
+        "sections": {
+          "introduction": "introduction",
+          "conclusion": "conclusion"
         }
       },
       "globalMarketShifts": {
@@ -564,6 +760,11 @@
           "title": "Beauty Tech Market Shifts",
           "description": "Global trends in beauty technology.",
           "keywords": "beauty market, tech shifts"
+        },
+        "intro": "intro",
+        "sections": {
+          "introduction": "introduction",
+          "conclusion": "conclusion"
         }
       },
       "industries": {
@@ -573,6 +774,11 @@
           "title": "iShine Industries",
           "description": "Sectors we support with IPL solutions.",
           "keywords": "IPL industries, beauty sectors"
+        },
+        "intro": "intro",
+        "sections": {
+          "introduction": "introduction",
+          "conclusion": "conclusion"
         }
       },
       "iplBestChoice": {
@@ -600,6 +806,11 @@
           "title": "iShine News",
           "description": "Beauty tech news and insights.",
           "keywords": "IPL news, beauty insights"
+        },
+        "intro": "intro",
+        "sections": {
+          "introduction": "introduction",
+          "conclusion": "conclusion"
         }
       },
       "promotionalIplMerchandise": {
@@ -618,6 +829,11 @@
           "title": "Sapphire Cooling",
           "description": "Advanced cooling in IPL devices.",
           "keywords": "sapphire cooling, IPL tech"
+        },
+        "intro": "intro",
+        "sections": {
+          "introduction": "introduction",
+          "conclusion": "conclusion"
         }
       },
       "sustainableManufacturing": {
@@ -627,8 +843,18 @@
           "title": "Sustainable IPL Manufacturing",
           "description": "Green manufacturing for IPL devices.",
           "keywords": "sustainable IPL, eco manufacturing"
+        },
+        "intro": "intro",
+        "sections": {
+          "introduction": "introduction",
+          "conclusion": "conclusion"
         }
       }
+    },
+    "breadcrumb": "breadcrumb",
+    "iplBestChoice": {
+      "title": "title",
+      "date": "date"
     }
   },
   "shippingCost": {
@@ -638,7 +864,10 @@
       "title": "IPL Shipping Costs",
       "description": "Estimate delivery costs.",
       "keywords": "shipping cost, delivery estimate"
-    }
+    },
+    "destinationCountry": "destinationCountry",
+    "productQuantity": "productQuantity",
+    "calculate": "calculate"
   },
   "sitemap": {
     "title": "Sitemap",
@@ -647,7 +876,69 @@
       "title": "iShine Sitemap",
       "description": "All pages and sections.",
       "keywords": "sitemap, site navigation"
-    }
+    },
+    "mainPages": "mainPages",
+    "home": "home",
+    "about": "about",
+    "iplHairRemoval": "iplHairRemoval",
+    "solutions": "solutions",
+    "contact": "contact",
+    "iplProducts": "iplProducts",
+    "emeraldIpl": "emeraldIpl",
+    "iceCoolingIpl": "iceCoolingIpl",
+    "iceFeelingIpl": "iceFeelingIpl",
+    "handheldIpl": "handheldIpl",
+    "batteryPoweredIpl": "batteryPoweredIpl",
+    "skinSensorIpl": "skinSensorIpl",
+    "aiPoweredIpl": "aiPoweredIpl",
+    "dualLampIpl": "dualLampIpl",
+    "aboutPages": "aboutPages",
+    "brandStory": "brandStory",
+    "companyInfo": "companyInfo",
+    "corePrinciples": "corePrinciples",
+    "founderMessage": "founderMessage",
+    "globalWitness": "globalWitness",
+    "quality": "quality",
+    "technology": "technology",
+    "brandCustomization": "brandCustomization",
+    "compliance": "compliance",
+    "designPrototyping": "designPrototyping",
+    "dropShipping": "dropShipping",
+    "dualLampIplSolution": "dualLampIplSolution",
+    "globalShipping": "globalShipping",
+    "logoPrinting": "logoPrinting",
+    "multiHeadIpl": "multiHeadIpl",
+    "packagingSolutions": "packagingSolutions",
+    "accessories": "accessories",
+    "adapter": "adapter",
+    "filter": "filter",
+    "protectiveGoggles": "protectiveGoggles",
+    "sapphireLens": "sapphireLens",
+    "serviceSupport": "serviceSupport",
+    "afterSalesService": "afterSalesService",
+    "helpCenter": "helpCenter",
+    "knowledgeBase": "knowledgeBase",
+    "iplManufacturing": "iplManufacturing",
+    "winFdaListing": "winFdaListing",
+    "beautySourcing": "beautySourcing",
+    "pricingGuide": "pricingGuide",
+    "gallery": "gallery",
+    "videos": "videos",
+    "blog": "blog",
+    "aiPoweredSkinSensing": "aiPoweredSkinSensing",
+    "fda510kPathway": "fda510kPathway",
+    "futureHomeHairRemoval": "futureHomeHairRemoval",
+    "globalMarketShifts": "globalMarketShifts",
+    "industries": "industries",
+    "iplBestChoice": "iplBestChoice",
+    "multiHeadIplSystems": "multiHeadIplSystems",
+    "newsInsights": "newsInsights",
+    "sapphireCooling": "sapphireCooling",
+    "sustainableManufacturing": "sustainableManufacturing",
+    "otherPages": "otherPages",
+    "howToUse": "howToUse",
+    "shippingCost": "shippingCost",
+    "silk": "silk"
   },
   "floating": {
     "cta": {
@@ -657,7 +948,9 @@
     },
     "whatsapp": "WhatsApp Chat",
     "email": "Email Us",
-    "phone": "Call Us"
+    "phone": "Call Us",
+    "contact": "contact",
+    "backToTop": "backToTop"
   },
   "iplHairRemoval": {
     "hero": {
@@ -697,6 +990,28 @@
         "title": "iShine Brand Story",
         "description": "From inception to innovation in IPL technology.",
         "keywords": "iShine history, brand journey"
+      },
+      "sections": {
+        "origin": {
+          "title": "title",
+          "content": "content"
+        },
+        "mission": {
+          "title": "title",
+          "content": "content"
+        },
+        "vision": {
+          "title": "title",
+          "content": "content"
+        },
+        "values": {
+          "title": "title",
+          "content": "content"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
       }
     },
     "companyInfo": {
@@ -715,6 +1030,28 @@
         "title": "iShine Core Principles",
         "description": "What drives our success and innovation.",
         "keywords": "iShine values, company principles"
+      },
+      "principles": {
+        "innovation": {
+          "title": "title",
+          "content": "content"
+        },
+        "quality": {
+          "title": "title",
+          "content": "content"
+        },
+        "partnership": {
+          "title": "title",
+          "content": "content"
+        },
+        "accessibility": {
+          "title": "title",
+          "content": "content"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
       }
     },
     "founderMessage": {
@@ -724,6 +1061,18 @@
         "title": "Message from iShine Founder",
         "description": "Insights from the founder of iShine.",
         "keywords": "iShine founder, CEO message"
+      },
+      "message": {
+        "title": "title",
+        "content": "content"
+      },
+      "vision": {
+        "title": "title",
+        "content": "content"
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
       }
     },
     "globalWitness": {
@@ -733,6 +1082,18 @@
         "title": "iShine Global Witness",
         "description": "Worldwide recognition and success stories.",
         "keywords": "iShine global, international presence"
+      },
+      "impact": {
+        "title": "title",
+        "content": "content"
+      },
+      "partnerships": {
+        "title": "title",
+        "content": "content"
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
       }
     },
     "quality": {
@@ -742,7 +1103,11 @@
         "title": "iShine Quality Assurance",
         "description": "How we ensure top-quality IPL devices.",
         "keywords": "iShine quality, manufacturing standards"
-      }
+      },
+      "heroTitle": "heroTitle",
+      "heroDesc": "heroDesc",
+      "ctaTitle": "ctaTitle",
+      "ctaDesc": "ctaDesc"
     },
     "technology": {
       "title": "Our Technology",
@@ -751,8 +1116,87 @@
         "title": "iShine Technology",
         "description": "Advanced IPL technology and innovations.",
         "keywords": "iShine tech, IPL innovation"
+      },
+      "hero": {
+        "title": "title",
+        "description": "description"
+      },
+      "timeline": {
+        "title": "title"
+      },
+      "capabilities": {
+        "title": "title",
+        "requestCustomSolution": "requestCustomSolution"
+      },
+      "dataDrivenRnD": {
+        "title": "title",
+        "continuousInnovation": "continuousInnovation",
+        "globalCompliance": "globalCompliance",
+        "userCentricDesign": "userCentricDesign"
+      },
+      "futureReady": {
+        "title": "title",
+        "aiPoweredIpl": "aiPoweredIpl",
+        "sustainability": "sustainability",
+        "haveAVision": "haveAVision"
       }
-    }
+    },
+    "values": {
+      "qualityTitle": "qualityTitle",
+      "qualityDesc": "qualityDesc",
+      "customerTitle": "customerTitle",
+      "customerDesc": "customerDesc",
+      "globalTitle": "globalTitle",
+      "globalDesc": "globalDesc",
+      "innovationTitle": "innovationTitle",
+      "innovationDesc": "innovationDesc"
+    },
+    "milestones": {
+      "2018": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "2019": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "2020": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "2021": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "2022": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "2023": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "team": {
+      "rnd": "rnd",
+      "rndDesc": "rndDesc",
+      "quality": "quality",
+      "qualityDesc": "qualityDesc",
+      "customer": "customer",
+      "customerDesc": "customerDesc"
+    },
+    "heroTitle": "heroTitle",
+    "heroDesc": "heroDesc",
+    "storyTitle": "storyTitle",
+    "storyP1": "storyP1",
+    "storyP2": "storyP2",
+    "storyP3": "storyP3",
+    "valuesTitle": "valuesTitle",
+    "valuesDesc": "valuesDesc",
+    "journeyTitle": "journeyTitle",
+    "journeyDesc": "journeyDesc",
+    "teamTitle": "teamTitle",
+    "teamDesc": "teamDesc"
   },
   "accessories": {
     "title": "IPL Accessories",
@@ -769,6 +1213,28 @@
         "title": "IPL Adapter",
         "description": "Compatible power adapters for global use.",
         "keywords": "IPL adapter, power supply"
+      },
+      "features": {
+        "voltage": {
+          "title": "title",
+          "description": "description"
+        },
+        "safety": {
+          "title": "title",
+          "description": "description"
+        },
+        "compatibility": {
+          "title": "title",
+          "description": "description"
+        },
+        "quality": {
+          "title": "title",
+          "description": "description"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
       }
     },
     "filter": {
@@ -778,6 +1244,28 @@
         "title": "IPL Filter",
         "description": "Precision filters for wavelength control.",
         "keywords": "IPL filter, optical filter"
+      },
+      "features": {
+        "optical": {
+          "title": "title",
+          "description": "description"
+        },
+        "safety": {
+          "title": "title",
+          "description": "description"
+        },
+        "durability": {
+          "title": "title",
+          "description": "description"
+        },
+        "compatibility": {
+          "title": "title",
+          "description": "description"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
       }
     },
     "protectiveGoggles": {
@@ -787,6 +1275,28 @@
         "title": "IPL Protective Goggles",
         "description": "Protective glasses for safe IPL treatments.",
         "keywords": "IPL goggles, safety glasses"
+      },
+      "features": {
+        "protection": {
+          "title": "title",
+          "description": "description"
+        },
+        "comfort": {
+          "title": "title",
+          "description": "description"
+        },
+        "durability": {
+          "title": "title",
+          "description": "description"
+        },
+        "safety": {
+          "title": "title",
+          "description": "description"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
       }
     },
     "sapphireLens": {
@@ -796,6 +1306,28 @@
         "title": "IPL Sapphire Lens",
         "description": "High-quality lenses for optimal performance.",
         "keywords": "IPL lens, sapphire lens"
+      },
+      "features": {
+        "cooling": {
+          "title": "title",
+          "description": "description"
+        },
+        "comfort": {
+          "title": "title",
+          "description": "description"
+        },
+        "safety": {
+          "title": "title",
+          "description": "description"
+        },
+        "quality": {
+          "title": "title",
+          "description": "description"
+        }
+      },
+      "hero": {
+        "title": "title",
+        "subtitle": "subtitle"
       }
     }
   },
@@ -887,6 +1419,101 @@
         "description": "Connected IPL for smart treatments.",
         "keywords": "smart IPL, app controlled"
       }
+    },
+    "aiPowered": {
+      "title": "title",
+      "desc": "desc",
+      "features": {
+        "aiTech": "aiTech",
+        "aiTechDesc": "aiTechDesc",
+        "smartProcessing": "smartProcessing",
+        "smartProcessingDesc": "smartProcessingDesc",
+        "analytics": "analytics",
+        "analyticsDesc": "analyticsDesc",
+        "personalized": "personalized",
+        "personalizedDesc": "personalizedDesc"
+      }
+    },
+    "batteryPowered": {
+      "title": "title",
+      "features": {
+        "cordless": "cordless",
+        "energyLevels": "energyLevels",
+        "longBattery": "longBattery",
+        "noAdapter": "noAdapter",
+        "allSkin": "allSkin",
+        "portable": "portable"
+      },
+      "desc": "desc"
+    },
+    "dualLamp": {
+      "title": "title",
+      "desc": "desc",
+      "features": {
+        "dualLamps": "dualLamps",
+        "dualLampsDesc": "dualLampsDesc",
+        "faster": "faster",
+        "fasterDesc": "fasterDesc",
+        "proPower": "proPower",
+        "proPowerDesc": "proPowerDesc",
+        "evenCoverage": "evenCoverage",
+        "evenCoverageDesc": "evenCoverageDesc"
+      }
+    },
+    "smartApp": {
+      "title": "title",
+      "features": {
+        "bluetooth": "bluetooth",
+        "aiPlans": "aiPlans",
+        "realTimeControl": "realTimeControl",
+        "scheduling": "scheduling",
+        "compatibility": "compatibility"
+      },
+      "desc": "desc"
+    },
+    "handheld": {
+      "title": "title",
+      "features": {
+        "ergonomic": "ergonomic",
+        "energyLevels": "energyLevels",
+        "portable": "portable",
+        "allSkin": "allSkin",
+        "certified": "certified"
+      },
+      "desc": "desc"
+    },
+    "iceCooling": {
+      "title": "title",
+      "features": {
+        "luxuryDesign": "luxuryDesign",
+        "coolingPlate": "coolingPlate",
+        "preciseControl": "preciseControl",
+        "allSkin": "allSkin",
+        "largeWindow": "largeWindow"
+      },
+      "desc": "desc"
+    },
+    "iceFeeling": {
+      "title": "title",
+      "features": {
+        "cooling": "cooling",
+        "longSmooth": "longSmooth",
+        "energyLevels": "energyLevels",
+        "flashModes": "flashModes",
+        "multiUse": "multiUse"
+      },
+      "desc": "desc"
+    },
+    "skinSensor": {
+      "title": "title",
+      "features": {
+        "intelligentDetection": "intelligentDetection",
+        "maxSafety": "maxSafety",
+        "personalized": "personalized",
+        "realTime": "realTime",
+        "proResults": "proResults"
+      },
+      "desc": "desc"
     }
   },
   "service": {
@@ -1088,13 +1715,207 @@
     }
   },
   "howToUse": {
-    "title": "How to Use",
-    "description": "Guide on using our IPL devices.",
+    "title": "使用指南",
+    "description": "IPL 脱毛仪使用指南",
     "seo": {
-      "title": "How to Use IPL Devices",
-      "description": "Step-by-step usage guide.",
-      "keywords": "IPL usage, how to guide"
-    }
+      "title": "如何使用 IPL 脱毛仪",
+      "description": "详细的使用步骤指南",
+      "keywords": "IPL 使用, 使用指南"
+    },
+    "heroTitle": "IPL 脱毛仪完整使用指南",
+    "heroDescription": "通过我们的全面指南，学习如何安全有效地使用您的 IPL 脱毛仪。",
+    "stepByStepTitle": "使用步骤说明",
+    "stepByStepDescription": "按照以下步骤获得最佳效果",
+    "steps": {
+      "preparation": {
+        "title": "准备工作",
+        "description": "为 IPL 脱毛做好皮肤准备",
+        "details": {
+          "shave": "剃毛处理（不要蜜蜡或拔毛）",
+          "clean": "彻底清洁皮肤",
+          "dry": "确保皮肤完全干燥",
+          "remove": "清除所有化妆品、乳霜或乳液"
+        }
+      },
+      "deviceSetup": {
+        "title": "设备设置",
+        "description": "准备设备进行脱毛",
+        "details": {
+          "connect": "连接电源",
+          "power": "打开设备",
+          "intensity": "选择合适的强度等级",
+          "attach": "安装正确的脱毛头"
+        }
+      },
+      "skinToneTest": {
+        "title": "肤色测试",
+        "description": "先在小面积区域进行测试",
+        "details": {
+          "test": "选择一个小测试区域",
+          "wait": "等待 24 小时观察是否有反应",
+          "adjust": "根据需要调整强度",
+          "proceed": "如果没有不良反应则继续"
+        }
+      },
+      "treatmentProcess": {
+        "title": "脱毛过程",
+        "description": "执行 IPL 脱毛",
+        "details": {
+          "place": "将设备紧贴皮肤",
+          "press": "按下触发按钮",
+          "move": "移动到下一区域，略有重叠",
+          "complete": "完成整个脱毛区域"
+        }
+      },
+      "postTreatmentCare": {
+        "title": "脱毛后护理",
+        "description": "脱毛后的皮肤护理",
+        "details": {
+          "cooling": "根据需要使用冷却凝胶",
+          "sun": "避免阳光照射",
+          "sunscreen": "使用防晒霜",
+          "moisturize": "保持皮肤水分"
+        }
+      },
+      "videoTutorials": {
+        "gettingStarted": {
+          "title": "Getting Started with IPL",
+          "description": "Learn the basics of IPL hair removal"
+        },
+        "safetyGuidelines": {
+          "title": "Safety Guidelines & Preparation",
+          "description": "Important safety information and preparation steps"
+        },
+        "treatmentTechniques": {
+          "title": "Treatment Techniques",
+          "description": "Learn proper IPL treatment techniques"
+        },
+        "postTreatmentCare": {
+          "title": "Post-Treatment Care",
+          "description": "How to care for your skin after IPL treatment"
+        },
+        "troubleshooting": {
+          "title": "Troubleshooting Common Issues",
+          "description": "Solutions for common IPL device problems"
+        },
+        "maintenance": {
+          "title": "Maintenance & Storage",
+          "description": "How to maintain and store your IPL device"
+        }
+      }
+    },
+    "safetyGuidelinesTitle": "安全指南",
+    "safetyGuidelinesDescription": "使用 IPL 脱毛仪的重要安全信息",
+    "safetyGuidelines": {
+      "warnings": {
+        "title": "重要警告",
+        "point1": "不要在深色或晒黑的皮肤上使用",
+        "point2": "避免在纹身或永久妆上使用",
+        "point3": "不要在开放性伤口或感染处使用",
+        "point4": "远离水源",
+        "point5": "避免 IPL 光直接照射眼睛"
+      },
+      "eyeProtection": {
+        "title": "眼睛防护",
+        "point1": "始终佩戴防护眼镜",
+        "point2": "切勿直视闪光",
+        "point3": "保持设备远离眼睛",
+        "point4": "在光线充足的区域使用"
+      },
+      "skinSensitivity": {
+        "title": "皮肤敏感度",
+        "point1": "在全面脱毛前进行斑贴测试",
+        "point2": "从最低强度开始",
+        "point3": "如果皮肤出现刺激请停止使用",
+        "point4": "按建议的间隔时间进行脱毛"
+      }
+    },
+    "treatmentScheduleTitle": "脱毛计划",
+    "treatmentScheduleDescription": "推荐的脱毛频率以获得最佳效果",
+    "treatmentSchedule": {
+      "weeks1to4": {
+        "week": "第 1-4 周",
+        "frequency": "每周一次",
+        "description": "初始密集脱毛阶段"
+      },
+      "weeks5to8": {
+        "week": "第 5-8 周",
+        "frequency": "每两周一次",
+        "description": "维护阶段"
+      },
+      "weeks9to12": {
+        "week": "第 9-12 周",
+        "frequency": "每月一次",
+        "description": "延长维护"
+      },
+      "after12weeks": {
+        "week": "12 周后",
+        "frequency": "根据需要",
+        "description": "修复性脱毛"
+      }
+    },
+    "troubleshootingTitle": "故障排除",
+    "troubleshootingDescription": "常见问题和解决方案",
+    "troubleshooting": {
+      "deviceNotTurningOn": {
+        "problem": "设备无法开机",
+        "solution1": "检查电源连接",
+        "solution2": "检查电源插座",
+        "solution3": "确保电池已充电",
+        "solution4": "如果问题持续请联系客服"
+      },
+      "noLightFlash": {
+        "problem": "没有闪光",
+        "solution1": "检查皮肤接触传感器",
+        "solution2": "清洁光窗",
+        "solution3": "检查脱毛头安装",
+        "solution4": "尝试不同的电源插座"
+      },
+      "skinIrritation": {
+        "problem": "皮肤刺激",
+        "solution1": "降低强度等级",
+        "solution2": "增加脱毛间隔时间",
+        "solution3": "使用冷却凝胶",
+        "solution4": "如果严重请咨询皮肤科医生"
+      },
+      "noResults": {
+        "problem": "没有明显效果",
+        "solution1": "确保持续使用",
+        "solution2": "验证正确的强度",
+        "solution3": "检查毛发/皮肤颜色是否适合",
+        "solution4": "完成完整的脱毛周期"
+      }
+    },
+    "faqTitle": "常见问题",
+    "faqDescription": "关于 IPL 脱毛的常见问题",
+    "faqs": {
+      "q1": {
+        "question": "多久能看到效果？",
+        "answer": "大多数用户在 3-4 次脱毛后看到初步效果，持续使用 12 周后达到最佳效果。"
+      },
+      "q2": {
+        "question": "IPL 脱毛会疼吗？",
+        "answer": "IPL 脱毛不应该疼痛。您可能会感觉到温热或轻微刺痛。"
+      },
+      "q3": {
+        "question": "多久使用一次设备？",
+        "answer": "前 4-8 周每周一次，然后根据效果减少频率。"
+      },
+      "q4": {
+        "question": "所有肤色都适合 IPL 脱毛吗？",
+        "answer": "IPL 最适合浅色到中等肤色。不建议深色皮肤或白色/灰色毛发使用。"
+      },
+      "q5": {
+        "question": "脱毛前需要准备皮肤吗？",
+        "answer": "是的，皮肤应该清洁、干燥并剃毛。脱毛前避免蜜蜡或拔毛。"
+      },
+      "q6": {
+        "question": "每次脱毛需要多长时间？",
+        "answer": "脱毛时间因区域而异：小区域 1-2 分钟，大区域最多 20 分钟。"
+      }
+    },
+    "videoTutorialsTitle": "视频教程",
+    "videoTutorialsDescription": "观看我们的分步视频指南，了解如何使用您的 IPL 脱毛仪"
   },
   "serviceSupport": {
     "title": "Service & Support",
@@ -1103,6 +1924,82 @@
       "title": "iShine Support",
       "description": "Comprehensive support for customers.",
       "keywords": "support, service"
+    },
+    "categories": {
+      "technicalSupport": {
+        "title": "title",
+        "description": "description"
+      },
+      "manufacturingServices": {
+        "title": "title",
+        "description": "description"
+      },
+      "businessSupport": {
+        "title": "title",
+        "description": "description"
+      },
+      "resourcesMedia": {
+        "title": "title",
+        "description": "description"
+      }
+    },
+    "services": {
+      "afterSalesService": {
+        "name": "name",
+        "description": "description"
+      },
+      "knowledgeBase": {
+        "name": "name",
+        "description": "description"
+      },
+      "helpCenter": {
+        "name": "name",
+        "description": "description"
+      },
+      "iplManufacturing": {
+        "name": "name",
+        "description": "description"
+      },
+      "winFdaListing": {
+        "name": "name",
+        "description": "description"
+      },
+      "beautySourcing": {
+        "name": "name",
+        "description": "description"
+      },
+      "pricingGuide": {
+        "name": "name",
+        "description": "description"
+      },
+      "gallery": {
+        "name": "name",
+        "description": "description"
+      },
+      "videos": {
+        "name": "name",
+        "description": "description"
+      }
+    },
+    "stats": {
+      "satisfiedClients": "satisfiedClients",
+      "technicalSupport": "technicalSupport",
+      "uptimeGuarantee": "uptimeGuarantee",
+      "countriesServed": "countriesServed"
+    },
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle",
+      "cta": "cta"
+    },
+    "ecosystem": {
+      "title": "title",
+      "subtitle": "subtitle"
+    },
+    "learnMore": "learnMore",
+    "cta": {
+      "title": "title",
+      "subtitle": "subtitle"
     }
   },
   "silk": {
@@ -1112,6 +2009,1230 @@
       "title": "iShine Silk",
       "description": "Smooth as silk IPL experience.",
       "keywords": "silk IPL, smooth hair removal"
+    }
+  },
+  "-": "-",
+  "Please solve the math question correctly": {
+    "": ""
+  },
+  "Thank you for your inquiry! We will reply within 24 hours": {
+    "": ""
+  },
+  "/": "/",
+  "aiPoweredSkinSensing": {
+    "publishDate": "publishDate",
+    "introduction": {
+      "content": "content"
+    },
+    "howItWorks": {
+      "title": "title",
+      "content": "content"
+    },
+    "steps": {
+      "detection": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "analysis": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "adaptation": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "benefits": {
+      "title": "title",
+      "safety": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "effectiveness": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "personalization": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "convenience": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "technical": {
+      "title": "title",
+      "content": "content",
+      "components": {
+        "title": "title",
+        "sensors": "sensors",
+        "algorithms": "algorithms",
+        "processing": "processing",
+        "feedback": "feedback"
+      }
+    },
+    "future": {
+      "title": "title",
+      "content": "content",
+      "applications": {
+        "skincare": {
+          "title": "title",
+          "desc": "desc"
+        },
+        "medical": {
+          "title": "title",
+          "desc": "desc"
+        },
+        "wellness": {
+          "title": "title",
+          "desc": "desc"
+        }
+      }
+    },
+    "market": {
+      "title": "title",
+      "content": "content",
+      "trends": {
+        "title": "title",
+        "growth": "growth",
+        "adoption": "adoption",
+        "innovation": "innovation",
+        "investment": "investment"
+      }
+    },
+    "conclusion": {
+      "content": "content"
+    }
+  },
+  "fda510kPathway": {
+    "introduction": {
+      "content": "content"
+    },
+    "section1": {
+      "title": "title",
+      "subTitle1": "subTitle1",
+      "item1": "item1",
+      "item2": "item2",
+      "item3": "item3",
+      "subTitle2": "subTitle2",
+      "item4": "item4",
+      "item5": "item5",
+      "item6": "item6"
+    },
+    "section2": {
+      "title": "title",
+      "item1": {
+        "title": "title",
+        "content": "content"
+      },
+      "item2": {
+        "title": "title",
+        "content": "content"
+      },
+      "item3": "item3",
+      "keyPoint": {
+        "title": "title",
+        "content": "content"
+      }
+    },
+    "section3": {
+      "title": "title",
+      "item1": {
+        "title": "title",
+        "content": "content"
+      },
+      "item2": {
+        "title": "title",
+        "content": "content"
+      },
+      "item3": {
+        "title": "title",
+        "content": "content"
+      },
+      "item4": {
+        "title": "title",
+        "content": "content"
+      }
+    },
+    "section4": {
+      "title": "title",
+      "table": {
+        "header1": "header1",
+        "header2": "header2",
+        "row1": {
+          "benefit": "benefit",
+          "description": "description"
+        },
+        "row2": {
+          "benefit": "benefit",
+          "description": "description"
+        },
+        "row3": {
+          "benefit": "benefit",
+          "description": "description"
+        },
+        "row4": {
+          "benefit": "benefit",
+          "description": "description"
+        },
+        "row5": {
+          "benefit": "benefit",
+          "description": "description"
+        },
+        "row6": {
+          "benefit": "benefit",
+          "description": "description"
+        }
+      }
+    },
+    "section5": {
+      "title": "title",
+      "item1": {
+        "title": "title",
+        "content": "content"
+      },
+      "item2": {
+        "title": "title",
+        "content": "content"
+      },
+      "item3": {
+        "title": "title",
+        "content": "content"
+      },
+      "item4": {
+        "title": "title",
+        "content": "content"
+      }
+    },
+    "conclusion": {
+      "title": "title",
+      "content": "content",
+      "note": {
+        "title": "title",
+        "content": "content"
+      }
+    },
+    "faq": {
+      "title": "title",
+      "item1": {
+        "question": "question",
+        "answer": "answer"
+      },
+      "item2": {
+        "question": "question",
+        "answer": "answer"
+      },
+      "item3": {
+        "question": "question",
+        "answer": "answer"
+      }
+    },
+    "exploreMore": {
+      "title": "title",
+      "item1": "item1",
+      "item2": "item2",
+      "item3": "item3",
+      "item4": "item4"
+    },
+    "author": {
+      "title": "title",
+      "content": "content"
+    }
+  },
+  "futureHomeHairRemoval": {
+    "publishDate": "publishDate",
+    "introduction": {
+      "content": "content"
+    },
+    "aiPowered": {
+      "title": "title",
+      "content": "content"
+    },
+    "aiFeatures": {
+      "title": "title",
+      "smartSkinDetection": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "adaptiveIntensity": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "predictiveAnalysis": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "coolingTech": {
+      "title": "title",
+      "content": "content"
+    },
+    "coolingInnovations": {
+      "title": "title",
+      "cryogenicCooling": "cryogenicCooling",
+      "liquidNitrogen": "liquidNitrogen",
+      "thermoelectric": "thermoelectric"
+    },
+    "sustainability": {
+      "title": "title",
+      "content": "content"
+    },
+    "ecoFeatures": {
+      "title": "title",
+      "solarPowered": "solarPowered",
+      "recyclableComponents": "recyclableComponents",
+      "energyEfficient": "energyEfficient",
+      "biodegradablePackaging": "biodegradablePackaging"
+    },
+    "personalization": {
+      "title": "title",
+      "content": "content"
+    },
+    "smartFeatures": {
+      "title": "title",
+      "mobileApp": "mobileApp",
+      "cloudSync": "cloudSync",
+      "remoteMonitoring": "remoteMonitoring"
+    },
+    "userExperience": {
+      "title": "title",
+      "voiceControl": "voiceControl",
+      "gestureRecognition": "gestureRecognition",
+      "hapticFeedback": "hapticFeedback"
+    },
+    "timeline": {
+      "title": "title",
+      "current": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "nextFiveYears": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "nextDecade": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "conclusion": {
+      "content": "content"
+    }
+  },
+  "globalMarketShifts": {
+    "publishDate": "publishDate",
+    "introduction": {
+      "content": "content"
+    },
+    "marketSize": {
+      "title": "title"
+    },
+    "stats": {
+      "marketValue": "marketValue",
+      "currentMarket": "currentMarket",
+      "cagr": "cagr",
+      "growthRate": "growthRate",
+      "projection": "projection",
+      "futureValue": "futureValue"
+    },
+    "regionalAnalysis": {
+      "title": "title"
+    },
+    "regions": {
+      "northAmerica": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "europe": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "asiaPacific": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "keyTrends": {
+      "title": "title"
+    },
+    "trends": {
+      "athomeDevices": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "aiIntegration": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "sustainability": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "personalization": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "futureOutlook": {
+      "title": "title",
+      "content": "content"
+    },
+    "predictions": {
+      "title": "title",
+      "growth": "growth",
+      "technology": "technology",
+      "accessibility": "accessibility"
+    },
+    "conclusion": {
+      "content": "content"
+    }
+  },
+  "industries": {
+    "publishDate": "publishDate",
+    "introduction": {
+      "content": "content"
+    },
+    "beautyOverview": {
+      "title": "title",
+      "content": "content"
+    },
+    "beautyStats": {
+      "title": "title",
+      "marketSize": "marketSize",
+      "globalValue": "globalValue",
+      "growth": "growth",
+      "annualGrowth": "annualGrowth",
+      "projection": "projection",
+      "futureValue": "futureValue"
+    },
+    "iplSegment": {
+      "title": "title",
+      "content": "content"
+    },
+    "iplAdvantages": {
+      "title": "title",
+      "convenience": "convenience",
+      "costEffective": "costEffective",
+      "privacy": "privacy",
+      "safety": "safety"
+    },
+    "marketTrends": {
+      "title": "title",
+      "technology": "technology",
+      "portability": "portability",
+      "affordability": "affordability",
+      "effectiveness": "effectiveness"
+    },
+    "manufacturing": {
+      "title": "title",
+      "content": "content"
+    },
+    "qualityControl": {
+      "title": "title",
+      "desc": "desc"
+    },
+    "innovation": {
+      "title": "title",
+      "desc": "desc"
+    },
+    "compliance": {
+      "title": "title",
+      "desc": "desc"
+    },
+    "technology": {
+      "title": "title"
+    },
+    "techFeatures": {
+      "ai": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "cooling": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "connectivity": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "opportunities": {
+      "title": "title",
+      "content": "content"
+    },
+    "growthAreas": {
+      "title": "title",
+      "emergingMarkets": "emergingMarkets",
+      "maleGrooming": "maleGrooming",
+      "premiumDevices": "premiumDevices",
+      "subscription": "subscription"
+    },
+    "conclusion": {
+      "content": "content"
+    }
+  },
+  "nav": {
+    "service": {
+      "iplManufacturing": "iplManufacturing"
+    }
+  },
+  "hairRemovalMethodsComparison": {
+    "title": "title",
+    "method": "method",
+    "pros": "pros",
+    "cons": "cons",
+    "bestFor": "bestFor",
+    "IPLHomeDevice": "IPLHomeDevice",
+    "IPLHomeDevicePros": "IPLHomeDevicePros",
+    "IPLHomeDeviceCons": "IPLHomeDeviceCons",
+    "IPLHomeDeviceBestFor": "IPLHomeDeviceBestFor",
+    "waxing": "waxing",
+    "waxingPros": "waxingPros",
+    "waxingCons": "waxingCons",
+    "waxingBestFor": "waxingBestFor",
+    "hairRemovalCream": "hairRemovalCream",
+    "hairRemovalCreamPros": "hairRemovalCreamPros",
+    "hairRemovalCreamCons": "hairRemovalCreamCons",
+    "hairRemovalCreamBestFor": "hairRemovalCreamBestFor",
+    "razor": "razor",
+    "razorPros": "razorPros",
+    "razorCons": "razorCons",
+    "razorBestFor": "razorBestFor",
+    "electricShaver": "electricShaver",
+    "electricShaverPros": "electricShaverPros",
+    "electricShaverCons": "electricShaverCons",
+    "electricShaverBestFor": "electricShaverBestFor",
+    "laserHairRemoval": "laserHairRemoval",
+    "laserHairRemovalPros": "laserHairRemovalPros",
+    "laserHairRemovalCons": "laserHairRemovalCons",
+    "laserHairRemovalBestFor": "laserHairRemovalBestFor"
+  },
+  "whyChooseIPLHomeHairRemoval": {
+    "title": "title",
+    "longlastingResults": "longlastingResults",
+    "longlastingResultsDescription": "longlastingResultsDescription",
+    "healthlineLink": "healthlineLink",
+    "minimalPain": "minimalPain",
+    "minimalPainDescription": "minimalPainDescription",
+    "safeForHomeUse": "safeForHomeUse",
+    "safeForHomeUseDescription": "safeForHomeUseDescription",
+    "costEffective": "costEffective",
+    "costEffectiveDescription": "costEffectiveDescription",
+    "convenient": "convenient",
+    "convenientDescription": "convenientDescription"
+  },
+  "realUserStories": {
+    "title": "title",
+    "quote1": "quote1",
+    "quote1Attribution": "quote1Attribution",
+    "quote2": "quote2",
+    "quote2Attribution": "quote2Attribution"
+  },
+  "exploreMore": {
+    "title": "title",
+    "howToUse": "howToUse",
+    "ourIPLProductRange": "ourIPLProductRange",
+    "hairRemovalFAQs": "hairRemovalFAQs",
+    "latestTechnologyInsights": "latestTechnologyInsights"
+  },
+  "frequentlyAskedQuestions": {
+    "title": "title",
+    "isIPLSafeForAllSkinTypes": "isIPLSafeForAllSkinTypes",
+    "isIPLSafeForAllSkinTypesDescription": "isIPLSafeForAllSkinTypesDescription",
+    "howLongDoesItTakeToSeeResults": "howLongDoesItTakeToSeeResults",
+    "howLongDoesItTakeToSeeResultsDescription": "howLongDoesItTakeToSeeResultsDescription",
+    "doesIPLHurt": "doesIPLHurt",
+    "doesIPLHurtDescription": "doesIPLHurtDescription"
+  },
+  "recommendedBlog": {
+    "title": "title",
+    "description": "description",
+    "readFullArticle": "readFullArticle"
+  },
+  "MultiHeadIPLSystems": {
+    "title": "title",
+    "introduction": {
+      "title": "title",
+      "text": "text"
+    },
+    "philipsLegacy": {
+      "title": "title",
+      "text": "text"
+    },
+    "keyFeatures": {
+      "title": "title",
+      "interchangeableHeads": "interchangeableHeads",
+      "skinToneSensors": "skinToneSensors",
+      "cordedAndCordlessUse": "cordedAndCordlessUse"
+    },
+    "respondingToVIOHairRemovalNeeds": {
+      "title": "title",
+      "text": "text"
+    },
+    "whyMultiHeadDesignMatters": {
+      "title": "title",
+      "precisionForEveryCurve": {
+        "title": "title",
+        "largeAttachments": "largeAttachments",
+        "smallAttachments": "smallAttachments"
+      },
+      "enhancedUserExperience": {
+        "title": "title",
+        "personalization": "personalization",
+        "safety": "safety"
+      }
+    },
+    "painReduction": {
+      "title": "title",
+      "howTheseFiltersWork": {
+        "title": "title",
+        "cutOffFilters": "cutOffFilters",
+        "bandPassAndNotchFilters": "bandPassAndNotchFilters",
+        "clinicalEvidence": "clinicalEvidence"
+      }
+    },
+    "realUserFeedback": {
+      "title": "title",
+      "text": "text",
+      "quote": "quote",
+      "quoteAttribution": "quoteAttribution"
+    },
+    "conclusion": {
+      "title": "title",
+      "text": "text",
+      "E-E-A-TGuidance": {
+        "title": "title",
+        "experience": "experience",
+        "expertise": "expertise",
+        "authoritativeness": "authoritativeness",
+        "trust": "trust"
+      },
+      "note": "note"
+    },
+    "references": {
+      "title": "title",
+      "link1": "link1",
+      "link2": "link2",
+      "link3": "link3",
+      "link4": "link4",
+      "link5": "link5",
+      "link6": "link6",
+      "link7": "link7",
+      "link8": "link8",
+      "link9": "link9",
+      "link10": "link10",
+      "link11": "link11",
+      "link12": "link12",
+      "link13": "link13",
+      "link14": "link14",
+      "link15": "link15",
+      "link16": "link16",
+      "link17": "link17",
+      "link18": "link18",
+      "link19": "link19"
+    }
+  },
+  "newsInsights": {
+    "publishDate": "publishDate",
+    "introduction": {
+      "content": "content"
+    },
+    "technologyTrends": {
+      "title": "title"
+    },
+    "trends": {
+      "aiIntegration": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "smartDevices": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "portability": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "sustainability": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "marketAnalysis": {
+      "title": "title",
+      "content": "content"
+    },
+    "marketStats": {
+      "title": "title",
+      "globalValue": "globalValue",
+      "currentMarket": "currentMarket",
+      "growth": "growth",
+      "annualGrowth": "annualGrowth",
+      "projection": "projection",
+      "futureMarket": "futureMarket"
+    },
+    "newsHighlights": {
+      "title": "title"
+    },
+    "news": {
+      "regulatory": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "innovation": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "partnerships": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "consumer": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "predictions": {
+      "title": "title",
+      "content": "content",
+      "forecast": {
+        "title": "title",
+        "technology": "technology",
+        "market": "market",
+        "consumer": "consumer",
+        "regulation": "regulation"
+      }
+    },
+    "expertOpinions": {
+      "title": "title"
+    },
+    "quotes": {
+      "expert1": {
+        "quote": "quote",
+        "attribution": "attribution"
+      },
+      "expert2": {
+        "quote": "quote",
+        "attribution": "attribution"
+      }
+    },
+    "events": {
+      "title": "title",
+      "conferences": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "exhibitions": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "conclusion": {
+      "content": "content"
+    }
+  },
+  "sapphireCooling": {
+    "publishDate": "publishDate",
+    "introduction": {
+      "content": "content"
+    },
+    "whatIs": {
+      "title": "title",
+      "content": "content"
+    },
+    "keyBenefits": {
+      "title": "title",
+      "rapidHeat": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "continuousCooling": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "enhancedComfort": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "improvedSafety": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "clinicalData": {
+      "title": "title",
+      "fitzpatrickTitle": "fitzpatrickTitle",
+      "note": "note"
+    },
+    "table": {
+      "fitzpatrickType": "fitzpatrickType",
+      "skinToneDescription": "skinToneDescription",
+      "suitability": "suitability",
+      "type1": "type1",
+      "type2": "type2",
+      "type3": "type3",
+      "type4": "type4",
+      "withCaution": "withCaution",
+      "type5": "type5",
+      "type6": "type6",
+      "notRecommended": "notRecommended"
+    },
+    "clinicalEvidence": {
+      "title": "title",
+      "painReduction": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "safetyProfile": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "bestPractices": {
+      "title": "title",
+      "startLow": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "testPatch": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "properPrep": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "userTestimonials": {
+      "title": "title",
+      "testimonial1": {
+        "quote": "quote",
+        "attribution": "attribution"
+      },
+      "testimonial2": {
+        "quote": "quote",
+        "attribution": "attribution"
+      }
+    },
+    "conclusion": {
+      "content": "content"
+    }
+  },
+  "sustainableManufacturing": {
+    "publishDate": "publishDate",
+    "introduction": {
+      "content": "content"
+    },
+    "environmental": {
+      "title": "title",
+      "content": "content"
+    },
+    "initiatives": {
+      "title": "title",
+      "renewableEnergy": "renewableEnergy",
+      "wasteReduction": "wasteReduction",
+      "sustainableMaterials": "sustainableMaterials",
+      "carbonFootprint": "carbonFootprint"
+    },
+    "materials": {
+      "title": "title",
+      "recyclable": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "biodegradable": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "process": {
+      "title": "title",
+      "efficiency": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "automation": {
+        "title": "title",
+        "desc": "desc"
+      },
+      "quality": {
+        "title": "title",
+        "desc": "desc"
+      }
+    },
+    "impact": {
+      "title": "title",
+      "content": "content"
+    },
+    "benefits": {
+      "title": "title",
+      "costReduction": "costReduction",
+      "brandImage": "brandImage",
+      "compliance": "compliance",
+      "innovation": "innovation"
+    },
+    "future": {
+      "title": "title",
+      "content": "content"
+    },
+    "goals": {
+      "carbonNeutral": {
+        "target": "target",
+        "desc": "desc"
+      },
+      "renewable": {
+        "target": "target",
+        "desc": "desc"
+      },
+      "waste": {
+        "target": "target",
+        "desc": "desc"
+      }
+    },
+    "conclusion": {
+      "content": "content"
+    }
+  },
+  "link": "link",
+  "afterSalesService": {
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    },
+    "commonIssues": {
+      "title": "title",
+      "scenarios": {
+        "title": "title"
+      },
+      "prevention": {
+        "title": "title"
+      },
+      "howToUseGuide": "howToUseGuide"
+    },
+    "commitments": {
+      "title": "title",
+      "warranty": {
+        "title": "title",
+        "description": "description"
+      },
+      "return": {
+        "title": "title",
+        "description": "description"
+      },
+      "moneyBack": {
+        "title": "title",
+        "description": "description"
+      },
+      "note": "note",
+      "warrantyClaim": "warrantyClaim",
+      "returnRequest": "returnRequest"
+    },
+    "returnsTerms": {
+      "title": "title",
+      "returnWindow": "returnWindow",
+      "process": "process",
+      "exclusions": "exclusions",
+      "refunds": "refunds",
+      "warrantyExclusions": "warrantyExclusions",
+      "fullTerms": "fullTerms"
+    },
+    "insights": {
+      "title": "title",
+      "failureRate": "failureRate"
+    }
+  },
+  "beautySourcing": {
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    }
+  },
+  "gallery": {
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    }
+  },
+  "helpCenter": {
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    },
+    "contact": {
+      "title": "title",
+      "subtitle": "subtitle",
+      "button": "button"
+    }
+  },
+  "knowledgeBase": {
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    }
+  },
+  "pricingGuide": {
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    }
+  },
+  "videos": {
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    }
+  },
+  "winFdaListing": {
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    }
+  },
+  "globalShipping": {
+    "zones": {
+      "northAmerica": {
+        "region": "region",
+        "countries": {
+          "us": "us",
+          "canada": "canada",
+          "mexico": "mexico"
+        },
+        "deliveryTime": "deliveryTime"
+      },
+      "europe": {
+        "region": "region",
+        "countries": {
+          "germany": "germany",
+          "france": "france",
+          "uk": "uk",
+          "netherlands": "netherlands",
+          "italy": "italy"
+        },
+        "deliveryTime": "deliveryTime"
+      },
+      "asiaPacific": {
+        "region": "region",
+        "countries": {
+          "japan": "japan",
+          "australia": "australia",
+          "singapore": "singapore",
+          "southKorea": "southKorea"
+        },
+        "deliveryTime": "deliveryTime"
+      },
+      "restOfWorld": {
+        "region": "region",
+        "countries": {
+          "brazil": "brazil",
+          "india": "india",
+          "southAfrica": "southAfrica",
+          "uae": "uae"
+        },
+        "deliveryTime": "deliveryTime"
+      },
+      "title": "title",
+      "subtitle": "subtitle"
+    },
+    "services": {
+      "express": {
+        "title": "title",
+        "description": "description",
+        "features": {
+          "delivery": "delivery",
+          "tracking": "tracking",
+          "insurance": "insurance",
+          "priority": "priority"
+        }
+      },
+      "secure": {
+        "title": "title",
+        "description": "description",
+        "features": {
+          "protection": "protection",
+          "resistance": "resistance",
+          "seals": "seals",
+          "inserts": "inserts"
+        }
+      },
+      "flexible": {
+        "title": "title",
+        "description": "description",
+        "features": {
+          "standard": "standard",
+          "express": "express",
+          "economy": "economy",
+          "scheduled": "scheduled"
+        }
+      },
+      "customs": {
+        "title": "title",
+        "description": "description",
+        "features": {
+          "clearance": "clearance",
+          "documentation": "documentation",
+          "duty": "duty",
+          "compliance": "compliance"
+        }
+      },
+      "title": "title",
+      "subtitle": "subtitle"
+    },
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    }
+  },
+  "logoPrinting": {
+    "screenPrinting": {
+      "label": "label",
+      "description": "description"
+    },
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    },
+    "info": {
+      "colors": {
+        "label": "label",
+        "value": "value"
+      },
+      "surface": {
+        "label": "label",
+        "value": "value"
+      },
+      "leadTime": {
+        "label": "label",
+        "value": "value"
+      },
+      "moq": {
+        "label": "label",
+        "value": "value"
+      },
+      "premium": {
+        "label": "label",
+        "value": "value"
+      }
+    },
+    "cta": {
+      "title": "title",
+      "subtitle": "subtitle",
+      "button": "button"
+    }
+  },
+  "multiHeadIPL": {
+    "heads": {
+      "precisionFace": {
+        "name": "name",
+        "spotSize": "spotSize",
+        "application": "application",
+        "features": "features"
+      },
+      "underarm": {
+        "name": "name",
+        "spotSize": "spotSize",
+        "application": "application",
+        "features": "features"
+      },
+      "bikini": {
+        "name": "name",
+        "spotSize": "spotSize",
+        "application": "application",
+        "features": "features"
+      },
+      "largeBody": {
+        "name": "name",
+        "spotSize": "spotSize",
+        "application": "application",
+        "features": "features"
+      },
+      "sapphire": {
+        "name": "name",
+        "spotSize": "spotSize",
+        "application": "application",
+        "features": "features"
+      },
+      "professional": {
+        "name": "name",
+        "spotSize": "spotSize",
+        "application": "application",
+        "features": "features"
+      }
+    },
+    "specs": {
+      "spotSize": {
+        "parameter": "parameter",
+        "value": "value",
+        "note": "note"
+      },
+      "wavelength": {
+        "parameter": "parameter",
+        "value": "value",
+        "note": "note"
+      },
+      "cooling": {
+        "parameter": "parameter",
+        "value": "value",
+        "note": "note"
+      },
+      "energy": {
+        "parameter": "parameter",
+        "value": "value",
+        "note": "note"
+      },
+      "coverage": {
+        "parameter": "parameter",
+        "value": "value",
+        "note": "note"
+      },
+      "title": "title",
+      "table": {
+        "parameter": "parameter",
+        "range": "range",
+        "notes": "notes"
+      }
+    },
+    "hero": {
+      "title": "title",
+      "subtitle": "subtitle"
+    },
+    "portfolio": {
+      "title": "title"
+    },
+    "features": {
+      "title": "title",
+      "sapphire": {
+        "title": "title",
+        "painReduction": "painReduction",
+        "continuousCooling": "continuousCooling",
+        "safeSkinTypes": "safeSkinTypes",
+        "temperatureControl": "temperatureControl"
+      },
+      "recognition": {
+        "title": "title",
+        "adaptation": "adaptation",
+        "recognition": "recognition",
+        "feedback": "feedback",
+        "safety": "safety"
+      }
+    },
+    "process": {
+      "title": "title",
+      "step1": "step1",
+      "step2": "step2",
+      "step3": "step3",
+      "step4": "step4"
+    },
+    "benefits": {
+      "title": "title",
+      "faster": "faster",
+      "painReduction": "painReduction",
+      "satisfaction": "satisfaction"
+    },
+    "cta": {
+      "title": "title",
+      "subtitle": "subtitle",
+      "button": "button"
     }
   }
 }
