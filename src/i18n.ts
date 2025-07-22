@@ -1,39 +1,31 @@
 import i18next from 'i18next';
-import { InitOptions } from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import HttpBackend from 'i18next-http-backend';
 import resourcesToBackend from 'i18next-resources-to-backend';
-
-declare module 'i18next' {
-  interface CustomTypeOptions {
-    returnNull: false;
-  }
-}
-
-const initOptions: InitOptions = {
-  fallbackLng: 'en',
-  interpolation: { escapeValue: false },
-  detection: {
-    order: ['path', 'localStorage', 'navigator'],
-    caches: ['localStorage']
-  },
-  debug: true,
-  react: {
-    useSuspense: false
-  },
-  returnNull: false,
-  returnEmptyString: false,
-  saveMissing: true,
-  saveMissingTo: 'all'
-};
 
 i18next
   .use(initReactI18next)
   .use(LanguageDetector)
   .use(HttpBackend)
   .use(resourcesToBackend((language: string) => import(`./translations/${language}.json`)))
-  .init(initOptions)
+  // @ts-ignore: i18next types are not fully compatible
+  .init({
+    fallbackLng: 'en',
+    interpolation: { escapeValue: false },
+    detection: {
+      order: ['path', 'localStorage', 'navigator'],
+      caches: ['localStorage']
+    },
+    debug: true,
+    react: {
+      useSuspense: false
+    },
+    returnNull: false,
+    returnEmptyString: false,
+    saveMissing: true,
+    saveMissingTo: 'all'
+  })
   .then(() => {
     console.log('i18next initialized successfully');
   })
