@@ -1848,188 +1848,181 @@
     }
   },
   "howToUse": {
-    "title": "How to Use",
-    "description": "Guide on using our IPL devices.",
+    "title": "如何使用",
+    "description": "IPL脱毛仪使用指南",
     "seo": {
-      "title": "How to Use IPL Devices",
-      "description": "Step-by-step usage guide.",
-      "keywords": "IPL usage, how to guide",
-      "title': 'How to Use IPL Hair Removal Devices | Complete Guide | iShine': "title", 'How to Use IPL Hair Removal Devices | Complete Guide | iShine",
-      "description": 'Learn how to use IPL hair removal devices safely and effectively': {
-        " Complete guide with step-by-step instructions, safety tips, and best practices": {
-          "": ""
-        }
-      },
-      "keywords": 'how to use IPL, IPL hair removal guide, IPL device instructions, IPL safety tips, IPL treatment guide': "keywords", 'how to use IPL, IPL hair removal guide, IPL device instructions, IPL safety tips, IPL treatment guide'
+      "title": "IPL脱毛仪使用指南 | 完整教程 | iShine",
+      "description": "了解如何安全有效地使用IPL脱毛仪。包含详细的步骤说明、安全提示和最佳实践指南。",
+      "keywords": "IPL使用方法, IPL脱毛指南, IPL设备说明, IPL安全提示, IPL治疗指南"
     },
+    "heroTitle": "IPL脱毛仪使用指南",
+    "heroDescription": "安全有效IPL脱毛的完整指南。学习正确的技术、安全指导，并从您的IPL设备获得最佳效果。",
+    "stepByStepTitle": "分步使用说明",
+    "stepByStepDescription": "按照以下步骤，确保安全有效的IPL脱毛体验。",
     "steps": {
       "preparation": {
-        "title": "title",
-        "description": "description",
+        "title": "准备工作",
+        "description": "在开始IPL治疗前的必要准备",
         "details": {
-          "shave": "shave",
-          "clean": "clean",
-          "dry": "dry",
-          "remove": "remove"
+          "shave": "使用前剃毛，确保皮肤表面光滑",
+          "clean": "清洁待处理区域，去除所有化妆品和护肤品",
+          "dry": "确保皮肤完全干燥",
+          "remove": "取下该区域的所有首饰"
         }
       },
       "deviceSetup": {
-        "title": "title",
-        "description": "description",
+        "title": "设备设置",
+        "description": "正确设置您的IPL设备",
         "details": {
-          "connect": "connect",
-          "power": "power",
-          "intensity": "intensity",
-          "attach": "attach"
+          "connect": "连接电源适配器",
+          "power": "按下电源按钮开启设备",
+          "intensity": "选择合适的能量强度",
+          "attach": "确保配件正确安装"
         }
       },
       "skinToneTest": {
-        "title": "title",
-        "description": "description",
+        "title": "肤色测试",
+        "description": "进行皮肤敏感度测试",
         "details": {
-          "test": "test",
-          "wait": "wait",
-          "adjust": "adjust",
-          "proceed": "proceed"
+          "test": "在小范围区域进行测试",
+          "wait": "等待24小时观察皮肤反应",
+          "adjust": "根据测试结果调整能量级别",
+          "proceed": "确认安全后再进行全面治疗"
         }
       },
       "treatmentProcess": {
-        "title": "title",
-        "description": "description",
+        "title": "治疗过程",
+        "description": "正确的IPL治疗步骤",
         "details": {
-          "place": "place",
-          "press": "press",
-          "move": "move",
-          "complete": "complete"
+          "place": "将设备紧贴皮肤放置",
+          "press": "按下闪光按钮",
+          "move": "移动到下一个区域",
+          "complete": "完成整个区域的治疗"
         }
       },
       "postTreatmentCare": {
-        "title": "title",
-        "description": "description",
+        "title": "术后护理",
+        "description": "IPL治疗后的皮肤护理",
         "details": {
-          "cooling": "cooling",
-          "sun": "sun",
-          "sunscreen": "sunscreen",
-          "moisturize": "moisturize"
+          "cooling": "使用冷敷缓解不适",
+          "sun": "避免阳光直射",
+          "sunscreen": "使用防晒霜保护皮肤",
+          "moisturize": "保持皮肤水分"
         }
       }
     },
     "safetyGuidelines": {
       "warnings": {
-        "title": "title",
-        "point1": "point1",
-        "point2": "point2",
-        "point3": "point3",
-        "point4": "point4",
-        "point5": "point5"
+        "title": "安全警告",
+        "point1": "请勿在受伤或晒伤的皮肤上使用",
+        "point2": "避免在纹身或永久妆区域使用",
+        "point3": "孕期请勿使用IPL设备",
+        "point4": "如有皮肤病史，使用前请咨询医生",
+        "point5": "避免眼睛直视闪光"
       },
       "eyeProtection": {
-        "title": "title",
-        "point1": "point1",
-        "point2": "point2",
-        "point3": "point3",
-        "point4": "point4"
+        "title": "眼睛防护",
+        "point1": "使用时戴上防护眼镜",
+        "point2": "避免对着眼睛照射",
+        "point3": "在明亮的环境下使用设备",
+        "point4": "如有不适立即停止使用"
       },
       "skinSensitivity": {
-        "title": "title",
-        "point1": "point1",
-        "point2": "point2",
-        "point3": "point3",
-        "point4": "point4"
+        "title": "皮肤敏感度",
+        "point1": "首次使用前进行皮肤测试",
+        "point2": "根据肤色选择合适能量",
+        "point3": "注意观察皮肤反应",
+        "point4": "如有异常及时停止使用"
       }
     },
     "treatmentSchedule": {
       "weeks1to4": {
-        "week": "week",
-        "frequency": "frequency",
-        "description": "description"
+        "week": "第1-4周",
+        "frequency": "每周一次",
+        "description": "建立规律的治疗频率"
       },
       "weeks5to8": {
-        "week": "week",
-        "frequency": "frequency",
-        "description": "description"
+        "week": "第5-8周",
+        "frequency": "每两周一次",
+        "description": "逐渐减少治疗频率"
       },
       "weeks9to12": {
-        "week": "week",
-        "frequency": "frequency",
-        "description": "description"
+        "week": "第9-12周",
+        "frequency": "每三周一次",
+        "description": "维持治疗效果"
       },
       "after12weeks": {
-        "week": "week",
-        "frequency": "frequency",
-        "description": "description"
+        "week": "12周后",
+        "frequency": "按需治疗",
+        "description": "进行维护性治疗"
       }
     },
+    "safetyGuidelinesTitle": "安全使用指南",
+    "safetyGuidelinesDescription": "请仔细阅读以下安全指南，确保安全有效的IPL脱毛体验。",
+    "treatmentScheduleTitle": "治疗计划",
+    "treatmentScheduleDescription": "遵循推荐的治疗计划，获得最佳脱毛效果。",
+    "troubleshootingTitle": "常见问题解决",
+    "troubleshootingDescription": "遇到问题？查看以下常见问题解决方案。",
     "troubleshooting": {
       "deviceNotTurningOn": {
-        "problem": "problem",
-        "solution1": "solution1",
-        "solution2": "solution2",
-        "solution3": "solution3",
-        "solution4": "solution4"
+        "problem": "设备无法开机",
+        "solution1": "检查电源连接",
+        "solution2": "确认电池电量",
+        "solution3": "检查电源按钮",
+        "solution4": "联系客服支持"
       },
       "noLightFlash": {
-        "problem": "problem",
-        "solution1": "solution1",
-        "solution2": "solution2",
-        "solution3": "solution3",
-        "solution4": "solution4"
+        "problem": "设备不发光",
+        "solution1": "确认皮肤接触良好",
+        "solution2": "检查灯头是否损坏",
+        "solution3": "清洁镜面",
+        "solution4": "更换灯头"
       },
       "skinIrritation": {
-        "problem": "problem",
-        "solution1": "solution1",
-        "solution2": "solution2",
-        "solution3": "solution3",
-        "solution4": "solution4"
+        "problem": "皮肤刺激",
+        "solution1": "降低能量级别",
+        "solution2": "延长治疗间隔",
+        "solution3": "使用舒缓凝胶",
+        "solution4": "暂停治疗"
       },
       "noResults": {
-        "problem": "problem",
-        "solution1": "solution1",
-        "solution2": "solution2",
-        "solution3": "solution3",
-        "solution4": "solution4"
+        "problem": "效果不明显",
+        "solution1": "检查能量设置",
+        "solution2": "确认使用频率",
+        "solution3": "调整治疗方式",
+        "solution4": "保持耐心"
       }
     },
+    "faqTitle": "常见问题",
+    "faqDescription": "关于IPL脱毛的常见问题解答。",
     "faqs": {
       "q1": {
-        "question": "question",
-        "answer": "answer"
+        "question": "IPL脱毛需要多久见效？",
+        "answer": "通常在4-6周的规律治疗后开始看到效果，12周后达到明显效果。"
       },
       "q2": {
-        "question": "question",
-        "answer": "answer"
+        "question": "IPL脱毛会疼吗？",
+        "answer": "大多数用户只感觉到轻微温热，不会有明显疼痛。如果感觉不适，可以调低能量级别。"
       },
       "q3": {
-        "question": "question",
-        "answer": "answer"
+        "question": "哪些部位可以使用IPL脱毛？",
+        "answer": "适用于面部（眉下）、腋下、手臂、腿部、比基尼线等体毛区域，但避免敏感部位。"
       },
       "q4": {
-        "question": "question",
-        "answer": "answer"
+        "question": "使用IPL脱毛有什么注意事项？",
+        "answer": "避免晒后使用，保持皮肤清洁干燥，遵循使用频率建议，注意防晒。"
       },
       "q5": {
-        "question": "question",
-        "answer": "answer"
+        "question": "IPL脱毛效果是永久的吗？",
+        "answer": "IPL脱毛可以显著减少毛发生长，但可能需要定期维护治疗来保持效果。"
       },
       "q6": {
-        "question": "question",
-        "answer": "answer"
+        "question": "什么肤色适合IPL脱毛？",
+        "answer": "浅色到中等肤色最适合，过深或过白的肤色需要特别注意或咨询专业意见。"
       }
     },
-    "heroTitle": "如何使用IPL设备",
-    "heroDescription": "安全有效IPL脱毛的完整指南。学习正确的技术、安全指导，并从您的IPL设备获得最佳效果。",
-    "stepByStepTitle": "分步说明",
-    "stepByStepDescription": "遵循这些步骤进行安全有效的IPL治疗",
-    "safetyGuidelinesTitle": "安全指导",
-    "safetyGuidelinesDescription": "IPL治疗的基本安全信息",
-    "treatmentScheduleTitle": "推荐治疗计划",
-    "treatmentScheduleDescription": "遵循此计划获得最佳脱毛效果",
-    "troubleshootingTitle": "故障排除指南",
-    "troubleshootingDescription": "IPL设备常见问题及解决方案",
-    "faqTitle": "常见问题",
-    "faqDescription": "关于IPL脱毛常见问题的答案",
     "videoTutorialsTitle": "视频教程",
-    "videoTutorialsDescription": "观看IPL设备使用的分步视频指南"
+    "videoTutorialsDescription": "观看详细的IPL使用视频教程，掌握正确的使用方法。"
   },
   "serviceSupport": {
     "title": "Service & Support",
