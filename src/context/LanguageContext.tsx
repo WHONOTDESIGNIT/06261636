@@ -1,56 +1,63 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { useTranslation } from '../hooks/useTranslation';
+import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
-import { useTranslation as useTranslationI18next } from 'react-i18next';
+import i18next from 'i18next';
+import { languages } from '../data/languages';
 
-// 类型定义，保证类型安全
 interface LanguageContextType {
   currentLanguage: string;
   currentCountry: string;
-  setLanguage: (languageCode: string, countryCode?: string) => void;
-  t: (key: string, fallback?: string) => string;
+  setLanguage: (languageCode: string, countryCode?: string) => Promise<void>;
+  t: (key: string, options?: any) => string;
   loading: boolean;
+  isRTL: boolean;
+  availableLanguages: typeof languages;
 }
 
-// 创建Context，初始值为undefined，强制只能在Provider内部用
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-// Provider组件，负责全局语言/国家状态
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  // 状态：当前语言和国家
+  // 状态管理
   const [currentLanguage, setCurrentLanguage] = useState(() => {
-    // 从 localStorage 或 URL 获取初始语言
     const savedLang = localStorage.getItem('selectedLanguage');
     const urlLang = window.location.pathname.match(/^\/([a-z]{2})(\/|$)/)?.[1];
     return urlLang || savedLang || 'en';
   });
+
   const [currentCountry, setCurrentCountry] = useState(() => {
     return localStorage.getItem('selectedCountry') || 'global';
   });
 
-  // t/翻译函数与loading状态从自定义hook获取
-  const { t, loading } = useTranslation(currentLanguage);
-  const location = useLocation();
-  const { i18n } = useTranslationI18next();
+  const [loading, setLoading] = useState(true);
+  const [isRTL, setIsRTL] = useState(false);
 
+  const { t, i18n } = useTranslation();
+  const location = useLocation();
+
+  // 监听路径变化
   useEffect(() => {
-    // 检查URL路径中是否有语言前缀
     const path = location.pathname;
     const langMatch = path.match(/^\/([a-z]{2})(\/|$)/);
     if (langMatch) {
       const lang = langMatch[1];
-      setCurrentLanguage(lang);
-      localStorage.setItem('selectedLanguage', lang);
+      if (lang !== currentLanguage) {
+        setCurrentLanguage(lang);
+        localStorage.setItem('selectedLanguage', lang);
+      }
     }
-  }, [location.pathname]);
+  }, [location.pathname, currentLanguage]);
 
-  // 切换语言和国家，并持久化
+  // 语言变更处理
   const setLanguage = async (languageCode: string, countryCode?: string) => {
     try {
-      // 先加载语言资源
+      setLoading(true);
+      
+      // 加载语言资源
       await i18n.loadLanguages(languageCode);
+      
       // 切换语言
       await i18n.changeLanguage(languageCode);
+      
       // 更新状态
       setCurrentLanguage(languageCode);
       if (countryCode) {
@@ -58,25 +65,64 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         localStorage.setItem('selectedCountry', countryCode);
       }
       localStorage.setItem('selectedLanguage', languageCode);
+
+      // 更新RTL状态
+      setIsRTL(['ar', 'he'].includes(languageCode));
+
+      // 触发自定义事件
+      window.dispatchEvent(new Event('languageChanged'));
     } catch (error) {
       console.error('Failed to change language:', error);
+    } finally {
+      setLoading(false);
     }
   };
 
+  // 初始化
+  useEffect(() => {
+    const initializeLanguage = async () => {
+      try {
+        setLoading(true);
+        await setLanguage(currentLanguage, currentCountry);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    initializeLanguage();
+  }, []); // 仅在组件挂载时运行
+
+  // 监听 i18next 事件
+  useEffect(() => {
+    const handleLanguageChanged = (lng: string) => {
+      console.log('Language changed to:', lng);
+      setIsRTL(['ar', 'he'].includes(lng));
+    };
+
+    i18next.on('languageChanged', handleLanguageChanged);
+
+    return () => {
+      i18next.off('languageChanged', handleLanguageChanged);
+    };
+  }, []);
+
   return (
-    <LanguageContext.Provider value={{
-      currentLanguage,
-      currentCountry,
-      setLanguage,
-      t,
-      loading
-    }}>
+    <LanguageContext.Provider
+      value={{
+        currentLanguage,
+        currentCountry,
+        setLanguage,
+        t,
+        loading,
+        isRTL,
+        availableLanguages: languages
+      }}
+    >
       {children}
     </LanguageContext.Provider>
   );
 };
 
-// Hook：消费Context，必须在Provider内部用
 export const useLanguage = () => {
   const context = useContext(LanguageContext);
   if (context === undefined) {
@@ -84,3 +130,5 @@ export const useLanguage = () => {
   }
   return context;
 };
+
+export default LanguageProvider; 
