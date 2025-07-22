@@ -12,57 +12,57 @@
       "serviceSupport": "Service & Support",
       "about": "About",
       "contact": "Contact",
-      "solutions', 'Solutions": "solutions', 'Solutions",
-      "logoPrinting', 'Logo Printing": "logoPrinting', 'Logo Printing",
-      "packaging', 'Packaging Solutions": "packaging', 'Packaging Solutions",
-      "dropShipping', 'Drop Shipping": "dropShipping', 'Drop Shipping",
-      "globalShipping', 'Global Shipping": "globalShipping', 'Global Shipping",
-      "brandCustomization', 'Brand Customization": "brandCustomization', 'Brand Customization",
-      "compliance', 'Compliance & Certifications": "compliance", 'Compliance & Certifications",
-      "designPrototyping', 'Design & Prototyping": "designPrototyping", 'Design & Prototyping",
-      "multiHeadIPL', 'Multi-head IPL Custom": "multiHeadIPL", 'Multi-head IPL Custom",
-      "dualLampIPL', 'Dual-lamp IPL Custom": "dualLampIPL", 'Dual-lamp IPL Custom",
-      "iplHairRemoval', 'IPL Hair Removal": "iplHairRemoval", 'IPL Hair Removal",
-      "iplDevices', 'IPL Devices": "iplDevices", 'IPL Devices",
-      "smartAppIPL', 'Smart App-Controlled IPL Device": "smartAppIPL", 'Smart App-Controlled IPL Device",
-      "iceFeelingIPL', 'Ice Feeling IPL Device": "iceFeelingIPL", 'Ice Feeling IPL Device",
-      "emeraldIPL', 'Emerald IPL Device": "emeraldIPL", 'Emerald IPL Device",
-      "skinSensorIPL', 'Skin Sensor IPL Device": "skinSensorIPL", 'Skin Sensor IPL Device",
-      "batteryPoweredIPL', 'Battery Powered IPL Device": "batteryPoweredIPL", 'Battery Powered IPL Device",
-      "handheldIPL', 'Handheld IPL Device": "handheldIPL", 'Handheld IPL Device",
-      "iceCoolingIPL', 'Ice Cooling IPL Device": "iceCoolingIPL", 'Ice Cooling IPL Device",
-      "dualLampIPLDevice', 'Dual-Lamp IPL Device": "dualLampIPLDevice", 'Dual-Lamp IPL Device",
-      "aiPoweredIPL', 'AI-POWERED IPL Device": "aiPoweredIPL", 'AI-POWERED IPL Device",
-      "accessories', 'Accessories": "accessories", 'Accessories",
-      "sapphireLens', 'Sapphire Lens": "sapphireLens", 'Sapphire Lens",
-      "opticalFilter', 'Optical Filter": "opticalFilter", 'Optical Filter",
-      "powerAdapter', 'Power Adapter": "powerAdapter", 'Power Adapter",
-      "safetyGoggles', 'Safety Goggles": "safetyGoggles", 'Safety Goggles",
-      "howToUse', 'How to Use": "howToUse", 'How to Use",
-      "serviceSupport', 'Service & Support": "serviceSupport", 'Service & Support",
-      "service", 'Service': "service", 'Service",
-      "afterSales", 'After-Sales Service': "afterSales", 'After-Sales Service",
-      "winFDAListing", 'Win FDA Listing': "winFDAListing", 'Win FDA Listing",
-      "iplManufacturing", 'IPL Devices Manufacturing': "iplManufacturing", 'IPL Devices Manufacturing",
-      "knowledgeBase", 'Knowledge Base': "knowledgeBase", 'Knowledge Base",
-      "supportGuide", 'Support > Buying Guide': "supportGuide", 'Support > Buying Guide",
-      "beautySourcing", 'Beauty Niche Sourcing & Accessories': "beautySourcing", 'Beauty Niche Sourcing & Accessories",
-      "pricingGuide", 'Pricing Guide': "pricingGuide", 'Pricing Guide",
-      "helpCenter", 'Help Center': "helpCenter", 'Help Center",
-      "gallery", 'Gallery': "gallery", 'Gallery",
-      "videos", 'Videos': "videos", 'Videos",
-      "blog", 'Blog': "blog", 'Blog",
-      "newsInsights", 'News & Insights': "newsInsights", 'News & Insights",
-      "industries", 'Industries We Serve': "industries", 'Industries We Serve",
-      "about", 'About': "about", 'About",
-      "founderMessage", 'Founder Message': "founderMessage", 'Founder Message",
-      "technology", 'Our Technology': "technology", 'Our Technology",
-      "globalWitness", 'Global Witness': "globalWitness", 'Global Witness",
-      "corePrinciples", 'Core Principles': "corePrinciples", 'Core Principles",
-      "company", 'About iShine': "company", 'About iShine",
-      "brandStory", 'Brand Story': "brandStory", 'Brand Story",
-      "quality", 'Quality': "quality", 'Quality",
-      "contact", 'Contact': "contact", 'Contact"
+      "solutions': 'Solutions": "solutions, Solutions",
+      "logoPrinting': 'Logo Printing": "logoPrinting, Logo Printing",
+      "packaging': 'Packaging Solutions": "packaging, Packaging Solutions",
+      "dropShipping': 'Drop Shipping": "dropShipping, Drop Shipping",
+      "globalShipping': 'Global Shipping": "globalShipping, Global Shipping",
+      "brandCustomization': 'Brand Customization": "brandCustomization, Brand Customization",
+      "compliance': 'Compliance & Certifications": "compliance, Compliance & Certifications",
+      "designPrototyping': 'Design & Prototyping": "designPrototyping, Design & Prototyping",
+      "multiHeadIPL': 'Multi-head IPL Custom": "multiHeadIPL, Multi-head IPL Custom",
+      "dualLampIPL': 'Dual-lamp IPL Custom": "dualLampIPL, Dual-lamp IPL Custom",
+      "iplHairRemoval': 'IPL Hair Removal": "iplHairRemoval, IPL Hair Removal",
+      "iplDevices': 'IPL Devices": "iplDevices, IPL Devices",
+      "smartAppIPL': 'Smart App-Controlled IPL Device": "smartAppIPL, Smart App-Controlled IPL Device",
+      "iceFeelingIPL': 'Ice Feeling IPL Device": "iceFeelingIPL, Ice Feeling IPL Device",
+      "emeraldIPL': 'Emerald IPL Device": "emeraldIPL, Emerald IPL Device",
+      "skinSensorIPL': 'Skin Sensor IPL Device": "skinSensorIPL, Skin Sensor IPL Device",
+      "batteryPoweredIPL': 'Battery Powered IPL Device": "batteryPoweredIPL, Battery Powered IPL Device",
+      "handheldIPL': 'Handheld IPL Device": "handheldIPL, Handheld IPL Device",
+      "iceCoolingIPL': 'Ice Cooling IPL Device": "iceCoolingIPL, Ice Cooling IPL Device",
+      "dualLampIPLDevice': 'Dual-Lamp IPL Device": "dualLampIPLDevice, Dual-Lamp IPL Device",
+      "aiPoweredIPL': 'AI-POWERED IPL Device": "aiPoweredIPL, AI-POWERED IPL Device",
+      "accessories': 'Accessories": "accessories, Accessories",
+      "sapphireLens': 'Sapphire Lens": "sapphireLens, Sapphire Lens",
+      "opticalFilter': 'Optical Filter": "opticalFilter, Optical Filter",
+      "powerAdapter': 'Power Adapter": "powerAdapter, Power Adapter",
+      "safetyGoggles': 'Safety Goggles": "safetyGoggles, Safety Goggles",
+      "howToUse': 'How to Use": "howToUse, How to Use",
+      "serviceSupport': 'Service & Support": "serviceSupport, Service & Support",
+      "service': 'Service': "service, Service",
+      "afterSales': 'After-Sales Service': "afterSales, After-Sales Service",
+      "winFDAListing': 'Win FDA Listing': "winFDAListing, Win FDA Listing",
+      "iplManufacturing': 'IPL Devices Manufacturing': "iplManufacturing, IPL Devices Manufacturing",
+      "knowledgeBase': 'Knowledge Base': "knowledgeBase, Knowledge Base",
+      "supportGuide': 'Support > Buying Guide': "supportGuide, Support > Buying Guide",
+      "beautySourcing': 'Beauty Niche Sourcing & Accessories': "beautySourcing, Beauty Niche Sourcing & Accessories",
+      "pricingGuide': 'Pricing Guide': "pricingGuide, Pricing Guide",
+      "helpCenter': 'Help Center': "helpCenter, Help Center",
+      "gallery': 'Gallery': "gallery, Gallery",
+      "videos': 'Videos': "videos, Videos",
+      "blog': 'Blog': "blog, Blog",
+      "newsInsights': 'News & Insights': "newsInsights, News & Insights",
+      "industries': 'Industries We Serve': "industries, Industries We Serve",
+      "about': 'About': "about, About",
+      "founderMessage': 'Founder Message': "founderMessage, Founder Message",
+      "technology': 'Our Technology': "technology, Our Technology",
+      "globalWitness': 'Global Witness': "globalWitness, Global Witness",
+      "corePrinciples': 'Core Principles': "corePrinciples, Core Principles",
+      "company': 'About iShine': "company, About iShine",
+      "brandStory': 'Brand Story': "brandStory, Brand Story",
+      "quality': 'Quality': "quality, Quality",
+      "contact': 'Contact': "contact, Contact"
     },
     "navigation": {
       "solutions": "解决方案",
@@ -270,7 +270,7 @@
       "brandStory": "品牌故事",
       "quality": "质量"
     },
-    "logo', 'iShine": "logo", 'iShine"
+    "logo': 'iShine": "logo", 'iShine"
   },
   "footer": {
     "company": {
@@ -319,11 +319,11 @@
       "title2": "与品牌IPL设备",
       "subtitle": "全球领先的IPL设备制造商，我们帮助您设计、制造和包装。",
       "cta": "获取报价",
-      "title1', 'Custom IPL Hair Removal Devices for Cosmetics Brands": "title1", 'Custom IPL Hair Removal Devices for Cosmetics Brands",
-      "subtitle', 'You design it, we build it and box it': {
+      "title1': 'Custom IPL Hair Removal Devices for Cosmetics Brands": "title1", 'Custom IPL Hair Removal Devices for Cosmetics Brands",
+      "subtitle': 'You design it, we build it and box it': {
         "": ""
       },
-      "cta', 'Get a Free Quote': "cta", 'Get a Free Quote"
+      "cta': 'Get a Free Quote': "cta", 'Get a Free Quote"
     },
     "unlimitedOptions": {
       "colorCustomization": {
@@ -390,7 +390,7 @@
       "5": "\"我们的品牌声誉通过iShine的设计和制造专业知识得到了显著提升。\"",
       "title": "客户评价",
       "pageButton": "前往评价页面",
-      "title', 'What Our Clients Say': "title", 'What Our Clients Say"
+      "title': 'What Our Clients Say': "title", 'What Our Clients Say"
     },
     "faq": {
       "title": "常见问题",
@@ -400,7 +400,7 @@
           "a": "Intense Pulsed Light technology for hair removal."
         }
       ],
-      "title', 'Frequently Asked Questions': "title", 'Frequently Asked Questions"
+      "title': 'Frequently Asked Questions': "title", 'Frequently Asked Questions"
     },
     "gallery": {
       "image1": {
@@ -426,23 +426,23 @@
       "customization": "定制",
       "description2": "的完整供应商。帮助您设计、制造和包装。从创意到市场。",
       "description3": "我们具备定制冰感IPL、智能应用连接IPL设备、肌肤传感器IPL设备的能力。iShine提供最适合您品牌身份的解决方案。",
-      "title', 'About iShine': "title", 'About iShine",
-      "subtitle', 'One-stop IPL solutions': {
+      "title': 'About iShine': "title", 'About iShine",
+      "subtitle': 'One-stop IPL solutions': {
         "": ""
       },
-      "cta', 'Read More': "cta", 'Read More",
-      "description1', 'iShine Tech Co': {
+      "cta': 'Read More': "cta", 'Read More",
+      "description1': 'iShine Tech Co': {
         ", Limited, is one-stop supplier for": ", Limited, is one-stop supplier for"
       },
-      "manufacturing', 'IPL hair removal devices manufacturing': "manufacturing", 'IPL hair removal devices manufacturing",
-      "and', 'and': "and", 'and",
-      "customization', 'customization': "customization", 'customization",
-      "description2', 'Help you design it, build it and box it': {
+      "manufacturing': 'IPL hair removal devices manufacturing': "manufacturing", 'IPL hair removal devices manufacturing",
+      "and': 'and': "and", 'and",
+      "customization': 'customization': "customization", 'customization",
+      "description2': 'Help you design it, build it and box it': {
         " From idea to market": {
           "": ""
         }
       },
-      "description3', 'We have the capability for Custom ice cooling IPL, Smart APP-connected IPL device, Skin Sensor IPL device': {
+      "description3': 'We have the capability for Custom ice cooling IPL, Smart APP-connected IPL device, Skin Sensor IPL device': {
         " iShine provide solutions that best fit for your brand identity": {
           "": ""
         }
@@ -457,14 +457,14 @@
       "subtitle": "您设计，我们制造，包装",
       "description": "iShine是一家全服务定制IPL产品制造商，提供从模具开发和原型制作到大规模生产和包装的端到端定制。iShine已经为我们的合作伙伴定制了超过1,000个定制设备IPL项目，在IPL产品技术解决方案和合规解决方案方面拥有丰富经验。",
       "include": "定制IPL产品包括：",
-      "title', 'CUSTMIZED IPL DEVICES': "title", 'CUSTMIZED IPL DEVICES",
-      "subtitle', 'You design it, we build it, box it': "subtitle", 'You design it, we build it, box it",
-      "description', 'iShine is a full-service custom IPL products manufacturer offering end-to-end customization, from mold development and prototyping to mass production and packaging': {
+      "title': 'CUSTMIZED IPL DEVICES': "title", 'CUSTMIZED IPL DEVICES",
+      "subtitle': 'You design it, we build it, box it': "subtitle", 'You design it, we build it, box it",
+      "description': 'iShine is a full-service custom IPL products manufacturer offering end-to-end customization, from mold development and prototyping to mass production and packaging': {
         " iShine already customized more than 1,000 custom devices IPL projects for our partner in the past with much experience in IPL products Technical solution and Compliance solution": {
           "": ""
         }
       },
-      "include', 'The custom IPL products include:': "include", 'The custom IPL products include:"
+      "include': 'The custom IPL products include:': "include", 'The custom IPL products include:"
     },
     "customization": {
       "title": "无限定制选项",
@@ -496,7 +496,7 @@
           }
         }
       },
-      "title', 'Unlimited Customization Options': "title", 'Unlimited Customization Options"
+      "title': 'Unlimited Customization Options': "title", 'Unlimited Customization Options"
     },
     "process": {
       "steps": {
@@ -525,15 +525,15 @@
           "title": "售后服务"
         }
       },
-      "subtitle', 'From idea to delivery, we make your IPL device project successful': {
+      "subtitle': 'From idea to delivery, we make your IPL device project successful': {
         "": ""
       }
     },
     "contact": {
       "title": "联系我们",
       "subtitle": "准备加强您的品牌？联系我们获得免费咨询和报价。",
-      "title', 'Contact Us': "title", 'Contact Us",
-      "subtitle', 'Ready to empower your brand? Get in touch for a free consultation and quote': {
+      "title': 'Contact Us': "title", 'Contact Us",
+      "subtitle': 'Ready to empower your brand? Get in touch for a free consultation and quote': {
         "": ""
       }
     },
@@ -569,17 +569,17 @@
       "title": "iShine - Custom IPL Hair Removal Device Manufacturing | OEM/ODM Solutions",
       "description": "Leading IPL device manufacturer providing custom OEM/ODM solutions. Design, build, and brand your own IPL hair removal devices with iShine.",
       "keywords": "IPL hair removal devices, custom manufacturing, OEM ODM, beauty device manufacturing, IPL device manufacturer",
-      "title', 'iShine - Custom IPL Hair Removal Device Manufacturing | OEM/ODM Solutions': "title", 'iShine - Custom IPL Hair Removal Device Manufacturing | OEM/ODM Solutions",
-      "description', 'Leading IPL device manufacturer providing custom OEM/ODM solutions': {
+      "title': 'iShine - Custom IPL Hair Removal Device Manufacturing | OEM/ODM Solutions': "title", 'iShine - Custom IPL Hair Removal Device Manufacturing | OEM/ODM Solutions",
+      "description": 'Leading IPL device manufacturer providing custom OEM/ODM solutions': {
         " Design, build, and brand your own IPL hair removal devices with iShine": {
           "": ""
         }
       },
-      "keywords', 'IPL hair removal devices, custom manufacturing, OEM ODM, beauty device manufacturing, IPL device manufacturer': "keywords", 'IPL hair removal devices, custom manufacturing, OEM ODM, beauty device manufacturing, IPL device manufacturer"
+      "keywords': 'IPL hair removal devices, custom manufacturing, OEM ODM, beauty device manufacturing, IPL device manufacturer': "keywords", 'IPL hair removal devices, custom manufacturing, OEM ODM, beauty device manufacturing, IPL device manufacturer"
     },
     "video": {
       "description": "Watch how iShine brings your IPL device ideas to life, from design to delivery. Our advanced manufacturing and strict quality control ensure your brand stands out in the beauty market.",
-      "description', 'Watch how iShine brings your IPL device ideas to life, from design to delivery': {
+      "description': 'Watch how iShine brings your IPL device ideas to life, from design to delivery': {
         " Our advanced manufacturing and strict quality control ensure your brand stands out in the beauty market": {
           "": ""
         }
@@ -593,47 +593,45 @@
       "title": "Contact iShine",
       "description": "Contact page for inquiries.",
       "keywords": "contact, support",
-      "title', 'Contact iShine - IPL Device Manufacturing Inquiries': "title", 'Contact iShine - IPL Device Manufacturing Inquiries",
-      "description', 'Contact iShine Manufacturing for IPL device OEM/ODM inquiries, custom manufacturing solutions, and business partnerships': {
+      "title': 'Contact iShine - IPL Device Manufacturing Inquiries': "title", 'Contact iShine - IPL Device Manufacturing Inquiries",
+      "description": 'Contact iShine Manufacturing for IPL device OEM/ODM inquiries, custom manufacturing solutions, and business partnerships': {
         " Get expert consultation today": {
           "": ""
         }
       },
-      "keywords', 'contact iShine, IPL manufacturing inquiry, OEM ODM consultation, custom IPL devices, beauty device manufacturing': "keywords", 'contact iShine, IPL manufacturing inquiry, OEM ODM consultation, custom IPL devices, beauty device manufacturing"
+      "keywords": 'contact iShine, IPL manufacturing inquiry, OEM ODM consultation, custom IPL devices, beauty device manufacturing': "keywords", 'contact iShine, IPL manufacturing inquiry, OEM ODM consultation, custom IPL devices, beauty device manufacturing"
     },
     "form": {
-      "submitSuccess', 'Thank you for your message! We\\'ll be in touch within 24hrs': {
+      "submitSuccess': 'Thank you for your message! We\\'ll be in touch within 24hrs': {
         "": ""
       },
-      "title', 'What\\'s in your mind? Let\\'s talk!': "title", 'What\\'s in your mind? Let\\'s talk!",
-      "subtitle', 'Fill out this form to get the process started': {
+      "title': 'What\\'s in your mind? Let\\'s talk!': "title", 'What\\'s in your mind? Let\\'s talk!",
+      "subtitle': 'Fill out this form to get the process started': {
         " We\\'ll be in touch within 24hrs": {
           "": ""
         }
       },
-      "name', 'Name*': "name", 'Name*",
-      "email', 'Email Address*': "email", 'Email Address*",
-      "phone', 'Phone number* e': {
+      "name': 'Name*': "name", 'Name*",
+      "email": 'Email Address*': "email", 'Email Address*",
+      "phone": 'Phone number* e': {
         "g": {
           "(+1-541-3456-3001)": "(+1-541-3456-3001)"
         }
       },
-      "country', 'Country': "country", 'Country",
-      "message', 'Describe your needs here*': "message", 'Describe your needs here*",
-      "sending", 'Sending': {
+      "country": 'Country': "country", 'Country",
+      "message": 'Describe your needs here*': "message", 'Describe your needs here*",
+      "sending": {
         "": {
           "": {
             "": ""
           }
         }
       },
-      "submit", 'Submit': "submit", 'Submit"
+      "submit": "Submit": "submit", 'Submit"
     },
-    "title", 'Contact Us': "title", 'Contact Us",
-    "subtitle", 'Get in touch with our team for business inquiries, support, or partnership opportunities': {
-      "": ""
-    },
-    "companyPhotoAlt", 'iShine Manufacturing Facility': "companyPhotoAlt", 'iShine Manufacturing Facility"
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team for business inquiries, support, or partnership opportunities",
+    "companyPhotoAlt": "iShine Manufacturing Facility": "companyPhotoAlt", 'iShine Manufacturing Facility"
   },
   "buttons": {
     "getQuote": "获取报价",
@@ -663,58 +661,58 @@
       "title": "iShine Solutions",
       "description": "Custom solutions for IPL needs.",
       "keywords": "solutions, custom IPL",
-      "title', 'IPL Device Manufacturing Solutions | Custom OEM/ODM Services | iShine': "title", 'IPL Device Manufacturing Solutions | Custom OEM/ODM Services | iShine",
-      "description', 'Comprehensive IPL device manufacturing solutions including logo printing, packaging, drop shipping, global shipping, and brand customization': {
+      "title': 'IPL Device Manufacturing Solutions | Custom OEM/ODM Services | iShine': "title", 'IPL Device Manufacturing Solutions | Custom OEM/ODM Services | iShine",
+      "description": 'Comprehensive IPL device manufacturing solutions including logo printing, packaging, drop shipping, global shipping, and brand customization': {
         " Turn your ideas into market-ready products": {
           "": ""
         }
       },
-      "keywords', 'IPL manufacturing solutions, OEM ODM services, logo printing, packaging solutions, drop shipping, brand customization': "keywords", 'IPL manufacturing solutions, OEM ODM services, logo printing, packaging solutions, drop shipping, brand customization"
+      "keywords": 'IPL manufacturing solutions, OEM ODM services, logo printing, packaging solutions, drop shipping, brand customization': "keywords", 'IPL manufacturing solutions, OEM ODM services, logo printing, packaging solutions, drop shipping, brand customization"
     },
-    "productDesignDevelopment", 'Product Design & Development': "productDesignDevelopment", 'Product Design & Development",
-    "productDesignDevelopmentDescription", 'From initial concept to final design, our expert team brings your IPL vision to life with cutting-edge technology and market insights': {
+    "productDesignDevelopment": 'Product Design & Development': "productDesignDevelopment", 'Product Design & Development",
+    "productDesignDevelopmentDescription": 'From initial concept to final design, our expert team brings your IPL vision to life with cutting-edge technology and market insights': {
       "": ""
     },
-    "oemManufacturing", 'OEM Manufacturing': "oemManufacturing", 'OEM Manufacturing",
-    "oemManufacturingDescription", 'Complete manufacturing solutions with your specifications': {
+    "oemManufacturing": 'OEM Manufacturing': "oemManufacturing", 'OEM Manufacturing",
+    "oemManufacturingDescription": 'Complete manufacturing solutions with your specifications': {
       " We handle production while you focus on your brand and market": {
         "": ""
       }
     },
-    "odmSolutions", 'ODM Solutions': "odmSolutions", 'ODM Solutions",
-    "odmSolutionsDescription", 'Choose from our proven IPL designs and customize them with your branding, packaging, and unique features': {
+    "odmSolutions": 'ODM Solutions': "odmSolutions", 'ODM Solutions",
+    "odmSolutionsDescription": 'Choose from our proven IPL designs and customize them with your branding, packaging, and unique features': {
       "": ""
     },
-    "endToEndSupport", 'End-to-End Support': "endToEndSupport", 'End-to-End Support",
-    "endToEndSupportDescription", 'Complete project management from initial consultation to product launch and beyond, ensuring your success every step of the way': {
+    "endToEndSupport": 'End-to-End Support': "endToEndSupport", 'End-to-End Support",
+    "endToEndSupportDescription": 'Complete project management from initial consultation to product launch and beyond, ensuring your success every step of the way': {
       "": ""
     },
-    "consultation", 'Consultation': "consultation", 'Consultation",
-    "consultationDescription", 'Understand your vision, market, and requirements': "consultationDescription", 'Understand your vision, market, and requirements",
-    "design", 'Design': "design", 'Design",
-    "designDescription", 'Create custom designs or adapt existing solutions': "designDescription", 'Create custom designs or adapt existing solutions",
-    "prototype", 'Prototype': "prototype", 'Prototype",
-    "prototypeDescription", 'Build and test prototypes to ensure quality': "prototypeDescription", 'Build and test prototypes to ensure quality",
-    "manufacturing", 'Manufacturing': "manufacturing", 'Manufacturing",
-    "manufacturingDescription", 'Full-scale production with quality assurance': "manufacturingDescription", 'Full-scale production with quality assurance",
-    "launch", 'Launch': "launch", 'Launch",
-    "launchDescription", 'Support your market entry and ongoing success': "launchDescription", 'Support your market entry and ongoing success",
-    "completeIPLSolutions", 'Complete IPL Solutions': "completeIPLSolutions", 'Complete IPL Solutions",
-    "completeIPLSolutionsDescription", 'From initial concept to market launch, we provide comprehensive OEM/ODM solutions that transform your IPL vision into successful products': {
+    "consultation": 'Consultation': "consultation", 'Consultation",
+    "consultationDescription": 'Understand your vision, market, and requirements': "consultationDescription", 'Understand your vision, market, and requirements",
+    "design": 'Design': "design", 'Design",
+    "designDescription": 'Create custom designs or adapt existing solutions': "designDescription", 'Create custom designs or adapt existing solutions",
+    "prototype": 'Prototype': "prototype", 'Prototype",
+    "prototypeDescription": 'Build and test prototypes to ensure quality': "prototypeDescription", 'Build and test prototypes to ensure quality",
+    "manufacturing": 'Manufacturing': "manufacturing", 'Manufacturing",
+    "manufacturingDescription": 'Full-scale production with quality assurance': "manufacturingDescription", 'Full-scale production with quality assurance",
+    "launch": 'Launch': "launch", 'Launch",
+    "launchDescription": 'Support your market entry and ongoing success': "launchDescription", 'Support your market entry and ongoing success",
+    "completeIPLSolutions": 'Complete IPL Solutions': "completeIPLSolutions", 'Complete IPL Solutions",
+    "completeIPLSolutionsDescription": 'From initial concept to market launch, we provide comprehensive OEM/ODM solutions that transform your IPL vision into successful products': {
       "": ""
     },
-    "ourSolutionPortfolio", 'Our Solution Portfolio': "ourSolutionPortfolio", 'Our Solution Portfolio",
-    "comprehensiveServices", 'Comprehensive services to bring your IPL products to market successfully': "comprehensiveServices", 'Comprehensive services to bring your IPL products to market successfully",
-    "ourProcess", 'Our Process': "ourProcess", 'Our Process",
-    "streamlinedWorkflow", 'Streamlined workflow to ensure your project success': "streamlinedWorkflow", 'Streamlined workflow to ensure your project success",
-    "industriesWeServe", 'Industries We Serve': "industriesWeServe", 'Industries We Serve",
-    "tailoredSolutions", 'Tailored solutions for diverse market segments': "tailoredSolutions", 'Tailored solutions for diverse market segments",
-    "provenSuccess", 'Proven Success': "provenSuccess", 'Proven Success",
-    "numbersSpeak", 'Numbers that speak to our expertise and commitment': "numbersSpeak", 'Numbers that speak to our expertise and commitment",
-    "globalClients", 'Global Clients': "globalClients", 'Global Clients",
-    "productsLaunched", 'Products Launched': "productsLaunched", 'Products Launched",
-    "qualityRate", 'Quality Rate': "qualityRate", 'Quality Rate",
-    "yearsExperience", 'Years Experience': "yearsExperience", 'Years Experience",
+    "ourSolutionPortfolio": 'Our Solution Portfolio': "ourSolutionPortfolio", 'Our Solution Portfolio",
+    "comprehensiveServices": 'Comprehensive services to bring your IPL products to market successfully': "comprehensiveServices", 'Comprehensive services to bring your IPL products to market successfully",
+    "ourProcess": 'Our Process': "ourProcess", 'Our Process",
+    "streamlinedWorkflow": 'Streamlined workflow to ensure your project success': "streamlinedWorkflow", 'Streamlined workflow to ensure your project success",
+    "industriesWeServe": 'Industries We Serve': "industriesWeServe", 'Industries We Serve",
+    "tailoredSolutions": 'Tailored solutions for diverse market segments': "tailoredSolutions", 'Tailored solutions for diverse market segments",
+    "provenSuccess": 'Proven Success': "provenSuccess", 'Proven Success",
+    "numbersSpeak": 'Numbers that speak to our expertise and commitment': "numbersSpeak", 'Numbers that speak to our expertise and commitment",
+    "globalClients": 'Global Clients': "globalClients", 'Global Clients",
+    "productsLaunched": 'Products Launched': "productsLaunched", 'Products Launched",
+    "qualityRate": 'Quality Rate': "qualityRate", 'Quality Rate",
+    "yearsExperience": 'Years Experience': "yearsExperience", 'Years Experience",
     "brandCustomization": {
       "features": {
         "design": {
@@ -942,7 +940,7 @@
         "intro": "了解蓝宝石冷却技术如何改变IPL脱毛治疗的舒适度和安全性。",
         "sections": {
           "introduction": "introduction",
-          "conclusion": "结论"
+          "conclusion": "conclusion"
         }
       },
       "sustainableManufacturing": {
@@ -960,10 +958,10 @@
         }
       }
     },
-    "breadcrumb', 'Blog": "breadcrumb", 'Blog",
+    "breadcrumb': 'Blog": "breadcrumb", 'Blog",
     "iplBestChoice": {
-      "title', 'Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools': "title", 'Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools",
-      "date', 'July 10, 2025': "date", 'July 10, 2025"
+      "title': 'Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools': "title", 'Why IPL Home Hair Removal Devices Are the Best Choice Among All Hair Removal Tools",
+      "date': 'July 10, 2025': "date", 'July 10, 2025"
     }
   },
   "shippingCost": {
@@ -974,10 +972,10 @@
       "description": "Estimate delivery costs.",
       "keywords": "shipping cost, delivery estimate"
     },
-    "title', 'Shipping Cost Calculator': "title", 'Shipping Cost Calculator",
-    "destinationCountry", 'Destination Country': "destinationCountry", 'Destination Country",
-    "productQuantity", 'Product Quantity': "productQuantity", 'Product Quantity",
-    "calculate", 'Calculate': "calculate", 'Calculate"
+    "title': 'Shipping Cost Calculator': "title", 'Shipping Cost Calculator",
+    "destinationCountry": "Destination Country": "destinationCountry", 'Destination Country",
+    "productQuantity": "Product Quantity": "productQuantity", 'Product Quantity",
+    "calculate": "Calculate": "calculate", 'Calculate"
   },
   "sitemap": {
     "title": "Sitemap",
@@ -1083,13 +1081,13 @@
       "title": "IPL Hair Removal Devices | Smart App, Ice Cooling, AI-Powered | iShine",
       "description": "Professional IPL hair removal devices including smart app-controlled, ice cooling, AI-powered, and skin sensor models. Custom manufacturing for beauty brands worldwide.",
       "keywords": "IPL hair removal devices, smart IPL, ice cooling IPL, AI-powered IPL, skin sensor IPL, beauty devices",
-      "title', 'IPL Hair Removal Devices | Smart App, Ice Cooling, AI-Powered | iShine': "title", 'IPL Hair Removal Devices | Smart App, Ice Cooling, AI-Powered | iShine",
-      "description', 'Professional IPL hair removal devices including smart app-controlled, ice cooling, AI-powered, and skin sensor models': {
+      "title': 'IPL Hair Removal Devices | Smart App, Ice Cooling, AI-Powered | iShine': "title", 'IPL Hair Removal Devices | Smart App, Ice Cooling, AI-Powered | iShine",
+      "description": 'Professional IPL hair removal devices including smart app-controlled, ice cooling, AI-powered, and skin sensor models': {
         " Custom manufacturing for beauty brands worldwide": {
           "": ""
         }
       },
-      "keywords', 'IPL hair removal devices, smart IPL, ice cooling IPL, AI-powered IPL, skin sensor IPL, beauty devices': "keywords", 'IPL hair removal devices, smart IPL, ice cooling IPL, AI-powered IPL, skin sensor IPL, beauty devices"
+      "keywords": 'IPL hair removal devices, smart IPL, ice cooling IPL, AI-powered IPL, skin sensor IPL, beauty devices': "keywords", 'IPL hair removal devices, smart IPL, ice cooling IPL, AI-powered IPL, skin sensor IPL, beauty devices'
     },
     "heroTitle": "专业IPL脱毛解决方案",
     "heroDescription": "探索下一代IPL脱毛设备——安全、有效，适用于所有肌肤类型。在家中或您的企业体验沙龙级效果。",
@@ -1105,13 +1103,13 @@
       "title": "About iShine - IPL Device Manufacturer",
       "description": "Discover iShine's story, technology, and commitment to excellence in IPL manufacturing.",
       "keywords": "about iShine, IPL manufacturer story, company information",
-      "title', 'About iShine - Leading IPL Device Manufacturer | Innovation & Quality': "title", 'About iShine - Leading IPL Device Manufacturer | Innovation & Quality",
-      "description', 'Discover iShine\\'s journey as a leading IPL device manufacturer': {
+      "title': 'About iShine - Leading IPL Device Manufacturer | Innovation & Quality': "title", 'About iShine - Leading IPL Device Manufacturer | Innovation & Quality",
+      "description": 'Discover iShine\\'s journey as a leading IPL device manufacturer': {
         " Learn about our innovation, quality standards, and commitment to excellence in beauty device manufacturing": {
           "": ""
         }
       },
-      "keywords', 'about iShine, IPL manufacturer, beauty device company, innovation, quality, manufacturing excellence': "keywords", 'about iShine, IPL manufacturer, beauty device company, innovation, quality, manufacturing excellence"
+      "keywords": 'about iShine, IPL manufacturer, beauty device company, innovation, quality, manufacturing excellence': "keywords", 'about iShine, IPL manufacturer, beauty device company, innovation, quality, manufacturing excellence'
     },
     "brandStory": {
       "title": "Brand Story",
@@ -1234,9 +1232,9 @@
         "description": "How we ensure top-quality IPL devices.",
         "keywords": "iShine quality, manufacturing standards"
       },
-      "heroTitle", 'Quality You Can Trust': "heroTitle", 'Quality You Can Trust",
-      "ctaTitle", 'Want to Know More About iShine Quality?': "ctaTitle", 'Want to Know More About iShine Quality?',
-      "ctaDesc", 'Contact us for detailed quality documentation, certifications, and case studies': {
+      "heroTitle": 'Quality You Can Trust': "heroTitle", 'Quality You Can Trust",
+      "ctaTitle": 'Want to Know More About iShine Quality?': "ctaTitle", 'Want to Know More About iShine Quality?',
+      "ctaDesc": 'Contact us for detailed quality documentation, certifications, and case studies': {
         "": ""
       }
     },
@@ -1844,8 +1842,8 @@
       "description": "Country-specific IPL solutions.",
       "keywords": "country IPL, localized services"
     },
-    "title', 'iShine - IPL Device Manufacturing Solutions | Global': "title", 'iShine - IPL Device Manufacturing Solutions | Global",
-    "description', 'Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide': {
+    "title': 'iShine - IPL Device Manufacturing Solutions | Global': "title", 'iShine - IPL Device Manufacturing Solutions | Global",
+    "description": 'Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide': {
       "": ""
     }
   },
@@ -1856,13 +1854,13 @@
       "title": "How to Use IPL Devices",
       "description": "Step-by-step usage guide.",
       "keywords": "IPL usage, how to guide",
-      "title', 'How to Use IPL Hair Removal Devices | Complete Guide | iShine': "title", 'How to Use IPL Hair Removal Devices | Complete Guide | iShine",
-      "description', 'Learn how to use IPL hair removal devices safely and effectively': {
+      "title': 'How to Use IPL Hair Removal Devices | Complete Guide | iShine': "title", 'How to Use IPL Hair Removal Devices | Complete Guide | iShine",
+      "description": 'Learn how to use IPL hair removal devices safely and effectively': {
         " Complete guide with step-by-step instructions, safety tips, and best practices": {
           "": ""
         }
       },
-      "keywords', 'how to use IPL, IPL hair removal guide, IPL device instructions, IPL safety tips, IPL treatment guide': "keywords", 'how to use IPL, IPL hair removal guide, IPL device instructions, IPL safety tips, IPL treatment guide"
+      "keywords": 'how to use IPL, IPL hair removal guide, IPL device instructions, IPL safety tips, IPL treatment guide': "keywords", 'how to use IPL, IPL hair removal guide, IPL device instructions, IPL safety tips, IPL treatment guide'
     },
     "steps": {
       "preparation": {
@@ -2040,13 +2038,13 @@
       "title": "iShine Support",
       "description": "Comprehensive support for customers.",
       "keywords": "support, service",
-      "title', 'Service & Support | IPL Device Manufacturing Support | iShine': "title", 'Service & Support | IPL Device Manufacturing Support | iShine",
-      "description', 'Comprehensive service and support for IPL device manufacturers': {
+      "title': 'Service & Support | IPL Device Manufacturing Support | iShine': "title", 'Service & Support | IPL Device Manufacturing Support | iShine",
+      "description": 'Comprehensive service and support for IPL device manufacturers': {
         " After-sales service, technical support, knowledge base, and manufacturing assistance": {
           "": ""
         }
       },
-      "keywords', 'IPL service support, after-sales service, technical support, manufacturing support, knowledge base': "keywords", 'IPL service support, after-sales service, technical support, manufacturing support, knowledge base"
+      "keywords": 'IPL service support, after-sales service, technical support, manufacturing support, knowledge base': "keywords", 'IPL service support, after-sales service, technical support, manufacturing support, knowledge base'
     },
     "categories": {
       "technicalSupport": {
