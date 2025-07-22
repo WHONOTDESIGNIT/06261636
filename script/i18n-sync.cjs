@@ -74,6 +74,31 @@ function deepFix(enObj, langObj = {}) {
   return result;
 }
 
+function readJsonSafely(filePath) {
+  try {
+    const content = fs.readFileSync(filePath, 'utf8')
+      .replace(/^\uFEFF/, '') // Remove BOM if present
+      .replace(/,(\s*[}\]])/g, '$1') // Remove trailing commas
+      .replace(/\/\/.*/g, '') // Remove single-line comments
+      .replace(/\/\*[\s\S]*?\*\//g, ''); // Remove multi-line comments
+    return JSON.parse(content);
+  } catch (e) {
+    console.error(`Error reading ${filePath}:`, e.message);
+    return {};
+  }
+}
+
+function writeJsonSafely(filePath, data) {
+  try {
+    const content = JSON.stringify(data, null, 2);
+    fs.writeFileSync(filePath, content + '\n', 'utf8');
+    return true;
+  } catch (e) {
+    console.error(`Error writing ${filePath}:`, e.message);
+    return false;
+  }
+}
+
 const translationsDir = path.join(__dirname, '../src/translations');
 const enPath = path.join(translationsDir, 'en.json');
 
@@ -82,31 +107,32 @@ function main() {
   console.log('Starting full en.json update...');
   const allKeys = getAllKeys();
   const nestedObj = buildNestedObject(allKeys);
-  let enData;
-  try {
-    enData = JSON.parse(fs.readFileSync(enPath, 'utf8'));
-  } catch (e) {
-    enData = {};
-  }
+  const enData = readJsonSafely(enPath);
   deepMerge(enData, nestedObj);
-  fs.writeFileSync(enPath, JSON.stringify(enData, null, 2) + '\n', 'utf8');
-  console.log('✅ en.json updated successfully with all keys from codebase.');
+  if (writeJsonSafely(enPath, enData)) {
+    console.log('✅ en.json updated successfully with all keys from codebase.');
+  }
 }
 
 function syncAllLanguages() {
-  const enJsonPath = path.join(translationsDir, 'en.json');
-  const enJson = JSON.parse(fs.readFileSync(enJsonPath, 'utf8'));
-  const langFiles = fs.readdirSync(translationsDir).filter(f => f.endsWith('.json') && f !== 'en.json');
+  const enJson = readJsonSafely(path.join(translationsDir, 'en.json'));
+  if (!Object.keys(enJson).length) {
+    console.error('❌ Failed to read en.json');
+    return;
+  }
+
+  const langFiles = fs.readdirSync(translationsDir)
+    .filter(f => f.endsWith('.json') && f !== 'en.json');
+
   langFiles.forEach(file => {
     const langCode = file.replace('.json', '');
     const langPath = path.join(translationsDir, file);
-    let langJson = {};
-    if (fs.existsSync(langPath)) {
-      langJson = JSON.parse(fs.readFileSync(langPath, 'utf8'));
-    }
+    const langJson = readJsonSafely(langPath);
     const fixedJson = deepFix(enJson, langJson);
-    fs.writeFileSync(langPath, JSON.stringify(fixedJson, null, 2), 'utf8');
-    console.log(`✅ Synced ${langCode}.json`);
+    
+    if (writeJsonSafely(langPath, fixedJson)) {
+      console.log(`✅ Synced ${langCode}.json`);
+    }
   });
 }
 
