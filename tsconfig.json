@@ -17,10 +17,10 @@
     "jsx": "react-jsx",
 
     /* Linting */
-    "strict": false,
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
-    "noFallthroughCasesInSwitch": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
     
     /* Additional Options */
     "allowJs": true,
@@ -28,8 +28,9 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "skipDefaultLibCheck": true,
+    "noStrictGenericChecks": true
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
