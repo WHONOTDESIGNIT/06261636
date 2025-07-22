@@ -25,7 +25,7 @@ i18next
   .use(LanguageDetector)
   .use(HttpBackend)
   .use(resourcesToBackend((language: string) => import(`./translations/${language}.json`)))
-  .init(config as any)
+  .init(config)
   .then(() => {
     console.log('i18next initialized successfully');
   })
