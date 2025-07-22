@@ -1,43 +1,60 @@
 import i18next from 'i18next';
+import { InitOptions } from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import HttpBackend from 'i18next-http-backend';
 import resourcesToBackend from 'i18next-resources-to-backend';
 
-// Add type declarations
+// Add type declarations for modules without @types packages
+declare module 'i18next-http-backend' {
+  export default class HttpBackend {
+    constructor(services: any, options: any);
+    init(services: any, options: any): void;
+    read(language: string, namespace: string, callback: Function): void;
+  }
+}
+
+declare module 'i18next-resources-to-backend' {
+  export default function resourcesToBackend(
+    resources: ((language: string) => Promise<any>) | { [key: string]: any }
+  ): any;
+}
+
 declare module 'i18next' {
   interface CustomTypeOptions {
     returnNull: false;
   }
 }
 
+const initOptions: InitOptions = {
+  fallbackLng: 'en',
+  interpolation: { escapeValue: false },
+  detection: {
+    order: ['path', 'localStorage', 'navigator'],
+    caches: ['localStorage']
+  },
+  debug: true,
+  react: {
+    useSuspense: false
+  },
+  returnNull: false,
+  returnEmptyString: false,
+  saveMissing: true,
+  saveMissingTo: 'all',
+  missingKeyHandler: (lngs: readonly string[], ns: string, key: string, fallbackValue: string, updateMissing: boolean, options: any) => {
+    console.warn(`Missing translation key: ${key} for languages: ${lngs.join(', ')} in namespace: ${ns}`);
+    console.warn('Fallback value:', fallbackValue);
+    console.warn('Update missing:', updateMissing);
+    console.warn('Options:', options);
+  }
+};
+
 i18next
   .use(initReactI18next)
   .use(LanguageDetector)
   .use(HttpBackend)
   .use(resourcesToBackend((language: string) => import(`./translations/${language}.json`)))
-  .init({
-    fallbackLng: 'en',
-    interpolation: { escapeValue: false },
-    detection: {
-      order: ['path', 'localStorage', 'navigator'],
-      caches: ['localStorage']
-    },
-    debug: true, // Enable debug mode to see what's happening
-    react: {
-      useSuspense: false // Disable Suspense to avoid loading issues
-    },
-    returnNull: false,
-    returnEmptyString: false,
-    saveMissing: true,
-    saveMissingTo: 'all',
-    missingKeyHandler: (lngs: readonly string[], ns: string, key: string, fallbackValue: string, updateMissing: boolean, options: any) => {
-      console.warn(`Missing translation key: ${key} for languages: ${lngs.join(', ')} in namespace: ${ns}`);
-      console.warn('Fallback value:', fallbackValue);
-      console.warn('Update missing:', updateMissing);
-      console.warn('Options:', options);
-    }
-  });
+  .init(initOptions);
 
 // Add event listeners for debugging
 i18next.on('initialized', (options: any) => {
