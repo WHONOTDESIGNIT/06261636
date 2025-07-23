@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState, useEffect, useCallback } from 'react';
 import { useTranslation } from '../hooks/useTranslation';
 import { LanguageContext } from '../context/LanguageContext';
 
@@ -207,7 +207,7 @@ type ImageBlob = {
 };
 
 const AdminDashboard = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('en'); // 添加默认语言参数
   const [blobs, setBlobs] = useState<ImageBlob[]>([]);
   const [selectedBlobs, setSelectedBlobs] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(false);
