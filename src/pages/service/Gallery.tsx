@@ -2,10 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Camera, Image, Eye, Download } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
-import { useTranslation } from '../../hooks/useTranslation';
+import { useLanguage } from '../../context/LanguageContext';
 
 const Gallery: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
 
   return (
     <div className="min-h-screen pt-20">
