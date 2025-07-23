@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { useTranslation } from '../hooks/useTranslation';
+import { LanguageContext } from '../context/LanguageContext';
 
 interface BlogPost {
   id: string;
@@ -323,9 +324,19 @@ const AdminDashboard = () => {
   );
 
   return (
-    <div className="admin-container">
-      {/* 头部和搜索框代码保持不变 */}
-      
+    <div className="admin-container" style={{ marginTop: '200px' }}>
+      {/* 头部和搜索框 */}
+      <header className="admin-header">
+        <h1>{t('admin.title')}</h1>
+        <div className="search-box">
+          <input 
+            type="text" 
+            placeholder={t('admin.search_placeholder')}
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
+        </div>
+      </header>
       {/* 上传区域 */}
       <section className="upload-section">
         <FileDropzone 
