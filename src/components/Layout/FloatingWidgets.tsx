@@ -4,7 +4,7 @@ import { useLanguage } from '../../context/LanguageContext';
 
 const FloatingWidgets: React.FC = () => {
   const [showBackToTop, setShowBackToTop] = useState(false);
-  const { t, loading } = useLanguage();
+  const { t } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,11 +22,6 @@ const FloatingWidgets: React.FC = () => {
   const openWhatsApp = () => {
     window.open('https://wa.me/8615012891148', '_blank');
   };
-
-  // 如果翻译还在加载中，返回null避免错误
-  if (loading) {
-    return null;
-  }
 
   return (
     <div className="fixed bottom-6 right-6 z-40 flex flex-col space-y-4">
