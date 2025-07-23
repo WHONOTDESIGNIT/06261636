@@ -7,18 +7,17 @@ import { Helmet } from 'react-helmet';
 
 const CountryPage: React.FC = () => {
   const { countryCode } = useParams<{ countryCode: string }>();
-  const { setLanguage, currentCountry, t } = useLanguage();
+  const { setLanguage, t } = useLanguage();
 
   // 用t()国际化title和description
   const title = t('countryPage.title', 'iShine - IPL Device Manufacturing Solutions | Global');
   const description = t('countryPage.description', 'Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide.');
 
   useEffect(() => {
-    if (countryCode && countryCode !== currentCountry) {
+    if (countryCode) {
       // 静态确定语言，不触发页面重定向
       const detectedLanguage = getLanguageFromCountryCode(countryCode);
-      setLanguage(detectedLanguage, countryCode);
-      
+      setLanguage(detectedLanguage);
       // 更新SEO标签但不触发重定向
       updateMetaTags(countryCode);
     } else {
@@ -29,7 +28,7 @@ const CountryPage: React.FC = () => {
         metaDescription.setAttribute('content', description);
       }
     }
-  }, [countryCode, setLanguage, currentCountry, title, description]);
+  }, [countryCode, setLanguage, title, description]);
 
   const updateMetaTags = (countryCode: string) => {
     // 国家特定的页面元数据
