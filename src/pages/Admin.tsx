@@ -466,3 +466,23 @@ const EditMetadataModal = ({ blob, onClose, onSave }: {
 };
 
 export default AdminDashboard;
+
+// 定义ImageCard组件
+const ImageCard = ({ blob, isSelected, onSelect, onEdit }: {
+blob: ImageBlob;
+isSelected: boolean;
+onSelect: (selected: boolean) => void;
+onEdit: () => void;
+}) => {
+return (
+<div className="image-card">
+<input 
+type="checkbox" 
+checked={isSelected}
+onChange={(e) => onSelect(e.target.checked)}
+/>
+<img src={blob.url} alt={blob.metadata.altText || ''} />
+<button onClick={onEdit}>编辑</button>
+</div>
+);
+};
