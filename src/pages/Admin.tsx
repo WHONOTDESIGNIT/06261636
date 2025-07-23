@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect, useCallback } from 'react';
 import { useTranslation } from '../hooks/useTranslation';
-import { LanguageContext } from '../context/LanguageContext';
+// 删除这行：import { LanguageContext } from '../context/LanguageContext';
 
 interface BlogPost {
   id: string;
