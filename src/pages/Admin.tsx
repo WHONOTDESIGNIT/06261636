@@ -199,7 +199,7 @@ type ImageBlob = {
   metadata: {
     size: number;
     width?: number;
-    height?: number;
+    height?: height;
     uploadTime: string;
     altText?: string;
     categories?: string[];
@@ -207,7 +207,7 @@ type ImageBlob = {
 };
 
 const AdminDashboard = () => {
-  const { t } = useTranslation('en'); // 添加默认语言参数
+  const { t } = useTranslation('en');
   const [blobs, setBlobs] = useState<ImageBlob[]>([]);
   const [selectedBlobs, setSelectedBlobs] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(false);
