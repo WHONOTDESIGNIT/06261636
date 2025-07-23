@@ -2,10 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Lightbulb, Zap, Award, Target } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
-import { useTranslation } from '../../hooks/useTranslation';
+import { useLanguage } from '../../context/LanguageContext';
 
 const DualLampIPLDevice: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
   return (
     <div className="min-h-screen pt-20">
       <section className="bg-gradient-to-r from-ishine-purple-500 to-ishine-orange-500 text-white py-16">
