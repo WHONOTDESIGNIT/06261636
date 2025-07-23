@@ -1,6 +1,6 @@
-const { getStore } = require('@netlify/blobs');
+import { getStore } from '@netlify/blobs';
 
-exports.handler = async () => {
+export async function handler(event, context) {
   const store = getStore({ name: 'BlogPosts', consistency: 'strong' });
   const keys = await store.list();
   const posts = [];
@@ -10,11 +10,10 @@ exports.handler = async () => {
       posts.push({ id: key, ...JSON.parse(post) });
     }
   }
-  // 按时间倒序
   posts.sort((a, b) => b.id.localeCompare(a.id));
   return {
     statusCode: 200,
     body: JSON.stringify(posts),
     headers: { 'Content-Type': 'application/json' }
   };
-}; 
+} 
