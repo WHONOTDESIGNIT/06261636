@@ -6,7 +6,6 @@ import Silk from './Silk';
 import { iplDevices } from '../data/products';
 import { useLanguage } from '../context/LanguageContext';
 import SEOTags from '../components/SEO/SEOTags';
-import UploadForm from '../components/UploadForm';
 
 const heroBg = "bg-gradient-to-br from-blue-700 via-indigo-500 to-purple-600";
 
