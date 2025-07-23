@@ -257,9 +257,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 图片上传表单与预览（React组件） */}
-      <UploadForm />
-
       {/* Brand Empowerment / USP */}
       <section className="py-16 px-4 md:px-0 bg-gradient-to-r from-blue-100 via-white to-purple-100">
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
