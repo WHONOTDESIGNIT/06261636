@@ -1,10 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import { useTranslation } from '../../hooks/useTranslation';
+import { useLanguage } from '../../context/LanguageContext';
 
 const NewsInsights: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
 
   const jsonLd = {
     "@context": "https://schema.org",
