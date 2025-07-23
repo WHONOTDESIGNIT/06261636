@@ -10,7 +10,7 @@ import {
   ClipboardCheck
 } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
-import { useTranslation } from '../../hooks/useTranslation';
+import { useLanguage } from '../../context/LanguageContext';
 
 const whyChoose = [
   {
@@ -114,7 +114,7 @@ const frequentProducts = [
 ];
 
 const BeautySourcing: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
 
   return (
     <div className="min-h-screen pt-20 overflow-x-hidden">
