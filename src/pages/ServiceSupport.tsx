@@ -17,11 +17,11 @@ import {
   Heart
 } from 'lucide-react';
 import ContactFormA from '../components/Forms/ContactFormA';
-import { useTranslation } from '../hooks/useTranslation';
+import { useLanguage } from '../context/LanguageContext';
 import SEOTags from '../components/SEO/SEOTags';
 
 const ServiceSupport: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
 
   const serviceCategories = [
     {
