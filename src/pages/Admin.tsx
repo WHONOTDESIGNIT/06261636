@@ -31,9 +31,19 @@ const AdminPage: React.FC = () => {
 
   // 获取所有博文
   const fetchPosts = async () => {
-    const res = await fetch('/.netlify/functions/list-posts');
-    const data = await res.json();
-    setPosts(data);
+    try {
+      const res = await fetch('/.netlify/functions/list-posts');
+      const data = await res.json();
+      if (Array.isArray(data)) {
+        setPosts(data);
+      } else {
+        setPosts([]);
+        console.error('list-posts 返回的不是数组:', data);
+      }
+    } catch (err) {
+      setPosts([]);
+      console.error('list-posts 接口异常:', err);
+    }
   };
 
   useEffect(() => {
