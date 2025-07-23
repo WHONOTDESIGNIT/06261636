@@ -10,10 +10,10 @@ import {
   Info
 } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
-import { useTranslation } from '../../hooks/useTranslation';
+import { useLanguage } from '../../context/LanguageContext';
 
 const AfterSalesService: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
 
   const scenarios: string[] = [
     'Not reviewing the user manual thoroughly before use',
