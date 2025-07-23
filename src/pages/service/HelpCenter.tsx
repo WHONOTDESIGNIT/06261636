@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { HelpCircle, MessageCircle, Phone, Mail } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 import { Package, ShieldCheck, Award, Snowflake, Truck } from 'lucide-react';
-import { useTranslation } from '../../hooks/useTranslation';
+import { useLanguage } from '../../context/LanguageContext';
 
 // QA 数据结构
 interface QA {
@@ -17,7 +17,7 @@ interface Category {
 }
 
 const HelpCenter: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
   const [open, setOpen] = useState<{ catIdx: number; qaIdx: number } | null>(null);
 
   const helpQaData: Category[] = [
