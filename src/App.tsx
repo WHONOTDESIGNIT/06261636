@@ -85,6 +85,7 @@ import Sitemap from './pages/Sitemap';
 
 // Shipping Cost Page
 import ShippingCostPage from './pages/shipping-cost';
+import AdminPage from './pages/Admin';
 
 // 404 Not Found Page
 const NotFound: React.FC = () => (
@@ -201,7 +202,8 @@ const routes = [
   { path: 'blog/sustainable-manufacturing', element: <SustainableManufacturing /> },
   { path: 'iplmanufacturer/:countryCode', element: <CountryPage /> },
   { path: 'sitemap', element: <Sitemap /> },
-  { path: 'shipping-cost', element: <ShippingCostPage /> }
+  { path: 'shipping-cost', element: <ShippingCostPage /> },
+  { path: 'admin', element: <AdminPage /> }
 ];
 
 const App: React.FC = () => (
