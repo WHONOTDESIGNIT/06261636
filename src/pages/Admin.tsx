@@ -1,12 +1,6 @@
-import React, { useRef, useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useTranslation } from '../hooks/useTranslation';
 // 删除这行：import { LanguageContext } from '../context/LanguageContext';
-
-interface BlogPost {
-  id: string;
-  title: string;
-  content: string;
-}
 
 // 1. 移除未使用的 AdminPage 组件
 // const AdminPage: React.FC = () => { ... } // 整个组件实现删除
