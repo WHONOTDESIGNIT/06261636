@@ -205,7 +205,7 @@ const routes = [
 ];
 
 const App: React.FC = () => (
-  <HelmetProvider>
+  <HelmetProvider context={{}}>
     <BrowserRouter>
       <LanguageProvider>
         <Routes>
