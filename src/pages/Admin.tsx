@@ -10,7 +10,7 @@ const AdminPage: React.FC = () => {
   // 图片上传
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [uploadResult, setUploadResult] = useState<string>('');
-  const [gallery, setGallery] = useState<string[]>([]);
+  const [gallery, setGallery] = useState<{ key: string, metadata: any }[]>([]);
   const [loading, setLoading] = useState(false);
 
   // 博文管理
@@ -24,8 +24,8 @@ const AdminPage: React.FC = () => {
   const fetchGallery = async () => {
     setLoading(true);
     const res = await fetch('/.netlify/functions/list-images');
-    const keys = await res.json();
-    setGallery(keys);
+    const images = await res.json();
+    setGallery(images);
     setLoading(false);
   };
 
@@ -132,12 +132,14 @@ const AdminPage: React.FC = () => {
         <h3>图册管理</h3>
         {loading ? <div>加载中...</div> : (
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 16 }}>
-            {gallery.map(key => (
-              <div key={key} style={{ border: '1px solid #ddd', padding: 8, borderRadius: 8, background: '#fff' }}>
-                <img src={`/.netlify/functions/get-image?key=${key}`} alt={key} style={{ width: 120, height: 120, objectFit: 'cover', display: 'block', marginBottom: 8 }} />
-                <div style={{ fontSize: 12, wordBreak: 'break-all' }}>{key}</div>
-                <button onClick={() => navigator.clipboard.writeText(`/.netlify/functions/get-image?key=${key}`)}>复制链接</button>
-                <button onClick={() => handleDelete(key)} style={{ color: 'red', marginLeft: 8 }}>删除</button>
+            {gallery.map(img => (
+              <div key={img.key} style={{ border: '1px solid #ddd', padding: 8, borderRadius: 8, background: '#fff' }}>
+                <img src={`/.netlify/functions/get-image?key=${img.key}`} alt={img.key} style={{ width: 120, height: 120, objectFit: 'cover', display: 'block', marginBottom: 8 }} />
+                <div style={{ fontSize: 12, wordBreak: 'break-all' }}>{img.metadata?.name || img.key}</div>
+                <div style={{ fontSize: 12, color: '#888' }}>大小: {img.metadata?.size || '-'} bytes</div>
+                <div style={{ fontSize: 12, color: '#888' }}>上传: {img.metadata?.uploadTime ? new Date(img.metadata.uploadTime).toLocaleString() : '-'}</div>
+                <button onClick={() => navigator.clipboard.writeText(`/.netlify/functions/get-image?key=${img.key}`)}>复制链接</button>
+                <button onClick={() => handleDelete(img.key)} style={{ color: 'red', marginLeft: 8 }}>删除</button>
               </div>
             ))}
           </div>
