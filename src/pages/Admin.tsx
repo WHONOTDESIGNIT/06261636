@@ -45,15 +45,17 @@ const AdminPage: React.FC = () => {
   const handleUpload = async (e: React.FormEvent) => {
     e.preventDefault();
     const fileInput = fileInputRef.current;
-    if (!fileInput || !fileInput.files || !fileInput.files[0]) {
+    if (!fileInput || !fileInput.files || fileInput.files.length === 0) {
       alert('请选择图片');
       return;
     }
     const formData = new FormData();
-    formData.append('file', fileInput.files[0]);
+    for (let i = 0; i < fileInput.files.length; i++) {
+      formData.append('file', fileInput.files[i]);
+    }
     const res = await fetch('/.netlify/functions/upload', { method: 'POST', body: formData });
-    const key = await res.text();
-    setUploadResult(`上传成功，Key：${key}`);
+    const result = await res.json();
+    setUploadResult(`上传成功，Keys：${result.keys.join(', ')}`);
     fetchGallery();
   };
 
@@ -113,7 +115,7 @@ const AdminPage: React.FC = () => {
       <div style={{ flex: 1, padding: 32, borderRight: '1px solid #eee' }}>
         <h2>图片上传</h2>
         <form onSubmit={handleUpload} encType="multipart/form-data" style={{ marginBottom: 24 }}>
-          <input type="file" name="file" accept="image/*" ref={fileInputRef} />
+          <input type="file" name="file" accept="image/*" ref={fileInputRef} multiple />
           <button type="submit" style={{ marginLeft: 8 }}>上传</button>
         </form>
         <div style={{ color: 'green', marginBottom: 16 }}>{uploadResult}</div>
