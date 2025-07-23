@@ -1,8 +1,8 @@
 import React from 'react';
-import { useTranslation } from '../../hooks/useTranslation';
+import { useLanguage } from '../../context/LanguageContext';
 
 const MultiHeadIPLSystems: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
   return (
     <div className="min-h-screen bg-white pt-20 px-4 md:px-0">
       <section className="max-w-4xl mx-auto py-12">
