@@ -12,7 +12,7 @@ import {
   AlertCircle
 } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
-import { useTranslation } from '../../hooks/useTranslation';
+import { useLanguage } from '../../context/LanguageContext';
 
 interface QA {
   question: string;
@@ -346,7 +346,7 @@ const faqData: Category[] = [
 ];
 
 const KnowledgeBase: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
   const [open, setOpen] = useState<{ catIdx: number; qaIdx: number } | null>(null);
   // 删除 'iShine: Refunds & 100-day money back guarantee' 板块
   const filteredFaqData = faqData.filter(cat => cat.title !== 'iShine: Troubleshooting' && cat.title !== 'iShine: Refunds & 100-day money back guarantee');
