@@ -2,10 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Brain, Cpu, BarChart3, Sparkles } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
-import { useTranslation } from '../../hooks/useTranslation';
+import { useLanguage } from '../../context/LanguageContext';
 
 const AIPoweredIPL: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
   return (
     <div className="min-h-screen pt-20">
       <section className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white py-16">
