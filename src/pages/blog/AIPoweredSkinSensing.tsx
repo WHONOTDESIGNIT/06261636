@@ -1,207 +1,58 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-import { Link } from 'react-router-dom';
-import { useTranslation } from '../../hooks/useTranslation';
+import { motion } from 'framer-motion';
+import { Brain, Cpu, BarChart3, Sparkles } from 'lucide-react';
+import ContactFormA from '../../components/Forms/ContactFormA';
+import { useLanguage } from '../../context/LanguageContext';
 
-const AIPoweredSkinSensing: React.FC = () => {
-  const { t } = useTranslation();
-
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": t('blog.posts.aiPoweredSkinSensing.title'),
-    "description": t('blog.posts.aiPoweredSkinSensing.intro'),
-    "author": {
-      "@type": "Organization",
-      "name": "SHENZHEN ISHINE TECHNOLOGY COMPANY LIMITED"
-    },
-    "datePublished": "2024-06-28",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "/blog/ai-powered-skin-sensing"
-    }
-  };
-
+const AIPoweredIPL: React.FC = () => {
+  const { t } = useLanguage();
   return (
-    <div className="min-h-screen bg-white" style={{ wordSpacing: '0.1em' }}>
-      <Helmet>
-        <title>{t('blog.posts.aiPoweredSkinSensing.title')}</title>
-        <meta name="description" content={t('blog.posts.aiPoweredSkinSensing.intro')} />
-        <meta name="keywords" content="AI skin sensing, smart IPL devices, skin tone detection, personalized beauty treatment, artificial intelligence" />
-        <link rel="canonical" href="/blog/ai-powered-skin-sensing" />
-        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
-      </Helmet>
-      
-      {/* Hero Banner */}
-      <div 
-        className="w-full py-16 px-4"
-        style={{
-          background: 'linear-gradient(135deg, #1a365d 0%, #2c5282 50%, #1a365d 100%)',
-          minHeight: '400px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center'
-        }}
-      >
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="mb-6 text-center">
-            <span style={{ color: '#a0aec0', fontSize: '14px', fontWeight: '400' }}>
-              🏠 Blog
-            </span>
-          </div>
-          
-          <h1 
-            style={{
-              fontSize: '3rem',
-              fontWeight: '700',
-              color: '#ffffff',
-              lineHeight: '1.1',
-              marginBottom: '16px',
-              letterSpacing: '-0.02em',
-              textAlign: 'center'
-            }}
+    <div className="min-h-screen pt-20">
+      <section className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="text-center"
           >
-            {t('blog.posts.aiPoweredSkinSensing.title')}
-          </h1>
-          
-          <p 
-            style={{
-              color: '#a0aec0',
-              fontSize: '16px',
-              fontWeight: '400',
-              marginTop: '20px',
-              textAlign: 'left'
-            }}
-          >
-            {t('aiPoweredSkinSensing.publishDate')}
-          </p>
+            <Brain className="w-16 h-16 mx-auto mb-6 text-white" />
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('ipl.aiPowered.title')}</h1>
+            <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
+              {t('ipl.aiPowered.desc')}
+            </p>
+          </motion.div>
         </div>
-      </div>
-      
-      <article className="max-w-4xl mx-auto px-5 py-16" style={{ lineHeight: '1.7', wordSpacing: '0.1em' }}>
-        {/* Introduction */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('blog.posts.aiPoweredSkinSensing.sections.introduction')}</h2>
-          <p className="text-lg text-gray-700 mb-6">{t('aiPoweredSkinSensing.introduction.content')}</p>
-        </section>
+      </section>
 
-        {/* How AI Skin Sensing Works */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('aiPoweredSkinSensing.howItWorks.title')}</h2>
-          <p className="text-lg text-gray-700 mb-6">{t('aiPoweredSkinSensing.howItWorks.content')}</p>
-          
-          <div className="space-y-6">
-            <div className="border-l-4 border-blue-500 pl-4">
-              <h3 className="font-semibold text-lg">{t('aiPoweredSkinSensing.steps.detection.title')}</h3>
-              <p className="text-gray-700">{t('aiPoweredSkinSensing.steps.detection.desc')}</p>
-            </div>
-            <div className="border-l-4 border-green-500 pl-4">
-              <h3 className="font-semibold text-lg">{t('aiPoweredSkinSensing.steps.analysis.title')}</h3>
-              <p className="text-gray-700">{t('aiPoweredSkinSensing.steps.analysis.desc')}</p>
-            </div>
-            <div className="border-l-4 border-purple-500 pl-4">
-              <h3 className="font-semibold text-lg">{t('aiPoweredSkinSensing.steps.adaptation.title')}</h3>
-              <p className="text-gray-700">{t('aiPoweredSkinSensing.steps.adaptation.desc')}</p>
-            </div>
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {[
+              { icon: Brain, title: t('ipl.aiPowered.features.aiTech'), description: t('ipl.aiPowered.features.aiTechDesc') },
+              { icon: Cpu, title: t('ipl.aiPowered.features.smartProcessing'), description: t('ipl.aiPowered.features.smartProcessingDesc') },
+              { icon: BarChart3, title: t('ipl.aiPowered.features.analytics'), description: t('ipl.aiPowered.features.analyticsDesc') },
+              { icon: Sparkles, title: t('ipl.aiPowered.features.personalized'), description: t('ipl.aiPowered.features.personalizedDesc') }
+            ].map((feature, index) => (
+              <motion.div
+                key={feature.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className="text-center"
+              >
+                <feature.icon className="w-12 h-12 text-indigo-500 mx-auto mb-4" />
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">{feature.title}</h3>
+                <p className="text-gray-600">{feature.description}</p>
+              </motion.div>
+            ))}
           </div>
-        </section>
+        </div>
+      </section>
 
-        {/* Benefits of AI Skin Sensing */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('aiPoweredSkinSensing.benefits.title')}</h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-blue-50 p-6 rounded-lg">
-              <h3 className="font-semibold mb-3 text-blue-900">{t('aiPoweredSkinSensing.benefits.safety.title')}</h3>
-              <p className="text-blue-800">{t('aiPoweredSkinSensing.benefits.safety.desc')}</p>
-            </div>
-            <div className="bg-green-50 p-6 rounded-lg">
-              <h3 className="font-semibold mb-3 text-green-900">{t('aiPoweredSkinSensing.benefits.effectiveness.title')}</h3>
-              <p className="text-green-800">{t('aiPoweredSkinSensing.benefits.effectiveness.desc')}</p>
-            </div>
-            <div className="bg-purple-50 p-6 rounded-lg">
-              <h3 className="font-semibold mb-3 text-purple-900">{t('aiPoweredSkinSensing.benefits.personalization.title')}</h3>
-              <p className="text-purple-800">{t('aiPoweredSkinSensing.benefits.personalization.desc')}</p>
-            </div>
-            <div className="bg-orange-50 p-6 rounded-lg">
-              <h3 className="font-semibold mb-3 text-orange-900">{t('aiPoweredSkinSensing.benefits.convenience.title')}</h3>
-              <p className="text-orange-800">{t('aiPoweredSkinSensing.benefits.convenience.desc')}</p>
-            </div>
-          </div>
-        </section>
-
-        {/* Technical Implementation */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('aiPoweredSkinSensing.technical.title')}</h2>
-          <p className="text-lg text-gray-700 mb-6">{t('aiPoweredSkinSensing.technical.content')}</p>
-          
-          <div className="bg-gray-50 p-6 rounded-lg">
-            <h3 className="font-semibold mb-3 text-gray-900">{t('aiPoweredSkinSensing.technical.components.title')}</h3>
-            <ul className="list-disc pl-6 space-y-2">
-              <li className="text-gray-700">{t('aiPoweredSkinSensing.technical.components.sensors')}</li>
-              <li className="text-gray-700">{t('aiPoweredSkinSensing.technical.components.algorithms')}</li>
-              <li className="text-gray-700">{t('aiPoweredSkinSensing.technical.components.processing')}</li>
-              <li className="text-gray-700">{t('aiPoweredSkinSensing.technical.components.feedback')}</li>
-            </ul>
-          </div>
-        </section>
-
-        {/* Future Applications */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('aiPoweredSkinSensing.future.title')}</h2>
-          <p className="text-lg text-gray-700 mb-6">{t('aiPoweredSkinSensing.future.content')}</p>
-          
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="bg-blue-50 p-6 rounded-lg text-center">
-              <h3 className="font-semibold mb-3 text-blue-900">{t('aiPoweredSkinSensing.future.applications.skincare.title')}</h3>
-              <p className="text-blue-800">{t('aiPoweredSkinSensing.future.applications.skincare.desc')}</p>
-            </div>
-            <div className="bg-green-50 p-6 rounded-lg text-center">
-              <h3 className="font-semibold mb-3 text-green-900">{t('aiPoweredSkinSensing.future.applications.medical.title')}</h3>
-              <p className="text-green-800">{t('aiPoweredSkinSensing.future.applications.medical.desc')}</p>
-            </div>
-            <div className="bg-purple-50 p-6 rounded-lg text-center">
-              <h3 className="font-semibold mb-3 text-purple-900">{t('aiPoweredSkinSensing.future.applications.wellness.title')}</h3>
-              <p className="text-purple-800">{t('aiPoweredSkinSensing.future.applications.wellness.desc')}</p>
-            </div>
-          </div>
-        </section>
-
-        {/* Market Impact */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('aiPoweredSkinSensing.market.title')}</h2>
-          <p className="text-lg text-gray-700 mb-6">{t('aiPoweredSkinSensing.market.content')}</p>
-          
-          <div className="bg-yellow-50 p-6 rounded-lg">
-            <h3 className="font-semibold mb-3 text-yellow-900">{t('aiPoweredSkinSensing.market.trends.title')}</h3>
-            <ul className="list-disc pl-6 space-y-2">
-              <li className="text-yellow-800">{t('aiPoweredSkinSensing.market.trends.growth')}</li>
-              <li className="text-yellow-800">{t('aiPoweredSkinSensing.market.trends.adoption')}</li>
-              <li className="text-yellow-800">{t('aiPoweredSkinSensing.market.trends.innovation')}</li>
-              <li className="text-yellow-800">{t('aiPoweredSkinSensing.market.trends.investment')}</li>
-            </ul>
-          </div>
-        </section>
-
-        {/* Conclusion */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('blog.posts.aiPoweredSkinSensing.sections.conclusion')}</h2>
-          <p className="text-lg text-gray-700 mb-6">{t('aiPoweredSkinSensing.conclusion.content')}</p>
-        </section>
-
-        {/* Related Articles */}
-        <section className="py-10 bg-gray-50">
-          <div className="max-w-4xl mx-auto px-4">
-            <h2 className="text-xl font-bold mb-4 text-gray-900">{t('common.relatedArticles')}</h2>
-            <ul className="list-inside list-disc space-y-2">
-              <li><Link to="/blog/future-home-hair-removal" className="text-blue-600 underline">{t('blog.posts.futureHomeHairRemoval.title')}</Link></li>
-              <li><Link to="/blog/sapphire-cooling" className="text-blue-600 underline">{t('blog.posts.sapphireCooling.title')}</Link></li>
-              <li><Link to="/blog/multi-head-ipl-systems" className="text-blue-600 underline">{t('blog.posts.multiHeadIPLSystems.title')}</Link></li>
-            </ul>
-          </div>
-        </section>
-      </article>
+      <ContactFormA />
     </div>
   );
 };
 
-export default AIPoweredSkinSensing;
+export default AIPoweredIPL;
