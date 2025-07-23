@@ -1,7 +1,7 @@
 import React from 'react';
 import { FileCheck2 } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
-import { useTranslation } from '../../hooks/useTranslation';
+import { useLanguage } from '../../context/LanguageContext';
 
 const fdaSteps = [
   {
@@ -32,7 +32,7 @@ const timeline = [
 ];
 
 const WinFDAListing: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
 
   return (
     <div className="min-h-screen bg-white pt-20">
