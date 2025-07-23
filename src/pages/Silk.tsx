@@ -108,9 +108,7 @@ const SilkPlane = forwardRef<Mesh, SilkPlaneProps>(function SilkPlane({ uniforms
     <mesh ref={localRef}>
       <planeGeometry args={[1, 1, 1, 1]} />
       <shaderMaterial
-        uniforms={uniforms}
-        vertexShader={vertexShader}
-        fragmentShader={fragmentShader}
+        {...({ uniforms, vertexShader, fragmentShader } as any)}
       />
     </mesh>
   );
