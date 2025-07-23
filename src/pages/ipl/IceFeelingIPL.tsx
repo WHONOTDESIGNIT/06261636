@@ -12,11 +12,11 @@ import {
   Check,
   Info,
 } from 'lucide-react';
-import { useTranslation } from '../../hooks/useTranslation';
+import { useLanguage } from '../../context/LanguageContext';
 import SEOTags from '../../components/SEO/SEOTags';
 
 const IceFeelingIPL: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [activeSubTab, setActiveSubTab] = useState<'specifications' | 'safety' | 'reviews'>('specifications');
