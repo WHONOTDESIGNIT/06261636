@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import { getLanguageFromCountryCode } from '../utils/languageUtils';
 import Home from './Home';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const CountryPage: React.FC = () => {
   const { countryCode } = useParams<{ countryCode: string }>();
