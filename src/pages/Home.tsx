@@ -6,6 +6,7 @@ import Silk from './Silk';
 import { iplDevices } from '../data/products';
 import { useLanguage } from '../context/LanguageContext';
 import SEOTags from '../components/SEO/SEOTags';
+import UploadForm from '../components/UploadForm';
 
 const heroBg = "bg-gradient-to-br from-blue-700 via-indigo-500 to-purple-600";
 
@@ -255,6 +256,9 @@ export default function HomePage() {
           <Link to="#contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-full shadow-lg hover:bg-blue-100 transition">{t('home.hero.cta', 'Get a Free Quote')}</Link>
         </div>
       </section>
+
+      {/* 图片上传表单与预览（React组件） */}
+      <UploadForm />
 
       {/* Brand Empowerment / USP */}
       <section className="py-16 px-4 md:px-0 bg-gradient-to-r from-blue-100 via-white to-purple-100">
