@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useTranslation } from '../../hooks/useTranslation';
+import { useLanguage } from '../../context/LanguageContext';
 import {
   ChevronLeft,
   ChevronRight,
@@ -13,7 +13,7 @@ import {
 import SEOTags from '../../components/SEO/SEOTags';
 
 const SmartAppIPL: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
 
