@@ -12,27 +12,23 @@ interface Language {
 }
 
 const LanguageSelector: React.FC = () => {
-  const { currentLanguage, currentCountry, setLanguage } = useLanguage();
+  const { currentLanguage, setLanguage } = useLanguage();
   const navigate = useNavigate();
   const location = useLocation();
 
   // 移除自动IP检测和重定向功能，只保留默认设置
   useEffect(() => {
-    if (!currentLanguage || !currentCountry) {
-      // 静态设置默认语言，不触发任何重定向
-      setLanguage('en', 'global');
+    if (!currentLanguage) {
+      setLanguage('en');
     }
-  }, [currentLanguage, currentCountry, setLanguage]);
+  }, [currentLanguage, setLanguage]);
 
   /* ---------------- 语言切换下拉 ---------------- */
-  const currentValue = `${currentLanguage || 'en'}-${currentCountry || 'global'}`;
+  const currentValue = `${currentLanguage || 'en'}`;
 
   const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const selectedCode = e.target.value;
-    const [langCode, countryCode] = selectedCode.split('-');
-    
-    // 先更新语言状态
-    setLanguage(langCode, countryCode);
+    const langCode = e.target.value;
+    setLanguage(langCode);
 
     // 计算新的路径
     let newPath = location.pathname;
