@@ -9,10 +9,10 @@ import {
   Truck,
   Award,
 } from 'lucide-react';
-import { useTranslation } from '../../hooks/useTranslation';
+import { useLanguage } from '../../context/LanguageContext';
 
 const SmartAppIPL: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
 
