@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Users, Building2, Sparkles, Truck, ArrowRight, CheckCircle, DollarSign, Globe, Shield } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
-import { useTranslation } from '../../hooks/useTranslation';
+import { useLanguage } from '../../context/LanguageContext';
 
 const PricingGuide: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
   const [activeTab, setActiveTab] = useState('distributors');
 
   const pricingTiers = [
