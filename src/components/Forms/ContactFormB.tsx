@@ -1,10 +1,10 @@
 import React from 'react';
 import { useForm } from '../../hooks/useForm';
 import Button from '../UI/Button';
-import { useTranslation } from '../../hooks/useTranslation';
+import { useLanguage } from '../../context/LanguageContext';
 
 const ContactFormB: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useLanguage();
   const { values, errors, isSubmitting, handleChange, handleSubmit } = useForm({
     name: '',
     email: '',
