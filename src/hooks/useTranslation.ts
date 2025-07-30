@@ -4,12 +4,22 @@ import { useCallback } from 'react';
 // 语言包静态导入（如需支持更多语言，按需添加）
 import en from '../translations/en.json';
 import de from '../translations/de.json';
-// ... 其它语言包
+import es from '../translations/es.json';
+import ar from '../translations/ar.json';
+import he from '../translations/he.json';
+import nl from '../translations/nl.json';
+import pt from '../translations/pt.json';
+import pl from '../translations/pl.json';
 
 const translations: Record<string, any> = {
   en,
   de,
-  // ... 其它语言
+  es,
+  ar,
+  he,
+  nl,
+  pt,
+  pl,
 };
 
 // 多级 key 解析工具
