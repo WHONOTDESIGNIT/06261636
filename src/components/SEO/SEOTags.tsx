@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 import { languages } from '../../data/languages';
 
@@ -24,6 +25,15 @@ const SEOTags: React.FC<SEOTagsProps> = ({
   const { currentLanguage } = useLanguage();
   const location = useLocation();
   
+  // Force HTTPS redirect on client side as backup
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.location.protocol === 'http:' && window.location.hostname !== 'localhost') {
+      const httpsUrl = window.location.href.replace('http:', 'https:');
+      window.location.replace(httpsUrl);
+      return;
+    }
+  }, []);
+  
   const baseUrl = 'https://iplmanufacturer.com';
   const currentPath = location.pathname;
   
@@ -31,7 +41,7 @@ const SEOTags: React.FC<SEOTagsProps> = ({
   const getCanonicalUrl = () => {
     if (canonical) return canonical;
     
-    // 如果是英文页面，使用无前缀URL
+    // Force canonical to HTTPS and non-www
     if (currentLanguage === 'en') {
       // 移除可能存在的语言前缀
       const cleanPath = currentPath.replace(/^\/en(\/|$)/, '/').replace(/\/$/, '') || '/';
@@ -97,8 +107,14 @@ const SEOTags: React.FC<SEOTagsProps> = ({
       <meta name="author" content="iShine Manufacturing Co., Ltd." />
       
       {/* Language and Canonical */}
+      {/* Force HTTPS canonical URL */}
+      <link rel="canonical" href={canonicalUrl.replace('http:', 'https:')} />
+      
+      {/* Prevent HTTP indexing */}
+      {typeof window !== 'undefined' && window.location.protocol === 'http:' && (
+        <meta name="robots" content="noindex, nofollow" />
+      )}
       <html lang={currentLanguage} />
-      <link rel="canonical" href={canonicalUrl} />
       
       {/* Hreflang Links */}
       {hreflangLinks.map((link, index) => (
@@ -117,7 +133,7 @@ const SEOTags: React.FC<SEOTagsProps> = ({
       <meta property="og:title" content={finalTitle} />
       <meta property="og:description" content={finalDescription} />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content={canonicalUrl} />
+      <meta property="og:url" content={canonicalUrl.replace('http:', 'https:')} />
       <meta property="og:image" content={finalImage} />
       <meta property="og:locale" content={currentLanguage === 'zh' ? 'zh_CN' : `${currentLanguage}_${currentLanguage.toUpperCase()}`} />
       
@@ -139,6 +155,9 @@ const SEOTags: React.FC<SEOTagsProps> = ({
       <meta name="twitter:image" content={finalImage} />
       
       {/* Additional SEO Meta Tags */}
+      {/* HTTPS enforcement */}
+      <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+      
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="content-language" content={currentLanguage} />
       
