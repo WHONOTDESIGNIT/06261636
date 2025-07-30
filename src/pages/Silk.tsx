@@ -35,7 +35,7 @@ const Silk: React.FC<{
         }}
       />
       
-      <style>{`
+      <style jsx>{`
         @keyframes silkFlow {
           0%, 100% { 
             transform: translateX(-10%) translateY(-5%) scale(1);
