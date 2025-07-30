@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown, Settings, Send, ThumbsUp } from "lucide-react";
 import ContactFormA from '../components/Forms/ContactFormA';
-import Silk from './Silk';
 import { iplDevices } from '../data/products';
 import { useLanguage } from '../context/LanguageContext';
 import SEOTags from '../components/SEO/SEOTags';
@@ -244,12 +243,8 @@ export default function HomePage() {
       />
       {/* Hero Section */}
       <section className={`${heroBg} min-h-[66vh] flex flex-col justify-center items-center text-white relative overflow-hidden`}>
-        {/* Silk Canvas 背景 */}
-        <div className="absolute inset-0 z-0 pointer-events-none">
-          <Silk speed={5} scale={1} color="#7B7481" noiseIntensity={1.5} rotation={0} />
-        </div>
         {/* 内容层 */}
-        <div className="max-w-4xl text-center z-10 relative pt-14">
+        <div className="max-w-4xl text-center pt-14">
           <h1 className="text-2xl md:text-6xl font-bold mb-4 drop-shadow-lg">{t('home.hero.title1', 'Custom IPL Hair Removal Devices for Cosmetics Brands')}</h1>
           <p className="text-lg md:text-2xl mb-8 font-medium drop-shadow mt-8">{t('home.hero.subtitle', 'You design it, we build it and box it.')}</p>
           <Link to="#contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-bold rounded-full shadow-lg hover:bg-blue-100 transition">{t('home.hero.cta', 'Get a Free Quote')}</Link>
