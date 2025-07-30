@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter, Routes, Route, Outlet, useParams } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Outlet, useParams, lazy, Suspense } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import Header from './components/Layout/Header';
@@ -9,83 +9,92 @@ import { languages } from './data/languages';
 
 // Main Pages
 import Home from './pages/Home';
-import Solutions from './pages/Solutions';
-import IPLHairRemoval from './pages/IPLHairRemoval';
-import HowToUse from './pages/HowToUse';
-import About from './pages/About';
-import Contact from './pages/Contact';
 
-// Solutions Pages
-import LogoPrinting from './pages/solutions/LogoPrinting';
-import PackagingSolutions from './pages/solutions/PackagingSolutions';
-import DropShipping from './pages/solutions/DropShipping';
-import GlobalShipping from './pages/solutions/GlobalShipping';
-import BrandCustomization from './pages/solutions/BrandCustomization';
-import Compliance from './pages/solutions/Compliance';
-import DesignPrototyping from './pages/solutions/DesignPrototyping';
-import MultiHeadIPL from './pages/solutions/MultiHeadIPL';
-import DualLampIPL from './pages/solutions/DualLampIPL';
+// Lazy load main pages
+const Solutions = lazy(() => import('./pages/Solutions'));
+const IPLHairRemoval = lazy(() => import('./pages/IPLHairRemoval'));
+const HowToUse = lazy(() => import('./pages/HowToUse'));
+const About = lazy(() => import('./pages/About'));
+const Contact = lazy(() => import('./pages/Contact'));
 
-// IPL Device Pages
-import SmartAppIPL from './pages/ipl/SmartAppIPL';
-import IceFeelingIPL from './pages/ipl/IceFeelingIPL';
-import EmeraldIPL from './pages/ipl/EmeraldIPL';
-import SkinSensorIPL from './pages/ipl/SkinSensorIPL';
-import BatteryPoweredIPL from './pages/ipl/BatteryPoweredIPL';
-import HandheldIPL from './pages/ipl/HandheldIPL';
-import IceCoolingIPL from './pages/ipl/IceCoolingIPL';
-import DualLampIPLDevice from './pages/ipl/DualLampIPLDevice';
-import AIPoweredIPL from './pages/ipl/AIPoweredIPL';
+// Lazy load Solutions Pages
+const LogoPrinting = lazy(() => import('./pages/solutions/LogoPrinting'));
+const PackagingSolutions = lazy(() => import('./pages/solutions/PackagingSolutions'));
+const DropShipping = lazy(() => import('./pages/solutions/DropShipping'));
+const GlobalShipping = lazy(() => import('./pages/solutions/GlobalShipping'));
+const BrandCustomization = lazy(() => import('./pages/solutions/BrandCustomization'));
+const Compliance = lazy(() => import('./pages/solutions/Compliance'));
+const DesignPrototyping = lazy(() => import('./pages/solutions/DesignPrototyping'));
+const MultiHeadIPL = lazy(() => import('./pages/solutions/MultiHeadIPL'));
+const DualLampIPL = lazy(() => import('./pages/solutions/DualLampIPL'));
 
-// Accessories Pages
-import SapphireLens from './pages/accessories/SapphireLens';
-import Adapter from './pages/accessories/Adapter';
-import ProtectiveGoggles from './pages/accessories/ProtectiveGoggles';
-import Filter from './pages/accessories/Filter';
+// Lazy load IPL Device Pages
+const SmartAppIPL = lazy(() => import('./pages/ipl/SmartAppIPL'));
+const IceFeelingIPL = lazy(() => import('./pages/ipl/IceFeelingIPL'));
+const EmeraldIPL = lazy(() => import('./pages/ipl/EmeraldIPL'));
+const SkinSensorIPL = lazy(() => import('./pages/ipl/SkinSensorIPL'));
+const BatteryPoweredIPL = lazy(() => import('./pages/ipl/BatteryPoweredIPL'));
+const HandheldIPL = lazy(() => import('./pages/ipl/HandheldIPL'));
+const IceCoolingIPL = lazy(() => import('./pages/ipl/IceCoolingIPL'));
+const DualLampIPLDevice = lazy(() => import('./pages/ipl/DualLampIPLDevice'));
+const AIPoweredIPL = lazy(() => import('./pages/ipl/AIPoweredIPL'));
 
-// Service & Support Pages
-import AfterSalesService from './pages/service/AfterSalesService';
-import WinFDAListing from './pages/service/WinFDAListing';
-import IPLManufacturing from './pages/service/IPLManufacturing';
-import KnowledgeBase from './pages/service/KnowledgeBase';
-import BeautySourcing from './pages/service/BeautySourcing';
-import PricingGuide from './pages/service/PricingGuide';
-import HelpCenter from './pages/service/HelpCenter';
-import Gallery from './pages/service/Gallery';
-import Videos from './pages/service/Videos';
+// Lazy load Accessories Pages
+const SapphireLens = lazy(() => import('./pages/accessories/SapphireLens'));
+const Adapter = lazy(() => import('./pages/accessories/Adapter'));
+const ProtectiveGoggles = lazy(() => import('./pages/accessories/ProtectiveGoggles'));
+const Filter = lazy(() => import('./pages/accessories/Filter'));
+
+// Lazy load Service & Support Pages
+const AfterSalesService = lazy(() => import('./pages/service/AfterSalesService'));
+const WinFDAListing = lazy(() => import('./pages/service/WinFDAListing'));
+const IPLManufacturing = lazy(() => import('./pages/service/IPLManufacturing'));
+const KnowledgeBase = lazy(() => import('./pages/service/KnowledgeBase'));
+const BeautySourcing = lazy(() => import('./pages/service/BeautySourcing'));
+const PricingGuide = lazy(() => import('./pages/service/PricingGuide'));
+const HelpCenter = lazy(() => import('./pages/service/HelpCenter'));
+const Gallery = lazy(() => import('./pages/service/Gallery'));
+const Videos = lazy(() => import('./pages/service/Videos'));
 
 // Service Support Main Page
-import ServiceSupport from './pages/ServiceSupport';
+const ServiceSupport = lazy(() => import('./pages/ServiceSupport'));
 
-// Blog Pages
-import NewsInsights from './pages/blog/NewsInsights';
-import Industries from './pages/blog/Industries';
-import IPLBestChoice from './pages/blog/IPLBestChoice';
-import FutureHomeHairRemoval from './pages/blog/FutureHomeHairRemoval';
-import FDA510kPathway from './pages/blog/FDA510kPathway';
-import MultiHeadIPLSystems from './pages/blog/MultiHeadIPLSystems';
-import AIPoweredSkinSensing from './pages/blog/AIPoweredSkinSensing';
-import GlobalMarketShifts from './pages/blog/GlobalMarketShifts';
-import SustainableManufacturing from './pages/blog/SustainableManufacturing';
+// Lazy load Blog Pages
+const NewsInsights = lazy(() => import('./pages/blog/NewsInsights'));
+const Industries = lazy(() => import('./pages/blog/Industries'));
+const IPLBestChoice = lazy(() => import('./pages/blog/IPLBestChoice'));
+const FutureHomeHairRemoval = lazy(() => import('./pages/blog/FutureHomeHairRemoval'));
+const FDA510kPathway = lazy(() => import('./pages/blog/FDA510kPathway'));
+const MultiHeadIPLSystems = lazy(() => import('./pages/blog/MultiHeadIPLSystems'));
+const AIPoweredSkinSensing = lazy(() => import('./pages/blog/AIPoweredSkinSensing'));
+const GlobalMarketShifts = lazy(() => import('./pages/blog/GlobalMarketShifts'));
+const SustainableManufacturing = lazy(() => import('./pages/blog/SustainableManufacturing'));
 
-// About Pages
-import FounderMessage from './pages/about/FounderMessage';
-import Technology from './pages/about/Technology';
-import GlobalWitness from './pages/about/GlobalWitness';
-import CorePrinciples from './pages/about/CorePrinciples';
-import CompanyInfo from './pages/about/CompanyInfo';
-import BrandStory from './pages/about/BrandStory';
-import Quality from './pages/about/Quality';
+// Lazy load About Pages
+const FounderMessage = lazy(() => import('./pages/about/FounderMessage'));
+const Technology = lazy(() => import('./pages/about/Technology'));
+const GlobalWitness = lazy(() => import('./pages/about/GlobalWitness'));
+const CorePrinciples = lazy(() => import('./pages/about/CorePrinciples'));
+const CompanyInfo = lazy(() => import('./pages/about/CompanyInfo'));
+const BrandStory = lazy(() => import('./pages/about/BrandStory'));
+const Quality = lazy(() => import('./pages/about/Quality'));
 
 // Country-specific page
-import CountryPage from './pages/CountryPage';
+const CountryPage = lazy(() => import('./pages/CountryPage'));
 
 // Sitemap Page
-import Sitemap from './pages/Sitemap';
+const Sitemap = lazy(() => import('./pages/Sitemap'));
 
 // Shipping Cost Page
-import ShippingCostPage from './pages/shipping-cost';
-import AdminPage from './pages/Admin';
+const ShippingCostPage = lazy(() => import('./pages/shipping-cost'));
+const AdminPage = lazy(() => import('./pages/Admin'));
+
+// Loading component
+const LoadingSpinner = () => (
+  <div className="min-h-screen flex items-center justify-center">
+    <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-ishine-blue-500"></div>
+  </div>
+);
 
 // 404 Not Found Page
 const NotFound: React.FC = () => (
@@ -99,16 +108,20 @@ const NotFound: React.FC = () => (
 const supportedLangs = languages.map((l: { code: string }) => l.code.split('-')[0]);
 
 // Layout with header/footer/widgets
-const MainLayout: React.FC = () => (
-  <>
-    <Header />
-    <main>
-      <Outlet />
-    </main>
-    <Footer />
-    <FloatingWidgets />
-  </>
-);
+const MainLayout: React.FC = () => {
+  return (
+    <>
+      <Header />
+      <main>
+        <Suspense fallback={<LoadingSpinner />}>
+          <Outlet />
+        </Suspense>
+      </main>
+      <Footer />
+      <FloatingWidgets />
+    </>
+  );
+};
 
 // Language validation wrapper (updated to handle optional lang)
 const LanguageGuard: React.FC = () => {

@@ -1,25 +1,25 @@
 // 本地 JSON 国际化 hooks，无需 i18n 依赖
 import { useCallback } from 'react';
 
-// 语言包静态导入（如需支持更多语言，按需添加）
-import en from '../translations/en.json';
-import de from '../translations/de.json';
-import es from '../translations/es.json';
-import ar from '../translations/ar.json';
-import he from '../translations/he.json';
-import nl from '../translations/nl.json';
-import pt from '../translations/pt.json';
-import pl from '../translations/pl.json';
+// 动态导入语言包，减少初始包大小
+const translations: Record<string, any> = {};
 
-const translations: Record<string, any> = {
-  en,
-  de,
-  es,
-  ar,
-  he,
-  nl,
-  pt,
-  pl,
+// 异步加载语言包
+const loadTranslation = async (lang: string) => {
+  if (translations[lang]) return translations[lang];
+  
+  try {
+    const module = await import(`../translations/${lang}.json`);
+    translations[lang] = module.default;
+    return translations[lang];
+  } catch (error) {
+    console.warn(`Failed to load translation for ${lang}, falling back to English`);
+    if (!translations['en']) {
+      const enModule = await import('../translations/en.json');
+      translations['en'] = enModule.default;
+    }
+    return translations['en'];
+  }
 };
 
 // 多级 key 解析工具
@@ -29,12 +29,20 @@ function getNested(obj: any, path: string): any {
 
 export function useTranslation(currentLanguage: string) {
   // t(key, defaultValue?)
-  const t = useCallback((key: string, defaultValue?: string): string => {
-    const langPack = translations[currentLanguage] || translations['en'];
+  const t = useCallback(async (key: string, defaultValue?: string): Promise<string> => {
+    const langPack = await loadTranslation(currentLanguage);
+    const value = getNested(langPack, key);
+    if (typeof value === 'string') return value;
+    return defaultValue !== undefined ? defaultValue : key;
+  }, [currentLanguage]);
+  
+  // 同步版本的 t 函数，用于已加载的翻译
+  const tSync = useCallback((key: string, defaultValue?: string): string => {
+    const langPack = translations[currentLanguage] || translations['en'] || {};
     const value = getNested(langPack, key);
     if (typeof value === 'string') return value;
     return defaultValue !== undefined ? defaultValue : key;
   }, [currentLanguage]);
 
-  return { t };
+  return { t: tSync, tAsync: t };
 } 
