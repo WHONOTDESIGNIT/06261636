@@ -1,5 +1,5 @@
 // Language utility functions for routing and translation management
-export const getCountryCodeFromLanguageCode = (languageCode: string): string => {
+const getCountryCodeFromLanguageCode = (languageCode: string): string => {
   // Extract country code from language code (e.g., 'en-us' -> 'us')
   const parts = languageCode.split('-');
   return parts.length > 1 ? parts[1] : parts[0];
@@ -61,6 +61,6 @@ export const getLanguageFromCountryCode = (countryCode: string): string => {
   return countryToLanguage[countryCode.toLowerCase()] || 'en';
 };
 
-export const formatCountryUrl = (countryCode: string): string => {
+const formatCountryUrl = (countryCode: string): string => {
   return `/iplmanufacturer/${countryCode.toLowerCase()}`;
 };

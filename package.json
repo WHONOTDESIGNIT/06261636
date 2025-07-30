@@ -12,23 +12,14 @@
     "i18n:check": "ts-node scripts/i18n-manager.ts --check-only"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.15",
-    "@heroicons/react": "^2.0.18",
-    "@netlify/blobs": "^10.0.6",
     "@react-three/fiber": "^8.18.0",
     "framer-motion": "^10.12.18",
-    "i18next-browser-languagedetector": "^7.1.0",
-    "i18next-http-backend": "^2.2.1",
-    "i18next-resources-to-backend": "^1.1.4",
     "lucide-react": "^0.259.0",
-    "multiparty": "^4.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-helmet-async": "^2.0.5",
-    "react-i18next": "^13.0.1",
     "react-router-dom": "^6.30.1",
-    "three": "^0.178.0",
-    "uuid": "^11.1.0"
+    "three": "^0.178.0"
   },
   "devDependencies": {
     "@babel/parser": "^7.22.7",
