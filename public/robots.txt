@@ -4,6 +4,11 @@
 User-agent: *
 Allow: /
 
+# Sitemap location
+Sitemap: https://iplmanufacturer.com/sitemap.xml
+Sitemap: https://iplmanufacturer.com/sitemap-main.xml
+Sitemap: https://iplmanufacturer.com/sitemap-multilingual.xml
+
 # Disallow admin and private areas
 Disallow: /admin/
 Disallow: /private/
