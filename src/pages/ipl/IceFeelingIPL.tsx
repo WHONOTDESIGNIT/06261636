@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
 import SEOTags from '../../components/SEO/SEOTags';
+import ProductSchema from '../../components/SEO/ProductSchema';
 
 const IceFeelingIPL: React.FC = () => {
   const { t } = useLanguage();
@@ -49,6 +50,39 @@ const IceFeelingIPL: React.FC = () => {
         title="Ice Feeling IPL Device | Painless Cooling Hair Removal"
         description="Ice feeling IPL device with advanced cooling technology for painless hair removal. Comfortable, safe, and effective for all skin types."
         keywords="ice feeling IPL, cooling IPL, painless hair removal, advanced cooling, comfortable IPL, all skin types"
+      />
+      <ProductSchema
+        name="Ice Feeling IPL Device - Sapphire Cooling Hair Removal"
+        description="Advanced IPL hair removal device with sapphire cooling technology that maintains skin temperature at 5°C for painless treatment. Features dual-lamp xenon technology, 5 energy levels, and 999,999+ flashes for permanent hair reduction."
+        image={productImages}
+        brand="SapphireIPL"
+        model="ICE-SAPPHIRE-002"
+        sku="ICE-SAPPHIRE-002"
+        price={149.00}
+        priceCurrency="USD"
+        availability="InStock"
+        condition="NewCondition"
+        category="IPL Hair Removal Device"
+        manufacturer="SapphireIPL Technologies"
+        warranty="12-month warranty included"
+        features={[
+          "Sapphire cooling plate maintains 5°C temperature",
+          "IPL Xenon Dual-Lamp technology",
+          "5 adjustable energy levels (12-18 J/cm²)",
+          "999,999+ flash count",
+          "0.35s ultra-fast flash speed",
+          "Auto and manual flash modes",
+          "Skin-tone sensor for safety",
+          "4.0 cm² spot size",
+          "FDA cleared and CE certified",
+          "Suitable for all skin types"
+        ]}
+        aggregateRating={{
+          ratingValue: 5.0,
+          reviewCount: 212,
+          bestRating: 5,
+          worstRating: 1
+        }}
       />
       <div className="min-h-screen bg-white pt-20">
         <div className="container mx-auto px-4">
