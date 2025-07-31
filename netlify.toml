@@ -62,3 +62,2043 @@
   [headers.values]
     Content-Type = "application/xml"
     Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+# SPA 回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and SEO
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap headers (只需要一个配置块)
+[[headers]]
+  for = "/sitemap*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "https://www.iplmanufacturer.com/*"
+  to = "https://iplmanufacturer.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.iplmanufacturer.com/*"
+  to = "https://www.iplmanufacturer.com/:splat"
+  status = 301
+  force
