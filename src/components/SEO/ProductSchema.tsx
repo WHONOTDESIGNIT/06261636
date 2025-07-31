@@ -73,7 +73,44 @@ const ProductSchema: React.FC<ProductSchemaProps> = ({
       "name": "Feature",
       "value": feature
     })),
-    "offers": {
+    "offers": offers && offers.length > 0 ? offers.map(offer => ({
+      "@type": "Offer",
+      "price": offer.price,
+      "priceCurrency": offer.priceCurrency,
+      "availability": offer.availability,
+      "validFrom": offer.validFrom,
+      "validThrough": offer.validThrough,
+      "seller": offer.seller ? {
+        "@type": "Organization",
+        "name": offer.seller
+      } : {
+        "@type": "Organization",
+        "name": brand
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0",
+          "currency": offer.priceCurrency
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 1,
+            "maxValue": 2,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 3,
+            "maxValue": 7,
+            "unitCode": "DAY"
+          }
+        }
+      }
+    })) : {
       "@type": "Offer",
       "price": price,
       "priceCurrency": priceCurrency,
