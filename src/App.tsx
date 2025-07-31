@@ -128,8 +128,13 @@ const LanguageGuard: React.FC = () => {
   const { lang } = useParams<{ lang?: string }>();
   const { setLanguage, currentLanguage } = useLanguage();
 
-  // Normalize lang: treat undefined or 'en' as English (no prefix)
+  // 确保英文不使用 /en 前缀
   const effectiveLang = lang && lang !== 'en' ? lang : 'en';
+
+  // 如果URL中有 /en，重定向到无前缀版本
+  if (lang === 'en') {
+    return <Navigate to={location.pathname.replace('/en', '') || '/'} replace />;
+  }
 
   // Validate language param
   if (lang && !supportedLangs.includes(lang)) {
