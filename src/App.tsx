@@ -1,5 +1,5 @@
 import React, { useEffect, Suspense, lazy } from 'react';
-import { BrowserRouter, Routes, Route, Outlet, useParams } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Outlet, useParams, Navigate, useLocation } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import Header from './components/Layout/Header';
@@ -127,6 +127,7 @@ const MainLayout: React.FC = () => {
 const LanguageGuard: React.FC = () => {
   const { lang } = useParams<{ lang?: string }>();
   const { setLanguage, currentLanguage } = useLanguage();
+  const location = useLocation();
 
   // 确保英文不使用 /en 前缀
   const effectiveLang = lang && lang !== 'en' ? lang : 'en';
