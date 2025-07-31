@@ -5,11 +5,12 @@ const path = require('path');
 const SITE_URL = 'https://iplmanufacturer.com';
 const CURRENT_DATE = new Date().toISOString().split('T')[0];
 
-// 支持的语言列表
-const LANGUAGES = ['en', 'de', 'es', 'ar', 'he', 'pt', 'nl', 'pl'];
+// 支持的语言列表（10种语言）
+const LANGUAGES = ['en', 'de', 'es', 'ar', 'he', 'pt', 'nl', 'pl', 'fr', 'it'];
 
-// 主要页面路由
+// 主要页面路由（60个核心页面）
 const MAIN_ROUTES = [
+  // 主页面 (5个)
   '',
   'solutions',
   'ipl-hair-removal',
@@ -17,11 +18,9 @@ const MAIN_ROUTES = [
   'about',
   'contact',
   'service-support',
-  'sitemap'
-];
+  'sitemap',
 
-// IPL设备页面
-const IPL_DEVICE_ROUTES = [
+  // IPL设备页面 (9个)
   'ipl-hair-removal/smart-app',
   'ipl-hair-removal/ice-feeling',
   'ipl-hair-removal/emerald',
@@ -30,11 +29,9 @@ const IPL_DEVICE_ROUTES = [
   'ipl-hair-removal/handheld',
   'ipl-hair-removal/ice-cooling',
   'ipl-hair-removal/dual-lamp',
-  'ipl-hair-removal/ai-powered'
-];
+  'ipl-hair-removal/ai-powered',
 
-// 解决方案页面
-const SOLUTION_ROUTES = [
+  // 解决方案页面 (9个)
   'solutions/logo-printing',
   'solutions/packaging',
   'solutions/drop-shipping',
@@ -43,19 +40,15 @@ const SOLUTION_ROUTES = [
   'solutions/compliance',
   'solutions/design-prototyping',
   'solutions/multi-head-ipl',
-  'solutions/dual-lamp-ipl'
-];
+  'solutions/dual-lamp-ipl',
 
-// 配件页面
-const ACCESSORY_ROUTES = [
+  // 配件页面 (4个)
   'accessories/sapphire-lens',
   'accessories/adapter',
   'accessories/goggles',
-  'accessories/filter'
-];
+  'accessories/filter',
 
-// 服务支持页面
-const SERVICE_ROUTES = [
+  // 服务支持页面 (9个)
   'service-support/after-sales',
   'service-support/win-fda-listing',
   'service-support/manufacturing',
@@ -64,11 +57,9 @@ const SERVICE_ROUTES = [
   'service-support/pricing-guide',
   'service-support/help-center',
   'service-support/gallery',
-  'service-support/videos'
-];
+  'service-support/videos',
 
-// 博客页面
-const BLOG_ROUTES = [
+  // 博客页面 (9个)
   'blog/news-insights',
   'blog/industries',
   'blog/ipl-best-choice',
@@ -77,29 +68,26 @@ const BLOG_ROUTES = [
   'blog/multi-head-ipl-systems',
   'blog/ai-powered-skin-sensing',
   'blog/global-market-shifts',
-  'blog/sustainable-manufacturing'
-];
+  'blog/sustainable-manufacturing',
 
-// 关于页面
-const ABOUT_ROUTES = [
+  // 关于页面 (7个)
   'about/founder-message',
   'about/technology',
   'about/global-witness',
   'about/core-principles',
   'about/company',
   'about/brand-story',
-  'about/quality'
-];
+  'about/quality',
 
-// 合并所有路由
-const ALL_ROUTES = [
-  ...MAIN_ROUTES,
-  ...IPL_DEVICE_ROUTES,
-  ...SOLUTION_ROUTES,
-  ...ACCESSORY_ROUTES,
-  ...SERVICE_ROUTES,
-  ...BLOG_ROUTES,
-  ...ABOUT_ROUTES
+  // 其他重要页面 (8个)
+  'shipping-cost',
+  'admin',
+  'iplmanufacturer/us',
+  'iplmanufacturer/de',
+  'iplmanufacturer/es',
+  'iplmanufacturer/fr',
+  'iplmanufacturer/it',
+  'iplmanufacturer/global'
 ];
 
 // 页面优先级配置
@@ -113,6 +101,8 @@ const PAGE_PRIORITIES = {
   'how-to-use': 0.7,
   'blog': 0.6,
   'accessories': 0.6,
+  'shipping-cost': 0.5,
+  'admin': 0.3,
   'sitemap': 0.3
 };
 
@@ -124,7 +114,8 @@ const CHANGE_FREQUENCIES = {
   'products': 'monthly',
   'services': 'monthly',
   'about': 'yearly',
-  'contact': 'yearly'
+  'contact': 'yearly',
+  'admin': 'never'
 };
 
 // 获取页面优先级
@@ -148,27 +139,62 @@ function getChangeFreq(route) {
 }
 
 // 生成URL条目
-function generateUrlEntry(url, priority, changefreq, lastmod = CURRENT_DATE) {
-  return `  <url>
+function generateUrlEntry(url, priority, changefreq, lastmod = CURRENT_DATE, hreflangLinks = []) {
+  let entry = `  <url>
     <loc>${url}</loc>
     <lastmod>${lastmod}</lastmod>
     <changefreq>${changefreq}</changefreq>
-    <priority>${priority}</priority>
-  </url>`;
+    <priority>${priority}</priority>`;
+  
+  // 添加hreflang链接
+  if (hreflangLinks.length > 0) {
+    hreflangLinks.forEach(link => {
+      entry += `\n    <xhtml:link rel="alternate" hreflang="${link.hreflang}" href="${link.href}" />`;
+    });
+  }
+  
+  entry += `\n  </url>`;
+  return entry;
 }
 
-// 生成主sitemap
-function generateMainSitemap() {
+// 生成多语言sitemap（600个URL）
+function generateMultilingualSitemap() {
   const urls = [];
   
-  // 为每个路由生成URL条目
-  ALL_ROUTES.forEach(route => {
-    const cleanRoute = route === '' ? '' : `/${route}`;
-    const url = `${SITE_URL}${cleanRoute}`;
+  MAIN_ROUTES.forEach(route => {
     const priority = getPriority(route);
     const changefreq = getChangeFreq(route);
     
-    urls.push(generateUrlEntry(url, priority, changefreq));
+    LANGUAGES.forEach(lang => {
+      let url, hreflangLinks = [];
+      
+      // 生成当前语言的URL
+      if (lang === 'en') {
+        url = route === '' ? SITE_URL : `${SITE_URL}/${route}`;
+      } else {
+        url = route === '' ? `${SITE_URL}/${lang}` : `${SITE_URL}/${lang}/${route}`;
+      }
+      
+      // 生成hreflang链接
+      LANGUAGES.forEach(hrefLang => {
+        let hrefUrl;
+        if (hrefLang === 'en') {
+          hrefUrl = route === '' ? SITE_URL : `${SITE_URL}/${route}`;
+        } else {
+          hrefUrl = route === '' ? `${SITE_URL}/${hrefLang}` : `${SITE_URL}/${hrefLang}/${route}`;
+        }
+        hreflangLinks.push({ hreflang: hrefLang, href: hrefUrl });
+      });
+      
+      // 添加x-default链接（指向英文版本）
+      const xDefaultUrl = route === '' ? SITE_URL : `${SITE_URL}/${route}`;
+      hreflangLinks.push({ hreflang: 'x-default', href: xDefaultUrl });
+      
+      // 调整非英文页面的优先级
+      const adjustedPriority = lang === 'en' ? priority : priority * 0.9;
+      
+      urls.push(generateUrlEntry(url, adjustedPriority, changefreq, CURRENT_DATE, hreflangLinks));
+    });
   });
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
@@ -180,68 +206,21 @@ ${urls.join('\n')}
   return sitemap;
 }
 
-// 生成多语言sitemap
-function generateMultilingualSitemap() {
+// 生成主sitemap（英文版本）
+function generateMainSitemap() {
   const urls = [];
   
-  ALL_ROUTES.forEach(route => {
+  MAIN_ROUTES.forEach(route => {
+    const cleanRoute = route === '' ? '' : `/${route}`;
+    const url = `${SITE_URL}${cleanRoute}`;
     const priority = getPriority(route);
     const changefreq = getChangeFreq(route);
     
-    // 英文版本（无前缀）
-    const enUrl = route === '' ? SITE_URL : `${SITE_URL}/${route}`;
-    
-    // 生成hreflang链接
-    const hreflangLinks = LANGUAGES.map(lang => {
-      if (lang === 'en') {
-        return `    <xhtml:link rel="alternate" hreflang="${lang}" href="${enUrl}" />`;
-      } else {
-        const langUrl = route === '' ? `${SITE_URL}/${lang}` : `${SITE_URL}/${lang}/${route}`;
-        return `    <xhtml:link rel="alternate" hreflang="${lang}" href="${langUrl}" />`;
-      }
-    }).join('\n');
-    
-    // x-default链接
-    const xDefaultLink = `    <xhtml:link rel="alternate" hreflang="x-default" href="${enUrl}" />`;
-    
-    urls.push(`  <url>
-    <loc>${enUrl}</loc>
-    <lastmod>${CURRENT_DATE}</lastmod>
-    <changefreq>${changefreq}</changefreq>
-    <priority>${priority}</priority>
-${hreflangLinks}
-${xDefaultLink}
-  </url>`);
-    
-    // 其他语言版本
-    LANGUAGES.forEach(lang => {
-      if (lang !== 'en') {
-        const langUrl = route === '' ? `${SITE_URL}/${lang}` : `${SITE_URL}/${lang}/${route}`;
-        
-        const langHreflangLinks = LANGUAGES.map(l => {
-          if (l === 'en') {
-            return `    <xhtml:link rel="alternate" hreflang="${l}" href="${enUrl}" />`;
-          } else {
-            const lUrl = route === '' ? `${SITE_URL}/${l}` : `${SITE_URL}/${l}/${route}`;
-            return `    <xhtml:link rel="alternate" hreflang="${l}" href="${lUrl}" />`;
-          }
-        }).join('\n');
-        
-        urls.push(`  <url>
-    <loc>${langUrl}</loc>
-    <lastmod>${CURRENT_DATE}</lastmod>
-    <changefreq>${changefreq}</changefreq>
-    <priority>${priority * 0.9}</priority>
-${langHreflangLinks}
-${xDefaultLink}
-  </url>`);
-      }
-    });
+    urls.push(generateUrlEntry(url, priority, changefreq));
   });
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.join('\n')}
 </urlset>`;
 
@@ -274,12 +253,12 @@ if (!fs.existsSync(publicDir)) {
 
 // 生成所有sitemap文件
 try {
-  // 主sitemap
+  // 主sitemap（英文版本）
   const mainSitemap = generateMainSitemap();
   fs.writeFileSync(path.join(publicDir, 'sitemap-main.xml'), mainSitemap);
   console.log('✅ 主sitemap生成成功: sitemap-main.xml');
   
-  // 多语言sitemap
+  // 多语言sitemap（600个URL）
   const multilingualSitemap = generateMultilingualSitemap();
   fs.writeFileSync(path.join(publicDir, 'sitemap-multilingual.xml'), multilingualSitemap);
   console.log('✅ 多语言sitemap生成成功: sitemap-multilingual.xml');
@@ -290,9 +269,10 @@ try {
   console.log('✅ Sitemap索引生成成功: sitemap.xml');
   
   console.log('\n📊 Sitemap统计:');
-  console.log(`- 总页面数: ${ALL_ROUTES.length}`);
+  console.log(`- 主要页面数: ${MAIN_ROUTES.length}`);
   console.log(`- 支持语言: ${LANGUAGES.length}`);
-  console.log(`- 总URL数: ${ALL_ROUTES.length * LANGUAGES.length}`);
+  console.log(`- 总URL数: ${MAIN_ROUTES.length * LANGUAGES.length}`);
+  console.log(`- 预计文件大小: ~${Math.round((MAIN_ROUTES.length * LANGUAGES.length * 200) / 1024)}KB`);
   console.log(`\n🔗 提交到Google Search Console的URL:`);
   console.log(`${SITE_URL}/sitemap.xml`);
   
