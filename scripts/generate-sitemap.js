@@ -170,11 +170,10 @@ function generateMultilingualSitemap() {
     const priority = getPriority(route);
     const changefreq = getChangeFreq(route);
     
-    // 生成多语言sitemap时，确保英文版本不使用 /en 前缀
     LANGUAGES.forEach(lang => {
-      let url;
+      let url, hreflangLinks = []; // 在这里声明 hreflangLinks
       
-      // 英文版本不使用语言前缀，符合重定向规则
+      // 生成当前语言的URL
       if (lang === 'en') {
         url = route === '' ? SITE_URL : `${SITE_URL}/${route}`;
       } else {
