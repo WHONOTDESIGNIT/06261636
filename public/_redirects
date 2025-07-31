@@ -1,5 +1,27 @@
 # Netlify redirects configuration for SEO optimization
 
+# Language-specific redirects for SEO
+/en/* /:splat 301
+/english/* /:splat 301
+
+# Product page redirects for better URL structure
+/products/* /ipl-hair-removal/:splat 301
+/devices/* /ipl-hair-removal/:splat 301
+
+# Service page redirects
+/services/* /service-support/:splat 301
+/support/* /service-support/:splat 301
+
+# Blog redirects
+/news/* /blog/:splat 301
+/articles/* /blog/:splat 301
+
+# Trailing slash handling
+/*/ /:splat 301
+
+# SPA fallback for client-side routing
+/* /index.html 200
+
 # Force HTTPS redirect (301 permanent redirect)
 http://iplmanufacturer.com/* https://iplmanufacturer.com/:splat 301!
 http://www.iplmanufacturer.com/* https://www.iplmanufacturer.com/:splat 301!
