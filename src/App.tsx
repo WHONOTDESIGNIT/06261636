@@ -128,21 +128,32 @@ const LanguageGuard: React.FC = () => {
   const { lang } = useParams<{ lang?: string }>();
   const { setLanguage, currentLanguage } = useLanguage();
   const location = useLocation();
+  const navigate = useNavigate();
 
   // 确保英文不使用 /en 前缀
   const effectiveLang = lang && lang !== 'en' ? lang : 'en';
 
-  // 如果URL中有 /en，重定向到无前缀版本
-  if (lang === 'en') {
-    const newPath = location.pathname.replace('/en', '') || '/';
-    // 添加查询参数和hash的保持
-    const fullPath = newPath + location.search + location.hash;
-    return <Navigate to={fullPath} replace />;
-  }
+  // 在重定向前添加防抖，避免快速路由切换时的问题
+  useEffect(() => {
+    if (lang === 'en') {
+      const timeoutId = setTimeout(() => {
+        const newPath = location.pathname.replace('/en', '') || '/';
+        const fullPath = newPath + location.search + location.hash;
+        navigate(fullPath, { replace: true });
+      }, 0);
+      
+      return () => clearTimeout(timeoutId);
+    }
+  }, [lang, location.pathname, location.search, location.hash, navigate]);
 
   // Validate language param
   if (lang && !supportedLangs.includes(lang)) {
     return <NotFound />;
+  }
+
+  // 如果正在重定向，显示加载状态
+  if (lang === 'en') {
+    return <LoadingSpinner />;
   }
 
   // Sync context with URL
