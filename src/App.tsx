@@ -134,7 +134,10 @@ const LanguageGuard: React.FC = () => {
 
   // 如果URL中有 /en，重定向到无前缀版本
   if (lang === 'en') {
-    return <Navigate to={location.pathname.replace('/en', '') || '/'} replace />;
+    const newPath = location.pathname.replace('/en', '') || '/';
+    // 添加查询参数和hash的保持
+    const fullPath = newPath + location.search + location.hash;
+    return <Navigate to={fullPath} replace />;
   }
 
   // Validate language param
