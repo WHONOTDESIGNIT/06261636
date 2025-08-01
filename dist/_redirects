@@ -4,15 +4,7 @@
 http://iplmanufacturer.com/* https://iplmanufacturer.com/:splat 301!
 http://www.iplmanufacturer.com/* https://www.iplmanufacturer.com/:splat 301!
 
-# WWW to non-WWW redirect (更精确的规则)
-https://www.iplmanufacturer.com/about https://iplmanufacturer.com/about 301!
-https://www.iplmanufacturer.com/contact https://iplmanufacturer.com/contact 301!
-https://www.iplmanufacturer.com/solutions https://iplmanufacturer.com/solutions 301!
-https://www.iplmanufacturer.com/blog/* https://iplmanufacturer.com/blog/:splat 301!
-https://www.iplmanufacturer.com/service-support/* https://iplmanufacturer.com/service-support/:splat 301!
-https://www.iplmanufacturer.com/ipl-hair-removal/* https://iplmanufacturer.com/ipl-hair-removal/:splat 301!
-
-# 通用 WWW 重定向（放在最后）
+# WWW to non-WWW redirect (简化为单一规则)
 https://www.iplmanufacturer.com/* https://iplmanufacturer.com/:splat 301!
 
 # Legacy URL redirects
@@ -23,13 +15,8 @@ https://www.iplmanufacturer.com/* https://iplmanufacturer.com/:splat 301!
 /news/* /blog/:splat 301
 /articles/* /blog/:splat 301
 
-# 特定页面的 trailing slash 处理
-/solutions/ /solutions 301
-/about/ /about 301
-/contact/ /contact 301
-/blog/ /blog 301
-/service-support/ /service-support 301
-/ipl-hair-removal/ /ipl-hair-removal 301
+# 移除 trailing slash（简化处理）
+/*/ /:splat 301
 
 # SPA fallback for client-side routing (必须放在最后)
 /* /index.html 200
