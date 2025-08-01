@@ -1,47 +1,25 @@
 User-agent: *
 Allow: /
 
-# Yandex specific optimizations
-User-agent: Yandex
-Allow: /
-Crawl-delay: 1
+# Sitemap
+Sitemap: https://iplmanufacturer.com/sitemap.xml
+Sitemap: https://iplmanufacturer.com/sitemap-main.xml
+Sitemap: https://iplmanufacturer.com/sitemap-multilingual.xml
 
-# Allow all language versions
-Allow: /de/
-Allow: /fr/
-Allow: /es/
-Allow: /it/
-Allow: /pt/
-Allow: /nl/
-Allow: /ja/
-Allow: /ko/
-Allow: /zh/
-Allow: /th/
-Allow: /vi/
-Allow: /id/
-Allow: /ms/
-Allow: /ar/
-Allow: /he/
-Allow: /tr/
-Allow: /hi/
-Allow: /ru/
-Allow: /cs/
-Allow: /da/
-Allow: /et/
-Allow: /hr/
-Allow: /fi/
-Allow: /sv/
-Allow: /no/
-Allow: /tl/
-Allow: /bn/
-Allow: /uk/
-
-# Prevent crawling of admin or private areas
-Disallow: /admin/
-Disallow: /private/
-Disallow: /.git/
+# Block admin and sensitive areas
+Disallow: /admin
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /src/
 Disallow: /node_modules/
 
-# Sitemap location
-Sitemap: https://iplmanufacturer.com/sitemap.xml
-Sitemap: https://iplmanufacturer.com/sitemap-yandex.xml
+# Allow important pages
+Allow: /solutions
+Allow: /ipl-hair-removal
+Allow: /about
+Allow: /contact
+Allow: /service-support
+Allow: /blog
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
