@@ -7,9 +7,6 @@ http://www.iplmanufacturer.com/* https://www.iplmanufacturer.com/:splat 301!
 # WWW to non-WWW redirect
 https://www.iplmanufacturer.com/* https://iplmanufacturer.com/:splat 301!
 
-# 移除可能导致循环的 /en 重定向，让 React Router 处理
-# /en/*    /:splat   301  # 注释掉这行
-
 # Legacy URL redirects (保留有用的重定向)
 /products/* /ipl-hair-removal/:splat 301
 /devices/* /ipl-hair-removal/:splat 301
@@ -18,8 +15,7 @@ https://www.iplmanufacturer.com/* https://iplmanufacturer.com/:splat 301!
 /news/* /blog/:splat 301
 /articles/* /blog/:splat 301
 
-# 修复 trailing slash 处理，避免循环
-# 只处理明确的目录路径，避免与 SPA 路由冲突
+# 特定页面的 trailing slash 处理
 /solutions/ /solutions 301
 /about/ /about 301
 /contact/ /contact 301
