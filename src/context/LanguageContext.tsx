@@ -1,5 +1,4 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
 import { languages } from '../data/languages';
 import { useTranslation } from '../hooks/useTranslation';
 
@@ -21,19 +20,32 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   });
 
   const { t } = useTranslation(currentLanguage);
-  const location = useLocation();
 
+  // 监听路由变化的替代方案
   useEffect(() => {
-    const path = location.pathname;
-    const langMatch = path.match(/^\/([a-z]{2})(\/|$)/);
-    if (langMatch) {
-      const lang = langMatch[1];
-      if (lang !== currentLanguage) {
-        setCurrentLanguage(lang);
-        localStorage.setItem('selectedLanguage', lang);
+    const handleLocationChange = () => {
+      const path = window.location.pathname;
+      const langMatch = path.match(/^\/([a-z]{2})(\/|$)/);
+      if (langMatch) {
+        const lang = langMatch[1];
+        if (lang !== currentLanguage) {
+          setCurrentLanguage(lang);
+          localStorage.setItem('selectedLanguage', lang);
+        }
       }
-    }
-  }, [location.pathname, currentLanguage]);
+    };
+
+    // 监听浏览器历史变化
+    window.addEventListener('popstate', handleLocationChange);
+    
+    // 监听自定义语言变化事件
+    window.addEventListener('languageChanged', handleLocationChange);
+
+    return () => {
+      window.removeEventListener('popstate', handleLocationChange);
+      window.removeEventListener('languageChanged', handleLocationChange);
+    };
+  }, [currentLanguage]);
 
   const setLanguage = (languageCode: string) => {
     setCurrentLanguage(languageCode);
