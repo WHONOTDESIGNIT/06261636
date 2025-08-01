@@ -129,22 +129,27 @@ const LanguageGuard: React.FC = () => {
   const { setLanguage, currentLanguage } = useLanguage();
   const location = useLocation();
   const navigate = useNavigate();
+  const [isRedirecting, setIsRedirecting] = useState(false);
 
   // 确保英文不使用 /en 前缀
   const effectiveLang = lang && lang !== 'en' ? lang : 'en';
 
-  // 在重定向前添加防抖，避免快速路由切换时的问题
+  // 处理 /en 路径的重定向（只在 lang 参数变化时触发）
   useEffect(() => {
-    if (lang === 'en') {
+    if (lang === 'en' && !isRedirecting) {
+      setIsRedirecting(true);
       const timeoutId = setTimeout(() => {
         const newPath = location.pathname.replace('/en', '') || '/';
         const fullPath = newPath + location.search + location.hash;
         navigate(fullPath, { replace: true });
       }, 0);
       
-      return () => clearTimeout(timeoutId);
+      return () => {
+        clearTimeout(timeoutId);
+        setIsRedirecting(false);
+      };
     }
-  }, [lang, location.pathname, location.search, location.hash, navigate]);
+  }, [lang]); // 只依赖 lang 参数，避免路径变化时的重复触发
 
   // Validate language param
   if (lang && !supportedLangs.includes(lang)) {
@@ -152,7 +157,7 @@ const LanguageGuard: React.FC = () => {
   }
 
   // 如果正在重定向，显示加载状态
-  if (lang === 'en') {
+  if (lang === 'en' || isRedirecting) {
     return <LoadingSpinner />;
   }
 
