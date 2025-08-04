@@ -4,12 +4,10 @@ import './index.css'
 
 const routes = []
 
-// `export const createApp` is required for vite-ssg
 export const createApp = ViteSSG(
-  // The root component
   App,
   { routes },
-  ({ app, router, routes, isClient, initialState }) => {
-    // configure your app
+  () => {
+    // 如果后续需要配置，再添加参数
   }
 )
