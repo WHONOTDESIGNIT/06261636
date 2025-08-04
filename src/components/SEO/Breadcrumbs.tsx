@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
 import { useLanguage } from '../../context/LanguageContext';
 import { ChevronRight, Home } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 
 interface BreadcrumbItem {
   name: string;
@@ -21,14 +21,35 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ customItems, className = '' }
   
   // 路径名称映射
   const pathNameMap: { [key: string]: string } = {
+    'home': t('nav.home', 'Home'),
     'solutions': t('nav.solutions', 'Solutions'),
     'ipl-hair-removal': t('nav.iplHairRemoval', 'IPL Hair Removal'),
+    'ipl': t('nav.iplHairRemoval', 'IPL Hair Removal'),
     'accessories': t('nav.accessories', 'Accessories'),
     'service-support': t('nav.serviceSupport', 'Service & Support'),
+    'service': t('nav.serviceSupport', 'Service & Support'),
     'blog': t('nav.blog', 'Blog'),
     'about': t('nav.about', 'About'),
     'how-to-use': t('nav.howToUse', 'How to Use'),
-    'contact': t('nav.contact', 'Contact')
+    'contact': t('nav.contact', 'Contact'),
+    'smart-app': t('ipl.smartApp.title', 'Smart App IPL'),
+    'ice-feeling': t('ipl.iceFeeling.title', 'Ice Feeling IPL'),
+    'emerald': t('ipl.emerald.title', 'Emerald IPL'),
+    'skin-sensor': t('ipl.skinSensor.title', 'Skin Sensor IPL'),
+    'battery-powered': t('ipl.batteryPowered.title', 'Battery Powered IPL'),
+    'handheld': t('ipl.handheld.title', 'Handheld IPL'),
+    'ice-cooling': t('ipl.iceCooling.title', 'Ice Cooling IPL'),
+    'dual-lamp': t('ipl.dualLamp.title', 'Dual Lamp IPL'),
+    'ai-powered': t('ipl.aiPowered.title', 'AI-Powered IPL'),
+    'logo-printing': t('solutions.logoPrinting.title', 'Logo Printing'),
+    'packaging-solutions': t('solutions.packaging.title', 'Packaging Solutions'),
+    'drop-shipping': t('solutions.dropShipping.title', 'Drop Shipping'),
+    'global-shipping': t('solutions.globalShipping.title', 'Global Shipping'),
+    'brand-customization': t('solutions.brandCustomization.title', 'Brand Customization'),
+    'compliance': t('solutions.compliance.title', 'Compliance'),
+    'design-prototyping': t('solutions.designPrototyping.title', 'Design & Prototyping'),
+    'multi-head-ipl': t('solutions.multiHeadIPL.title', 'Multi Head IPL'),
+    'dual-lamp-ipl': t('solutions.dualLampIPL.title', 'Dual Lamp IPL')
   };
 
   const generateBreadcrumbs = (): BreadcrumbItem[] => {
@@ -44,11 +65,11 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ customItems, className = '' }
     
     let currentPath = '';
     pathnames.forEach((pathname) => {
-      currentPath += `/${pathname}`;
+      currentPath += currentPath === '' ? pathname : `/${pathname}`;
       const displayName = pathNameMap[pathname] || pathname.charAt(0).toUpperCase() + pathname.slice(1).replace(/-/g, ' ');
       breadcrumbs.push({
         name: displayName,
-        path: currentPath
+        path: `/${currentPath}`
       });
     });
     
@@ -77,26 +98,26 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ customItems, className = '' }
         </script>
       </Helmet>
       
-      <nav className={`flex items-center space-x-2 text-sm text-gray-600 mb-6 ${className}`} aria-label="Breadcrumb">
+      <nav className={`flex items-center space-x-2 text-sm text-gray-600 mb-6 px-4 py-2 bg-gray-50 rounded-lg ${className}`} aria-label="Breadcrumb">
         {breadcrumbs.map((item, index) => {
           const isLast = index === breadcrumbs.length - 1;
           
           return (
             <React.Fragment key={item.path}>
               {index === 0 ? (
-                <Home className="w-4 h-4" />
+                <Home className="w-4 h-4 text-gray-500" />
               ) : (
                 <ChevronRight className="w-4 h-4 text-gray-400" />
               )}
               
               {isLast ? (
-                <span className="text-gray-900 font-medium" aria-current="page">
+                <span className="text-gray-900 font-semibold" aria-current="page">
                   {item.name}
                 </span>
               ) : (
                 <Link 
                   to={item.path} 
-                  className="hover:text-ishine-blue-600 transition-colors"
+                  className="hover:text-ishine-blue-600 transition-colors font-medium"
                 >
                   {item.name}
                 </Link>

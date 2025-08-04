@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
+import Breadcrumbs from '../../components/SEO/Breadcrumbs';
 import {
   ChevronLeft,
   ChevronRight,
@@ -43,14 +44,9 @@ const SmartAppIPL: React.FC = () => {
       />
       <div className="min-h-screen bg-white pt-20">
         <div className="container mx-auto px-4">
-          {/* Breadcrumb */}
-          <nav className="text-sm text-gray-500 mb-4 mt-4 uppercase">
-            <a href="/" className="hover:text-[rgb(0,116,224)]">{t('common.home')}</a>
-            <span className="mx-2">/</span>
-            <a href="/ipl-hair-removal" className="hover:text-[rgb(0,116,224)]">{t('iplHairRemoval')}</a>
-            <span className="mx-2">/</span>
-            <span className="text-gray-800">{t('ipl.smartApp.title')}</span>
-          </nav>
+          <div className="mt-4">
+            <Breadcrumbs />
+          </div>
 
           {/* Main Product Section */}
           <div className="grid lg:grid-cols-2 gap-12 mb-16">

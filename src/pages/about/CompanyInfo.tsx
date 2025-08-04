@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../../context/LanguageContext';
+import Breadcrumbs from '../../components/SEO/Breadcrumbs';
 
 const CompanyInfo: React.FC = () => {
   const { currentLanguage } = useLanguage();
@@ -61,12 +62,7 @@ const CompanyInfo: React.FC = () => {
 
       {/* Main Content */}
       <div className="container mx-auto px-4 max-w-5xl py-16">
-        {/* Breadcrumb */}
-        <nav className="text-sm text-gray-500 mb-8 uppercase">
-          <a href="/" className="hover:text-[rgb(0,116,224)]">Home</a>
-          <span className="mx-2">/</span>
-          <span className="text-gray-800">Company Profile</span>
-        </nav>
+        <Breadcrumbs />
 
         {/* Company Overview */}
         <section className="mb-12" id="manufacturing">

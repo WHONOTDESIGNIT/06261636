@@ -12,6 +12,7 @@ import {
   Info,
 } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
+import Breadcrumbs from '../../components/SEO/Breadcrumbs';
 
 const IceCoolingIPL: React.FC = () => {
   const { t } = useLanguage();
@@ -40,14 +41,9 @@ const IceCoolingIPL: React.FC = () => {
   return (
     <div className="min-h-screen bg-white pt-20">
       <div className="container mx-auto px-4">
-        {/* Breadcrumb */}
-        <nav className="text-sm text-gray-500 mb-4 mt-4 uppercase">
-          <a href="/" className="hover:text-blue-600">{t('common.home')}</a>
-          <span className="mx-2">/</span>
-          <a href="/ipl-hair-removal" className="hover:text-blue-600">{t('iplHairRemoval')}</a>
-          <span className="mx-2">/</span>
-          <span className="text-gray-800">{t('ipl.iceCooling.title')}</span>
-        </nav>
+        <div className="mt-4">
+          <Breadcrumbs />
+        </div>
 
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           {/* Product Gallery */}

@@ -3,6 +3,7 @@ import { ChevronLeft, ChevronRight, Star, ShoppingCart, Plus, Minus, Shield, Tru
 import ContactFormA from '../../components/Forms/ContactFormA';
 import { useLanguage } from '../../context/LanguageContext';
 import SEOTags from '../../components/SEO/SEOTags';
+import Breadcrumbs from '../../components/SEO/Breadcrumbs';
 
 const SkinSensorIPL: React.FC = () => {
   const { t } = useLanguage();
@@ -47,14 +48,9 @@ const SkinSensorIPL: React.FC = () => {
       />
       <div className="min-h-screen bg-white pt-20">
         <div className="container mx-auto px-4">
-          {/* Breadcrumb */}
-          <nav className="text-sm text-gray-500 mb-4 mt-4 uppercase">
-            <a href="/" className="hover:text-[rgb(0,116,224)]">{t('common.home')}</a>
-            <span className="mx-2">/</span>
-            <a href="/ipl-hair-removal" className="hover:text-[rgb(0,116,224)]">{t('iplHairRemoval')}</a>
-            <span className="mx-2">/</span>
-            <span className="text-gray-800">{t('ipl.skinSensor.title')}</span>
-          </nav>
+          <div className="mt-4">
+            <Breadcrumbs />
+          </div>
 
           <div className="grid lg:grid-cols-2 gap-12 mb-16">
             {/* Product Gallery */}
