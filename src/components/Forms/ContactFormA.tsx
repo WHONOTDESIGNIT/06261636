@@ -49,7 +49,9 @@ const ContactFormA: React.FC = () => {
         <form className="bg-white rounded-lg shadow-lg p-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
+              <label htmlFor="contact-name" className="sr-only">Name</label>
               <input
+                id="contact-name"
                 type="text"
                 placeholder="Name*"
                 value={values.name || ''}
@@ -63,7 +65,9 @@ const ContactFormA: React.FC = () => {
             </div>
 
             <div>
+              <label htmlFor="contact-email" className="sr-only">Email Address</label>
               <input
+                id="contact-email"
                 type="email"
                 placeholder="Email Address*"
                 value={values.email || ''}
@@ -77,7 +81,9 @@ const ContactFormA: React.FC = () => {
             </div>
 
             <div>
+              <label htmlFor="contact-phone" className="sr-only">Phone Number</label>
               <input
+                id="contact-phone"
                 type="tel"
                 placeholder="Phone Number* e.g.(+1-541-3456-3001)"
                 value={values.phone || ''}
@@ -91,7 +97,9 @@ const ContactFormA: React.FC = () => {
             </div>
 
             <div>
+              <label htmlFor="contact-country" className="sr-only">Country</label>
               <input
+                id="contact-country"
                 type="text"
                 placeholder="Country*"
                 value={values.country || ''}
@@ -105,7 +113,9 @@ const ContactFormA: React.FC = () => {
             </div>
 
             <div>
+              <label htmlFor="contact-business" className="sr-only">Business Experience</label>
               <select
+                id="contact-business"
                 value={values.business || ''}
                 onChange={(e) => handleChange('business', e.target.value)}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ishine-blue-500 focus:border-ishine-blue-500"
@@ -117,7 +127,9 @@ const ContactFormA: React.FC = () => {
             </div>
 
             <div>
+              <label htmlFor="contact-timeline" className="sr-only">Project Timeline</label>
               <select
+                id="contact-timeline"
                 value={values.timeline || ''}
                 onChange={(e) => handleChange('timeline', e.target.value)}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ishine-blue-500 focus:border-ishine-blue-500"
@@ -131,7 +143,9 @@ const ContactFormA: React.FC = () => {
           </div>
 
           <div className="mt-6">
+            <label htmlFor="contact-message" className="sr-only">Message</label>
             <textarea
+              id="contact-message"
               placeholder="Describe your needs here*"
               value={values.message || ''}
               onChange={(e) => handleChange('message', e.target.value)}
@@ -146,15 +160,17 @@ const ContactFormA: React.FC = () => {
 
           <div className="mt-6 flex items-center space-x-4">
             <div className="flex items-center space-x-2">
-              <span className="text-lg font-medium">
+              <label htmlFor="math-verification" className="text-lg font-medium">
                 {mathQuestion.a} + {mathQuestion.b} =
-              </span>
+              </label>
               <input
+                id="math-verification"
                 type="number"
                 value={values.verification || ''}
                 onChange={(e) => handleChange('verification', parseInt(e.target.value) || 0)}
                 className="w-20 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ishine-blue-500 focus:border-ishine-blue-500"
                 required
+                aria-label={`Math verification: ${mathQuestion.a} plus ${mathQuestion.b} equals`}
               />
             </div>
           </div>
