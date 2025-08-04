@@ -11,7 +11,6 @@ export default defineConfig({
     },
   },
 
-  // vite-ssg options
   ssgOptions: {
     script: 'async',
     formatting: 'prettify',
@@ -20,16 +19,7 @@ export default defineConfig({
   },
 
   build: {
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          // 移除可能被标记为外部的模块
-          // seo: ['react-helmet-async'], // 删除这行
-          animations: ['framer-motion'],
-          icons: ['lucide-react']
-        }
-      }
-    },
+    // 暂时移除 rollupOptions，确保 SSG 构建成功
     minify: 'terser',
     terserOptions: {
       compress: {
