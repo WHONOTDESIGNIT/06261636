@@ -1,78 +1,65 @@
-import React, { useEffect } from 'react';
-import { ChevronDown } from 'lucide-react';
-import { useLanguage } from '../../context/LanguageContext';
-import { languages } from '../../data/languages';
-import { useNavigate, useLocation } from 'react-router-dom';
+import React from 'react';
+import { useLanguage } from '../contexts/LanguageContext';
 
-interface Language {
-  code: string;
-  flag: string;
-  name: string;
-  nativeName?: string;
+interface LanguageSelectorProps {
+  className?: string;
 }
 
-const LanguageSelector: React.FC = () => {
-  const { currentLanguage, setLanguage } = useLanguage();
-  const navigate = useNavigate();
-  const location = useLocation();
+const languages = [
+  { code: 'en', name: 'English', flag: '🇺🇸' },
+  { code: 'zh', name: '中文', flag: '🇨🇳' },
+  { code: 'es', name: 'Español', flag: '🇪🇸' },
+  { code: 'fr', name: 'Français', flag: '🇫🇷' },
+  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
+  { code: 'ja', name: '日本語', flag: '🇯🇵' },
+  { code: 'ko', name: '한국어', flag: '🇰🇷' },
+  { code: 'pt', name: 'Português', flag: '🇵🇹' },
+  { code: 'ru', name: 'Русский', flag: '🇷🇺' },
+  { code: 'ar', name: 'العربية', flag: '🇸🇦' },
+];
 
-  // 移除自动IP检测和重定向功能，只保留默认设置
-  useEffect(() => {
-    if (!currentLanguage) {
-      setLanguage('en');
-    }
-  }, [currentLanguage, setLanguage]);
+const LanguageSelector: React.FC<LanguageSelectorProps> = ({ className = '' }) => {
+  const { currentLanguage } = useLanguage();
 
-  /* ---------------- 语言切换下拉 ---------------- */
-  const currentValue = `${currentLanguage || 'en'}`;
+  const handleLanguageChange = (newLang: string) => {
+    if (newLang === currentLanguage) return;
 
-  const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const langCode = e.target.value;
-    setLanguage(langCode);
-
-    // 计算新的路径
-    let newPath = location.pathname;
-    const pathSegments = newPath.split('/').filter(Boolean); // 移除空字符串
+    // 使用 window.location.href 进行页面跳转
+    // 让服务器端重定向处理所有逻辑
+    const currentPath = window.location.pathname;
+    const currentSearch = window.location.search;
+    const currentHash = window.location.hash;
     
-    // 检查当前路径是否已有语言前缀
-    const hasLanguagePrefix = pathSegments.length > 0 && 
-      languages.some(l => l.code.startsWith(pathSegments[0]));
+    let newUrl: string;
     
-    if (hasLanguagePrefix) {
-      // 移除现有语言前缀
-      pathSegments.shift();
-    }
-    
-    // 构建新路径
-    if (langCode === 'en') {
-      // 英文：无前缀路径
-      newPath = pathSegments.length > 0 ? `/${pathSegments.join('/')}` : '/';
+    if (newLang === 'en') {
+      // 英文：移除语言前缀
+      const cleanPath = currentPath.replace(/^\/(zh|es|fr|de|ja|ko|pt|ru|ar)(\/|$)/, '/') || '/';
+      newUrl = cleanPath + currentSearch + currentHash;
     } else {
-      // 其他语言：添加语言前缀
-      newPath = `/${langCode}${pathSegments.length > 0 ? '/' + pathSegments.join('/') : ''}`;
+      // 其他语言：添加或替换语言前缀
+      const cleanPath = currentPath.replace(/^\/(zh|es|fr|de|ja|ko|pt|ru|ar)(\/|$)/, '/') || '/';
+      const newPath = cleanPath === '/' ? `/${newLang}` : `/${newLang}${cleanPath}`;
+      newUrl = newPath + currentSearch + currentHash;
     }
     
-    // 添加查询参数和哈希
-    const fullPath = `${newPath}${location.search}${location.hash}`;
-    
-    // 使用 navigate 进行客户端路由跳转，避免页面重载
-    navigate(fullPath, { replace: true });
+    // 直接跳转，让服务器处理重定向
+    window.location.href = newUrl;
   };
 
   return (
-    <div className="relative inline-block">
+    <div className={`language-selector ${className}`}>
       <select
-        value={currentValue}
-        onChange={handleLanguageChange}
-        className="appearance-none bg-white border border-gray-300 rounded-md pl-4 pr-10 py-2 text-sm font-medium text-gray-700 hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-ishine-blue-500 focus:border-transparent cursor-pointer min-w-[140px]"
+        value={currentLanguage}
+        onChange={(e) => handleLanguageChange(e.target.value)}
+        className="language-select"
       >
-        {languages.map((option: Language) => (
-          <option key={option.code} value={option.code}>
-            {option.flag} {option.nativeName || option.name}
+        {languages.map((lang) => (
+          <option key={lang.code} value={lang.code}>
+            {lang.flag} {lang.name}
           </option>
         ))}
       </select>
-      <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500 pointer-events-none" />
     </div>
   );
 };
