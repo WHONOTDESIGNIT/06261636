@@ -131,16 +131,20 @@ const LanguageGuard: React.FC = () => {
   const [isRedirecting, setIsRedirecting] = useState(false);
 
   useEffect(() => {
-    if (isRedirecting) return;
+    // 避免在服务器端重定向后再次重定向
+    if (isRedirecting || typeof window === 'undefined') return;
 
     const currentLang = lang || 'en';
     const isValidLang = supportedLangs.includes(currentLang);
     
-    if (!isValidLang) {
+    // 只在客户端且语言无效时重定向
+    if (!isValidLang && typeof window !== 'undefined') {
       setIsRedirecting(true);
-      requestAnimationFrame(() => {
-        navigate('/en' + location.pathname.replace(/^\/[a-z]{2}/, ''), { replace: true });
-      });
+      // 使用setTimeout避免与Netlify重定向冲突
+      setTimeout(() => {
+        const newPath = location.pathname.replace(/^\/[a-z]{2}/, '') || '/';
+        navigate(newPath, { replace: true });
+      }, 100);
     }
   }, [lang, navigate, location.pathname, isRedirecting]);
 
