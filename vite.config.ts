@@ -26,8 +26,6 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          // Routing related
-          router: ['react-router-dom'],
           // SEO related
           seo: ['react-helmet-async'],
           // Separate animation library (if framer-motion is kept)
