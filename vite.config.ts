@@ -26,8 +26,6 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          // Separate React-related libraries
-          vendor: ['react', 'react-dom'],
           // Routing related
           router: ['react-router-dom'],
           // SEO related
