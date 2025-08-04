@@ -1,0 +1,10 @@
+User-agent: *
+
+# 屏蔽后台和源码等非公开目录
+Disallow: /admin/
+Disallow: /api/
+Disallow: /src/
+Disallow: /node_modules/
+
+# 声明Sitemap索引文件
+Sitemap: https://iplmanufacturer.com/sitemap.xml
