@@ -1,0 +1,72 @@
+const meta = {
+  title: "iShine - IPL-apparaat productieoplossingen | Van idee tot markt",
+  description: "Toonaangevende IPL-apparaat fabrikant die uitgebreide OEM/ODM-oplossingen biedt van idee tot markt. Op maat gemaakte IPL-haarontwaardering apparaten voor wereldwijde schoonheidsmerken.",
+  keywords: "IPL-apparaten, OEM-productie, ODM-oplossingen, haarontwarring, schoonheidsapparaten, aangepaste productie"
+};
+const header = {
+  nav: {
+    solutions: "Oplossingen",
+    iplHairRemoval: "IPL Haarontwarring",
+    howToUse: "Hoe te gebruiken",
+    serviceSupport: "Service en ondersteuning",
+    about: "Over ons",
+    contact: "Contact"
+  },
+  navigation: {
+    solutions: "Oplossingen",
+    iplHairRemoval: "IPL Haarontwarring",
+    howToUse: "Hoe te gebruiken",
+    serviceSupport: "Service en ondersteuning",
+    about: "Over ons",
+    contact: "Contact"
+  }
+};
+const footer = {
+  company: {
+    description: "Toonaangevende IPL-apparaat fabrikant die OEM/ODM-oplossingen biedt van idee tot markt.",
+    products: "Producten",
+    services: "Diensten",
+    company: "Bedrijf"
+  },
+  contact: {
+    title: "Contact",
+    tel: "Tel",
+    whatsapp: "WhatsApp",
+    email: "Email",
+    address: "ADRES"
+  }
+};
+const home = {
+  hero: {
+    title1: "Op maat gemaakte IPL-haarontwaardering apparaten voor cosmeticamerken",
+    subtitle: "U ontwerpt het, wij bouwen en verpakken het.",
+    cta: "Gratis offerte krijgen"
+  },
+  about: {
+    title: "Over iShine",
+    subtitle: "Complete IPL-oplossingen.",
+    cta: "Lees meer"
+  }
+};
+const common = {
+  loading: "Laden...",
+  error: "Er is een fout opgetreden",
+  success: "Succes",
+  readMore: "Lees meer",
+  contactUs: "Neem contact op"
+};
+const nl = {
+  meta,
+  header,
+  footer,
+  home,
+  common
+};
+export {
+  common,
+  nl as default,
+  footer,
+  header,
+  home,
+  meta
+};
