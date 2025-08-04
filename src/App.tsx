@@ -123,33 +123,17 @@ const MainLayout: React.FC = () => {
   );
 };
 
-// Language validation wrapper
+// Language validation wrapper - 简化版本，避免与Netlify重定向冲突
 const LanguageGuard: React.FC = () => {
   const { lang } = useParams<{ lang: string }>();
-  const navigate = useNavigate();
-  const location = useLocation();
-  const [isRedirecting, setIsRedirecting] = useState(false);
-
-  useEffect(() => {
-    // 避免在服务器端重定向后再次重定向
-    if (isRedirecting || typeof window === 'undefined') return;
-
-    const currentLang = lang || 'en';
-    const isValidLang = supportedLangs.includes(currentLang);
-    
-    // 只在客户端且语言无效时重定向
-    if (!isValidLang && typeof window !== 'undefined') {
-      setIsRedirecting(true);
-      // 使用setTimeout避免与Netlify重定向冲突
-      setTimeout(() => {
-        const newPath = location.pathname.replace(/^\/[a-z]{2}/, '') || '/';
-        navigate(newPath, { replace: true });
-      }, 100);
-    }
-  }, [lang, navigate, location.pathname, isRedirecting]);
-
-  if (isRedirecting) {
-    return <LoadingSpinner />;
+  
+  // 简化：只验证语言，不进行客户端重定向
+  const currentLang = lang || 'en';
+  const isValidLang = supportedLangs.includes(currentLang);
+  
+  // 如果语言无效，显示404页面，让Netlify处理重定向
+  if (!isValidLang) {
+    return <NotFound />;
   }
 
   return <MainLayout />;
