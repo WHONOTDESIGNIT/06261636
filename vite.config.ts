@@ -2,43 +2,56 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path'
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
   },
+
+  // vite-ssg options
+  ssgOptions: {
+    script: 'async',
+    formatting: 'prettify',
+    dirStyle: 'nested',
+    // The entry point for SSG.
+    entry: 'src/main.ssg.tsx',
+  },
+
   build: {
-    // 代码分割优化
+    // Code splitting optimization
     rollupOptions: {
       output: {
         manualChunks: {
-          // 将React相关库分离
+          // Separate React-related libraries
           vendor: ['react', 'react-dom'],
-          // 路由相关
+          // Routing related
           router: ['react-router-dom'],
-          // SEO相关
+          // SEO related
           seo: ['react-helmet-async'],
-          // 动画库单独分离（如果保留framer-motion）
+          // Separate animation library (if framer-motion is kept)
           animations: ['framer-motion'],
-          // 图标库
+          // Icon library
           icons: ['lucide-react']
         }
       }
     },
-    // 启用压缩
+    // Enable compression
     minify: 'terser',
     terserOptions: {
       compress: {
-        drop_console: true, // 生产环境移除console
+        drop_console: true, // Remove console in production
         drop_debugger: true
       }
     },
-    // 设置chunk大小警告阈值
+    // Set chunk size warning limit
     chunkSizeWarningLimit: 1000
   },
-  // 开发服务器配置
+
+  // Development server configuration
   server: {
     port: 3000,
     open: true
