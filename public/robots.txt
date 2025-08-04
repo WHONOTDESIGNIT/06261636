@@ -1,25 +1,30 @@
 User-agent: *
-Allow: /
 
-# Sitemap
-Sitemap: https://iplmanufacturer.com/sitemap.xml
-Sitemap: https://iplmanufacturer.com/sitemap-main.xml
-Sitemap: https://iplmanufacturer.com/sitemap-multilingual.xml
-
-# Block admin and sensitive areas
-Disallow: /admin
-Disallow: /api/
-Disallow: /*.json$
-Disallow: /src/
-Disallow: /node_modules/
-
-# Allow important pages
-Allow: /solutions
-Allow: /ipl-hair-removal
-Allow: /about
-Allow: /contact
-Allow: /service-support
-Allow: /blog
-
-# Crawl delay for respectful crawling
-Crawl-delay: 1
+-Allow: /
+-
+-# Sitemap
+-Sitemap: https://iplmanufacturer.com/sitemap.xml
+-Sitemap: https://iplmanufacturer.com/sitemap-main.xml
+-Sitemap: https://iplmanufacturer.com/sitemap-multilingual.xml
+-
+-# Block admin and sensitive areas
+-Disallow: /admin
+-Disallow: /api/
+-Disallow: /*.json$
+-Disallow: /src/
+-Disallow: /node_modules/
+-
+-# Allow important pages
+-Allow: /solutions
+-Allow: /ipl-hair-removal
+-Allow: /about
+-Allow: /contact
+-Allow: /service-support
+-Allow: /blog
+-
+-# Crawl delay for respectful crawling
+-Crawl-delay: 1
++Disallow: /admin/
++Disallow: /src/
++
++Sitemap: https://iplmanufacturer.com/sitemap.xml
