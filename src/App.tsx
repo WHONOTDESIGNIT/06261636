@@ -1,5 +1,5 @@
-import React, { useEffect, Suspense, lazy, useState } from 'react';
-import { BrowserRouter, Routes, Route, Outlet, useParams, useLocation, useNavigate } from 'react-router-dom';
+import React, { Suspense, lazy } from 'react';
+import { BrowserRouter, Routes, Route, Outlet, useParams } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { LanguageProvider } from './context/LanguageContext';
 import Header from './components/Layout/Header';
