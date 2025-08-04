@@ -34,7 +34,11 @@ const ContactFormB: React.FC = () => {
         <form className="bg-white rounded-lg shadow-lg p-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
+              <label htmlFor="contact-b-name" className="sr-only">
+                {t('contact.form.name', 'Name')}
+              </label>
               <input
+                id="contact-b-name"
                 type="text"
                 placeholder={t('contact.form.name', 'Name*')}
                 value={values.name || ''}
@@ -48,7 +52,11 @@ const ContactFormB: React.FC = () => {
             </div>
 
             <div>
+              <label htmlFor="contact-b-email" className="sr-only">
+                {t('contact.form.email', 'Email Address')}
+              </label>
               <input
+                id="contact-b-email"
                 type="email"
                 placeholder={t('contact.form.email', 'Email Address*')}
                 value={values.email || ''}
@@ -62,7 +70,11 @@ const ContactFormB: React.FC = () => {
             </div>
 
             <div>
+              <label htmlFor="contact-b-phone" className="sr-only">
+                {t('contact.form.phone', 'Phone number')}
+              </label>
               <input
+                id="contact-b-phone"
                 type="tel"
                 placeholder={t('contact.form.phone', 'Phone number* e.g.(+1-541-3456-3001)')}
                 value={values.phone || ''}
@@ -76,7 +88,11 @@ const ContactFormB: React.FC = () => {
             </div>
 
             <div>
+              <label htmlFor="contact-b-country" className="sr-only">
+                {t('contact.form.country', 'Country')}
+              </label>
               <input
+                id="contact-b-country"
                 type="text"
                 placeholder={t('contact.form.country', 'Country')}
                 value={values.country || ''}
@@ -87,7 +103,11 @@ const ContactFormB: React.FC = () => {
           </div>
 
           <div className="mt-6">
+            <label htmlFor="contact-b-message" className="sr-only">
+              {t('contact.form.message', 'Message')}
+            </label>
             <textarea
+              id="contact-b-message"
               placeholder={t('contact.form.message', 'Describe your needs here*')}
               value={values.message || ''}
               onChange={(e) => handleChange('message', e.target.value)}
