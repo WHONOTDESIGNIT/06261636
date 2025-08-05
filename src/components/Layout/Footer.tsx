@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Facebook, Instagram, Youtube } from 'lucide-react';
 
 const Footer: React.FC = () => {
@@ -35,9 +35,9 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-semibold mb-4">Products</h3>
             <ul className="space-y-2 text-gray-300">
-              <li><Link to="/ipl-hair-removal" className="hover:text-white transition-colors">IPL Hair Removal</Link></li>
-              <li><Link to="/accessories" className="hover:text-white transition-colors">Accessories</Link></li>
-              <li><Link to="/gallery" className="hover:text-white transition-colors">Gallery</Link></li>
+              <li><Link href="/ipl-hair-removal" className="hover:text-white transition-colors">IPL Hair Removal</Link></li>
+              <li><Link href="/accessories" className="hover:text-white transition-colors">Accessories</Link></li>
+              <li><Link href="/gallery" className="hover:text-white transition-colors">Gallery</Link></li>
             </ul>
           </div>
 
@@ -45,11 +45,11 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-semibold mb-4">Services</h3>
             <ul className="space-y-2 text-gray-300">
-              <li><Link to="/service-support/after-sales" className="hover:text-white transition-colors">After-Sales Service</Link></li>
-              <li><Link to="/service-support/manufacturing" className="hover:text-white transition-colors">IPL Manufacturing</Link></li>
-              <li><Link to="/service-support/pricing-guide" className="hover:text-white transition-colors">Buying Guide</Link></li>
-              <li><Link to="/service-support/help-center" className="hover:text-white transition-colors">Help Center</Link></li>
-              <li><Link to="/sitemap" className="hover:text-white transition-colors">Sitemap</Link></li>
+              <li><Link href="/service-support/after-sales" className="hover:text-white transition-colors">After-Sales Service</Link></li>
+              <li><Link href="/service-support/manufacturing" className="hover:text-white transition-colors">IPL Manufacturing</Link></li>
+              <li><Link href="/service-support/pricing-guide" className="hover:text-white transition-colors">Buying Guide</Link></li>
+              <li><Link href="/service-support/help-center" className="hover:text-white transition-colors">Help Center</Link></li>
+              <li><Link href="/sitemap" className="hover:text-white transition-colors">Sitemap</Link></li>
             </ul>
           </div>
 
@@ -57,10 +57,10 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-gray-300">
-              <li><Link to="/about/company" className="hover:text-white transition-colors">About iShine</Link></li>
-              <li><Link to="/about/brand-story" className="hover:text-white transition-colors">Brand Story</Link></li>
-              <li><Link to="/about/quality" className="hover:text-white transition-colors">Quality</Link></li>
-              <li><Link to="/blog/news-insights" className="hover:text-white transition-colors">Blog</Link></li>
+              <li><Link href="/about/company" className="hover:text-white transition-colors">About iShine</Link></li>
+              <li><Link href="/about/brand-story" className="hover:text-white transition-colors">Brand Story</Link></li>
+              <li><Link href="/about/quality" className="hover:text-white transition-colors">Quality</Link></li>
+              <li><Link href="/blog/news-insights" className="hover:text-white transition-colors">Blog</Link></li>
             </ul>
           </div>
 
@@ -82,10 +82,10 @@ const Footer: React.FC = () => {
             All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link to="/privacy-policy" className="text-gray-300 hover:text-white text-sm transition-colors">
+            <Link href="/privacy-policy" className="text-gray-300 hover:text-white text-sm transition-colors">
               Privacy Policy
             </Link>
-            <Link to="/terms-of-service" className="text-gray-300 hover:text-white text-sm transition-colors">
+            <Link href="/terms-of-service" className="text-gray-300 hover:text-white text-sm transition-colors">
               Terms of Service
             </Link>
           </div>

@@ -1,11 +1,11 @@
 import React, { Suspense } from 'react';
 import type { AppProps } from 'next/app';
 import { HelmetProvider } from 'react-helmet-async';
-import { LanguageProvider } from './context/LanguageContext';
-import Header from './components/Layout/Header';
-import Footer from './components/Layout/Footer';
-import FloatingWidgets from './components/Layout/FloatingWidgets';
-import '../index.css';  // 假设这是全局样式
+import { LanguageProvider } from '../context/LanguageContext';
+import Header from '../components/Layout/Header';
+import Footer from '../components/Layout/Footer';
+import FloatingWidgets from '../components/Layout/FloatingWidgets';
+import '../index.css';
 
 function App({ Component, pageProps }: AppProps) {
   return (

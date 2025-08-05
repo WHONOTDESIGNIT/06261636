@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { Youtube, Linkedin, Menu, X, ChevronDown } from 'lucide-react';
 import LanguageSelector from './LanguageSelector.tsx';
 import { iplDevices, accessories } from '../../data/products'; // 导入产品数据
@@ -8,7 +9,7 @@ import { useLanguage } from '../../context/LanguageContext';
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-  const location = useLocation();
+  const router = useRouter();
   const { currentLanguage, t } = useLanguage();
 
   const navigation = [
@@ -117,7 +118,7 @@ const Header: React.FC = () => {
     { name: t('header.nav.contact', 'Contact'), href: currentLanguage === 'en' ? '/contact' : `/${currentLanguage}/contact` }
   ];
 
-  const isActive = (href: string) => location.pathname === href;
+  const isActive = (href: string) => router.pathname === href;
 
   const handleDropdownToggle = (name: string) => {
     setActiveDropdown(activeDropdown === name ? null : name);
@@ -146,7 +147,7 @@ const Header: React.FC = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-32">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
+          <Link href="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-br from-ishine-blue-500 to-ishine-purple-500 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-sm">iS</span>
             </div>
@@ -159,7 +160,7 @@ const Header: React.FC = () => {
               <div key={item.name} className="relative group">
                 <div className="flex items-center">
                   <Link
-                    to={item.href}
+                    href={item.href}
                     className={`text-sm font-medium transition-colors duration-200 hover:text-ishine-blue-500 ${
                       isActive(item.href) ? 'text-ishine-blue-500' : 'text-gray-700'
                     }`}
@@ -188,7 +189,7 @@ const Header: React.FC = () => {
                                 {subItem.items?.map((categoryItem: any, catIndex: number) => (
                                   <Link
                                     key={catIndex}
-                                    to={categoryItem.href}
+                                    href={categoryItem.href}
                                     className="flex items-center px-3 py-2 text-sm text-gray-600 hover:text-ishine-blue-500 hover:bg-gray-50 rounded-md transition-colors"
                                   >
                                     {categoryItem.thumbnail ? (
@@ -211,7 +212,7 @@ const Header: React.FC = () => {
                             </div>
                           ) : (
                             <Link
-                              to={subItem.href}
+                              href={subItem.href}
                               className="flex items-center px-3 py-2 text-sm text-gray-600 hover:text-ishine-blue-500 hover:bg-gray-50 rounded-md transition-colors"
                             >
                               {subItem.thumbnail ? (
@@ -317,7 +318,7 @@ const Header: React.FC = () => {
                                 {subItem.items?.map((categoryItem: any, catIndex: number) => (
                                   <Link
                                     key={catIndex}
-                                    to={categoryItem.href}
+                                    href={categoryItem.href}
                                     onClick={() => setIsMenuOpen(false)}
                                     className="block text-xs text-gray-600 hover:text-ishine-blue-500 py-1"
                                   >
@@ -328,7 +329,7 @@ const Header: React.FC = () => {
                             </div>
                           ) : (
                             <Link
-                              to={subItem.href}
+                              href={subItem.href}
                               onClick={() => setIsMenuOpen(false)}
                               className="flex items-center text-sm text-gray-600 hover:text-ishine-blue-500 py-1"
                             >

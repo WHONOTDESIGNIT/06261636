@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { useLanguage } from '../context/LanguageContext';
 
 const Sitemap: React.FC = () => {
@@ -19,11 +19,11 @@ const Sitemap: React.FC = () => {
               {t('sitemap.mainPages')}
             </h2>
             <ul className="space-y-2">
-              <li><Link to="/" className="text-blue-600 hover:text-blue-800">{t('sitemap.home')}</Link></li>
-              <li><Link to="/about" className="text-blue-600 hover:text-blue-800">{t('sitemap.about')}</Link></li>
-              <li><Link to="/ipl-hair-removal" className="text-blue-600 hover:text-blue-800">{t('sitemap.iplHairRemoval')}</Link></li>
-              <li><Link to="/solutions" className="text-blue-600 hover:text-blue-800">{t('sitemap.solutions')}</Link></li>
-              <li><Link to="/contact" className="text-blue-600 hover:text-blue-800">{t('sitemap.contact')}</Link></li>
+              <li><Link href="/" className="text-blue-600 hover:text-blue-800">{t('sitemap.home')}</Link></li>
+              <li><Link href="/about" className="text-blue-600 hover:text-blue-800">{t('sitemap.about')}</Link></li>
+              <li><Link href="/ipl-hair-removal" className="text-blue-600 hover:text-blue-800">{t('sitemap.iplHairRemoval')}</Link></li>
+              <li><Link href="/solutions" className="text-blue-600 hover:text-blue-800">{t('sitemap.solutions')}</Link></li>
+              <li><Link href="/contact" className="text-blue-600 hover:text-blue-800">{t('sitemap.contact')}</Link></li>
             </ul>
           </div>
 
@@ -33,14 +33,14 @@ const Sitemap: React.FC = () => {
               {t('sitemap.iplProducts')}
             </h2>
             <ul className="space-y-2">
-              <li><Link to="/ipl/emerald-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.emeraldIpl')}</Link></li>
-              <li><Link to="/ipl/ice-cooling-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.iceCoolingIpl')}</Link></li>
-              <li><Link to="/ipl/ice-feeling-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.iceFeelingIpl')}</Link></li>
-              <li><Link to="/ipl/handheld-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.handheldIpl')}</Link></li>
-              <li><Link to="/ipl/battery-powered-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.batteryPoweredIpl')}</Link></li>
-              <li><Link to="/ipl/skin-sensor-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.skinSensorIpl')}</Link></li>
-              <li><Link to="/ipl/ai-powered-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.aiPoweredIpl')}</Link></li>
-              <li><Link to="/ipl/dual-lamp-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.dualLampIpl')}</Link></li>
+              <li><Link href="/ipl/emerald-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.emeraldIpl')}</Link></li>
+              <li><Link href="/ipl/ice-cooling-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.iceCoolingIpl')}</Link></li>
+              <li><Link href="/ipl/ice-feeling-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.iceFeelingIpl')}</Link></li>
+              <li><Link href="/ipl/handheld-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.handheldIpl')}</Link></li>
+              <li><Link href="/ipl/battery-powered-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.batteryPoweredIpl')}</Link></li>
+              <li><Link href="/ipl/skin-sensor-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.skinSensorIpl')}</Link></li>
+              <li><Link href="/ipl/ai-powered-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.aiPoweredIpl')}</Link></li>
+              <li><Link href="/ipl/dual-lamp-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.dualLampIpl')}</Link></li>
             </ul>
           </div>
 

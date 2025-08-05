@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { useLanguage } from '../../context/LanguageContext';
 import { ChevronRight, Home } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
@@ -15,7 +16,7 @@ interface BreadcrumbsProps {
 }
 
 const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ customItems, className = '' }) => {
-  const location = useLocation();
+  const router = useRouter();
   const { t, currentLanguage } = useLanguage();
   const baseUrl = 'https://iplmanufacturer.com';
   
@@ -55,7 +56,7 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ customItems, className = '' }
   const generateBreadcrumbs = (): BreadcrumbItem[] => {
     if (customItems) return customItems;
     
-    const pathnames = location.pathname
+    const pathnames = router.asPath
       .split('/')
       .filter(x => x && x !== currentLanguage); // 过滤掉语言前缀
     
@@ -116,7 +117,7 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ customItems, className = '' }
                 </span>
               ) : (
                 <Link 
-                  to={item.path} 
+                  href={item.path} 
                   className="hover:text-ishine-blue-600 transition-colors font-medium"
                 >
                   {item.name}

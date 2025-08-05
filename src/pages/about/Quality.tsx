@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ShieldCheck } from 'lucide-react';
 import ContactFormA from '../../components/Forms/ContactFormA';
 import { useLanguage } from '../../context/LanguageContext';
@@ -54,7 +54,7 @@ const Quality: React.FC = () => {
     <p className="text-lg text-white mb-8">
       {t('about.quality.ctaDesc', 'Contact us for detailed quality documentation, certifications, and case studies.')}
     </p>
-    <Link to={`/${currentLanguage}/contact`}>
+    <Link href={`/${currentLanguage}/contact`}>
       <button
         className="bg-[rgb(0,116,224)] hover:bg-[rgb(0,89,179)] text-white font-semibold px-8 py-3 rounded-full transition"
       >

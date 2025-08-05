@@ -1,12 +1,13 @@
 import React, { useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useRouter } from 'next/router';
 import { useLanguage } from '../context/LanguageContext';
 import { getLanguageFromCountryCode } from '../utils/languageUtils';
 import Home from './Home';
 import { Helmet } from 'react-helmet-async';
 
 const CountryPage: React.FC = () => {
-  const { countryCode } = useParams<{ countryCode: string }>();
+  const router = useRouter();
+  const { countryCode } = router.query;
   const { setLanguage, t } = useLanguage();
 
   // 用t()国际化title和description
@@ -14,7 +15,7 @@ const CountryPage: React.FC = () => {
   const description = t('countryPage.description', 'Leading IPL device manufacturer providing OEM/ODM solutions from idea to market worldwide.');
 
   useEffect(() => {
-    if (countryCode) {
+    if (countryCode && typeof countryCode === 'string') {
       // 静态确定语言，不触发页面重定向
       const detectedLanguage = getLanguageFromCountryCode(countryCode);
       setLanguage(detectedLanguage);
@@ -30,7 +31,8 @@ const CountryPage: React.FC = () => {
     }
   }, [countryCode, setLanguage, title, description]);
 
-  const updateMetaTags = (countryCode: string) => {
+  const updateMetaTags = (countryCode: string | string[]) => {
+    const code = Array.isArray(countryCode) ? countryCode[0] : countryCode;
     // 国家特定的页面元数据
     const countryMetadata: Record<string, { title: string; description: string; }> = {
       us: {
@@ -147,7 +149,7 @@ const CountryPage: React.FC = () => {
       }
     };
 
-    const metadata = countryMetadata[countryCode] || {
+    const metadata = countryMetadata[code] || {
       title: title,
       description: description
     };
@@ -169,9 +171,9 @@ const CountryPage: React.FC = () => {
       meta.setAttribute('content', content);
     };
 
-    addOrUpdateMeta('geo.region', countryCode.toUpperCase());
-    addOrUpdateMeta('geo.position', getCountryPosition(countryCode));
-    addOrUpdateMeta('ICBM', getCountryPosition(countryCode));
+    addOrUpdateMeta('geo.region', code.toUpperCase());
+    addOrUpdateMeta('geo.position', getCountryPosition(code));
+    addOrUpdateMeta('ICBM', getCountryPosition(code));
 
     // 更新hreflang标签 - 静态更新，不触发重定向
     updateHreflangTags();

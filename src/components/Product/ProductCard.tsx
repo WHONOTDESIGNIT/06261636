@@ -1,6 +1,6 @@
 import React from 'react';
 import { Product } from '../../types';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 interface ProductCardProps {
   product: Product;
@@ -12,7 +12,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, showThumbnail = fals
     <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
       <div className="aspect-w-16 aspect-h-9">
         {product.link ? (
-          <Link to={product.link}>
+          <Link href={product.link}>
             <img
               src={product.image}
               alt={product.name}
@@ -29,7 +29,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, showThumbnail = fals
       </div>
       <div className="p-6">
         {product.link ? (
-          <Link to={product.link} className="hover:text-ishine-blue-600">
+          <Link href={product.link} className="hover:text-ishine-blue-600">
             <h3 className="text-xl font-semibold text-gray-900 mb-2">{product.name}</h3>
           </Link>
         ) : (

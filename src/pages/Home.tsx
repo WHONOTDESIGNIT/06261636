@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { Flame, Palette, BadgeCheck, Package, CheckCircle, ChevronDown, Settings, Send, ThumbsUp } from "lucide-react";
 import ContactFormA from '../components/Forms/ContactFormA';
 import { iplDevices } from '../data/products';
@@ -33,13 +33,13 @@ const unlimitedOptions = [
       text: [
         <>
           iShine helps companies create custom logo IPL products that make your brand stand out. iShine custom Logo IPL products,{' '}
-          <Link to="/blog/promotional-ipl-merchandise" className="text-blue-700 underline underline-offset-2 hover:text-blue-800 transition">promotional IPL merchandise</Link>, and gift giveaways that you’ll love. We offer logo branding services to the{' '}
-          <Link to="/blog/industries" className="text-blue-700 underline underline-offset-2 hover:text-blue-800 transition">Cosmetics and Hair Removal</Link> industries. We work with the Cosmetic brands owners, Marketing and Advertising, Licensor, Licensee, wholesale, retail chain, swimming wear store, and product development companies together offer molded logo{' '}
-          <Link to="/ipl-hair-removal" className="text-blue-700 underline underline-offset-2 hover:text-blue-800 transition">IPL products</Link> to the whole world to expand your brands and Market.
+          <Link href="/blog/promotional-ipl-merchandise" className="text-blue-700 underline underline-offset-2 hover:text-blue-800 transition">promotional IPL merchandise</Link>, and gift giveaways that you'll love. We offer logo branding services to the{' '}
+          <Link href="/blog/industries" className="text-blue-700 underline underline-offset-2 hover:text-blue-800 transition">Cosmetics and Hair Removal</Link> industries. We work with the Cosmetic brands owners, Marketing and Advertising, Licensor, Licensee, wholesale, retail chain, swimming wear store, and product development companies together offer molded logo{' '}
+          <Link href="/ipl-hair-removal" className="text-blue-700 underline underline-offset-2 hover:text-blue-800 transition">IPL products</Link> to the whole world to expand your brands and Market.
         </>,
         <>
           In iShine group, we offer different ways to put your logo and pattern on. The different logo and patterns may need different methods.{' '}
-          <Link to="/solutions/logo-printing" className="text-blue-700 underline underline-offset-2 font-bold hover:text-blue-800 transition">Click Here</Link> to get rough information for the different performance with the different printing ways.
+          <Link href="/solutions/logo-printing" className="text-blue-700 underline underline-offset-2 font-bold hover:text-blue-800 transition">Click Here</Link> to get rough information for the different performance with the different printing ways.
         </>
       ],
       cardClass: "bg-white rounded-2xl shadow-xl border border-blue-100",
@@ -53,10 +53,10 @@ const unlimitedOptions = [
       img: "/homeimages/9 home hair removal device technologies.webp",
       text: [
         <span style={{ fontWeight: 700, fontSize: '1.5em' }}>
-          iShine’s Own Eight IPL Device Technologies.
+          iShine's Own Eight IPL Device Technologies.
         </span>,
         <>
-          iShine’s IPL devices feature eight advanced technologies, including:
+          iShine's IPL devices feature eight advanced technologies, including:
           <ul className="list-disc pl-6 mt-2 mb-2 space-y-1">
             <li>Hair removal</li>
             <li>Replaceable heads</li>
@@ -86,12 +86,10 @@ const unlimitedOptions = [
             href="/solutions/packaging-solutions"
             className="font-bold underline text-blue-700 hover:text-blue-800 transition ml-1"
             style={{ textUnderlineOffset: 3 }}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             Click Here
           </a>
-          {" to explore the packaging solutions you’ll love."}
+          {" to explore the packaging solutions you'll love."}
         </>
       ),
       cardClass: "bg-[#F3F4F7] rounded-[32px] shadow-lg",
@@ -138,12 +136,12 @@ const processSteps = [
 ];
 
 const testimonials = [
-  "“iShine helped us launch our IPL brand in record time. The quality and service are impressive!”",
-  "“The customization options are endless. Our clients love the unique packaging and features.”",
-  "“Professional team, fast response, and reliable delivery. Highly recommended for OEM/ODM.”",
-  "“We expanded to new markets thanks to iShine's certification and compliance support.”",
-  "“The after-sales service is excellent. Any issues are resolved quickly and professionally.”",
-  "“Our brand repuation improved significantly with iShine's design and manufacturing expertise.”"
+  ""iShine helped us launch our IPL brand in record time. The quality and service are impressive!"",
+  ""The customization options are endless. Our clients love the unique packaging and features."",
+  ""Professional team, fast response, and reliable delivery. Highly recommended for OEM/ODM."",
+  ""We expanded to new markets thanks to iShine's certification and compliance support."",
+  ""The after-sales service is excellent. Any issues are resolved quickly and professionally."",
+  ""Our brand repuation improved significantly with iShine's design and manufacturing expertise.""
 ];
 
 const qaList = [
@@ -183,7 +181,7 @@ const qaList = [
           <li>
             <b>Transparent Shipping Costs:</b> Shipping fees are calculated based on your order's weight and quantity.
           </li>
-          <li>Click on the <Link to={`/${lang}/shipping-cost`} className="text-blue-700 font-bold underline underline-offset-2 hover:text-blue-800 transition">Check Shipping Cost</Link> button.</li>
+          <li>Click on the <Link href={`/${lang}/shipping-cost`} className="text-blue-700 font-bold underline underline-offset-2 hover:text-blue-800 transition">Check Shipping Cost</Link> button.</li>
         </ul>
         <p className="mt-2"><b>How to Check Your Shipping Cost:</b></p>
         <ol className="list-decimal pl-5 my-2">
@@ -397,7 +395,7 @@ export default function HomePage() {
           <div className="w-full mt-10 mb-2 p-6 bg-transparent rounded-xl text-gray-800 text-base leading-relaxed" style={{ boxShadow: 'none' }}>
             <p className="mb-2 font-semibold text-lg text-blue-700">All iShine home IPL hair removal devices are designed for long-lasting performance and user safety. Built with advanced materials and precision engineering, these devices are:</p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Resistant to temperature fluctuations (operating range: -10 °C to 45 °C), as well as common household chemicals and UV exposure.</li>
+              <li>Resistant to temperature fluctuations (operating range: -10 °C to 45 °C), as well as common household chemicals and UV exposure.</li>
               <li>Easy to clean and maintain, with a smooth, ergonomic design that fits comfortably in the hand.</li>
               <li>Available in a variety of shapes, sizes, and modern color options to suit different preferences and needs.</li>
               <li>Lightweight, soft-touch, and flexible for comfortable handling during treatments.</li>
@@ -634,7 +632,7 @@ export default function HomePage() {
       </section>
 
       {/* Contact / CTA */}
-      <section id="contact" className="py-16 bg-white">
+      <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-6">{t('home.contact.title', 'Contact Us')}</h2>
           <p className="text-center text-gray-700 mb-8">{t('home.contact.subtitle', 'Ready to empower your brand? Get in touch for a free consultation and quote.')}</p>

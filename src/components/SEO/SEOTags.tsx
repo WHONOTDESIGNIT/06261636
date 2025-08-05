@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { useLocation } from 'react-router-dom';
+import { useRouter } from 'next/router';
 import { useLanguage } from '../../context/LanguageContext';
 import { languages } from '../../data/languages';
 
@@ -22,10 +22,10 @@ const SEOTags: React.FC<SEOTagsProps> = ({
   noindex = false
 }: SEOTagsProps) => {
   const { currentLanguage } = useLanguage();
-  const location = useLocation();
+  const router = useRouter();
   
   const baseUrl = 'https://iplmanufacturer.com';
-  const currentPath = location.pathname;
+  const currentPath = router.asPath;
   
   // 生成当前页面的规范URL
   const getCanonicalUrl = () => {

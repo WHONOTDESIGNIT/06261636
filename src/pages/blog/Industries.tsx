@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { useLanguage } from '../../context/LanguageContext';
 
 const Industries: React.FC = () => {
@@ -203,9 +203,9 @@ const Industries: React.FC = () => {
           <div className="max-w-4xl mx-auto px-4">
             <h2 className="text-xl font-bold mb-4 text-gray-900">{t('common.relatedArticles')}</h2>
             <ul className="list-inside list-disc space-y-2">
-              <li><Link to="/blog/global-market-shifts" className="text-blue-600 underline">{t('blog.posts.globalMarketShifts.title')}</Link></li>
-              <li><Link to="/blog/sustainable-manufacturing" className="text-blue-600 underline">{t('blog.posts.sustainableManufacturing.title')}</Link></li>
-              <li><Link to="/service/ipl-manufacturing" className="text-blue-600 underline">{t('nav.service.iplManufacturing')}</Link></li>
+              <li><Link href="/blog/global-market-shifts" className="text-blue-600 underline">{t('blog.posts.globalMarketShifts.title')}</Link></li>
+              <li><Link href="/blog/sustainable-manufacturing" className="text-blue-600 underline">{t('blog.posts.sustainableManufacturing.title')}</Link></li>
+              <li><Link href="/service/ipl-manufacturing" className="text-blue-600 underline">{t('nav.service.iplManufacturing')}</Link></li>
             </ul>
           </div>
         </section>
