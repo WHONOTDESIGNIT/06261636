@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { Youtube, Linkedin, Menu, X, ChevronDown } from 'lucide-react';
-import LanguageSelector from './LanguageSelector.tsx';
+import LanguageSelector from './LanguageSelector';
 import { iplDevices, accessories } from '../../data/products'; // 导入产品数据
 import { useLanguage } from '../../context/LanguageContext';
 
