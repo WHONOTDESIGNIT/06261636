@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { useLanguage } from '../../context/LanguageContext';
 
 const jsonLd = {
@@ -254,7 +254,7 @@ const FDA510kPathway: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl font-bold mb-4 text-gray-900">{t('fda510kPathway.exploreMore.title')}</h2>
           <ul className="list-inside list-disc space-y-2">
-            <li><Link to="/blog/news-insights" className="text-blue-600 underline">{t('fda510kPathway.exploreMore.item1')}</Link></li>
+            <li><Link href="/blog/news-insights" className="text-blue-600 underline">{t('fda510kPathway.exploreMore.item1')}</Link></li>
             <li><a href="https://www.fda.gov/medical-devices/premarket-notification-510k" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">{t('fda510kPathway.exploreMore.item2')}</a></li>
             <li><a href="https://www.ulike.com/blogs/hair-removal/is-the-ulike-air-10-fda-approved-or-fda-cleared" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">{t('fda510kPathway.exploreMore.item3')}</a></li>
             <li><a href="https://www.projectebeauty.com/blogs/news/does-fda-approval-matter-when-choosing-an-led-light-therapy-mask" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">{t('fda510kPathway.exploreMore.item4')}</a></li>
@@ -273,4 +273,4 @@ const FDA510kPathway: React.FC = () => {
   );
 };
 
-export default FDA510kPathway; 
+export default FDA510kPathway;
