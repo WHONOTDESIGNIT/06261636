@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { useLanguage } from '../../context/LanguageContext';
 
 const AIPoweredSkinSensing: React.FC = () => {
@@ -193,9 +193,9 @@ const AIPoweredSkinSensing: React.FC = () => {
           <div className="max-w-4xl mx-auto px-4">
             <h2 className="text-xl font-bold mb-4 text-gray-900">{t('common.relatedArticles')}</h2>
             <ul className="list-inside list-disc space-y-2">
-              <li><Link to="/blog/future-home-hair-removal" className="text-blue-600 underline">{t('blog.posts.futureHomeHairRemoval.title')}</Link></li>
-              <li><Link to="/blog/sapphire-cooling" className="text-blue-600 underline">{t('blog.posts.sapphireCooling.title')}</Link></li>
-              <li><Link to="/blog/multi-head-ipl-systems" className="text-blue-600 underline">{t('blog.posts.multiHeadIPLSystems.title')}</Link></li>
+              <li><Link href="/blog/future-home-hair-removal" className="text-blue-600 underline">{t('blog.posts.futureHomeHairRemoval.title')}</Link></li>
+              <li><Link href="/blog/sapphire-cooling" className="text-blue-600 underline">{t('blog.posts.sapphireCooling.title')}</Link></li>
+              <li><Link href="/blog/multi-head-ipl-systems" className="text-blue-600 underline">{t('blog.posts.multiHeadIPLSystems.title')}</Link></li>
             </ul>
           </div>
         </section>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import {
   Headphones,
   Shield,
@@ -140,7 +140,7 @@ const ServiceSupport: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                to="/service-support/help-center"
+                href="/service-support/help-center"
                 className="bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300"
               >
                 {t('serviceSupport.hero.cta')}
@@ -222,7 +222,7 @@ const ServiceSupport: React.FC = () => {
                       transition={{ duration: 0.6, delay: serviceIndex * 0.1 }}
                     >
                       <Link
-                        to={service.href}
+                        href={service.href}
                         className="block bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-shadow duration-300 border border-gray-100 group"
                       >
                         <service.icon className="w-10 h-10 text-blue-600 mb-4 group-hover:scale-110 transition-transform duration-300" />
@@ -270,4 +270,4 @@ const ServiceSupport: React.FC = () => {
   );
 };
 
-export default ServiceSupport; 
+export default ServiceSupport;
