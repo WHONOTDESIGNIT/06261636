@@ -16,6 +16,3 @@ const nextConfig = {
 module.exports = nextConfig;
 
 // 添加您的自定义配置，如i18n等
-};
-
-module.exports = nextConfig;
