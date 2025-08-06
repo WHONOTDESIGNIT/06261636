@@ -32,13 +32,13 @@ const unlimitedOptions = [
       img: "/homeimages/ipl logo printing (2).png",
       text: [
         <>
-          iShine helps companies create custom logo IPL products that make your brand stand out. iShine custom Logo IPL products,{' '}
-          <Link href="/blog/promotional-ipl-merchandise" className="text-blue-700 underline underline-offset-2 hover:text-blue-800 transition">promotional IPL merchandise</Link>, and gift giveaways that you'll love. We offer logo branding services to the{' '}
-          <Link href="/blog/industries" className="text-blue-700 underline underline-offset-2 hover:text-blue-800 transition">Cosmetics and Hair Removal</Link> industries. We work with the Cosmetic brands owners, Marketing and Advertising, Licensor, Licensee, wholesale, retail chain, swimming wear store, and product development companies together offer molded logo{' '}
+          iShine helps companies create custom logo IPL products that make your brand stand out. iShine custom Logo IPL products,{" "}
+          <Link href="/blog/promotional-ipl-merchandise" className="text-blue-700 underline underline-offset-2 hover:text-blue-800 transition">promotional IPL merchandise</Link>, and gift giveaways that you'll love. We offer logo branding services to the{" "}
+          <Link href="/blog/industries" className="text-blue-700 underline underline-offset-2 hover:text-blue-800 transition">Cosmetics and Hair Removal</Link> industries. We work with the Cosmetic brands owners, Marketing and Advertising, Licensor, Licensee, wholesale, retail chain, swimming wear store, and product development companies together offer molded logo{" "}
           <Link href="/ipl-hair-removal" className="text-blue-700 underline underline-offset-2 hover:text-blue-800 transition">IPL products</Link> to the whole world to expand your brands and Market.
         </>,
         <>
-          In iShine group, we offer different ways to put your logo and pattern on. The different logo and patterns may need different methods.{' '}
+          In iShine group, we offer different ways to put your logo and pattern on. The different logo and patterns may need different methods.{" "}
           <Link href="/solutions/logo-printing" className="text-blue-700 underline underline-offset-2 font-bold hover:text-blue-800 transition">Click Here</Link> to get rough information for the different performance with the different printing ways.
         </>
       ],
@@ -136,12 +136,12 @@ const processSteps = [
 ];
 
 const testimonials = [
-  ""iShine helped us launch our IPL brand in record time. The quality and service are impressive!"",
-  ""The customization options are endless. Our clients love the unique packaging and features."",
-  ""Professional team, fast response, and reliable delivery. Highly recommended for OEM/ODM."",
-  ""We expanded to new markets thanks to iShine's certification and compliance support."",
-  ""The after-sales service is excellent. Any issues are resolved quickly and professionally."",
-  ""Our brand repuation improved significantly with iShine's design and manufacturing expertise.""
+  "iShine helped us launch our IPL brand in record time. The quality and service are impressive!",
+  "The customization options are endless. Our clients love the unique packaging and features.",
+  "Professional team, fast response, and reliable delivery. Highly recommended for OEM/ODM.",
+  "We expanded to new markets thanks to iShine's certification and compliance support.",
+  "The after-sales service is excellent. Any issues are resolved quickly and professionally.",
+  "Our brand repuation improved significantly with iShine's design and manufacturing expertise."
 ];
 
 const qaList = [
@@ -256,15 +256,15 @@ export default function HomePage() {
           <div className="flex flex-col items-start justify-center h-full">
             <h2 className="text-3xl font-bold mb-4 text-blue-700">{t('home.about.title', 'About iShine')}</h2>
             <p className="text-lg mb-6 text-blue-700">{t('home.about.subtitle', 'One-stop IPL solutions.')}</p>
-            <Link to="#contact" className="inline-block px-6 py-2 bg-blue-700 text-white font-semibold rounded-full shadow hover:bg-blue-800 transition">{t('home.about.cta', 'Read More')}</Link>
+            <Link href="#contact" className="inline-block px-6 py-2 bg-blue-700 text-white font-semibold rounded-full shadow hover:bg-blue-800 transition">{t('home.about.cta', 'Read More')}</Link>
           </div>
           {/* 容器2：富文本1 */}
           <div className="text-lg">
             {t('home.about.description1', 'iShine Tech Co., Limited, is one-stop supplier for')}{' '}
-            <Link to={`/${currentLanguage}/service-support/manufacturing`} className="text-blue-700 underline underline-offset-2 decoration-blue-700 hover:text-blue-800 hover:decoration-blue-800 transition">
+            <Link href={`/${currentLanguage}/service-support/manufacturing`} className="text-blue-700 underline underline-offset-2 decoration-blue-700 hover:text-blue-800 hover:decoration-blue-800 transition">
               {t('home.about.manufacturing', 'IPL hair removal devices manufacturing')}
             </Link>{' '}{t('home.about.and', 'and')}{' '}
-            <Link to={`/${currentLanguage}/solutions/brand-customization`} className="text-blue-700 underline underline-offset-2 decoration-blue-700 hover:text-blue-800 hover:decoration-blue-800 transition">
+            <Link href={`/${currentLanguage}/solutions/brand-customization`} className="text-blue-700 underline underline-offset-2 decoration-blue-700 hover:text-blue-800 hover:decoration-blue-800 transition">
               {t('home.about.customization', 'customization')}
             </Link>. {t('home.about.description2', 'Help you design it, build it and box it. From idea to market.')}
           </div>
@@ -274,9 +274,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* 视频+富文本 Section */}
-      <section className="py-16 px-4 md:px-0">
+            <section className="py-16 px-4 md:px-0">
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* 左侧：YouTube 视频 */}
           <div className="w-full aspect-video rounded-xl overflow-hidden shadow-lg">
@@ -370,8 +368,7 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-
-      {/* Product Showcase */}
+            {/* Product Showcase */}
       <section className="py-16 px-4 md:px-0 bg-gradient-to-br from-blue-50 via-white to-purple-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold mb-4 text-blue-700 text-center">{t('home.productShowcase.title', 'CUSTMIZED IPL DEVICES')}</h2>
@@ -386,259 +383,119 @@ export default function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {iplDevices.slice(0, 9).map((product) => (
               <div key={product.id} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg border border-gray-400">
-                <img src={product.image} alt={product.name} className="w-100 h-100 object-contain mb-4 rounded-lg" />
-                <h3 className="font-bold text-lg text-center">{product.name}</h3>
+                <img src={product.image} alt={product.name} className="w-40 h-40 object-contain mb-4" />
+                <h4 className="text-xl font-bold mb-2 text-blue-700">{product.name}</h4>
+                <p className="text-gray-700 mb-2 text-center">{product.description}</p>
+                <Link href={`/products/${product.slug}`} className="mt-2 px-4 py-2 bg-blue-700 text-white rounded-full font-semibold hover:bg-blue-800 transition">{t('home.productShowcase.details', 'View Details')}</Link>
               </div>
             ))}
           </div>
-          {/* 新增：产品特性描述段落 */}
-          <div className="w-full mt-10 mb-2 p-6 bg-transparent rounded-xl text-gray-800 text-base leading-relaxed" style={{ boxShadow: 'none' }}>
-            <p className="mb-2 font-semibold text-lg text-blue-700">All iShine home IPL hair removal devices are designed for long-lasting performance and user safety. Built with advanced materials and precision engineering, these devices are:</p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Resistant to temperature fluctuations (operating range: -10 °C to 45 °C), as well as common household chemicals and UV exposure.</li>
-              <li>Easy to clean and maintain, with a smooth, ergonomic design that fits comfortably in the hand.</li>
-              <li>Available in a variety of shapes, sizes, and modern color options to suit different preferences and needs.</li>
-              <li>Lightweight, soft-touch, and flexible for comfortable handling during treatments.</li>
-              <li>Free from PVC, BPA, phthalates, and lead—safe for direct skin contact, non-toxic, and harmless for all users.</li>
-              <li>Environmentally conscious: made with recyclable components and energy-efficient technology.</li>
-              <li>Equipped with medical-grade biocompatible materials for safe use on all suitable skin types.</li>
-              <li>Designed with user-friendly features such as intuitive controls, multiple intensity settings, and built-in skin sensors for added safety.</li>
-              <li>Compliant with international safety standards and suitable for home use, providing professional-level results with minimal discomfort.</li>
-            </ul>
-          </div>
         </div>
       </section>
-
-      {/* Customization Options */}
-      <section className="py-16 px-4 md:px-0 bg-gradient-to-r from-blue-100 via-white to-purple-100">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-6xl font-bold mb-2 text-center text-blue-700">{t('home.customization.title', 'Unlimited Customization Options')}</h2>
-          <p className="text-center mb-8 text-lg" style={{ marginBottom: '2.5rem' }}>iShine offers a wide range of customization options for you. You can work with us to create unique and competitive IPL devices for your business.</p>
-          <div className="w-full">
-            <div className="flex flex-nowrap justify-center gap-2 mb-8">
-              {unlimitedOptions.map((opt, idx) => (
-                <button
-                  key={opt.label}
-                  className={`flex items-center gap-2 px-4 py-3 rounded-full font-semibold border transition whitespace-nowrap ${optionIdx === idx ? "bg-blue-700 text-white" : "bg-white text-blue-700 border-blue-700"} hover:bg-blue-700 hover:text-white`}
-                  onClick={() => setOptionIdx(idx)}
-                >
-                  {opt.icon}
-                  {t(`home.customization.options.${idx}.label`, opt.label)}
-                </button>
-              ))}
-            </div>
-            <div
-              className={`p-6 min-h-[500px] flex items-center justify-center transition-all ${unlimitedOptions[optionIdx].content.cardClass || 'bg-[#F3F4F7] rounded-2xl shadow-lg'}`}
-            >
-              <div className="flex flex-col md:flex-row items-start gap-8 w-full h-full justify-center overflow-x-auto">
-                {optionIdx === 5 ? (
-                  <div className="w-full flex flex-col items-start">
-                    {/* Section A: 横向排列图片和文案 */}
-                    <div className="flex flex-row items-start w-full gap-8 mb-4">
-                      <img
-                        src="/homeimages/quality-control-ishine.png"
-                        alt="Quality Control"
-                        style={{ width: '300px', height: '217px', objectFit: 'contain' }}
-                        className="object-contain rounded-2xl flex-shrink-0"
-                      />
-                      <div
-                        className="text-base text-gray-700 font-medium"
-                        style={{ width: '600px' }}
-                      >
-                        Custom your IPL products Quality Control Inspection. Our common IPL products Quality Control Inspection is from supplier selection, production specification, In-process Inspection, Before shipment inspection (OQC). We also accept the customer hire the 3rd party to pre-shipment QC include Full inspection if needed.
-                      </div>
-                    </div>
-                    {/* Section B: 新增两张图片 */}
-                    <div className="flex flex-row gap-6 w-full mt-2">
-                      <img
-                        src="/homeimages/quality-control-room-ishine.png"
-                        alt="Quality Control Room"
-                        style={{ height: '258.59px', width: 'auto', objectFit: 'contain' }}
-                        className="object-contain rounded-2xl flex-shrink-0"
-                      />
-                      <img
-                        src="/homeimages/flash test.png"
-                        alt="Flash Test"
-                        style={{ height: '258.59px', width: 'auto', objectFit: 'contain' }}
-                        className="object-contain rounded-2xl flex-shrink-0"
-                      />
-                    </div>
-                  </div>
-                ) : Array.isArray(unlimitedOptions[optionIdx].content.img) ? (
-                  <div style={{ display: 'flex', flexDirection: 'row', gap: '16px', width: '1264px' }}>
-                    {unlimitedOptions[optionIdx].content.img.map((src, idx) => (
-                      <div key={idx} className={optionIdx === 5 ? "flex flex-col items-start" : "flex flex-col items-center"}>
-                        <img
-                          src={src}
-                          alt={unlimitedOptions[optionIdx].label + ' ' + (idx + 1)}
-                          style={optionIdx === 5
-                            ? { height: '217px', width: 'auto', objectFit: 'contain', marginBottom: '8px' }
-                            : { width: '572px', height: '572px', objectFit: 'contain', marginBottom: '8px' }}
-                          className="object-contain rounded-2xl flex-shrink-0"
-                        />
-                        {optionIdx === 4 && (
-                          <div className="text-center text-base text-gray-700 font-medium" style={{ position: 'relative', top: '-18px' }}>
-                            {[
-                              'FDA 510(k) Certificate',
-                              'ISO 13485 Medical Device Quality Management Certificate',
-                              'MDL (Canada) Medical Device Listing'
-                            ][idx]}
-                          </div>
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                ) : (
-                  <img
-                    src={unlimitedOptions[optionIdx].content.img}
-                    alt={unlimitedOptions[optionIdx].label}
-                    style={optionIdx === 2
-                      ? { width: '600px', height: '600px' }
-                      : optionIdx === 3
-                        ? { width: '600px', height: '387.5px' }
-                        : optionIdx === 5
-                          ? { height: '217px', width: 'auto' }
-                          : { width: '600px', height: '337.5px' }}
-                    className="object-cover rounded-2xl flex-shrink-0"
-                  />
-                )}
-                {optionIdx !== 4 && optionIdx !== 5 && (
-                  <div className="flex-1 w-full text-left max-w-full">
-                    {Array.isArray(unlimitedOptions[optionIdx].content.text)
-                      ? unlimitedOptions[optionIdx].content.text.map((p, i, arr) => (
-                          <>
-                            <p key={i} className="mb-4 last:mb-0">
-                              {typeof p === 'string'
-                                ? t(`home.customization.options.${optionIdx}.content.text.${i}`, p)
-                                : p}
-                            </p>
-                            {i === 0 && arr.length > 1 && <p className="my-4" key="gap"></p>}
-                            {/* 在Function Customization最后一段下方加按钮 */}
-                            {optionIdx === 2 && i === arr.length - 1 && (
-                              <div className="mt-6 flex justify-start">
-                                <Link
-                                  to="/solutions"
-                                  className="inline-block px-8 py-3 bg-blue-700 text-white font-bold rounded-full shadow hover:bg-blue-800 transition"
-                                >
-                                  Ask Our Expert
-                                </Link>
-                              </div>
-                            )}
-                          </>
-                        ))
-                      : t(
-                          `home.customization.options.${optionIdx}.content.text`,
-                          typeof unlimitedOptions[optionIdx].content.text === 'string' ? unlimitedOptions[optionIdx].content.text : undefined
-                        )
-                    }
-                  </div>
-                )}
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* More Support Section */}
-        <section className="mt-12 max-w-3xl mx-auto">
-          <h2 className="text-2xl md:text-5xl font-bold text-blue-700 mb-2 text-center">More Support</h2>
-          <div className="h-16 md:h-[3.75rem]"></div>
-          <p className="text-lg mb-6 text-gray-700 text-center">Flexible customization, providing sample testing and design assistance services.</p>
-          <ul className="space-y-3 text-base">
-            <li className="flex items-start gap-2"><CheckCircle className="w-6 h-6 text-blue-700 mt-1 flex-shrink-0" />MOQ: 1000 pcs by new IPL devices developments.</li>
-            <li className="flex items-start gap-2"><CheckCircle className="w-6 h-6 text-blue-700 mt-1 flex-shrink-0" />Prototype time: 30-100 days for IPL prototypes samples making.</li>
-            <li className="flex items-start gap-2"><CheckCircle className="w-6 h-6 text-blue-700 mt-1 flex-shrink-0" />Mass Production time: 30–45 days with quanity in 3,000-300,000pcs.</li>
-            <li className="flex items-start gap-2"><CheckCircle className="w-6 h-6 text-blue-700 mt-1 flex-shrink-0" />Certified: FDA, TGA, MDL, REACH Products compliant by SGS, Intertek,BV etc.ISO13485 Certified Factory.</li>
-          </ul>
-        </section>
-      </section>
-
-      {/* OEM/ODM Process */}
-      <section className="py-16 px-4 md:px-0 bg-gradient-to-br from-blue-50 via-white to-purple-50">
+            {/* 定制选项 Section */}
+      <section className="py-16 px-4 md:px-0">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2 text-center">The Process of Customized IPL products</h2>
-          <p className="text-center mb-8 text-lg">{t('home.process.subtitle', 'From idea to delivery, we make your IPL device project successful.')}</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-            {processSteps.map((step, i) => {
-              const Icon = processIcons[i % processIcons.length];
-              return (
-                <div key={i} className="bg-white rounded-xl p-6 flex flex-col items-center shadow-lg">
-                  <Icon className="w-16 h-16 text-blue-700 mb-4" />
-                  <h3 className="font-bold text-base mb-1">{`${i + 1}. ${t(`home.process.steps.${i}.title`, step.title)}`}</h3>
-                  <p className="text-center text-sm">{t(`home.process.steps.${i}.desc`, step.desc)}</p>
+          <h2 className="text-4xl font-bold mb-8 text-blue-700 text-center">{t('home.unlimitedOptions.title', 'Unlimited Customization Options')}</h2>
+          <div className="flex flex-wrap gap-8 justify-center">
+            {unlimitedOptions.map((option, idx) => (
+              <div
+                key={option.label}
+                className={`flex-1 min-w-[320px] max-w-[420px] p-8 ${option.content.cardClass} transition-shadow duration-300 hover:shadow-2xl`}
+                style={{ border: optionIdx === idx ? '2px solid #3b82f6' : undefined }}
+                onMouseEnter={() => setOptionIdx(idx)}
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  {option.icon}
+                  <span className="text-xl font-bold text-blue-700">{option.label}</span>
                 </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="py-16 px-4 md:px-0">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">{t('home.testimonials.title', 'What Our Clients Say')}</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
-            {testimonials.slice(testimonialPage*3, testimonialPage*3+3).map((tk, i) => (
-              <div key={i} className="bg-white rounded-xl p-6 shadow-lg text-center text-lg italic">{t(`home.testimonials.${testimonialPage*3+i}`, tk)}</div>
-            ))}
-          </div>
-          <div className="flex justify-center gap-2">
-            {[0,1].map(i => (
-              <button
-                key={i}
-                className={`w-3 h-3 rounded-full ${testimonialPage === i ? "bg-blue-700" : "bg-blue-200"}`}
-                onClick={() => setTestimonialPage(i)}
-                aria-label={t('home.testimonials.pageButton', `Go to testimonials page ${i+1}`)}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="py-16 px-4 md:px-0">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">{t('home.faq.title', 'Frequently Asked Questions')}</h2>
-          <div className="flex flex-col gap-6">
-            {qaList.map((item, idx) => (
-              <div key={idx} className="mb-4">
-                {/* 问题卡片 */}
-                <div
-                  className={`
-                    flex items-center justify-between
-                    rounded-xl px-6 py-4 cursor-pointer
-                    border-2 border-blue-700
-                    bg-blue-700 text-white
-                    hover:bg-white hover:text-blue-700
-                    transition-colors duration-200
-                    min-h-[56px]  // 你可以根据实际需要设置固定高度
-                  `}
-                  onClick={() => setQaOpen(qaOpen === idx ? null : idx)}
-                  style={{ transition: 'background 0.2s, color 0.2s' }}
-                >
-                  <span className="font-bold">{t(`home.faq.${idx}.q`, item.q)}</span>
-                  <span>
-                    <ChevronDown className={`w-5 h-5 transition-transform ${qaOpen === idx ? "rotate-180" : ""}`} />
-                  </span>
-                </div>
-                {/* 答案内容，下拉区域，无边框 */}
-                {qaOpen === idx && (
-                  <div className="px-6 py-4 bg-transparent text-base">
-                    {typeof item.a === "function" ? item.a(currentLanguage) : (typeof item.a === "string" ? t(`home.faq.${idx}.a`, item.a) : item.a)}
+                <div className="flex flex-col gap-4">
+                  {Array.isArray(option.content.img) ? (
+                    <div className="flex gap-2 flex-wrap">
+                      {option.content.img.map((img, i) => (
+                        <img key={i} src={img} alt={option.label} className={option.content.imgClass} style={{ width: 120, height: 80, objectFit: 'cover' }} />
+                      ))}
+                    </div>
+                  ) : (
+                    <img src={option.content.img} alt={option.label} className={option.content.imgClass} style={{ width: 120, height: 80, objectFit: 'cover' }} />
+                  )}
+                  <div className="text-gray-700 text-base space-y-2">
+                    {Array.isArray(option.content.text)
+                      ? option.content.text.map((txt, i) => <div key={i}>{txt}</div>)
+                      : option.content.text}
                   </div>
-                )}
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
+                    <div className="flex flex-wrap gap-4 justify-center">
+                <Link href="/solutions" className="bg-primary text-white px-6 py-2 rounded-full font-semibold hover:bg-primary-dark transition">查看更多方案</Link>
+              </div>
+            </div>
+          </section>
 
-      {/* Contact / CTA */}
-      <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-6">{t('home.contact.title', 'Contact Us')}</h2>
-          <p className="text-center text-gray-700 mb-8">{t('home.contact.subtitle', 'Ready to empower your brand? Get in touch for a free consultation and quote.')}</p>
-          <ContactFormA />
-        </div>
-      </section>
-    </div>
+          {/* 更多支持 */}
+          <section className="py-16 bg-gray-50" id="support">
+            <div className="container mx-auto px-4">
+              <h2 className="text-3xl font-bold mb-8 text-center">更多支持</h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center">
+                  <img src="/images/support1.png" alt="售后服务" className="w-16 h-16 mb-4" />
+                  <h3 className="text-xl font-semibold mb-2">售后服务</h3>
+                  <p className="text-gray-600 text-center">专业团队为您提供全方位售后支持，保障您的权益。</p>
+                </div>
+                <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center">
+                  <img src="/images/support2.png" alt="物流配送" className="w-16 h-16 mb-4" />
+                  <h3 className="text-xl font-semibold mb-2">物流配送</h3>
+                  <p className="text-gray-600 text-center">高效物流体系，确保产品安全、准时送达。</p>
+                </div>
+                <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center">
+                  <img src="/images/support3.png" alt="定制咨询" className="w-16 h-16 mb-4" />
+                  <h3 className="text-xl font-semibold mb-2">定制咨询</h3>
+                  <p className="text-gray-600 text-center">一对一专属顾问，满足您的个性化定制需求。</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* OEM/ODM 流程 */}
+          <section className="py-16" id="process">
+            <div className="container mx-auto px-4">
+              <h2 className="text-3xl font-bold mb-8 text-center">OEM/ODM 流程</h2>
+              <div className="flex flex-wrap justify-center gap-8">
+                {/* 流程步骤省略，可根据实际内容补充 */}
+              </div>
+            </div>
+          </section>
+
+          {/* 客户评价 */}
+          <section className="py-16 bg-gray-50" id="testimonials">
+            <div className="container mx-auto px-4">
+              <h2 className="text-3xl font-bold mb-8 text-center">客户评价</h2>
+              {/* 客户评价内容省略，可根据实际内容补充 */}
+            </div>
+          </section>
+
+          {/* 常见问题 */}
+          <section className="py-16" id="faq">
+            <div className="container mx-auto px-4">
+              <h2 className="text-3xl font-bold mb-8 text-center">常见问题</h2>
+              {/* FAQ 内容省略，可根据实际内容补充 */}
+            </div>
+          </section>
+
+          {/* 联系我们 */}
+          <section className="py-16 bg-gray-50" id="contact">
+            <div className="container mx-auto px-4">
+              <h2 className="text-3xl font-bold mb-8 text-center">联系我们</h2>
+              {/* 联系方式内容省略，可根据实际内容补充 */}
+            </div>
+          </section>
+        </main>
+      </div>
+    </>
   );
 }
+
+export default Home;
