@@ -161,6 +161,7 @@ const Header: React.FC = () => {
                 <div className="flex items-center">
                   <Link
                     href={item.href}
+                    onClick={() => setIsMenuOpen(false)}
                     className={`text-sm font-medium transition-colors duration-200 hover:text-ishine-blue-500 ${
                       isActive(item.href) ? 'text-ishine-blue-500' : 'text-gray-700'
                     }`}
