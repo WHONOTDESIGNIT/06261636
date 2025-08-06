@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
+import Link from 'next/link';
 import ContactFormA from '../../components/Forms/ContactFormA';
 import { useLanguage } from '../../context/LanguageContext';
 
