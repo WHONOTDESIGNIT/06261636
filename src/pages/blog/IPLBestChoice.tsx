@@ -215,7 +215,7 @@ const IPLBestChoice: React.FC = () => {
             <div className="flex-1 flex flex-col justify-center">
               <h3 className="text-xl font-bold mb-2">{t('recommendedBlog.title')}</h3>
               <p className="mb-4">{t('recommendedBlog.description')}</p>
-              <Link to="/blog/ipl-best-choice" className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full transition">{t('recommendedBlog.readFullArticle')}</Link>
+              <Link href="/blog/ipl-best-choice" className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full transition">{t('recommendedBlog.readFullArticle')}</Link>
             </div>
           </div>
         </div>

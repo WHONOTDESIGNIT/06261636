@@ -50,13 +50,13 @@ const Sitemap: React.FC = () => {
               {t('sitemap.aboutPages')}
             </h2>
             <ul className="space-y-2">
-              <li><Link to="/about/brand-story" className="text-blue-600 hover:text-blue-800">{t('sitemap.brandStory')}</Link></li>
-              <li><Link to="/about/company-info" className="text-blue-600 hover:text-blue-800">{t('sitemap.companyInfo')}</Link></li>
-              <li><Link to="/about/core-principles" className="text-blue-600 hover:text-blue-800">{t('sitemap.corePrinciples')}</Link></li>
-              <li><Link to="/about/founder-message" className="text-blue-600 hover:text-blue-800">{t('sitemap.founderMessage')}</Link></li>
-              <li><Link to="/about/global-witness" className="text-blue-600 hover:text-blue-800">{t('sitemap.globalWitness')}</Link></li>
-              <li><Link to="/about/quality" className="text-blue-600 hover:text-blue-800">{t('sitemap.quality')}</Link></li>
-              <li><Link to="/about/technology" className="text-blue-600 hover:text-blue-800">{t('sitemap.technology')}</Link></li>
+              <li><Link href="/about/brand-story" className="text-blue-600 hover:text-blue-800">{t('sitemap.brandStory')}</Link></li>
+              <li><Link href="/about/company-info" className="text-blue-600 hover:text-blue-800">{t('sitemap.companyInfo')}</Link></li>
+              <li><Link href="/about/core-principles" className="text-blue-600 hover:text-blue-800">{t('sitemap.corePrinciples')}</Link></li>
+              <li><Link href="/about/founder-message" className="text-blue-600 hover:text-blue-800">{t('sitemap.founderMessage')}</Link></li>
+              <li><Link href="/about/global-witness" className="text-blue-600 hover:text-blue-800">{t('sitemap.globalWitness')}</Link></li>
+              <li><Link href="/about/quality" className="text-blue-600 hover:text-blue-800">{t('sitemap.quality')}</Link></li>
+              <li><Link href="/about/technology" className="text-blue-600 hover:text-blue-800">{t('sitemap.technology')}</Link></li>
             </ul>
           </div>
 
@@ -66,15 +66,15 @@ const Sitemap: React.FC = () => {
               {t('sitemap.solutions')}
             </h2>
             <ul className="space-y-2">
-              <li><Link to="/solutions/brand-customization" className="text-blue-600 hover:text-blue-800">{t('sitemap.brandCustomization')}</Link></li>
-              <li><Link to="/solutions/compliance" className="text-blue-600 hover:text-blue-800">{t('sitemap.compliance')}</Link></li>
-              <li><Link to="/solutions/design-prototyping" className="text-blue-600 hover:text-blue-800">{t('sitemap.designPrototyping')}</Link></li>
-              <li><Link to="/solutions/drop-shipping" className="text-blue-600 hover:text-blue-800">{t('sitemap.dropShipping')}</Link></li>
-              <li><Link to="/solutions/dual-lamp-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.dualLampIplSolution')}</Link></li>
-              <li><Link to="/solutions/global-shipping" className="text-blue-600 hover:text-blue-800">{t('sitemap.globalShipping')}</Link></li>
-              <li><Link to="/solutions/logo-printing" className="text-blue-600 hover:text-blue-800">{t('sitemap.logoPrinting')}</Link></li>
-              <li><Link to="/solutions/multi-head-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.multiHeadIpl')}</Link></li>
-              <li><Link to="/solutions/packaging-solutions" className="text-blue-600 hover:text-blue-800">{t('sitemap.packagingSolutions')}</Link></li>
+              <li><Link href="/solutions/brand-customization" className="text-blue-600 hover:text-blue-800">{t('sitemap.brandCustomization')}</Link></li>
+              <li><Link href="/solutions/compliance" className="text-blue-600 hover:text-blue-800">{t('sitemap.compliance')}</Link></li>
+              <li><Link href="/solutions/design-prototyping" className="text-blue-600 hover:text-blue-800">{t('sitemap.designPrototyping')}</Link></li>
+              <li><Link href="/solutions/drop-shipping" className="text-blue-600 hover:text-blue-800">{t('sitemap.dropShipping')}</Link></li>
+              <li><Link href="/solutions/dual-lamp-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.dualLampIplSolution')}</Link></li>
+              <li><Link href="/solutions/global-shipping" className="text-blue-600 hover:text-blue-800">{t('sitemap.globalShipping')}</Link></li>
+              <li><Link href="/solutions/logo-printing" className="text-blue-600 hover:text-blue-800">{t('sitemap.logoPrinting')}</Link></li>
+              <li><Link href="/solutions/multi-head-ipl" className="text-blue-600 hover:text-blue-800">{t('sitemap.multiHeadIpl')}</Link></li>
+              <li><Link href="/solutions/packaging-solutions" className="text-blue-600 hover:text-blue-800">{t('sitemap.packagingSolutions')}</Link></li>
             </ul>
           </div>
 
@@ -84,10 +84,10 @@ const Sitemap: React.FC = () => {
               {t('sitemap.accessories')}
             </h2>
             <ul className="space-y-2">
-              <li><Link to="/accessories/adapter" className="text-blue-600 hover:text-blue-800">{t('sitemap.adapter')}</Link></li>
-              <li><Link to="/accessories/filter" className="text-blue-600 hover:text-blue-800">{t('sitemap.filter')}</Link></li>
-              <li><Link to="/accessories/protective-goggles" className="text-blue-600 hover:text-blue-800">{t('sitemap.protectiveGoggles')}</Link></li>
-              <li><Link to="/accessories/sapphire-lens" className="text-blue-600 hover:text-blue-800">{t('sitemap.sapphireLens')}</Link></li>
+              <li><Link href="/accessories/adapter" className="text-blue-600 hover:text-blue-800">{t('sitemap.adapter')}</Link></li>
+              <li><Link href="/accessories/filter" className="text-blue-600 hover:text-blue-800">{t('sitemap.filter')}</Link></li>
+              <li><Link href="/accessories/protective-goggles" className="text-blue-600 hover:text-blue-800">{t('sitemap.protectiveGoggles')}</Link></li>
+              <li><Link href="/accessories/sapphire-lens" className="text-blue-600 hover:text-blue-800">{t('sitemap.sapphireLens')}</Link></li>
             </ul>
           </div>
 
@@ -97,16 +97,16 @@ const Sitemap: React.FC = () => {
               {t('sitemap.serviceSupport')}
             </h2>
             <ul className="space-y-2">
-              <li><Link to="/service-support" className="text-blue-600 hover:text-blue-800">{t('sitemap.serviceSupport')}</Link></li>
-              <li><Link to="/service-support/after-sales-service" className="text-blue-600 hover:text-blue-800">{t('sitemap.afterSalesService')}</Link></li>
-              <li><Link to="/service-support/help-center" className="text-blue-600 hover:text-blue-800">{t('sitemap.helpCenter')}</Link></li>
-              <li><Link to="/service-support/knowledge-base" className="text-blue-600 hover:text-blue-800">{t('sitemap.knowledgeBase')}</Link></li>
-              <li><Link to="/service-support/ipl-manufacturing" className="text-blue-600 hover:text-blue-800">{t('sitemap.iplManufacturing')}</Link></li>
-              <li><Link to="/service-support/win-fda-listing" className="text-blue-600 hover:text-blue-800">{t('sitemap.winFdaListing')}</Link></li>
-              <li><Link to="/service-support/beauty-sourcing" className="text-blue-600 hover:text-blue-800">{t('sitemap.beautySourcing')}</Link></li>
-              <li><Link to="/service-support/pricing-guide" className="text-blue-600 hover:text-blue-800">{t('sitemap.pricingGuide')}</Link></li>
-              <li><Link to="/service-support/gallery" className="text-blue-600 hover:text-blue-800">{t('sitemap.gallery')}</Link></li>
-              <li><Link to="/service-support/videos" className="text-blue-600 hover:text-blue-800">{t('sitemap.videos')}</Link></li>
+              <li><Link href="/service-support" className="text-blue-600 hover:text-blue-800">{t('sitemap.serviceSupport')}</Link></li>
+              <li><Link href="/service-support/after-sales-service" className="text-blue-600 hover:text-blue-800">{t('sitemap.afterSalesService')}</Link></li>
+              <li><Link href="/service-support/help-center" className="text-blue-600 hover:text-blue-800">{t('sitemap.helpCenter')}</Link></li>
+              <li><Link href="/service-support/knowledge-base" className="text-blue-600 hover:text-blue-800">{t('sitemap.knowledgeBase')}</Link></li>
+              <li><Link href="/service-support/ipl-manufacturing" className="text-blue-600 hover:text-blue-800">{t('sitemap.iplManufacturing')}</Link></li>
+              <li><Link href="/service-support/win-fda-listing" className="text-blue-600 hover:text-blue-800">{t('sitemap.winFdaListing')}</Link></li>
+              <li><Link href="/service-support/beauty-sourcing" className="text-blue-600 hover:text-blue-800">{t('sitemap.beautySourcing')}</Link></li>
+              <li><Link href="/service-support/pricing-guide" className="text-blue-600 hover:text-blue-800">{t('sitemap.pricingGuide')}</Link></li>
+              <li><Link href="/service-support/gallery" className="text-blue-600 hover:text-blue-800">{t('sitemap.gallery')}</Link></li>
+              <li><Link href="/service-support/videos" className="text-blue-600 hover:text-blue-800">{t('sitemap.videos')}</Link></li>
             </ul>
           </div>
 
@@ -116,16 +116,16 @@ const Sitemap: React.FC = () => {
               {t('sitemap.blog')}
             </h2>
             <ul className="space-y-2">
-              <li><Link to="/blog/ai-powered-skin-sensing" className="text-blue-600 hover:text-blue-800">{t('sitemap.aiPoweredSkinSensing')}</Link></li>
-              <li><Link to="/blog/fda-510k-pathway" className="text-blue-600 hover:text-blue-800">{t('sitemap.fda510kPathway')}</Link></li>
-              <li><Link to="/blog/future-home-hair-removal" className="text-blue-600 hover:text-blue-800">{t('sitemap.futureHomeHairRemoval')}</Link></li>
-              <li><Link to="/blog/global-market-shifts" className="text-blue-600 hover:text-blue-800">{t('sitemap.globalMarketShifts')}</Link></li>
-              <li><Link to="/blog/industries" className="text-blue-600 hover:text-blue-800">{t('sitemap.industries')}</Link></li>
-              <li><Link to="/blog/ipl-best-choice" className="text-blue-600 hover:text-blue-800">{t('sitemap.iplBestChoice')}</Link></li>
-              <li><Link to="/blog/multi-head-ipl-systems" className="text-blue-600 hover:text-blue-800">{t('sitemap.multiHeadIplSystems')}</Link></li>
-              <li><Link to="/blog/news-insights" className="text-blue-600 hover:text-blue-800">{t('sitemap.newsInsights')}</Link></li>
-              <li><Link to="/blog/sapphire-cooling" className="text-blue-600 hover:text-blue-800">{t('sitemap.sapphireCooling')}</Link></li>
-              <li><Link to="/blog/sustainable-manufacturing" className="text-blue-600 hover:text-blue-800">{t('sitemap.sustainableManufacturing')}</Link></li>
+              <li><Link href="/blog/ai-powered-skin-sensing" className="text-blue-600 hover:text-blue-800">{t('sitemap.aiPoweredSkinSensing')}</Link></li>
+              <li><Link href="/blog/fda-510k-pathway" className="text-blue-600 hover:text-blue-800">{t('sitemap.fda510kPathway')}</Link></li>
+              <li><Link href="/blog/future-home-hair-removal" className="text-blue-600 hover:text-blue-800">{t('sitemap.futureHomeHairRemoval')}</Link></li>
+              <li><Link href="/blog/global-market-shifts" className="text-blue-600 hover:text-blue-800">{t('sitemap.globalMarketShifts')}</Link></li>
+              <li><Link href="/blog/industries" className="text-blue-600 hover:text-blue-800">{t('sitemap.industries')}</Link></li>
+              <li><Link href="/blog/ipl-best-choice" className="text-blue-600 hover:text-blue-800">{t('sitemap.iplBestChoice')}</Link></li>
+              <li><Link href="/blog/multi-head-ipl-systems" className="text-blue-600 hover:text-blue-800">{t('sitemap.multiHeadIplSystems')}</Link></li>
+              <li><Link href="/blog/news-insights" className="text-blue-600 hover:text-blue-800">{t('sitemap.newsInsights')}</Link></li>
+              <li><Link href="/blog/sapphire-cooling" className="text-blue-600 hover:text-blue-800">{t('sitemap.sapphireCooling')}</Link></li>
+              <li><Link href="/blog/sustainable-manufacturing" className="text-blue-600 hover:text-blue-800">{t('sitemap.sustainableManufacturing')}</Link></li>
             </ul>
           </div>
 
@@ -135,9 +135,9 @@ const Sitemap: React.FC = () => {
               {t('sitemap.otherPages')}
             </h2>
             <ul className="space-y-2">
-              <li><Link to="/how-to-use" className="text-blue-600 hover:text-blue-800">{t('sitemap.howToUse')}</Link></li>
-              <li><Link to="/shipping-cost" className="text-blue-600 hover:text-blue-800">{t('sitemap.shippingCost')}</Link></li>
-              <li><Link to="/silk" className="text-blue-600 hover:text-blue-800">{t('sitemap.silk')}</Link></li>
+              <li><Link href="/how-to-use" className="text-blue-600 hover:text-blue-800">{t('sitemap.howToUse')}</Link></li>
+              <li><Link href="/shipping-cost" className="text-blue-600 hover:text-blue-800">{t('sitemap.shippingCost')}</Link></li>
+              <li><Link href="/silk" className="text-blue-600 hover:text-blue-800">{t('sitemap.silk')}</Link></li>
             </ul>
           </div>
         </div>
@@ -146,4 +146,4 @@ const Sitemap: React.FC = () => {
   );
 };
 
-export default Sitemap; 
+export default Sitemap;
