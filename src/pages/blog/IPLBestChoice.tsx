@@ -169,10 +169,10 @@ const IPLBestChoice: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl font-bold mb-4 text-gray-900">{t('exploreMore.title')}</h2>
           <ul className="list-inside list-disc space-y-2">
-            <li><Link to="/how-to-use" className="text-blue-600 underline">{t('exploreMore.howToUse')}</Link></li>
-            <li><Link to="/ipl-hair-removal" className="text-blue-600 underline">{t('exploreMore.ourIPLProductRange')}</Link></li>
-            <li><Link to="/service-support/knowledge-base" className="text-blue-600 underline">{t('exploreMore.hairRemovalFAQs')}</Link></li>
-            <li><Link to="/blog/news-insights" className="text-blue-600 underline">{t('exploreMore.latestTechnologyInsights')}</Link></li>
+            <li><Link href="/how-to-use" className="text-blue-600 underline">{t('exploreMore.howToUse')}</Link></li>
+            <li><Link href="/ipl-hair-removal" className="text-blue-600 underline">{t('exploreMore.ourIPLProductRange')}</Link></li>
+            <li><Link href="/service-support/knowledge-base" className="text-blue-600 underline">{t('exploreMore.hairRemovalFAQs')}</Link></li>
+            <li><Link href="/blog/news-insights" className="text-blue-600 underline">{t('exploreMore.latestTechnologyInsights')}</Link></li>
           </ul>
         </div>
       </section>
@@ -237,7 +237,7 @@ const IPLBestChoice: React.FC = () => {
             <div className="flex-1 flex flex-col justify-center">
               <h3 className="text-xl font-bold mb-2">{t('recommendedBlog.title')}</h3>
               <p className="mb-4">{t('recommendedBlog.description')}</p>
-              <Link to="/blog/ipl-best-choice" className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full transition">{t('recommendedBlog.readFullArticle')}</Link>
+              <Link href="/blog/ipl-best-choice" className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full transition">{t('recommendedBlog.readFullArticle')}</Link>
             </div>
           </div>
         </div>
@@ -246,4 +246,4 @@ const IPLBestChoice: React.FC = () => {
   );
 };
 
-export default IPLBestChoice; 
+export default IPLBestChoice;
