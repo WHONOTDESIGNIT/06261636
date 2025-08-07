@@ -283,7 +283,7 @@ const Header: React.FC = () => {
                 <div key={item.name}>
                   <div className="flex items-center justify-between">
                     <Link
-                      to={item.href}
+                      href={item.href}
                       onClick={() => setIsMenuOpen(false)}
                       className={`text-sm font-medium transition-colors duration-200 hover:text-ishine-blue-500 ${
                         isActive(item.href) ? 'text-ishine-blue-500' : 'text-gray-700'
