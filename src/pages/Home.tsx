@@ -225,7 +225,6 @@ const processIcons = [
   ThumbsUp      // After-Sales Service
 ];
 
-// 保留唯一的 default 导出
 export default function HomePage() {
   const [optionIdx, setOptionIdx] = useState(0);
   const [qaOpen, setQaOpen] = useState<number | null>(null);
@@ -498,5 +497,3 @@ export default function HomePage() {
     </>
   );
 }
-
-export default Home;
