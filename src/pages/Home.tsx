@@ -386,7 +386,7 @@ export default function HomePage() {
                 <img src={product.image} alt={product.name} className="w-40 h-40 object-contain mb-4" />
                 <h4 className="text-xl font-bold mb-2 text-blue-700">{product.name}</h4>
                 <p className="text-gray-700 mb-2 text-center">{product.description}</p>
-                <Link href={`/products/${product.slug}`} className="mt-2 px-4 py-2 bg-blue-700 text-white rounded-full font-semibold hover:bg-blue-800 transition">{t('home.productShowcase.details', 'View Details')}</Link>
+                <Link href={product.link} className="mt-2 px-4 py-2 bg-blue-700 text-white rounded-full font-semibold hover:bg-blue-800 transition">{t('home.productShowcase.details', 'View Details')}</Link>
               </div>
             ))}
           </div>
