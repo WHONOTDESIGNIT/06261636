@@ -11,18 +11,20 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <HelmetProvider>
       <LanguageProvider>
-        <Header />
-        <main>
-          <Suspense fallback={
-            <div className="min-h-screen flex items-center justify-center">
-              <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-ishine-blue-500"></div>
-            </div>
-          }>
-            <Component {...pageProps} />
-          </Suspense>
-        </main>
-        <Footer />
-        <FloatingWidgets />
+        <div className="min-h-screen flex flex-col">
+          <Header />
+          <main className="flex-1">
+            <Suspense fallback={
+              <div className="min-h-screen flex items-center justify-center">
+                <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-ishine-blue-500"></div>
+              </div>
+            }>
+              <Component {...pageProps} />
+            </Suspense>
+          </main>
+          <Footer />
+          <FloatingWidgets />
+        </div>
       </LanguageProvider>
     </HelmetProvider>
   );
