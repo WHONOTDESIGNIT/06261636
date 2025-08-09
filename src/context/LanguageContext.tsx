@@ -13,32 +13,42 @@ interface LanguageContextType {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [currentLanguage, setCurrentLanguage] = useState(() => {
-    const savedLang = localStorage.getItem('selectedLanguage');
-    const urlLang = window.location.pathname.match(/^\/([a-z]{2})(\/|$)/)?.[1];
-    return urlLang || savedLang || 'en';
-  });
+  // Avoid accessing window/localStorage during SSR. Initialize with a safe default.
+  const [currentLanguage, setCurrentLanguage] = useState<string>('en');
 
   const { t } = useTranslation(currentLanguage);
 
-  // 监听路由变化的替代方案
+  // Initialize language and subscribe to client-side changes
   useEffect(() => {
-    const handleLocationChange = () => {
+    if (typeof window === 'undefined') {
+      return;
+    }
+
+    const readLanguageFromClient = (): string => {
       const path = window.location.pathname;
       const langMatch = path.match(/^\/([a-z]{2})(\/|$)/);
-      if (langMatch) {
-        const lang = langMatch[1];
-        if (lang !== currentLanguage) {
-          setCurrentLanguage(lang);
-          localStorage.setItem('selectedLanguage', lang);
-        }
+      const urlLang = langMatch?.[1];
+      const savedLang = typeof window !== 'undefined' ? window.localStorage.getItem('selectedLanguage') : null;
+      return urlLang || savedLang || 'en';
+    };
+
+    // Set initial language from URL or localStorage on mount
+    setCurrentLanguage(prev => {
+      const detected = readLanguageFromClient();
+      return detected || prev;
+    });
+
+    const handleLocationChange = () => {
+      const detected = readLanguageFromClient();
+      if (detected && detected !== currentLanguage) {
+        setCurrentLanguage(detected);
+        try {
+          window.localStorage.setItem('selectedLanguage', detected);
+        } catch {}
       }
     };
 
-    // 监听浏览器历史变化
     window.addEventListener('popstate', handleLocationChange);
-    
-    // 监听自定义语言变化事件
     window.addEventListener('languageChanged', handleLocationChange);
 
     return () => {
@@ -49,15 +59,21 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
 
   const setLanguage = (languageCode: string) => {
     setCurrentLanguage(languageCode);
-    localStorage.setItem('selectedLanguage', languageCode);
-    window.dispatchEvent(new Event('languageChanged'));
+    if (typeof window !== 'undefined') {
+      try {
+        window.localStorage.setItem('selectedLanguage', languageCode);
+      } catch {}
+      window.dispatchEvent(new Event('languageChanged'));
+    }
   };
 
   const isRTL = ['ar', 'he'].includes(currentLanguage);
 
   useEffect(() => {
-    document.documentElement.lang = currentLanguage;
-    document.documentElement.dir = isRTL ? 'rtl' : 'ltr';
+    if (typeof document !== 'undefined') {
+      document.documentElement.lang = currentLanguage;
+      document.documentElement.dir = isRTL ? 'rtl' : 'ltr';
+    }
   }, [currentLanguage, isRTL]);
 
   return (
