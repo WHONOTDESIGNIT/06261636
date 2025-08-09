@@ -139,7 +139,7 @@ const IPLBestChoice: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-2xl font-bold mb-6 text-gray-900">{t('whyChooseIPLHomeHairRemoval.title')}</h2>
           <ul className="list-disc pl-6 space-y-3 text-gray-700">
-            <li><strong>{t('whyChooseIPLHomeHairRemoval.longlastingResults')}</strong> {t('whyChooseIPLHomeHairRemoval.longlastingResultsDescription')} <a href="https://www.healthline.com/health/beauty-skin-care/hair-removal-methods" target=\"_blank" rel="noopener noreferrer\" className="text-blue-600 underline">{t('whyChooseIPLHomeHairRemoval.healthlineLink')}</a></li>
+            <li><strong>{t('whyChooseIPLHomeHairRemoval.longlastingResults')}</strong> {t('whyChooseIPLHomeHairRemoval.longlastingResultsDescription')} <a href="https://www.healthline.com/health/beauty-skin-care/hair-removal-methods" target="_blank" rel="noopener noreferrer\" className="text-blue-600 underline">{t('whyChooseIPLHomeHairRemoval.healthlineLink')}</a></li>
             <li><strong>{t('whyChooseIPLHomeHairRemoval.minimalPain')}</strong> {t('whyChooseIPLHomeHairRemoval.minimalPainDescription')}</li>
             <li><strong>{t('whyChooseIPLHomeHairRemoval.safeForHomeUse')}</strong> {t('whyChooseIPLHomeHairRemoval.safeForHomeUseDescription')}</li>
             <li><strong>{t('whyChooseIPLHomeHairRemoval.costEffective')}</strong> {t('whyChooseIPLHomeHairRemoval.costEffectiveDescription')}</li>
