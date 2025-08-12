@@ -1,32 +1,49 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import type { AppProps } from 'next/app';
 import { HelmetProvider } from 'react-helmet-async';
-import { LanguageProvider } from '../context/LanguageContext';
+import { LanguageProvider, useLanguage, LanguageProviderProps } from '../context/LanguageContext';
 import Header from '../components/Layout/Header';
 import Footer from '../components/Layout/Footer';
 import FloatingWidgets from '../components/Layout/FloatingWidgets';
 import '../index.css';
 
 function App({ Component, pageProps }: AppProps) {
+  const initialLanguage: string | undefined = (pageProps as any)?.slug?.[0];
+  const supportedLanguages = ['en', 'de', 'es', 'ar', 'he', 'pt', 'nl', 'pl'];
+  const normalizedInitialLanguage = supportedLanguages.includes(initialLanguage || '')
+    ? initialLanguage
+    : undefined;
   return (
     <HelmetProvider>
-      <LanguageProvider>
-        <div className="min-h-screen flex flex-col">
-          <Header />
-          <main className="flex-1">
-            <Suspense fallback={
-              <div className="min-h-screen flex items-center justify-center">
-                <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-ishine-blue-500"></div>
-              </div>
-            }>
-              <Component {...pageProps} />
-            </Suspense>
-          </main>
-          <Footer />
-          <FloatingWidgets />
-        </div>
+      <LanguageProvider initialLanguage={normalizedInitialLanguage}>
+        <AppContent Component={Component} pageProps={pageProps} />
       </LanguageProvider>
     </HelmetProvider>
+  );
+}
+
+// Separate component to access language context
+function AppContent({ Component, pageProps }: AppProps) {
+  const { isReady } = useLanguage();
+  
+  // Show loading until language context is ready
+  if (!isReady) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-ishine-blue-500"></div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <main className="flex-1">
+        <Component {...pageProps} />
+      </main>
+      <Footer />
+      <FloatingWidgets />
+    </div>
   );
 }
 

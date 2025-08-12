@@ -8,19 +8,27 @@ interface LanguageContextType {
   t: (key: string, defaultValue?: string) => string;
   isRTL: boolean;
   availableLanguages: typeof languages;
+  isReady: boolean;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  // Avoid accessing window/localStorage during SSR. Initialize with a safe default.
-  const [currentLanguage, setCurrentLanguage] = useState<string>('en');
+export interface LanguageProviderProps {
+  children: React.ReactNode;
+  initialLanguage?: string;
+}
 
-  const { t } = useTranslation(currentLanguage);
+export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children, initialLanguage }) => {
+  // Avoid accessing window/localStorage during SSR. Initialize with a safe default.
+  const [currentLanguage, setCurrentLanguage] = useState<string>(initialLanguage || 'en');
+  const [isReady, setIsReady] = useState(false);
+
+  const { t, isLoaded } = useTranslation(currentLanguage);
 
   // Initialize language and subscribe to client-side changes
   useEffect(() => {
     if (typeof window === 'undefined') {
+      setIsReady(true);
       return;
     }
 
@@ -33,10 +41,11 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     };
 
     // Set initial language from URL or localStorage on mount
-    setCurrentLanguage(prev => {
-      const detected = readLanguageFromClient();
-      return detected || prev;
-    });
+    const detectedLang = readLanguageFromClient();
+    if (detectedLang && detectedLang !== currentLanguage) {
+      setCurrentLanguage(detectedLang);
+    }
+    setIsReady(true);
 
     const handleLocationChange = () => {
       const detected = readLanguageFromClient();
@@ -76,6 +85,26 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     }
   }, [currentLanguage, isRTL]);
 
+  // Don't render children until ready to prevent hydration mismatch
+  if (!isReady || !isLoaded) {
+    return (
+      <LanguageContext.Provider
+        value={{
+          currentLanguage: initialLanguage || 'en',
+          setLanguage: () => {},
+          t: (key: string, defaultValue?: string) => defaultValue || key,
+          isRTL: ['ar', 'he'].includes(initialLanguage || 'en'),
+          availableLanguages: languages,
+          isReady: false
+        }}
+      >
+        <div className="min-h-screen flex items-center justify-center">
+          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-ishine-blue-500"></div>
+        </div>
+      </LanguageContext.Provider>
+    );
+  }
+
   return (
     <LanguageContext.Provider
       value={{
@@ -83,7 +112,8 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         setLanguage,
         t,
         isRTL,
-        availableLanguages: languages
+        availableLanguages: languages,
+        isReady: true
       }}
     >
       {children}
