@@ -1,5 +1,6 @@
 import React from 'react';
 import type { AppProps } from 'next/app';
+import { useRouter } from 'next/router';
 import { HelmetProvider } from 'react-helmet-async';
 import { LanguageProvider, useLanguage, LanguageProviderProps } from '../context/LanguageContext';
 import Header from '../components/Layout/Header';
@@ -8,6 +9,7 @@ import FloatingWidgets from '../components/Layout/FloatingWidgets';
 import '../index.css';
 
 function App({ Component, pageProps }: AppProps) {
+  const router = useRouter();
   const initialLanguage: string | undefined = (pageProps as any)?.slug?.[0];
   const supportedLanguages = ['en', 'de', 'es', 'ar', 'he', 'pt', 'nl', 'pl'];
   const normalizedInitialLanguage = supportedLanguages.includes(initialLanguage || '')
@@ -16,14 +18,14 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <HelmetProvider>
       <LanguageProvider initialLanguage={normalizedInitialLanguage}>
-        <AppContent Component={Component} pageProps={pageProps} />
+        <AppContent Component={Component} pageProps={pageProps} router={router} />
       </LanguageProvider>
     </HelmetProvider>
   );
 }
 
 // Separate component to access language context
-function AppContent({ Component, pageProps }: AppProps) {
+function AppContent({ Component, pageProps, router }: AppProps & { router: any }) {
   const { isReady } = useLanguage();
   
   // Show loading until language context is ready
