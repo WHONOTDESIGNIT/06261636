@@ -23,7 +23,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children, in
   const [currentLanguage, setCurrentLanguage] = useState<string>(initialLanguage || 'en');
   const [isReady, setIsReady] = useState(false);
 
-  const { t, isLoaded } = useTranslation(currentLanguage);
+  const { t } = useTranslation(currentLanguage);
 
   // Initialize language and subscribe to client-side changes
   useEffect(() => {
@@ -86,7 +86,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children, in
   }, [currentLanguage, isRTL]);
 
   // Don't render children until ready to prevent hydration mismatch
-  if (!isReady || !isLoaded) {
+  if (!isReady) {
     return (
       <LanguageContext.Provider
         value={{
