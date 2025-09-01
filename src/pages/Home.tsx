@@ -230,7 +230,12 @@ export default function HomePage() {
   const [qaOpen, setQaOpen] = useState<number | null>(null);
   const [testimonialPage, setTestimonialPage] = useState(0);
   const [galleryIndex, setGalleryIndex] = useState(0);
+  const [isClient, setIsClient] = useState(false);
   const { currentLanguage, t } = useLanguage();
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   return (
     <div className="font-inter bg-[#F8FAFC] text-[#22223B]">

@@ -4,8 +4,10 @@ import Button from '../UI/Button';
 
 const ContactFormA: React.FC = () => {
   const [mathQuestion, setMathQuestion] = useState<{ a: number; b: number; answer: number } | null>(null);
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
+    setIsClient(true);
     const a = Math.floor(Math.random() * 10);
     const b = Math.floor(Math.random() * 10);
     setMathQuestion({ a, b, answer: a + b });
@@ -163,7 +165,7 @@ const ContactFormA: React.FC = () => {
           <div className="mt-6 flex items-center space-x-4">
             <div className="flex items-center space-x-2">
               <label htmlFor="math-verification" className="text-lg font-medium">
-                {mathQuestion ? `${mathQuestion.a} + ${mathQuestion.b} =` : 'Loading...'}
+                {isClient && mathQuestion ? `${mathQuestion.a} + ${mathQuestion.b} =` : 'Loading...'}
               </label>
               <input
                 id="math-verification"
@@ -172,7 +174,7 @@ const ContactFormA: React.FC = () => {
                 onChange={(e) => handleChange('verification', parseInt(e.target.value) || 0)}
                 className="w-20 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ishine-blue-500 focus:border-ishine-blue-500"
                 required
-                aria-label={mathQuestion ? `Math verification: ${mathQuestion.a} plus ${mathQuestion.b} equals` : 'Math verification loading'}
+                aria-label={isClient && mathQuestion ? `Math verification: ${mathQuestion.a} plus ${mathQuestion.b} equals` : 'Math verification loading'}
               />
             </div>
           </div>

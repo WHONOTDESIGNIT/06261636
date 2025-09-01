@@ -15,11 +15,13 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   // Avoid accessing window/localStorage during SSR. Initialize with a safe default.
   const [currentLanguage, setCurrentLanguage] = useState<string>('en');
+  const [isClient, setIsClient] = useState(false);
 
   const { t } = useTranslation(currentLanguage);
 
   // Initialize language and subscribe to client-side changes
   useEffect(() => {
+    setIsClient(true);
     if (typeof window === 'undefined') {
       return;
     }

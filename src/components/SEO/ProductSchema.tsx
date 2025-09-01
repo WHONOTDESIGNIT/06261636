@@ -120,7 +120,7 @@ const ProductSchema: React.FC<ProductSchemaProps> = ({
         "@type": "Organization",
         "name": brand
       },
-      "priceValidUntil": "2099-12-31",
+      "priceValidUntil": "2025-12-31",
       "shippingDetails": {
         "@type": "OfferShippingDetails",
         "shippingRate": {
