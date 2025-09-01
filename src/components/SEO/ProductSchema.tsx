@@ -120,7 +120,7 @@ const ProductSchema: React.FC<ProductSchemaProps> = ({
         "@type": "Organization",
         "name": brand
       },
-      "priceValidUntil": new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0], // 30 days from now
+      "priceValidUntil": "2099-12-31",
       "shippingDetails": {
         "@type": "OfferShippingDetails",
         "shippingRate": {

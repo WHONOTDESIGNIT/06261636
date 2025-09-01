@@ -1,13 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useForm } from '../../hooks/useForm';
 import Button from '../UI/Button';
 
 const ContactFormA: React.FC = () => {
-  const [mathQuestion, setMathQuestion] = useState(() => {
+  const [mathQuestion, setMathQuestion] = useState<{ a: number; b: number; answer: number } | null>(null);
+
+  useEffect(() => {
     const a = Math.floor(Math.random() * 10);
     const b = Math.floor(Math.random() * 10);
-    return { a, b, answer: a + b };
-  });
+    setMathQuestion({ a, b, answer: a + b });
+  }, []);
 
   const { values, errors, isSubmitting, handleChange, handleSubmit } = useForm({
     name: '',
@@ -21,7 +23,7 @@ const ContactFormA: React.FC = () => {
   });
 
   const onSubmit = async (data: any) => {
-    if (data.verification !== mathQuestion.answer) {
+    if (!mathQuestion || data.verification !== mathQuestion.answer) {
       alert('Please solve the math question correctly.');
       return;
     }
@@ -161,7 +163,7 @@ const ContactFormA: React.FC = () => {
           <div className="mt-6 flex items-center space-x-4">
             <div className="flex items-center space-x-2">
               <label htmlFor="math-verification" className="text-lg font-medium">
-                {mathQuestion.a} + {mathQuestion.b} =
+                {mathQuestion ? `${mathQuestion.a} + ${mathQuestion.b} =` : 'Loading...'}
               </label>
               <input
                 id="math-verification"
@@ -170,7 +172,7 @@ const ContactFormA: React.FC = () => {
                 onChange={(e) => handleChange('verification', parseInt(e.target.value) || 0)}
                 className="w-20 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ishine-blue-500 focus:border-ishine-blue-500"
                 required
-                aria-label={`Math verification: ${mathQuestion.a} plus ${mathQuestion.b} equals`}
+                aria-label={mathQuestion ? `Math verification: ${mathQuestion.a} plus ${mathQuestion.b} equals` : 'Math verification loading'}
               />
             </div>
           </div>
